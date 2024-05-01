@@ -459,3 +459,15 @@
 [2024-05-02 00:21:33] INFO root fetch - processPackages [python-samsung-mdc]: Remove: archive file [/home/abi/fetcher/tmp/python-samsung-mdc-1.9.1.tar.gz]
 [2024-05-02 00:21:33] INFO root fetch - main [MainThread]: End processing [python-samsung-mdc]: success
 [2024-05-02 00:21:33] INFO root fetch - main [MainThread]: Store serial: [23023012]
+[2024-05-02 00:23:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023012]
+[2024-05-02 00:23:41] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 00:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rship-sdk
+[2024-05-02 00:23:42] INFO root fetch - processPackages [rship-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 00:23:42] INFO root fetch - processPackages [rship-sdk]: Downloading https://files.pythonhosted.org/packages/3a/59/54682cd06bcbefd5dde8d84fb3de98d90b0b8e120a88abcece0c610e21bf/rship-sdk-0.0.8.tar.gz
+[2024-05-02 00:23:42] INFO root fetch - processPackages [rship-sdk]: Downloading https://files.pythonhosted.org/packages/e2/03/acdd2ce759ba46fd3d4908fec2c95091d80ad09dab18be18f29f9cc8f62a/rship-sdk-0.0.9.tar.gz
+[2024-05-02 00:23:42] INFO root fetch - processPackages [rship-sdk]: executing diffoscope
+[2024-05-02 00:23:42] INFO root fetch - processPackages [rship-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rship-sdk-0.0.8.tar.gz tmp/rship-sdk-0.0.9.tar.gz --markdown 20240502/r/rship-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 00:23:43] INFO root fetch - processPackages [rship-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rship-sdk-0.0.8.tar.gz]
+[2024-05-02 00:23:43] INFO root fetch - processPackages [rship-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rship-sdk-0.0.9.tar.gz]
+[2024-05-02 00:23:43] INFO root fetch - main [MainThread]: End processing [rship-sdk]: success
+[2024-05-02 00:23:43] INFO root fetch - main [MainThread]: Store serial: [23023016]
