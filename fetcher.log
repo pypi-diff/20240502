@@ -217,3 +217,101 @@
 [2024-05-02 00:12:25] INFO root fetch - processPackages [instructor]: Remove: archive file [/home/abi/fetcher/tmp/instructor-1.2.5.tar.gz]
 [2024-05-02 00:12:25] INFO root fetch - main [MainThread]: End processing [instructor]: success
 [2024-05-02 00:12:25] INFO root fetch - main [MainThread]: Store serial: [23022871]
+[2024-05-02 00:14:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23022871]
+[2024-05-02 00:14:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-02 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napatrackmater
+[2024-05-02 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marvin
+[2024-05-02 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ayx-python-sdk
+[2024-05-02 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liveflask
+[2024-05-02 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ayx-plugin-cli
+[2024-05-02 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: convertanything
+[2024-05-02 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: WISDEM-pyFrame3DD
+[2024-05-02 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qai-core
+[2024-05-02 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bitbucket-pipeline-runner
+[2024-05-02 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: macromol-voxelize
+[2024-05-02 00:14:35] INFO root fetch - processPackages [napatrackmater]: New version: [5.1.8] Old Version: [5.1.7]
+[2024-05-02 00:14:35] INFO root fetch - processPackages [liveflask]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-02 00:14:35] INFO root fetch - processPackages [convertanything]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-05-02 00:14:35] INFO root fetch - processPackages [marvin]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-05-02 00:14:35] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/46/5c/4083c1accf2a4138c63be521ac93ca6a45caf16c2cd2f678997d51819d6d/napatrackmater-5.1.7.tar.gz
+[2024-05-02 00:14:35] INFO root fetch - processPackages [ayx-python-sdk]: New version: [2.4b0] Old Version: [2.4.0]
+[2024-05-02 00:14:35] INFO root fetch - processPackages [ayx-plugin-cli]: New version: [1.2b0] Old Version: [1.2.0]
+[2024-05-02 00:14:36] INFO root fetch - processPackages [bitbucket-pipeline-runner]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-02 00:14:36] INFO root fetch - processPackages [macromol-voxelize]: New version: [0.1.1] Old Version: [0.0.0]
+[2024-05-02 00:14:36] INFO root fetch - processPackages [qai-core]: New version: [0.5] Old Version: [0.1.8]
+[2024-05-02 00:14:36] INFO root fetch - processPackages [WISDEM-pyFrame3DD]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-02 00:14:36] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/db/67/fdf2477e2bf67eb374c0063839c0489169f43d2a6c955341bccbe944d907/liveflask-1.0.4.tar.gz
+[2024-05-02 00:14:36] INFO root fetch - processPackages [convertanything]: Downloading https://files.pythonhosted.org/packages/60/45/251a2475a4005682b6f565ccd3e18c606c6e906e2a55bce609ceb913a9dc/convertanything-0.0.6.tar.gz
+[2024-05-02 00:14:36] INFO root fetch - processPackages [marvin]: Downloading https://files.pythonhosted.org/packages/7b/ba/495795c73f0efc9ef4176d4e8bf44908182d37541e365305dd03e571c1e0/marvin-2.3.1.tar.gz
+[2024-05-02 00:14:36] WARNING root fetch - processPackages [marvin]: Skipping package: exceeds size limit 26810553>=10485760
+[2024-05-02 00:14:36] INFO root fetch - processPackages [marvin]: Start processing: sentient-switchblade
+[2024-05-02 00:14:36] INFO root fetch - main [MainThread]: End processing [marvin] error
+[2024-05-02 00:14:36] INFO root fetch - processPackages [sentient-switchblade]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-02 00:14:36] INFO root fetch - processPackages [ayx-python-sdk]: Downloading https://files.pythonhosted.org/packages/af/cd/e990f2b134653ec2bba8622e2a0f5ce27439f9c39045efe95c6eea8fd8b5/ayx_python_sdk-2.4.0-cp38-none-any.whl
+[2024-05-02 00:14:36] INFO root fetch - processPackages [ayx-plugin-cli]: Downloading https://files.pythonhosted.org/packages/c2/b2/4bd81090b4777d6ed372b53e5d9b97493c4b58191ddaaa2382bfadae0dc9/ayx_plugin_cli-1.2.0-cp38-none-any.whl
+[2024-05-02 00:14:36] INFO root fetch - processPackages [bitbucket-pipeline-runner]: Downloading https://files.pythonhosted.org/packages/d3/c3/d74c99ae642e4e47e4232ebf912d3ce291f1c19c270a65c52ce4aa38eb8d/bitbucket_pipeline_runner-0.4.1.tar.gz
+[2024-05-02 00:14:36] INFO root fetch - processPackages [qai-core]: Downloading https://files.pythonhosted.org/packages/84/17/26c456f200c7d88e6aa348fbbf857cff81ce7a614f3029d6a63bcdbf82b4/qai_core-0.1.8.tar.gz
+[2024-05-02 00:14:36] INFO root fetch - processPackages [WISDEM-pyFrame3DD]: Downloading https://files.pythonhosted.org/packages/f0/8a/6ae67523ec7a9109e7468c4ab70b546710bddbec89335de0c05472cd8eca/wisdem_pyframe3dd-1.1.0.tar.gz
+[2024-05-02 00:14:36] INFO root fetch - processPackages [macromol-voxelize]: Downloading https://files.pythonhosted.org/packages/66/c5/8b9a72b5e6649e1825cd4d4794be6b1e8bcbeaa37d16153ed872c697d147/macromol_voxelize-0.0.0.tar.gz
+[2024-05-02 00:14:36] INFO root fetch - processPackages [sentient-switchblade]: Downloading https://files.pythonhosted.org/packages/7a/5d/3cb41ed3f21b9d5c277b344dbbdfcf33019fc48f07c82e4a4ae0ec4ecb47/sentient_switchblade-0.3.5.tar.gz
+[2024-05-02 00:14:36] INFO root fetch - processPackages [convertanything]: Downloading https://files.pythonhosted.org/packages/de/06/f2b13a568797130a6d68ee3aa1bac97e1384340a199c1cb219083a15e464/convertanything-0.0.8.tar.gz
+[2024-05-02 00:14:36] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/c4/0a/21f03a0cf4c27d90033ad05c751eb7c8eb5fe33b10fee2908734a09ae0c5/liveflask-1.0.5.tar.gz
+[2024-05-02 00:14:36] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/91/50/485c1a44bf596f35f97170b380a2248bae0a0b72d154cf87d07213c26c5d/napatrackmater-5.1.8.tar.gz
+[2024-05-02 00:14:36] INFO root fetch - processPackages [convertanything]: executing diffoscope
+[2024-05-02 00:14:36] INFO root fetch - processPackages [convertanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convertanything-0.0.6.tar.gz tmp/convertanything-0.0.8.tar.gz --markdown 20240502/c/convertanything/0.0.6-0.0.8/README.md --exclude *.pyd
+[2024-05-02 00:14:36] INFO root fetch - processPackages [liveflask]: executing diffoscope
+[2024-05-02 00:14:36] INFO root fetch - processPackages [liveflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveflask-1.0.4.tar.gz tmp/liveflask-1.0.5.tar.gz --markdown 20240502/l/liveflask/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-02 00:14:36] INFO root fetch - processPackages [sentient-switchblade]: Downloading https://files.pythonhosted.org/packages/78/70/7a943c97fabcd3bcc1d7318aeb5c50437da3b42f7d57405d126f96e8cdf4/sentient_switchblade-0.3.6.tar.gz
+[2024-05-02 00:14:36] INFO root fetch - processPackages [bitbucket-pipeline-runner]: Downloading https://files.pythonhosted.org/packages/ee/76/95a2c41d20a09cbe32277b65a08b53bbfbbc808a1a49ef6fbc666f8e6760/bitbucket_pipeline_runner-0.4.2.tar.gz
+[2024-05-02 00:14:36] INFO root fetch - processPackages [qai-core]: Downloading https://files.pythonhosted.org/packages/5c/8a/dae9e247b17fc90552d3f1c60bc0f10fe6d41c18c6f353ddc94696159297/qai_core-0.5.tar.gz
+[2024-05-02 00:14:36] INFO root fetch - processPackages [WISDEM-pyFrame3DD]: Downloading https://files.pythonhosted.org/packages/06/33/5691322138e4b72c7bde67c10b4b657508310fd66bb4a97e792b44dd2f9f/wisdem_pyframe3dd-1.1.1.tar.gz
+[2024-05-02 00:14:36] INFO root fetch - processPackages [ayx-plugin-cli]: Downloading https://files.pythonhosted.org/packages/d4/82/c1a5a42a1fe44751a78db44f9d716cb6229a315d23ebe57a1a040e733ffb/ayx_plugin_cli-1.2b0-cp38-none-any.whl
+[2024-05-02 00:14:36] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2024-05-02 00:14:36] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-5.1.7.tar.gz tmp/napatrackmater-5.1.8.tar.gz --markdown 20240502/n/napatrackmater/5.1.7-5.1.8/README.md --exclude *.pyd
+[2024-05-02 00:14:36] INFO root fetch - processPackages [sentient-switchblade]: executing diffoscope
+[2024-05-02 00:14:36] INFO root fetch - processPackages [sentient-switchblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentient_switchblade-0.3.5.tar.gz tmp/sentient_switchblade-0.3.6.tar.gz --markdown 20240502/s/sentient-switchblade/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-02 00:14:36] INFO root fetch - processPackages [qai-core]: executing diffoscope
+[2024-05-02 00:14:36] INFO root fetch - processPackages [qai-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_core-0.1.8.tar.gz tmp/qai_core-0.5.tar.gz --markdown 20240502/q/qai-core/0.1.8-0.5/README.md --exclude *.pyd
+[2024-05-02 00:14:36] INFO root fetch - processPackages [bitbucket-pipeline-runner]: executing diffoscope
+[2024-05-02 00:14:36] INFO root fetch - processPackages [bitbucket-pipeline-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitbucket_pipeline_runner-0.4.1.tar.gz tmp/bitbucket_pipeline_runner-0.4.2.tar.gz --markdown 20240502/b/bitbucket-pipeline-runner/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-02 00:14:36] INFO root fetch - processPackages [WISDEM-pyFrame3DD]: executing diffoscope
+[2024-05-02 00:14:36] INFO root fetch - processPackages [WISDEM-pyFrame3DD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wisdem_pyframe3dd-1.1.0.tar.gz tmp/wisdem_pyframe3dd-1.1.1.tar.gz --markdown 20240502/W/WISDEM-pyFrame3DD/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-02 00:14:36] INFO root fetch - processPackages [ayx-plugin-cli]: executing diffoscope
+[2024-05-02 00:14:36] INFO root fetch - processPackages [ayx-plugin-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayx_plugin_cli-1.2.0-cp38-none-any.whl.zip tmp/ayx_plugin_cli-1.2b0-cp38-none-any.whl.zip --markdown 20240502/a/ayx-plugin-cli/1.2.0-1.2b0/README.md --exclude *.pyd
+[2024-05-02 00:14:36] INFO root fetch - processPackages [macromol-voxelize]: Downloading https://files.pythonhosted.org/packages/04/a5/afbf537889a85541e304a0e15092d02cd6f697d958177409564c00beefc9/macromol_voxelize-0.1.1-cp312-cp312-win_amd64.whl
+[2024-05-02 00:14:37] INFO root fetch - processPackages [convertanything]: Remove: archive file [/home/abi/fetcher/tmp/convertanything-0.0.6.tar.gz]
+[2024-05-02 00:14:37] INFO root fetch - processPackages [convertanything]: Remove: archive file [/home/abi/fetcher/tmp/convertanything-0.0.8.tar.gz]
+[2024-05-02 00:14:37] INFO root fetch - main [MainThread]: End processing [convertanything]: success
+[2024-05-02 00:14:37] INFO root fetch - processPackages [qai-core]: Remove: archive file [/home/abi/fetcher/tmp/qai_core-0.1.8.tar.gz]
+[2024-05-02 00:14:37] INFO root fetch - processPackages [qai-core]: Remove: archive file [/home/abi/fetcher/tmp/qai_core-0.5.tar.gz]
+[2024-05-02 00:14:37] INFO root fetch - main [MainThread]: End processing [qai-core]: success
+[2024-05-02 00:14:37] INFO root fetch - processPackages [sentient-switchblade]: Remove: archive file [/home/abi/fetcher/tmp/sentient_switchblade-0.3.5.tar.gz]
+[2024-05-02 00:14:37] INFO root fetch - processPackages [sentient-switchblade]: Remove: archive file [/home/abi/fetcher/tmp/sentient_switchblade-0.3.6.tar.gz]
+[2024-05-02 00:14:37] INFO root fetch - main [MainThread]: End processing [sentient-switchblade]: success
+[2024-05-02 00:14:37] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.4.tar.gz]
+[2024-05-02 00:14:37] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.5.tar.gz]
+[2024-05-02 00:14:37] INFO root fetch - main [MainThread]: End processing [liveflask]: success
+[2024-05-02 00:14:37] INFO root fetch - processPackages [bitbucket-pipeline-runner]: Remove: archive file [/home/abi/fetcher/tmp/bitbucket_pipeline_runner-0.4.1.tar.gz]
+[2024-05-02 00:14:37] INFO root fetch - processPackages [bitbucket-pipeline-runner]: Remove: archive file [/home/abi/fetcher/tmp/bitbucket_pipeline_runner-0.4.2.tar.gz]
+[2024-05-02 00:14:37] INFO root fetch - main [MainThread]: End processing [bitbucket-pipeline-runner]: success
+[2024-05-02 00:14:37] INFO root fetch - processPackages [ayx-python-sdk]: Downloading https://files.pythonhosted.org/packages/dc/15/9acdebc5fe607509f359966254cf312bee3023c1f0bd4217bac58d851e02/ayx_python_sdk-2.4b0-cp38-none-any.whl
+[2024-05-02 00:14:37] INFO root fetch - processPackages [ayx-plugin-cli]: Remove: archive file [/home/abi/fetcher/tmp/ayx_plugin_cli-1.2.0-cp38-none-any.whl.zip]
+[2024-05-02 00:14:37] INFO root fetch - processPackages [ayx-plugin-cli]: Remove: archive file [/home/abi/fetcher/tmp/ayx_plugin_cli-1.2b0-cp38-none-any.whl.zip]
+[2024-05-02 00:14:37] INFO root fetch - main [MainThread]: End processing [ayx-plugin-cli]: success
+[2024-05-02 00:14:38] INFO root fetch - processPackages [WISDEM-pyFrame3DD]: Remove: archive file [/home/abi/fetcher/tmp/wisdem_pyframe3dd-1.1.0.tar.gz]
+[2024-05-02 00:14:38] INFO root fetch - processPackages [WISDEM-pyFrame3DD]: Remove: archive file [/home/abi/fetcher/tmp/wisdem_pyframe3dd-1.1.1.tar.gz]
+[2024-05-02 00:14:38] INFO root fetch - main [MainThread]: End processing [WISDEM-pyFrame3DD]: success
+[2024-05-02 00:14:38] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-5.1.7.tar.gz]
+[2024-05-02 00:14:38] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-5.1.8.tar.gz]
+[2024-05-02 00:14:38] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2024-05-02 00:14:39] INFO root fetch - processPackages [macromol-voxelize]: executing diffoscope
+[2024-05-02 00:14:39] INFO root fetch - processPackages [macromol-voxelize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macromol_voxelize-0.0.0.tar.gz tmp/macromol_voxelize-0.1.1-cp312-cp312-win_amd64.whl.zip --markdown 20240502/m/macromol-voxelize/0.0.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 00:14:40] INFO root fetch - processPackages [ayx-python-sdk]: executing diffoscope
+[2024-05-02 00:14:40] INFO root fetch - processPackages [ayx-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayx_python_sdk-2.4.0-cp38-none-any.whl.zip tmp/ayx_python_sdk-2.4b0-cp38-none-any.whl.zip --markdown 20240502/a/ayx-python-sdk/2.4.0-2.4b0/README.md --exclude *.pyd
+[2024-05-02 00:14:40] INFO root fetch - processPackages [macromol-voxelize]: Remove: archive file [/home/abi/fetcher/tmp/macromol_voxelize-0.0.0.tar.gz]
+[2024-05-02 00:14:40] INFO root fetch - processPackages [macromol-voxelize]: Remove: archive file [/home/abi/fetcher/tmp/macromol_voxelize-0.1.1-cp312-cp312-win_amd64.whl.zip]
+[2024-05-02 00:14:40] INFO root fetch - main [MainThread]: End processing [macromol-voxelize]: success
+[2024-05-02 00:14:52] INFO root fetch - processPackages [ayx-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ayx_python_sdk-2.4.0-cp38-none-any.whl.zip]
+[2024-05-02 00:14:52] INFO root fetch - processPackages [ayx-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ayx_python_sdk-2.4b0-cp38-none-any.whl.zip]
+[2024-05-02 00:14:52] INFO root fetch - main [MainThread]: End processing [ayx-python-sdk]: success
+[2024-05-02 00:14:52] INFO root fetch - main [MainThread]: Store serial: [23022950]
