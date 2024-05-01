@@ -842,3 +842,45 @@
 [2024-05-02 00:48:41] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.1.tar.gz]
 [2024-05-02 00:48:41] INFO root fetch - main [MainThread]: End processing [seeq]: success
 [2024-05-02 00:48:41] INFO root fetch - main [MainThread]: Store serial: [23023186]
+[2024-05-02 00:50:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023186]
+[2024-05-02 00:50:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 00:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: honeybee-core
+[2024-05-02 00:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reconciii
+[2024-05-02 00:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2024-05-02 00:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-product
+[2024-05-02 00:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qceltis
+[2024-05-02 00:50:51] WARNING root fetch - processPackages [reconciii]: Skipping, unable to determine old version
+[2024-05-02 00:50:51] INFO root fetch - main [MainThread]: End processing [reconciii] error
+[2024-05-02 00:50:51] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-02 00:50:51] INFO root fetch - processPackages [qceltis]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 00:50:51] INFO root fetch - processPackages [odoo14-addon-ssi-product]: New version: [14.0.1.7.0] Old Version: [14.0.1.6.0]
+[2024-05-02 00:50:51] INFO root fetch - processPackages [honeybee-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-02 00:50:51] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-02 00:50:52] INFO root fetch - processPackages [qceltis]: Downloading https://files.pythonhosted.org/packages/14/39/7e692e487aa2d7f6a76421838228bfd88821634b196bf3dcd02744509e40/qceltis-0.1.1-py3-none-any.whl
+[2024-05-02 00:50:52] INFO root fetch - processPackages [odoo14-addon-ssi-product]: Downloading https://files.pythonhosted.org/packages/18/e4/7de2c1bc628a6e6995b9813b65f71aa30cff3d598653f989cd3e4e13d49b/odoo14_addon_ssi_product-14.0.1.6.0-py3-none-any.whl
+[2024-05-02 00:50:52] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/25/88/7ed0aeb6b1cf0d4f003a3d3e96312cea0aff67017d50c5c9cd245c04f048/honeybee-core-1.8.1.tar.gz
+[2024-05-02 00:50:52] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-02 00:50:52] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-02 00:50:52] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240502/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-02 00:50:52] INFO root fetch - processPackages [odoo14-addon-ssi-product]: Downloading https://files.pythonhosted.org/packages/f0/ba/59851d4d86da079a6f3958b039da66ecb121695239cd8e943566b5691764/odoo14_addon_ssi_product-14.0.1.7.0-py3-none-any.whl
+[2024-05-02 00:50:52] INFO root fetch - processPackages [qceltis]: Downloading https://files.pythonhosted.org/packages/8b/d3/69746c4ec732dc684a74eeb64d333fbea882c1a4a31648e93d181fbdc082/qceltis-0.1.2-py3-none-any.whl
+[2024-05-02 00:50:52] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/d8/9b/f2a81f9cdf6c2556a083efabd9c0d69bdf3eb0acefed3b55c9d5ed1bcb15/honeybee-core-1.9.0.tar.gz
+[2024-05-02 00:50:52] INFO root fetch - processPackages [odoo14-addon-ssi-product]: executing diffoscope
+[2024-05-02 00:50:52] INFO root fetch - processPackages [odoo14-addon-ssi-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_product-14.0.1.6.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_product-14.0.1.7.0-py3-none-any.whl.zip --markdown 20240502/o/odoo14-addon-ssi-product/14.0.1.6.0-14.0.1.7.0/README.md --exclude *.pyd
+[2024-05-02 00:50:52] INFO root fetch - processPackages [honeybee-core]: executing diffoscope
+[2024-05-02 00:50:52] INFO root fetch - processPackages [honeybee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-core-1.8.1.tar.gz tmp/honeybee-core-1.9.0.tar.gz --markdown 20240502/h/honeybee-core/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-02 00:50:52] INFO root fetch - processPackages [qceltis]: executing diffoscope
+[2024-05-02 00:50:52] INFO root fetch - processPackages [qceltis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qceltis-0.1.1-py3-none-any.whl.zip tmp/qceltis-0.1.2-py3-none-any.whl.zip --markdown 20240502/q/qceltis/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 00:50:53] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-02 00:50:53] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-02 00:50:53] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-02 00:50:53] INFO root fetch - processPackages [odoo14-addon-ssi-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_product-14.0.1.6.0-py3-none-any.whl.zip]
+[2024-05-02 00:50:53] INFO root fetch - processPackages [odoo14-addon-ssi-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_product-14.0.1.7.0-py3-none-any.whl.zip]
+[2024-05-02 00:50:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-product]: success
+[2024-05-02 00:50:53] INFO root fetch - processPackages [qceltis]: Remove: archive file [/home/abi/fetcher/tmp/qceltis-0.1.1-py3-none-any.whl.zip]
+[2024-05-02 00:50:53] INFO root fetch - processPackages [qceltis]: Remove: archive file [/home/abi/fetcher/tmp/qceltis-0.1.2-py3-none-any.whl.zip]
+[2024-05-02 00:50:53] INFO root fetch - main [MainThread]: End processing [qceltis]: success
+[2024-05-02 00:50:53] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.8.1.tar.gz]
+[2024-05-02 00:50:53] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.9.0.tar.gz]
+[2024-05-02 00:50:53] INFO root fetch - main [MainThread]: End processing [honeybee-core]: success
+[2024-05-02 00:50:53] INFO root fetch - main [MainThread]: Store serial: [23023199]
