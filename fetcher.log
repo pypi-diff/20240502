@@ -1420,3 +1420,51 @@
 [2024-05-02 01:21:24] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
 [2024-05-02 01:21:24] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
 [2024-05-02 01:21:24] INFO root fetch - main [MainThread]: Store serial: [23023433]
+[2024-05-02 01:23:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023433]
+[2024-05-02 01:23:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 01:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ObjLog
+[2024-05-02 01:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bytebridge
+[2024-05-02 01:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mdpo
+[2024-05-02 01:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: windmill-api
+[2024-05-02 01:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-dragonfly
+[2024-05-02 01:23:33] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-02 01:23:33] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-02 01:23:33] INFO root fetch - processPackages [ObjLog]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-05-02 01:23:33] INFO root fetch - processPackages [bytebridge]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-02 01:23:33] INFO root fetch - processPackages [mdpo]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-02 01:23:33] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-05-02 01:23:33] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-05-02 01:23:34] INFO root fetch - processPackages [ObjLog]: Downloading https://files.pythonhosted.org/packages/af/10/ab6c55cacf8c0038bb097a9b02e48d017b4fc276af47d5f9142d05d97b20/objlog-2.1.2.tar.gz
+[2024-05-02 01:23:34] INFO root fetch - processPackages [bytebridge]: Downloading https://files.pythonhosted.org/packages/a9/6b/5804caa816323835824c03c508927ac6bbee9d58f81feba865e357fa1882/bytebridge-0.0.2.tar.gz
+[2024-05-02 01:23:34] INFO root fetch - processPackages [mdpo]: Downloading https://files.pythonhosted.org/packages/ed/4a/6c74f4025f6976d3db43185818d3fb87ee965f6d3ef046f5ec369eff9d1d/mdpo-2.0.0.tar.gz
+[2024-05-02 01:23:34] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-05-02 01:23:34] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-05-02 01:23:34] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-05-02 01:23:34] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240502/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-02 01:23:34] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-05-02 01:23:34] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240502/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-02 01:23:34] INFO root fetch - processPackages [bytebridge]: Downloading https://files.pythonhosted.org/packages/e9/7c/4bbe976d7118027018d78805abf385b73b3195e5ce0c12dac8462ee5f885/bytebridge-0.0.3.tar.gz
+[2024-05-02 01:23:34] INFO root fetch - processPackages [ObjLog]: Downloading https://files.pythonhosted.org/packages/d0/07/31b11f37a1b02567694520fc79021cf3dc5d933bcf7145fd791b1d1fc2ec/objlog-2.1.3.tar.gz
+[2024-05-02 01:23:34] INFO root fetch - processPackages [mdpo]: Downloading https://files.pythonhosted.org/packages/4a/9b/b905b6c6a2d8d3204fc95680a966f332062fe6fa9c8c6348b08d707da7ec/mdpo-2.0.1.tar.gz
+[2024-05-02 01:23:34] INFO root fetch - processPackages [bytebridge]: executing diffoscope
+[2024-05-02 01:23:34] INFO root fetch - processPackages [bytebridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytebridge-0.0.2.tar.gz tmp/bytebridge-0.0.3.tar.gz --markdown 20240502/b/bytebridge/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-02 01:23:34] INFO root fetch - processPackages [ObjLog]: executing diffoscope
+[2024-05-02 01:23:34] INFO root fetch - processPackages [ObjLog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objlog-2.1.2.tar.gz tmp/objlog-2.1.3.tar.gz --markdown 20240502/O/ObjLog/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-05-02 01:23:34] INFO root fetch - processPackages [mdpo]: executing diffoscope
+[2024-05-02 01:23:34] INFO root fetch - processPackages [mdpo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdpo-2.0.0.tar.gz tmp/mdpo-2.0.1.tar.gz --markdown 20240502/m/mdpo/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-02 01:23:34] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-05-02 01:23:34] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-05-02 01:23:34] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-05-02 01:23:35] INFO root fetch - processPackages [ObjLog]: Remove: archive file [/home/abi/fetcher/tmp/objlog-2.1.2.tar.gz]
+[2024-05-02 01:23:35] INFO root fetch - processPackages [ObjLog]: Remove: archive file [/home/abi/fetcher/tmp/objlog-2.1.3.tar.gz]
+[2024-05-02 01:23:35] INFO root fetch - main [MainThread]: End processing [ObjLog]: success
+[2024-05-02 01:23:35] INFO root fetch - processPackages [bytebridge]: Remove: archive file [/home/abi/fetcher/tmp/bytebridge-0.0.2.tar.gz]
+[2024-05-02 01:23:35] INFO root fetch - processPackages [bytebridge]: Remove: archive file [/home/abi/fetcher/tmp/bytebridge-0.0.3.tar.gz]
+[2024-05-02 01:23:35] INFO root fetch - main [MainThread]: End processing [bytebridge]: success
+[2024-05-02 01:23:35] INFO root fetch - processPackages [mdpo]: Remove: archive file [/home/abi/fetcher/tmp/mdpo-2.0.0.tar.gz]
+[2024-05-02 01:23:35] INFO root fetch - processPackages [mdpo]: Remove: archive file [/home/abi/fetcher/tmp/mdpo-2.0.1.tar.gz]
+[2024-05-02 01:23:35] INFO root fetch - main [MainThread]: End processing [mdpo]: success
+[2024-05-02 01:23:38] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-05-02 01:23:38] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-05-02 01:23:38] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-05-02 01:23:38] INFO root fetch - main [MainThread]: Store serial: [23023447]
