@@ -601,3 +601,48 @@
 [2024-05-02 00:37:25] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.8.2.tar.gz]
 [2024-05-02 00:37:25] INFO root fetch - main [MainThread]: End processing [aind-exaspim-pipeline-utils]: success
 [2024-05-02 00:37:25] INFO root fetch - main [MainThread]: Store serial: [23023082]
+[2024-05-02 00:39:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023082]
+[2024-05-02 00:39:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 00:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chrono24
+[2024-05-02 00:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crytic-compilers
+[2024-05-02 00:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rubpy
+[2024-05-02 00:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lokzzpylib
+[2024-05-02 00:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tassosgeomath
+[2024-05-02 00:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qai-ai
+[2024-05-02 00:39:34] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev9] Old Version: [0.2.dev81]
+[2024-05-02 00:39:34] WARNING root fetch - processPackages [qai-ai]: Skipping, unable to determine old version
+[2024-05-02 00:39:34] INFO root fetch - main [MainThread]: End processing [qai-ai] error
+[2024-05-02 00:39:34] INFO root fetch - processPackages [chrono24]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-02 00:39:34] INFO root fetch - processPackages [crytic-compilers]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 00:39:34] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/66/d1/118dd45bc7ea757dec795834cf46027a7b5aea903fd3932418f7a49fe2e6/lokzzpylib-0.2.dev81.tar.gz
+[2024-05-02 00:39:34] WARNING root fetch - processPackages [tassosgeomath]: Skipping, unable to determine old version
+[2024-05-02 00:39:34] INFO root fetch - main [MainThread]: End processing [tassosgeomath] error
+[2024-05-02 00:39:34] INFO root fetch - processPackages [rubpy]: New version: [7.0.2b3] Old Version: [7.0.2b2]
+[2024-05-02 00:39:34] INFO root fetch - processPackages [chrono24]: Downloading https://files.pythonhosted.org/packages/0c/7f/045f75d67aa6df08f97c5dbea816d65b5833d11c0b6dd2f015a5e6f88e64/chrono24-0.2.7.tar.gz
+[2024-05-02 00:39:34] INFO root fetch - processPackages [crytic-compilers]: Downloading https://files.pythonhosted.org/packages/05/91/0a0189ef1664580a2696e16df84cc33953e0015e81cc5d9d9b5e4b4c79e3/crytic-compilers-0.3.8.tar.gz
+[2024-05-02 00:39:34] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/a5/a5/ddfed1f1dce684f9f90354b6ed2904366ae806672564fc7a77bdae58b12f/rubpy-7.0.2b2.tar.gz
+[2024-05-02 00:39:34] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/d3/9b/e4bbf15840f86c58df052ec37f778b6563255557c0f8edc61797a91a6dcf/lokzzpylib-0.2.dev9.tar.gz
+[2024-05-02 00:39:35] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2024-05-02 00:39:35] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev81.tar.gz tmp/lokzzpylib-0.2.dev9.tar.gz --markdown 20240502/l/lokzzpylib/0.2.dev81-0.2.dev9/README.md --exclude *.pyd
+[2024-05-02 00:39:35] INFO root fetch - processPackages [chrono24]: Downloading https://files.pythonhosted.org/packages/c7/0c/1650f3e697b512522bba7be3148dcc8f632939f0e88ba0c209f8a888867c/chrono24-0.2.8.tar.gz
+[2024-05-02 00:39:35] INFO root fetch - processPackages [crytic-compilers]: Downloading https://files.pythonhosted.org/packages/47/74/c9ff4f14ac01a3c3dc251184a1205b1e56bd27ebe83b2e160241f53d1329/crytic-compilers-0.3.9.tar.gz
+[2024-05-02 00:39:35] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/74/dd/1358e9ff91fe751591ca22294bcac7a9c40c9c3db8f09bff09921fe07b0e/rubpy-7.0.2b3.tar.gz
+[2024-05-02 00:39:35] INFO root fetch - processPackages [chrono24]: executing diffoscope
+[2024-05-02 00:39:35] INFO root fetch - processPackages [chrono24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrono24-0.2.7.tar.gz tmp/chrono24-0.2.8.tar.gz --markdown 20240502/c/chrono24/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-02 00:39:35] INFO root fetch - processPackages [crytic-compilers]: executing diffoscope
+[2024-05-02 00:39:35] INFO root fetch - processPackages [crytic-compilers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crytic-compilers-0.3.8.tar.gz tmp/crytic-compilers-0.3.9.tar.gz --markdown 20240502/c/crytic-compilers/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 00:39:35] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2024-05-02 00:39:35] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-7.0.2b2.tar.gz tmp/rubpy-7.0.2b3.tar.gz --markdown 20240502/r/rubpy/7.0.2b2-7.0.2b3/README.md --exclude *.pyd
+[2024-05-02 00:39:35] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev81.tar.gz]
+[2024-05-02 00:39:35] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev9.tar.gz]
+[2024-05-02 00:39:35] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2024-05-02 00:39:35] INFO root fetch - processPackages [crytic-compilers]: Remove: archive file [/home/abi/fetcher/tmp/crytic-compilers-0.3.8.tar.gz]
+[2024-05-02 00:39:35] INFO root fetch - processPackages [crytic-compilers]: Remove: archive file [/home/abi/fetcher/tmp/crytic-compilers-0.3.9.tar.gz]
+[2024-05-02 00:39:35] INFO root fetch - main [MainThread]: End processing [crytic-compilers]: success
+[2024-05-02 00:39:35] INFO root fetch - processPackages [chrono24]: Remove: archive file [/home/abi/fetcher/tmp/chrono24-0.2.7.tar.gz]
+[2024-05-02 00:39:35] INFO root fetch - processPackages [chrono24]: Remove: archive file [/home/abi/fetcher/tmp/chrono24-0.2.8.tar.gz]
+[2024-05-02 00:39:35] INFO root fetch - main [MainThread]: End processing [chrono24]: success
+[2024-05-02 00:39:36] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.2b2.tar.gz]
+[2024-05-02 00:39:36] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.2b3.tar.gz]
+[2024-05-02 00:39:36] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2024-05-02 00:39:36] INFO root fetch - main [MainThread]: Store serial: [23023104]
