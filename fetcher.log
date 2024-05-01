@@ -492,3 +492,22 @@
 [2024-05-02 00:26:26] INFO root fetch - processPackages [skelescope]: Remove: archive file [/home/abi/fetcher/tmp/skelescope-0.0.6.tar.gz]
 [2024-05-02 00:26:26] INFO root fetch - main [MainThread]: End processing [skelescope]: success
 [2024-05-02 00:26:26] INFO root fetch - main [MainThread]: Store serial: [23023022]
+[2024-05-02 00:28:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023022]
+[2024-05-02 00:28:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 00:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qai-scraper
+[2024-05-02 00:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qai-scraper
+[2024-05-02 00:28:40] INFO root fetch - processPackages [qai-scraper]: New version: [0.5.1] Old Version: [0.5]
+[2024-05-02 00:28:40] INFO root fetch - processPackages [qai-scraper]: New version: [0.5.1] Old Version: [0.5]
+[2024-05-02 00:28:40] INFO root fetch - processPackages [qai-scraper]: Downloading https://files.pythonhosted.org/packages/1b/f2/74008a3d4b58f6126f60dd5e4e2f51073cef38e747dcf15cd2603397ba9b/qai_scraper-0.5.tar.gz
+[2024-05-02 00:28:40] INFO root fetch - processPackages [qai-scraper]: Downloading https://files.pythonhosted.org/packages/1b/f2/74008a3d4b58f6126f60dd5e4e2f51073cef38e747dcf15cd2603397ba9b/qai_scraper-0.5.tar.gz
+[2024-05-02 00:28:40] INFO root fetch - processPackages [qai-scraper]: Downloading https://files.pythonhosted.org/packages/9b/0c/617d1ac9384629b4cc8ab9976bd5fc9b73a7e5c75e9bca1056c1d6452a87/qai_scraper-0.5.1.tar.gz
+[2024-05-02 00:28:40] INFO root fetch - processPackages [qai-scraper]: Downloading https://files.pythonhosted.org/packages/9b/0c/617d1ac9384629b4cc8ab9976bd5fc9b73a7e5c75e9bca1056c1d6452a87/qai_scraper-0.5.1.tar.gz
+[2024-05-02 00:28:41] INFO root fetch - processPackages [qai-scraper]: executing diffoscope
+[2024-05-02 00:28:41] INFO root fetch - processPackages [qai-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_scraper-0.5.tar.gz tmp/qai_scraper-0.5.1.tar.gz --markdown 20240502/q/qai-scraper/0.5-0.5.1/README.md --exclude *.pyd
+[2024-05-02 00:28:41] INFO root fetch - processPackages [qai-scraper]: executing diffoscope
+[2024-05-02 00:28:41] INFO root fetch - processPackages [qai-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_scraper-0.5.tar.gz tmp/qai_scraper-0.5.1.tar.gz --markdown 20240502/q/qai-scraper/0.5-0.5.1/README.md --exclude *.pyd
+[2024-05-02 00:28:41] INFO root fetch - processPackages [qai-scraper]: Remove: archive file [/home/abi/fetcher/tmp/qai_scraper-0.5.tar.gz]
+[2024-05-02 00:28:41] INFO root fetch - processPackages [qai-scraper]: Remove: archive file [/home/abi/fetcher/tmp/qai_scraper-0.5.1.tar.gz]
+[2024-05-02 00:28:41] INFO root fetch - main [MainThread]: End processing [qai-scraper]: success
+[2024-05-02 00:28:41] INFO root fetch - main [MainThread]: End processing [qai-scraper]: success
+[2024-05-02 00:28:41] INFO root fetch - main [MainThread]: Store serial: [23023031]
