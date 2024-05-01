@@ -1507,3 +1507,51 @@
 [2024-05-02 01:25:48] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.3.tar.gz]
 [2024-05-02 01:25:48] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
 [2024-05-02 01:25:48] INFO root fetch - main [MainThread]: Store serial: [23023463]
+[2024-05-02 01:27:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023463]
+[2024-05-02 01:27:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 01:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdpsolver
+[2024-05-02 01:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vbimagetotext
+[2024-05-02 01:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emmett-crypto
+[2024-05-02 01:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: positional-vectorizer
+[2024-05-02 01:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sxmp-mule
+[2024-05-02 01:27:56] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-02 01:27:56] INFO root fetch - processPackages [positional-vectorizer]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-02 01:27:56] INFO root fetch - processPackages [positional-vectorizer]: Downloading https://files.pythonhosted.org/packages/a3/ba/45f00108bbd04db8d0204012f2b40a52f81f0c718a3370e839a04072186c/positional_vectorizer-0.0.3.tar.gz
+[2024-05-02 01:27:56] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/bc/44/d832f220a3b2b31cb64ba4226f142793889b7b4dda1f64aaae632b4542cf/vbimagetotext-0.1.2.tar.gz
+[2024-05-02 01:27:56] INFO root fetch - processPackages [mdpsolver]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-02 01:27:56] INFO root fetch - processPackages [sxmp-mule]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-02 01:27:56] INFO root fetch - processPackages [emmett-crypto]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-05-02 01:27:56] INFO root fetch - processPackages [mdpsolver]: Downloading https://files.pythonhosted.org/packages/d2/f7/878a60299e39921fb4fe63fd6f8e1e6a103111b5d7568bdf783f15eb5729/mdpsolver-0.9.1.tar.gz
+[2024-05-02 01:27:56] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/71/1b/0a60429a51c5ac615e18e6073d65d442bd2b40215eff529f110e7c218575/vbimagetotext-0.1.3.tar.gz
+[2024-05-02 01:27:56] INFO root fetch - processPackages [sxmp-mule]: Downloading https://files.pythonhosted.org/packages/02/13/fce439fc183a53be72d13f732f4363b18664cfe3ad50596c17a77965f3d8/sxmp-mule-1.1.0.tar.gz
+[2024-05-02 01:27:56] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-02 01:27:56] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.2.tar.gz tmp/vbimagetotext-0.1.3.tar.gz --markdown 20240502/v/vbimagetotext/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-02 01:27:56] INFO root fetch - processPackages [positional-vectorizer]: Downloading https://files.pythonhosted.org/packages/53/29/acc65d3f913d4a3414fa871f29244c31ceb347b35b500ebac432d09e1cab/positional_vectorizer-0.0.4.tar.gz
+[2024-05-02 01:27:56] INFO root fetch - processPackages [emmett-crypto]: Downloading https://files.pythonhosted.org/packages/1b/a7/99b6ee9e11d31a8bfb4cc798e1c3109eaad3d2b1cc598b431e774d5c2ee3/emmett_crypto-0.5.1.tar.gz
+[2024-05-02 01:27:56] INFO root fetch - processPackages [positional-vectorizer]: executing diffoscope
+[2024-05-02 01:27:56] INFO root fetch - processPackages [positional-vectorizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/positional_vectorizer-0.0.3.tar.gz tmp/positional_vectorizer-0.0.4.tar.gz --markdown 20240502/p/positional-vectorizer/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-02 01:27:57] INFO root fetch - processPackages [mdpsolver]: Downloading https://files.pythonhosted.org/packages/42/35/ba8ab54bdbcb6d56897084eb9bc497b3a6ff82c75b2e2443237f2739bfe5/mdpsolver-0.9.2.tar.gz
+[2024-05-02 01:27:57] INFO root fetch - processPackages [sxmp-mule]: Downloading https://files.pythonhosted.org/packages/d1/12/0fb5d43abbfa26bd781ae6402c2c7ef76769119d8c23b042b3a574e6d9d8/sxmp_mule-1.1.1.tar.gz
+[2024-05-02 01:27:57] INFO root fetch - processPackages [mdpsolver]: executing diffoscope
+[2024-05-02 01:27:57] INFO root fetch - processPackages [mdpsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdpsolver-0.9.1.tar.gz tmp/mdpsolver-0.9.2.tar.gz --markdown 20240502/m/mdpsolver/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-02 01:27:57] INFO root fetch - processPackages [emmett-crypto]: Downloading https://files.pythonhosted.org/packages/61/22/579a1cd9c25e1329aef1969bd181bc7e0430bf17212fbe6e73a4bef2703a/emmett_crypto-0.6.0-cp312-cp312-macosx_10_12_x86_64.whl
+[2024-05-02 01:27:57] INFO root fetch - processPackages [sxmp-mule]: executing diffoscope
+[2024-05-02 01:27:57] INFO root fetch - processPackages [sxmp-mule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sxmp-mule-1.1.0.tar.gz tmp/sxmp_mule-1.1.1.tar.gz --markdown 20240502/s/sxmp-mule/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-02 01:27:57] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.2.tar.gz]
+[2024-05-02 01:27:57] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.3.tar.gz]
+[2024-05-02 01:27:57] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-02 01:27:57] INFO root fetch - processPackages [emmett-crypto]: executing diffoscope
+[2024-05-02 01:27:57] INFO root fetch - processPackages [emmett-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmett_crypto-0.5.1.tar.gz tmp/emmett_crypto-0.6.0-cp312-cp312-macosx_10_12_x86_64.whl.zip --markdown 20240502/e/emmett-crypto/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-05-02 01:27:57] INFO root fetch - processPackages [positional-vectorizer]: Remove: archive file [/home/abi/fetcher/tmp/positional_vectorizer-0.0.3.tar.gz]
+[2024-05-02 01:27:57] INFO root fetch - processPackages [positional-vectorizer]: Remove: archive file [/home/abi/fetcher/tmp/positional_vectorizer-0.0.4.tar.gz]
+[2024-05-02 01:27:57] INFO root fetch - main [MainThread]: End processing [positional-vectorizer]: success
+[2024-05-02 01:27:57] INFO root fetch - processPackages [emmett-crypto]: Remove: archive file [/home/abi/fetcher/tmp/emmett_crypto-0.5.1.tar.gz]
+[2024-05-02 01:27:57] INFO root fetch - processPackages [emmett-crypto]: Remove: archive file [/home/abi/fetcher/tmp/emmett_crypto-0.6.0-cp312-cp312-macosx_10_12_x86_64.whl.zip]
+[2024-05-02 01:27:57] INFO root fetch - main [MainThread]: End processing [emmett-crypto]: success
+[2024-05-02 01:27:58] INFO root fetch - processPackages [mdpsolver]: Remove: archive file [/home/abi/fetcher/tmp/mdpsolver-0.9.1.tar.gz]
+[2024-05-02 01:27:58] INFO root fetch - processPackages [mdpsolver]: Remove: archive file [/home/abi/fetcher/tmp/mdpsolver-0.9.2.tar.gz]
+[2024-05-02 01:27:58] INFO root fetch - main [MainThread]: End processing [mdpsolver]: success
+[2024-05-02 01:27:58] INFO root fetch - processPackages [sxmp-mule]: Remove: archive file [/home/abi/fetcher/tmp/sxmp-mule-1.1.0.tar.gz]
+[2024-05-02 01:27:58] INFO root fetch - processPackages [sxmp-mule]: Remove: archive file [/home/abi/fetcher/tmp/sxmp_mule-1.1.1.tar.gz]
+[2024-05-02 01:27:58] INFO root fetch - main [MainThread]: End processing [sxmp-mule]: success
+[2024-05-02 01:27:58] INFO root fetch - main [MainThread]: Store serial: [23023487]
