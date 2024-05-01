@@ -547,3 +547,45 @@
 [2024-05-02 00:33:02] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
 [2024-05-02 00:33:02] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
 [2024-05-02 00:33:02] INFO root fetch - main [MainThread]: Store serial: [23023057]
+[2024-05-02 00:35:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023057]
+[2024-05-02 00:35:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 00:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ladybug-geometry-polyskel
+[2024-05-02 00:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SoftLayer
+[2024-05-02 00:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-none-objects
+[2024-05-02 00:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crytic-compilers
+[2024-05-02 00:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ladybug-core
+[2024-05-02 00:35:11] WARNING root fetch - processPackages [crytic-compilers]: Skipping, unable to determine old version
+[2024-05-02 00:35:11] INFO root fetch - main [MainThread]: End processing [crytic-compilers] error
+[2024-05-02 00:35:12] INFO root fetch - processPackages [python-none-objects]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-02 00:35:12] INFO root fetch - processPackages [ladybug-geometry-polyskel]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-02 00:35:12] INFO root fetch - processPackages [SoftLayer]: New version: [6.2.0] Old Version: [6.1.9]
+[2024-05-02 00:35:12] INFO root fetch - processPackages [ladybug-core]: New version: [0.42.9] Old Version: [0.42.8]
+[2024-05-02 00:35:12] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Downloading https://files.pythonhosted.org/packages/70/a4/3886c230dd5638c38bc22e301d1316c55197f4909db218feb0b686d8d0ca/ladybug-geometry-polyskel-1.4.8.tar.gz
+[2024-05-02 00:35:12] INFO root fetch - processPackages [python-none-objects]: Downloading https://files.pythonhosted.org/packages/9d/05/882451bf96e188ba56f9d63fc7e55f52ad64e5381d4bf012e79410d555ea/python_none_objects-1.1.6.tar.gz
+[2024-05-02 00:35:12] INFO root fetch - processPackages [SoftLayer]: Downloading https://files.pythonhosted.org/packages/68/ac/6efdc3ba547520af9adb9a0754a0fe64f57d3005ffc74bd426b1f9219b97/SoftLayer-6.1.9.tar.gz
+[2024-05-02 00:35:12] INFO root fetch - processPackages [ladybug-core]: Downloading https://files.pythonhosted.org/packages/65/39/440bbf73af1908ee08006a7a71b91e3c7ceb3e340f2a0334b9e091511de9/ladybug-core-0.42.8.tar.gz
+[2024-05-02 00:35:12] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Downloading https://files.pythonhosted.org/packages/66/a8/40ffbd6d2853e09d79d44a42df2f0eb3ad91930a41d2879849788b686b64/ladybug-geometry-polyskel-1.4.9.tar.gz
+[2024-05-02 00:35:12] INFO root fetch - processPackages [python-none-objects]: Downloading https://files.pythonhosted.org/packages/6e/36/92f2c847323e946411025a7315eaab5130ca474f34fa888d2b70cd3d96af/python_none_objects-1.1.7.tar.gz
+[2024-05-02 00:35:12] INFO root fetch - processPackages [SoftLayer]: Downloading https://files.pythonhosted.org/packages/30/27/dcd503425e40bb97ff08eaf4c908fe6a6c76a3d08a9ff8d96c6ae03ca4c6/softlayer-6.2.0.tar.gz
+[2024-05-02 00:35:12] INFO root fetch - processPackages [ladybug-geometry-polyskel]: executing diffoscope
+[2024-05-02 00:35:12] INFO root fetch - processPackages [ladybug-geometry-polyskel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-geometry-polyskel-1.4.8.tar.gz tmp/ladybug-geometry-polyskel-1.4.9.tar.gz --markdown 20240502/l/ladybug-geometry-polyskel/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-02 00:35:12] INFO root fetch - processPackages [python-none-objects]: executing diffoscope
+[2024-05-02 00:35:12] INFO root fetch - processPackages [python-none-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_none_objects-1.1.6.tar.gz tmp/python_none_objects-1.1.7.tar.gz --markdown 20240502/p/python-none-objects/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-02 00:35:12] INFO root fetch - processPackages [ladybug-core]: Downloading https://files.pythonhosted.org/packages/05/39/ad2de8ecb5085f93473c7a56fb92b7cbfad1ed03321c5209b36c5bf8bf3f/ladybug-core-0.42.9.tar.gz
+[2024-05-02 00:35:12] INFO root fetch - processPackages [SoftLayer]: executing diffoscope
+[2024-05-02 00:35:12] INFO root fetch - processPackages [SoftLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SoftLayer-6.1.9.tar.gz tmp/softlayer-6.2.0.tar.gz --markdown 20240502/S/SoftLayer/6.1.9-6.2.0/README.md --exclude *.pyd
+[2024-05-02 00:35:12] INFO root fetch - processPackages [ladybug-core]: executing diffoscope
+[2024-05-02 00:35:12] INFO root fetch - processPackages [ladybug-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-core-0.42.8.tar.gz tmp/ladybug-core-0.42.9.tar.gz --markdown 20240502/l/ladybug-core/0.42.8-0.42.9/README.md --exclude *.pyd
+[2024-05-02 00:35:13] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-polyskel-1.4.8.tar.gz]
+[2024-05-02 00:35:13] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-polyskel-1.4.9.tar.gz]
+[2024-05-02 00:35:13] INFO root fetch - main [MainThread]: End processing [ladybug-geometry-polyskel]: success
+[2024-05-02 00:35:13] INFO root fetch - processPackages [python-none-objects]: Remove: archive file [/home/abi/fetcher/tmp/python_none_objects-1.1.6.tar.gz]
+[2024-05-02 00:35:13] INFO root fetch - processPackages [python-none-objects]: Remove: archive file [/home/abi/fetcher/tmp/python_none_objects-1.1.7.tar.gz]
+[2024-05-02 00:35:13] INFO root fetch - main [MainThread]: End processing [python-none-objects]: success
+[2024-05-02 00:35:13] INFO root fetch - processPackages [ladybug-core]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-core-0.42.8.tar.gz]
+[2024-05-02 00:35:13] INFO root fetch - processPackages [ladybug-core]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-core-0.42.9.tar.gz]
+[2024-05-02 00:35:13] INFO root fetch - main [MainThread]: End processing [ladybug-core]: success
+[2024-05-02 00:35:15] INFO root fetch - processPackages [SoftLayer]: Remove: archive file [/home/abi/fetcher/tmp/SoftLayer-6.1.9.tar.gz]
+[2024-05-02 00:35:15] INFO root fetch - processPackages [SoftLayer]: Remove: archive file [/home/abi/fetcher/tmp/softlayer-6.2.0.tar.gz]
+[2024-05-02 00:35:15] INFO root fetch - main [MainThread]: End processing [SoftLayer]: success
+[2024-05-02 00:35:15] INFO root fetch - main [MainThread]: Store serial: [23023077]
