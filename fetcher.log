@@ -1725,3 +1725,27 @@
 [2024-05-02 01:43:09] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.5.0.dev1.tar.gz]
 [2024-05-02 01:43:09] INFO root fetch - main [MainThread]: End processing [mountaineer]: success
 [2024-05-02 01:43:09] INFO root fetch - main [MainThread]: Store serial: [23023599]
+[2024-05-02 01:45:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023599]
+[2024-05-02 01:45:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 01:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osmg
+[2024-05-02 01:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: martian-adapters
+[2024-05-02 01:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyson-data
+[2024-05-02 01:45:18] INFO root fetch - processPackages [osmg]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-02 01:45:18] WARNING root fetch - processPackages [pyson-data]: Skipping, unable to determine old version
+[2024-05-02 01:45:18] INFO root fetch - main [MainThread]: End processing [pyson-data] error
+[2024-05-02 01:45:18] INFO root fetch - processPackages [osmg]: Downloading https://files.pythonhosted.org/packages/59/01/2c7d1f60206a2dded4aa3fbd50c182bfcd7c0872cb8a25f544844e4b8c39/osmg-0.2.4.tar.gz
+[2024-05-02 01:45:18] INFO root fetch - processPackages [martian-adapters]: New version: [4.1.2] Old Version: [4.1.0]
+[2024-05-02 01:45:18] INFO root fetch - processPackages [martian-adapters]: Downloading https://files.pythonhosted.org/packages/9d/a0/f3253ca7d9217d1cb65ad7c509efc1d76e7643868405baf5eb90679fc496/martian_adapters-4.1.0.tar.gz
+[2024-05-02 01:45:18] INFO root fetch - processPackages [osmg]: Downloading https://files.pythonhosted.org/packages/7a/d1/14479c7577010adaee5ddab2bd96308839bdb52b1dd94f6885e984bae5ac/osmg-0.2.5.tar.gz
+[2024-05-02 01:45:19] INFO root fetch - processPackages [osmg]: executing diffoscope
+[2024-05-02 01:45:19] INFO root fetch - processPackages [osmg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmg-0.2.4.tar.gz tmp/osmg-0.2.5.tar.gz --markdown 20240502/o/osmg/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-02 01:45:19] INFO root fetch - processPackages [martian-adapters]: Downloading https://files.pythonhosted.org/packages/c1/bc/4873d100e1f7ca6fe741f830a67bfe807a35133de6f4436c83282fc3672a/martian_adapters-4.1.2.tar.gz
+[2024-05-02 01:45:19] INFO root fetch - processPackages [martian-adapters]: executing diffoscope
+[2024-05-02 01:45:19] INFO root fetch - processPackages [martian-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/martian_adapters-4.1.0.tar.gz tmp/martian_adapters-4.1.2.tar.gz --markdown 20240502/m/martian-adapters/4.1.0-4.1.2/README.md --exclude *.pyd
+[2024-05-02 01:45:19] INFO root fetch - processPackages [martian-adapters]: Remove: archive file [/home/abi/fetcher/tmp/martian_adapters-4.1.0.tar.gz]
+[2024-05-02 01:45:19] INFO root fetch - processPackages [martian-adapters]: Remove: archive file [/home/abi/fetcher/tmp/martian_adapters-4.1.2.tar.gz]
+[2024-05-02 01:45:19] INFO root fetch - main [MainThread]: End processing [martian-adapters]: success
+[2024-05-02 01:45:19] INFO root fetch - processPackages [osmg]: Remove: archive file [/home/abi/fetcher/tmp/osmg-0.2.4.tar.gz]
+[2024-05-02 01:45:19] INFO root fetch - processPackages [osmg]: Remove: archive file [/home/abi/fetcher/tmp/osmg-0.2.5.tar.gz]
+[2024-05-02 01:45:19] INFO root fetch - main [MainThread]: End processing [osmg]: success
+[2024-05-02 01:45:19] INFO root fetch - main [MainThread]: Store serial: [23023608]
