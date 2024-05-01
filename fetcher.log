@@ -109,3 +109,24 @@
 [2024-05-02 00:05:56] INFO root fetch - processPackages [cloud-files]: Remove: archive file [/home/abi/fetcher/tmp/cloud-files-4.9.1.tar.gz]
 [2024-05-02 00:05:56] INFO root fetch - main [MainThread]: End processing [cloud-files]: success
 [2024-05-02 00:05:56] INFO root fetch - main [MainThread]: Store serial: [23022839]
+[2024-05-02 00:07:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23022839]
+[2024-05-02 00:08:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 00:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deadline-cloud-for-nuke
+[2024-05-02 00:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-monkey-patches
+[2024-05-02 00:08:04] INFO root fetch - processPackages [django-monkey-patches]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-05-02 00:08:04] INFO root fetch - processPackages [django-monkey-patches]: Downloading https://files.pythonhosted.org/packages/9a/b4/f920defc678ca15cd288e04c4e99ac19ff5ce7ba1339102ad63a28b3991f/django_monkey_patches-3.0.0.tar.gz
+[2024-05-02 00:08:04] INFO root fetch - processPackages [deadline-cloud-for-nuke]: New version: [0.18.2] Old Version: [0.18.1]
+[2024-05-02 00:08:04] INFO root fetch - processPackages [deadline-cloud-for-nuke]: Downloading https://files.pythonhosted.org/packages/ef/9a/1fa15723aeb8718141fb4d141f956423d2110da7242438d92fc4d4ce545c/deadline_cloud_for_nuke-0.18.1.tar.gz
+[2024-05-02 00:08:05] INFO root fetch - processPackages [django-monkey-patches]: Downloading https://files.pythonhosted.org/packages/27/b2/34f72d3fcf7095bbcd3542fdcd13fd0e4a1f515b6f6f08bcf76544ab2963/django_monkey_patches-3.0.1.tar.gz
+[2024-05-02 00:08:05] INFO root fetch - processPackages [django-monkey-patches]: executing diffoscope
+[2024-05-02 00:08:05] INFO root fetch - processPackages [django-monkey-patches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_monkey_patches-3.0.0.tar.gz tmp/django_monkey_patches-3.0.1.tar.gz --markdown 20240502/d/django-monkey-patches/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-05-02 00:08:05] INFO root fetch - processPackages [deadline-cloud-for-nuke]: Downloading https://files.pythonhosted.org/packages/9a/41/58e418c0a79c0070e13f2385a5547e4da3a156940bb622f1c5a7d8a5f856/deadline_cloud_for_nuke-0.18.2.tar.gz
+[2024-05-02 00:08:05] INFO root fetch - processPackages [deadline-cloud-for-nuke]: executing diffoscope
+[2024-05-02 00:08:05] INFO root fetch - processPackages [deadline-cloud-for-nuke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadline_cloud_for_nuke-0.18.1.tar.gz tmp/deadline_cloud_for_nuke-0.18.2.tar.gz --markdown 20240502/d/deadline-cloud-for-nuke/0.18.1-0.18.2/README.md --exclude *.pyd
+[2024-05-02 00:08:05] INFO root fetch - processPackages [django-monkey-patches]: Remove: archive file [/home/abi/fetcher/tmp/django_monkey_patches-3.0.0.tar.gz]
+[2024-05-02 00:08:05] INFO root fetch - processPackages [django-monkey-patches]: Remove: archive file [/home/abi/fetcher/tmp/django_monkey_patches-3.0.1.tar.gz]
+[2024-05-02 00:08:05] INFO root fetch - main [MainThread]: End processing [django-monkey-patches]: success
+[2024-05-02 00:08:05] INFO root fetch - processPackages [deadline-cloud-for-nuke]: Remove: archive file [/home/abi/fetcher/tmp/deadline_cloud_for_nuke-0.18.1.tar.gz]
+[2024-05-02 00:08:05] INFO root fetch - processPackages [deadline-cloud-for-nuke]: Remove: archive file [/home/abi/fetcher/tmp/deadline_cloud_for_nuke-0.18.2.tar.gz]
+[2024-05-02 00:08:05] INFO root fetch - main [MainThread]: End processing [deadline-cloud-for-nuke]: success
+[2024-05-02 00:08:05] INFO root fetch - main [MainThread]: Store serial: [23022845]
