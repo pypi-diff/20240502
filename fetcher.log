@@ -1630,3 +1630,24 @@
 [2024-05-02 01:34:29] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.2.4.tar.gz]
 [2024-05-02 01:34:29] INFO root fetch - main [MainThread]: End processing [spleenseg]: success
 [2024-05-02 01:34:29] INFO root fetch - main [MainThread]: Store serial: [23023563]
+[2024-05-02 01:36:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023563]
+[2024-05-02 01:36:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 01:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsonui
+[2024-05-02 01:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jump-portrait
+[2024-05-02 01:36:39] INFO root fetch - processPackages [jsonui]: New version: [0.2] Old Version: [0.1]
+[2024-05-02 01:36:39] INFO root fetch - processPackages [jump-portrait]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-02 01:36:39] INFO root fetch - processPackages [jsonui]: Downloading https://files.pythonhosted.org/packages/7c/2a/717af9a8df0bc31302ecd32e7662f8d484618427a718d128a56187dff585/jsonui-0.1.tar.gz
+[2024-05-02 01:36:39] INFO root fetch - processPackages [jump-portrait]: Downloading https://files.pythonhosted.org/packages/d2/eb/545db32cf6826bc30b746f30afa9eabd2dc8b8021803902a0d91d2f467aa/jump_portrait-0.0.7.tar.gz
+[2024-05-02 01:36:40] INFO root fetch - processPackages [jsonui]: Downloading https://files.pythonhosted.org/packages/0d/d3/ec68abcf92e144e0d280cb5f6d4deaf7e658d1882edfe9b8d2d89f685b09/jsonui-0.2.tar.gz
+[2024-05-02 01:36:40] INFO root fetch - processPackages [jsonui]: executing diffoscope
+[2024-05-02 01:36:40] INFO root fetch - processPackages [jsonui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonui-0.1.tar.gz tmp/jsonui-0.2.tar.gz --markdown 20240502/j/jsonui/0.1-0.2/README.md --exclude *.pyd
+[2024-05-02 01:36:40] INFO root fetch - processPackages [jump-portrait]: Downloading https://files.pythonhosted.org/packages/61/63/2c38b3196b41f06e39006119df771803c20b574e12af3206903ae2ffb93c/jump_portrait-0.0.8.tar.gz
+[2024-05-02 01:36:40] INFO root fetch - processPackages [jump-portrait]: executing diffoscope
+[2024-05-02 01:36:40] INFO root fetch - processPackages [jump-portrait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jump_portrait-0.0.7.tar.gz tmp/jump_portrait-0.0.8.tar.gz --markdown 20240502/j/jump-portrait/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-02 01:36:40] INFO root fetch - processPackages [jsonui]: Remove: archive file [/home/abi/fetcher/tmp/jsonui-0.1.tar.gz]
+[2024-05-02 01:36:40] INFO root fetch - processPackages [jsonui]: Remove: archive file [/home/abi/fetcher/tmp/jsonui-0.2.tar.gz]
+[2024-05-02 01:36:40] INFO root fetch - main [MainThread]: End processing [jsonui]: success
+[2024-05-02 01:36:40] INFO root fetch - processPackages [jump-portrait]: Remove: archive file [/home/abi/fetcher/tmp/jump_portrait-0.0.7.tar.gz]
+[2024-05-02 01:36:40] INFO root fetch - processPackages [jump-portrait]: Remove: archive file [/home/abi/fetcher/tmp/jump_portrait-0.0.8.tar.gz]
+[2024-05-02 01:36:40] INFO root fetch - main [MainThread]: End processing [jump-portrait]: success
+[2024-05-02 01:36:40] INFO root fetch - main [MainThread]: Store serial: [23023569]
