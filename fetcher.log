@@ -1228,3 +1228,36 @@
 [2024-05-02 01:08:23] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240430.tar.gz]
 [2024-05-02 01:08:23] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-05-02 01:08:23] INFO root fetch - main [MainThread]: Store serial: [23023364]
+[2024-05-02 01:10:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023364]
+[2024-05-02 01:10:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 01:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-google-bigtable
+[2024-05-02 01:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-google-datastore
+[2024-05-02 01:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certbot-filecopy-installer
+[2024-05-02 01:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: broad-babel
+[2024-05-02 01:10:32] INFO root fetch - processPackages [langchain-google-datastore]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-02 01:10:32] INFO root fetch - processPackages [langchain-google-bigtable]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-02 01:10:32] WARNING root fetch - processPackages [certbot-filecopy-installer]: Skipping, unable to determine old version
+[2024-05-02 01:10:32] INFO root fetch - main [MainThread]: End processing [certbot-filecopy-installer] error
+[2024-05-02 01:10:32] INFO root fetch - processPackages [broad-babel]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 01:10:33] INFO root fetch - processPackages [langchain-google-bigtable]: Downloading https://files.pythonhosted.org/packages/c9/3c/95153e47ad4ad6144fe08fd5ea984ba924488cc4a36530c730233b9cd9a7/langchain_google_bigtable-0.2.0-py3-none-any.whl
+[2024-05-02 01:10:33] INFO root fetch - processPackages [langchain-google-datastore]: Downloading https://files.pythonhosted.org/packages/1c/dd/b8d31fb36f4ac05e70cc038cc1df570f523b5b50ef21d67d16640240d168/langchain_google_datastore-0.1.2-py3-none-any.whl
+[2024-05-02 01:10:33] INFO root fetch - processPackages [broad-babel]: Downloading https://files.pythonhosted.org/packages/c2/52/ea99ca547213e6c3abaad749fb0d2c7920221401bf654a63d3bbb65d56d4/broad_babel-0.1.8.tar.gz
+[2024-05-02 01:10:33] INFO root fetch - processPackages [langchain-google-datastore]: Downloading https://files.pythonhosted.org/packages/3e/92/e00ec7fa02e288db29a4998ff7d8f6d86f2f48fd00cbd3385c33f679b241/langchain_google_datastore-0.2.0-py3-none-any.whl
+[2024-05-02 01:10:33] INFO root fetch - processPackages [langchain-google-bigtable]: Downloading https://files.pythonhosted.org/packages/5f/b6/16ead2073ccd643bc0311480a6cade29b23a9186d1fb8ed456b2f5fb2994/langchain_google_bigtable-0.2.1-py3-none-any.whl
+[2024-05-02 01:10:33] INFO root fetch - processPackages [langchain-google-datastore]: executing diffoscope
+[2024-05-02 01:10:33] INFO root fetch - processPackages [langchain-google-datastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_google_datastore-0.1.2-py3-none-any.whl.zip tmp/langchain_google_datastore-0.2.0-py3-none-any.whl.zip --markdown 20240502/l/langchain-google-datastore/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-02 01:10:33] INFO root fetch - processPackages [langchain-google-bigtable]: executing diffoscope
+[2024-05-02 01:10:33] INFO root fetch - processPackages [langchain-google-bigtable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_google_bigtable-0.2.0-py3-none-any.whl.zip tmp/langchain_google_bigtable-0.2.1-py3-none-any.whl.zip --markdown 20240502/l/langchain-google-bigtable/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-02 01:10:33] INFO root fetch - processPackages [broad-babel]: Downloading https://files.pythonhosted.org/packages/f1/40/6158feafa284056fb417486acbcce8a1a84a7752e77f900820d3c8944ed8/broad_babel-0.1.9.tar.gz
+[2024-05-02 01:10:33] INFO root fetch - processPackages [broad-babel]: executing diffoscope
+[2024-05-02 01:10:33] INFO root fetch - processPackages [broad-babel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/broad_babel-0.1.8.tar.gz tmp/broad_babel-0.1.9.tar.gz --markdown 20240502/b/broad-babel/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 01:10:34] INFO root fetch - processPackages [langchain-google-datastore]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_datastore-0.1.2-py3-none-any.whl.zip]
+[2024-05-02 01:10:34] INFO root fetch - processPackages [langchain-google-datastore]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_datastore-0.2.0-py3-none-any.whl.zip]
+[2024-05-02 01:10:34] INFO root fetch - main [MainThread]: End processing [langchain-google-datastore]: success
+[2024-05-02 01:10:34] INFO root fetch - processPackages [langchain-google-bigtable]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_bigtable-0.2.0-py3-none-any.whl.zip]
+[2024-05-02 01:10:34] INFO root fetch - processPackages [langchain-google-bigtable]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_bigtable-0.2.1-py3-none-any.whl.zip]
+[2024-05-02 01:10:34] INFO root fetch - main [MainThread]: End processing [langchain-google-bigtable]: success
+[2024-05-02 01:10:34] INFO root fetch - processPackages [broad-babel]: Remove: archive file [/home/abi/fetcher/tmp/broad_babel-0.1.8.tar.gz]
+[2024-05-02 01:10:34] INFO root fetch - processPackages [broad-babel]: Remove: archive file [/home/abi/fetcher/tmp/broad_babel-0.1.9.tar.gz]
+[2024-05-02 01:10:34] INFO root fetch - main [MainThread]: End processing [broad-babel]: success
+[2024-05-02 01:10:34] INFO root fetch - main [MainThread]: Store serial: [23023376]
