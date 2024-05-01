@@ -884,3 +884,78 @@
 [2024-05-02 00:50:53] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.9.0.tar.gz]
 [2024-05-02 00:50:53] INFO root fetch - main [MainThread]: End processing [honeybee-core]: success
 [2024-05-02 00:50:53] INFO root fetch - main [MainThread]: Store serial: [23023199]
+[2024-05-02 00:52:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023199]
+[2024-05-02 00:53:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hltv-async-api
+[2024-05-02 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ladybug-comfort
+[2024-05-02 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cutseq
+[2024-05-02 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: windmill-api
+[2024-05-02 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: positional-vectorizer
+[2024-05-02 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crytic-compilers
+[2024-05-02 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wmill
+[2024-05-02 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wmill-pg
+[2024-05-02 00:53:02] INFO root fetch - processPackages [crytic-compilers]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 00:53:02] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-02 00:53:02] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-02 00:53:02] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-02 00:53:02] INFO root fetch - processPackages [positional-vectorizer]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-02 00:53:02] INFO root fetch - processPackages [hltv-async-api]: New version: [0.8.0b1] Old Version: [0.8.0b0]
+[2024-05-02 00:53:02] INFO root fetch - processPackages [cutseq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 00:53:02] INFO root fetch - processPackages [ladybug-comfort]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 00:53:02] INFO root fetch - processPackages [crytic-compilers]: Downloading https://files.pythonhosted.org/packages/05/91/0a0189ef1664580a2696e16df84cc33953e0015e81cc5d9d9b5e4b4c79e3/crytic-compilers-0.3.8.tar.gz
+[2024-05-02 00:53:02] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-05-02 00:53:02] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-05-02 00:53:02] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-05-02 00:53:02] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/dc/28/cece42913317b73be0259cce2ecddda667daf23fb879c37ff0d293767b62/hltv_async_api-0.8.0b0.tar.gz
+[2024-05-02 00:53:02] INFO root fetch - processPackages [positional-vectorizer]: Downloading https://files.pythonhosted.org/packages/a3/4e/c616ab838e083cffb4e8a0072e9154a32354b48348e6ba8769622f99e7fd/positional-vectorizer-0.0.1.tar.gz
+[2024-05-02 00:53:02] INFO root fetch - processPackages [crytic-compilers]: Downloading https://files.pythonhosted.org/packages/47/74/c9ff4f14ac01a3c3dc251184a1205b1e56bd27ebe83b2e160241f53d1329/crytic-compilers-0.3.9.tar.gz
+[2024-05-02 00:53:02] INFO root fetch - processPackages [ladybug-comfort]: Downloading https://files.pythonhosted.org/packages/6a/bf/8102b0e33435882b5600b8c0d7b5ebb92e379d665f3767b706dce6bdd2d3/ladybug-comfort-0.9.8.tar.gz
+[2024-05-02 00:53:02] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-05-02 00:53:02] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-05-02 00:53:02] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/95/33/6984c0732c17eb925be43f23c0c27167392d2900fcd21ebf93d9b68f6c2a/cutseq-0.0.8.tar.gz
+[2024-05-02 00:53:02] INFO root fetch - processPackages [crytic-compilers]: executing diffoscope
+[2024-05-02 00:53:02] INFO root fetch - processPackages [crytic-compilers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crytic-compilers-0.3.8.tar.gz tmp/crytic-compilers-0.3.9.tar.gz --markdown 20240502/c/crytic-compilers/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 00:53:02] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-05-02 00:53:02] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-05-02 00:53:02] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240502/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-02 00:53:02] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-05-02 00:53:02] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240502/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-02 00:53:02] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-05-02 00:53:02] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240502/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-02 00:53:02] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/6e/2b/c8dc4af0fe6ead9704e7c2f648381d3c14e1b94788b3226b48c813785f12/hltv_async_api-0.8.0b1.tar.gz
+[2024-05-02 00:53:02] INFO root fetch - processPackages [positional-vectorizer]: Downloading https://files.pythonhosted.org/packages/29/48/d8cb1df48dccab52b0d74215cd1bd4eec735d75c71f775424cd12b641d48/positional_vectorizer-0.0.2.tar.gz
+[2024-05-02 00:53:02] INFO root fetch - processPackages [positional-vectorizer]: executing diffoscope
+[2024-05-02 00:53:02] INFO root fetch - processPackages [positional-vectorizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/positional-vectorizer-0.0.1.tar.gz tmp/positional_vectorizer-0.0.2.tar.gz --markdown 20240502/p/positional-vectorizer/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-02 00:53:02] INFO root fetch - processPackages [hltv-async-api]: executing diffoscope
+[2024-05-02 00:53:02] INFO root fetch - processPackages [hltv-async-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hltv_async_api-0.8.0b0.tar.gz tmp/hltv_async_api-0.8.0b1.tar.gz --markdown 20240502/h/hltv-async-api/0.8.0b0-0.8.0b1/README.md --exclude *.pyd
+[2024-05-02 00:53:03] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/e5/82/45b103e58b439dac0cf4c7f6ef6957633721ec0f4553abfabba5ed961a0f/cutseq-0.0.9.tar.gz
+[2024-05-02 00:53:03] INFO root fetch - processPackages [ladybug-comfort]: Downloading https://files.pythonhosted.org/packages/01/02/b871500d4bb81f18c253d98ce272a040dfa679de4682eb2f66a1f039c17a/ladybug-comfort-0.9.9.tar.gz
+[2024-05-02 00:53:03] INFO root fetch - processPackages [cutseq]: executing diffoscope
+[2024-05-02 00:53:03] INFO root fetch - processPackages [cutseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutseq-0.0.8.tar.gz tmp/cutseq-0.0.9.tar.gz --markdown 20240502/c/cutseq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 00:53:03] INFO root fetch - processPackages [ladybug-comfort]: executing diffoscope
+[2024-05-02 00:53:03] INFO root fetch - processPackages [ladybug-comfort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-comfort-0.9.8.tar.gz tmp/ladybug-comfort-0.9.9.tar.gz --markdown 20240502/l/ladybug-comfort/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 00:53:03] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-05-02 00:53:03] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-05-02 00:53:03] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-05-02 00:53:03] INFO root fetch - processPackages [crytic-compilers]: Remove: archive file [/home/abi/fetcher/tmp/crytic-compilers-0.3.8.tar.gz]
+[2024-05-02 00:53:03] INFO root fetch - processPackages [crytic-compilers]: Remove: archive file [/home/abi/fetcher/tmp/crytic-compilers-0.3.9.tar.gz]
+[2024-05-02 00:53:03] INFO root fetch - main [MainThread]: End processing [crytic-compilers]: success
+[2024-05-02 00:53:03] INFO root fetch - processPackages [positional-vectorizer]: Remove: archive file [/home/abi/fetcher/tmp/positional-vectorizer-0.0.1.tar.gz]
+[2024-05-02 00:53:03] INFO root fetch - processPackages [positional-vectorizer]: Remove: archive file [/home/abi/fetcher/tmp/positional_vectorizer-0.0.2.tar.gz]
+[2024-05-02 00:53:03] INFO root fetch - main [MainThread]: End processing [positional-vectorizer]: success
+[2024-05-02 00:53:03] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-05-02 00:53:03] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-05-02 00:53:03] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-05-02 00:53:03] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.8.tar.gz]
+[2024-05-02 00:53:03] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.9.tar.gz]
+[2024-05-02 00:53:03] INFO root fetch - main [MainThread]: End processing [cutseq]: success
+[2024-05-02 00:53:03] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.8.0b0.tar.gz]
+[2024-05-02 00:53:03] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.8.0b1.tar.gz]
+[2024-05-02 00:53:03] INFO root fetch - main [MainThread]: End processing [hltv-async-api]: success
+[2024-05-02 00:53:04] INFO root fetch - processPackages [ladybug-comfort]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-comfort-0.9.8.tar.gz]
+[2024-05-02 00:53:04] INFO root fetch - processPackages [ladybug-comfort]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-comfort-0.9.9.tar.gz]
+[2024-05-02 00:53:04] INFO root fetch - main [MainThread]: End processing [ladybug-comfort]: success
+[2024-05-02 00:53:06] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-05-02 00:53:06] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-05-02 00:53:06] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-05-02 00:53:06] INFO root fetch - main [MainThread]: Store serial: [23023222]
