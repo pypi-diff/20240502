@@ -1468,3 +1468,42 @@
 [2024-05-02 01:23:38] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-05-02 01:23:38] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-05-02 01:23:38] INFO root fetch - main [MainThread]: Store serial: [23023447]
+[2024-05-02 01:25:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023447]
+[2024-05-02 01:25:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 01:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wmill
+[2024-05-02 01:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wmill-pg
+[2024-05-02 01:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fintoolkit
+[2024-05-02 01:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vbimagetotext
+[2024-05-02 01:25:46] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-02 01:25:46] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-02 01:25:46] INFO root fetch - processPackages [fintoolkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 01:25:46] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-02 01:25:46] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-05-02 01:25:46] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-05-02 01:25:46] INFO root fetch - processPackages [fintoolkit]: Downloading https://files.pythonhosted.org/packages/30/c7/f8808d714627060146bff74e4d4a4626b5bc25cdfb7f49ca939adb661d41/fintoolkit-0.0.8.tar.gz
+[2024-05-02 01:25:47] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/bc/44/d832f220a3b2b31cb64ba4226f142793889b7b4dda1f64aaae632b4542cf/vbimagetotext-0.1.2.tar.gz
+[2024-05-02 01:25:47] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-05-02 01:25:47] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-05-02 01:25:47] INFO root fetch - processPackages [fintoolkit]: Downloading https://files.pythonhosted.org/packages/8d/ac/78dd93cdfc826c676f15d8cf527d9f20a32323253c96c619689efd9ca01b/fintoolkit-0.0.9.tar.gz
+[2024-05-02 01:25:47] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-05-02 01:25:47] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240502/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-02 01:25:47] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-05-02 01:25:47] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240502/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-02 01:25:47] INFO root fetch - processPackages [fintoolkit]: executing diffoscope
+[2024-05-02 01:25:47] INFO root fetch - processPackages [fintoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintoolkit-0.0.8.tar.gz tmp/fintoolkit-0.0.9.tar.gz --markdown 20240502/f/fintoolkit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 01:25:47] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/71/1b/0a60429a51c5ac615e18e6073d65d442bd2b40215eff529f110e7c218575/vbimagetotext-0.1.3.tar.gz
+[2024-05-02 01:25:47] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-02 01:25:47] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.2.tar.gz tmp/vbimagetotext-0.1.3.tar.gz --markdown 20240502/v/vbimagetotext/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-02 01:25:47] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-05-02 01:25:47] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-05-02 01:25:47] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-05-02 01:25:47] INFO root fetch - processPackages [fintoolkit]: Remove: archive file [/home/abi/fetcher/tmp/fintoolkit-0.0.8.tar.gz]
+[2024-05-02 01:25:47] INFO root fetch - processPackages [fintoolkit]: Remove: archive file [/home/abi/fetcher/tmp/fintoolkit-0.0.9.tar.gz]
+[2024-05-02 01:25:47] INFO root fetch - main [MainThread]: End processing [fintoolkit]: success
+[2024-05-02 01:25:48] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-05-02 01:25:48] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-05-02 01:25:48] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-05-02 01:25:48] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.2.tar.gz]
+[2024-05-02 01:25:48] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.3.tar.gz]
+[2024-05-02 01:25:48] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-02 01:25:48] INFO root fetch - main [MainThread]: Store serial: [23023463]
