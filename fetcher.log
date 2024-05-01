@@ -1845,3 +1845,29 @@
 [2024-05-02 01:53:59] INFO root fetch - processPackages [latch-cloud-clients]: Remove: archive file [/home/abi/fetcher/tmp/latch_cloud_clients-0.1.9.tar.gz]
 [2024-05-02 01:53:59] INFO root fetch - main [MainThread]: End processing [latch-cloud-clients]: success
 [2024-05-02 01:53:59] INFO root fetch - main [MainThread]: Store serial: [23023650]
+[2024-05-02 01:56:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023650]
+[2024-05-02 01:56:07] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-02 01:58:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023653]
+[2024-05-02 01:58:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 01:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypicpay
+[2024-05-02 01:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edsl
+[2024-05-02 01:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stock-analysis-package
+[2024-05-02 01:58:14] WARNING root fetch - processPackages [stock-analysis-package]: Skipping, unable to determine old version
+[2024-05-02 01:58:14] INFO root fetch - main [MainThread]: End processing [stock-analysis-package] error
+[2024-05-02 01:58:14] INFO root fetch - processPackages [pypicpay]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-02 01:58:14] INFO root fetch - processPackages [edsl]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 01:58:14] INFO root fetch - processPackages [edsl]: Downloading https://files.pythonhosted.org/packages/a7/b4/ca2ddafd1ecd31e28b2974e932e58274993e658c949b77ae37d057d7c856/edsl-0.1.8.tar.gz
+[2024-05-02 01:58:14] INFO root fetch - processPackages [pypicpay]: Downloading https://files.pythonhosted.org/packages/bf/14/58f15845d3ccd5ea692bf558f95ac4b251ce1e1907b8818fe3480ab8ec79/pypicpay-0.4.7.tar.gz
+[2024-05-02 01:58:14] INFO root fetch - processPackages [pypicpay]: Downloading https://files.pythonhosted.org/packages/95/38/65262a6902c2d18524ecc3c34318478ea89a755912d0b28cd0bbaac51589/pypicpay-0.4.8.tar.gz
+[2024-05-02 01:58:14] INFO root fetch - processPackages [edsl]: Downloading https://files.pythonhosted.org/packages/f7/d4/f0e4527adeb00ef9119790d25c4faad0d3fa62ee7c189076b9b09f11e7f4/edsl-0.1.9.tar.gz
+[2024-05-02 01:58:14] INFO root fetch - processPackages [pypicpay]: executing diffoscope
+[2024-05-02 01:58:14] INFO root fetch - processPackages [pypicpay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypicpay-0.4.7.tar.gz tmp/pypicpay-0.4.8.tar.gz --markdown 20240502/p/pypicpay/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-02 01:58:14] INFO root fetch - processPackages [edsl]: executing diffoscope
+[2024-05-02 01:58:14] INFO root fetch - processPackages [edsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edsl-0.1.8.tar.gz tmp/edsl-0.1.9.tar.gz --markdown 20240502/e/edsl/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 01:58:15] INFO root fetch - processPackages [pypicpay]: Remove: archive file [/home/abi/fetcher/tmp/pypicpay-0.4.7.tar.gz]
+[2024-05-02 01:58:15] INFO root fetch - processPackages [pypicpay]: Remove: archive file [/home/abi/fetcher/tmp/pypicpay-0.4.8.tar.gz]
+[2024-05-02 01:58:15] INFO root fetch - main [MainThread]: End processing [pypicpay]: success
+[2024-05-02 01:58:15] INFO root fetch - processPackages [edsl]: Remove: archive file [/home/abi/fetcher/tmp/edsl-0.1.8.tar.gz]
+[2024-05-02 01:58:15] INFO root fetch - processPackages [edsl]: Remove: archive file [/home/abi/fetcher/tmp/edsl-0.1.9.tar.gz]
+[2024-05-02 01:58:15] INFO root fetch - main [MainThread]: End processing [edsl]: success
+[2024-05-02 01:58:15] INFO root fetch - main [MainThread]: Store serial: [23023664]
