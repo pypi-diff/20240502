@@ -511,3 +511,15 @@
 [2024-05-02 00:28:41] INFO root fetch - main [MainThread]: End processing [qai-scraper]: success
 [2024-05-02 00:28:41] INFO root fetch - main [MainThread]: End processing [qai-scraper]: success
 [2024-05-02 00:28:41] INFO root fetch - main [MainThread]: Store serial: [23023031]
+[2024-05-02 00:30:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023031]
+[2024-05-02 00:30:49] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 00:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyiotown
+[2024-05-02 00:30:49] INFO root fetch - processPackages [pyiotown]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 00:30:50] INFO root fetch - processPackages [pyiotown]: Downloading https://files.pythonhosted.org/packages/88/0a/573f839549679aba83d944b21943eb1d1e559c13f11ecc6f4cc64bdff708/pyiotown-0.5.1-py3-none-any.whl
+[2024-05-02 00:30:50] INFO root fetch - processPackages [pyiotown]: Downloading https://files.pythonhosted.org/packages/37/88/cb27aeb5de06de9d036c93be893f74c933bc762a4dc2a3493aef98dd5fc7/pyiotown-0.5.2-py3-none-any.whl
+[2024-05-02 00:30:50] INFO root fetch - processPackages [pyiotown]: executing diffoscope
+[2024-05-02 00:30:50] INFO root fetch - processPackages [pyiotown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiotown-0.5.1-py3-none-any.whl.zip tmp/pyiotown-0.5.2-py3-none-any.whl.zip --markdown 20240502/p/pyiotown/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 00:30:51] INFO root fetch - processPackages [pyiotown]: Remove: archive file [/home/abi/fetcher/tmp/pyiotown-0.5.1-py3-none-any.whl.zip]
+[2024-05-02 00:30:51] INFO root fetch - processPackages [pyiotown]: Remove: archive file [/home/abi/fetcher/tmp/pyiotown-0.5.2-py3-none-any.whl.zip]
+[2024-05-02 00:30:51] INFO root fetch - main [MainThread]: End processing [pyiotown]: success
+[2024-05-02 00:30:51] INFO root fetch - main [MainThread]: Store serial: [23023036]
