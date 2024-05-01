@@ -1770,3 +1770,33 @@
 [2024-05-02 01:47:29] INFO root fetch - processPackages [pyson-data]: Remove: archive file [/home/abi/fetcher/tmp/pyson_data-0.0.2.tar.gz]
 [2024-05-02 01:47:29] INFO root fetch - main [MainThread]: End processing [pyson-data]: success
 [2024-05-02 01:47:29] INFO root fetch - main [MainThread]: Store serial: [23023614]
+[2024-05-02 01:49:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023614]
+[2024-05-02 01:49:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 01:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osmnx
+[2024-05-02 01:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ratio-delta
+[2024-05-02 01:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: corvic-engine
+[2024-05-02 01:49:38] INFO root fetch - processPackages [ratio-delta]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-02 01:49:38] INFO root fetch - processPackages [osmnx]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-02 01:49:38] INFO root fetch - processPackages [corvic-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 01:49:38] INFO root fetch - processPackages [ratio-delta]: Downloading https://files.pythonhosted.org/packages/0b/19/0a53a15507ddbb57381925a2f870de7ea5e7a72ece8cf575b46c3484bdf8/ratio_delta-1.0.0.tar.gz
+[2024-05-02 01:49:38] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/28/81/73d66a8b87408209ecb35a7c2bc6678eed7152cd47281836f38fe9d103aa/corvic_engine-0.1.8.tar.gz
+[2024-05-02 01:49:38] INFO root fetch - processPackages [osmnx]: Downloading https://files.pythonhosted.org/packages/2e/85/e33eb7f8e09b07bb2ce3f77c4c676f75b6e1e859aadba6677a733550f4fc/osmnx-1.9.2.tar.gz
+[2024-05-02 01:49:38] INFO root fetch - processPackages [ratio-delta]: Downloading https://files.pythonhosted.org/packages/31/2a/d6f6943f4cbeeb7b61826119675020dd31749a39ae9ec0e202630b5eeb11/ratio_delta-1.0.1.tar.gz
+[2024-05-02 01:49:38] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/09/86/d913022f7e6621ce441c8b834aa1f7c0a01a99f249b2e74671b9da6c2acc/corvic_engine-0.1.9.tar.gz
+[2024-05-02 01:49:38] INFO root fetch - processPackages [osmnx]: Downloading https://files.pythonhosted.org/packages/7b/03/ed9f806cb980236b70973ddae54ae931d2022de73941d17941569ca1562a/osmnx-1.9.3.tar.gz
+[2024-05-02 01:49:38] INFO root fetch - processPackages [ratio-delta]: executing diffoscope
+[2024-05-02 01:49:38] INFO root fetch - processPackages [ratio-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ratio_delta-1.0.0.tar.gz tmp/ratio_delta-1.0.1.tar.gz --markdown 20240502/r/ratio-delta/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-02 01:49:38] INFO root fetch - processPackages [osmnx]: executing diffoscope
+[2024-05-02 01:49:38] INFO root fetch - processPackages [osmnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmnx-1.9.2.tar.gz tmp/osmnx-1.9.3.tar.gz --markdown 20240502/o/osmnx/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-02 01:49:38] INFO root fetch - processPackages [corvic-engine]: executing diffoscope
+[2024-05-02 01:49:38] INFO root fetch - processPackages [corvic-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corvic_engine-0.1.8.tar.gz tmp/corvic_engine-0.1.9.tar.gz --markdown 20240502/c/corvic-engine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 01:49:39] INFO root fetch - processPackages [ratio-delta]: Remove: archive file [/home/abi/fetcher/tmp/ratio_delta-1.0.0.tar.gz]
+[2024-05-02 01:49:39] INFO root fetch - processPackages [ratio-delta]: Remove: archive file [/home/abi/fetcher/tmp/ratio_delta-1.0.1.tar.gz]
+[2024-05-02 01:49:39] INFO root fetch - main [MainThread]: End processing [ratio-delta]: success
+[2024-05-02 01:49:39] INFO root fetch - processPackages [osmnx]: Remove: archive file [/home/abi/fetcher/tmp/osmnx-1.9.2.tar.gz]
+[2024-05-02 01:49:39] INFO root fetch - processPackages [osmnx]: Remove: archive file [/home/abi/fetcher/tmp/osmnx-1.9.3.tar.gz]
+[2024-05-02 01:49:39] INFO root fetch - main [MainThread]: End processing [osmnx]: success
+[2024-05-02 01:49:39] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.8.tar.gz]
+[2024-05-02 01:49:39] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.9.tar.gz]
+[2024-05-02 01:49:39] INFO root fetch - main [MainThread]: End processing [corvic-engine]: success
+[2024-05-02 01:49:39] INFO root fetch - main [MainThread]: Store serial: [23023628]
