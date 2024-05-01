@@ -178,3 +178,42 @@
 [2024-05-02 00:10:15] INFO root fetch - processPackages [knoxnl]: Remove: archive file [/home/abi/fetcher/tmp/knoxnl-4.3.tar.gz]
 [2024-05-02 00:10:15] INFO root fetch - main [MainThread]: End processing [knoxnl]: success
 [2024-05-02 00:10:15] INFO root fetch - main [MainThread]: Store serial: [23022860]
+[2024-05-02 00:12:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23022860]
+[2024-05-02 00:12:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 00:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudflare-dynamic-dns-client
+[2024-05-02 00:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentient-switchblade
+[2024-05-02 00:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: instructor
+[2024-05-02 00:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vollseg-napari-trackmate
+[2024-05-02 00:12:24] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-02 00:12:24] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Downloading https://files.pythonhosted.org/packages/86/ca/ebb8ae190f254b441ee72b773ca06023c240aeed71701d3f2f024633de26/cloudflare-dynamic-dns-client-0.2.0.tar.gz
+[2024-05-02 00:12:24] INFO root fetch - processPackages [instructor]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-02 00:12:24] INFO root fetch - processPackages [sentient-switchblade]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-02 00:12:24] INFO root fetch - processPackages [vollseg-napari-trackmate]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-05-02 00:12:24] INFO root fetch - processPackages [sentient-switchblade]: Downloading https://files.pythonhosted.org/packages/7a/5d/3cb41ed3f21b9d5c277b344dbbdfcf33019fc48f07c82e4a4ae0ec4ecb47/sentient_switchblade-0.3.5.tar.gz
+[2024-05-02 00:12:24] INFO root fetch - processPackages [instructor]: Downloading https://files.pythonhosted.org/packages/ac/5e/9ed1da1a37115b17b1368608db7fa7e9cde336a7773f2f52b3af76da3009/instructor-1.2.4.tar.gz
+[2024-05-02 00:12:24] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/ea/8a/19762182e6f1d2e7df76666f393d092770d5c8af90d489eade77e61a6c4a/vollseg_napari_trackmate-2.5.8.tar.gz
+[2024-05-02 00:12:24] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Downloading https://files.pythonhosted.org/packages/c3/1a/ec37d896498aeec8b9a904f6397321950afc9ccb59faa04924ba08267499/cloudflare-dynamic-dns-client-0.2.1.tar.gz
+[2024-05-02 00:12:24] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: executing diffoscope
+[2024-05-02 00:12:24] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflare-dynamic-dns-client-0.2.0.tar.gz tmp/cloudflare-dynamic-dns-client-0.2.1.tar.gz --markdown 20240502/c/cloudflare-dynamic-dns-client/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-02 00:12:24] INFO root fetch - processPackages [sentient-switchblade]: Downloading https://files.pythonhosted.org/packages/78/70/7a943c97fabcd3bcc1d7318aeb5c50437da3b42f7d57405d126f96e8cdf4/sentient_switchblade-0.3.6.tar.gz
+[2024-05-02 00:12:24] INFO root fetch - processPackages [instructor]: Downloading https://files.pythonhosted.org/packages/a3/3a/9d0d251e40ff552d8c7cbd16b0a7f71a6e648f93073906e274b5de0b66cc/instructor-1.2.5.tar.gz
+[2024-05-02 00:12:24] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/24/11/3511b30e22d55e9927f30427aa3c4404876d6c2f557fff532679d221ceb1/vollseg_napari_trackmate-2.5.9.tar.gz
+[2024-05-02 00:12:25] INFO root fetch - processPackages [sentient-switchblade]: executing diffoscope
+[2024-05-02 00:12:25] INFO root fetch - processPackages [sentient-switchblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentient_switchblade-0.3.5.tar.gz tmp/sentient_switchblade-0.3.6.tar.gz --markdown 20240502/s/sentient-switchblade/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-02 00:12:25] INFO root fetch - processPackages [instructor]: executing diffoscope
+[2024-05-02 00:12:25] INFO root fetch - processPackages [instructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructor-1.2.4.tar.gz tmp/instructor-1.2.5.tar.gz --markdown 20240502/i/instructor/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-02 00:12:25] INFO root fetch - processPackages [vollseg-napari-trackmate]: executing diffoscope
+[2024-05-02 00:12:25] INFO root fetch - processPackages [vollseg-napari-trackmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg_napari_trackmate-2.5.8.tar.gz tmp/vollseg_napari_trackmate-2.5.9.tar.gz --markdown 20240502/v/vollseg-napari-trackmate/2.5.8-2.5.9/README.md --exclude *.pyd
+[2024-05-02 00:12:25] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-dynamic-dns-client-0.2.0.tar.gz]
+[2024-05-02 00:12:25] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-dynamic-dns-client-0.2.1.tar.gz]
+[2024-05-02 00:12:25] INFO root fetch - main [MainThread]: End processing [cloudflare-dynamic-dns-client]: success
+[2024-05-02 00:12:25] INFO root fetch - processPackages [sentient-switchblade]: Remove: archive file [/home/abi/fetcher/tmp/sentient_switchblade-0.3.5.tar.gz]
+[2024-05-02 00:12:25] INFO root fetch - processPackages [sentient-switchblade]: Remove: archive file [/home/abi/fetcher/tmp/sentient_switchblade-0.3.6.tar.gz]
+[2024-05-02 00:12:25] INFO root fetch - main [MainThread]: End processing [sentient-switchblade]: success
+[2024-05-02 00:12:25] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg_napari_trackmate-2.5.8.tar.gz]
+[2024-05-02 00:12:25] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg_napari_trackmate-2.5.9.tar.gz]
+[2024-05-02 00:12:25] INFO root fetch - main [MainThread]: End processing [vollseg-napari-trackmate]: success
+[2024-05-02 00:12:25] INFO root fetch - processPackages [instructor]: Remove: archive file [/home/abi/fetcher/tmp/instructor-1.2.4.tar.gz]
+[2024-05-02 00:12:25] INFO root fetch - processPackages [instructor]: Remove: archive file [/home/abi/fetcher/tmp/instructor-1.2.5.tar.gz]
+[2024-05-02 00:12:25] INFO root fetch - main [MainThread]: End processing [instructor]: success
+[2024-05-02 00:12:25] INFO root fetch - main [MainThread]: Store serial: [23022871]
