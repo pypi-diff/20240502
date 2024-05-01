@@ -1126,3 +1126,60 @@
 [2024-05-02 01:04:01] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.9.0.tar.gz]
 [2024-05-02 01:04:01] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
 [2024-05-02 01:04:01] INFO root fetch - main [MainThread]: Store serial: [23023327]
+[2024-05-02 01:06:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023327]
+[2024-05-02 01:06:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 01:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bygg
+[2024-05-02 01:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2024-05-02 01:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pm2
+[2024-05-02 01:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DreamCreator
+[2024-05-02 01:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-honeybee
+[2024-05-02 01:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: positional-vectorizer
+[2024-05-02 01:06:10] INFO root fetch - processPackages [DreamCreator]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-02 01:06:10] INFO root fetch - processPackages [pm2]: New version: [0.0.4.2] Old Version: [0.0.4.1]
+[2024-05-02 01:06:10] INFO root fetch - processPackages [positional-vectorizer]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-02 01:06:10] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240430] Old Version: [0.7.52b20240429]
+[2024-05-02 01:06:10] INFO root fetch - processPackages [bygg]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-02 01:06:10] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/10/12/661d0180ffa3ececbf07dd56dc4289f53555fa3ab99fb4f7d2e0d5a6aee8/DreamCreator-0.0.2.tar.gz
+[2024-05-02 01:06:10] INFO root fetch - processPackages [positional-vectorizer]: Downloading https://files.pythonhosted.org/packages/29/48/d8cb1df48dccab52b0d74215cd1bd4eec735d75c71f775424cd12b641d48/positional_vectorizer-0.0.2.tar.gz
+[2024-05-02 01:06:10] INFO root fetch - processPackages [pm2]: Downloading https://files.pythonhosted.org/packages/2f/ae/616d4c493ab36a3cbac3afb1a4071e62697f1638e449f52d3d0660a1d86e/pm2-0.0.4.1.tar.gz
+[2024-05-02 01:06:10] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-02 01:06:10] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/59/cc/541f2d73795cec072603d4f0b4bed2ddd60f33e857f0275289ed155113da/tmnt-0.7.52b20240429.tar.gz
+[2024-05-02 01:06:10] INFO root fetch - processPackages [bygg]: Downloading https://files.pythonhosted.org/packages/73/60/4d849fcb43e6b9d8a6be5b1b1d78cc5c1ca45a53562549b8a544f5ed1c1f/bygg-0.4.0.tar.gz
+[2024-05-02 01:06:10] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/ce/5b/787c1affed15428a245198f913e10c9c9549e15cba1ac2612165fbc490b9/DreamCreator-0.0.3.tar.gz
+[2024-05-02 01:06:10] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/b5/a0/c6742c4b1a93565a552f073a8cad3689b9e2edcf401d45bd9fddf0485a8d/lbt-honeybee-0.8.98.tar.gz
+[2024-05-02 01:06:10] INFO root fetch - processPackages [positional-vectorizer]: Downloading https://files.pythonhosted.org/packages/a3/ba/45f00108bbd04db8d0204012f2b40a52f81f0c718a3370e839a04072186c/positional_vectorizer-0.0.3.tar.gz
+[2024-05-02 01:06:10] INFO root fetch - processPackages [pm2]: Downloading https://files.pythonhosted.org/packages/ce/29/e9dc793c813b340f0945a72a40e2ecd195892b36fa4a377d9c101abf5197/pm2-0.0.4.2.tar.gz
+[2024-05-02 01:06:10] INFO root fetch - processPackages [DreamCreator]: executing diffoscope
+[2024-05-02 01:06:10] INFO root fetch - processPackages [DreamCreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DreamCreator-0.0.2.tar.gz tmp/DreamCreator-0.0.3.tar.gz --markdown 20240502/D/DreamCreator/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-02 01:06:10] INFO root fetch - processPackages [positional-vectorizer]: executing diffoscope
+[2024-05-02 01:06:10] INFO root fetch - processPackages [positional-vectorizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/positional_vectorizer-0.0.2.tar.gz tmp/positional_vectorizer-0.0.3.tar.gz --markdown 20240502/p/positional-vectorizer/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-02 01:06:10] INFO root fetch - processPackages [pm2]: executing diffoscope
+[2024-05-02 01:06:10] INFO root fetch - processPackages [pm2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm2-0.0.4.1.tar.gz tmp/pm2-0.0.4.2.tar.gz --markdown 20240502/p/pm2/0.0.4.1-0.0.4.2/README.md --exclude *.pyd
+[2024-05-02 01:06:10] INFO root fetch - processPackages [bygg]: Downloading https://files.pythonhosted.org/packages/a6/2e/949f7793918eb97ef7cc0743d045d232a07d742dfcf9356a4c8e304bcf30/bygg-0.4.1.tar.gz
+[2024-05-02 01:06:10] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/39/5c/92efa9344a7d0213097d317c9a3c2cd04277321b26746fd4efca783d511a/tmnt-0.7.52b20240430.tar.gz
+[2024-05-02 01:06:10] INFO root fetch - processPackages [bygg]: executing diffoscope
+[2024-05-02 01:06:10] INFO root fetch - processPackages [bygg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bygg-0.4.0.tar.gz tmp/bygg-0.4.1.tar.gz --markdown 20240502/b/bygg/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-02 01:06:10] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-02 01:06:10] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/f1/61/4f36e668d3e1767b0f4d921481ad087bec472a2afc14ea20f916e083c690/lbt-honeybee-0.8.99.tar.gz
+[2024-05-02 01:06:10] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240429.tar.gz tmp/tmnt-0.7.52b20240430.tar.gz --markdown 20240502/t/tmnt/0.7.52b20240429-0.7.52b20240430/README.md --exclude *.pyd
+[2024-05-02 01:06:10] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2024-05-02 01:06:10] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.8.98.tar.gz tmp/lbt-honeybee-0.8.99.tar.gz --markdown 20240502/l/lbt-honeybee/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-02 01:06:11] INFO root fetch - processPackages [pm2]: Remove: archive file [/home/abi/fetcher/tmp/pm2-0.0.4.1.tar.gz]
+[2024-05-02 01:06:11] INFO root fetch - processPackages [pm2]: Remove: archive file [/home/abi/fetcher/tmp/pm2-0.0.4.2.tar.gz]
+[2024-05-02 01:06:11] INFO root fetch - main [MainThread]: End processing [pm2]: success
+[2024-05-02 01:06:11] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.2.tar.gz]
+[2024-05-02 01:06:11] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.3.tar.gz]
+[2024-05-02 01:06:11] INFO root fetch - main [MainThread]: End processing [DreamCreator]: success
+[2024-05-02 01:06:11] INFO root fetch - processPackages [positional-vectorizer]: Remove: archive file [/home/abi/fetcher/tmp/positional_vectorizer-0.0.2.tar.gz]
+[2024-05-02 01:06:11] INFO root fetch - processPackages [positional-vectorizer]: Remove: archive file [/home/abi/fetcher/tmp/positional_vectorizer-0.0.3.tar.gz]
+[2024-05-02 01:06:11] INFO root fetch - main [MainThread]: End processing [positional-vectorizer]: success
+[2024-05-02 01:06:11] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240429.tar.gz]
+[2024-05-02 01:06:11] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240430.tar.gz]
+[2024-05-02 01:06:11] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-02 01:06:11] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.98.tar.gz]
+[2024-05-02 01:06:11] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.99.tar.gz]
+[2024-05-02 01:06:11] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2024-05-02 01:06:11] INFO root fetch - processPackages [bygg]: Remove: archive file [/home/abi/fetcher/tmp/bygg-0.4.0.tar.gz]
+[2024-05-02 01:06:11] INFO root fetch - processPackages [bygg]: Remove: archive file [/home/abi/fetcher/tmp/bygg-0.4.1.tar.gz]
+[2024-05-02 01:06:11] INFO root fetch - main [MainThread]: End processing [bygg]: success
+[2024-05-02 01:06:11] INFO root fetch - main [MainThread]: Store serial: [23023346]
