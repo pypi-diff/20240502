@@ -991,3 +991,60 @@
 [2024-05-02 00:57:23] INFO root fetch - processPackages [spatialprofilingtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/spatialprofilingtoolbox-0.9.2.tar.gz]
 [2024-05-02 00:57:23] INFO root fetch - main [MainThread]: End processing [spatialprofilingtoolbox]: success
 [2024-05-02 00:57:23] INFO root fetch - main [MainThread]: Store serial: [23023235]
+[2024-05-02 00:59:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023235]
+[2024-05-02 00:59:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 00:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: granian
+[2024-05-02 00:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: positional-vectorizer
+[2024-05-02 00:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytorch-lightning
+[2024-05-02 00:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lightning-fabric
+[2024-05-02 00:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lightning
+[2024-05-02 00:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightning-app
+[2024-05-02 00:59:33] INFO root fetch - processPackages [positional-vectorizer]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-02 00:59:33] INFO root fetch - processPackages [lightning-fabric]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-02 00:59:33] INFO root fetch - processPackages [positional-vectorizer]: Downloading https://files.pythonhosted.org/packages/a3/4e/c616ab838e083cffb4e8a0072e9154a32354b48348e6ba8769622f99e7fd/positional-vectorizer-0.0.1.tar.gz
+[2024-05-02 00:59:33] INFO root fetch - processPackages [lightning]: New version: [2.3.0.dev20240428] Old Version: [2.3.0.dev20240421]
+[2024-05-02 00:59:33] INFO root fetch - processPackages [lightning-app]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-02 00:59:33] INFO root fetch - processPackages [pytorch-lightning]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-02 00:59:33] INFO root fetch - processPackages [granian]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-02 00:59:33] INFO root fetch - processPackages [lightning-fabric]: Downloading https://files.pythonhosted.org/packages/90/ad/64bfdff4624db56f8773bb722b2ff25ea453fe7ad0719108ddae1bacea70/lightning-fabric-2.2.3.tar.gz
+[2024-05-02 00:59:33] INFO root fetch - processPackages [positional-vectorizer]: Downloading https://files.pythonhosted.org/packages/29/48/d8cb1df48dccab52b0d74215cd1bd4eec735d75c71f775424cd12b641d48/positional_vectorizer-0.0.2.tar.gz
+[2024-05-02 00:59:33] INFO root fetch - processPackages [lightning-app]: Downloading https://files.pythonhosted.org/packages/0f/87/86b2d8c507d59410290966eb0eaaeabf1cbf49bd403a6c59fb697fcd7108/lightning-app-2.2.3.tar.gz
+[2024-05-02 00:59:33] INFO root fetch - processPackages [lightning]: Downloading https://files.pythonhosted.org/packages/7d/47/5b93128416f0fef3f0c8ad717e0bf4eeb5b83e7319dd525381133bfcb551/lightning-2.3.0.dev20240421.tar.gz
+[2024-05-02 00:59:33] INFO root fetch - processPackages [pytorch-lightning]: Downloading https://files.pythonhosted.org/packages/b4/77/dc9a6b564fa565f33f4ed470473181cb9c983168df51dd4fac09ff762d0b/pytorch-lightning-2.2.3.tar.gz
+[2024-05-02 00:59:34] INFO root fetch - processPackages [granian]: Downloading https://files.pythonhosted.org/packages/db/e2/3d32e3e06f5d13ec7e963267b5356c62f047816a55d31f90fe810ebb18c4/granian-1.3.0.tar.gz
+[2024-05-02 00:59:34] INFO root fetch - processPackages [positional-vectorizer]: executing diffoscope
+[2024-05-02 00:59:34] INFO root fetch - processPackages [positional-vectorizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/positional-vectorizer-0.0.1.tar.gz tmp/positional_vectorizer-0.0.2.tar.gz --markdown 20240502/p/positional-vectorizer/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-02 00:59:34] INFO root fetch - processPackages [lightning-fabric]: Downloading https://files.pythonhosted.org/packages/d0/76/c1dc2da5f2e3d90ffa623ac42470326f35a6c73ca4ce56d1c73d71a473db/lightning-fabric-2.2.4.tar.gz
+[2024-05-02 00:59:34] INFO root fetch - processPackages [pytorch-lightning]: Downloading https://files.pythonhosted.org/packages/18/5f/9f614558415ebdbf491473b160d60516e92cec7dc8e4e91416b154a083a9/pytorch-lightning-2.2.4.tar.gz
+[2024-05-02 00:59:34] INFO root fetch - processPackages [granian]: Downloading https://files.pythonhosted.org/packages/fa/af/ee293fb0467df6db0b68f11440c1fd1062fc17692067e9f6fb46a1318a8d/granian-1.3.1.tar.gz
+[2024-05-02 00:59:34] INFO root fetch - processPackages [lightning-fabric]: executing diffoscope
+[2024-05-02 00:59:34] INFO root fetch - processPackages [lightning-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-fabric-2.2.3.tar.gz tmp/lightning-fabric-2.2.4.tar.gz --markdown 20240502/l/lightning-fabric/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-02 00:59:34] INFO root fetch - processPackages [pytorch-lightning]: executing diffoscope
+[2024-05-02 00:59:34] INFO root fetch - processPackages [pytorch-lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-lightning-2.2.3.tar.gz tmp/pytorch-lightning-2.2.4.tar.gz --markdown 20240502/p/pytorch-lightning/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-02 00:59:34] INFO root fetch - processPackages [lightning-app]: Downloading https://files.pythonhosted.org/packages/2a/e2/fb06e183b4cbaec09c0147c3448efcfac0ed652850aed1afec75c121b834/lightning-app-2.2.4.tar.gz
+[2024-05-02 00:59:34] INFO root fetch - processPackages [lightning]: Downloading https://files.pythonhosted.org/packages/76/22/d7c402bfc4d8c32b31b18da7cf9983ff7617531ffa48bdd63c6073e01423/lightning-2.3.0.dev20240428.tar.gz
+[2024-05-02 00:59:34] INFO root fetch - processPackages [granian]: executing diffoscope
+[2024-05-02 00:59:34] INFO root fetch - processPackages [granian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granian-1.3.0.tar.gz tmp/granian-1.3.1.tar.gz --markdown 20240502/g/granian/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-02 00:59:34] INFO root fetch - processPackages [positional-vectorizer]: Remove: archive file [/home/abi/fetcher/tmp/positional-vectorizer-0.0.1.tar.gz]
+[2024-05-02 00:59:34] INFO root fetch - processPackages [positional-vectorizer]: Remove: archive file [/home/abi/fetcher/tmp/positional_vectorizer-0.0.2.tar.gz]
+[2024-05-02 00:59:34] INFO root fetch - main [MainThread]: End processing [positional-vectorizer]: success
+[2024-05-02 00:59:34] INFO root fetch - processPackages [lightning-app]: executing diffoscope
+[2024-05-02 00:59:34] INFO root fetch - processPackages [lightning-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-app-2.2.3.tar.gz tmp/lightning-app-2.2.4.tar.gz --markdown 20240502/l/lightning-app/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-02 00:59:34] INFO root fetch - processPackages [lightning]: executing diffoscope
+[2024-05-02 00:59:34] INFO root fetch - processPackages [lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-2.3.0.dev20240421.tar.gz tmp/lightning-2.3.0.dev20240428.tar.gz --markdown 20240502/l/lightning/2.3.0.dev20240421-2.3.0.dev20240428/README.md --exclude *.pyd
+[2024-05-02 00:59:35] INFO root fetch - processPackages [lightning-fabric]: Remove: archive file [/home/abi/fetcher/tmp/lightning-fabric-2.2.3.tar.gz]
+[2024-05-02 00:59:35] INFO root fetch - processPackages [lightning-fabric]: Remove: archive file [/home/abi/fetcher/tmp/lightning-fabric-2.2.4.tar.gz]
+[2024-05-02 00:59:35] INFO root fetch - main [MainThread]: End processing [lightning-fabric]: success
+[2024-05-02 00:59:35] INFO root fetch - processPackages [granian]: Remove: archive file [/home/abi/fetcher/tmp/granian-1.3.0.tar.gz]
+[2024-05-02 00:59:35] INFO root fetch - processPackages [granian]: Remove: archive file [/home/abi/fetcher/tmp/granian-1.3.1.tar.gz]
+[2024-05-02 00:59:35] INFO root fetch - main [MainThread]: End processing [granian]: success
+[2024-05-02 00:59:36] INFO root fetch - processPackages [pytorch-lightning]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-lightning-2.2.3.tar.gz]
+[2024-05-02 00:59:36] INFO root fetch - processPackages [pytorch-lightning]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-lightning-2.2.4.tar.gz]
+[2024-05-02 00:59:36] INFO root fetch - main [MainThread]: End processing [pytorch-lightning]: success
+[2024-05-02 00:59:36] INFO root fetch - processPackages [lightning-app]: Remove: archive file [/home/abi/fetcher/tmp/lightning-app-2.2.3.tar.gz]
+[2024-05-02 00:59:36] INFO root fetch - processPackages [lightning-app]: Remove: archive file [/home/abi/fetcher/tmp/lightning-app-2.2.4.tar.gz]
+[2024-05-02 00:59:36] INFO root fetch - main [MainThread]: End processing [lightning-app]: success
+[2024-05-02 00:59:37] INFO root fetch - processPackages [lightning]: Remove: archive file [/home/abi/fetcher/tmp/lightning-2.3.0.dev20240421.tar.gz]
+[2024-05-02 00:59:37] INFO root fetch - processPackages [lightning]: Remove: archive file [/home/abi/fetcher/tmp/lightning-2.3.0.dev20240428.tar.gz]
+[2024-05-02 00:59:37] INFO root fetch - main [MainThread]: End processing [lightning]: success
+[2024-05-02 00:59:37] INFO root fetch - main [MainThread]: Store serial: [23023303]
