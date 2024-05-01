@@ -1261,3 +1261,24 @@
 [2024-05-02 01:10:34] INFO root fetch - processPackages [broad-babel]: Remove: archive file [/home/abi/fetcher/tmp/broad_babel-0.1.9.tar.gz]
 [2024-05-02 01:10:34] INFO root fetch - main [MainThread]: End processing [broad-babel]: success
 [2024-05-02 01:10:34] INFO root fetch - main [MainThread]: Store serial: [23023376]
+[2024-05-02 01:12:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023376]
+[2024-05-02 01:12:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 01:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magvit2-pytorch
+[2024-05-02 01:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-radiance-postprocess
+[2024-05-02 01:12:43] INFO root fetch - processPackages [magvit2-pytorch]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-02 01:12:43] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-05-02 01:12:43] INFO root fetch - processPackages [magvit2-pytorch]: Downloading https://files.pythonhosted.org/packages/c0/0b/01f923ea3d90bbb640c5e41c0c0b2104bb4d0b539c0931cc1308ed0e9598/magvit2-pytorch-0.4.0.tar.gz
+[2024-05-02 01:12:43] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2024-05-02 01:12:43] INFO root fetch - processPackages [magvit2-pytorch]: Downloading https://files.pythonhosted.org/packages/05/7a/e1d90cb1dac2669db6c72d1eb1921ed492e540c74c1cd3e86747c2995c03/magvit2_pytorch-0.4.1.tar.gz
+[2024-05-02 01:12:43] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2024-05-02 01:12:43] INFO root fetch - processPackages [magvit2-pytorch]: executing diffoscope
+[2024-05-02 01:12:43] INFO root fetch - processPackages [magvit2-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magvit2-pytorch-0.4.0.tar.gz tmp/magvit2_pytorch-0.4.1.tar.gz --markdown 20240502/m/magvit2-pytorch/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-02 01:12:43] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2024-05-02 01:12:43] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20240502/h/honeybee-radiance-postprocess/0.4.98-0.4.99/README.md --exclude *.pyd
+[2024-05-02 01:12:44] INFO root fetch - processPackages [magvit2-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/magvit2-pytorch-0.4.0.tar.gz]
+[2024-05-02 01:12:44] INFO root fetch - processPackages [magvit2-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/magvit2_pytorch-0.4.1.tar.gz]
+[2024-05-02 01:12:44] INFO root fetch - main [MainThread]: End processing [magvit2-pytorch]: success
+[2024-05-02 01:12:44] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2024-05-02 01:12:44] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2024-05-02 01:12:44] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2024-05-02 01:12:44] INFO root fetch - main [MainThread]: Store serial: [23023382]
