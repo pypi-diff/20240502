@@ -1594,3 +1594,15 @@
 [2024-05-02 01:30:08] INFO root fetch - processPackages [xlextract]: Remove: archive file [/home/abi/fetcher/tmp/xlextract-0.1.2.tar.gz]
 [2024-05-02 01:30:08] INFO root fetch - main [MainThread]: End processing [xlextract]: success
 [2024-05-02 01:30:08] INFO root fetch - main [MainThread]: Store serial: [23023541]
+[2024-05-02 01:32:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023541]
+[2024-05-02 01:32:17] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 01:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djaodjin-saas
+[2024-05-02 01:32:17] INFO root fetch - processPackages [djaodjin-saas]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-02 01:32:17] INFO root fetch - processPackages [djaodjin-saas]: Downloading https://files.pythonhosted.org/packages/e2/ac/072254f3b422410b9d5eddfdc13c2a3bc0d1f6a123903ed144aa8a44670e/djaodjin-saas-0.9.4.tar.gz
+[2024-05-02 01:32:17] INFO root fetch - processPackages [djaodjin-saas]: Downloading https://files.pythonhosted.org/packages/e6/ac/a73ae117d10f1c5fb4d2822dd256e2fd2856a153a9ca8c10f499e9a3b490/djaodjin-saas-0.9.5.tar.gz
+[2024-05-02 01:32:18] INFO root fetch - processPackages [djaodjin-saas]: executing diffoscope
+[2024-05-02 01:32:18] INFO root fetch - processPackages [djaodjin-saas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-saas-0.9.4.tar.gz tmp/djaodjin-saas-0.9.5.tar.gz --markdown 20240502/d/djaodjin-saas/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-02 01:32:19] INFO root fetch - processPackages [djaodjin-saas]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-saas-0.9.4.tar.gz]
+[2024-05-02 01:32:19] INFO root fetch - processPackages [djaodjin-saas]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-saas-0.9.5.tar.gz]
+[2024-05-02 01:32:19] INFO root fetch - main [MainThread]: End processing [djaodjin-saas]: success
+[2024-05-02 01:32:19] INFO root fetch - main [MainThread]: Store serial: [23023553]
