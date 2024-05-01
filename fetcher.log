@@ -375,3 +375,36 @@
 [2024-05-02 00:17:09] INFO root fetch - processPackages [musicntwrk]: Remove: archive file [/home/abi/fetcher/tmp/musicntwrk-2.3.4.tar.gz]
 [2024-05-02 00:17:09] INFO root fetch - main [MainThread]: End processing [musicntwrk]: success
 [2024-05-02 00:17:09] INFO root fetch - main [MainThread]: Store serial: [23022980]
+[2024-05-02 00:19:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23022980]
+[2024-05-02 00:19:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 00:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spiceai
+[2024-05-02 00:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tcp-modbus-aio
+[2024-05-02 00:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: database-knotinfo
+[2024-05-02 00:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crytic-compilers
+[2024-05-02 00:19:18] INFO root fetch - processPackages [spiceai]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-02 00:19:18] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/6c/db/5d758a5d1dbfe5870828356a3e7200a9548f51fecad53eb15a1ed0627d0d/spiceai-0.3.0.tar.gz
+[2024-05-02 00:19:18] WARNING root fetch - processPackages [crytic-compilers]: Skipping, unable to determine old version
+[2024-05-02 00:19:18] INFO root fetch - main [MainThread]: End processing [crytic-compilers] error
+[2024-05-02 00:19:18] INFO root fetch - processPackages [tcp-modbus-aio]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-02 00:19:18] INFO root fetch - processPackages [database-knotinfo]: New version: [21.7.15] Old Version: [21.7]
+[2024-05-02 00:19:18] INFO root fetch - processPackages [tcp-modbus-aio]: Downloading https://files.pythonhosted.org/packages/7c/97/560db1fccc9db2c0d8e950a430e844f10481a2b508f2c78887cff6ceea06/tcp_modbus_aio-0.2.2.tar.gz
+[2024-05-02 00:19:18] INFO root fetch - processPackages [database-knotinfo]: Downloading https://files.pythonhosted.org/packages/ed/10/02c95e09f90ea3ca6a6622ba42077bf5e1bb8004d969c78a73d79bc763fc/database_knotinfo-21.7.tar.gz
+[2024-05-02 00:19:18] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/04/4e/a38189d922767ad5ada50adf6d0ebd6a305099b4fefe0873867646d37dcf/spiceai-0.3.1.tar.gz
+[2024-05-02 00:19:18] INFO root fetch - processPackages [spiceai]: executing diffoscope
+[2024-05-02 00:19:18] INFO root fetch - processPackages [spiceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiceai-0.3.0.tar.gz tmp/spiceai-0.3.1.tar.gz --markdown 20240502/s/spiceai/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-02 00:19:18] INFO root fetch - processPackages [database-knotinfo]: Downloading https://files.pythonhosted.org/packages/41/30/c317860b531bb854820f45d9dd7f7a377cb7f44dc35a5e3f5d73f0521eda/database_knotinfo-21.7.15.tar.gz
+[2024-05-02 00:19:19] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.3.0.tar.gz]
+[2024-05-02 00:19:19] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.3.1.tar.gz]
+[2024-05-02 00:19:19] INFO root fetch - main [MainThread]: End processing [spiceai]: success
+[2024-05-02 00:19:19] INFO root fetch - processPackages [database-knotinfo]: executing diffoscope
+[2024-05-02 00:19:19] INFO root fetch - processPackages [database-knotinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_knotinfo-21.7.tar.gz tmp/database_knotinfo-21.7.15.tar.gz --markdown 20240502/d/database-knotinfo/21.7-21.7.15/README.md --exclude *.pyd
+[2024-05-02 00:19:20] INFO root fetch - processPackages [tcp-modbus-aio]: Downloading https://files.pythonhosted.org/packages/a5/17/980ea6f103fe265c6147fe64b3bb860f106f8446c5f7bb03c40e5dbc8bd6/tcp_modbus_aio-0.2.3.tar.gz
+[2024-05-02 00:19:20] INFO root fetch - processPackages [tcp-modbus-aio]: executing diffoscope
+[2024-05-02 00:19:20] INFO root fetch - processPackages [tcp-modbus-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcp_modbus_aio-0.2.2.tar.gz tmp/tcp_modbus_aio-0.2.3.tar.gz --markdown 20240502/t/tcp-modbus-aio/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-02 00:19:20] INFO root fetch - processPackages [tcp-modbus-aio]: Remove: archive file [/home/abi/fetcher/tmp/tcp_modbus_aio-0.2.2.tar.gz]
+[2024-05-02 00:19:20] INFO root fetch - processPackages [tcp-modbus-aio]: Remove: archive file [/home/abi/fetcher/tmp/tcp_modbus_aio-0.2.3.tar.gz]
+[2024-05-02 00:19:20] INFO root fetch - main [MainThread]: End processing [tcp-modbus-aio]: success
+[2024-05-02 00:19:21] INFO root fetch - processPackages [database-knotinfo]: Remove: archive file [/home/abi/fetcher/tmp/database_knotinfo-21.7.tar.gz]
+[2024-05-02 00:19:21] INFO root fetch - processPackages [database-knotinfo]: Remove: archive file [/home/abi/fetcher/tmp/database_knotinfo-21.7.15.tar.gz]
+[2024-05-02 00:19:21] INFO root fetch - main [MainThread]: End processing [database-knotinfo]: success
+[2024-05-02 00:19:21] INFO root fetch - main [MainThread]: Store serial: [23022993]
