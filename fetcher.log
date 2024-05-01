@@ -1315,3 +1315,36 @@
 [2024-05-02 01:14:54] INFO root fetch - processPackages [asymmetric-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/asymmetric_jwt_auth-1.0.1b6.tar.gz]
 [2024-05-02 01:14:54] INFO root fetch - main [MainThread]: End processing [asymmetric-jwt-auth]: success
 [2024-05-02 01:14:54] INFO root fetch - main [MainThread]: Store serial: [23023393]
+[2024-05-02 01:16:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023393]
+[2024-05-02 01:17:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 01:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-radiance
+[2024-05-02 01:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragonfly-uwg
+[2024-05-02 01:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-honeybee
+[2024-05-02 01:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qfit
+[2024-05-02 01:17:02] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-02 01:17:02] WARNING root fetch - processPackages [qfit]: Skipping, unable to determine old version
+[2024-05-02 01:17:02] INFO root fetch - main [MainThread]: End processing [qfit] error
+[2024-05-02 01:17:03] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 01:17:03] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-02 01:17:03] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/b5/a0/c6742c4b1a93565a552f073a8cad3689b9e2edcf401d45bd9fddf0485a8d/lbt-honeybee-0.8.98.tar.gz
+[2024-05-02 01:17:03] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a2/41/805cddd3de27bfc114d3b54bbf0a558b1d450bb0bc346c8bbfc9f9e1ca04/dragonfly-radiance-0.3.8.tar.gz
+[2024-05-02 01:17:03] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2024-05-02 01:17:03] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/f1/61/4f36e668d3e1767b0f4d921481ad087bec472a2afc14ea20f916e083c690/lbt-honeybee-0.8.99.tar.gz
+[2024-05-02 01:17:03] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2024-05-02 01:17:03] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.8.98.tar.gz tmp/lbt-honeybee-0.8.99.tar.gz --markdown 20240502/l/lbt-honeybee/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-02 01:17:03] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a9/93/8933c5c67b8d336f624b3e7f9cb128678c38867dac08b6bb30a824b7cb3d/dragonfly-radiance-0.3.9.tar.gz
+[2024-05-02 01:17:03] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2024-05-02 01:17:03] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.3.8.tar.gz tmp/dragonfly-radiance-0.3.9.tar.gz --markdown 20240502/d/dragonfly-radiance/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 01:17:03] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2024-05-02 01:17:03] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2024-05-02 01:17:03] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20240502/d/dragonfly-uwg/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-02 01:17:03] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.98.tar.gz]
+[2024-05-02 01:17:03] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.99.tar.gz]
+[2024-05-02 01:17:03] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2024-05-02 01:17:04] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.8.tar.gz]
+[2024-05-02 01:17:04] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
+[2024-05-02 01:17:04] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2024-05-02 01:17:04] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2024-05-02 01:17:04] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2024-05-02 01:17:04] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2024-05-02 01:17:04] INFO root fetch - main [MainThread]: Store serial: [23023407]
