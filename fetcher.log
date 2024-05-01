@@ -1555,3 +1555,42 @@
 [2024-05-02 01:27:58] INFO root fetch - processPackages [sxmp-mule]: Remove: archive file [/home/abi/fetcher/tmp/sxmp_mule-1.1.1.tar.gz]
 [2024-05-02 01:27:58] INFO root fetch - main [MainThread]: End processing [sxmp-mule]: success
 [2024-05-02 01:27:58] INFO root fetch - main [MainThread]: Store serial: [23023487]
+[2024-05-02 01:30:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023487]
+[2024-05-02 01:30:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sxmp-mule
+[2024-05-02 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xlextract
+[2024-05-02 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: octoai
+[2024-05-02 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: driven-sql-tool
+[2024-05-02 01:30:06] INFO root fetch - processPackages [octoai]: New version: [0.6.0] Old Version: [0.0.4]
+[2024-05-02 01:30:06] INFO root fetch - processPackages [xlextract]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 01:30:06] INFO root fetch - processPackages [sxmp-mule]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-02 01:30:06] INFO root fetch - processPackages [driven-sql-tool]: New version: [0.0.4] Old Version: [0.0.1]
+[2024-05-02 01:30:06] INFO root fetch - processPackages [octoai]: Downloading https://files.pythonhosted.org/packages/8f/43/9fd1389980c0041bce4af58c9baff4775fa0ff17c4012d7b4c6803fc791f/octoai-0.0.4.tar.gz
+[2024-05-02 01:30:06] INFO root fetch - processPackages [xlextract]: Downloading https://files.pythonhosted.org/packages/23/2a/65db478aed12418552fde322dac8012e780634d355ac47fcd2fb993a01d9/xlextract-0.1.1.tar.gz
+[2024-05-02 01:30:06] INFO root fetch - processPackages [sxmp-mule]: Downloading https://files.pythonhosted.org/packages/02/13/fce439fc183a53be72d13f732f4363b18664cfe3ad50596c17a77965f3d8/sxmp-mule-1.1.0.tar.gz
+[2024-05-02 01:30:07] INFO root fetch - processPackages [driven-sql-tool]: Downloading https://files.pythonhosted.org/packages/5f/83/96dcc6d29df7562d9b12a2e2db3ce1b91a8e0a4fece7366f5a1b7fb717b4/driven_sql_tool-0.0.1.tar.gz
+[2024-05-02 01:30:07] INFO root fetch - processPackages [octoai]: Downloading https://files.pythonhosted.org/packages/a0/b4/eb1f17abef4f1758271b33add501e3fedb962f0f012616f391ca93477db3/octoai-0.6.0.tar.gz
+[2024-05-02 01:30:07] INFO root fetch - processPackages [sxmp-mule]: Downloading https://files.pythonhosted.org/packages/d1/12/0fb5d43abbfa26bd781ae6402c2c7ef76769119d8c23b042b3a574e6d9d8/sxmp_mule-1.1.1.tar.gz
+[2024-05-02 01:30:07] INFO root fetch - processPackages [octoai]: executing diffoscope
+[2024-05-02 01:30:07] INFO root fetch - processPackages [octoai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoai-0.0.4.tar.gz tmp/octoai-0.6.0.tar.gz --markdown 20240502/o/octoai/0.0.4-0.6.0/README.md --exclude *.pyd
+[2024-05-02 01:30:07] INFO root fetch - processPackages [xlextract]: Downloading https://files.pythonhosted.org/packages/1b/9c/1aa6fb777e135d014551a5d6b0a28457829b85510ac270955cbc75e57333/xlextract-0.1.2.tar.gz
+[2024-05-02 01:30:07] INFO root fetch - processPackages [sxmp-mule]: executing diffoscope
+[2024-05-02 01:30:07] INFO root fetch - processPackages [sxmp-mule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sxmp-mule-1.1.0.tar.gz tmp/sxmp_mule-1.1.1.tar.gz --markdown 20240502/s/sxmp-mule/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-02 01:30:07] INFO root fetch - processPackages [xlextract]: executing diffoscope
+[2024-05-02 01:30:07] INFO root fetch - processPackages [xlextract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlextract-0.1.1.tar.gz tmp/xlextract-0.1.2.tar.gz --markdown 20240502/x/xlextract/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 01:30:07] INFO root fetch - processPackages [driven-sql-tool]: Downloading https://files.pythonhosted.org/packages/a0/75/6b7cedeb2ad467bfd0e8a91ad07647c7218184c87936c2312f35b6d2a223/driven_sql_tool-0.0.4.tar.gz
+[2024-05-02 01:30:07] INFO root fetch - processPackages [driven-sql-tool]: executing diffoscope
+[2024-05-02 01:30:07] INFO root fetch - processPackages [driven-sql-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/driven_sql_tool-0.0.1.tar.gz tmp/driven_sql_tool-0.0.4.tar.gz --markdown 20240502/d/driven-sql-tool/0.0.1-0.0.4/README.md --exclude *.pyd
+[2024-05-02 01:30:07] INFO root fetch - processPackages [sxmp-mule]: Remove: archive file [/home/abi/fetcher/tmp/sxmp-mule-1.1.0.tar.gz]
+[2024-05-02 01:30:07] INFO root fetch - processPackages [sxmp-mule]: Remove: archive file [/home/abi/fetcher/tmp/sxmp_mule-1.1.1.tar.gz]
+[2024-05-02 01:30:07] INFO root fetch - main [MainThread]: End processing [sxmp-mule]: success
+[2024-05-02 01:30:08] INFO root fetch - processPackages [octoai]: Remove: archive file [/home/abi/fetcher/tmp/octoai-0.0.4.tar.gz]
+[2024-05-02 01:30:08] INFO root fetch - processPackages [octoai]: Remove: archive file [/home/abi/fetcher/tmp/octoai-0.6.0.tar.gz]
+[2024-05-02 01:30:08] INFO root fetch - main [MainThread]: End processing [octoai]: success
+[2024-05-02 01:30:08] INFO root fetch - processPackages [driven-sql-tool]: Remove: archive file [/home/abi/fetcher/tmp/driven_sql_tool-0.0.1.tar.gz]
+[2024-05-02 01:30:08] INFO root fetch - processPackages [driven-sql-tool]: Remove: archive file [/home/abi/fetcher/tmp/driven_sql_tool-0.0.4.tar.gz]
+[2024-05-02 01:30:08] INFO root fetch - main [MainThread]: End processing [driven-sql-tool]: success
+[2024-05-02 01:30:08] INFO root fetch - processPackages [xlextract]: Remove: archive file [/home/abi/fetcher/tmp/xlextract-0.1.1.tar.gz]
+[2024-05-02 01:30:08] INFO root fetch - processPackages [xlextract]: Remove: archive file [/home/abi/fetcher/tmp/xlextract-0.1.2.tar.gz]
+[2024-05-02 01:30:08] INFO root fetch - main [MainThread]: End processing [xlextract]: success
+[2024-05-02 01:30:08] INFO root fetch - main [MainThread]: Store serial: [23023541]
