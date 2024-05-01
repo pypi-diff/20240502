@@ -589,3 +589,15 @@
 [2024-05-02 00:35:15] INFO root fetch - processPackages [SoftLayer]: Remove: archive file [/home/abi/fetcher/tmp/softlayer-6.2.0.tar.gz]
 [2024-05-02 00:35:15] INFO root fetch - main [MainThread]: End processing [SoftLayer]: success
 [2024-05-02 00:35:15] INFO root fetch - main [MainThread]: Store serial: [23023077]
+[2024-05-02 00:37:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023077]
+[2024-05-02 00:37:24] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 00:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-exaspim-pipeline-utils
+[2024-05-02 00:37:24] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-02 00:37:24] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Downloading https://files.pythonhosted.org/packages/b3/ff/3a31ca02ccd122e7fb2f973fabed4cf61ad733a5cd8b530c3bbc0fb60b30/aind_exaspim_pipeline_utils-0.8.1.tar.gz
+[2024-05-02 00:37:24] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Downloading https://files.pythonhosted.org/packages/0f/1b/0ed7bda35b655df984bfb29446b7ddd62ce38828923cef4e162f285150f9/aind_exaspim_pipeline_utils-0.8.2.tar.gz
+[2024-05-02 00:37:25] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: executing diffoscope
+[2024-05-02 00:37:25] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_exaspim_pipeline_utils-0.8.1.tar.gz tmp/aind_exaspim_pipeline_utils-0.8.2.tar.gz --markdown 20240502/a/aind-exaspim-pipeline-utils/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-02 00:37:25] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.8.1.tar.gz]
+[2024-05-02 00:37:25] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.8.2.tar.gz]
+[2024-05-02 00:37:25] INFO root fetch - main [MainThread]: End processing [aind-exaspim-pipeline-utils]: success
+[2024-05-02 00:37:25] INFO root fetch - main [MainThread]: Store serial: [23023082]
