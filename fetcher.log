@@ -1,0 +1,39 @@
+[2024-05-02 00:01:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23022799]
+[2024-05-02 00:01:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 00:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myko
+[2024-05-02 00:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nodestream
+[2024-05-02 00:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-gcp
+[2024-05-02 00:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arq
+[2024-05-02 00:01:20] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-05-02 00:01:20] INFO root fetch - processPackages [nodestream]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-02 00:01:20] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-05-02 00:01:20] INFO root fetch - processPackages [myko]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-02 00:01:20] INFO root fetch - processPackages [arq]: New version: [0.9] Old Version: [0.8.1]
+[2024-05-02 00:01:20] INFO root fetch - processPackages [nodestream]: Downloading https://files.pythonhosted.org/packages/f4/0e/3436f2e0786634345dbeba81219006b1d249a2d993c29bca494850002047/nodestream-0.9.4.tar.gz
+[2024-05-02 00:01:20] INFO root fetch - processPackages [myko]: Downloading https://files.pythonhosted.org/packages/e1/56/160e3a85cf9f6bdbeacff6b0aa1b93755d1a4d2799ae8a32ca9ac3989e2d/myko-0.0.2.tar.gz
+[2024-05-02 00:01:20] INFO root fetch - processPackages [arq]: Downloading https://files.pythonhosted.org/packages/2a/45/44e8060c48d27fb2c06b99854e607af15a68501b4a86301e0af45fa6eb96/arq-0.8.1.tar.gz
+[2024-05-02 00:01:20] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-05-02 00:01:21] INFO root fetch - processPackages [nodestream]: Downloading https://files.pythonhosted.org/packages/e2/04/8af62b732a83ffbe4119d69efa3b8097c3e26c258316430d35e977b96008/nodestream-0.9.5.tar.gz
+[2024-05-02 00:01:21] INFO root fetch - processPackages [myko]: Downloading https://files.pythonhosted.org/packages/5d/2e/bd65054c94231e154a29ce28a85504d1f0530be7507f4d948e46497363ca/myko-0.0.3.tar.gz
+[2024-05-02 00:01:21] INFO root fetch - processPackages [myko]: executing diffoscope
+[2024-05-02 00:01:21] INFO root fetch - processPackages [myko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myko-0.0.2.tar.gz tmp/myko-0.0.3.tar.gz --markdown 20240502/m/myko/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-02 00:01:21] INFO root fetch - processPackages [arq]: Downloading https://files.pythonhosted.org/packages/96/1c/a58be13a52dc34408ef5f7d2e6571679da964d5a7fe27e276fe1866d4c07/arq-0.9.tar.gz
+[2024-05-02 00:01:21] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-05-02 00:01:21] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240502/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-05-02 00:01:21] INFO root fetch - processPackages [nodestream]: executing diffoscope
+[2024-05-02 00:01:21] INFO root fetch - processPackages [nodestream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodestream-0.9.4.tar.gz tmp/nodestream-0.9.5.tar.gz --markdown 20240502/n/nodestream/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-02 00:01:21] INFO root fetch - processPackages [arq]: executing diffoscope
+[2024-05-02 00:01:21] INFO root fetch - processPackages [arq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arq-0.8.1.tar.gz tmp/arq-0.9.tar.gz --markdown 20240502/a/arq/0.8.1-0.9/README.md --exclude *.pyd
+[2024-05-02 00:01:22] INFO root fetch - processPackages [myko]: Remove: archive file [/home/abi/fetcher/tmp/myko-0.0.2.tar.gz]
+[2024-05-02 00:01:22] INFO root fetch - processPackages [myko]: Remove: archive file [/home/abi/fetcher/tmp/myko-0.0.3.tar.gz]
+[2024-05-02 00:01:22] INFO root fetch - main [MainThread]: End processing [myko]: success
+[2024-05-02 00:01:22] INFO root fetch - processPackages [arq]: Remove: archive file [/home/abi/fetcher/tmp/arq-0.8.1.tar.gz]
+[2024-05-02 00:01:22] INFO root fetch - processPackages [arq]: Remove: archive file [/home/abi/fetcher/tmp/arq-0.9.tar.gz]
+[2024-05-02 00:01:22] INFO root fetch - main [MainThread]: End processing [arq]: success
+[2024-05-02 00:01:22] INFO root fetch - processPackages [nodestream]: Remove: archive file [/home/abi/fetcher/tmp/nodestream-0.9.4.tar.gz]
+[2024-05-02 00:01:22] INFO root fetch - processPackages [nodestream]: Remove: archive file [/home/abi/fetcher/tmp/nodestream-0.9.5.tar.gz]
+[2024-05-02 00:01:22] INFO root fetch - main [MainThread]: End processing [nodestream]: success
+[2024-05-02 00:01:31] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-05-02 00:01:31] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-05-02 00:01:31] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-05-02 00:01:31] INFO root fetch - main [MainThread]: Store serial: [23022811]
