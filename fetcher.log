@@ -1800,3 +1800,36 @@
 [2024-05-02 01:49:39] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.9.tar.gz]
 [2024-05-02 01:49:39] INFO root fetch - main [MainThread]: End processing [corvic-engine]: success
 [2024-05-02 01:49:39] INFO root fetch - main [MainThread]: Store serial: [23023628]
+[2024-05-02 01:51:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023628]
+[2024-05-02 01:51:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 01:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: routput
+[2024-05-02 01:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spinach
+[2024-05-02 01:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-inventory
+[2024-05-02 01:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tcrdist-rs
+[2024-05-02 01:51:48] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-02 01:51:48] INFO root fetch - processPackages [routput]: New version: [0.4] Old Version: [0.3]
+[2024-05-02 01:51:48] WARNING root fetch - processPackages [tcrdist-rs]: Skipping, unable to determine old version
+[2024-05-02 01:51:48] INFO root fetch - main [MainThread]: End processing [tcrdist-rs] error
+[2024-05-02 01:51:48] INFO root fetch - processPackages [spinach]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 01:51:48] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-02 01:51:48] INFO root fetch - processPackages [routput]: Downloading https://files.pythonhosted.org/packages/86/61/3f9ea5ac82997286b83ff8ab23c9fdba6d60f0ca20d7d5b6833c0af3de6c/routput-0.3.tar.gz
+[2024-05-02 01:51:48] INFO root fetch - processPackages [spinach]: Downloading https://files.pythonhosted.org/packages/48/8a/9c4c5432c26b935b18414052632bf0f8067ae028692e6bd634ab7b373e9c/spinach-0.0.8.tar.gz
+[2024-05-02 01:51:48] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-02 01:51:48] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-02 01:51:48] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240502/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-02 01:51:48] INFO root fetch - processPackages [spinach]: Downloading https://files.pythonhosted.org/packages/0f/2b/cda39c8b2418f57f23dddf166247768fa47cda8235684fa63b442596a605/spinach-0.0.9.tar.gz
+[2024-05-02 01:51:48] INFO root fetch - processPackages [routput]: Downloading https://files.pythonhosted.org/packages/28/c1/1bfad101a8e3d81765fb338bc8a271e14772cebc53ce64fbfb2ec385e1c5/routput-0.4.tar.gz
+[2024-05-02 01:51:48] INFO root fetch - processPackages [spinach]: executing diffoscope
+[2024-05-02 01:51:48] INFO root fetch - processPackages [spinach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinach-0.0.8.tar.gz tmp/spinach-0.0.9.tar.gz --markdown 20240502/s/spinach/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 01:51:48] INFO root fetch - processPackages [routput]: executing diffoscope
+[2024-05-02 01:51:48] INFO root fetch - processPackages [routput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routput-0.3.tar.gz tmp/routput-0.4.tar.gz --markdown 20240502/r/routput/0.3-0.4/README.md --exclude *.pyd
+[2024-05-02 01:51:49] INFO root fetch - processPackages [routput]: Remove: archive file [/home/abi/fetcher/tmp/routput-0.3.tar.gz]
+[2024-05-02 01:51:49] INFO root fetch - processPackages [routput]: Remove: archive file [/home/abi/fetcher/tmp/routput-0.4.tar.gz]
+[2024-05-02 01:51:49] INFO root fetch - main [MainThread]: End processing [routput]: success
+[2024-05-02 01:51:49] INFO root fetch - processPackages [spinach]: Remove: archive file [/home/abi/fetcher/tmp/spinach-0.0.8.tar.gz]
+[2024-05-02 01:51:49] INFO root fetch - processPackages [spinach]: Remove: archive file [/home/abi/fetcher/tmp/spinach-0.0.9.tar.gz]
+[2024-05-02 01:51:49] INFO root fetch - main [MainThread]: End processing [spinach]: success
+[2024-05-02 01:51:49] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-02 01:51:49] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-02 01:51:49] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-02 01:51:49] INFO root fetch - main [MainThread]: Store serial: [23023647]
