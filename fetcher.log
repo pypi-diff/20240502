@@ -1606,3 +1606,27 @@
 [2024-05-02 01:32:19] INFO root fetch - processPackages [djaodjin-saas]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-saas-0.9.5.tar.gz]
 [2024-05-02 01:32:19] INFO root fetch - main [MainThread]: End processing [djaodjin-saas]: success
 [2024-05-02 01:32:19] INFO root fetch - main [MainThread]: Store serial: [23023553]
+[2024-05-02 01:34:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023553]
+[2024-05-02 01:34:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 01:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spleenseg
+[2024-05-02 01:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tcp-modbus-aio
+[2024-05-02 01:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyson-data
+[2024-05-02 01:34:28] INFO root fetch - processPackages [tcp-modbus-aio]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-02 01:34:28] INFO root fetch - processPackages [tcp-modbus-aio]: Downloading https://files.pythonhosted.org/packages/45/2a/72ea2a9f44c19b563baa5fd82dbafb0f10737351f855787977b8bd207144/tcp_modbus_aio-0.2.4.tar.gz
+[2024-05-02 01:34:28] INFO root fetch - processPackages [spleenseg]: New version: [1.2.4] Old Version: [1.2.26]
+[2024-05-02 01:34:28] WARNING root fetch - processPackages [pyson-data]: Skipping, unable to determine old version
+[2024-05-02 01:34:28] INFO root fetch - main [MainThread]: End processing [pyson-data] error
+[2024-05-02 01:34:28] INFO root fetch - processPackages [spleenseg]: Downloading https://files.pythonhosted.org/packages/30/48/0e5a6de755a085919b9663047e972089212106bae38a99083100c6b128a5/spleenseg-1.2.26.tar.gz
+[2024-05-02 01:34:28] INFO root fetch - processPackages [tcp-modbus-aio]: Downloading https://files.pythonhosted.org/packages/04/79/6ec181a84d9a646ec9e74f112e3053da42a2be4ba813f963ec4e439dc487/tcp_modbus_aio-0.2.5.tar.gz
+[2024-05-02 01:34:29] INFO root fetch - processPackages [tcp-modbus-aio]: executing diffoscope
+[2024-05-02 01:34:29] INFO root fetch - processPackages [tcp-modbus-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcp_modbus_aio-0.2.4.tar.gz tmp/tcp_modbus_aio-0.2.5.tar.gz --markdown 20240502/t/tcp-modbus-aio/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-02 01:34:29] INFO root fetch - processPackages [spleenseg]: Downloading https://files.pythonhosted.org/packages/79/0b/9db236873e673eb503ed1ba14cb184cd4517c10956c612ba3657409cf04f/spleenseg-1.2.4.tar.gz
+[2024-05-02 01:34:29] INFO root fetch - processPackages [spleenseg]: executing diffoscope
+[2024-05-02 01:34:29] INFO root fetch - processPackages [spleenseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spleenseg-1.2.26.tar.gz tmp/spleenseg-1.2.4.tar.gz --markdown 20240502/s/spleenseg/1.2.26-1.2.4/README.md --exclude *.pyd
+[2024-05-02 01:34:29] INFO root fetch - processPackages [tcp-modbus-aio]: Remove: archive file [/home/abi/fetcher/tmp/tcp_modbus_aio-0.2.4.tar.gz]
+[2024-05-02 01:34:29] INFO root fetch - processPackages [tcp-modbus-aio]: Remove: archive file [/home/abi/fetcher/tmp/tcp_modbus_aio-0.2.5.tar.gz]
+[2024-05-02 01:34:29] INFO root fetch - main [MainThread]: End processing [tcp-modbus-aio]: success
+[2024-05-02 01:34:29] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.2.26.tar.gz]
+[2024-05-02 01:34:29] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.2.4.tar.gz]
+[2024-05-02 01:34:29] INFO root fetch - main [MainThread]: End processing [spleenseg]: success
+[2024-05-02 01:34:29] INFO root fetch - main [MainThread]: Store serial: [23023563]
