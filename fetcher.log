@@ -706,3 +706,33 @@
 [2024-05-02 00:41:49] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.2.9.tar.gz]
 [2024-05-02 00:41:49] INFO root fetch - main [MainThread]: End processing [multipie]: success
 [2024-05-02 00:41:49] INFO root fetch - main [MainThread]: Store serial: [23023133]
+[2024-05-02 00:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023133]
+[2024-05-02 00:43:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 00:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelpark
+[2024-05-02 00:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bgpy-pkg
+[2024-05-02 00:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hsmodels
+[2024-05-02 00:43:57] INFO root fetch - processPackages [modelpark]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-02 00:43:57] INFO root fetch - processPackages [bgpy-pkg]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-02 00:43:57] INFO root fetch - processPackages [hsmodels]: New version: [1.0.3] Old Version: [1.0.0]
+[2024-05-02 00:43:57] INFO root fetch - processPackages [modelpark]: Downloading https://files.pythonhosted.org/packages/f8/f3/67681c2b8ee8e0d75e2973aabd3127445b8a34216d5c4765074f362c7e79/modelpark-0.1.7.tar.gz
+[2024-05-02 00:43:57] INFO root fetch - processPackages [bgpy-pkg]: Downloading https://files.pythonhosted.org/packages/de/2b/0395cc9133b7ba73b37e562e8f025d526758ea9527d488286ad8826dcf62/bgpy_pkg-7.2.0.tar.gz
+[2024-05-02 00:43:57] INFO root fetch - processPackages [hsmodels]: Downloading https://files.pythonhosted.org/packages/75/12/d76e2e0754d28f402215f3ec6373c856bdf858272c201fd8f4dba6ac2489/hsmodels-1.0.0.tar.gz
+[2024-05-02 00:43:57] INFO root fetch - processPackages [modelpark]: Downloading https://files.pythonhosted.org/packages/e9/1c/65fa6477b6a31dc7c8fa1c2a071de29b5c918e96808a4ccbc8c385cf3b87/modelpark-0.1.8.tar.gz
+[2024-05-02 00:43:57] INFO root fetch - processPackages [bgpy-pkg]: Downloading https://files.pythonhosted.org/packages/4a/4d/fbf19c168c1afbe2aab8c006537bbac9086918a19c14c4004475cbf99c80/bgpy_pkg-7.2.1.tar.gz
+[2024-05-02 00:43:57] INFO root fetch - processPackages [modelpark]: executing diffoscope
+[2024-05-02 00:43:57] INFO root fetch - processPackages [modelpark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelpark-0.1.7.tar.gz tmp/modelpark-0.1.8.tar.gz --markdown 20240502/m/modelpark/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-02 00:43:58] INFO root fetch - processPackages [bgpy-pkg]: executing diffoscope
+[2024-05-02 00:43:58] INFO root fetch - processPackages [bgpy-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgpy_pkg-7.2.0.tar.gz tmp/bgpy_pkg-7.2.1.tar.gz --markdown 20240502/b/bgpy-pkg/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-02 00:43:58] INFO root fetch - processPackages [hsmodels]: Downloading https://files.pythonhosted.org/packages/d6/81/52e9da199532b118bc44eb087bfa0b901143248dcaa4762052709bbc99f9/hsmodels-1.0.3.tar.gz
+[2024-05-02 00:43:58] INFO root fetch - processPackages [hsmodels]: executing diffoscope
+[2024-05-02 00:43:58] INFO root fetch - processPackages [hsmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsmodels-1.0.0.tar.gz tmp/hsmodels-1.0.3.tar.gz --markdown 20240502/h/hsmodels/1.0.0-1.0.3/README.md --exclude *.pyd
+[2024-05-02 00:43:58] INFO root fetch - processPackages [modelpark]: Remove: archive file [/home/abi/fetcher/tmp/modelpark-0.1.7.tar.gz]
+[2024-05-02 00:43:58] INFO root fetch - processPackages [modelpark]: Remove: archive file [/home/abi/fetcher/tmp/modelpark-0.1.8.tar.gz]
+[2024-05-02 00:43:58] INFO root fetch - main [MainThread]: End processing [modelpark]: success
+[2024-05-02 00:43:58] INFO root fetch - processPackages [bgpy-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bgpy_pkg-7.2.0.tar.gz]
+[2024-05-02 00:43:58] INFO root fetch - processPackages [bgpy-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bgpy_pkg-7.2.1.tar.gz]
+[2024-05-02 00:43:58] INFO root fetch - main [MainThread]: End processing [bgpy-pkg]: success
+[2024-05-02 00:43:58] INFO root fetch - processPackages [hsmodels]: Remove: archive file [/home/abi/fetcher/tmp/hsmodels-1.0.0.tar.gz]
+[2024-05-02 00:43:58] INFO root fetch - processPackages [hsmodels]: Remove: archive file [/home/abi/fetcher/tmp/hsmodels-1.0.3.tar.gz]
+[2024-05-02 00:43:58] INFO root fetch - main [MainThread]: End processing [hsmodels]: success
+[2024-05-02 00:43:58] INFO root fetch - main [MainThread]: Store serial: [23023144]
