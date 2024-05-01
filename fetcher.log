@@ -1282,3 +1282,36 @@
 [2024-05-02 01:12:44] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
 [2024-05-02 01:12:44] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
 [2024-05-02 01:12:44] INFO root fetch - main [MainThread]: Store serial: [23023382]
+[2024-05-02 01:14:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023382]
+[2024-05-02 01:14:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 01:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DreamCreator
+[2024-05-02 01:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asymmetric-jwt-auth
+[2024-05-02 01:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certbot-filecopy-installer
+[2024-05-02 01:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: positional-vectorizer
+[2024-05-02 01:14:53] INFO root fetch - processPackages [DreamCreator]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-02 01:14:53] WARNING root fetch - processPackages [certbot-filecopy-installer]: Skipping, unable to determine old version
+[2024-05-02 01:14:53] INFO root fetch - main [MainThread]: End processing [certbot-filecopy-installer] error
+[2024-05-02 01:14:53] INFO root fetch - processPackages [positional-vectorizer]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-02 01:14:53] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/10/12/661d0180ffa3ececbf07dd56dc4289f53555fa3ab99fb4f7d2e0d5a6aee8/DreamCreator-0.0.2.tar.gz
+[2024-05-02 01:14:53] INFO root fetch - processPackages [asymmetric-jwt-auth]: New version: [1.0.1b6] Old Version: [1.0.1b5]
+[2024-05-02 01:14:53] INFO root fetch - processPackages [positional-vectorizer]: Downloading https://files.pythonhosted.org/packages/29/48/d8cb1df48dccab52b0d74215cd1bd4eec735d75c71f775424cd12b641d48/positional_vectorizer-0.0.2.tar.gz
+[2024-05-02 01:14:53] INFO root fetch - processPackages [asymmetric-jwt-auth]: Downloading https://files.pythonhosted.org/packages/d9/f3/5c0258ccb47024361cea42d29a838400f20615e35380b8ec8cbd310a5ade/asymmetric_jwt_auth-1.0.1b5.tar.gz
+[2024-05-02 01:14:53] INFO root fetch - processPackages [positional-vectorizer]: Downloading https://files.pythonhosted.org/packages/a3/ba/45f00108bbd04db8d0204012f2b40a52f81f0c718a3370e839a04072186c/positional_vectorizer-0.0.3.tar.gz
+[2024-05-02 01:14:53] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/ce/5b/787c1affed15428a245198f913e10c9c9549e15cba1ac2612165fbc490b9/DreamCreator-0.0.3.tar.gz
+[2024-05-02 01:14:53] INFO root fetch - processPackages [positional-vectorizer]: executing diffoscope
+[2024-05-02 01:14:53] INFO root fetch - processPackages [positional-vectorizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/positional_vectorizer-0.0.2.tar.gz tmp/positional_vectorizer-0.0.3.tar.gz --markdown 20240502/p/positional-vectorizer/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-02 01:14:53] INFO root fetch - processPackages [DreamCreator]: executing diffoscope
+[2024-05-02 01:14:53] INFO root fetch - processPackages [DreamCreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DreamCreator-0.0.2.tar.gz tmp/DreamCreator-0.0.3.tar.gz --markdown 20240502/D/DreamCreator/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-02 01:14:53] INFO root fetch - processPackages [asymmetric-jwt-auth]: Downloading https://files.pythonhosted.org/packages/6f/3d/45633a04d0d00903da4123900c765a50dde2e41a3f0f5a2a484701935427/asymmetric_jwt_auth-1.0.1b6.tar.gz
+[2024-05-02 01:14:54] INFO root fetch - processPackages [asymmetric-jwt-auth]: executing diffoscope
+[2024-05-02 01:14:54] INFO root fetch - processPackages [asymmetric-jwt-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asymmetric_jwt_auth-1.0.1b5.tar.gz tmp/asymmetric_jwt_auth-1.0.1b6.tar.gz --markdown 20240502/a/asymmetric-jwt-auth/1.0.1b5-1.0.1b6/README.md --exclude *.pyd
+[2024-05-02 01:14:54] INFO root fetch - processPackages [positional-vectorizer]: Remove: archive file [/home/abi/fetcher/tmp/positional_vectorizer-0.0.2.tar.gz]
+[2024-05-02 01:14:54] INFO root fetch - processPackages [positional-vectorizer]: Remove: archive file [/home/abi/fetcher/tmp/positional_vectorizer-0.0.3.tar.gz]
+[2024-05-02 01:14:54] INFO root fetch - main [MainThread]: End processing [positional-vectorizer]: success
+[2024-05-02 01:14:54] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.2.tar.gz]
+[2024-05-02 01:14:54] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.3.tar.gz]
+[2024-05-02 01:14:54] INFO root fetch - main [MainThread]: End processing [DreamCreator]: success
+[2024-05-02 01:14:54] INFO root fetch - processPackages [asymmetric-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/asymmetric_jwt_auth-1.0.1b5.tar.gz]
+[2024-05-02 01:14:54] INFO root fetch - processPackages [asymmetric-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/asymmetric_jwt_auth-1.0.1b6.tar.gz]
+[2024-05-02 01:14:54] INFO root fetch - main [MainThread]: End processing [asymmetric-jwt-auth]: success
+[2024-05-02 01:14:54] INFO root fetch - main [MainThread]: Store serial: [23023393]
