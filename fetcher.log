@@ -1674,3 +1674,54 @@
 [2024-05-02 01:40:56] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1714566736.tar.gz]
 [2024-05-02 01:40:56] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
 [2024-05-02 01:40:56] INFO root fetch - main [MainThread]: Store serial: [23023572]
+[2024-05-02 01:43:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023572]
+[2024-05-02 01:43:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-tls
+[2024-05-02 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mountaineer
+[2024-05-02 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marib
+[2024-05-02 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quil
+[2024-05-02 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torf-gui
+[2024-05-02 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-google-el-carro
+[2024-05-02 01:43:06] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1714566736] Old Version: [5.1.0a1714544587]
+[2024-05-02 01:43:06] WARNING root fetch - processPackages [marib]: Skipping, unable to determine old version
+[2024-05-02 01:43:06] INFO root fetch - main [MainThread]: End processing [marib] error
+[2024-05-02 01:43:06] INFO root fetch - processPackages [langchain-google-el-carro]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-02 01:43:06] INFO root fetch - processPackages [torf-gui]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-02 01:43:06] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/e3/02/32bdb918f2ecbb97d5e414a2e069f4436ab9de0d8df370f598bfad3bca14/pulumi_tls-5.1.0a1714544587.tar.gz
+[2024-05-02 01:43:06] INFO root fetch - processPackages [mountaineer]: New version: [0.5.0.dev1] Old Version: [0.4.2.dev3]
+[2024-05-02 01:43:06] INFO root fetch - processPackages [quil]: New version: [0.9.1rc0] Old Version: [0.9.1]
+[2024-05-02 01:43:06] INFO root fetch - processPackages [langchain-google-el-carro]: Downloading https://files.pythonhosted.org/packages/5d/d9/1e7ed33d70e7c5699295616c980724620a7d9872dffbc925959e50ec74a7/langchain_google_el_carro-0.1.0-py3-none-any.whl
+[2024-05-02 01:43:06] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/6a/16/34df3feaadf8b907b9e1341c5a2476074600dad432c14f1f6d7d770c66cc/mountaineer-0.4.2.dev3.tar.gz
+[2024-05-02 01:43:06] INFO root fetch - processPackages [torf-gui]: Downloading https://files.pythonhosted.org/packages/14/dd/7979261fd3a115138a6d01592152f3e7a9bd0f06c9cb266e7f41e6192648/torf-gui-0.3.1.tar.gz
+[2024-05-02 01:43:06] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/6d/44/f505f8a6cb7a0504335ff12217f6928f0eeed78efb00fd08efaf330efd32/quil-0.9.1.tar.gz
+[2024-05-02 01:43:06] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/08/ae/4dc8d2c94f6167110c944eeb9c2c85afff5b84aac520f5d72aa988b10df1/pulumi_tls-5.1.0a1714566736.tar.gz
+[2024-05-02 01:43:07] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-05-02 01:43:07] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1714544587.tar.gz tmp/pulumi_tls-5.1.0a1714566736.tar.gz --markdown 20240502/p/pulumi-tls/5.1.0a1714544587-5.1.0a1714566736/README.md --exclude *.pyd
+[2024-05-02 01:43:07] INFO root fetch - processPackages [torf-gui]: Downloading https://files.pythonhosted.org/packages/fa/e4/8583243de9453a8ff0671b805d58e64b3dd8daed5c1e4cf16f193594321f/torf-gui-0.4.0.tar.gz
+[2024-05-02 01:43:07] INFO root fetch - processPackages [langchain-google-el-carro]: Downloading https://files.pythonhosted.org/packages/35/92/a6317ccc042068cd23a7d2934e4effc717c8701f44d767fb4aa666ca0879/langchain_google_el_carro-0.2.0-py3-none-any.whl
+[2024-05-02 01:43:07] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/67/61/c11958b5f7013a75407e2a93cb67e121e8f84a4d3e99b0be502ab0dded9b/quil-0.9.1rc0.tar.gz
+[2024-05-02 01:43:07] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/14/6b/d73bc35dda372c0f44664de2288455379f6f6b835240986e4eea7e3743b5/mountaineer-0.5.0.dev1.tar.gz
+[2024-05-02 01:43:07] INFO root fetch - processPackages [torf-gui]: executing diffoscope
+[2024-05-02 01:43:07] INFO root fetch - processPackages [torf-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torf-gui-0.3.1.tar.gz tmp/torf-gui-0.4.0.tar.gz --markdown 20240502/t/torf-gui/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-02 01:43:07] INFO root fetch - processPackages [langchain-google-el-carro]: executing diffoscope
+[2024-05-02 01:43:07] INFO root fetch - processPackages [langchain-google-el-carro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_google_el_carro-0.1.0-py3-none-any.whl.zip tmp/langchain_google_el_carro-0.2.0-py3-none-any.whl.zip --markdown 20240502/l/langchain-google-el-carro/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-02 01:43:07] INFO root fetch - processPackages [quil]: executing diffoscope
+[2024-05-02 01:43:07] INFO root fetch - processPackages [quil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quil-0.9.1.tar.gz tmp/quil-0.9.1rc0.tar.gz --markdown 20240502/q/quil/0.9.1-0.9.1rc0/README.md --exclude *.pyd
+[2024-05-02 01:43:07] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1714544587.tar.gz]
+[2024-05-02 01:43:07] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1714566736.tar.gz]
+[2024-05-02 01:43:07] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-05-02 01:43:07] INFO root fetch - processPackages [torf-gui]: Remove: archive file [/home/abi/fetcher/tmp/torf-gui-0.3.1.tar.gz]
+[2024-05-02 01:43:07] INFO root fetch - processPackages [torf-gui]: Remove: archive file [/home/abi/fetcher/tmp/torf-gui-0.4.0.tar.gz]
+[2024-05-02 01:43:07] INFO root fetch - main [MainThread]: End processing [torf-gui]: success
+[2024-05-02 01:43:07] INFO root fetch - processPackages [langchain-google-el-carro]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_el_carro-0.1.0-py3-none-any.whl.zip]
+[2024-05-02 01:43:07] INFO root fetch - processPackages [langchain-google-el-carro]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_el_carro-0.2.0-py3-none-any.whl.zip]
+[2024-05-02 01:43:07] INFO root fetch - main [MainThread]: End processing [langchain-google-el-carro]: success
+[2024-05-02 01:43:08] INFO root fetch - processPackages [mountaineer]: executing diffoscope
+[2024-05-02 01:43:08] INFO root fetch - processPackages [mountaineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountaineer-0.4.2.dev3.tar.gz tmp/mountaineer-0.5.0.dev1.tar.gz --markdown 20240502/m/mountaineer/0.4.2.dev3-0.5.0.dev1/README.md --exclude *.pyd
+[2024-05-02 01:43:08] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.9.1.tar.gz]
+[2024-05-02 01:43:08] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.9.1rc0.tar.gz]
+[2024-05-02 01:43:08] INFO root fetch - main [MainThread]: End processing [quil]: success
+[2024-05-02 01:43:09] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.4.2.dev3.tar.gz]
+[2024-05-02 01:43:09] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.5.0.dev1.tar.gz]
+[2024-05-02 01:43:09] INFO root fetch - main [MainThread]: End processing [mountaineer]: success
+[2024-05-02 01:43:09] INFO root fetch - main [MainThread]: Store serial: [23023599]
