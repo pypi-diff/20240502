@@ -769,3 +769,76 @@
 [2024-05-02 00:46:25] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-02 00:46:25] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-02 00:46:25] INFO root fetch - main [MainThread]: Store serial: [23023158]
+[2024-05-02 00:48:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023158]
+[2024-05-02 00:48:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 00:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qai-chat
+[2024-05-02 00:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invenio-logging
+[2024-05-02 00:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrit
+[2024-05-02 00:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: camera-ui-python-types
+[2024-05-02 00:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seeq
+[2024-05-02 00:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: comfy-cli
+[2024-05-02 00:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qai-chat
+[2024-05-02 00:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelpark
+[2024-05-02 00:48:34] INFO root fetch - processPackages [modelpark]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-02 00:48:34] INFO root fetch - processPackages [comfy-cli]: New version: [2024.4.30] Old Version: [2020.0.0]
+[2024-05-02 00:48:34] INFO root fetch - processPackages [pyrit]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-02 00:48:34] INFO root fetch - processPackages [invenio-logging]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-02 00:48:34] INFO root fetch - processPackages [camera-ui-python-types]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 00:48:34] INFO root fetch - processPackages [qai-chat]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-02 00:48:34] INFO root fetch - processPackages [qai-chat]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-02 00:48:35] INFO root fetch - processPackages [modelpark]: Downloading https://files.pythonhosted.org/packages/f8/f3/67681c2b8ee8e0d75e2973aabd3127445b8a34216d5c4765074f362c7e79/modelpark-0.1.7.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [seeq]: New version: [65.0.1] Old Version: [65.0.0]
+[2024-05-02 00:48:35] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/07/3e/93b5d31fa94e203461fe52995c3e54db3237963b605e8314364dd48cbc2f/comfy_cli-2020.0.0.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [invenio-logging]: Downloading https://files.pythonhosted.org/packages/d2/74/71fa3480cb2abab4cbf26087b3a73e256a5d1a8206b8890304faac0c00c1/invenio-logging-2.1.0.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [pyrit]: Downloading https://files.pythonhosted.org/packages/ac/55/6d0c3434b05ab715eaaab15f7383625383953b3eb859ab685cf5f083f811/pyrit-0.2.0.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [qai-chat]: Downloading https://files.pythonhosted.org/packages/e3/4e/1e968834b86dd96972ae4d8a0ea5bc351d1f52dc82d995eb7f29faec47d1/qai_chat-0.5.0.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [qai-chat]: Downloading https://files.pythonhosted.org/packages/e3/4e/1e968834b86dd96972ae4d8a0ea5bc351d1f52dc82d995eb7f29faec47d1/qai_chat-0.5.0.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/4d/91/8f66920b92ee71f302a89040cd5bda06874eb3068a8e2783d2727e21e145/camera-ui-python-types-0.1.8.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/16/e7/6bcc99f6a6f9532e40c02557fe47801fef30f649e1671de5e839dc373864/seeq-65.0.0.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [modelpark]: Downloading https://files.pythonhosted.org/packages/e9/1c/65fa6477b6a31dc7c8fa1c2a071de29b5c918e96808a4ccbc8c385cf3b87/modelpark-0.1.8.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/1d/42/99055d7a1da98c7143b6f70893c867e60644c9d10529f102edf3114c790e/comfy_cli-2024.4.30.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [modelpark]: executing diffoscope
+[2024-05-02 00:48:35] INFO root fetch - processPackages [modelpark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelpark-0.1.7.tar.gz tmp/modelpark-0.1.8.tar.gz --markdown 20240502/m/modelpark/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-02 00:48:35] INFO root fetch - processPackages [comfy-cli]: executing diffoscope
+[2024-05-02 00:48:35] INFO root fetch - processPackages [comfy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfy_cli-2020.0.0.tar.gz tmp/comfy_cli-2024.4.30.tar.gz --markdown 20240502/c/comfy-cli/2020.0.0-2024.4.30/README.md --exclude *.pyd
+[2024-05-02 00:48:35] INFO root fetch - processPackages [invenio-logging]: Downloading https://files.pythonhosted.org/packages/71/02/fb08d328abc6c853c9fec48556dd933d97c6b6421e272baaec69f6fdd3ff/invenio-logging-2.1.1.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [qai-chat]: Downloading https://files.pythonhosted.org/packages/86/fe/58948dacabc682ec75a1e6ef5ed9c9ff13f4cb10dcd9a23bd7f534e69cb9/qai_chat-0.5.1.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [qai-chat]: Downloading https://files.pythonhosted.org/packages/86/fe/58948dacabc682ec75a1e6ef5ed9c9ff13f4cb10dcd9a23bd7f534e69cb9/qai_chat-0.5.1.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/aa/10/16d19e4d819a9d548f5b24a065fd209324b510898722599b0caf5da342e7/camera-ui-python-types-0.1.9.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/82/67/c8293207bbe83feb36a9cc3e071d26536090b704cbf3b95eba349ef6af2c/seeq-65.0.1.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [invenio-logging]: executing diffoscope
+[2024-05-02 00:48:35] INFO root fetch - processPackages [invenio-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-logging-2.1.0.tar.gz tmp/invenio-logging-2.1.1.tar.gz --markdown 20240502/i/invenio-logging/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-02 00:48:35] INFO root fetch - processPackages [qai-chat]: executing diffoscope
+[2024-05-02 00:48:35] INFO root fetch - processPackages [qai-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_chat-0.5.0.tar.gz tmp/qai_chat-0.5.1.tar.gz --markdown 20240502/q/qai-chat/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-02 00:48:35] INFO root fetch - processPackages [camera-ui-python-types]: executing diffoscope
+[2024-05-02 00:48:35] INFO root fetch - processPackages [camera-ui-python-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camera-ui-python-types-0.1.8.tar.gz tmp/camera-ui-python-types-0.1.9.tar.gz --markdown 20240502/c/camera-ui-python-types/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 00:48:35] INFO root fetch - processPackages [qai-chat]: executing diffoscope
+[2024-05-02 00:48:35] INFO root fetch - processPackages [qai-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_chat-0.5.0.tar.gz tmp/qai_chat-0.5.1.tar.gz --markdown 20240502/q/qai-chat/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-02 00:48:35] INFO root fetch - processPackages [pyrit]: Downloading https://files.pythonhosted.org/packages/68/74/8990d284a31f39c66cbf538107368f2e0411eb7ca91bee4e866e6bdd1e61/pyrit-0.2.1.tar.gz
+[2024-05-02 00:48:35] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2024-05-02 00:48:35] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-65.0.0.tar.gz tmp/seeq-65.0.1.tar.gz --markdown 20240502/s/seeq/65.0.0-65.0.1/README.md --exclude *.pyd
+[2024-05-02 00:48:35] INFO root fetch - processPackages [pyrit]: executing diffoscope
+[2024-05-02 00:48:35] INFO root fetch - processPackages [pyrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrit-0.2.0.tar.gz tmp/pyrit-0.2.1.tar.gz --markdown 20240502/p/pyrit/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-02 00:48:36] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-2020.0.0.tar.gz]
+[2024-05-02 00:48:36] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-2024.4.30.tar.gz]
+[2024-05-02 00:48:36] INFO root fetch - main [MainThread]: End processing [comfy-cli]: success
+[2024-05-02 00:48:36] INFO root fetch - processPackages [modelpark]: Remove: archive file [/home/abi/fetcher/tmp/modelpark-0.1.7.tar.gz]
+[2024-05-02 00:48:36] INFO root fetch - processPackages [modelpark]: Remove: archive file [/home/abi/fetcher/tmp/modelpark-0.1.8.tar.gz]
+[2024-05-02 00:48:36] INFO root fetch - main [MainThread]: End processing [modelpark]: success
+[2024-05-02 00:48:36] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.8.tar.gz]
+[2024-05-02 00:48:36] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.9.tar.gz]
+[2024-05-02 00:48:36] INFO root fetch - main [MainThread]: End processing [camera-ui-python-types]: success
+[2024-05-02 00:48:36] INFO root fetch - processPackages [qai-chat]: Remove: archive file [/home/abi/fetcher/tmp/qai_chat-0.5.0.tar.gz]
+[2024-05-02 00:48:36] INFO root fetch - processPackages [qai-chat]: Remove: archive file [/home/abi/fetcher/tmp/qai_chat-0.5.1.tar.gz]
+[2024-05-02 00:48:36] INFO root fetch - main [MainThread]: End processing [qai-chat]: success
+[2024-05-02 00:48:36] INFO root fetch - main [MainThread]: End processing [qai-chat]: success
+[2024-05-02 00:48:36] INFO root fetch - processPackages [invenio-logging]: Remove: archive file [/home/abi/fetcher/tmp/invenio-logging-2.1.0.tar.gz]
+[2024-05-02 00:48:36] INFO root fetch - processPackages [invenio-logging]: Remove: archive file [/home/abi/fetcher/tmp/invenio-logging-2.1.1.tar.gz]
+[2024-05-02 00:48:36] INFO root fetch - main [MainThread]: End processing [invenio-logging]: success
+[2024-05-02 00:48:37] INFO root fetch - processPackages [pyrit]: Remove: archive file [/home/abi/fetcher/tmp/pyrit-0.2.0.tar.gz]
+[2024-05-02 00:48:37] INFO root fetch - processPackages [pyrit]: Remove: archive file [/home/abi/fetcher/tmp/pyrit-0.2.1.tar.gz]
+[2024-05-02 00:48:37] INFO root fetch - main [MainThread]: End processing [pyrit]: success
+[2024-05-02 00:48:41] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.0.tar.gz]
+[2024-05-02 00:48:41] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.1.tar.gz]
+[2024-05-02 00:48:41] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2024-05-02 00:48:41] INFO root fetch - main [MainThread]: Store serial: [23023186]
