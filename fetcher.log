@@ -1651,3 +1651,26 @@
 [2024-05-02 01:36:40] INFO root fetch - processPackages [jump-portrait]: Remove: archive file [/home/abi/fetcher/tmp/jump_portrait-0.0.8.tar.gz]
 [2024-05-02 01:36:40] INFO root fetch - main [MainThread]: End processing [jump-portrait]: success
 [2024-05-02 01:36:40] INFO root fetch - main [MainThread]: Store serial: [23023569]
+[2024-05-02 01:38:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023569]
+[2024-05-02 01:38:49] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-02 01:40:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023569]
+[2024-05-02 01:40:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 01:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asymmetric-jwt-auth
+[2024-05-02 01:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-tls
+[2024-05-02 01:40:54] INFO root fetch - processPackages [asymmetric-jwt-auth]: New version: [1.0.1b6] Old Version: [1.0.1b5]
+[2024-05-02 01:40:54] INFO root fetch - processPackages [asymmetric-jwt-auth]: Downloading https://files.pythonhosted.org/packages/d9/f3/5c0258ccb47024361cea42d29a838400f20615e35380b8ec8cbd310a5ade/asymmetric_jwt_auth-1.0.1b5.tar.gz
+[2024-05-02 01:40:55] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1714566736] Old Version: [5.1.0a1714544587]
+[2024-05-02 01:40:55] INFO root fetch - processPackages [asymmetric-jwt-auth]: Downloading https://files.pythonhosted.org/packages/6f/3d/45633a04d0d00903da4123900c765a50dde2e41a3f0f5a2a484701935427/asymmetric_jwt_auth-1.0.1b6.tar.gz
+[2024-05-02 01:40:55] INFO root fetch - processPackages [asymmetric-jwt-auth]: executing diffoscope
+[2024-05-02 01:40:55] INFO root fetch - processPackages [asymmetric-jwt-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asymmetric_jwt_auth-1.0.1b5.tar.gz tmp/asymmetric_jwt_auth-1.0.1b6.tar.gz --markdown 20240502/a/asymmetric-jwt-auth/1.0.1b5-1.0.1b6/README.md --exclude *.pyd
+[2024-05-02 01:40:55] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/e3/02/32bdb918f2ecbb97d5e414a2e069f4436ab9de0d8df370f598bfad3bca14/pulumi_tls-5.1.0a1714544587.tar.gz
+[2024-05-02 01:40:55] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/08/ae/4dc8d2c94f6167110c944eeb9c2c85afff5b84aac520f5d72aa988b10df1/pulumi_tls-5.1.0a1714566736.tar.gz
+[2024-05-02 01:40:55] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-05-02 01:40:55] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1714544587.tar.gz tmp/pulumi_tls-5.1.0a1714566736.tar.gz --markdown 20240502/p/pulumi-tls/5.1.0a1714544587-5.1.0a1714566736/README.md --exclude *.pyd
+[2024-05-02 01:40:55] INFO root fetch - processPackages [asymmetric-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/asymmetric_jwt_auth-1.0.1b5.tar.gz]
+[2024-05-02 01:40:55] INFO root fetch - processPackages [asymmetric-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/asymmetric_jwt_auth-1.0.1b6.tar.gz]
+[2024-05-02 01:40:55] INFO root fetch - main [MainThread]: End processing [asymmetric-jwt-auth]: success
+[2024-05-02 01:40:56] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1714544587.tar.gz]
+[2024-05-02 01:40:56] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1714566736.tar.gz]
+[2024-05-02 01:40:56] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-05-02 01:40:56] INFO root fetch - main [MainThread]: Store serial: [23023572]
