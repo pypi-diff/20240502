@@ -315,3 +315,63 @@
 [2024-05-02 00:14:52] INFO root fetch - processPackages [ayx-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ayx_python_sdk-2.4b0-cp38-none-any.whl.zip]
 [2024-05-02 00:14:52] INFO root fetch - main [MainThread]: End processing [ayx-python-sdk]: success
 [2024-05-02 00:14:52] INFO root fetch - main [MainThread]: Store serial: [23022950]
+[2024-05-02 00:17:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23022950]
+[2024-05-02 00:17:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 00:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awsync
+[2024-05-02 00:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deadline-cloud-for-cinema-4d
+[2024-05-02 00:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dfddnsclient
+[2024-05-02 00:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: musicntwrk
+[2024-05-02 00:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelpark
+[2024-05-02 00:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudflare-dynamic-dns-client
+[2024-05-02 00:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sourmash-plugin-directsketch
+[2024-05-02 00:17:07] INFO root fetch - processPackages [awsync]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 00:17:07] INFO root fetch - processPackages [dfddnsclient]: New version: [1.2] Old Version: [1.1]
+[2024-05-02 00:17:07] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-02 00:17:07] INFO root fetch - processPackages [dfddnsclient]: Downloading https://files.pythonhosted.org/packages/9d/71/06585943d28028087078fc185640751b45e5781922755c479e321c4fd1bf/dfddnsclient-1.1.tar.gz
+[2024-05-02 00:17:07] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Downloading https://files.pythonhosted.org/packages/c3/1a/ec37d896498aeec8b9a904f6397321950afc9ccb59faa04924ba08267499/cloudflare-dynamic-dns-client-0.2.1.tar.gz
+[2024-05-02 00:17:07] INFO root fetch - processPackages [deadline-cloud-for-cinema-4d]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-02 00:17:07] WARNING root fetch - processPackages [sourmash-plugin-directsketch]: Skipping, unable to determine old version
+[2024-05-02 00:17:07] INFO root fetch - main [MainThread]: End processing [sourmash-plugin-directsketch] error
+[2024-05-02 00:17:07] INFO root fetch - processPackages [modelpark]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-02 00:17:07] INFO root fetch - processPackages [musicntwrk]: New version: [2.3.4] Old Version: [2.3.3]
+[2024-05-02 00:17:07] INFO root fetch - processPackages [awsync]: Downloading https://files.pythonhosted.org/packages/a0/f5/f5704d70f9a33eacf45f776d5a236fc84294e55feddf1f5dc8264539ead3/awsync-0.1.0.tar.gz
+[2024-05-02 00:17:07] INFO root fetch - processPackages [deadline-cloud-for-cinema-4d]: Downloading https://files.pythonhosted.org/packages/81/8f/d26b4611854192d979f6d2e08d333b937c9353cfc4288624d65b2478e431/deadline_cloud_for_cinema_4d-0.3.0.tar.gz
+[2024-05-02 00:17:07] INFO root fetch - processPackages [musicntwrk]: Downloading https://files.pythonhosted.org/packages/84/45/bbc9c38aee224fd2b7de8792906424d8670dff507b7b9c41876f2ccd3c20/musicntwrk-2.3.3.tar.gz
+[2024-05-02 00:17:07] INFO root fetch - processPackages [modelpark]: Downloading https://files.pythonhosted.org/packages/f8/f3/67681c2b8ee8e0d75e2973aabd3127445b8a34216d5c4765074f362c7e79/modelpark-0.1.7.tar.gz
+[2024-05-02 00:17:07] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Downloading https://files.pythonhosted.org/packages/7b/ed/b0dfe339c45f44e41aafec9fb16fc3713e8161d3baab5de23243d0616812/cloudflare-dynamic-dns-client-0.2.2.tar.gz
+[2024-05-02 00:17:07] INFO root fetch - processPackages [dfddnsclient]: Downloading https://files.pythonhosted.org/packages/9b/af/c1ead69ca0b2e7047a76975a391b18ea928dd228ae18b4d164d50d7277d5/dfddnsclient-1.2.tar.gz
+[2024-05-02 00:17:07] INFO root fetch - processPackages [awsync]: Downloading https://files.pythonhosted.org/packages/c7/72/0f93e05a08d03831a342d1ff023d6f0049db91dc3fe64b9b70edbb28389a/awsync-0.1.1.tar.gz
+[2024-05-02 00:17:08] INFO root fetch - processPackages [dfddnsclient]: executing diffoscope
+[2024-05-02 00:17:08] INFO root fetch - processPackages [dfddnsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfddnsclient-1.1.tar.gz tmp/dfddnsclient-1.2.tar.gz --markdown 20240502/d/dfddnsclient/1.1-1.2/README.md --exclude *.pyd
+[2024-05-02 00:17:08] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: executing diffoscope
+[2024-05-02 00:17:08] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflare-dynamic-dns-client-0.2.1.tar.gz tmp/cloudflare-dynamic-dns-client-0.2.2.tar.gz --markdown 20240502/c/cloudflare-dynamic-dns-client/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-02 00:17:08] INFO root fetch - processPackages [awsync]: executing diffoscope
+[2024-05-02 00:17:08] INFO root fetch - processPackages [awsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsync-0.1.0.tar.gz tmp/awsync-0.1.1.tar.gz --markdown 20240502/a/awsync/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 00:17:08] INFO root fetch - processPackages [deadline-cloud-for-cinema-4d]: Downloading https://files.pythonhosted.org/packages/b1/d6/d6aa14de5fa48a351e707b6a7cf572bb363cb4c4b0a15de295322a50ce52/deadline_cloud_for_cinema_4d-0.3.1.tar.gz
+[2024-05-02 00:17:08] INFO root fetch - processPackages [modelpark]: Downloading https://files.pythonhosted.org/packages/e9/1c/65fa6477b6a31dc7c8fa1c2a071de29b5c918e96808a4ccbc8c385cf3b87/modelpark-0.1.8.tar.gz
+[2024-05-02 00:17:08] INFO root fetch - processPackages [musicntwrk]: Downloading https://files.pythonhosted.org/packages/12/c7/76d5b600a9e8225d840c16a7630e2190d565685a96587690331cdab4362d/musicntwrk-2.3.4.tar.gz
+[2024-05-02 00:17:08] INFO root fetch - processPackages [deadline-cloud-for-cinema-4d]: executing diffoscope
+[2024-05-02 00:17:08] INFO root fetch - processPackages [deadline-cloud-for-cinema-4d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadline_cloud_for_cinema_4d-0.3.0.tar.gz tmp/deadline_cloud_for_cinema_4d-0.3.1.tar.gz --markdown 20240502/d/deadline-cloud-for-cinema-4d/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-02 00:17:08] INFO root fetch - processPackages [modelpark]: executing diffoscope
+[2024-05-02 00:17:08] INFO root fetch - processPackages [modelpark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelpark-0.1.7.tar.gz tmp/modelpark-0.1.8.tar.gz --markdown 20240502/m/modelpark/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-02 00:17:08] INFO root fetch - processPackages [musicntwrk]: executing diffoscope
+[2024-05-02 00:17:08] INFO root fetch - processPackages [musicntwrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicntwrk-2.3.3.tar.gz tmp/musicntwrk-2.3.4.tar.gz --markdown 20240502/m/musicntwrk/2.3.3-2.3.4/README.md --exclude *.pyd
+[2024-05-02 00:17:08] INFO root fetch - processPackages [dfddnsclient]: Remove: archive file [/home/abi/fetcher/tmp/dfddnsclient-1.1.tar.gz]
+[2024-05-02 00:17:08] INFO root fetch - processPackages [dfddnsclient]: Remove: archive file [/home/abi/fetcher/tmp/dfddnsclient-1.2.tar.gz]
+[2024-05-02 00:17:08] INFO root fetch - main [MainThread]: End processing [dfddnsclient]: success
+[2024-05-02 00:17:08] INFO root fetch - processPackages [awsync]: Remove: archive file [/home/abi/fetcher/tmp/awsync-0.1.0.tar.gz]
+[2024-05-02 00:17:08] INFO root fetch - processPackages [awsync]: Remove: archive file [/home/abi/fetcher/tmp/awsync-0.1.1.tar.gz]
+[2024-05-02 00:17:08] INFO root fetch - main [MainThread]: End processing [awsync]: success
+[2024-05-02 00:17:08] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-dynamic-dns-client-0.2.1.tar.gz]
+[2024-05-02 00:17:08] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-dynamic-dns-client-0.2.2.tar.gz]
+[2024-05-02 00:17:08] INFO root fetch - main [MainThread]: End processing [cloudflare-dynamic-dns-client]: success
+[2024-05-02 00:17:08] INFO root fetch - processPackages [modelpark]: Remove: archive file [/home/abi/fetcher/tmp/modelpark-0.1.7.tar.gz]
+[2024-05-02 00:17:08] INFO root fetch - processPackages [modelpark]: Remove: archive file [/home/abi/fetcher/tmp/modelpark-0.1.8.tar.gz]
+[2024-05-02 00:17:08] INFO root fetch - main [MainThread]: End processing [modelpark]: success
+[2024-05-02 00:17:08] INFO root fetch - processPackages [deadline-cloud-for-cinema-4d]: Remove: archive file [/home/abi/fetcher/tmp/deadline_cloud_for_cinema_4d-0.3.0.tar.gz]
+[2024-05-02 00:17:08] INFO root fetch - processPackages [deadline-cloud-for-cinema-4d]: Remove: archive file [/home/abi/fetcher/tmp/deadline_cloud_for_cinema_4d-0.3.1.tar.gz]
+[2024-05-02 00:17:08] INFO root fetch - main [MainThread]: End processing [deadline-cloud-for-cinema-4d]: success
+[2024-05-02 00:17:09] INFO root fetch - processPackages [musicntwrk]: Remove: archive file [/home/abi/fetcher/tmp/musicntwrk-2.3.3.tar.gz]
+[2024-05-02 00:17:09] INFO root fetch - processPackages [musicntwrk]: Remove: archive file [/home/abi/fetcher/tmp/musicntwrk-2.3.4.tar.gz]
+[2024-05-02 00:17:09] INFO root fetch - main [MainThread]: End processing [musicntwrk]: success
+[2024-05-02 00:17:09] INFO root fetch - main [MainThread]: Store serial: [23022980]
