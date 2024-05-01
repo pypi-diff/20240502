@@ -85,3 +85,27 @@
 [2024-05-02 00:03:46] INFO root fetch - processPackages [getdaft]: Remove: archive file [/home/abi/fetcher/tmp/getdaft-0.2.9.tar.gz]
 [2024-05-02 00:03:46] INFO root fetch - main [MainThread]: End processing [getdaft]: success
 [2024-05-02 00:03:46] INFO root fetch - main [MainThread]: Store serial: [23022829]
+[2024-05-02 00:05:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23022829]
+[2024-05-02 00:05:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 00:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud-files
+[2024-05-02 00:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudflare-dynamic-dns-client
+[2024-05-02 00:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gflabel
+[2024-05-02 00:05:54] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-02 00:05:55] WARNING root fetch - processPackages [gflabel]: Skipping, unable to determine old version
+[2024-05-02 00:05:55] INFO root fetch - main [MainThread]: End processing [gflabel] error
+[2024-05-02 00:05:55] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Downloading https://files.pythonhosted.org/packages/e4/14/4754ac4e70fea17dca8a13701519cb84a99387f566fa94825ba768fe94a5/cloudflare-dynamic-dns-client-0.1.2.tar.gz
+[2024-05-02 00:05:55] INFO root fetch - processPackages [cloud-files]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-05-02 00:05:55] INFO root fetch - processPackages [cloud-files]: Downloading https://files.pythonhosted.org/packages/f0/c8/1670e09d59d1c4e03277e61e4bba0d8e81cfa625158c04efd19bee4c1aa8/cloud-files-4.9.0.tar.gz
+[2024-05-02 00:05:55] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Downloading https://files.pythonhosted.org/packages/86/ca/ebb8ae190f254b441ee72b773ca06023c240aeed71701d3f2f024633de26/cloudflare-dynamic-dns-client-0.2.0.tar.gz
+[2024-05-02 00:05:55] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: executing diffoscope
+[2024-05-02 00:05:55] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflare-dynamic-dns-client-0.1.2.tar.gz tmp/cloudflare-dynamic-dns-client-0.2.0.tar.gz --markdown 20240502/c/cloudflare-dynamic-dns-client/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-02 00:05:55] INFO root fetch - processPackages [cloud-files]: Downloading https://files.pythonhosted.org/packages/6c/69/68998e8e8025bf7860d9cdef6ff6c18032f8995566053e1b5e13c3e18851/cloud-files-4.9.1.tar.gz
+[2024-05-02 00:05:55] INFO root fetch - processPackages [cloud-files]: executing diffoscope
+[2024-05-02 00:05:55] INFO root fetch - processPackages [cloud-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-files-4.9.0.tar.gz tmp/cloud-files-4.9.1.tar.gz --markdown 20240502/c/cloud-files/4.9.0-4.9.1/README.md --exclude *.pyd
+[2024-05-02 00:05:56] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-dynamic-dns-client-0.1.2.tar.gz]
+[2024-05-02 00:05:56] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-dynamic-dns-client-0.2.0.tar.gz]
+[2024-05-02 00:05:56] INFO root fetch - main [MainThread]: End processing [cloudflare-dynamic-dns-client]: success
+[2024-05-02 00:05:56] INFO root fetch - processPackages [cloud-files]: Remove: archive file [/home/abi/fetcher/tmp/cloud-files-4.9.0.tar.gz]
+[2024-05-02 00:05:56] INFO root fetch - processPackages [cloud-files]: Remove: archive file [/home/abi/fetcher/tmp/cloud-files-4.9.1.tar.gz]
+[2024-05-02 00:05:56] INFO root fetch - main [MainThread]: End processing [cloud-files]: success
+[2024-05-02 00:05:56] INFO root fetch - main [MainThread]: Store serial: [23022839]
