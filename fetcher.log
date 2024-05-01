@@ -130,3 +130,51 @@
 [2024-05-02 00:08:05] INFO root fetch - processPackages [deadline-cloud-for-nuke]: Remove: archive file [/home/abi/fetcher/tmp/deadline_cloud_for_nuke-0.18.2.tar.gz]
 [2024-05-02 00:08:05] INFO root fetch - main [MainThread]: End processing [deadline-cloud-for-nuke]: success
 [2024-05-02 00:08:05] INFO root fetch - main [MainThread]: Store serial: [23022845]
+[2024-05-02 00:10:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23022845]
+[2024-05-02 00:10:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 00:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: knoxnl
+[2024-05-02 00:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-openai
+[2024-05-02 00:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: w-render
+[2024-05-02 00:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pthugefileviewer
+[2024-05-02 00:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dfddnsclient
+[2024-05-02 00:10:14] INFO root fetch - processPackages [w-render]: New version: [0.3.0] Old Version: [0.2.6]
+[2024-05-02 00:10:14] INFO root fetch - processPackages [dfddnsclient]: New version: [1.1] Old Version: [1.0]
+[2024-05-02 00:10:14] INFO root fetch - processPackages [langchain-openai]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-02 00:10:14] INFO root fetch - processPackages [w-render]: Downloading https://files.pythonhosted.org/packages/b3/03/ce6f08e7eb7ae7c15e574810a56e22918e74489874ca6f2eed9d0223ade7/w_render-0.2.6.tar.gz
+[2024-05-02 00:10:14] INFO root fetch - processPackages [pthugefileviewer]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-02 00:10:14] INFO root fetch - processPackages [knoxnl]: New version: [4.3] Old Version: [4.2]
+[2024-05-02 00:10:14] INFO root fetch - processPackages [langchain-openai]: Downloading https://files.pythonhosted.org/packages/f6/a7/0a6a8a25af589e98f4969393c0d1949f119752fb926bb4696768cd7f196f/langchain_openai-0.1.4.tar.gz
+[2024-05-02 00:10:14] INFO root fetch - processPackages [dfddnsclient]: Downloading https://files.pythonhosted.org/packages/be/fa/d3ccb8d2d1b50f1fa6fe970228f43e1e6173653d52a25b6919c243c4f4c0/dfddnsclient-1.0.tar.gz
+[2024-05-02 00:10:14] INFO root fetch - processPackages [pthugefileviewer]: Downloading https://files.pythonhosted.org/packages/20/74/8da2e83089c4465bf0576b77f36a6ae4f2abcadacd0a7b9f53e06f7516c1/pthugefileviewer-0.4.0.tar.gz
+[2024-05-02 00:10:14] INFO root fetch - processPackages [knoxnl]: Downloading https://files.pythonhosted.org/packages/67/a3/2d774fc984d13a3e3097a3368776b76a3549bf4d36e642efb26383c7e08b/knoxnl-4.2.tar.gz
+[2024-05-02 00:10:14] INFO root fetch - processPackages [w-render]: Downloading https://files.pythonhosted.org/packages/67/27/aaba7230220a7e1b219fde9e7402f51beb558b3da0dbe0e827b506bafc98/w_render-0.3.0.tar.gz
+[2024-05-02 00:10:14] INFO root fetch - processPackages [w-render]: executing diffoscope
+[2024-05-02 00:10:14] INFO root fetch - processPackages [w-render]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w_render-0.2.6.tar.gz tmp/w_render-0.3.0.tar.gz --markdown 20240502/w/w-render/0.2.6-0.3.0/README.md --exclude *.pyd
+[2024-05-02 00:10:14] INFO root fetch - processPackages [dfddnsclient]: Downloading https://files.pythonhosted.org/packages/9d/71/06585943d28028087078fc185640751b45e5781922755c479e321c4fd1bf/dfddnsclient-1.1.tar.gz
+[2024-05-02 00:10:14] INFO root fetch - processPackages [langchain-openai]: Downloading https://files.pythonhosted.org/packages/76/60/a1d3534115c35fb3e0955df61556fab064f2a7e501bb00bda0e4af240ee0/langchain_openai-0.1.5.tar.gz
+[2024-05-02 00:10:15] INFO root fetch - processPackages [pthugefileviewer]: Downloading https://files.pythonhosted.org/packages/9e/15/08ccfd85e60311c436a981df92cc867ab42b3399036751ec2da5a18d9a96/pthugefileviewer-0.4.1.tar.gz
+[2024-05-02 00:10:15] INFO root fetch - processPackages [dfddnsclient]: executing diffoscope
+[2024-05-02 00:10:15] INFO root fetch - processPackages [dfddnsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfddnsclient-1.0.tar.gz tmp/dfddnsclient-1.1.tar.gz --markdown 20240502/d/dfddnsclient/1.0-1.1/README.md --exclude *.pyd
+[2024-05-02 00:10:15] INFO root fetch - processPackages [langchain-openai]: executing diffoscope
+[2024-05-02 00:10:15] INFO root fetch - processPackages [langchain-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_openai-0.1.4.tar.gz tmp/langchain_openai-0.1.5.tar.gz --markdown 20240502/l/langchain-openai/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-02 00:10:15] INFO root fetch - processPackages [knoxnl]: Downloading https://files.pythonhosted.org/packages/00/c1/5e70bbe6f340f054562fb76f2a67553c78983fc7b207891bca2794b6caca/knoxnl-4.3.tar.gz
+[2024-05-02 00:10:15] INFO root fetch - processPackages [pthugefileviewer]: executing diffoscope
+[2024-05-02 00:10:15] INFO root fetch - processPackages [pthugefileviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pthugefileviewer-0.4.0.tar.gz tmp/pthugefileviewer-0.4.1.tar.gz --markdown 20240502/p/pthugefileviewer/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-02 00:10:15] INFO root fetch - processPackages [knoxnl]: executing diffoscope
+[2024-05-02 00:10:15] INFO root fetch - processPackages [knoxnl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knoxnl-4.2.tar.gz tmp/knoxnl-4.3.tar.gz --markdown 20240502/k/knoxnl/4.2-4.3/README.md --exclude *.pyd
+[2024-05-02 00:10:15] INFO root fetch - processPackages [dfddnsclient]: Remove: archive file [/home/abi/fetcher/tmp/dfddnsclient-1.0.tar.gz]
+[2024-05-02 00:10:15] INFO root fetch - processPackages [dfddnsclient]: Remove: archive file [/home/abi/fetcher/tmp/dfddnsclient-1.1.tar.gz]
+[2024-05-02 00:10:15] INFO root fetch - main [MainThread]: End processing [dfddnsclient]: success
+[2024-05-02 00:10:15] INFO root fetch - processPackages [w-render]: Remove: archive file [/home/abi/fetcher/tmp/w_render-0.2.6.tar.gz]
+[2024-05-02 00:10:15] INFO root fetch - processPackages [w-render]: Remove: archive file [/home/abi/fetcher/tmp/w_render-0.3.0.tar.gz]
+[2024-05-02 00:10:15] INFO root fetch - main [MainThread]: End processing [w-render]: success
+[2024-05-02 00:10:15] INFO root fetch - processPackages [langchain-openai]: Remove: archive file [/home/abi/fetcher/tmp/langchain_openai-0.1.4.tar.gz]
+[2024-05-02 00:10:15] INFO root fetch - processPackages [langchain-openai]: Remove: archive file [/home/abi/fetcher/tmp/langchain_openai-0.1.5.tar.gz]
+[2024-05-02 00:10:15] INFO root fetch - main [MainThread]: End processing [langchain-openai]: success
+[2024-05-02 00:10:15] INFO root fetch - processPackages [pthugefileviewer]: Remove: archive file [/home/abi/fetcher/tmp/pthugefileviewer-0.4.0.tar.gz]
+[2024-05-02 00:10:15] INFO root fetch - processPackages [pthugefileviewer]: Remove: archive file [/home/abi/fetcher/tmp/pthugefileviewer-0.4.1.tar.gz]
+[2024-05-02 00:10:15] INFO root fetch - main [MainThread]: End processing [pthugefileviewer]: success
+[2024-05-02 00:10:15] INFO root fetch - processPackages [knoxnl]: Remove: archive file [/home/abi/fetcher/tmp/knoxnl-4.2.tar.gz]
+[2024-05-02 00:10:15] INFO root fetch - processPackages [knoxnl]: Remove: archive file [/home/abi/fetcher/tmp/knoxnl-4.3.tar.gz]
+[2024-05-02 00:10:15] INFO root fetch - main [MainThread]: End processing [knoxnl]: success
+[2024-05-02 00:10:15] INFO root fetch - main [MainThread]: Store serial: [23022860]
