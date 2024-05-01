@@ -1183,3 +1183,48 @@
 [2024-05-02 01:06:11] INFO root fetch - processPackages [bygg]: Remove: archive file [/home/abi/fetcher/tmp/bygg-0.4.1.tar.gz]
 [2024-05-02 01:06:11] INFO root fetch - main [MainThread]: End processing [bygg]: success
 [2024-05-02 01:06:11] INFO root fetch - main [MainThread]: Store serial: [23023346]
+[2024-05-02 01:08:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023346]
+[2024-05-02 01:08:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 01:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flwr-nightly
+[2024-05-02 01:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chgksuite
+[2024-05-02 01:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wirelesswizard
+[2024-05-02 01:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dhuodata-lib
+[2024-05-02 01:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: restfull
+[2024-05-02 01:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asymmetric-jwt-auth
+[2024-05-02 01:08:21] WARNING root fetch - processPackages [wirelesswizard]: Skipping, unable to determine old version
+[2024-05-02 01:08:21] INFO root fetch - main [MainThread]: End processing [wirelesswizard] error
+[2024-05-02 01:08:21] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240430] Old Version: [1.9.0.dev20240429]
+[2024-05-02 01:08:21] WARNING root fetch - processPackages [restfull]: Skipping, unable to determine old version
+[2024-05-02 01:08:21] INFO root fetch - main [MainThread]: End processing [restfull] error
+[2024-05-02 01:08:21] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-02 01:08:21] INFO root fetch - processPackages [chgksuite]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-02 01:08:22] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/f4/bf/16159f96fbd149e26a9ad282097b901cf94cd519c5314c228bc5c6e528ad/flwr_nightly-1.9.0.dev20240429.tar.gz
+[2024-05-02 01:08:22] INFO root fetch - processPackages [asymmetric-jwt-auth]: New version: [1.0.1b5] Old Version: [1.0.0b1]
+[2024-05-02 01:08:22] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/86/fd/9480639d760a7eade8878cd97f0a41be165ddc11fd7d89bd1c1c3d036a93/dhuodata-lib-0.2.3.tar.gz
+[2024-05-02 01:08:22] INFO root fetch - processPackages [chgksuite]: Downloading https://files.pythonhosted.org/packages/08/2b/0f75e642fcf6761c9237515450091e8f2eada4286e45f82cc52053558c7b/chgksuite-0.9.0.tar.gz
+[2024-05-02 01:08:22] INFO root fetch - processPackages [asymmetric-jwt-auth]: Downloading https://files.pythonhosted.org/packages/35/07/59589e4a1714cafab1a89e10b59c6b45aac87b8815e0baa3a38d8b74877e/asymmetric_jwt_auth-1.0.0b1.tar.gz
+[2024-05-02 01:08:22] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/57/3d/641e8ee7b51e5efb06785a3faff2d7d70ed94f066c05260e4674336b6ce1/flwr_nightly-1.9.0.dev20240430.tar.gz
+[2024-05-02 01:08:22] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-02 01:08:22] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240429.tar.gz tmp/flwr_nightly-1.9.0.dev20240430.tar.gz --markdown 20240502/f/flwr-nightly/1.9.0.dev20240429-1.9.0.dev20240430/README.md --exclude *.pyd
+[2024-05-02 01:08:22] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/67/ba/c3dcc4bdf89463360199f9fe90551a6719260926edbacbc342c15661444d/dhuodata_lib-0.2.4.tar.gz
+[2024-05-02 01:08:22] INFO root fetch - processPackages [asymmetric-jwt-auth]: Downloading https://files.pythonhosted.org/packages/d9/f3/5c0258ccb47024361cea42d29a838400f20615e35380b8ec8cbd310a5ade/asymmetric_jwt_auth-1.0.1b5.tar.gz
+[2024-05-02 01:08:22] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-05-02 01:08:22] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata-lib-0.2.3.tar.gz tmp/dhuodata_lib-0.2.4.tar.gz --markdown 20240502/d/dhuodata-lib/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-02 01:08:22] INFO root fetch - processPackages [chgksuite]: Downloading https://files.pythonhosted.org/packages/cd/f6/800bb5f46eb8b4639b4c81f8c7ad31a582abdb353fd822359c239ec699fd/chgksuite-0.9.1.tar.gz
+[2024-05-02 01:08:22] INFO root fetch - processPackages [chgksuite]: executing diffoscope
+[2024-05-02 01:08:22] INFO root fetch - processPackages [chgksuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chgksuite-0.9.0.tar.gz tmp/chgksuite-0.9.1.tar.gz --markdown 20240502/c/chgksuite/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-02 01:08:22] INFO root fetch - processPackages [asymmetric-jwt-auth]: executing diffoscope
+[2024-05-02 01:08:22] INFO root fetch - processPackages [asymmetric-jwt-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asymmetric_jwt_auth-1.0.0b1.tar.gz tmp/asymmetric_jwt_auth-1.0.1b5.tar.gz --markdown 20240502/a/asymmetric-jwt-auth/1.0.0b1-1.0.1b5/README.md --exclude *.pyd
+[2024-05-02 01:08:23] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.2.3.tar.gz]
+[2024-05-02 01:08:23] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata_lib-0.2.4.tar.gz]
+[2024-05-02 01:08:23] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-05-02 01:08:23] INFO root fetch - processPackages [chgksuite]: Remove: archive file [/home/abi/fetcher/tmp/chgksuite-0.9.0.tar.gz]
+[2024-05-02 01:08:23] INFO root fetch - processPackages [chgksuite]: Remove: archive file [/home/abi/fetcher/tmp/chgksuite-0.9.1.tar.gz]
+[2024-05-02 01:08:23] INFO root fetch - main [MainThread]: End processing [chgksuite]: success
+[2024-05-02 01:08:23] INFO root fetch - processPackages [asymmetric-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/asymmetric_jwt_auth-1.0.0b1.tar.gz]
+[2024-05-02 01:08:23] INFO root fetch - processPackages [asymmetric-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/asymmetric_jwt_auth-1.0.1b5.tar.gz]
+[2024-05-02 01:08:23] INFO root fetch - main [MainThread]: End processing [asymmetric-jwt-auth]: success
+[2024-05-02 01:08:23] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240429.tar.gz]
+[2024-05-02 01:08:23] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240430.tar.gz]
+[2024-05-02 01:08:23] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-02 01:08:23] INFO root fetch - main [MainThread]: Store serial: [23023364]
