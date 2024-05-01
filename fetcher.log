@@ -646,3 +646,63 @@
 [2024-05-02 00:39:36] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.2b3.tar.gz]
 [2024-05-02 00:39:36] INFO root fetch - main [MainThread]: End processing [rubpy]: success
 [2024-05-02 00:39:36] INFO root fetch - main [MainThread]: Store serial: [23023104]
+[2024-05-02 00:41:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023104]
+[2024-05-02 00:41:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 00:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mosaicmpi
+[2024-05-02 00:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tcp-modbus-aio
+[2024-05-02 00:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyconfman2
+[2024-05-02 00:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multipie
+[2024-05-02 00:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crytic-compilers
+[2024-05-02 00:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: comfy-cli
+[2024-05-02 00:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: positional-vectorizer
+[2024-05-02 00:41:45] INFO root fetch - processPackages [crytic-compilers]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 00:41:45] INFO root fetch - processPackages [tcp-modbus-aio]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-02 00:41:45] INFO root fetch - processPackages [pyconfman2]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-02 00:41:45] INFO root fetch - processPackages [crytic-compilers]: Downloading https://files.pythonhosted.org/packages/05/91/0a0189ef1664580a2696e16df84cc33953e0015e81cc5d9d9b5e4b4c79e3/crytic-compilers-0.3.8.tar.gz
+[2024-05-02 00:41:45] INFO root fetch - processPackages [tcp-modbus-aio]: Downloading https://files.pythonhosted.org/packages/7c/97/560db1fccc9db2c0d8e950a430e844f10481a2b508f2c78887cff6ceea06/tcp_modbus_aio-0.2.2.tar.gz
+[2024-05-02 00:41:45] INFO root fetch - processPackages [multipie]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-02 00:41:45] INFO root fetch - processPackages [mosaicmpi]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-05-02 00:41:45] WARNING root fetch - processPackages [positional-vectorizer]: Skipping, unable to determine old version
+[2024-05-02 00:41:45] INFO root fetch - main [MainThread]: End processing [positional-vectorizer] error
+[2024-05-02 00:41:45] INFO root fetch - processPackages [pyconfman2]: Downloading https://files.pythonhosted.org/packages/57/d6/6e50e7f45334c71861fe68881ab5384401aea4424e1ca350cb9652cb1325/pyconfman2-0.1.6.tar.gz
+[2024-05-02 00:41:45] INFO root fetch - processPackages [comfy-cli]: New version: [2024.4.30] Old Version: [2020.0.0]
+[2024-05-02 00:41:45] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/00/6f/45a558125dcb3c4e92f82f878fc126b60f177da6388705ac66dd80431f91/multipie-1.2.8.tar.gz
+[2024-05-02 00:41:45] INFO root fetch - processPackages [mosaicmpi]: Downloading https://files.pythonhosted.org/packages/76/94/844e49e2a6ae3d79a5d8c41d1020cdcc9500f553fb5ee0a8d2d69507a25a/mosaicmpi-2.4.8.tar.gz
+[2024-05-02 00:41:45] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/07/3e/93b5d31fa94e203461fe52995c3e54db3237963b605e8314364dd48cbc2f/comfy_cli-2020.0.0.tar.gz
+[2024-05-02 00:41:45] INFO root fetch - processPackages [tcp-modbus-aio]: Downloading https://files.pythonhosted.org/packages/a5/17/980ea6f103fe265c6147fe64b3bb860f106f8446c5f7bb03c40e5dbc8bd6/tcp_modbus_aio-0.2.3.tar.gz
+[2024-05-02 00:41:45] INFO root fetch - processPackages [crytic-compilers]: Downloading https://files.pythonhosted.org/packages/47/74/c9ff4f14ac01a3c3dc251184a1205b1e56bd27ebe83b2e160241f53d1329/crytic-compilers-0.3.9.tar.gz
+[2024-05-02 00:41:45] INFO root fetch - processPackages [pyconfman2]: Downloading https://files.pythonhosted.org/packages/41/71/dd8ed5aad40e46f8807c38bea27ca179b233967af9774ce0c6eb31340d67/pyconfman2-0.1.7.tar.gz
+[2024-05-02 00:41:45] INFO root fetch - processPackages [tcp-modbus-aio]: executing diffoscope
+[2024-05-02 00:41:45] INFO root fetch - processPackages [tcp-modbus-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcp_modbus_aio-0.2.2.tar.gz tmp/tcp_modbus_aio-0.2.3.tar.gz --markdown 20240502/t/tcp-modbus-aio/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-02 00:41:45] INFO root fetch - processPackages [crytic-compilers]: executing diffoscope
+[2024-05-02 00:41:45] INFO root fetch - processPackages [crytic-compilers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crytic-compilers-0.3.8.tar.gz tmp/crytic-compilers-0.3.9.tar.gz --markdown 20240502/c/crytic-compilers/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 00:41:45] INFO root fetch - processPackages [pyconfman2]: executing diffoscope
+[2024-05-02 00:41:45] INFO root fetch - processPackages [pyconfman2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconfman2-0.1.6.tar.gz tmp/pyconfman2-0.1.7.tar.gz --markdown 20240502/p/pyconfman2/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-02 00:41:45] INFO root fetch - processPackages [mosaicmpi]: Downloading https://files.pythonhosted.org/packages/ce/32/d215021fdb65f680d1bffcdc29a0c204cd605c1159acb96a5277ac04d1f9/mosaicmpi-2.4.9.tar.gz
+[2024-05-02 00:41:46] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/1d/42/99055d7a1da98c7143b6f70893c867e60644c9d10529f102edf3114c790e/comfy_cli-2024.4.30.tar.gz
+[2024-05-02 00:41:46] INFO root fetch - processPackages [comfy-cli]: executing diffoscope
+[2024-05-02 00:41:46] INFO root fetch - processPackages [comfy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfy_cli-2020.0.0.tar.gz tmp/comfy_cli-2024.4.30.tar.gz --markdown 20240502/c/comfy-cli/2020.0.0-2024.4.30/README.md --exclude *.pyd
+[2024-05-02 00:41:46] INFO root fetch - processPackages [mosaicmpi]: executing diffoscope
+[2024-05-02 00:41:46] INFO root fetch - processPackages [mosaicmpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicmpi-2.4.8.tar.gz tmp/mosaicmpi-2.4.9.tar.gz --markdown 20240502/m/mosaicmpi/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-05-02 00:41:46] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/74/64/6c6f6228098f8ee00ea7ec5c5578e0d3e6d476beab852beee7f374215ab9/multipie-1.2.9.tar.gz
+[2024-05-02 00:41:46] INFO root fetch - processPackages [crytic-compilers]: Remove: archive file [/home/abi/fetcher/tmp/crytic-compilers-0.3.8.tar.gz]
+[2024-05-02 00:41:46] INFO root fetch - processPackages [crytic-compilers]: Remove: archive file [/home/abi/fetcher/tmp/crytic-compilers-0.3.9.tar.gz]
+[2024-05-02 00:41:46] INFO root fetch - main [MainThread]: End processing [crytic-compilers]: success
+[2024-05-02 00:41:46] INFO root fetch - processPackages [tcp-modbus-aio]: Remove: archive file [/home/abi/fetcher/tmp/tcp_modbus_aio-0.2.2.tar.gz]
+[2024-05-02 00:41:46] INFO root fetch - processPackages [tcp-modbus-aio]: Remove: archive file [/home/abi/fetcher/tmp/tcp_modbus_aio-0.2.3.tar.gz]
+[2024-05-02 00:41:46] INFO root fetch - main [MainThread]: End processing [tcp-modbus-aio]: success
+[2024-05-02 00:41:46] INFO root fetch - processPackages [pyconfman2]: Remove: archive file [/home/abi/fetcher/tmp/pyconfman2-0.1.6.tar.gz]
+[2024-05-02 00:41:46] INFO root fetch - processPackages [pyconfman2]: Remove: archive file [/home/abi/fetcher/tmp/pyconfman2-0.1.7.tar.gz]
+[2024-05-02 00:41:46] INFO root fetch - main [MainThread]: End processing [pyconfman2]: success
+[2024-05-02 00:41:46] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-2020.0.0.tar.gz]
+[2024-05-02 00:41:46] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-2024.4.30.tar.gz]
+[2024-05-02 00:41:46] INFO root fetch - main [MainThread]: End processing [comfy-cli]: success
+[2024-05-02 00:41:46] INFO root fetch - processPackages [multipie]: executing diffoscope
+[2024-05-02 00:41:46] INFO root fetch - processPackages [multipie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multipie-1.2.8.tar.gz tmp/multipie-1.2.9.tar.gz --markdown 20240502/m/multipie/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-02 00:41:46] INFO root fetch - processPackages [mosaicmpi]: Remove: archive file [/home/abi/fetcher/tmp/mosaicmpi-2.4.8.tar.gz]
+[2024-05-02 00:41:46] INFO root fetch - processPackages [mosaicmpi]: Remove: archive file [/home/abi/fetcher/tmp/mosaicmpi-2.4.9.tar.gz]
+[2024-05-02 00:41:46] INFO root fetch - main [MainThread]: End processing [mosaicmpi]: success
+[2024-05-02 00:41:49] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.2.8.tar.gz]
+[2024-05-02 00:41:49] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.2.9.tar.gz]
+[2024-05-02 00:41:49] INFO root fetch - main [MainThread]: End processing [multipie]: success
+[2024-05-02 00:41:49] INFO root fetch - main [MainThread]: Store serial: [23023133]
