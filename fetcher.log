@@ -471,3 +471,24 @@
 [2024-05-02 00:23:43] INFO root fetch - processPackages [rship-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rship-sdk-0.0.9.tar.gz]
 [2024-05-02 00:23:43] INFO root fetch - main [MainThread]: End processing [rship-sdk]: success
 [2024-05-02 00:23:43] INFO root fetch - main [MainThread]: Store serial: [23023016]
+[2024-05-02 00:25:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023016]
+[2024-05-02 00:25:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 00:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pixelyai-core
+[2024-05-02 00:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skelescope
+[2024-05-02 00:25:52] INFO root fetch - processPackages [pixelyai-core]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-02 00:25:52] INFO root fetch - processPackages [skelescope]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-02 00:25:52] INFO root fetch - processPackages [skelescope]: Downloading https://files.pythonhosted.org/packages/35/49/05c150b7bcb300d7a1ddb78d9a107f025a5770314fb470083e465d9a733b/skelescope-0.0.5.tar.gz
+[2024-05-02 00:25:52] INFO root fetch - processPackages [pixelyai-core]: Downloading https://files.pythonhosted.org/packages/ac/3b/4386d2fdb0afe91b912cb487519521fe61232759b601b30616852dd0ae4f/pixelyai_core-0.0.4.tar.gz
+[2024-05-02 00:25:53] INFO root fetch - processPackages [pixelyai-core]: Downloading https://files.pythonhosted.org/packages/0d/1c/41f1e0fae55a8336787f31ad894d2c223ecc58acc49e50555d8d1f988a05/pixelyai_core-0.0.5.tar.gz
+[2024-05-02 00:25:53] INFO root fetch - processPackages [pixelyai-core]: executing diffoscope
+[2024-05-02 00:25:53] INFO root fetch - processPackages [pixelyai-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelyai_core-0.0.4.tar.gz tmp/pixelyai_core-0.0.5.tar.gz --markdown 20240502/p/pixelyai-core/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-02 00:25:53] INFO root fetch - processPackages [pixelyai-core]: Remove: archive file [/home/abi/fetcher/tmp/pixelyai_core-0.0.4.tar.gz]
+[2024-05-02 00:25:53] INFO root fetch - processPackages [pixelyai-core]: Remove: archive file [/home/abi/fetcher/tmp/pixelyai_core-0.0.5.tar.gz]
+[2024-05-02 00:25:53] INFO root fetch - main [MainThread]: End processing [pixelyai-core]: success
+[2024-05-02 00:25:54] INFO root fetch - processPackages [skelescope]: Downloading https://files.pythonhosted.org/packages/dc/71/4aa6805853637cebc0a47fd5978b9d9b432645a9305181f331fabccea6e7/skelescope-0.0.6.tar.gz
+[2024-05-02 00:25:55] INFO root fetch - processPackages [skelescope]: executing diffoscope
+[2024-05-02 00:25:55] INFO root fetch - processPackages [skelescope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skelescope-0.0.5.tar.gz tmp/skelescope-0.0.6.tar.gz --markdown 20240502/s/skelescope/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-02 00:26:26] INFO root fetch - processPackages [skelescope]: Remove: archive file [/home/abi/fetcher/tmp/skelescope-0.0.5.tar.gz]
+[2024-05-02 00:26:26] INFO root fetch - processPackages [skelescope]: Remove: archive file [/home/abi/fetcher/tmp/skelescope-0.0.6.tar.gz]
+[2024-05-02 00:26:26] INFO root fetch - main [MainThread]: End processing [skelescope]: success
+[2024-05-02 00:26:26] INFO root fetch - main [MainThread]: Store serial: [23023022]
