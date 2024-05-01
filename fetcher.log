@@ -408,3 +408,54 @@
 [2024-05-02 00:19:21] INFO root fetch - processPackages [database-knotinfo]: Remove: archive file [/home/abi/fetcher/tmp/database_knotinfo-21.7.15.tar.gz]
 [2024-05-02 00:19:21] INFO root fetch - main [MainThread]: End processing [database-knotinfo]: success
 [2024-05-02 00:19:21] INFO root fetch - main [MainThread]: Store serial: [23022993]
+[2024-05-02 00:21:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23022993]
+[2024-05-02 00:21:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 00:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osmg
+[2024-05-02 00:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncrun
+[2024-05-02 00:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelpark
+[2024-05-02 00:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ladybug-geometry
+[2024-05-02 00:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napalm-panos
+[2024-05-02 00:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-samsung-mdc
+[2024-05-02 00:21:31] INFO root fetch - processPackages [modelpark]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-02 00:21:31] INFO root fetch - processPackages [modelpark]: Downloading https://files.pythonhosted.org/packages/f8/f3/67681c2b8ee8e0d75e2973aabd3127445b8a34216d5c4765074f362c7e79/modelpark-0.1.7.tar.gz
+[2024-05-02 00:21:31] INFO root fetch - processPackages [osmg]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-02 00:21:31] WARNING root fetch - processPackages [asyncrun]: Skipping, unable to determine old version
+[2024-05-02 00:21:31] INFO root fetch - main [MainThread]: End processing [asyncrun] error
+[2024-05-02 00:21:31] INFO root fetch - processPackages [python-samsung-mdc]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-02 00:21:31] INFO root fetch - processPackages [napalm-panos]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-02 00:21:31] INFO root fetch - processPackages [ladybug-geometry]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-02 00:21:31] INFO root fetch - processPackages [modelpark]: Downloading https://files.pythonhosted.org/packages/e9/1c/65fa6477b6a31dc7c8fa1c2a071de29b5c918e96808a4ccbc8c385cf3b87/modelpark-0.1.8.tar.gz
+[2024-05-02 00:21:31] INFO root fetch - processPackages [osmg]: Downloading https://files.pythonhosted.org/packages/59/01/2c7d1f60206a2dded4aa3fbd50c182bfcd7c0872cb8a25f544844e4b8c39/osmg-0.2.4.tar.gz
+[2024-05-02 00:21:31] INFO root fetch - processPackages [napalm-panos]: Downloading https://files.pythonhosted.org/packages/e5/cc/5bfd99447e14b26db89136609463df38bfc99752cb9e914e60846e23ff5d/napalm_panos-0.6.1.tar.gz
+[2024-05-02 00:21:31] INFO root fetch - processPackages [ladybug-geometry]: Downloading https://files.pythonhosted.org/packages/73/b9/eb0d232df800d6e5dfa1247520f85cfb316c1f1c0f1fa86404231a512779/ladybug-geometry-1.8.1.tar.gz
+[2024-05-02 00:21:31] INFO root fetch - processPackages [python-samsung-mdc]: Downloading https://files.pythonhosted.org/packages/80/5c/d75e957a9ba0f0cec57a6b146c2cd92636e007f254bc2941452e9b5d6ac3/python-samsung-mdc-1.9.0.tar.gz
+[2024-05-02 00:21:31] INFO root fetch - processPackages [modelpark]: executing diffoscope
+[2024-05-02 00:21:31] INFO root fetch - processPackages [modelpark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelpark-0.1.7.tar.gz tmp/modelpark-0.1.8.tar.gz --markdown 20240502/m/modelpark/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-02 00:21:32] INFO root fetch - processPackages [osmg]: Downloading https://files.pythonhosted.org/packages/7a/d1/14479c7577010adaee5ddab2bd96308839bdb52b1dd94f6885e984bae5ac/osmg-0.2.5.tar.gz
+[2024-05-02 00:21:32] INFO root fetch - processPackages [napalm-panos]: Downloading https://files.pythonhosted.org/packages/c5/15/097ec695cb44726442b7f391a1e18223ece3ca3df2f33c4323660c09b3af/napalm_panos-0.6.2.tar.gz
+[2024-05-02 00:21:32] INFO root fetch - processPackages [ladybug-geometry]: Downloading https://files.pythonhosted.org/packages/1d/6e/0f64e45efb187aa1304e9685bee2042ef1bd0a00daba0172bf39aadfa2b6/ladybug-geometry-1.9.0.tar.gz
+[2024-05-02 00:21:32] INFO root fetch - processPackages [osmg]: executing diffoscope
+[2024-05-02 00:21:32] INFO root fetch - processPackages [osmg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmg-0.2.4.tar.gz tmp/osmg-0.2.5.tar.gz --markdown 20240502/o/osmg/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-02 00:21:32] INFO root fetch - processPackages [napalm-panos]: executing diffoscope
+[2024-05-02 00:21:32] INFO root fetch - processPackages [napalm-panos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_panos-0.6.1.tar.gz tmp/napalm_panos-0.6.2.tar.gz --markdown 20240502/n/napalm-panos/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-02 00:21:32] INFO root fetch - processPackages [ladybug-geometry]: executing diffoscope
+[2024-05-02 00:21:32] INFO root fetch - processPackages [ladybug-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-geometry-1.8.1.tar.gz tmp/ladybug-geometry-1.9.0.tar.gz --markdown 20240502/l/ladybug-geometry/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-02 00:21:32] INFO root fetch - processPackages [python-samsung-mdc]: Downloading https://files.pythonhosted.org/packages/f1/49/9eadf152841f1585acc090fc7bc7385006dfc7faf0132ff6669695a0c2ac/python-samsung-mdc-1.9.1.tar.gz
+[2024-05-02 00:21:32] INFO root fetch - processPackages [modelpark]: Remove: archive file [/home/abi/fetcher/tmp/modelpark-0.1.7.tar.gz]
+[2024-05-02 00:21:32] INFO root fetch - processPackages [modelpark]: Remove: archive file [/home/abi/fetcher/tmp/modelpark-0.1.8.tar.gz]
+[2024-05-02 00:21:32] INFO root fetch - main [MainThread]: End processing [modelpark]: success
+[2024-05-02 00:21:32] INFO root fetch - processPackages [python-samsung-mdc]: executing diffoscope
+[2024-05-02 00:21:32] INFO root fetch - processPackages [python-samsung-mdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-samsung-mdc-1.9.0.tar.gz tmp/python-samsung-mdc-1.9.1.tar.gz --markdown 20240502/p/python-samsung-mdc/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-02 00:21:32] INFO root fetch - processPackages [napalm-panos]: Remove: archive file [/home/abi/fetcher/tmp/napalm_panos-0.6.1.tar.gz]
+[2024-05-02 00:21:32] INFO root fetch - processPackages [napalm-panos]: Remove: archive file [/home/abi/fetcher/tmp/napalm_panos-0.6.2.tar.gz]
+[2024-05-02 00:21:32] INFO root fetch - main [MainThread]: End processing [napalm-panos]: success
+[2024-05-02 00:21:33] INFO root fetch - processPackages [osmg]: Remove: archive file [/home/abi/fetcher/tmp/osmg-0.2.4.tar.gz]
+[2024-05-02 00:21:33] INFO root fetch - processPackages [osmg]: Remove: archive file [/home/abi/fetcher/tmp/osmg-0.2.5.tar.gz]
+[2024-05-02 00:21:33] INFO root fetch - main [MainThread]: End processing [osmg]: success
+[2024-05-02 00:21:33] INFO root fetch - processPackages [ladybug-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-1.8.1.tar.gz]
+[2024-05-02 00:21:33] INFO root fetch - processPackages [ladybug-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-1.9.0.tar.gz]
+[2024-05-02 00:21:33] INFO root fetch - main [MainThread]: End processing [ladybug-geometry]: success
+[2024-05-02 00:21:33] INFO root fetch - processPackages [python-samsung-mdc]: Remove: archive file [/home/abi/fetcher/tmp/python-samsung-mdc-1.9.0.tar.gz]
+[2024-05-02 00:21:33] INFO root fetch - processPackages [python-samsung-mdc]: Remove: archive file [/home/abi/fetcher/tmp/python-samsung-mdc-1.9.1.tar.gz]
+[2024-05-02 00:21:33] INFO root fetch - main [MainThread]: End processing [python-samsung-mdc]: success
+[2024-05-02 00:21:33] INFO root fetch - main [MainThread]: Store serial: [23023012]
