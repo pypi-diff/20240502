@@ -736,3 +736,36 @@
 [2024-05-02 00:43:58] INFO root fetch - processPackages [hsmodels]: Remove: archive file [/home/abi/fetcher/tmp/hsmodels-1.0.3.tar.gz]
 [2024-05-02 00:43:58] INFO root fetch - main [MainThread]: End processing [hsmodels]: success
 [2024-05-02 00:43:58] INFO root fetch - main [MainThread]: Store serial: [23023144]
+[2024-05-02 00:46:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023144]
+[2024-05-02 00:46:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 00:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shinqlx
+[2024-05-02 00:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-repeatable-iterable
+[2024-05-02 00:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-aws
+[2024-05-02 00:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forecastos
+[2024-05-02 00:46:07] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-02 00:46:07] INFO root fetch - processPackages [shinqlx]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-02 00:46:07] INFO root fetch - processPackages [python-repeatable-iterable]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-05-02 00:46:07] WARNING root fetch - processPackages [forecastos]: Skipping, unable to determine old version
+[2024-05-02 00:46:07] INFO root fetch - main [MainThread]: End processing [forecastos] error
+[2024-05-02 00:46:07] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-02 00:46:07] INFO root fetch - processPackages [shinqlx]: Downloading https://files.pythonhosted.org/packages/e8/fd/3549c6be29d8f40a5800a2370c413c440ad0e67b53781ea654c1910b05a2/shinqlx-0.5.6.tar.gz
+[2024-05-02 00:46:07] INFO root fetch - processPackages [python-repeatable-iterable]: Downloading https://files.pythonhosted.org/packages/9f/45/0364e3b86c1459c462e88b7bed84521fa63b6f5397c1c8d41183649abc25/python_repeatable_iterable-2.1.3.tar.gz
+[2024-05-02 00:46:07] INFO root fetch - processPackages [python-repeatable-iterable]: Downloading https://files.pythonhosted.org/packages/02/a7/9959da809a1eec7a797ee96bf63644f68105f116374442542416797ed78f/python_repeatable_iterable-2.1.4.tar.gz
+[2024-05-02 00:46:07] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-02 00:46:07] INFO root fetch - processPackages [shinqlx]: Downloading https://files.pythonhosted.org/packages/d4/c8/7c088d34442878955fbb4ff32914ac2b0490512a670a081ccaa2be283228/shinqlx-0.5.7.tar.gz
+[2024-05-02 00:46:07] INFO root fetch - processPackages [python-repeatable-iterable]: executing diffoscope
+[2024-05-02 00:46:07] INFO root fetch - processPackages [python-repeatable-iterable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_repeatable_iterable-2.1.3.tar.gz tmp/python_repeatable_iterable-2.1.4.tar.gz --markdown 20240502/p/python-repeatable-iterable/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-05-02 00:46:08] INFO root fetch - processPackages [shinqlx]: executing diffoscope
+[2024-05-02 00:46:08] INFO root fetch - processPackages [shinqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinqlx-0.5.6.tar.gz tmp/shinqlx-0.5.7.tar.gz --markdown 20240502/s/shinqlx/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-02 00:46:08] INFO root fetch - processPackages [python-repeatable-iterable]: Remove: archive file [/home/abi/fetcher/tmp/python_repeatable_iterable-2.1.3.tar.gz]
+[2024-05-02 00:46:08] INFO root fetch - processPackages [python-repeatable-iterable]: Remove: archive file [/home/abi/fetcher/tmp/python_repeatable_iterable-2.1.4.tar.gz]
+[2024-05-02 00:46:08] INFO root fetch - main [MainThread]: End processing [python-repeatable-iterable]: success
+[2024-05-02 00:46:09] INFO root fetch - processPackages [shinqlx]: Remove: archive file [/home/abi/fetcher/tmp/shinqlx-0.5.6.tar.gz]
+[2024-05-02 00:46:09] INFO root fetch - processPackages [shinqlx]: Remove: archive file [/home/abi/fetcher/tmp/shinqlx-0.5.7.tar.gz]
+[2024-05-02 00:46:09] INFO root fetch - main [MainThread]: End processing [shinqlx]: success
+[2024-05-02 00:46:09] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-02 00:46:09] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240502/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-02 00:46:25] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-02 00:46:25] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-02 00:46:25] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-02 00:46:25] INFO root fetch - main [MainThread]: Store serial: [23023158]
