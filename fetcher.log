@@ -37,3 +37,51 @@
 [2024-05-02 00:01:31] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-05-02 00:01:31] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-05-02 00:01:31] INFO root fetch - main [MainThread]: Store serial: [23022811]
+[2024-05-02 00:03:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23022811]
+[2024-05-02 00:03:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 00:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: w-render
+[2024-05-02 00:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bumpsemver
+[2024-05-02 00:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getdaft
+[2024-05-02 00:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mycotools
+[2024-05-02 00:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudflare-dynamic-dns-client
+[2024-05-02 00:03:40] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 00:03:40] INFO root fetch - processPackages [bumpsemver]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-02 00:03:40] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2024-05-02 00:03:40] INFO root fetch - processPackages [w-render]: New version: [0.3.0] Old Version: [0.2.6]
+[2024-05-02 00:03:40] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2024-05-02 00:03:40] INFO root fetch - processPackages [getdaft]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-02 00:03:40] INFO root fetch - processPackages [bumpsemver]: Downloading https://files.pythonhosted.org/packages/b4/27/295eecfc4c97341ebd63e1684b9038242a91c37a4c93aaaa6742f4f6e41e/bumpsemver-2.2.0.tar.gz
+[2024-05-02 00:03:40] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Downloading https://files.pythonhosted.org/packages/23/e0/e7d3ad696b16f1274b7ec2769ef9bb93b00b3543ac48fa3b3497bfb856f5/cloudflare-dynamic-dns-client-0.1.1.tar.gz
+[2024-05-02 00:03:40] INFO root fetch - processPackages [w-render]: Downloading https://files.pythonhosted.org/packages/b3/03/ce6f08e7eb7ae7c15e574810a56e22918e74489874ca6f2eed9d0223ade7/w_render-0.2.6.tar.gz
+[2024-05-02 00:03:40] INFO root fetch - processPackages [getdaft]: Downloading https://files.pythonhosted.org/packages/5d/b6/08398a5a152119335638ad8cff3622468b6831fa656984913b77c23b8ba7/getdaft-0.2.8.tar.gz
+[2024-05-02 00:03:41] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2024-05-02 00:03:41] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2024-05-02 00:03:41] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20240502/m/mycotools/0.9b8-0.9b9/README.md --exclude *.pyd
+[2024-05-02 00:03:41] INFO root fetch - processPackages [bumpsemver]: Downloading https://files.pythonhosted.org/packages/ba/ed/af607f631d3d57dd83698319593304a8e3fcc6ffdf54ae678e3c479a9c74/bumpsemver-2.2.1.tar.gz
+[2024-05-02 00:03:41] INFO root fetch - processPackages [w-render]: Downloading https://files.pythonhosted.org/packages/67/27/aaba7230220a7e1b219fde9e7402f51beb558b3da0dbe0e827b506bafc98/w_render-0.3.0.tar.gz
+[2024-05-02 00:03:41] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Downloading https://files.pythonhosted.org/packages/e4/14/4754ac4e70fea17dca8a13701519cb84a99387f566fa94825ba768fe94a5/cloudflare-dynamic-dns-client-0.1.2.tar.gz
+[2024-05-02 00:03:41] INFO root fetch - processPackages [bumpsemver]: executing diffoscope
+[2024-05-02 00:03:41] INFO root fetch - processPackages [bumpsemver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bumpsemver-2.2.0.tar.gz tmp/bumpsemver-2.2.1.tar.gz --markdown 20240502/b/bumpsemver/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-02 00:03:41] INFO root fetch - processPackages [w-render]: executing diffoscope
+[2024-05-02 00:03:41] INFO root fetch - processPackages [w-render]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w_render-0.2.6.tar.gz tmp/w_render-0.3.0.tar.gz --markdown 20240502/w/w-render/0.2.6-0.3.0/README.md --exclude *.pyd
+[2024-05-02 00:03:41] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: executing diffoscope
+[2024-05-02 00:03:41] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflare-dynamic-dns-client-0.1.1.tar.gz tmp/cloudflare-dynamic-dns-client-0.1.2.tar.gz --markdown 20240502/c/cloudflare-dynamic-dns-client/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 00:03:41] INFO root fetch - processPackages [getdaft]: Downloading https://files.pythonhosted.org/packages/20/9f/9ebde8de92ff65c454bd4f112a74b175ce76294a112c2a5576f45b4f34a5/getdaft-0.2.9.tar.gz
+[2024-05-02 00:03:42] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-dynamic-dns-client-0.1.1.tar.gz]
+[2024-05-02 00:03:42] INFO root fetch - processPackages [cloudflare-dynamic-dns-client]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-dynamic-dns-client-0.1.2.tar.gz]
+[2024-05-02 00:03:42] INFO root fetch - main [MainThread]: End processing [cloudflare-dynamic-dns-client]: success
+[2024-05-02 00:03:42] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b8.tar.gz]
+[2024-05-02 00:03:42] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b9.tar.gz]
+[2024-05-02 00:03:42] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2024-05-02 00:03:42] INFO root fetch - processPackages [w-render]: Remove: archive file [/home/abi/fetcher/tmp/w_render-0.2.6.tar.gz]
+[2024-05-02 00:03:42] INFO root fetch - processPackages [w-render]: Remove: archive file [/home/abi/fetcher/tmp/w_render-0.3.0.tar.gz]
+[2024-05-02 00:03:42] INFO root fetch - main [MainThread]: End processing [w-render]: success
+[2024-05-02 00:03:42] INFO root fetch - processPackages [bumpsemver]: Remove: archive file [/home/abi/fetcher/tmp/bumpsemver-2.2.0.tar.gz]
+[2024-05-02 00:03:42] INFO root fetch - processPackages [bumpsemver]: Remove: archive file [/home/abi/fetcher/tmp/bumpsemver-2.2.1.tar.gz]
+[2024-05-02 00:03:42] INFO root fetch - main [MainThread]: End processing [bumpsemver]: success
+[2024-05-02 00:03:42] INFO root fetch - processPackages [getdaft]: executing diffoscope
+[2024-05-02 00:03:42] INFO root fetch - processPackages [getdaft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getdaft-0.2.8.tar.gz tmp/getdaft-0.2.9.tar.gz --markdown 20240502/g/getdaft/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-02 00:03:46] INFO root fetch - processPackages [getdaft]: Remove: archive file [/home/abi/fetcher/tmp/getdaft-0.2.8.tar.gz]
+[2024-05-02 00:03:46] INFO root fetch - processPackages [getdaft]: Remove: archive file [/home/abi/fetcher/tmp/getdaft-0.2.9.tar.gz]
+[2024-05-02 00:03:46] INFO root fetch - main [MainThread]: End processing [getdaft]: success
+[2024-05-02 00:03:46] INFO root fetch - main [MainThread]: Store serial: [23022829]
