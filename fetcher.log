@@ -1048,3 +1048,15 @@
 [2024-05-02 00:59:37] INFO root fetch - processPackages [lightning]: Remove: archive file [/home/abi/fetcher/tmp/lightning-2.3.0.dev20240428.tar.gz]
 [2024-05-02 00:59:37] INFO root fetch - main [MainThread]: End processing [lightning]: success
 [2024-05-02 00:59:37] INFO root fetch - main [MainThread]: Store serial: [23023303]
+[2024-05-02 01:01:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023303]
+[2024-05-02 01:01:47] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: honeybee-radiance
+[2024-05-02 01:01:47] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-02 01:01:47] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2024-05-02 01:01:48] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2024-05-02 01:01:48] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2024-05-02 01:01:48] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20240502/h/honeybee-radiance/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-02 01:01:49] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2024-05-02 01:01:49] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2024-05-02 01:01:49] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2024-05-02 01:01:49] INFO root fetch - main [MainThread]: Store serial: [23023306]
