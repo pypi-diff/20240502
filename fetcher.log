@@ -1348,3 +1348,54 @@
 [2024-05-02 01:17:04] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
 [2024-05-02 01:17:04] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
 [2024-05-02 01:17:04] INFO root fetch - main [MainThread]: Store serial: [23023407]
+[2024-05-02 01:19:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023407]
+[2024-05-02 01:19:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 01:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-energy
+[2024-05-02 01:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2024-05-02 01:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GeoAlchemy2
+[2024-05-02 01:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kestrel-datasource-stixshifter
+[2024-05-02 01:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kestrel-jupyter
+[2024-05-02 01:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rulebricks
+[2024-05-02 01:19:13] INFO root fetch - processPackages [GeoAlchemy2]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-02 01:19:13] WARNING root fetch - processPackages [rulebricks]: Skipping, unable to determine old version
+[2024-05-02 01:19:13] INFO root fetch - main [MainThread]: End processing [rulebricks] error
+[2024-05-02 01:19:13] INFO root fetch - processPackages [kestrel-datasource-stixshifter]: New version: [1.8.3] Old Version: [1.8.2]
+[2024-05-02 01:19:13] INFO root fetch - processPackages [kestrel-jupyter]: New version: [1.8.5] Old Version: [1.8.4]
+[2024-05-02 01:19:13] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-02 01:19:13] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-02 01:19:13] INFO root fetch - processPackages [GeoAlchemy2]: Downloading https://files.pythonhosted.org/packages/79/7c/69ef8bc33894baa1eaddd6eecf182318aa20eb8d1974b8a9413a818a8a13/GeoAlchemy2-0.9.3.tar.gz
+[2024-05-02 01:19:13] INFO root fetch - processPackages [kestrel-datasource-stixshifter]: Downloading https://files.pythonhosted.org/packages/b9/69/7cb019dd2e5a59b643e18579c4c495ecf2e40cd1daa13f33747204f9e4d6/kestrel_datasource_stixshifter-1.8.2.tar.gz
+[2024-05-02 01:19:13] INFO root fetch - processPackages [kestrel-jupyter]: Downloading https://files.pythonhosted.org/packages/16/a4/8500b1245afacd699f3599a2bbce25d16534d72236e58c8c598364d9dc51/kestrel_jupyter-1.8.4.tar.gz
+[2024-05-02 01:19:13] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-05-02 01:19:13] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-05-02 01:19:14] INFO root fetch - processPackages [GeoAlchemy2]: Downloading https://files.pythonhosted.org/packages/f6/48/80e48251e1e0cf94a6e809252a545c32d7644b737a10e3ce06ba87bc7f6d/GeoAlchemy2-0.9.4.tar.gz
+[2024-05-02 01:19:14] INFO root fetch - processPackages [kestrel-jupyter]: Downloading https://files.pythonhosted.org/packages/df/f9/2c1f9830bf02f249ab36408cc991b0b86b5fc255ad24a8e0cc4362ed1d27/kestrel_jupyter-1.8.5.tar.gz
+[2024-05-02 01:19:14] INFO root fetch - processPackages [kestrel-datasource-stixshifter]: Downloading https://files.pythonhosted.org/packages/09/e9/192be7df44293c61a78616113b9cf18a337221d60cb25481ccdf3148aa95/kestrel_datasource_stixshifter-1.8.3.tar.gz
+[2024-05-02 01:19:14] INFO root fetch - processPackages [kestrel-jupyter]: executing diffoscope
+[2024-05-02 01:19:14] INFO root fetch - processPackages [kestrel-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kestrel_jupyter-1.8.4.tar.gz tmp/kestrel_jupyter-1.8.5.tar.gz --markdown 20240502/k/kestrel-jupyter/1.8.4-1.8.5/README.md --exclude *.pyd
+[2024-05-02 01:19:14] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-05-02 01:19:14] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-05-02 01:19:14] INFO root fetch - processPackages [GeoAlchemy2]: executing diffoscope
+[2024-05-02 01:19:14] INFO root fetch - processPackages [GeoAlchemy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GeoAlchemy2-0.9.3.tar.gz tmp/GeoAlchemy2-0.9.4.tar.gz --markdown 20240502/G/GeoAlchemy2/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-02 01:19:14] INFO root fetch - processPackages [kestrel-datasource-stixshifter]: executing diffoscope
+[2024-05-02 01:19:14] INFO root fetch - processPackages [kestrel-datasource-stixshifter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kestrel_datasource_stixshifter-1.8.2.tar.gz tmp/kestrel_datasource_stixshifter-1.8.3.tar.gz --markdown 20240502/k/kestrel-datasource-stixshifter/1.8.2-1.8.3/README.md --exclude *.pyd
+[2024-05-02 01:19:14] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-05-02 01:19:14] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240502/d/dragonfly-energy/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-02 01:19:14] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-05-02 01:19:14] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240502/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-02 01:19:14] INFO root fetch - processPackages [kestrel-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/kestrel_jupyter-1.8.4.tar.gz]
+[2024-05-02 01:19:14] INFO root fetch - processPackages [kestrel-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/kestrel_jupyter-1.8.5.tar.gz]
+[2024-05-02 01:19:14] INFO root fetch - main [MainThread]: End processing [kestrel-jupyter]: success
+[2024-05-02 01:19:14] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-05-02 01:19:14] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-05-02 01:19:14] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-05-02 01:19:14] INFO root fetch - processPackages [GeoAlchemy2]: Remove: archive file [/home/abi/fetcher/tmp/GeoAlchemy2-0.9.3.tar.gz]
+[2024-05-02 01:19:14] INFO root fetch - processPackages [GeoAlchemy2]: Remove: archive file [/home/abi/fetcher/tmp/GeoAlchemy2-0.9.4.tar.gz]
+[2024-05-02 01:19:15] INFO root fetch - main [MainThread]: End processing [GeoAlchemy2]: success
+[2024-05-02 01:19:15] INFO root fetch - processPackages [kestrel-datasource-stixshifter]: Remove: archive file [/home/abi/fetcher/tmp/kestrel_datasource_stixshifter-1.8.2.tar.gz]
+[2024-05-02 01:19:15] INFO root fetch - processPackages [kestrel-datasource-stixshifter]: Remove: archive file [/home/abi/fetcher/tmp/kestrel_datasource_stixshifter-1.8.3.tar.gz]
+[2024-05-02 01:19:15] INFO root fetch - main [MainThread]: End processing [kestrel-datasource-stixshifter]: success
+[2024-05-02 01:19:15] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-05-02 01:19:15] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-05-02 01:19:15] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-05-02 01:19:15] INFO root fetch - main [MainThread]: Store serial: [23023427]
