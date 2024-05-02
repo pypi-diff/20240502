@@ -7262,3 +7262,15 @@
 [2024-05-02 04:02:06] INFO root fetch - processPackages [qai-ai]: Remove: archive file [/home/abi/fetcher/tmp/qai_ai-0.5.1.tar.gz]
 [2024-05-02 04:02:06] INFO root fetch - main [MainThread]: End processing [qai-ai]: success
 [2024-05-02 04:02:06] INFO root fetch - main [MainThread]: Store serial: [23025598]
+[2024-05-02 04:04:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025598]
+[2024-05-02 04:04:16] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 04:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: musicnotes
+[2024-05-02 04:04:16] INFO root fetch - processPackages [musicnotes]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-02 04:04:16] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/7b/12/a2289eeb68a085ce1be1716e5fa253e3116ff9d4bb376b931a2ba9c77449/musicnotes-1.0.2.tar.gz
+[2024-05-02 04:04:16] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/bf/40/c4f0dce97f431e9c4a87dac20679c002aee24c065b00c789a81546889d76/musicnotes-1.0.3.tar.gz
+[2024-05-02 04:04:16] INFO root fetch - processPackages [musicnotes]: executing diffoscope
+[2024-05-02 04:04:16] INFO root fetch - processPackages [musicnotes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicnotes-1.0.2.tar.gz tmp/musicnotes-1.0.3.tar.gz --markdown 20240502/m/musicnotes/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-02 04:04:17] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.2.tar.gz]
+[2024-05-02 04:04:17] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.3.tar.gz]
+[2024-05-02 04:04:17] INFO root fetch - main [MainThread]: End processing [musicnotes]: success
+[2024-05-02 04:04:17] INFO root fetch - main [MainThread]: Store serial: [23025601]
