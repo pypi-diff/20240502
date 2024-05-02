@@ -19235,3 +19235,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 14:19:07] INFO root fetch - processPackages [automizor]: Remove: archive file [/home/abi/fetcher/tmp/automizor-0.4.1.tar.gz]
 [2024-05-02 14:19:07] INFO root fetch - main [MainThread]: End processing [automizor]: success
 [2024-05-02 14:19:07] INFO root fetch - main [MainThread]: Store serial: [23030637]
+[2024-05-02 14:21:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030637]
+[2024-05-02 14:21:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 14:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SimpleTKMessageBox
+[2024-05-02 14:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snitun
+[2024-05-02 14:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaplint
+[2024-05-02 14:21:16] INFO root fetch - processPackages [gaplint]: New version: [1.2.0] Old Version: [1.1.5]
+[2024-05-02 14:21:16] INFO root fetch - processPackages [gaplint]: Downloading https://files.pythonhosted.org/packages/10/f7/13346ee4dd3381585903884f17e781a7d5bb686b5f0ca73605382c79b936/gaplint-1.1.5.tar.gz
+[2024-05-02 14:21:16] INFO root fetch - processPackages [SimpleTKMessageBox]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-02 14:21:16] INFO root fetch - processPackages [snitun]: New version: [0.9] Old Version: [0.8]
+[2024-05-02 14:21:16] INFO root fetch - processPackages [snitun]: Downloading https://files.pythonhosted.org/packages/1c/b3/7660aa5a0c140a50da7f8642bd0532724b1c744eb47288879159c0e895bc/snitun-0.8.tar.gz
+[2024-05-02 14:21:16] INFO root fetch - processPackages [SimpleTKMessageBox]: Downloading https://files.pythonhosted.org/packages/fd/ce/d5095051965951a0cd714d645bdffb0943776cc7e1817014f572b3244710/SimpleTKMessageBox-0.2.5.tar.gz
+[2024-05-02 14:21:16] INFO root fetch - processPackages [gaplint]: Downloading https://files.pythonhosted.org/packages/06/1b/8440e4e624d6d7a123406b31b1929578afeebb1f2f1565d6416530b53112/gaplint-1.2.0.tar.gz
+[2024-05-02 14:21:17] INFO root fetch - processPackages [gaplint]: executing diffoscope
+[2024-05-02 14:21:17] INFO root fetch - processPackages [gaplint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaplint-1.1.5.tar.gz tmp/gaplint-1.2.0.tar.gz --markdown 20240502/g/gaplint/1.1.5-1.2.0/README.md --exclude *.pyd
+[2024-05-02 14:21:17] INFO root fetch - processPackages [snitun]: Downloading https://files.pythonhosted.org/packages/09/c3/24b6446a1d56396c202728182016e40fb80b4964b620a1463b8e1dadb5ac/snitun-0.9.tar.gz
+[2024-05-02 14:21:17] INFO root fetch - processPackages [SimpleTKMessageBox]: Downloading https://files.pythonhosted.org/packages/55/e1/89d168ea411b366fe0e660de63d285125cbf2d17021720fcdf799a894292/SimpleTKMessageBox-0.2.6.tar.gz
+[2024-05-02 14:21:17] INFO root fetch - processPackages [snitun]: executing diffoscope
+[2024-05-02 14:21:17] INFO root fetch - processPackages [snitun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snitun-0.8.tar.gz tmp/snitun-0.9.tar.gz --markdown 20240502/s/snitun/0.8-0.9/README.md --exclude *.pyd
+[2024-05-02 14:21:17] INFO root fetch - processPackages [SimpleTKMessageBox]: executing diffoscope
+[2024-05-02 14:21:17] INFO root fetch - processPackages [SimpleTKMessageBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleTKMessageBox-0.2.5.tar.gz tmp/SimpleTKMessageBox-0.2.6.tar.gz --markdown 20240502/S/SimpleTKMessageBox/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-02 14:21:17] INFO root fetch - processPackages [gaplint]: Remove: archive file [/home/abi/fetcher/tmp/gaplint-1.1.5.tar.gz]
+[2024-05-02 14:21:17] INFO root fetch - processPackages [gaplint]: Remove: archive file [/home/abi/fetcher/tmp/gaplint-1.2.0.tar.gz]
+[2024-05-02 14:21:17] INFO root fetch - main [MainThread]: End processing [gaplint]: success
+[2024-05-02 14:21:17] INFO root fetch - processPackages [SimpleTKMessageBox]: Remove: archive file [/home/abi/fetcher/tmp/SimpleTKMessageBox-0.2.5.tar.gz]
+[2024-05-02 14:21:17] INFO root fetch - processPackages [SimpleTKMessageBox]: Remove: archive file [/home/abi/fetcher/tmp/SimpleTKMessageBox-0.2.6.tar.gz]
+[2024-05-02 14:21:17] INFO root fetch - main [MainThread]: End processing [SimpleTKMessageBox]: success
+[2024-05-02 14:21:18] INFO root fetch - processPackages [snitun]: Remove: archive file [/home/abi/fetcher/tmp/snitun-0.8.tar.gz]
+[2024-05-02 14:21:18] INFO root fetch - processPackages [snitun]: Remove: archive file [/home/abi/fetcher/tmp/snitun-0.9.tar.gz]
+[2024-05-02 14:21:18] INFO root fetch - main [MainThread]: End processing [snitun]: success
+[2024-05-02 14:21:18] INFO root fetch - main [MainThread]: Store serial: [23030658]
