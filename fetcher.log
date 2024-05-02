@@ -2645,3 +2645,56 @@
 [2024-05-02 02:44:13] INFO root fetch - processPackages [astx]: Remove: archive file [/home/abi/fetcher/tmp/astx-0.9.1.tar.gz]
 [2024-05-02 02:44:13] INFO root fetch - main [MainThread]: End processing [astx]: success
 [2024-05-02 02:44:13] INFO root fetch - main [MainThread]: Store serial: [23024001]
+[2024-05-02 02:46:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23024001]
+[2024-05-02 02:46:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 02:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: email-profile
+[2024-05-02 02:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wah
+[2024-05-02 02:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2024-05-02 02:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bq-validator
+[2024-05-02 02:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-databrew-cicd
+[2024-05-02 02:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nm-magic-wand-nightly
+[2024-05-02 02:46:22] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240501] Old Version: [0.2.2.20240430]
+[2024-05-02 02:46:22] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 02:46:22] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405010044] Old Version: [4.9.4.dev202404300044]
+[2024-05-02 02:46:22] INFO root fetch - processPackages [email-profile]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-02 02:46:22] INFO root fetch - processPackages [bq-validator]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-02 02:46:22] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-02 02:46:22] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-02 02:46:22] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/26/10/3beaafef7567d2813c3ae6fb0df8787e4945cf825b7c4845c9247d70e0a2/nm_magic_wand_nightly-0.2.2.20240430-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-05-02 02:46:22] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/01/59/4ebe0a0651e4400ba9298931729e19ba8fc6429d80e39a6cd4bd23e9b18d/tfds-nightly-4.9.4.dev202404300044.tar.gz
+[2024-05-02 02:46:22] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 76591215>=10485760
+[2024-05-02 02:46:22] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-05-02 02:46:22] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-02 02:46:22] INFO root fetch - processPackages [bq-validator]: Downloading https://files.pythonhosted.org/packages/38/a2/91ad5df40e94ac66d06f479f5a717127997b0d1591ea9c51ca1a00837eab/bq_validator-0.6.0.tar.gz
+[2024-05-02 02:46:22] INFO root fetch - processPackages [email-profile]: Downloading https://files.pythonhosted.org/packages/b9/7b/e193312ce96017bb7461e6151aa874a5f3d5567ac64a67e93e34d315a379/email_profile-0.2.0.tar.gz
+[2024-05-02 02:46:22] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-02 02:46:22] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-02 02:46:22] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240502/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 02:46:22] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-02 02:46:22] INFO root fetch - processPackages [email-profile]: Downloading https://files.pythonhosted.org/packages/36/56/ea53f110bbbac94137a74f8e2c5ae030bb6a983670384315301d98229652/email_profile-0.3.0.tar.gz
+[2024-05-02 02:46:22] INFO root fetch - processPackages [bq-validator]: Downloading https://files.pythonhosted.org/packages/af/fe/4d015759dcbf5b2b836d98eb3fecfe01025000fcb93aa55b2701a6c45055/bq_validator-0.7.0.tar.gz
+[2024-05-02 02:46:22] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/4d/54/d1fcfcbcd986b59af3296aab259311d6b657cf2a698b399e7b36eddffc6f/tfds-nightly-4.9.4.dev202405010044.tar.gz
+[2024-05-02 02:46:22] INFO root fetch - processPackages [email-profile]: executing diffoscope
+[2024-05-02 02:46:22] INFO root fetch - processPackages [email-profile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email_profile-0.2.0.tar.gz tmp/email_profile-0.3.0.tar.gz --markdown 20240502/e/email-profile/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-02 02:46:23] INFO root fetch - processPackages [bq-validator]: executing diffoscope
+[2024-05-02 02:46:23] INFO root fetch - processPackages [bq-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bq_validator-0.6.0.tar.gz tmp/bq_validator-0.7.0.tar.gz --markdown 20240502/b/bq-validator/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-02 02:46:23] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-02 02:46:23] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240502/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-02 02:46:23] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-02 02:46:23] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202404300044.tar.gz tmp/tfds-nightly-4.9.4.dev202405010044.tar.gz --markdown 20240502/t/tfds-nightly/4.9.4.dev202404300044-4.9.4.dev202405010044/README.md --exclude *.pyd
+[2024-05-02 02:46:23] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-02 02:46:23] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-02 02:46:23] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-02 02:46:23] INFO root fetch - processPackages [bq-validator]: Remove: archive file [/home/abi/fetcher/tmp/bq_validator-0.6.0.tar.gz]
+[2024-05-02 02:46:23] INFO root fetch - processPackages [bq-validator]: Remove: archive file [/home/abi/fetcher/tmp/bq_validator-0.7.0.tar.gz]
+[2024-05-02 02:46:23] INFO root fetch - main [MainThread]: End processing [bq-validator]: success
+[2024-05-02 02:46:23] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-02 02:46:23] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-02 02:46:23] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-02 02:46:23] INFO root fetch - processPackages [email-profile]: Remove: archive file [/home/abi/fetcher/tmp/email_profile-0.2.0.tar.gz]
+[2024-05-02 02:46:23] INFO root fetch - processPackages [email-profile]: Remove: archive file [/home/abi/fetcher/tmp/email_profile-0.3.0.tar.gz]
+[2024-05-02 02:46:23] INFO root fetch - main [MainThread]: End processing [email-profile]: success
+[2024-05-02 02:46:32] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404300044.tar.gz]
+[2024-05-02 02:46:32] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405010044.tar.gz]
+[2024-05-02 02:46:32] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-02 02:46:32] INFO root fetch - main [MainThread]: Store serial: [23024018]
