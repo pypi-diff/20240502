@@ -17328,3 +17328,80 @@
 [2024-05-02 12:59:41] INFO root fetch - processPackages [data-horizon]: Remove: archive file [/home/abi/fetcher/tmp/data_horizon-0.1.3.tar.gz]
 [2024-05-02 12:59:41] INFO root fetch - main [MainThread]: End processing [data-horizon]: success
 [2024-05-02 12:59:41] INFO root fetch - main [MainThread]: Store serial: [23029784]
+[2024-05-02 13:01:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029784]
+[2024-05-02 13:01:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-02 13:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zensvi
+[2024-05-02 13:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-profiler
+[2024-05-02 13:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-ddmrp-history
+[2024-05-02 13:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: etos-environment-provider
+[2024-05-02 13:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biaspeech
+[2024-05-02 13:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gemini-ai-app-downloader
+[2024-05-02 13:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: softpy
+[2024-05-02 13:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: refers
+[2024-05-02 13:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: securesystemslib
+[2024-05-02 13:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: funbible
+[2024-05-02 13:01:50] INFO root fetch - processPackages [biaspeech]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-02 13:01:50] WARNING root fetch - processPackages [funbible]: Skipping, unable to determine old version
+[2024-05-02 13:01:50] INFO root fetch - main [MainThread]: End processing [funbible] error
+[2024-05-02 13:01:50] INFO root fetch - processPackages [py-profiler]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-02 13:01:50] INFO root fetch - processPackages [zensvi]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-02 13:01:50] INFO root fetch - processPackages [gemini-ai-app-downloader]: New version: [1.4] Old Version: [1.3]
+[2024-05-02 13:01:50] INFO root fetch - processPackages [softpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-02 13:01:50] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.1]
+[2024-05-02 13:01:50] WARNING root fetch - processPackages [refers]: Skipping, unable to determine old version
+[2024-05-02 13:01:50] INFO root fetch - main [MainThread]: End processing [refers] error
+[2024-05-02 13:01:50] INFO root fetch - processPackages [etos-environment-provider]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-05-02 13:01:50] INFO root fetch - processPackages [securesystemslib]: New version: [1.0.0] Old Version: [0.31.0]
+[2024-05-02 13:01:51] INFO root fetch - processPackages [biaspeech]: Downloading https://files.pythonhosted.org/packages/71/b8/0d8e268a696f8ce4e4608bc25a7fb361ded89f680beac86c621122fc56d6/biaspeech-0.2.0.tar.gz
+[2024-05-02 13:01:51] INFO root fetch - processPackages [py-profiler]: Downloading https://files.pythonhosted.org/packages/8e/d7/c3c7b8a7bc089e3dd87718aa1cf6c2ebfaec4446ee8c81fd81f437bb4e56/py_profiler-0.2.6.tar.gz
+[2024-05-02 13:01:51] WARNING root fetch - processPackages [biaspeech]: Skipping package: exceeds size limit 16678854>=10485760
+[2024-05-02 13:01:51] INFO root fetch - main [MainThread]: End processing [biaspeech] error
+[2024-05-02 13:01:51] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/c4/b3/5f6efb302a54041edfdb7cee7e64caaad9afec14cd8770bb2ceb8f6b6fc8/zensvi-0.9.7.tar.gz
+[2024-05-02 13:01:51] INFO root fetch - processPackages [gemini-ai-app-downloader]: Downloading https://files.pythonhosted.org/packages/f4/43/23146f40bcb0df495f9f01f8a36e3f2bf29decc8cf6e58af7cbe2d0bc67b/gemini_ai_app_downloader-1.3.tar.gz
+[2024-05-02 13:01:51] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/32/a4/e93435c662ffa68b928e143309819de2f2310f527c6b06de943ad0fa2e0f/odoo_addon_ddmrp_history-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-02 13:01:51] INFO root fetch - processPackages [etos-environment-provider]: Downloading https://files.pythonhosted.org/packages/db/34/d82672353bc8866483b63d294d85330d3a092d13bf46991bc1ec585074b9/etos_environment_provider-4.1.0.tar.gz
+[2024-05-02 13:01:51] INFO root fetch - processPackages [securesystemslib]: Downloading https://files.pythonhosted.org/packages/c5/c9/70c2e5dc78554bb10da4b34d933a49d44727aeea4eedd39daa1635f24cc2/securesystemslib-0.31.0.tar.gz
+[2024-05-02 13:01:51] INFO root fetch - processPackages [softpy]: Downloading https://files.pythonhosted.org/packages/d4/8c/d5c1aec3e790236cc959970c264ab603031204a294561f3855e622325bbe/softpy-0.0.2.tar.gz
+[2024-05-02 13:01:51] INFO root fetch - processPackages [py-profiler]: Downloading https://files.pythonhosted.org/packages/82/cd/4d519d4538f6b29d0d9a51199018f2a1cc2f897692c6cfd8459614e36474/py_profiler-0.2.7.tar.gz
+[2024-05-02 13:01:51] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/58/a0/fa16c5167950fd72ac2b9de84f31f095275d7e96dede1c5f126683fca082/zensvi-0.9.8.tar.gz
+[2024-05-02 13:01:51] INFO root fetch - processPackages [gemini-ai-app-downloader]: Downloading https://files.pythonhosted.org/packages/5e/cd/d8e43232e4ac9b835e91962eca8569ee94ada9914ab21c700a4c4c9eed88/gemini_ai_app_downloader-1.4.tar.gz
+[2024-05-02 13:01:51] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/95/33/d055b5b161cbccd9d8e8a3cb9b605d5e407ebd9b7c2898e8838f20833ff6/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl
+[2024-05-02 13:01:51] INFO root fetch - processPackages [etos-environment-provider]: Downloading https://files.pythonhosted.org/packages/6b/5a/b4f001c30844a5f36c1984505e374d6d5650adb43eb11fd771b6540b7cb4/etos_environment_provider-4.2.0.tar.gz
+[2024-05-02 13:01:51] INFO root fetch - processPackages [softpy]: Downloading https://files.pythonhosted.org/packages/22/f6/6c672ed456ea3c1fb7d441356e41c878fce4cb076147dc84cdb1263a653a/softpy-0.0.3.tar.gz
+[2024-05-02 13:01:51] INFO root fetch - processPackages [py-profiler]: executing diffoscope
+[2024-05-02 13:01:51] INFO root fetch - processPackages [py-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_profiler-0.2.6.tar.gz tmp/py_profiler-0.2.7.tar.gz --markdown 20240502/p/py-profiler/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-02 13:01:51] INFO root fetch - processPackages [gemini-ai-app-downloader]: executing diffoscope
+[2024-05-02 13:01:51] INFO root fetch - processPackages [gemini-ai-app-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemini_ai_app_downloader-1.3.tar.gz tmp/gemini_ai_app_downloader-1.4.tar.gz --markdown 20240502/g/gemini-ai-app-downloader/1.3-1.4/README.md --exclude *.pyd
+[2024-05-02 13:01:51] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: executing diffoscope
+[2024-05-02 13:01:51] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_history-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-ddmrp-history/16.0.1.1.0.1-16.0.1.1.1/README.md --exclude *.pyd
+[2024-05-02 13:01:51] INFO root fetch - processPackages [securesystemslib]: Downloading https://files.pythonhosted.org/packages/80/f5/242b9e3186cdb462dfa7d8bc6a7f8f2332edbcb588cbf27eafc4a0a12674/securesystemslib-1.0.0.tar.gz
+[2024-05-02 13:01:51] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2024-05-02 13:01:51] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.9.7.tar.gz tmp/zensvi-0.9.8.tar.gz --markdown 20240502/z/zensvi/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-02 13:01:51] INFO root fetch - processPackages [etos-environment-provider]: executing diffoscope
+[2024-05-02 13:01:51] INFO root fetch - processPackages [etos-environment-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etos_environment_provider-4.1.0.tar.gz tmp/etos_environment_provider-4.2.0.tar.gz --markdown 20240502/e/etos-environment-provider/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-05-02 13:01:51] INFO root fetch - processPackages [softpy]: executing diffoscope
+[2024-05-02 13:01:51] INFO root fetch - processPackages [softpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/softpy-0.0.2.tar.gz tmp/softpy-0.0.3.tar.gz --markdown 20240502/s/softpy/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-02 13:01:52] INFO root fetch - processPackages [securesystemslib]: executing diffoscope
+[2024-05-02 13:01:52] INFO root fetch - processPackages [securesystemslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/securesystemslib-0.31.0.tar.gz tmp/securesystemslib-1.0.0.tar.gz --markdown 20240502/s/securesystemslib/0.31.0-1.0.0/README.md --exclude *.pyd
+[2024-05-02 13:01:52] INFO root fetch - processPackages [gemini-ai-app-downloader]: Remove: archive file [/home/abi/fetcher/tmp/gemini_ai_app_downloader-1.3.tar.gz]
+[2024-05-02 13:01:52] INFO root fetch - processPackages [gemini-ai-app-downloader]: Remove: archive file [/home/abi/fetcher/tmp/gemini_ai_app_downloader-1.4.tar.gz]
+[2024-05-02 13:01:52] INFO root fetch - main [MainThread]: End processing [gemini-ai-app-downloader]: success
+[2024-05-02 13:01:52] INFO root fetch - processPackages [py-profiler]: Remove: archive file [/home/abi/fetcher/tmp/py_profiler-0.2.6.tar.gz]
+[2024-05-02 13:01:52] INFO root fetch - processPackages [py-profiler]: Remove: archive file [/home/abi/fetcher/tmp/py_profiler-0.2.7.tar.gz]
+[2024-05-02 13:01:52] INFO root fetch - main [MainThread]: End processing [py-profiler]: success
+[2024-05-02 13:01:52] INFO root fetch - processPackages [softpy]: Remove: archive file [/home/abi/fetcher/tmp/softpy-0.0.2.tar.gz]
+[2024-05-02 13:01:52] INFO root fetch - processPackages [softpy]: Remove: archive file [/home/abi/fetcher/tmp/softpy-0.0.3.tar.gz]
+[2024-05-02 13:01:52] INFO root fetch - main [MainThread]: End processing [softpy]: success
+[2024-05-02 13:01:52] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.7.tar.gz]
+[2024-05-02 13:01:52] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.8.tar.gz]
+[2024-05-02 13:01:52] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2024-05-02 13:01:52] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_history-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-02 13:01:52] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-02 13:01:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-history]: success
+[2024-05-02 13:01:52] INFO root fetch - processPackages [etos-environment-provider]: Remove: archive file [/home/abi/fetcher/tmp/etos_environment_provider-4.1.0.tar.gz]
+[2024-05-02 13:01:52] INFO root fetch - processPackages [etos-environment-provider]: Remove: archive file [/home/abi/fetcher/tmp/etos_environment_provider-4.2.0.tar.gz]
+[2024-05-02 13:01:52] INFO root fetch - main [MainThread]: End processing [etos-environment-provider]: success
+[2024-05-02 13:01:53] INFO root fetch - processPackages [securesystemslib]: Remove: archive file [/home/abi/fetcher/tmp/securesystemslib-0.31.0.tar.gz]
+[2024-05-02 13:01:53] INFO root fetch - processPackages [securesystemslib]: Remove: archive file [/home/abi/fetcher/tmp/securesystemslib-1.0.0.tar.gz]
+[2024-05-02 13:01:53] INFO root fetch - main [MainThread]: End processing [securesystemslib]: success
+[2024-05-02 13:01:53] INFO root fetch - main [MainThread]: Store serial: [23029813]
