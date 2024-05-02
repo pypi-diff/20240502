@@ -9435,3 +9435,33 @@
 [2024-05-02 07:04:28] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-py-bbmri-eric-1.9.0.tar.gz]
 [2024-05-02 07:04:28] INFO root fetch - main [MainThread]: End processing [molgenis-py-bbmri-eric]: success
 [2024-05-02 07:04:28] INFO root fetch - main [MainThread]: Store serial: [23026521]
+[2024-05-02 07:06:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026521]
+[2024-05-02 07:06:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 07:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-pe
+[2024-05-02 07:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-homeassistant-custom-component
+[2024-05-02 07:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: templated-setup
+[2024-05-02 07:06:36] INFO root fetch - processPackages [templated-setup]: New version: [0.952] Old Version: [0.951]
+[2024-05-02 07:06:36] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 07:06:36] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240501] Old Version: [0.1.2.dev20240430]
+[2024-05-02 07:06:36] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/17/84/b369eb1875ac1355bc67cbe96171a568487aa3d96e14f0cb67df2a60e468/templated_setup-0.951.tar.gz
+[2024-05-02 07:06:36] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/ff/f2/2a5b2420300f6566352d87c2bb6e80b63bac6b1c5ebede410fbc833c2a8c/rapid_pe-0.1.2.dev20240430.tar.gz
+[2024-05-02 07:06:36] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2024-05-02 07:06:37] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2024-05-02 07:06:37] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/33/98/8c8df20dd61aecaa0edd6da1cabad555ae88f877b6c116728a64978eea80/templated_setup-0.952.tar.gz
+[2024-05-02 07:06:37] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/df/54/5b8cb2e724802b387092b2e8778b0dfd478a213906cee87fd2ce8562571b/rapid_pe-0.1.2.dev20240501.tar.gz
+[2024-05-02 07:06:37] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2024-05-02 07:06:37] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20240502/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 07:06:37] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 07:06:37] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.951.tar.gz tmp/templated_setup-0.952.tar.gz --markdown 20240502/t/templated-setup/0.951-0.952/README.md --exclude *.pyd
+[2024-05-02 07:06:37] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-02 07:06:37] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240430.tar.gz tmp/rapid_pe-0.1.2.dev20240501.tar.gz --markdown 20240502/r/rapid-pe/0.1.2.dev20240430-0.1.2.dev20240501/README.md --exclude *.pyd
+[2024-05-02 07:06:37] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2024-05-02 07:06:37] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2024-05-02 07:06:37] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2024-05-02 07:06:37] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.951.tar.gz]
+[2024-05-02 07:06:37] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.952.tar.gz]
+[2024-05-02 07:06:37] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 07:06:37] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240430.tar.gz]
+[2024-05-02 07:06:37] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240501.tar.gz]
+[2024-05-02 07:06:37] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-02 07:06:37] INFO root fetch - main [MainThread]: Store serial: [23026530]
