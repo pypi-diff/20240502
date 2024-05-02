@@ -17060,3 +17060,54 @@
 [2024-05-02 12:46:32] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.0.4.tar.gz]
 [2024-05-02 12:46:32] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
 [2024-05-02 12:46:32] INFO root fetch - main [MainThread]: Store serial: [23029670]
+[2024-05-02 12:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029670]
+[2024-05-02 12:48:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 12:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: perun.proxygui
+[2024-05-02 12:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imio.events.core
+[2024-05-02 12:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clustering-algorithms
+[2024-05-02 12:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zk-synk
+[2024-05-02 12:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fluidimage
+[2024-05-02 12:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imio.news.core
+[2024-05-02 12:48:41] INFO root fetch - processPackages [clustering-algorithms]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-02 12:48:41] WARNING root fetch - processPackages [zk-synk]: Skipping, unable to determine old version
+[2024-05-02 12:48:41] INFO root fetch - main [MainThread]: End processing [zk-synk] error
+[2024-05-02 12:48:41] INFO root fetch - processPackages [imio.news.core]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-05-02 12:48:41] INFO root fetch - processPackages [imio.events.core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-02 12:48:41] INFO root fetch - processPackages [perun.proxygui]: New version: [5.1.3] Old Version: [5.1.2]
+[2024-05-02 12:48:41] INFO root fetch - processPackages [fluidimage]: New version: [0.5.0] Old Version: [0.4.6]
+[2024-05-02 12:48:41] INFO root fetch - processPackages [clustering-algorithms]: Downloading https://files.pythonhosted.org/packages/15/1a/42725cdb6df01c2fbf031f47861a3b6d472a750e1d566ee73b00b7119093/clustering_algorithms-0.2.0.tar.gz
+[2024-05-02 12:48:41] INFO root fetch - processPackages [imio.news.core]: Downloading https://files.pythonhosted.org/packages/d2/69/d764a9c1b5b752d0e8760ee9daa432c202d1dd94a405d3b95ef688203715/imio.news.core-1.2.7.tar.gz
+[2024-05-02 12:48:41] INFO root fetch - processPackages [imio.events.core]: Downloading https://files.pythonhosted.org/packages/a7/63/c59272dfd7c1a5658df92ebe74fa3e45a0ddfa45d287e0eed6b094c32588/imio.events.core-1.2.8.tar.gz
+[2024-05-02 12:48:41] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/a4/60/2f2d6697848c9cc575e5cf7627f7377797a1524b0673fc474709faea4266/perun.proxygui-5.1.2.tar.gz
+[2024-05-02 12:48:41] INFO root fetch - processPackages [fluidimage]: Downloading https://files.pythonhosted.org/packages/49/37/76b542c3488ec28217833a03fc7266536dc250c3ca7a8ac6af5fbc0da574/fluidimage-0.4.6.tar.gz
+[2024-05-02 12:48:41] INFO root fetch - processPackages [clustering-algorithms]: Downloading https://files.pythonhosted.org/packages/00/a2/99a54ce3eafbf3819ea67ef190fd59367a6c46806a50b6ceb558901519c6/clustering_algorithms-0.3.0.tar.gz
+[2024-05-02 12:48:41] INFO root fetch - processPackages [clustering-algorithms]: executing diffoscope
+[2024-05-02 12:48:41] INFO root fetch - processPackages [clustering-algorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustering_algorithms-0.2.0.tar.gz tmp/clustering_algorithms-0.3.0.tar.gz --markdown 20240502/c/clustering-algorithms/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-02 12:48:41] INFO root fetch - processPackages [imio.news.core]: Downloading https://files.pythonhosted.org/packages/53/6b/3a658bd0a066190696f1237344ddcf0e0f24a9cd651e7a88ca5d2d59cede/imio.news.core-1.2.8.tar.gz
+[2024-05-02 12:48:42] INFO root fetch - processPackages [imio.events.core]: Downloading https://files.pythonhosted.org/packages/33/1c/6948ace023880b067772f3bccefa1ccfec9a502c04b9597dbb3042c14d2f/imio.events.core-1.2.9.tar.gz
+[2024-05-02 12:48:42] INFO root fetch - processPackages [imio.news.core]: executing diffoscope
+[2024-05-02 12:48:42] INFO root fetch - processPackages [imio.news.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.news.core-1.2.7.tar.gz tmp/imio.news.core-1.2.8.tar.gz --markdown 20240502/i/imio.news.core/1.2.7-1.2.8/README.md --exclude *.pyd
+[2024-05-02 12:48:42] INFO root fetch - processPackages [fluidimage]: Downloading https://files.pythonhosted.org/packages/bc/65/bda8f945c63585c544515d8bdb702cc899dad5eaa38388866e4c51ac3544/fluidimage-0.5.0.tar.gz
+[2024-05-02 12:48:42] INFO root fetch - processPackages [imio.events.core]: executing diffoscope
+[2024-05-02 12:48:42] INFO root fetch - processPackages [imio.events.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.events.core-1.2.8.tar.gz tmp/imio.events.core-1.2.9.tar.gz --markdown 20240502/i/imio.events.core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-02 12:48:42] INFO root fetch - processPackages [fluidimage]: executing diffoscope
+[2024-05-02 12:48:42] INFO root fetch - processPackages [fluidimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluidimage-0.4.6.tar.gz tmp/fluidimage-0.5.0.tar.gz --markdown 20240502/f/fluidimage/0.4.6-0.5.0/README.md --exclude *.pyd
+[2024-05-02 12:48:42] INFO root fetch - processPackages [clustering-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/clustering_algorithms-0.2.0.tar.gz]
+[2024-05-02 12:48:42] INFO root fetch - processPackages [clustering-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/clustering_algorithms-0.3.0.tar.gz]
+[2024-05-02 12:48:42] INFO root fetch - main [MainThread]: End processing [clustering-algorithms]: success
+[2024-05-02 12:48:42] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/df/98/f695bfa0fbea9d8563f46ee3af961917e85f350e9867d50434e0684c978f/perun.proxygui-5.1.3.tar.gz
+[2024-05-02 12:48:42] INFO root fetch - processPackages [imio.news.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.news.core-1.2.7.tar.gz]
+[2024-05-02 12:48:42] INFO root fetch - processPackages [imio.news.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.news.core-1.2.8.tar.gz]
+[2024-05-02 12:48:42] INFO root fetch - main [MainThread]: End processing [imio.news.core]: success
+[2024-05-02 12:48:43] INFO root fetch - processPackages [imio.events.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.events.core-1.2.8.tar.gz]
+[2024-05-02 12:48:43] INFO root fetch - processPackages [imio.events.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.events.core-1.2.9.tar.gz]
+[2024-05-02 12:48:43] INFO root fetch - main [MainThread]: End processing [imio.events.core]: success
+[2024-05-02 12:48:43] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2024-05-02 12:48:43] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-5.1.2.tar.gz tmp/perun.proxygui-5.1.3.tar.gz --markdown 20240502/p/perun.proxygui/5.1.2-5.1.3/README.md --exclude *.pyd
+[2024-05-02 12:48:44] INFO root fetch - processPackages [fluidimage]: Remove: archive file [/home/abi/fetcher/tmp/fluidimage-0.4.6.tar.gz]
+[2024-05-02 12:48:44] INFO root fetch - processPackages [fluidimage]: Remove: archive file [/home/abi/fetcher/tmp/fluidimage-0.5.0.tar.gz]
+[2024-05-02 12:48:44] INFO root fetch - main [MainThread]: End processing [fluidimage]: success
+[2024-05-02 12:48:46] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.1.2.tar.gz]
+[2024-05-02 12:48:46] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.1.3.tar.gz]
+[2024-05-02 12:48:46] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2024-05-02 12:48:46] INFO root fetch - main [MainThread]: Store serial: [23029707]
