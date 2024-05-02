@@ -14561,3 +14561,57 @@
 [2024-05-02 11:10:54] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.756.0.tar.gz]
 [2024-05-02 11:10:54] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-05-02 11:10:54] INFO root fetch - main [MainThread]: Store serial: [23028561]
+[2024-05-02 11:12:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028561]
+[2024-05-02 11:13:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panda-common
+[2024-05-02 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ragfmk
+[2024-05-02 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proabc-2
+[2024-05-02 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itwingstestsprojects
+[2024-05-02 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SNeSCOPE
+[2024-05-02 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finally-data-logger
+[2024-05-02 11:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: susclouds
+[2024-05-02 11:13:03] INFO root fetch - processPackages [ragfmk]: New version: [0.1.4] Old Version: [0.1.3.1]
+[2024-05-02 11:13:04] WARNING root fetch - processPackages [itwingstestsprojects]: Skipping, unable to determine old version
+[2024-05-02 11:13:04] INFO root fetch - main [MainThread]: End processing [itwingstestsprojects] error
+[2024-05-02 11:13:04] INFO root fetch - processPackages [ragfmk]: Downloading https://files.pythonhosted.org/packages/d2/f5/ef035d68f6c63ceb62dbc6695eb80102588d3a75f4c06e984808ab861791/ragfmk-0.1.3.1-py3-none-any.whl
+[2024-05-02 11:13:04] INFO root fetch - processPackages [finally-data-logger]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-02 11:13:04] INFO root fetch - processPackages [panda-common]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 11:13:04] WARNING root fetch - processPackages [proabc-2]: Skipping, unable to determine old version
+[2024-05-02 11:13:04] INFO root fetch - main [MainThread]: End processing [proabc-2] error
+[2024-05-02 11:13:04] INFO root fetch - processPackages [susclouds]: New version: [0.0.28] Old Version: [0.0.26]
+[2024-05-02 11:13:04] INFO root fetch - processPackages [SNeSCOPE]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-02 11:13:04] INFO root fetch - processPackages [ragfmk]: Downloading https://files.pythonhosted.org/packages/db/2b/769c28742ea900dd2538d40aae46cb613e728db5d4f443baef20044b42a0/ragfmk-0.1.4-py3-none-any.whl
+[2024-05-02 11:13:04] INFO root fetch - processPackages [finally-data-logger]: Downloading https://files.pythonhosted.org/packages/c6/2c/ee3ce0bd68589a7bf5a8dd771cc26ab6589534bb688c11e9a74689fb0035/finally_data_logger-0.1.2.tar.gz
+[2024-05-02 11:13:04] INFO root fetch - processPackages [susclouds]: Downloading https://files.pythonhosted.org/packages/05/d1/f2cbe10c107c152d43260d0ce193666e0cf91e1eb00e9e9292f9e8e80762/susclouds-0.0.26.tar.gz
+[2024-05-02 11:13:04] INFO root fetch - processPackages [SNeSCOPE]: Downloading https://files.pythonhosted.org/packages/c6/a3/3f445a422ceae6790f836558c40747ac59d637521914dc1930b1b49d0c94/SNeSCOPE-1.0.2.tar.gz
+[2024-05-02 11:13:04] INFO root fetch - processPackages [panda-common]: Downloading https://files.pythonhosted.org/packages/df/cb/8225f8a6cc37c4e4aaed58b5330764cc916d7978479ba835691f85363bc1/panda_common-0.1.0.tar.gz
+[2024-05-02 11:13:04] INFO root fetch - processPackages [ragfmk]: executing diffoscope
+[2024-05-02 11:13:04] INFO root fetch - processPackages [ragfmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragfmk-0.1.3.1-py3-none-any.whl.zip tmp/ragfmk-0.1.4-py3-none-any.whl.zip --markdown 20240502/r/ragfmk/0.1.3.1-0.1.4/README.md --exclude *.pyd
+[2024-05-02 11:13:04] INFO root fetch - processPackages [susclouds]: Downloading https://files.pythonhosted.org/packages/6c/72/0914e52f4d478888b37e0e2dd0a17ceb0ff87d7dd78adb7b9b8db63b927c/susclouds-0.0.28-py3-none-any.whl
+[2024-05-02 11:13:04] INFO root fetch - processPackages [SNeSCOPE]: Downloading https://files.pythonhosted.org/packages/62/5a/c87182f54c5576f9f3d74d58573e8e9e8cff51dcca19ae6d67d05e1a8506/SNeSCOPE-1.0.3.tar.gz
+[2024-05-02 11:13:04] INFO root fetch - processPackages [panda-common]: Downloading https://files.pythonhosted.org/packages/56/21/064b7bcf1e862d2f0b031757376406a4d54ee951c6f6079170c0aba08caf/panda_common-0.1.1.tar.gz
+[2024-05-02 11:13:04] INFO root fetch - processPackages [finally-data-logger]: Downloading https://files.pythonhosted.org/packages/b7/dc/0d5077287477008f4602ed04f8058503bced74e050e0d577e839723b4637/finally_data_logger-0.2.0.tar.gz
+[2024-05-02 11:13:04] INFO root fetch - processPackages [susclouds]: executing diffoscope
+[2024-05-02 11:13:04] INFO root fetch - processPackages [susclouds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/susclouds-0.0.26.tar.gz tmp/susclouds-0.0.28-py3-none-any.whl.zip --markdown 20240502/s/susclouds/0.0.26-0.0.28/README.md --exclude *.pyd
+[2024-05-02 11:13:04] INFO root fetch - processPackages [SNeSCOPE]: executing diffoscope
+[2024-05-02 11:13:04] INFO root fetch - processPackages [SNeSCOPE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SNeSCOPE-1.0.2.tar.gz tmp/SNeSCOPE-1.0.3.tar.gz --markdown 20240502/S/SNeSCOPE/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-02 11:13:04] INFO root fetch - processPackages [finally-data-logger]: executing diffoscope
+[2024-05-02 11:13:04] INFO root fetch - processPackages [finally-data-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finally_data_logger-0.1.2.tar.gz tmp/finally_data_logger-0.2.0.tar.gz --markdown 20240502/f/finally-data-logger/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-02 11:13:04] INFO root fetch - processPackages [panda-common]: executing diffoscope
+[2024-05-02 11:13:04] INFO root fetch - processPackages [panda-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_common-0.1.0.tar.gz tmp/panda_common-0.1.1.tar.gz --markdown 20240502/p/panda-common/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 11:13:05] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.3.1-py3-none-any.whl.zip]
+[2024-05-02 11:13:05] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.4-py3-none-any.whl.zip]
+[2024-05-02 11:13:05] INFO root fetch - main [MainThread]: End processing [ragfmk]: success
+[2024-05-02 11:13:05] INFO root fetch - processPackages [susclouds]: Remove: archive file [/home/abi/fetcher/tmp/susclouds-0.0.26.tar.gz]
+[2024-05-02 11:13:05] INFO root fetch - processPackages [susclouds]: Remove: archive file [/home/abi/fetcher/tmp/susclouds-0.0.28-py3-none-any.whl.zip]
+[2024-05-02 11:13:05] INFO root fetch - main [MainThread]: End processing [susclouds]: success
+[2024-05-02 11:13:05] INFO root fetch - processPackages [SNeSCOPE]: Remove: archive file [/home/abi/fetcher/tmp/SNeSCOPE-1.0.2.tar.gz]
+[2024-05-02 11:13:05] INFO root fetch - processPackages [SNeSCOPE]: Remove: archive file [/home/abi/fetcher/tmp/SNeSCOPE-1.0.3.tar.gz]
+[2024-05-02 11:13:05] INFO root fetch - main [MainThread]: End processing [SNeSCOPE]: success
+[2024-05-02 11:13:05] INFO root fetch - processPackages [finally-data-logger]: Remove: archive file [/home/abi/fetcher/tmp/finally_data_logger-0.1.2.tar.gz]
+[2024-05-02 11:13:05] INFO root fetch - processPackages [finally-data-logger]: Remove: archive file [/home/abi/fetcher/tmp/finally_data_logger-0.2.0.tar.gz]
+[2024-05-02 11:13:05] INFO root fetch - main [MainThread]: End processing [finally-data-logger]: success
+[2024-05-02 11:13:05] INFO root fetch - processPackages [panda-common]: Remove: archive file [/home/abi/fetcher/tmp/panda_common-0.1.0.tar.gz]
+[2024-05-02 11:13:05] INFO root fetch - processPackages [panda-common]: Remove: archive file [/home/abi/fetcher/tmp/panda_common-0.1.1.tar.gz]
+[2024-05-02 11:13:05] INFO root fetch - main [MainThread]: End processing [panda-common]: success
+[2024-05-02 11:13:05] INFO root fetch - main [MainThread]: Store serial: [23028584]
