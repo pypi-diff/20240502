@@ -9495,3 +9495,34 @@
 [2024-05-02 07:08:50] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.5.1.tar.gz]
 [2024-05-02 07:08:50] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2024-05-02 07:08:50] INFO root fetch - main [MainThread]: Store serial: [23026539]
+[2024-05-02 07:10:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026539]
+[2024-05-02 07:10:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 07:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: templated-setup
+[2024-05-02 07:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duckdb
+[2024-05-02 07:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: icare-nlp
+[2024-05-02 07:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymobiledevice3
+[2024-05-02 07:10:59] INFO root fetch - processPackages [templated-setup]: New version: [0.953] Old Version: [0.952]
+[2024-05-02 07:10:59] INFO root fetch - processPackages [icare-nlp]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-02 07:10:59] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/33/98/8c8df20dd61aecaa0edd6da1cabad555ae88f877b6c116728a64978eea80/templated_setup-0.952.tar.gz
+[2024-05-02 07:10:59] INFO root fetch - processPackages [icare-nlp]: Downloading https://files.pythonhosted.org/packages/28/3d/04ce07846ccfbaeb2b10934462b7b36c71a371c31cb90e5944a5dc502173/icare_nlp-0.0.1.tar.gz
+[2024-05-02 07:11:00] INFO root fetch - processPackages [icare-nlp]: Downloading https://files.pythonhosted.org/packages/3c/0c/093ba013c8b579c1ca984926d28851647ba2523f19f87a02be0de495766c/icare_nlp-0.0.2.tar.gz
+[2024-05-02 07:11:00] INFO root fetch - processPackages [duckdb]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-02 07:11:00] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.5.1] Old Version: [4.5.0]
+[2024-05-02 07:11:00] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/55/77/8e787c1c42411622488912e0e716846f6060c9f007ed0b0c44fbbb304ef4/templated_setup-0.953.tar.gz
+[2024-05-02 07:11:00] INFO root fetch - processPackages [icare-nlp]: executing diffoscope
+[2024-05-02 07:11:00] INFO root fetch - processPackages [icare-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icare_nlp-0.0.1.tar.gz tmp/icare_nlp-0.0.2.tar.gz --markdown 20240502/i/icare-nlp/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-02 07:11:00] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 07:11:00] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.952.tar.gz tmp/templated_setup-0.953.tar.gz --markdown 20240502/t/templated-setup/0.952-0.953/README.md --exclude *.pyd
+[2024-05-02 07:11:00] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/83/36/ea553454969fa7f356555da1ffcf31acc82172548be77278159002d34514/duckdb-0.9.1.tar.gz
+[2024-05-02 07:11:00] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/d8/dc/3cc67bb4886bd60d597495ccabdf9e38593a26e02866ee4193695f64718a/pymobiledevice3-4.5.0.tar.gz
+[2024-05-02 07:11:00] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
+[2024-05-02 07:11:00] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2024-05-02 07:11:00] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31545863>=10485760
+[2024-05-02 07:11:00] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-05-02 07:11:00] INFO root fetch - processPackages [icare-nlp]: Remove: archive file [/home/abi/fetcher/tmp/icare_nlp-0.0.1.tar.gz]
+[2024-05-02 07:11:00] INFO root fetch - processPackages [icare-nlp]: Remove: archive file [/home/abi/fetcher/tmp/icare_nlp-0.0.2.tar.gz]
+[2024-05-02 07:11:00] INFO root fetch - main [MainThread]: End processing [icare-nlp]: success
+[2024-05-02 07:11:00] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.952.tar.gz]
+[2024-05-02 07:11:00] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.953.tar.gz]
+[2024-05-02 07:11:00] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 07:11:00] INFO root fetch - main [MainThread]: Store serial: [23026565]
