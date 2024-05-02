@@ -12112,3 +12112,156 @@
 [2024-05-02 09:48:29] WARNING root fetch - processPackages [hydesign]: Skipping package: exceeds size limit 38513022>=10485760
 [2024-05-02 09:48:29] INFO root fetch - main [MainThread]: End processing [hydesign] error
 [2024-05-02 09:48:29] INFO root fetch - main [MainThread]: Store serial: [23027672]
+[2024-05-02 09:50:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027672]
+[2024-05-02 09:50:38] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-05-02 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-maintenance-request-purchase
+[2024-05-02 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adcl
+[2024-05-02 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-ro-stock-account
+[2024-05-02 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-service-client
+[2024-05-02 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odfdo
+[2024-05-02 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-ro-city
+[2024-05-02 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-service-server
+[2024-05-02 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-l10n-ro-account-anaf-sync
+[2024-05-02 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-ui
+[2024-05-02 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-l10n-ro-config
+[2024-05-02 09:50:38] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-02 09:50:38] INFO root fetch - processPackages [adcl]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-02 09:50:38] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-02 09:50:38] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-02 09:50:38] WARNING root fetch - processPackages [odoo-addon-maintenance-request-purchase]: Skipping, unable to determine old version
+[2024-05-02 09:50:38] INFO root fetch - processPackages [odoo-addon-maintenance-request-purchase]: Start processing: assemblyline-v4-service
+[2024-05-02 09:50:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-request-purchase] error
+[2024-05-02 09:50:38] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [17.0.1.1.1] Old Version: [17.0.1.1.0]
+[2024-05-02 09:50:38] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: New version: [17.0.1.2.1] Old Version: [17.0.1.2.0]
+[2024-05-02 09:50:38] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: New version: [17.0.1.2.1] Old Version: [17.0.1.2.0]
+[2024-05-02 09:50:38] INFO root fetch - processPackages [odfdo]: New version: [3.7.8] Old Version: [3.7.7]
+[2024-05-02 09:50:38] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: New version: [17.0.1.2.1] Old Version: [17.0.1.2.0]
+[2024-05-02 09:50:38] INFO root fetch - processPackages [adcl]: Downloading https://files.pythonhosted.org/packages/98/7e/bc3faaf0c0079240c0d52485576dd0174464ff32f681570d99ca025c1d45/adcl-0.1.5.tar.gz
+[2024-05-02 09:50:38] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/09/f6/461581aa3df5df687f3412c4e34ee4b73d2e6bffec292b864c2b7703ce20/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl
+[2024-05-02 09:50:38] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-02 09:50:38] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/f2/74/b8237d72f5bff6c82a740d48ec21ed2b8942846129c189028d0c66238da1/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl
+[2024-05-02 09:50:38] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/b5/68/4bf2882ecdfd3493ba5557cff1c06d2e527fe7e8ba2963a37bcad30bf714/assemblyline_ui-4.5.1.dev98-py3-none-any.whl
+[2024-05-02 09:50:39] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/e9/5c/01c9c0751191f7c8a1219ba8ca8d35521ba24c6f4e0b3b30f123968022a4/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/c4/78/b73ef0b2a81988ddbbafb30aa67c1b9b85a4651fbf98fd4da0471efa67e8/odoo_addon_l10n_ro_stock_account-17.0.1.1.0-py3-none-any.whl
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: Downloading https://files.pythonhosted.org/packages/c1/36/f0622842d079bc8eefe1fa770e73fbe366482ff1542bc7ed1d93f326ad67/odoo_addon_l10n_ro_city-17.0.1.2.0-py3-none-any.whl
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Downloading https://files.pythonhosted.org/packages/dc/d2/4b51a031062b619584ca223bba98308ebf2ea9cedb7b70f5146bb8ee005a/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.2.0-py3-none-any.whl
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odfdo]: Downloading https://files.pythonhosted.org/packages/1d/7f/4af5e6f7f8bbe2c82fe49773f14d2f43244c5fddac1502e8d6fd18aa6464/odfdo-3.7.7.tar.gz
+[2024-05-02 09:50:39] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/71/b9/931accceaab4b85f0403f7e1e99c5e67613d62945cec643f8cbe392edb99/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/f0/d2/af952f7cc92d686329de051179e5f7321668ba5f18ed8bbd911e2766160b/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl
+[2024-05-02 09:50:39] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/56/40/7aa376ad2c2a5e676da4626e03b7f92a1e4368e86ecfac6183027c093511/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl
+[2024-05-02 09:50:39] INFO root fetch - processPackages [adcl]: Downloading https://files.pythonhosted.org/packages/a8/c1/275e8b8a324d501f0cf918a13521444ebfbe640d9cf05a20387bebda4e69/adcl-0.1.6.tar.gz
+[2024-05-02 09:50:39] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2024-05-02 09:50:39] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240502/a/assemblyline-service-server/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-02 09:50:39] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/6c/18/d6496f3a9ea60866c419e3c1e5cf618fc2709d7fb2b7dc4bd270f6fcbbc1/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl
+[2024-05-02 09:50:39] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2024-05-02 09:50:39] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240502/a/assemblyline-service-client/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-02 09:50:39] INFO root fetch - processPackages [adcl]: executing diffoscope
+[2024-05-02 09:50:39] INFO root fetch - processPackages [adcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adcl-0.1.5.tar.gz tmp/adcl-0.1.6.tar.gz --markdown 20240502/a/adcl/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-02 09:50:39] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/fb/ac/688fc1bf55eadae3eb16a0bc260554cc144adfd2057b87015cb6e58ed6d9/assemblyline_ui-4.5.1.dev99-py3-none-any.whl
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/62/75/3910729c940330f37a123dbcaf18f1390d5b54569df8f4ca44202396c855/odoo_addon_l10n_ro_stock_account-17.0.1.1.1-py3-none-any.whl
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: Downloading https://files.pythonhosted.org/packages/c8/e9/240e90583db02275ef55bcab12f3bcd6fb2adceebd092dcb1da107fe54de/odoo_addon_l10n_ro_city-17.0.1.2.1-py3-none-any.whl
+[2024-05-02 09:50:39] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2024-05-02 09:50:39] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240502/a/assemblyline-v4-service/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/d8/af/08a1af6afbb206832753921089f8ae717baa420b58664f7ff14e9116ff8c/odoo_addon_l10n_ro_config-17.0.1.2.1-py3-none-any.whl
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odfdo]: Downloading https://files.pythonhosted.org/packages/e4/b6/adb5e66f7c070a68270cf1002346e723faef384426dffeb941b166932ee7/odfdo-3.7.8.tar.gz
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-17.0.1.1.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-ro-stock-account/17.0.1.1.0-17.0.1.1.1/README.md --exclude *.pyd
+[2024-05-02 09:50:39] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2024-05-02 09:50:39] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240502/a/assemblyline-ui/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: executing diffoscope
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_config-17.0.1.2.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-ro-config/17.0.1.2.0-17.0.1.2.1/README.md --exclude *.pyd
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: executing diffoscope
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_city-17.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_city-17.0.1.2.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-ro-city/17.0.1.2.0-17.0.1.2.1/README.md --exclude *.pyd
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odfdo]: executing diffoscope
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odfdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odfdo-3.7.7.tar.gz tmp/odfdo-3.7.8.tar.gz --markdown 20240502/o/odfdo/3.7.7-3.7.8/README.md --exclude *.pyd
+[2024-05-02 09:50:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Downloading https://files.pythonhosted.org/packages/21/47/8b94f1594fc017b3fa6bbb90e3c1466d68d70ba4c2b6a906aec362d8bad3/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.2.1-py3-none-any.whl
+[2024-05-02 09:50:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: executing diffoscope
+[2024-05-02 09:50:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.2.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-ro-account-anaf-sync/17.0.1.2.0-17.0.1.2.1/README.md --exclude *.pyd
+[2024-05-02 09:50:40] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: odoo-addon-l10n-ro-account
+[2024-05-02 09:50:40] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2024-05-02 09:50:40] INFO root fetch - processPackages [adcl]: Remove: archive file [/home/abi/fetcher/tmp/adcl-0.1.5.tar.gz]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [adcl]: Remove: archive file [/home/abi/fetcher/tmp/adcl-0.1.6.tar.gz]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [adcl]: Start processing: htagui
+[2024-05-02 09:50:40] INFO root fetch - main [MainThread]: End processing [adcl]: success
+[2024-05-02 09:50:40] INFO root fetch - processPackages [htagui]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: assemblyline
+[2024-05-02 09:50:40] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2024-05-02 09:50:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-account]: New version: [17.0.1.5.1] Old Version: [17.0.1.5.0]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [htagui]: Downloading https://files.pythonhosted.org/packages/95/99/fcd34bafbe112c5e8d763dc8eddc47c54db36a14e3288cd4c4517f5c70ba/htagui-0.5.6.tar.gz
+[2024-05-02 09:50:40] INFO root fetch - processPackages [assemblyline]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/34/47/278f54d1db7121cbbd6fd52ae6b5d912d23bba5564c2358c8df0e487b385/assemblyline-4.5.1.dev98.tar.gz
+[2024-05-02 09:50:40] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: odoo-addon-stock-move-location-purchase-uom
+[2024-05-02 09:50:40] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2024-05-02 09:50:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-account]: Downloading https://files.pythonhosted.org/packages/b7/8e/fa339eee5a29596f7650602f93e8e7ab4cc430f8bd51290bdfb502333e3f/odoo_addon_l10n_ro_account-17.0.1.5.0-py3-none-any.whl
+[2024-05-02 09:50:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-17.0.1.2.1-py3-none-any.whl.zip]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Start processing: odoo-addon-l10n-ro-partner-create-by-vat
+[2024-05-02 09:50:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-config]: success
+[2024-05-02 09:50:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-17.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Start processing: assemblyline-core
+[2024-05-02 09:50:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2024-05-02 09:50:40] WARNING root fetch - processPackages [odoo-addon-stock-move-location-purchase-uom]: Skipping, unable to determine old version
+[2024-05-02 09:50:40] INFO root fetch - processPackages [odoo-addon-stock-move-location-purchase-uom]: Start processing: odoo-addon-l10n-ro-etransport
+[2024-05-02 09:50:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-location-purchase-uom] error
+[2024-05-02 09:50:40] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-05-02 09:50:40] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-05-02 09:50:40] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2024-05-02 09:50:41] INFO root fetch - processPackages [htagui]: Downloading https://files.pythonhosted.org/packages/06/58/14e5080c4acef4bd1fe4660cc4480c75b934998e9b3d16fbbc3ad5596f43/htagui-0.5.7.tar.gz
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: New version: [17.0.1.1.1] Old Version: [17.0.1.1.0]
+[2024-05-02 09:50:41] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/93/52/0f9ddbd8f661c94e049b4e11f65e866e0391882dd79699fea9a81ad39665/assemblyline-4.5.1.dev99.tar.gz
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: New version: [17.0.0.3.1] Old Version: [17.0.0.3.0]
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.2.1-py3-none-any.whl.zip]
+[2024-05-02 09:50:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-anaf-sync]: success
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odfdo]: Remove: archive file [/home/abi/fetcher/tmp/odfdo-3.7.7.tar.gz]
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odfdo]: Remove: archive file [/home/abi/fetcher/tmp/odfdo-3.7.8.tar.gz]
+[2024-05-02 09:50:41] INFO root fetch - main [MainThread]: End processing [odfdo]: success
+[2024-05-02 09:50:41] INFO root fetch - processPackages [htagui]: executing diffoscope
+[2024-05-02 09:50:41] INFO root fetch - processPackages [htagui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagui-0.5.6.tar.gz tmp/htagui-0.5.7.tar.gz --markdown 20240502/h/htagui/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-account]: Downloading https://files.pythonhosted.org/packages/1c/8c/7dd0694550714c06de00c43f0676cb6fbe15bec5463c585215b95918d6d7/odoo_addon_l10n_ro_account-17.0.1.5.1-py3-none-any.whl
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Downloading https://files.pythonhosted.org/packages/33/28/46d9581facef35c2ce3f135aa75f77cb3e3965eb42833347b9473e0bb6a3/odoo_addon_l10n_ro_partner_create_by_vat-17.0.1.1.0-py3-none-any.whl
+[2024-05-02 09:50:41] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2024-05-02 09:50:41] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.5.1.dev98.tar.gz tmp/assemblyline-4.5.1.dev99.tar.gz --markdown 20240502/a/assemblyline/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-account]: executing diffoscope
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account-17.0.1.5.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account-17.0.1.5.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-ro-account/17.0.1.5.0-17.0.1.5.1/README.md --exclude *.pyd
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Downloading https://files.pythonhosted.org/packages/71/d0/b8b198c458951bd2f3671c81ad6e6d8f7f611b4b1024d8bd9522c67bc182/odoo_addon_l10n_ro_etransport-17.0.0.3.0-py3-none-any.whl
+[2024-05-02 09:50:41] INFO root fetch - processPackages [assemblyline-core]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Downloading https://files.pythonhosted.org/packages/fd/41/54accb3f85ea78b69520cb2fad0b76fec9e005c37d1cac69ab5f0e3531ee/odoo_addon_l10n_ro_partner_create_by_vat-17.0.1.1.1-py3-none-any.whl
+[2024-05-02 09:50:41] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/12/39/7c12a7e1a83b7fa7f13d7afc4173ec9dc6b78ca4552bf0b9a435ba01ae68/assemblyline-core-4.5.1.dev98.tar.gz
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Downloading https://files.pythonhosted.org/packages/8a/17/72440fbf8d9ccc2226fa5be8ff2000961a6fa0f4c96d8cd4cf5ae7f9c23e/odoo_addon_l10n_ro_etransport-17.0.0.3.1-py3-none-any.whl
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: executing diffoscope
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_partner_create_by_vat-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_partner_create_by_vat-17.0.1.1.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-ro-partner-create-by-vat/17.0.1.1.0-17.0.1.1.1/README.md --exclude *.pyd
+[2024-05-02 09:50:41] INFO root fetch - processPackages [htagui]: Remove: archive file [/home/abi/fetcher/tmp/htagui-0.5.6.tar.gz]
+[2024-05-02 09:50:41] INFO root fetch - processPackages [htagui]: Remove: archive file [/home/abi/fetcher/tmp/htagui-0.5.7.tar.gz]
+[2024-05-02 09:50:41] INFO root fetch - main [MainThread]: End processing [htagui]: success
+[2024-05-02 09:50:41] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/e8/d3/c564610dd6dce1127f1151c7f3563431d86d9d02164cb93935506731edf0/assemblyline-core-4.5.1.dev99.tar.gz
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: executing diffoscope
+[2024-05-02 09:50:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_etransport-17.0.0.3.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_etransport-17.0.0.3.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-ro-etransport/17.0.0.3.0-17.0.0.3.1/README.md --exclude *.pyd
+[2024-05-02 09:50:42] INFO root fetch - processPackages [odoo-addon-l10n-ro-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account-17.0.1.5.0-py3-none-any.whl.zip]
+[2024-05-02 09:50:42] INFO root fetch - processPackages [odoo-addon-l10n-ro-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account-17.0.1.5.1-py3-none-any.whl.zip]
+[2024-05-02 09:50:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account]: success
+[2024-05-02 09:50:42] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2024-05-02 09:50:42] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.5.1.dev98.tar.gz tmp/assemblyline-core-4.5.1.dev99.tar.gz --markdown 20240502/a/assemblyline-core/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-02 09:50:42] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_partner_create_by_vat-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-02 09:50:42] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_partner_create_by_vat-17.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-02 09:50:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-partner-create-by-vat]: success
+[2024-05-02 09:50:42] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev98.tar.gz]
+[2024-05-02 09:50:42] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev99.tar.gz]
+[2024-05-02 09:50:42] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2024-05-02 09:50:42] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_etransport-17.0.0.3.0-py3-none-any.whl.zip]
+[2024-05-02 09:50:42] INFO root fetch - processPackages [odoo-addon-l10n-ro-etransport]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_etransport-17.0.0.3.1-py3-none-any.whl.zip]
+[2024-05-02 09:50:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-etransport]: success
+[2024-05-02 09:50:42] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev98.tar.gz]
+[2024-05-02 09:50:42] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev99.tar.gz]
+[2024-05-02 09:50:42] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2024-05-02 09:50:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_city-17.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-02 09:50:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_city-17.0.1.2.1-py3-none-any.whl.zip]
+[2024-05-02 09:50:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-city]: success
+[2024-05-02 09:50:46] INFO root fetch - main [MainThread]: Store serial: [23027712]
