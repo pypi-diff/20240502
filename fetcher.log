@@ -1901,3 +1901,15 @@
 [2024-05-02 02:00:25] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev1.tar.gz]
 [2024-05-02 02:00:25] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
 [2024-05-02 02:00:25] INFO root fetch - main [MainThread]: Store serial: [23023672]
+[2024-05-02 02:02:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023672]
+[2024-05-02 02:02:35] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 02:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weba
+[2024-05-02 02:02:35] INFO root fetch - processPackages [weba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 02:02:35] INFO root fetch - processPackages [weba]: Downloading https://files.pythonhosted.org/packages/ae/24/e1aa2777a04f5f4f0dd14e494fd6eef05934d7c4f4da63844760afa3afb4/weba-0.0.8.tar.gz
+[2024-05-02 02:02:36] INFO root fetch - processPackages [weba]: Downloading https://files.pythonhosted.org/packages/1d/f8/07d2de1cb43b86bc39abfea5527c766888ce0adb2b79600ff4a1a84b1720/weba-0.0.9.tar.gz
+[2024-05-02 02:02:36] INFO root fetch - processPackages [weba]: executing diffoscope
+[2024-05-02 02:02:36] INFO root fetch - processPackages [weba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weba-0.0.8.tar.gz tmp/weba-0.0.9.tar.gz --markdown 20240502/w/weba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 02:02:37] INFO root fetch - processPackages [weba]: Remove: archive file [/home/abi/fetcher/tmp/weba-0.0.8.tar.gz]
+[2024-05-02 02:02:37] INFO root fetch - processPackages [weba]: Remove: archive file [/home/abi/fetcher/tmp/weba-0.0.9.tar.gz]
+[2024-05-02 02:02:37] INFO root fetch - main [MainThread]: End processing [weba]: success
+[2024-05-02 02:02:37] INFO root fetch - main [MainThread]: Store serial: [23023675]
