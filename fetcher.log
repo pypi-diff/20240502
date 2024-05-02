@@ -1871,3 +1871,33 @@
 [2024-05-02 01:58:15] INFO root fetch - processPackages [edsl]: Remove: archive file [/home/abi/fetcher/tmp/edsl-0.1.9.tar.gz]
 [2024-05-02 01:58:15] INFO root fetch - main [MainThread]: End processing [edsl]: success
 [2024-05-02 01:58:15] INFO root fetch - main [MainThread]: Store serial: [23023664]
+[2024-05-02 02:00:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023664]
+[2024-05-02 02:00:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 02:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyson-data
+[2024-05-02 02:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellworld-gym
+[2024-05-02 02:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: create-mountaineer-app
+[2024-05-02 02:00:24] INFO root fetch - processPackages [pyson-data]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-02 02:00:24] INFO root fetch - processPackages [cellworld-gym]: New version: [0.0.9] Old Version: [0.0.89]
+[2024-05-02 02:00:24] INFO root fetch - processPackages [cellworld-gym]: Downloading https://files.pythonhosted.org/packages/ec/13/7665689531bb6414f65abf31dbb2b0d0fcf4c5a8f1e17d1f05971d526a93/cellworld_gym-0.0.89.tar.gz
+[2024-05-02 02:00:24] INFO root fetch - processPackages [create-mountaineer-app]: New version: [0.5.0.dev1] Old Version: [0.4.2.dev3]
+[2024-05-02 02:00:24] INFO root fetch - processPackages [pyson-data]: Downloading https://files.pythonhosted.org/packages/0d/18/bbb10e07bc7feb47daa6cd45c604e4b5a78954e94d785090a246661e795b/pyson_data-0.0.2.tar.gz
+[2024-05-02 02:00:24] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/07/ec/c4c74498d2a96d4a716b048829d86cac4281cbc710d1150bb0880df66f00/create_mountaineer_app-0.4.2.dev3.tar.gz
+[2024-05-02 02:00:24] INFO root fetch - processPackages [cellworld-gym]: Downloading https://files.pythonhosted.org/packages/9d/53/7082a6dd25f1a1b4bf7e78a266aefe1f1a8f04ca5adb408522f49a869f12/cellworld_gym-0.0.9.tar.gz
+[2024-05-02 02:00:24] INFO root fetch - processPackages [pyson-data]: Downloading https://files.pythonhosted.org/packages/18/83/e0f6156df7a7d96a3282fee380feda7f32ff0ec14a4603f2632838ce4d70/pyson_data-0.0.3.tar.gz
+[2024-05-02 02:00:24] INFO root fetch - processPackages [cellworld-gym]: executing diffoscope
+[2024-05-02 02:00:24] INFO root fetch - processPackages [cellworld-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld_gym-0.0.89.tar.gz tmp/cellworld_gym-0.0.9.tar.gz --markdown 20240502/c/cellworld-gym/0.0.89-0.0.9/README.md --exclude *.pyd
+[2024-05-02 02:00:25] INFO root fetch - processPackages [pyson-data]: executing diffoscope
+[2024-05-02 02:00:25] INFO root fetch - processPackages [pyson-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyson_data-0.0.2.tar.gz tmp/pyson_data-0.0.3.tar.gz --markdown 20240502/p/pyson-data/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-02 02:00:25] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/89/10/8b4d1928cdca91c92753ba2f0ace743e98d7972748801c82d014522f7f93/create_mountaineer_app-0.5.0.dev1.tar.gz
+[2024-05-02 02:00:25] INFO root fetch - processPackages [create-mountaineer-app]: executing diffoscope
+[2024-05-02 02:00:25] INFO root fetch - processPackages [create-mountaineer-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_mountaineer_app-0.4.2.dev3.tar.gz tmp/create_mountaineer_app-0.5.0.dev1.tar.gz --markdown 20240502/c/create-mountaineer-app/0.4.2.dev3-0.5.0.dev1/README.md --exclude *.pyd
+[2024-05-02 02:00:25] INFO root fetch - processPackages [cellworld-gym]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_gym-0.0.89.tar.gz]
+[2024-05-02 02:00:25] INFO root fetch - processPackages [cellworld-gym]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_gym-0.0.9.tar.gz]
+[2024-05-02 02:00:25] INFO root fetch - main [MainThread]: End processing [cellworld-gym]: success
+[2024-05-02 02:00:25] INFO root fetch - processPackages [pyson-data]: Remove: archive file [/home/abi/fetcher/tmp/pyson_data-0.0.2.tar.gz]
+[2024-05-02 02:00:25] INFO root fetch - processPackages [pyson-data]: Remove: archive file [/home/abi/fetcher/tmp/pyson_data-0.0.3.tar.gz]
+[2024-05-02 02:00:25] INFO root fetch - main [MainThread]: End processing [pyson-data]: success
+[2024-05-02 02:00:25] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.4.2.dev3.tar.gz]
+[2024-05-02 02:00:25] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev1.tar.gz]
+[2024-05-02 02:00:25] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
+[2024-05-02 02:00:25] INFO root fetch - main [MainThread]: Store serial: [23023672]
