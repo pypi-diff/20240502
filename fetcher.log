@@ -15620,3 +15620,18 @@
 [2024-05-02 11:55:42] INFO root fetch - processPackages [galaxy-release-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_release_util-0.1.8.tar.gz]
 [2024-05-02 11:55:42] INFO root fetch - main [MainThread]: End processing [galaxy-release-util]: success
 [2024-05-02 11:55:42] INFO root fetch - main [MainThread]: Store serial: [23029082]
+[2024-05-02 11:57:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029082]
+[2024-05-02 11:57:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 11:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-web-tree-customized-field-list
+[2024-05-02 11:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: izihawa-textparser
+[2024-05-02 11:57:51] WARNING root fetch - processPackages [odoo14-addon-web-tree-customized-field-list]: Skipping, unable to determine old version
+[2024-05-02 11:57:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-tree-customized-field-list] error
+[2024-05-02 11:57:51] INFO root fetch - processPackages [izihawa-textparser]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-02 11:57:52] INFO root fetch - processPackages [izihawa-textparser]: Downloading https://files.pythonhosted.org/packages/35/86/992655e63799238532d03dd8b42dcd77753a22fdf22b27b893be713093e2/izihawa_textparser-0.1.98.tar.gz
+[2024-05-02 11:57:52] INFO root fetch - processPackages [izihawa-textparser]: Downloading https://files.pythonhosted.org/packages/65/50/86f091e47fe0a6c2f3484f1f8b741be2e544f2e48405158d5baf7afc92ea/izihawa_textparser-0.1.99.tar.gz
+[2024-05-02 11:57:52] INFO root fetch - processPackages [izihawa-textparser]: executing diffoscope
+[2024-05-02 11:57:52] INFO root fetch - processPackages [izihawa-textparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izihawa_textparser-0.1.98.tar.gz tmp/izihawa_textparser-0.1.99.tar.gz --markdown 20240502/i/izihawa-textparser/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-02 11:57:52] INFO root fetch - processPackages [izihawa-textparser]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_textparser-0.1.98.tar.gz]
+[2024-05-02 11:57:52] INFO root fetch - processPackages [izihawa-textparser]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_textparser-0.1.99.tar.gz]
+[2024-05-02 11:57:52] INFO root fetch - main [MainThread]: End processing [izihawa-textparser]: success
+[2024-05-02 11:57:52] INFO root fetch - main [MainThread]: Store serial: [23029092]
