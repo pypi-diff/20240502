@@ -10156,3 +10156,24 @@
 [2024-05-02 08:01:25] INFO root fetch - processPackages [odoo-addon-base-export-async]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_export_async-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2024-05-02 08:01:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-export-async]: success
 [2024-05-02 08:01:25] INFO root fetch - main [MainThread]: Store serial: [23026810]
+[2024-05-02 08:03:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026810]
+[2024-05-02 08:03:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 08:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: generate-tools
+[2024-05-02 08:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2024-05-02 08:03:35] INFO root fetch - processPackages [generate-tools]: New version: [0.1.1.dev2] Old Version: [0.1.1.dev1]
+[2024-05-02 08:03:35] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.38.0.dev20240501] Old Version: [1.38.0.dev20240430]
+[2024-05-02 08:03:35] INFO root fetch - processPackages [generate-tools]: Downloading https://files.pythonhosted.org/packages/89/a6/ffcea2cea791fbdf2ea6bebabf8175248334f670419e05a83218552f57fb/generate_tools-0.1.1.dev1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-02 08:03:35] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/41/cb/0f566279872e0e6321bb1ff6638995dd33202313e5408cbab12f1d08f633/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240430.tar.gz
+[2024-05-02 08:03:35] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/bf/27/8c201a39d1f73c9c369c8719cdc9d9a560460893ae5b0a835340ac997ec9/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240501.tar.gz
+[2024-05-02 08:03:35] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2024-05-02 08:03:35] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240430.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240501.tar.gz --markdown 20240502/n/nvidia-dali-tf-plugin-nightly-cuda120/1.38.0.dev20240430-1.38.0.dev20240501/README.md --exclude *.pyd
+[2024-05-02 08:03:35] INFO root fetch - processPackages [generate-tools]: Downloading https://files.pythonhosted.org/packages/34/d9/a19cf0db000465d413d553564a7e46f12a4c2f67c955e9b2a472a30e8e6f/generate_tools-0.1.1.dev2-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-02 08:03:36] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240430.tar.gz]
+[2024-05-02 08:03:36] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240501.tar.gz]
+[2024-05-02 08:03:36] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2024-05-02 08:03:37] INFO root fetch - processPackages [generate-tools]: executing diffoscope
+[2024-05-02 08:03:37] INFO root fetch - processPackages [generate-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generate_tools-0.1.1.dev1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/generate_tools-0.1.1.dev2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240502/g/generate-tools/0.1.1.dev1-0.1.1.dev2/README.md --exclude *.pyd
+[2024-05-02 08:03:39] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.1.dev1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-02 08:03:39] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.1.dev2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-02 08:03:39] INFO root fetch - main [MainThread]: End processing [generate-tools]: success
+[2024-05-02 08:03:39] INFO root fetch - main [MainThread]: Store serial: [23026818]
