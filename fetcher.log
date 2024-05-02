@@ -17605,3 +17605,78 @@
 [2024-05-02 13:11:17] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-4.0.0.tar.gz]
 [2024-05-02 13:11:17] INFO root fetch - main [MainThread]: End processing [akeyless]: success
 [2024-05-02 13:11:17] INFO root fetch - main [MainThread]: Store serial: [23029874]
+[2024-05-02 13:13:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029874]
+[2024-05-02 13:13:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 13:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assisted-service-client
+[2024-05-02 13:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gcp-scraper
+[2024-05-02 13:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ReverseBox
+[2024-05-02 13:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dig-ass-ep-protos
+[2024-05-02 13:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dig-ass-ocr-protos
+[2024-05-02 13:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dig-ass-chat-protos
+[2024-05-02 13:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dig-ass-critic-protos
+[2024-05-02 13:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dig-ass-text-protos
+[2024-05-02 13:13:26] INFO root fetch - processPackages [ReverseBox]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-02 13:13:26] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-02 13:13:26] INFO root fetch - processPackages [dig-ass-ocr-protos]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-02 13:13:26] INFO root fetch - processPackages [dig-ass-ep-protos]: New version: [1.0.0] Old Version: [0.0.8]
+[2024-05-02 13:13:26] INFO root fetch - processPackages [dig-ass-critic-protos]: New version: [1.0.0] Old Version: [0.0.5]
+[2024-05-02 13:13:26] INFO root fetch - processPackages [dig-ass-chat-protos]: New version: [1.0.0] Old Version: [0.0.9]
+[2024-05-02 13:13:26] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/d7/a6/4e9e8bdc1e7dcf1538947cb431fedd01763a1f0f9eac2b159dfd59195c94/ReverseBox-0.8.0.tar.gz
+[2024-05-02 13:13:26] INFO root fetch - processPackages [gcp-scraper]: New version: [3.7.1] Old Version: [3.7.0]
+[2024-05-02 13:13:26] INFO root fetch - processPackages [dig-ass-text-protos]: New version: [1.0.0] Old Version: [0.0.6]
+[2024-05-02 13:13:26] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-02 13:13:26] INFO root fetch - processPackages [dig-ass-ocr-protos]: Downloading https://files.pythonhosted.org/packages/b5/e8/df567f2e80496fde056e2676aebd8a25f959beb1c802f1861cc85411f008/dig_ass_ocr_protos-0.0.4.tar.gz
+[2024-05-02 13:13:26] INFO root fetch - processPackages [dig-ass-ep-protos]: Downloading https://files.pythonhosted.org/packages/d4/40/c788130ccb9a67542e8950f2df81b9481af284e225bf7cb2fac4b7fe40ff/dig_ass_ep_protos-0.0.8.tar.gz
+[2024-05-02 13:13:26] INFO root fetch - processPackages [gcp-scraper]: Downloading https://files.pythonhosted.org/packages/c5/83/d9b3ddbb28f66c9585f492882aa038e9f65f0224e77cae412d1425faeb20/gcp-scraper-3.7.0.tar.gz
+[2024-05-02 13:13:26] INFO root fetch - processPackages [dig-ass-text-protos]: Downloading https://files.pythonhosted.org/packages/68/eb/5e83226d6fbffbee122a7ed419b637713c12ed4a418c82edf7fcc47e7513/dig_ass_text_protos-0.0.6.tar.gz
+[2024-05-02 13:13:26] INFO root fetch - processPackages [dig-ass-chat-protos]: Downloading https://files.pythonhosted.org/packages/bf/c8/68afe08faccd9cfce0e6a4874f807c904616b9b20075d61b948c344de7b2/dig_ass_chat_protos-0.0.9.tar.gz
+[2024-05-02 13:13:26] INFO root fetch - processPackages [dig-ass-critic-protos]: Downloading https://files.pythonhosted.org/packages/88/7f/34f6ff4a4f30ae6aad7bcfebf89398262ee2d0dac5925338f51efc9cf992/dig_ass_critic_protos-0.0.5.tar.gz
+[2024-05-02 13:13:26] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/37/14/2d766d54b9fbbb9f915b703dcd510cb695775ac6c177ed44362ab9481fdf/ReverseBox-0.8.1.tar.gz
+[2024-05-02 13:13:26] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-02 13:13:26] INFO root fetch - processPackages [ReverseBox]: executing diffoscope
+[2024-05-02 13:13:26] INFO root fetch - processPackages [ReverseBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseBox-0.8.0.tar.gz tmp/ReverseBox-0.8.1.tar.gz --markdown 20240502/R/ReverseBox/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-02 13:13:26] INFO root fetch - processPackages [dig-ass-ocr-protos]: Downloading https://files.pythonhosted.org/packages/6a/33/8e0e00916ab23a4829b8db8208d2e75c197887024b9393215073613efa10/dig_ass_ocr_protos-0.0.5.tar.gz
+[2024-05-02 13:13:26] INFO root fetch - processPackages [dig-ass-ep-protos]: Downloading https://files.pythonhosted.org/packages/55/04/cb94dc4e6b44e516370c3de2f18d783ca78299a84a47a09c2e00d61bbaec/dig_ass_ep_protos-1.0.0.tar.gz
+[2024-05-02 13:13:26] INFO root fetch - processPackages [gcp-scraper]: Downloading https://files.pythonhosted.org/packages/1b/be/454f6b8607c68932139ed1fc7ea2888739ca50f778418a03703df07db437/gcp-scraper-3.7.1.tar.gz
+[2024-05-02 13:13:26] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-02 13:13:26] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240502/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-02 13:13:26] INFO root fetch - processPackages [dig-ass-text-protos]: Downloading https://files.pythonhosted.org/packages/57/50/32cf0fbacaed2a09eb735cbd1d3a9b1cd85778b156a36b9761e30c34fd69/dig_ass_text_protos-1.0.0.tar.gz
+[2024-05-02 13:13:27] INFO root fetch - processPackages [dig-ass-chat-protos]: Downloading https://files.pythonhosted.org/packages/ad/24/d4a58a2cd1fbe9a26874a1e93e7f4151628e81acdfc9bcd3be0c742961e4/dig_ass_chat_protos-1.0.0.tar.gz
+[2024-05-02 13:13:27] INFO root fetch - processPackages [dig-ass-ocr-protos]: executing diffoscope
+[2024-05-02 13:13:27] INFO root fetch - processPackages [dig-ass-ocr-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_ocr_protos-0.0.4.tar.gz tmp/dig_ass_ocr_protos-0.0.5.tar.gz --markdown 20240502/d/dig-ass-ocr-protos/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-02 13:13:27] INFO root fetch - processPackages [dig-ass-ep-protos]: executing diffoscope
+[2024-05-02 13:13:27] INFO root fetch - processPackages [dig-ass-ep-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_ep_protos-0.0.8.tar.gz tmp/dig_ass_ep_protos-1.0.0.tar.gz --markdown 20240502/d/dig-ass-ep-protos/0.0.8-1.0.0/README.md --exclude *.pyd
+[2024-05-02 13:13:27] INFO root fetch - processPackages [dig-ass-critic-protos]: Downloading https://files.pythonhosted.org/packages/d1/56/4660bcb4b81f4cacdd4c54fd271b3e33fb11a74748ea465e7eb3da738f08/dig_ass_critic_protos-1.0.0.tar.gz
+[2024-05-02 13:13:27] INFO root fetch - processPackages [gcp-scraper]: executing diffoscope
+[2024-05-02 13:13:27] INFO root fetch - processPackages [gcp-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp-scraper-3.7.0.tar.gz tmp/gcp-scraper-3.7.1.tar.gz --markdown 20240502/g/gcp-scraper/3.7.0-3.7.1/README.md --exclude *.pyd
+[2024-05-02 13:13:27] INFO root fetch - processPackages [dig-ass-chat-protos]: executing diffoscope
+[2024-05-02 13:13:27] INFO root fetch - processPackages [dig-ass-chat-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_chat_protos-0.0.9.tar.gz tmp/dig_ass_chat_protos-1.0.0.tar.gz --markdown 20240502/d/dig-ass-chat-protos/0.0.9-1.0.0/README.md --exclude *.pyd
+[2024-05-02 13:13:27] INFO root fetch - processPackages [dig-ass-text-protos]: executing diffoscope
+[2024-05-02 13:13:27] INFO root fetch - processPackages [dig-ass-critic-protos]: executing diffoscope
+[2024-05-02 13:13:27] INFO root fetch - processPackages [dig-ass-text-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_text_protos-0.0.6.tar.gz tmp/dig_ass_text_protos-1.0.0.tar.gz --markdown 20240502/d/dig-ass-text-protos/0.0.6-1.0.0/README.md --exclude *.pyd
+[2024-05-02 13:13:27] INFO root fetch - processPackages [dig-ass-critic-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_critic_protos-0.0.5.tar.gz tmp/dig_ass_critic_protos-1.0.0.tar.gz --markdown 20240502/d/dig-ass-critic-protos/0.0.5-1.0.0/README.md --exclude *.pyd
+[2024-05-02 13:13:27] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.8.0.tar.gz]
+[2024-05-02 13:13:27] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.8.1.tar.gz]
+[2024-05-02 13:13:27] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
+[2024-05-02 13:13:28] INFO root fetch - processPackages [dig-ass-ocr-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ocr_protos-0.0.4.tar.gz]
+[2024-05-02 13:13:28] INFO root fetch - processPackages [dig-ass-ocr-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ocr_protos-0.0.5.tar.gz]
+[2024-05-02 13:13:28] INFO root fetch - main [MainThread]: End processing [dig-ass-ocr-protos]: success
+[2024-05-02 13:13:28] INFO root fetch - processPackages [dig-ass-chat-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_chat_protos-0.0.9.tar.gz]
+[2024-05-02 13:13:28] INFO root fetch - processPackages [dig-ass-chat-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_chat_protos-1.0.0.tar.gz]
+[2024-05-02 13:13:28] INFO root fetch - main [MainThread]: End processing [dig-ass-chat-protos]: success
+[2024-05-02 13:13:28] INFO root fetch - processPackages [dig-ass-ep-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ep_protos-0.0.8.tar.gz]
+[2024-05-02 13:13:28] INFO root fetch - processPackages [dig-ass-ep-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ep_protos-1.0.0.tar.gz]
+[2024-05-02 13:13:28] INFO root fetch - main [MainThread]: End processing [dig-ass-ep-protos]: success
+[2024-05-02 13:13:28] INFO root fetch - processPackages [gcp-scraper]: Remove: archive file [/home/abi/fetcher/tmp/gcp-scraper-3.7.0.tar.gz]
+[2024-05-02 13:13:28] INFO root fetch - processPackages [gcp-scraper]: Remove: archive file [/home/abi/fetcher/tmp/gcp-scraper-3.7.1.tar.gz]
+[2024-05-02 13:13:28] INFO root fetch - main [MainThread]: End processing [gcp-scraper]: success
+[2024-05-02 13:13:28] INFO root fetch - processPackages [dig-ass-text-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_text_protos-0.0.6.tar.gz]
+[2024-05-02 13:13:28] INFO root fetch - processPackages [dig-ass-text-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_text_protos-1.0.0.tar.gz]
+[2024-05-02 13:13:28] INFO root fetch - main [MainThread]: End processing [dig-ass-text-protos]: success
+[2024-05-02 13:13:28] INFO root fetch - processPackages [dig-ass-critic-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_critic_protos-0.0.5.tar.gz]
+[2024-05-02 13:13:28] INFO root fetch - processPackages [dig-ass-critic-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_critic_protos-1.0.0.tar.gz]
+[2024-05-02 13:13:28] INFO root fetch - main [MainThread]: End processing [dig-ass-critic-protos]: success
+[2024-05-02 13:13:28] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-02 13:13:28] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-02 13:13:28] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-02 13:13:28] INFO root fetch - main [MainThread]: Store serial: [23029895]
