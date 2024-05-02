@@ -8912,3 +8912,15 @@
 [2024-05-02 06:25:09] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.4.0.post30-py3-none-manylinux2014_x86_64.whl.zip]
 [2024-05-02 06:25:09] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
 [2024-05-02 06:25:09] INFO root fetch - main [MainThread]: Store serial: [23026295]
+[2024-05-02 06:27:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026295]
+[2024-05-02 06:27:18] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 06:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scikit-duplo
+[2024-05-02 06:27:18] INFO root fetch - processPackages [scikit-duplo]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 06:27:18] INFO root fetch - processPackages [scikit-duplo]: Downloading https://files.pythonhosted.org/packages/1d/33/73550a7d1e71fd6afced4de2c169c6073118916da2451759f65e86b0b8b0/scikit-duplo-0.1.8.tar.gz
+[2024-05-02 06:27:18] INFO root fetch - processPackages [scikit-duplo]: Downloading https://files.pythonhosted.org/packages/61/39/dcaf01283556141fe84a3ceb62b2c8f1f459eac3824de09e483d53e8a971/scikit-duplo-0.1.9.tar.gz
+[2024-05-02 06:27:19] INFO root fetch - processPackages [scikit-duplo]: executing diffoscope
+[2024-05-02 06:27:19] INFO root fetch - processPackages [scikit-duplo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-duplo-0.1.8.tar.gz tmp/scikit-duplo-0.1.9.tar.gz --markdown 20240502/s/scikit-duplo/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 06:27:19] INFO root fetch - processPackages [scikit-duplo]: Remove: archive file [/home/abi/fetcher/tmp/scikit-duplo-0.1.8.tar.gz]
+[2024-05-02 06:27:19] INFO root fetch - processPackages [scikit-duplo]: Remove: archive file [/home/abi/fetcher/tmp/scikit-duplo-0.1.9.tar.gz]
+[2024-05-02 06:27:19] INFO root fetch - main [MainThread]: End processing [scikit-duplo]: success
+[2024-05-02 06:27:19] INFO root fetch - main [MainThread]: Store serial: [23026297]
