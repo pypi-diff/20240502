@@ -7731,3 +7731,15 @@
 [2024-05-02 04:41:16] INFO root fetch - processPackages [sosap]: Remove: archive file [/home/abi/fetcher/tmp/sosap-0.1.0.tar.gz]
 [2024-05-02 04:41:16] INFO root fetch - main [MainThread]: End processing [sosap]: success
 [2024-05-02 04:41:16] INFO root fetch - main [MainThread]: Store serial: [23025845]
+[2024-05-02 04:43:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025845]
+[2024-05-02 04:43:25] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 04:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dmk-packages
+[2024-05-02 04:43:26] INFO root fetch - processPackages [dmk-packages]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-05-02 04:43:26] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/14/54/0020c6c03babce549bc986bf4cee2c63d96e03c888454c72a506296fe570/dmk_packages-0.6.7.tar.gz
+[2024-05-02 04:43:26] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/97/aa/856ff3763fb718b1d27cd18d69be64f21efbf1fb996a7a6bd241a04f4a22/dmk_packages-0.6.8.tar.gz
+[2024-05-02 04:43:26] INFO root fetch - processPackages [dmk-packages]: executing diffoscope
+[2024-05-02 04:43:26] INFO root fetch - processPackages [dmk-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmk_packages-0.6.7.tar.gz tmp/dmk_packages-0.6.8.tar.gz --markdown 20240502/d/dmk-packages/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-05-02 04:43:27] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.6.7.tar.gz]
+[2024-05-02 04:43:27] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.6.8.tar.gz]
+[2024-05-02 04:43:27] INFO root fetch - main [MainThread]: End processing [dmk-packages]: success
+[2024-05-02 04:43:27] INFO root fetch - main [MainThread]: Store serial: [23025848]
