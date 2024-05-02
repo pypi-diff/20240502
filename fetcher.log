@@ -11729,3 +11729,24 @@
 [2024-05-02 09:30:39] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
 [2024-05-02 09:30:39] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
 [2024-05-02 09:30:39] INFO root fetch - main [MainThread]: Store serial: [23027438]
+[2024-05-02 09:32:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027438]
+[2024-05-02 09:32:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 09:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cesnet-models
+[2024-05-02 09:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openkongqi
+[2024-05-02 09:32:49] INFO root fetch - processPackages [cesnet-models]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 09:32:49] INFO root fetch - processPackages [openkongqi]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-02 09:32:49] INFO root fetch - processPackages [cesnet-models]: Downloading https://files.pythonhosted.org/packages/a7/fa/d399a9a38b80cce3d7c010978349b1e151d8ff1d39ed2ef63b9e969f1be8/cesnet-models-0.1.1.tar.gz
+[2024-05-02 09:32:49] INFO root fetch - processPackages [openkongqi]: Downloading https://files.pythonhosted.org/packages/da/74/277b08115e8a5800b474be514c1da1c2a8e148869117db9774851e01c5ab/openkongqi-0.2.8.tar.gz
+[2024-05-02 09:32:49] INFO root fetch - processPackages [cesnet-models]: Downloading https://files.pythonhosted.org/packages/a2/23/352c0dfb056d1d6811718fc6af9c88f81a09b25530b9fa493c12d13dcb15/cesnet_models-0.1.2.tar.gz
+[2024-05-02 09:32:49] INFO root fetch - processPackages [cesnet-models]: executing diffoscope
+[2024-05-02 09:32:49] INFO root fetch - processPackages [cesnet-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cesnet-models-0.1.1.tar.gz tmp/cesnet_models-0.1.2.tar.gz --markdown 20240502/c/cesnet-models/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 09:32:49] INFO root fetch - processPackages [openkongqi]: Downloading https://files.pythonhosted.org/packages/1f/3a/32156a50e6aadcb0d7e6c509d964a3c5b7fbf012bad25255696b44474bed/openkongqi-0.2.9.tar.gz
+[2024-05-02 09:32:50] INFO root fetch - processPackages [openkongqi]: executing diffoscope
+[2024-05-02 09:32:50] INFO root fetch - processPackages [openkongqi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openkongqi-0.2.8.tar.gz tmp/openkongqi-0.2.9.tar.gz --markdown 20240502/o/openkongqi/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-02 09:32:50] INFO root fetch - processPackages [cesnet-models]: Remove: archive file [/home/abi/fetcher/tmp/cesnet-models-0.1.1.tar.gz]
+[2024-05-02 09:32:50] INFO root fetch - processPackages [cesnet-models]: Remove: archive file [/home/abi/fetcher/tmp/cesnet_models-0.1.2.tar.gz]
+[2024-05-02 09:32:50] INFO root fetch - main [MainThread]: End processing [cesnet-models]: success
+[2024-05-02 09:32:50] INFO root fetch - processPackages [openkongqi]: Remove: archive file [/home/abi/fetcher/tmp/openkongqi-0.2.8.tar.gz]
+[2024-05-02 09:32:50] INFO root fetch - processPackages [openkongqi]: Remove: archive file [/home/abi/fetcher/tmp/openkongqi-0.2.9.tar.gz]
+[2024-05-02 09:32:50] INFO root fetch - main [MainThread]: End processing [openkongqi]: success
+[2024-05-02 09:32:50] INFO root fetch - main [MainThread]: Store serial: [23027444]
