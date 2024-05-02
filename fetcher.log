@@ -21597,3 +21597,60 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:17:34] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
 [2024-05-02 15:17:35] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
 [2024-05-02 15:17:35] INFO root fetch - main [MainThread]: Store serial: [23031445]
+[2024-05-02 15:19:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031445]
+[2024-05-02 15:19:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 15:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vanna
+[2024-05-02 15:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MobileInventoryCLI
+[2024-05-02 15:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywa
+[2024-05-02 15:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-project-tracker
+[2024-05-02 15:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: authentik-client
+[2024-05-02 15:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-run-api
+[2024-05-02 15:19:44] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.80] Old Version: [0.4.79]
+[2024-05-02 15:19:44] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev6] Old Version: [0.0.3.dev5]
+[2024-05-02 15:19:44] INFO root fetch - processPackages [vanna]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-02 15:19:44] INFO root fetch - processPackages [authentik-client]: New version: [2024.4.1.post1714655941] Old Version: [2024.4.1.post1714149882]
+[2024-05-02 15:19:44] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/32/b5/52cf84e234929e1648aec40a0fa60cd4e902d6f81488557c0fe8e4021540/MobileInventoryCLI-0.4.79.tar.gz
+[2024-05-02 15:19:44] INFO root fetch - processPackages [dbt-run-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-02 15:19:44] INFO root fetch - processPackages [pywa]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-02 15:19:44] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/a7/46/9c1cac6bc2bbcde98e6b7fd6a7dcfdca7b9ecef91696d74bfb0fd7576397/ml_project_tracker-0.0.3.dev5.tar.gz
+[2024-05-02 15:19:44] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/24/43/7d8000f5decda3b061cfea148e2e8014f77634c29ae2f227cb60923cffc5/vanna-0.5.0.tar.gz
+[2024-05-02 15:19:44] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/21/d5/82b05ef1fc76827e074a55d0196b129fdfdd86b59778cfc8cef9dcfe5dc0/pywa-1.8.0.tar.gz
+[2024-05-02 15:19:45] INFO root fetch - processPackages [dbt-run-api]: Downloading https://files.pythonhosted.org/packages/05/e3/03a8da6566d7a9fe66983fce6a1ee243693d23927bfa9a3d2ea855b08a4e/dbt_run_api-0.0.3.tar.gz
+[2024-05-02 15:19:45] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/16/e8/6365ea030211fda11d479c66b20173e1ea870e975bc2ee05526d6bbbbecb/authentik_client-2024.4.1.post1714149882.tar.gz
+[2024-05-02 15:19:45] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/09/18/7f8010edfce08c640f8d6f68447b55beb192ff770e36e3b81c4b08e5374a/ml_project_tracker-0.0.3.dev6.tar.gz
+[2024-05-02 15:19:45] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/cf/d9/55e183d7b5c74e21cc4a9ef2a122d332d74372f8c6d4fe42139bffd60a8e/MobileInventoryCLI-0.4.80.tar.gz
+[2024-05-02 15:19:45] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-02 15:19:45] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.dev5.tar.gz tmp/ml_project_tracker-0.0.3.dev6.tar.gz --markdown 20240502/m/ml-project-tracker/0.0.3.dev5-0.0.3.dev6/README.md --exclude *.pyd
+[2024-05-02 15:19:45] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/88/9d/79d8ee9951a4bb46db74ca6fb58fa88da2304eaac5df8cd4cf6ca4a8c5f9/vanna-0.5.1.tar.gz
+[2024-05-02 15:19:45] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-02 15:19:45] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.79.tar.gz tmp/MobileInventoryCLI-0.4.80.tar.gz --markdown 20240502/M/MobileInventoryCLI/0.4.79-0.4.80/README.md --exclude *.pyd
+[2024-05-02 15:19:45] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/e6/e6/4ed5a576d70ef5d33bde9873d10999ce1d852a7682fb8a3ea7b7911ebcb1/pywa-1.9.0.tar.gz
+[2024-05-02 15:19:45] INFO root fetch - processPackages [dbt-run-api]: Downloading https://files.pythonhosted.org/packages/4b/3c/caf416cc9c13283a947208752f1f6f460b6962b45acabe7beb83da175654/dbt_run_api-0.0.4.tar.gz
+[2024-05-02 15:19:45] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/aa/92/b49181c2671e21c06f73c5c5706ac55a0224591de1245dae4bf88a3346d8/authentik_client-2024.4.1.post1714655941.tar.gz
+[2024-05-02 15:19:45] INFO root fetch - processPackages [vanna]: executing diffoscope
+[2024-05-02 15:19:45] INFO root fetch - processPackages [vanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanna-0.5.0.tar.gz tmp/vanna-0.5.1.tar.gz --markdown 20240502/v/vanna/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-02 15:19:45] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2024-05-02 15:19:45] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-1.8.0.tar.gz tmp/pywa-1.9.0.tar.gz --markdown 20240502/p/pywa/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-02 15:19:45] INFO root fetch - processPackages [dbt-run-api]: executing diffoscope
+[2024-05-02 15:19:45] INFO root fetch - processPackages [dbt-run-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_run_api-0.0.3.tar.gz tmp/dbt_run_api-0.0.4.tar.gz --markdown 20240502/d/dbt-run-api/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-02 15:19:45] INFO root fetch - processPackages [authentik-client]: executing diffoscope
+[2024-05-02 15:19:45] INFO root fetch - processPackages [authentik-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authentik_client-2024.4.1.post1714149882.tar.gz tmp/authentik_client-2024.4.1.post1714655941.tar.gz --markdown 20240502/a/authentik-client/2024.4.1.post1714149882-2024.4.1.post1714655941/README.md --exclude *.pyd
+[2024-05-02 15:19:45] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev5.tar.gz]
+[2024-05-02 15:19:45] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev6.tar.gz]
+[2024-05-02 15:19:45] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-02 15:19:46] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.79.tar.gz]
+[2024-05-02 15:19:46] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.80.tar.gz]
+[2024-05-02 15:19:46] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-02 15:19:46] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.5.0.tar.gz]
+[2024-05-02 15:19:46] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.5.1.tar.gz]
+[2024-05-02 15:19:46] INFO root fetch - main [MainThread]: End processing [vanna]: success
+[2024-05-02 15:19:46] INFO root fetch - processPackages [dbt-run-api]: Remove: archive file [/home/abi/fetcher/tmp/dbt_run_api-0.0.3.tar.gz]
+[2024-05-02 15:19:46] INFO root fetch - processPackages [dbt-run-api]: Remove: archive file [/home/abi/fetcher/tmp/dbt_run_api-0.0.4.tar.gz]
+[2024-05-02 15:19:46] INFO root fetch - main [MainThread]: End processing [dbt-run-api]: success
+[2024-05-02 15:19:46] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-1.8.0.tar.gz]
+[2024-05-02 15:19:46] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-1.9.0.tar.gz]
+[2024-05-02 15:19:46] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2024-05-02 15:19:48] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.4.1.post1714149882.tar.gz]
+[2024-05-02 15:19:48] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.4.1.post1714655941.tar.gz]
+[2024-05-02 15:19:48] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
+[2024-05-02 15:19:48] INFO root fetch - main [MainThread]: Store serial: [23031466]
