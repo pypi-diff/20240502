@@ -15334,3 +15334,63 @@
 [2024-05-02 11:44:45] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.5.0.tar.gz]
 [2024-05-02 11:44:45] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-02 11:44:45] INFO root fetch - main [MainThread]: Store serial: [23028972]
+[2024-05-02 11:46:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028972]
+[2024-05-02 11:46:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 11:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ms-auth-hxz
+[2024-05-02 11:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ls-cred-storage
+[2024-05-02 11:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pppfy
+[2024-05-02 11:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-horizon-sdk
+[2024-05-02 11:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cim-11-CERTIC
+[2024-05-02 11:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bent
+[2024-05-02 11:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inoopa_utils
+[2024-05-02 11:46:54] INFO root fetch - processPackages [ls-cred-storage]: New version: [0.1.12] Old Version: [0.1.1]
+[2024-05-02 11:46:54] INFO root fetch - processPackages [cim-11-CERTIC]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-02 11:46:54] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-02 11:46:54] WARNING root fetch - processPackages [ms-auth-hxz]: Skipping, unable to determine old version
+[2024-05-02 11:46:54] INFO root fetch - main [MainThread]: End processing [ms-auth-hxz] error
+[2024-05-02 11:46:54] INFO root fetch - processPackages [cim-11-CERTIC]: Downloading https://files.pythonhosted.org/packages/06/84/e148775a30386ba7f1f419dd33547c810d3af02c378ce1050cd9155e8d4c/cim_11_certic-0.6.1.tar.gz
+[2024-05-02 11:46:54] INFO root fetch - processPackages [ls-cred-storage]: Downloading https://files.pythonhosted.org/packages/94/d7/2c8df68d2515fd922f3fb6a5c2b9879806590aa7f5b93f9abab06ed98cde/ls_cred_storage-0.1.1.tar.gz
+[2024-05-02 11:46:54] INFO root fetch - processPackages [pppfy]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-02 11:46:54] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-02 11:46:54] INFO root fetch - processPackages [bent]: New version: [0.0.9] Old Version: [0.0.55]
+[2024-05-02 11:46:54] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/67/4d/e1a8441c0793c287231aa24b799798d11cf616a132506eff04205a00f779/finbourne_horizon_sdk-2.1.8.tar.gz
+[2024-05-02 11:46:54] INFO root fetch - processPackages [pppfy]: Downloading https://files.pythonhosted.org/packages/17/77/1a843b9fe2d71f0e14d7990f33f8e5277d4badbfcd1e2774528e9457209a/pppfy-1.0.1.tar.gz
+[2024-05-02 11:46:54] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/1f/cf/0b2286a189c66d1281c373c886b52017add3dd4eecf4072cdcdeb3f80bf5/bent-0.0.55.tar.gz
+[2024-05-02 11:46:54] INFO root fetch - processPackages [ls-cred-storage]: Downloading https://files.pythonhosted.org/packages/c8/b1/599eb1287e2df697d293051dae179176bc70d35811413233ba6d7ea0e712/ls_cred_storage-0.1.12.tar.gz
+[2024-05-02 11:46:54] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-02 11:46:54] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/df/fa/2361b9179baf6e0ef8aa5667c5bf5ef7c28a98660f52bb7a7c8671f43c8e/finbourne_horizon_sdk-2.1.9.tar.gz
+[2024-05-02 11:46:54] INFO root fetch - processPackages [ls-cred-storage]: executing diffoscope
+[2024-05-02 11:46:54] INFO root fetch - processPackages [ls-cred-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ls_cred_storage-0.1.1.tar.gz tmp/ls_cred_storage-0.1.12.tar.gz --markdown 20240502/l/ls-cred-storage/0.1.1-0.1.12/README.md --exclude *.pyd
+[2024-05-02 11:46:54] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-05-02 11:46:54] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.8.tar.gz tmp/finbourne_horizon_sdk-2.1.9.tar.gz --markdown 20240502/f/finbourne-horizon-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-02 11:46:54] INFO root fetch - processPackages [cim-11-CERTIC]: Downloading https://files.pythonhosted.org/packages/5b/8f/1a4129e22c4823de56e02f280b9e2a5903966388e7a1516b4e54efb9aff3/cim_11_certic-0.6.2.tar.gz
+[2024-05-02 11:46:54] INFO root fetch - processPackages [pppfy]: Downloading https://files.pythonhosted.org/packages/ff/42/fba4a88d4c12f46e5a5a8cef0da26266d0869c6c32e44f97e54f575dc753/pppfy-1.1.0.tar.gz
+[2024-05-02 11:46:54] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/90/0b/e90bc1c1cde3dc26fe2b1f4a0648bdbf77fa5cd447091e4accd93b6ce8bb/bent-0.0.9.tar.gz
+[2024-05-02 11:46:54] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-02 11:46:54] INFO root fetch - processPackages [pppfy]: executing diffoscope
+[2024-05-02 11:46:54] INFO root fetch - processPackages [pppfy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pppfy-1.0.1.tar.gz tmp/pppfy-1.1.0.tar.gz --markdown 20240502/p/pppfy/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-02 11:46:54] INFO root fetch - processPackages [bent]: executing diffoscope
+[2024-05-02 11:46:54] INFO root fetch - processPackages [bent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bent-0.0.55.tar.gz tmp/bent-0.0.9.tar.gz --markdown 20240502/b/bent/0.0.55-0.0.9/README.md --exclude *.pyd
+[2024-05-02 11:46:54] INFO root fetch - processPackages [cim-11-CERTIC]: executing diffoscope
+[2024-05-02 11:46:54] INFO root fetch - processPackages [cim-11-CERTIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cim_11_certic-0.6.1.tar.gz tmp/cim_11_certic-0.6.2.tar.gz --markdown 20240502/c/cim-11-CERTIC/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-02 11:46:54] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-02 11:46:54] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240502/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-02 11:46:55] INFO root fetch - processPackages [ls-cred-storage]: Remove: archive file [/home/abi/fetcher/tmp/ls_cred_storage-0.1.1.tar.gz]
+[2024-05-02 11:46:55] INFO root fetch - processPackages [ls-cred-storage]: Remove: archive file [/home/abi/fetcher/tmp/ls_cred_storage-0.1.12.tar.gz]
+[2024-05-02 11:46:55] INFO root fetch - main [MainThread]: End processing [ls-cred-storage]: success
+[2024-05-02 11:46:55] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.8.tar.gz]
+[2024-05-02 11:46:55] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.9.tar.gz]
+[2024-05-02 11:46:55] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-05-02 11:46:55] INFO root fetch - processPackages [pppfy]: Remove: archive file [/home/abi/fetcher/tmp/pppfy-1.0.1.tar.gz]
+[2024-05-02 11:46:55] INFO root fetch - processPackages [pppfy]: Remove: archive file [/home/abi/fetcher/tmp/pppfy-1.1.0.tar.gz]
+[2024-05-02 11:46:55] INFO root fetch - main [MainThread]: End processing [pppfy]: success
+[2024-05-02 11:46:55] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-02 11:46:55] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-02 11:46:55] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-02 11:46:56] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.55.tar.gz]
+[2024-05-02 11:46:56] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.9.tar.gz]
+[2024-05-02 11:46:56] INFO root fetch - main [MainThread]: End processing [bent]: success
+[2024-05-02 11:46:56] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.6.1.tar.gz]
+[2024-05-02 11:46:56] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.6.2.tar.gz]
+[2024-05-02 11:46:56] INFO root fetch - main [MainThread]: End processing [cim-11-CERTIC]: success
+[2024-05-02 11:46:56] INFO root fetch - main [MainThread]: Store serial: [23028995]
