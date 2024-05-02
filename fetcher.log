@@ -22918,3 +22918,87 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 16:00:52] INFO root fetch - processPackages [camel-kenlm]: Remove: archive file [/home/abi/fetcher/tmp/camel-kenlm-2024.1.30.tar.gz]
 [2024-05-02 16:00:52] INFO root fetch - main [MainThread]: End processing [camel-kenlm]: success
 [2024-05-02 16:00:52] INFO root fetch - main [MainThread]: Store serial: [23031949]
+[2024-05-02 16:02:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031949]
+[2024-05-02 16:03:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 16:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mptradelib
+[2024-05-02 16:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snorer
+[2024-05-02 16:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fixinventorydata
+[2024-05-02 16:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: epimodel-sensitivity-test
+[2024-05-02 16:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aos-signer
+[2024-05-02 16:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: doors
+[2024-05-02 16:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: insideopt-gains
+[2024-05-02 16:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sebaubuntu_libs
+[2024-05-02 16:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trame-vtk
+[2024-05-02 16:03:02] INFO root fetch - processPackages [epimodel-sensitivity-test]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-02 16:03:02] INFO root fetch - processPackages [mptradelib]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-02 16:03:02] INFO root fetch - processPackages [snorer]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-02 16:03:02] INFO root fetch - processPackages [insideopt-gains]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-02 16:03:02] INFO root fetch - processPackages [doors]: New version: [0.1.0] Old Version: [0.0.8]
+[2024-05-02 16:03:02] INFO root fetch - processPackages [fixinventorydata]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-02 16:03:02] INFO root fetch - processPackages [epimodel-sensitivity-test]: Downloading https://files.pythonhosted.org/packages/6f/e8/cbfc01505a00ce8859c45a8240992eff1160e53e9ad26f7fa486c64bca51/epimodel_sensitivity_test-0.1.7.tar.gz
+[2024-05-02 16:03:02] INFO root fetch - processPackages [aos-signer]: New version: [1.8.2b7] Old Version: [1.8.2b6]
+[2024-05-02 16:03:02] INFO root fetch - processPackages [sebaubuntu_libs]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-02 16:03:02] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/1c/ff/e808d283a484b91c316d2d53b4a3ec4ade213edc76f651cad3c8cbb40814/mptradelib-0.2.1.tar.gz
+[2024-05-02 16:03:02] INFO root fetch - processPackages [trame-vtk]: New version: [2.8.7] Old Version: [2.8.6]
+[2024-05-02 16:03:02] INFO root fetch - processPackages [snorer]: Downloading https://files.pythonhosted.org/packages/c8/df/47f2f51394d3010670b5bda4c18bb4725597d172af67dd82964a849e6431/snorer-1.0.0.tar.gz
+[2024-05-02 16:03:02] INFO root fetch - processPackages [doors]: Downloading https://files.pythonhosted.org/packages/ad/ac/ab688d98d88a93b0a5da398e86ca096abb84213ec11a8bd588bc0aab15fd/doors-0.0.8.tar.gz
+[2024-05-02 16:03:02] INFO root fetch - processPackages [fixinventorydata]: Downloading https://files.pythonhosted.org/packages/ac/82/6e22ed4ef8c43281ed40d0e981566cc85d0129f4c244eccf16d1064e00b4/fixinventorydata-0.2.5.tar.gz
+[2024-05-02 16:03:02] INFO root fetch - processPackages [aos-signer]: Downloading https://files.pythonhosted.org/packages/fd/b4/6dc9d24139ec702fe7032adb7fd7b204e72835ce45eefb9f63579e76eb64/aos_signer-1.8.2b6-py3-none-any.whl
+[2024-05-02 16:03:02] INFO root fetch - processPackages [insideopt-gains]: Downloading https://files.pythonhosted.org/packages/22/d4/4a2d26a5283dbbcd2e01cfae4e64babcfda25e6fedc903e96e4f5cbf97d3/insideopt-gains-0.0.1.tar.gz
+[2024-05-02 16:03:02] INFO root fetch - processPackages [sebaubuntu_libs]: Downloading https://files.pythonhosted.org/packages/82/72/1f70d850d3cb136a6c14c105e2f63eae020b30c6a4adc86c0f84b8ea243e/sebaubuntu_libs-1.4.2.tar.gz
+[2024-05-02 16:03:02] INFO root fetch - processPackages [epimodel-sensitivity-test]: Downloading https://files.pythonhosted.org/packages/8e/7f/0d0d25c57a332c235ca8795a2d7c90b66a2fb95df691edb26f3e2ea592a4/epimodel_sensitivity_test-0.1.8.tar.gz
+[2024-05-02 16:03:02] INFO root fetch - processPackages [trame-vtk]: Downloading https://files.pythonhosted.org/packages/2a/1d/a52cac06f468d3d0351c5aeac1577311c11b780351c3a3323be6acfd986f/trame-vtk-2.8.6.tar.gz
+[2024-05-02 16:03:02] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/1e/52/cb996f044abd8b3848bcaff3cf45e2342bfc828cc98546649b77a8fc95e6/mptradelib-0.3.0.tar.gz
+[2024-05-02 16:03:02] INFO root fetch - processPackages [epimodel-sensitivity-test]: executing diffoscope
+[2024-05-02 16:03:02] INFO root fetch - processPackages [epimodel-sensitivity-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epimodel_sensitivity_test-0.1.7.tar.gz tmp/epimodel_sensitivity_test-0.1.8.tar.gz --markdown 20240502/e/epimodel-sensitivity-test/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-02 16:03:02] INFO root fetch - processPackages [mptradelib]: executing diffoscope
+[2024-05-02 16:03:02] INFO root fetch - processPackages [mptradelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mptradelib-0.2.1.tar.gz tmp/mptradelib-0.3.0.tar.gz --markdown 20240502/m/mptradelib/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-02 16:03:02] INFO root fetch - processPackages [snorer]: Downloading https://files.pythonhosted.org/packages/9b/1c/871818f75b1d663b4d910e2d10da192a576fde0b64ca2f1da2a23afe30d7/snorer-1.0.1.tar.gz
+[2024-05-02 16:03:02] INFO root fetch - processPackages [aos-signer]: Downloading https://files.pythonhosted.org/packages/0d/3d/6a066a4c1171f696642484a67ead543f49e95db564fd8eeeeecbb4d700e8/aos_signer-1.8.2b7-py3-none-any.whl
+[2024-05-02 16:03:02] INFO root fetch - processPackages [sebaubuntu_libs]: Downloading https://files.pythonhosted.org/packages/56/eb/c0a60b786ef8db9435cd6afd5eca4316f40aa07a5541ed80da95dfbd52ab/sebaubuntu_libs-1.4.3.tar.gz
+[2024-05-02 16:03:02] INFO root fetch - processPackages [doors]: Downloading https://files.pythonhosted.org/packages/c1/23/af55df6f193c925438f5c24f78c9e67cbee164a9b7291afc8539ad95dac0/doors-0.1.0.tar.gz
+[2024-05-02 16:03:03] INFO root fetch - processPackages [snorer]: executing diffoscope
+[2024-05-02 16:03:03] INFO root fetch - processPackages [snorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snorer-1.0.0.tar.gz tmp/snorer-1.0.1.tar.gz --markdown 20240502/s/snorer/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-02 16:03:03] INFO root fetch - processPackages [aos-signer]: executing diffoscope
+[2024-05-02 16:03:03] INFO root fetch - processPackages [aos-signer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aos_signer-1.8.2b6-py3-none-any.whl.zip tmp/aos_signer-1.8.2b7-py3-none-any.whl.zip --markdown 20240502/a/aos-signer/1.8.2b6-1.8.2b7/README.md --exclude *.pyd
+[2024-05-02 16:03:03] INFO root fetch - processPackages [doors]: executing diffoscope
+[2024-05-02 16:03:03] INFO root fetch - processPackages [doors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doors-0.0.8.tar.gz tmp/doors-0.1.0.tar.gz --markdown 20240502/d/doors/0.0.8-0.1.0/README.md --exclude *.pyd
+[2024-05-02 16:03:03] INFO root fetch - processPackages [trame-vtk]: Downloading https://files.pythonhosted.org/packages/f8/5d/e2c8f2af2fbd8b1fae3c896d6ad90767054a3bcaebb2ec75b9228ae25284/trame-vtk-2.8.7.tar.gz
+[2024-05-02 16:03:03] INFO root fetch - processPackages [sebaubuntu_libs]: executing diffoscope
+[2024-05-02 16:03:03] INFO root fetch - processPackages [sebaubuntu_libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sebaubuntu_libs-1.4.2.tar.gz tmp/sebaubuntu_libs-1.4.3.tar.gz --markdown 20240502/s/sebaubuntu_libs/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-02 16:03:03] INFO root fetch - processPackages [insideopt-gains]: Downloading https://files.pythonhosted.org/packages/26/2b/cc0d32fe49f31e68c05abc4bfd765ca3735a28116d751aa54bd03c1b3bd0/insideopt-gains-0.0.2.tar.gz
+[2024-05-02 16:03:03] INFO root fetch - processPackages [fixinventorydata]: Downloading https://files.pythonhosted.org/packages/96/aa/96dbf1d267b882ab9571166401de42e2b106c0ca79538cffe05223e72e12/fixinventorydata-0.2.6.tar.gz
+[2024-05-02 16:03:03] INFO root fetch - processPackages [fixinventorydata]: executing diffoscope
+[2024-05-02 16:03:03] INFO root fetch - processPackages [fixinventorydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventorydata-0.2.5.tar.gz tmp/fixinventorydata-0.2.6.tar.gz --markdown 20240502/f/fixinventorydata/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-02 16:03:03] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.2.1.tar.gz]
+[2024-05-02 16:03:03] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.3.0.tar.gz]
+[2024-05-02 16:03:03] INFO root fetch - main [MainThread]: End processing [mptradelib]: success
+[2024-05-02 16:03:03] INFO root fetch - processPackages [epimodel-sensitivity-test]: Remove: archive file [/home/abi/fetcher/tmp/epimodel_sensitivity_test-0.1.7.tar.gz]
+[2024-05-02 16:03:03] INFO root fetch - processPackages [epimodel-sensitivity-test]: Remove: archive file [/home/abi/fetcher/tmp/epimodel_sensitivity_test-0.1.8.tar.gz]
+[2024-05-02 16:03:03] INFO root fetch - main [MainThread]: End processing [epimodel-sensitivity-test]: success
+[2024-05-02 16:03:04] INFO root fetch - processPackages [doors]: Remove: archive file [/home/abi/fetcher/tmp/doors-0.0.8.tar.gz]
+[2024-05-02 16:03:04] INFO root fetch - processPackages [doors]: Remove: archive file [/home/abi/fetcher/tmp/doors-0.1.0.tar.gz]
+[2024-05-02 16:03:04] INFO root fetch - main [MainThread]: End processing [doors]: success
+[2024-05-02 16:03:04] INFO root fetch - processPackages [insideopt-gains]: executing diffoscope
+[2024-05-02 16:03:04] INFO root fetch - processPackages [insideopt-gains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insideopt-gains-0.0.1.tar.gz tmp/insideopt-gains-0.0.2.tar.gz --markdown 20240502/i/insideopt-gains/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-02 16:03:04] INFO root fetch - processPackages [snorer]: Remove: archive file [/home/abi/fetcher/tmp/snorer-1.0.0.tar.gz]
+[2024-05-02 16:03:04] INFO root fetch - processPackages [snorer]: Remove: archive file [/home/abi/fetcher/tmp/snorer-1.0.1.tar.gz]
+[2024-05-02 16:03:04] INFO root fetch - main [MainThread]: End processing [snorer]: success
+[2024-05-02 16:03:04] INFO root fetch - processPackages [aos-signer]: Remove: archive file [/home/abi/fetcher/tmp/aos_signer-1.8.2b6-py3-none-any.whl.zip]
+[2024-05-02 16:03:04] INFO root fetch - processPackages [aos-signer]: Remove: archive file [/home/abi/fetcher/tmp/aos_signer-1.8.2b7-py3-none-any.whl.zip]
+[2024-05-02 16:03:04] INFO root fetch - processPackages [trame-vtk]: executing diffoscope
+[2024-05-02 16:03:04] INFO root fetch - processPackages [trame-vtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-vtk-2.8.6.tar.gz tmp/trame-vtk-2.8.7.tar.gz --markdown 20240502/t/trame-vtk/2.8.6-2.8.7/README.md --exclude *.pyd
+[2024-05-02 16:03:04] INFO root fetch - main [MainThread]: End processing [aos-signer]: success
+[2024-05-02 16:03:04] INFO root fetch - processPackages [sebaubuntu_libs]: Remove: archive file [/home/abi/fetcher/tmp/sebaubuntu_libs-1.4.2.tar.gz]
+[2024-05-02 16:03:04] INFO root fetch - processPackages [sebaubuntu_libs]: Remove: archive file [/home/abi/fetcher/tmp/sebaubuntu_libs-1.4.3.tar.gz]
+[2024-05-02 16:03:04] INFO root fetch - main [MainThread]: End processing [sebaubuntu_libs]: success
+[2024-05-02 16:03:05] INFO root fetch - processPackages [trame-vtk]: Remove: archive file [/home/abi/fetcher/tmp/trame-vtk-2.8.6.tar.gz]
+[2024-05-02 16:03:05] INFO root fetch - processPackages [trame-vtk]: Remove: archive file [/home/abi/fetcher/tmp/trame-vtk-2.8.7.tar.gz]
+[2024-05-02 16:03:05] INFO root fetch - main [MainThread]: End processing [trame-vtk]: success
+[2024-05-02 16:03:16] INFO root fetch - processPackages [fixinventorydata]: Remove: archive file [/home/abi/fetcher/tmp/fixinventorydata-0.2.5.tar.gz]
+[2024-05-02 16:03:16] INFO root fetch - processPackages [fixinventorydata]: Remove: archive file [/home/abi/fetcher/tmp/fixinventorydata-0.2.6.tar.gz]
+[2024-05-02 16:03:16] INFO root fetch - main [MainThread]: End processing [fixinventorydata]: success
+[2024-05-02 16:03:36] INFO root fetch - processPackages [insideopt-gains]: Remove: archive file [/home/abi/fetcher/tmp/insideopt-gains-0.0.1.tar.gz]
+[2024-05-02 16:03:36] INFO root fetch - processPackages [insideopt-gains]: Remove: archive file [/home/abi/fetcher/tmp/insideopt-gains-0.0.2.tar.gz]
+[2024-05-02 16:03:36] INFO root fetch - main [MainThread]: End processing [insideopt-gains]: success
+[2024-05-02 16:03:36] INFO root fetch - main [MainThread]: Store serial: [23031973]
