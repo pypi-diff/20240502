@@ -11616,3 +11616,54 @@
 [2024-05-02 09:26:17] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.4.9.tar.gz]
 [2024-05-02 09:26:17] INFO root fetch - main [MainThread]: End processing [sage-lib]: success
 [2024-05-02 09:26:17] INFO root fetch - main [MainThread]: Store serial: [23027401]
+[2024-05-02 09:28:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027401]
+[2024-05-02 09:28:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sage-lib
+[2024-05-02 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinboard
+[2024-05-02 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkscreener
+[2024-05-02 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepface
+[2024-05-02 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eyes17
+[2024-05-02 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypybuildcode
+[2024-05-02 09:28:26] WARNING root fetch - processPackages [mypybuildcode]: Skipping, unable to determine old version
+[2024-05-02 09:28:26] INFO root fetch - main [MainThread]: End processing [mypybuildcode] error
+[2024-05-02 09:28:26] INFO root fetch - processPackages [eyes17]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 09:28:26] INFO root fetch - processPackages [sage-lib]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2024-05-02 09:28:26] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/de/3d/3d6998b934f55a028e30c4f6e8a6ccb5bf1315d89bcd1b8caaf3d867e3c7/eyes17-1.0.8.tar.gz
+[2024-05-02 09:28:26] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/0c/1f/00eb35df49893269d3a67a24076f2fa665c50056f0ab1d92180c8fe0f343/sage_lib-0.1.4.8.tar.gz
+[2024-05-02 09:28:26] INFO root fetch - processPackages [tinboard]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 09:28:26] INFO root fetch - processPackages [deepface]: New version: [0.0.91] Old Version: [0.0.90]
+[2024-05-02 09:28:26] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240502.317] Old Version: [0.44.20240430.316]
+[2024-05-02 09:28:27] INFO root fetch - processPackages [tinboard]: Downloading https://files.pythonhosted.org/packages/a8/d1/589f9adcf510ba87ae1552f6ba5c5f36546d1b192322bc8d3af423226c30/tinboard-0.8.0-py3-none-any.whl
+[2024-05-02 09:28:27] INFO root fetch - processPackages [deepface]: Downloading https://files.pythonhosted.org/packages/92/4c/9c25ceec9796cae59b5cc3368ffbede2823c6edcb6129cb36517a08f9d72/deepface-0.0.90.tar.gz
+[2024-05-02 09:28:27] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/57/41/54b6c5ece521383d9fd07c142fd32898f391fb74bd3b3a9bfc2abc8164fd/pkscreener-0.44.20240430.316.tar.gz
+[2024-05-02 09:28:27] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/6b/c4/71e2c3544ce45f549a59c74ee3f327ede9a5b9168005bc0c577b9b309bc3/eyes17-1.0.9.tar.gz
+[2024-05-02 09:28:27] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/47/e4/6aefb4d16c81a0b7b546cadb557484d6d521dc93ce41bd491e80060443d4/sage_lib-0.1.4.9.tar.gz
+[2024-05-02 09:28:27] INFO root fetch - processPackages [eyes17]: executing diffoscope
+[2024-05-02 09:28:27] INFO root fetch - processPackages [eyes17]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes17-1.0.8.tar.gz tmp/eyes17-1.0.9.tar.gz --markdown 20240502/e/eyes17/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 09:28:27] INFO root fetch - processPackages [sage-lib]: executing diffoscope
+[2024-05-02 09:28:27] INFO root fetch - processPackages [sage-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage_lib-0.1.4.8.tar.gz tmp/sage_lib-0.1.4.9.tar.gz --markdown 20240502/s/sage-lib/0.1.4.8-0.1.4.9/README.md --exclude *.pyd
+[2024-05-02 09:28:27] INFO root fetch - processPackages [tinboard]: Downloading https://files.pythonhosted.org/packages/24/e1/180725867766e5765a2a13f2a442aba5f80382c45acd98cdfdec52e1d815/tinboard-0.9.0-py3-none-any.whl
+[2024-05-02 09:28:27] INFO root fetch - processPackages [deepface]: Downloading https://files.pythonhosted.org/packages/06/eb/886724b471df81bab9fd5c60b8d4edc439d3971495a640772c48d7509713/deepface-0.0.91.tar.gz
+[2024-05-02 09:28:27] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/0f/d9/4f2d124dbaec7bf69abe9556a24bbab5a7f3ea63fbb8224ea619edd34edf/pkscreener-0.44.20240502.317.tar.gz
+[2024-05-02 09:28:27] INFO root fetch - processPackages [tinboard]: executing diffoscope
+[2024-05-02 09:28:27] INFO root fetch - processPackages [tinboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinboard-0.8.0-py3-none-any.whl.zip tmp/tinboard-0.9.0-py3-none-any.whl.zip --markdown 20240502/t/tinboard/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 09:28:27] INFO root fetch - processPackages [deepface]: executing diffoscope
+[2024-05-02 09:28:27] INFO root fetch - processPackages [deepface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepface-0.0.90.tar.gz tmp/deepface-0.0.91.tar.gz --markdown 20240502/d/deepface/0.0.90-0.0.91/README.md --exclude *.pyd
+[2024-05-02 09:28:27] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-02 09:28:27] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240430.316.tar.gz tmp/pkscreener-0.44.20240502.317.tar.gz --markdown 20240502/p/pkscreener/0.44.20240430.316-0.44.20240502.317/README.md --exclude *.pyd
+[2024-05-02 09:28:28] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.4.8.tar.gz]
+[2024-05-02 09:28:28] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.4.9.tar.gz]
+[2024-05-02 09:28:28] INFO root fetch - main [MainThread]: End processing [sage-lib]: success
+[2024-05-02 09:28:28] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.8.tar.gz]
+[2024-05-02 09:28:28] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.9.tar.gz]
+[2024-05-02 09:28:28] INFO root fetch - main [MainThread]: End processing [eyes17]: success
+[2024-05-02 09:28:28] INFO root fetch - processPackages [deepface]: Remove: archive file [/home/abi/fetcher/tmp/deepface-0.0.90.tar.gz]
+[2024-05-02 09:28:28] INFO root fetch - processPackages [deepface]: Remove: archive file [/home/abi/fetcher/tmp/deepface-0.0.91.tar.gz]
+[2024-05-02 09:28:28] INFO root fetch - main [MainThread]: End processing [deepface]: success
+[2024-05-02 09:28:28] INFO root fetch - processPackages [tinboard]: Remove: archive file [/home/abi/fetcher/tmp/tinboard-0.8.0-py3-none-any.whl.zip]
+[2024-05-02 09:28:28] INFO root fetch - processPackages [tinboard]: Remove: archive file [/home/abi/fetcher/tmp/tinboard-0.9.0-py3-none-any.whl.zip]
+[2024-05-02 09:28:28] INFO root fetch - main [MainThread]: End processing [tinboard]: success
+[2024-05-02 09:28:28] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240430.316.tar.gz]
+[2024-05-02 09:28:28] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240502.317.tar.gz]
+[2024-05-02 09:28:28] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-02 09:28:28] INFO root fetch - main [MainThread]: Store serial: [23027419]
