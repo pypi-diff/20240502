@@ -7086,3 +7086,17 @@
 [2024-05-02 03:39:56] INFO root fetch - processPackages [exafs-neo]: Remove: archive file [/home/abi/fetcher/tmp/exafs_neo-2.0.8.tar.gz]
 [2024-05-02 03:39:56] INFO root fetch - main [MainThread]: End processing [exafs-neo]: success
 [2024-05-02 03:39:56] INFO root fetch - main [MainThread]: Store serial: [23025534]
+[2024-05-02 03:42:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025534]
+[2024-05-02 03:42:05] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-02 03:44:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025534]
+[2024-05-02 03:44:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 03:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reactivated
+[2024-05-02 03:44:11] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2024-05-02 03:44:11] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/1a/71/35446a123e19409f94888e6e11acb49110c8ff7c7a45a894cb072e06ec46/reactivated-0.9.0.tar.gz
+[2024-05-02 03:44:11] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/bc/d8/5e07e04244e84ca0f743649c1aa5514ec10843e552f82eb830dbb5e7cca7/reactivated-3.0.0a64.tar.gz
+[2024-05-02 03:44:11] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2024-05-02 03:44:11] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20240502/r/reactivated/0.9.0-3.0.0a64/README.md --exclude *.pyd
+[2024-05-02 03:44:12] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-0.9.0.tar.gz]
+[2024-05-02 03:44:12] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-3.0.0a64.tar.gz]
+[2024-05-02 03:44:12] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2024-05-02 03:44:12] INFO root fetch - main [MainThread]: Store serial: [23025537]
