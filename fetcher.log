@@ -9781,3 +9781,24 @@
 [2024-05-02 07:32:47] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.2.0.tar.gz]
 [2024-05-02 07:32:47] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
 [2024-05-02 07:32:47] INFO root fetch - main [MainThread]: Store serial: [23026694]
+[2024-05-02 07:34:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026694]
+[2024-05-02 07:34:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 07:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonecorn
+[2024-05-02 07:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qai-agent
+[2024-05-02 07:34:56] INFO root fetch - processPackages [qai-agent]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 07:34:56] INFO root fetch - processPackages [qai-agent]: Downloading https://files.pythonhosted.org/packages/ff/e5/87f45f406b69672f8702d790f6ce1bdb89670b43216fc4abd6490a7ed7f9/qai_agent-0.5.1.tar.gz
+[2024-05-02 07:34:56] INFO root fetch - processPackages [nonecorn]: New version: [0.16.0.dev4] Old Version: [0.16.0.dev3]
+[2024-05-02 07:34:56] INFO root fetch - processPackages [nonecorn]: Downloading https://files.pythonhosted.org/packages/b8/fd/d50ecd49f74d11ab54f95d732741c0d2b4476805c8bfd7abcefa362dfa96/nonecorn-0.16.0.dev3.tar.gz
+[2024-05-02 07:34:56] INFO root fetch - processPackages [qai-agent]: Downloading https://files.pythonhosted.org/packages/24/f0/f2a2882a4a06160054d48e65acf6e99d7fa215115e0d2ce8efef546db4e3/qai_agent-0.5.2.tar.gz
+[2024-05-02 07:34:56] INFO root fetch - processPackages [qai-agent]: executing diffoscope
+[2024-05-02 07:34:56] INFO root fetch - processPackages [qai-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_agent-0.5.1.tar.gz tmp/qai_agent-0.5.2.tar.gz --markdown 20240502/q/qai-agent/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 07:34:56] INFO root fetch - processPackages [nonecorn]: Downloading https://files.pythonhosted.org/packages/8d/29/082ffe7a6713f076d64bf28dcc295c7ad6cf1006e15fa8eab41beda494d8/nonecorn-0.16.0.dev4.tar.gz
+[2024-05-02 07:34:57] INFO root fetch - processPackages [nonecorn]: executing diffoscope
+[2024-05-02 07:34:57] INFO root fetch - processPackages [nonecorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonecorn-0.16.0.dev3.tar.gz tmp/nonecorn-0.16.0.dev4.tar.gz --markdown 20240502/n/nonecorn/0.16.0.dev3-0.16.0.dev4/README.md --exclude *.pyd
+[2024-05-02 07:34:57] INFO root fetch - processPackages [qai-agent]: Remove: archive file [/home/abi/fetcher/tmp/qai_agent-0.5.1.tar.gz]
+[2024-05-02 07:34:57] INFO root fetch - processPackages [qai-agent]: Remove: archive file [/home/abi/fetcher/tmp/qai_agent-0.5.2.tar.gz]
+[2024-05-02 07:34:57] INFO root fetch - main [MainThread]: End processing [qai-agent]: success
+[2024-05-02 07:34:58] INFO root fetch - processPackages [nonecorn]: Remove: archive file [/home/abi/fetcher/tmp/nonecorn-0.16.0.dev3.tar.gz]
+[2024-05-02 07:34:58] INFO root fetch - processPackages [nonecorn]: Remove: archive file [/home/abi/fetcher/tmp/nonecorn-0.16.0.dev4.tar.gz]
+[2024-05-02 07:34:58] INFO root fetch - main [MainThread]: End processing [nonecorn]: success
+[2024-05-02 07:34:58] INFO root fetch - main [MainThread]: Store serial: [23026697]
