@@ -13404,3 +13404,33 @@
 [2024-05-02 10:30:11] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.3.1.tar.gz]
 [2024-05-02 10:30:11] INFO root fetch - main [MainThread]: End processing [justai]: success
 [2024-05-02 10:30:11] INFO root fetch - main [MainThread]: Store serial: [23028137]
+[2024-05-02 10:32:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028137]
+[2024-05-02 10:32:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 10:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systemathics.apis
+[2024-05-02 10:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prediction-market-agent-tooling
+[2024-05-02 10:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPrecip
+[2024-05-02 10:32:21] INFO root fetch - processPackages [PyPrecip]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-02 10:32:21] INFO root fetch - processPackages [systemathics.apis]: New version: [2.39.0] Old Version: [2.38.4]
+[2024-05-02 10:32:21] INFO root fetch - processPackages [prediction-market-agent-tooling]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-05-02 10:32:21] INFO root fetch - processPackages [PyPrecip]: Downloading https://files.pythonhosted.org/packages/85/a4/795ab568fa157a5ec1a86ff370e3883f9283524a4cd9c9e814ed76cce298/pyprecip-0.0.3-py2.py3-none-any.whl
+[2024-05-02 10:32:21] INFO root fetch - processPackages [systemathics.apis]: Downloading https://files.pythonhosted.org/packages/33/9e/9da6fc3f5fc565dc5ac6aea3f100366c7ca8192780c45ab24c284be87f45/systemathics_apis-2.38.4.tar.gz
+[2024-05-02 10:32:22] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/40/cc/d5bea290bbf870b8c32f51179b33743c8bd2603c836bdadb915d8182e2dd/prediction_market_agent_tooling-0.9.1.tar.gz
+[2024-05-02 10:32:22] INFO root fetch - processPackages [PyPrecip]: Downloading https://files.pythonhosted.org/packages/80/ee/5a9770f7b4e72d86a9d5c30275df0c2370d55517e83c047775a4dc989be7/pyprecip-0.0.4.tar.gz
+[2024-05-02 10:32:22] INFO root fetch - processPackages [systemathics.apis]: Downloading https://files.pythonhosted.org/packages/47/05/940f3e24e0c2480a2aed1389c4b26ee40e722841188e07bcdccd55fdf3c9/systemathics_apis-2.39.0.tar.gz
+[2024-05-02 10:32:22] INFO root fetch - processPackages [PyPrecip]: executing diffoscope
+[2024-05-02 10:32:22] INFO root fetch - processPackages [PyPrecip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprecip-0.0.3-py2.py3-none-any.whl.zip tmp/pyprecip-0.0.4.tar.gz --markdown 20240502/P/PyPrecip/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-02 10:32:22] INFO root fetch - processPackages [systemathics.apis]: executing diffoscope
+[2024-05-02 10:32:22] INFO root fetch - processPackages [systemathics.apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemathics_apis-2.38.4.tar.gz tmp/systemathics_apis-2.39.0.tar.gz --markdown 20240502/s/systemathics.apis/2.38.4-2.39.0/README.md --exclude *.pyd
+[2024-05-02 10:32:22] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/2c/17/6b9526b52dfcdaf571b3cd941b0a0b14db378f0c8b89a1c361109cb73c26/prediction_market_agent_tooling-0.9.3.tar.gz
+[2024-05-02 10:32:22] INFO root fetch - processPackages [prediction-market-agent-tooling]: executing diffoscope
+[2024-05-02 10:32:22] INFO root fetch - processPackages [prediction-market-agent-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prediction_market_agent_tooling-0.9.1.tar.gz tmp/prediction_market_agent_tooling-0.9.3.tar.gz --markdown 20240502/p/prediction-market-agent-tooling/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-05-02 10:32:22] INFO root fetch - processPackages [PyPrecip]: Remove: archive file [/home/abi/fetcher/tmp/pyprecip-0.0.3-py2.py3-none-any.whl.zip]
+[2024-05-02 10:32:22] INFO root fetch - processPackages [PyPrecip]: Remove: archive file [/home/abi/fetcher/tmp/pyprecip-0.0.4.tar.gz]
+[2024-05-02 10:32:22] INFO root fetch - main [MainThread]: End processing [PyPrecip]: success
+[2024-05-02 10:32:23] INFO root fetch - processPackages [systemathics.apis]: Remove: archive file [/home/abi/fetcher/tmp/systemathics_apis-2.38.4.tar.gz]
+[2024-05-02 10:32:23] INFO root fetch - processPackages [systemathics.apis]: Remove: archive file [/home/abi/fetcher/tmp/systemathics_apis-2.39.0.tar.gz]
+[2024-05-02 10:32:23] INFO root fetch - main [MainThread]: End processing [systemathics.apis]: success
+[2024-05-02 10:32:23] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.1.tar.gz]
+[2024-05-02 10:32:23] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.3.tar.gz]
+[2024-05-02 10:32:23] INFO root fetch - main [MainThread]: End processing [prediction-market-agent-tooling]: success
+[2024-05-02 10:32:23] INFO root fetch - main [MainThread]: Store serial: [23028145]
