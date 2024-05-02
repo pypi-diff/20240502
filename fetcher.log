@@ -14007,3 +14007,48 @@
 [2024-05-02 10:52:37] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.9.tar.gz]
 [2024-05-02 10:52:37] INFO root fetch - main [MainThread]: End processing [probe-design]: success
 [2024-05-02 10:52:37] INFO root fetch - main [MainThread]: Store serial: [23028370]
+[2024-05-02 10:54:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028370]
+[2024-05-02 10:54:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 10:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymdownx-logic-superfence
+[2024-05-02 10:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RPICommLink
+[2024-05-02 10:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-define
+[2024-05-02 10:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2024-05-02 10:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: a7a1234
+[2024-05-02 10:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vunnel
+[2024-05-02 10:54:46] WARNING root fetch - processPackages [pymdownx-logic-superfence]: Skipping, unable to determine old version
+[2024-05-02 10:54:46] INFO root fetch - main [MainThread]: End processing [pymdownx-logic-superfence] error
+[2024-05-02 10:54:46] INFO root fetch - processPackages [RPICommLink]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-02 10:54:46] INFO root fetch - processPackages [vunnel]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-02 10:54:46] INFO root fetch - processPackages [python-define]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-02 10:54:47] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240502085340] Old Version: [3.4.1.dev20240501070922]
+[2024-05-02 10:54:47] WARNING root fetch - processPackages [a7a1234]: Skipping, unable to determine old version
+[2024-05-02 10:54:47] INFO root fetch - main [MainThread]: End processing [a7a1234] error
+[2024-05-02 10:54:47] INFO root fetch - processPackages [RPICommLink]: Downloading https://files.pythonhosted.org/packages/47/2e/1866d1b715d3a05ab2c9e25c145a41cbf2f9b1db5c4165d3813ab7483304/RPICommLink-1.0.1.tar.gz
+[2024-05-02 10:54:47] INFO root fetch - processPackages [python-define]: Downloading https://files.pythonhosted.org/packages/8b/ec/e19a8bc5d27a57255e7e755bb2c68c894c51b0938eca2a7cc18ef40f6dda/python-define-1.3.0.tar.gz
+[2024-05-02 10:54:47] INFO root fetch - processPackages [vunnel]: Downloading https://files.pythonhosted.org/packages/f6/6a/85f266b939729e0527c20e7f0d1d4bdb18f43de4df5e4de358517863b381/vunnel-0.8.1.tar.gz
+[2024-05-02 10:54:47] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a4/1d/95facc55dd0adae27c585ca01dee14a04a13f51fc366d6aaaa7751ec1a45/localstack_core-3.4.1.dev20240501070922.tar.gz
+[2024-05-02 10:54:47] INFO root fetch - processPackages [RPICommLink]: Downloading https://files.pythonhosted.org/packages/2b/bd/7df3c3929c75e26a274138b13af766fc157cd6ebe095de4d2fec4ca82692/RPICommLink-1.0.2.tar.gz
+[2024-05-02 10:54:47] INFO root fetch - processPackages [python-define]: Downloading https://files.pythonhosted.org/packages/11/2a/afc688d628d18476a296b139f24ee045223661df57604b174cd1a2b4d7e4/python_define-1.3.1.tar.gz
+[2024-05-02 10:54:47] INFO root fetch - processPackages [RPICommLink]: executing diffoscope
+[2024-05-02 10:54:47] INFO root fetch - processPackages [RPICommLink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RPICommLink-1.0.1.tar.gz tmp/RPICommLink-1.0.2.tar.gz --markdown 20240502/R/RPICommLink/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-02 10:54:47] INFO root fetch - processPackages [vunnel]: Downloading https://files.pythonhosted.org/packages/28/00/513fd11c9a1cce9d061a9d193f4a8185a9d477a88073e4bb693a5516e783/vunnel-0.9.0.tar.gz
+[2024-05-02 10:54:47] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ce/1b/a062111d622a0116d34180a1fa7c9e540263b45b27ffdc4ea635079ca27d/localstack_core-3.4.1.dev20240502085340.tar.gz
+[2024-05-02 10:54:47] INFO root fetch - processPackages [python-define]: executing diffoscope
+[2024-05-02 10:54:47] INFO root fetch - processPackages [python-define]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-define-1.3.0.tar.gz tmp/python_define-1.3.1.tar.gz --markdown 20240502/p/python-define/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-02 10:54:47] INFO root fetch - processPackages [vunnel]: executing diffoscope
+[2024-05-02 10:54:47] INFO root fetch - processPackages [vunnel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vunnel-0.8.1.tar.gz tmp/vunnel-0.9.0.tar.gz --markdown 20240502/v/vunnel/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-02 10:54:48] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-02 10:54:48] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240501070922.tar.gz tmp/localstack_core-3.4.1.dev20240502085340.tar.gz --markdown 20240502/l/localstack-core/3.4.1.dev20240501070922-3.4.1.dev20240502085340/README.md --exclude *.pyd
+[2024-05-02 10:54:48] INFO root fetch - processPackages [RPICommLink]: Remove: archive file [/home/abi/fetcher/tmp/RPICommLink-1.0.1.tar.gz]
+[2024-05-02 10:54:48] INFO root fetch - processPackages [RPICommLink]: Remove: archive file [/home/abi/fetcher/tmp/RPICommLink-1.0.2.tar.gz]
+[2024-05-02 10:54:48] INFO root fetch - main [MainThread]: End processing [RPICommLink]: success
+[2024-05-02 10:54:48] INFO root fetch - processPackages [python-define]: Remove: archive file [/home/abi/fetcher/tmp/python-define-1.3.0.tar.gz]
+[2024-05-02 10:54:48] INFO root fetch - processPackages [python-define]: Remove: archive file [/home/abi/fetcher/tmp/python_define-1.3.1.tar.gz]
+[2024-05-02 10:54:48] INFO root fetch - main [MainThread]: End processing [python-define]: success
+[2024-05-02 10:54:48] INFO root fetch - processPackages [vunnel]: Remove: archive file [/home/abi/fetcher/tmp/vunnel-0.8.1.tar.gz]
+[2024-05-02 10:54:48] INFO root fetch - processPackages [vunnel]: Remove: archive file [/home/abi/fetcher/tmp/vunnel-0.9.0.tar.gz]
+[2024-05-02 10:54:48] INFO root fetch - main [MainThread]: End processing [vunnel]: success
+[2024-05-02 10:54:51] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240501070922.tar.gz]
+[2024-05-02 10:54:51] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240502085340.tar.gz]
+[2024-05-02 10:54:51] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-02 10:54:51] INFO root fetch - main [MainThread]: Store serial: [23028391]
