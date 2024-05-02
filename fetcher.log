@@ -10084,3 +10084,15 @@
 [2024-05-02 07:54:53] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.1.dev1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-02 07:54:53] INFO root fetch - main [MainThread]: End processing [generate-tools]: success
 [2024-05-02 07:54:53] INFO root fetch - main [MainThread]: Store serial: [23026790]
+[2024-05-02 07:56:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026790]
+[2024-05-02 07:57:02] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 07:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qfpy
+[2024-05-02 07:57:02] INFO root fetch - processPackages [qfpy]: New version: [8.0.1] Old Version: [8.0.0]
+[2024-05-02 07:57:02] INFO root fetch - processPackages [qfpy]: Downloading https://files.pythonhosted.org/packages/da/a8/d22e21484a7de296c0917f73a73a5dbf5870c22d259c990c292ea8b54dad/qfpy-8.0.0.tar.gz
+[2024-05-02 07:57:03] INFO root fetch - processPackages [qfpy]: Downloading https://files.pythonhosted.org/packages/35/50/56a6f5426ef53fd15ce79f43988ec8d775f6adbfe3cbfb6a434c1ab98c71/qfpy-8.0.1.tar.gz
+[2024-05-02 07:57:03] INFO root fetch - processPackages [qfpy]: executing diffoscope
+[2024-05-02 07:57:03] INFO root fetch - processPackages [qfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qfpy-8.0.0.tar.gz tmp/qfpy-8.0.1.tar.gz --markdown 20240502/q/qfpy/8.0.0-8.0.1/README.md --exclude *.pyd
+[2024-05-02 07:57:03] INFO root fetch - processPackages [qfpy]: Remove: archive file [/home/abi/fetcher/tmp/qfpy-8.0.0.tar.gz]
+[2024-05-02 07:57:03] INFO root fetch - processPackages [qfpy]: Remove: archive file [/home/abi/fetcher/tmp/qfpy-8.0.1.tar.gz]
+[2024-05-02 07:57:03] INFO root fetch - main [MainThread]: End processing [qfpy]: success
+[2024-05-02 07:57:03] INFO root fetch - main [MainThread]: Store serial: [23026796]
