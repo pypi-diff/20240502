@@ -11422,3 +11422,24 @@
 [2024-05-02 09:15:19] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.9.tar.gz]
 [2024-05-02 09:15:19] INFO root fetch - main [MainThread]: End processing [eyes17]: success
 [2024-05-02 09:15:19] INFO root fetch - main [MainThread]: Store serial: [23027336]
+[2024-05-02 09:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027336]
+[2024-05-02 09:17:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 09:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xursparks
+[2024-05-02 09:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flatpack
+[2024-05-02 09:17:29] INFO root fetch - processPackages [xursparks]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-02 09:17:29] INFO root fetch - processPackages [flatpack]: New version: [3.4.1] Old Version: [3.4.0]
+[2024-05-02 09:17:29] INFO root fetch - processPackages [xursparks]: Downloading https://files.pythonhosted.org/packages/23/b1/8d6f50284edfad9d4a00d1994e0dbb7656480561a805ad588d571632e7ff/xursparks-1.0.1.tar.gz
+[2024-05-02 09:17:29] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/e4/04/1d8ff84a3f5eb5417735f12c7e358067a11db36a978a1cb1d8255d807f6c/flatpack-3.4.0.tar.gz
+[2024-05-02 09:17:29] INFO root fetch - processPackages [xursparks]: Downloading https://files.pythonhosted.org/packages/1a/39/13f2ed7352efb218c3f69520f599c09a9522739f39d651cb55d6b41915b5/xursparks-1.0.2.tar.gz
+[2024-05-02 09:17:29] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/65/78/38dbf54a1af32bd65cf64b7ed92b5ebbfaa9f7c928e04f0e5ed5a81609ea/flatpack-3.4.1.tar.gz
+[2024-05-02 09:17:29] INFO root fetch - processPackages [xursparks]: executing diffoscope
+[2024-05-02 09:17:29] INFO root fetch - processPackages [xursparks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xursparks-1.0.1.tar.gz tmp/xursparks-1.0.2.tar.gz --markdown 20240502/x/xursparks/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-02 09:17:29] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-02 09:17:29] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.0.tar.gz tmp/flatpack-3.4.1.tar.gz --markdown 20240502/f/flatpack/3.4.0-3.4.1/README.md --exclude *.pyd
+[2024-05-02 09:17:30] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.0.tar.gz]
+[2024-05-02 09:17:30] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.1.tar.gz]
+[2024-05-02 09:17:30] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-02 09:17:30] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.1.tar.gz]
+[2024-05-02 09:17:30] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.2.tar.gz]
+[2024-05-02 09:17:30] INFO root fetch - main [MainThread]: End processing [xursparks]: success
+[2024-05-02 09:17:30] INFO root fetch - main [MainThread]: Store serial: [23027344]
