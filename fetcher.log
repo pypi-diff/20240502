@@ -11005,3 +11005,27 @@
 [2024-05-02 08:48:52] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.9.tar.gz]
 [2024-05-02 08:48:52] INFO root fetch - main [MainThread]: End processing [apmtools]: success
 [2024-05-02 08:48:52] INFO root fetch - main [MainThread]: Store serial: [23027128]
+[2024-05-02 08:50:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027128]
+[2024-05-02 08:51:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 08:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-runtime
+[2024-05-02 08:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dektools
+[2024-05-02 08:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlpile
+[2024-05-02 08:51:01] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-05-02 08:51:01] WARNING root fetch - processPackages [sqlpile]: Skipping, unable to determine old version
+[2024-05-02 08:51:01] INFO root fetch - main [MainThread]: End processing [sqlpile] error
+[2024-05-02 08:51:01] INFO root fetch - processPackages [dektools]: New version: [0.1.91] Old Version: [0.1.90]
+[2024-05-02 08:51:01] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-05-02 08:51:01] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/93/49/976c2cc71d6a9161e1a05aa250a4ac4eac620ff0b59575caf2901486e564/dektools-0.1.90.tar.gz
+[2024-05-02 08:51:01] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-05-02 08:51:01] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-05-02 08:51:01] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240502/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-05-02 08:51:02] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/a7/04/b941d3b66214b6563165b1d4e6811d73f2e6390b88062b5a4f3dab90d129/dektools-0.1.91.tar.gz
+[2024-05-02 08:51:02] INFO root fetch - processPackages [dektools]: executing diffoscope
+[2024-05-02 08:51:02] INFO root fetch - processPackages [dektools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dektools-0.1.90.tar.gz tmp/dektools-0.1.91.tar.gz --markdown 20240502/d/dektools/0.1.90-0.1.91/README.md --exclude *.pyd
+[2024-05-02 08:51:02] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-05-02 08:51:02] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-05-02 08:51:02] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-05-02 08:51:02] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.90.tar.gz]
+[2024-05-02 08:51:02] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.91.tar.gz]
+[2024-05-02 08:51:02] INFO root fetch - main [MainThread]: End processing [dektools]: success
+[2024-05-02 08:51:02] INFO root fetch - main [MainThread]: Store serial: [23027141]
