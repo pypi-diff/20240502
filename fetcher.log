@@ -22426,3 +22426,255 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:49:45] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
 [2024-05-02 15:49:45] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2024-05-02 15:49:45] INFO root fetch - main [MainThread]: Store serial: [23031764]
+[2024-05-02 15:51:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031764]
+[2024-05-02 15:51:56] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2024-05-02 15:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sigmond-scripts
+[2024-05-02 15:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: galaxy-util
+[2024-05-02 15:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: galaxy-config
+[2024-05-02 15:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: galaxy-files
+[2024-05-02 15:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: galaxy-job-metrics
+[2024-05-02 15:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: galaxy-navigation
+[2024-05-02 15:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: http_response
+[2024-05-02 15:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quasim
+[2024-05-02 15:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: galaxy-objectstore
+[2024-05-02 15:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: galaxy-schema
+[2024-05-02 15:51:56] INFO root fetch - processPackages [sigmond-scripts]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-navigation]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-files]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-util]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-config]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:56] WARNING root fetch - processPackages [http_response]: Skipping, unable to determine old version
+[2024-05-02 15:51:56] INFO root fetch - processPackages [http_response]: Start processing: galaxy-tool-util
+[2024-05-02 15:51:56] INFO root fetch - main [MainThread]: End processing [http_response] error
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-schema]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-job-metrics]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-objectstore]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:56] WARNING root fetch - processPackages [quasim]: Skipping, unable to determine old version
+[2024-05-02 15:51:56] INFO root fetch - processPackages [quasim]: Start processing: yeref
+[2024-05-02 15:51:56] INFO root fetch - main [MainThread]: End processing [quasim] error
+[2024-05-02 15:51:56] INFO root fetch - processPackages [sigmond-scripts]: Downloading https://files.pythonhosted.org/packages/41/8b/6d5819cbd0284544c2720a6788e2c68a24fecddb37f910a69b488d2b117d/sigmond_scripts-1.0.1.tar.gz
+[2024-05-02 15:51:56] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-navigation]: Downloading https://files.pythonhosted.org/packages/8f/93/a3d5bc9249ba1d315012536d521bc891ea637b624a360c2b7ab8e4192226/galaxy-navigation-24.0.0.tar.gz
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-tool-util]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-files]: Downloading https://files.pythonhosted.org/packages/fd/df/ce550a66838a3674e6c217464b2dc940983001bd2b57042ef6f10bdaca6b/galaxy-files-24.0.0.tar.gz
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-util]: Downloading https://files.pythonhosted.org/packages/d4/39/1563161cf8959fb4692a6830161e75be6412aa708e46a67cf182b1ee8206/galaxy-util-24.0.0.tar.gz
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-config]: Downloading https://files.pythonhosted.org/packages/52/3a/57c881f84bd9fcd74094c1bbe0a44bb583332f5c74ecc2314f332511ca31/galaxy-config-24.0.0.tar.gz
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-objectstore]: Downloading https://files.pythonhosted.org/packages/03/aa/41c3a4ed72c8d55d6d7af613abc4dcee5310dd86661ce3e38874c37096d3/galaxy-objectstore-24.0.0.tar.gz
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-schema]: Downloading https://files.pythonhosted.org/packages/52/b8/19e60905fb617960ce069163154c0e45f6be15a279145b82038d0e1bfaa6/galaxy-schema-24.0.0.tar.gz
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-job-metrics]: Downloading https://files.pythonhosted.org/packages/15/bd/c86773935fb38c923237e3faa46fa515c68ace362532a9d2009b28b81ed5/galaxy-job-metrics-24.0.0.tar.gz
+[2024-05-02 15:51:56] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-02 15:51:56] INFO root fetch - processPackages [galaxy-tool-util]: Downloading https://files.pythonhosted.org/packages/cd/91/848174928a281df6bac76ca556bda9593963e30ea6ecc671c5d18562d104/galaxy-tool-util-24.0.0.tar.gz
+[2024-05-02 15:51:56] INFO root fetch - processPackages [sigmond-scripts]: Downloading https://files.pythonhosted.org/packages/ec/6d/8ddffbaca862bbb135dd313c14659b374bb5d6d843051b9928760fa639c3/sigmond_scripts-1.0.2.tar.gz
+[2024-05-02 15:51:57] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-files]: Downloading https://files.pythonhosted.org/packages/2c/90/8027db4f1bace342dd5d3f13c3aab84fdf5a707e61518e2a4331fc08db96/galaxy_files-24.0.1.tar.gz
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-schema]: Downloading https://files.pythonhosted.org/packages/fc/59/dbe2b9231b6837a02cd64e5899541836324467be0d145a6a8a6b5290da47/galaxy_schema-24.0.1.tar.gz
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-job-metrics]: Downloading https://files.pythonhosted.org/packages/ef/3b/785c1c57e9bfada456d5ab9cdc02b08fc96fb71b714c19034c63286e0061/galaxy_job_metrics-24.0.1.tar.gz
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-navigation]: Downloading https://files.pythonhosted.org/packages/f1/41/2159bce7b812bfdac33deeba86db12d30a11198b2bb148b9fbbef6f14d7b/galaxy_navigation-24.0.1.tar.gz
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-objectstore]: Downloading https://files.pythonhosted.org/packages/4d/b3/64003318dd58010e0c947aa389ad218bd07f955785265ce9eeae7ac6fd04/galaxy_objectstore-24.0.1.tar.gz
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-config]: Downloading https://files.pythonhosted.org/packages/3c/6d/687c2b700206a0610bd91cefd13b06abcbf61d3cbf5ec5f28e9f3862704f/galaxy_config-24.0.1.tar.gz
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-util]: Downloading https://files.pythonhosted.org/packages/7f/44/0c234a88d68b304a1057150685cf9e21b8545aff37af01a0493dffbcf326/galaxy_util-24.0.1.tar.gz
+[2024-05-02 15:51:57] INFO root fetch - processPackages [sigmond-scripts]: executing diffoscope
+[2024-05-02 15:51:57] INFO root fetch - processPackages [sigmond-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigmond_scripts-1.0.1.tar.gz tmp/sigmond_scripts-1.0.2.tar.gz --markdown 20240502/s/sigmond-scripts/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-files]: executing diffoscope
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-files-24.0.0.tar.gz tmp/galaxy_files-24.0.1.tar.gz --markdown 20240502/g/galaxy-files/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:51:57] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-02 15:51:57] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240502/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-job-metrics]: executing diffoscope
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-job-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-job-metrics-24.0.0.tar.gz tmp/galaxy_job_metrics-24.0.1.tar.gz --markdown 20240502/g/galaxy-job-metrics/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-navigation]: executing diffoscope
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-navigation-24.0.0.tar.gz tmp/galaxy_navigation-24.0.1.tar.gz --markdown 20240502/g/galaxy-navigation/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-schema]: executing diffoscope
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-schema-24.0.0.tar.gz tmp/galaxy_schema-24.0.1.tar.gz --markdown 20240502/g/galaxy-schema/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-objectstore]: executing diffoscope
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-objectstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-objectstore-24.0.0.tar.gz tmp/galaxy_objectstore-24.0.1.tar.gz --markdown 20240502/g/galaxy-objectstore/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-util]: executing diffoscope
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-util-24.0.0.tar.gz tmp/galaxy_util-24.0.1.tar.gz --markdown 20240502/g/galaxy-util/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-config]: executing diffoscope
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-config-24.0.0.tar.gz tmp/galaxy_config-24.0.1.tar.gz --markdown 20240502/g/galaxy-config/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-tool-util]: Downloading https://files.pythonhosted.org/packages/bb/09/710177b8f1fb3d2673c6303ef8ed96772f574ff3c3b088050371820e1518/galaxy_tool_util-24.0.1.tar.gz
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-tool-util]: executing diffoscope
+[2024-05-02 15:51:57] INFO root fetch - processPackages [galaxy-tool-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-tool-util-24.0.0.tar.gz tmp/galaxy_tool_util-24.0.1.tar.gz --markdown 20240502/g/galaxy-tool-util/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-navigation]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-navigation-24.0.0.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-navigation]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_navigation-24.0.1.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-navigation]: Start processing: galaxy-data
+[2024-05-02 15:51:58] INFO root fetch - main [MainThread]: End processing [galaxy-navigation]: success
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-job-metrics]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-job-metrics-24.0.0.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-job-metrics]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_job_metrics-24.0.1.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-job-metrics]: Start processing: smooth-logger
+[2024-05-02 15:51:58] INFO root fetch - main [MainThread]: End processing [galaxy-job-metrics]: success
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-data]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-schema]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-schema-24.0.0.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-schema]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_schema-24.0.1.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-schema]: Start processing: galaxy-selenium
+[2024-05-02 15:51:58] INFO root fetch - main [MainThread]: End processing [galaxy-schema]: success
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-files]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-files-24.0.0.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-files]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_files-24.0.1.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-files]: Start processing: galaxy-tours
+[2024-05-02 15:51:58] INFO root fetch - main [MainThread]: End processing [galaxy-files]: success
+[2024-05-02 15:51:58] INFO root fetch - processPackages [smooth-logger]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [yeref]: Start processing: galaxy-test-base
+[2024-05-02 15:51:58] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-util-24.0.0.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_util-24.0.1.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-util]: Start processing: galaxy-auth
+[2024-05-02 15:51:58] INFO root fetch - main [MainThread]: End processing [galaxy-util]: success
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-data]: Downloading https://files.pythonhosted.org/packages/23/44/9ba68186f7d05ee715fbd49ea248d50914b554f40d25c13e4879c35606cd/galaxy-data-24.0.0.tar.gz
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-objectstore]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-objectstore-24.0.0.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-objectstore]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_objectstore-24.0.1.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-objectstore]: Start processing: galaxy-job-execution
+[2024-05-02 15:51:58] INFO root fetch - main [MainThread]: End processing [galaxy-objectstore]: success
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-selenium]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-tours]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [sigmond-scripts]: Remove: archive file [/home/abi/fetcher/tmp/sigmond_scripts-1.0.1.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [sigmond-scripts]: Remove: archive file [/home/abi/fetcher/tmp/sigmond_scripts-1.0.2.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [sigmond-scripts]: Start processing: clbb-hermes
+[2024-05-02 15:51:58] INFO root fetch - main [MainThread]: End processing [sigmond-scripts]: success
+[2024-05-02 15:51:58] INFO root fetch - processPackages [smooth-logger]: Downloading https://files.pythonhosted.org/packages/21/c4/f71bf395e1a86a0fd4921c168901e8967b16119fcee93a304210ac185cc4/smooth_logger-1.0.0.tar.gz
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-test-base]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-auth]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-job-execution]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-config]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-config-24.0.0.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-config]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_config-24.0.1.tar.gz]
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-config]: Start processing: galaxy-test-api
+[2024-05-02 15:51:58] INFO root fetch - main [MainThread]: End processing [galaxy-config]: success
+[2024-05-02 15:51:58] INFO root fetch - processPackages [galaxy-tours]: Downloading https://files.pythonhosted.org/packages/85/1d/e1ddd461d8a1331453c6d9d4728d18de9649d8c65fa1e7744791307cc8ae/galaxy-tours-24.0.0.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [clbb-hermes]: New version: [0.1.6.0] Old Version: [0.1.5.7]
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-selenium]: Downloading https://files.pythonhosted.org/packages/8e/f8/4fc3978be5bef34048ab920c8ccff3f507c819ec5ad24fa8061609724f58/galaxy-selenium-24.0.0.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-test-base]: Downloading https://files.pythonhosted.org/packages/43/ce/5dee583f521612cf82eade71d7c845a2653643af6bcf014723fb447eeb18/galaxy-test-base-24.0.0.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-test-api]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-auth]: Downloading https://files.pythonhosted.org/packages/9c/5c/8d2f406b49dbd3860757409719dc05b8ffc273ce2ef5db22793c608e79bc/galaxy-auth-24.0.0.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-job-execution]: Downloading https://files.pythonhosted.org/packages/89/fc/d5b602d0165c99b6e8e08ee196292c12f6b7be07b5250803e160fc64df4a/galaxy-job-execution-24.0.0.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-data]: Downloading https://files.pythonhosted.org/packages/e2/67/3f0c332686c37e3c49283d52031c68900695455962f5b7c92e290515463a/galaxy_data-24.0.1.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [smooth-logger]: Downloading https://files.pythonhosted.org/packages/ed/f2/0b495cb3baa32e7c25e4fbfc9c3ed5f00d7225995480446ebfd73ec29ab4/smooth_logger-1.0.1.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [clbb-hermes]: Downloading https://files.pythonhosted.org/packages/34/cd/bbbda2755f0e4c7cb1e237cb688efd0131f0fa2bfc148da187d655a63f8b/clbb-hermes-0.1.5.7.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-tool-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-tool-util-24.0.0.tar.gz]
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-tool-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_tool_util-24.0.1.tar.gz]
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-tool-util]: Start processing: galaxy-web-framework
+[2024-05-02 15:51:59] INFO root fetch - main [MainThread]: End processing [galaxy-tool-util]: success
+[2024-05-02 15:51:59] INFO root fetch - processPackages [smooth-logger]: executing diffoscope
+[2024-05-02 15:51:59] INFO root fetch - processPackages [smooth-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smooth_logger-1.0.0.tar.gz tmp/smooth_logger-1.0.1.tar.gz --markdown 20240502/s/smooth-logger/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-test-api]: Downloading https://files.pythonhosted.org/packages/6a/4b/acf1b9a28e4980a072ea6349ac947eb463add56d6d35f67a706133fde45c/galaxy-test-api-24.0.0.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-data]: executing diffoscope
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-data-24.0.0.tar.gz tmp/galaxy_data-24.0.1.tar.gz --markdown 20240502/g/galaxy-data/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-web-framework]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-tours]: Downloading https://files.pythonhosted.org/packages/c5/69/9d487d0a683c6b788cdd6dd931594ff6232fb7fd2a36b0bec43aca0524ae/galaxy_tours-24.0.1.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-selenium]: Downloading https://files.pythonhosted.org/packages/f8/d2/2053202da05e23a1de73c9251b6ed9c1472ac8364baf91f80fcef230b00c/galaxy_selenium-24.0.1.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-test-base]: Downloading https://files.pythonhosted.org/packages/89/ab/a5655c44abfee67682568609fdd518ea8822acf514e99ad70f6496fa0319/galaxy_test_base-24.0.1.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-tours]: executing diffoscope
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-tours]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-tours-24.0.0.tar.gz tmp/galaxy_tours-24.0.1.tar.gz --markdown 20240502/g/galaxy-tours/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:51:59] INFO root fetch - processPackages [clbb-hermes]: Downloading https://files.pythonhosted.org/packages/d2/e9/080fc72e1837aadfd68f7346e80554d67757e377d5782f40ef5a7c968aac/clbb_hermes-0.1.6.0.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-auth]: Downloading https://files.pythonhosted.org/packages/7e/cd/0ce5885ee50aa8eefcf29aff46447166776070f64f3f694c26b58a2c1d82/galaxy_auth-24.0.1.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-job-execution]: Downloading https://files.pythonhosted.org/packages/5a/cb/16353c1911d3af4d91a9dde66d48308ad5c5ddda499d82055b5f612793ff/galaxy_job_execution-24.0.1.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-selenium]: executing diffoscope
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-selenium-24.0.0.tar.gz tmp/galaxy_selenium-24.0.1.tar.gz --markdown 20240502/g/galaxy-selenium/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-web-framework]: Downloading https://files.pythonhosted.org/packages/84/c0/9b51f975df5aa4ff52d44b00314b75c16863f1e5dbd9ccd1fd6b66c3ef15/galaxy-web-framework-24.0.0.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-test-base]: executing diffoscope
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-test-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-test-base-24.0.0.tar.gz tmp/galaxy_test_base-24.0.1.tar.gz --markdown 20240502/g/galaxy-test-base/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-auth]: executing diffoscope
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-auth-24.0.0.tar.gz tmp/galaxy_auth-24.0.1.tar.gz --markdown 20240502/g/galaxy-auth/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-test-api]: Downloading https://files.pythonhosted.org/packages/51/df/6941ce61b45a8fda535e9d91e076069f357a2726d26450724d0af2664c00/galaxy_test_api-24.0.1.tar.gz
+[2024-05-02 15:51:59] INFO root fetch - processPackages [clbb-hermes]: executing diffoscope
+[2024-05-02 15:51:59] INFO root fetch - processPackages [clbb-hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clbb-hermes-0.1.5.7.tar.gz tmp/clbb_hermes-0.1.6.0.tar.gz --markdown 20240502/c/clbb-hermes/0.1.5.7-0.1.6.0/README.md --exclude *.pyd
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-job-execution]: executing diffoscope
+[2024-05-02 15:51:59] INFO root fetch - processPackages [galaxy-job-execution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-job-execution-24.0.0.tar.gz tmp/galaxy_job_execution-24.0.1.tar.gz --markdown 20240502/g/galaxy-job-execution/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-test-api]: executing diffoscope
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-test-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-test-api-24.0.0.tar.gz tmp/galaxy_test_api-24.0.1.tar.gz --markdown 20240502/g/galaxy-test-api/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-web-framework]: Downloading https://files.pythonhosted.org/packages/62/2e/a5aac0c76c06a995c5a142b43bbe5d3bacd83dfef467b3ac49cb51994858/galaxy_web_framework-24.0.1.tar.gz
+[2024-05-02 15:52:00] INFO root fetch - processPackages [smooth-logger]: Remove: archive file [/home/abi/fetcher/tmp/smooth_logger-1.0.0.tar.gz]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [smooth-logger]: Remove: archive file [/home/abi/fetcher/tmp/smooth_logger-1.0.1.tar.gz]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [smooth-logger]: Start processing: galaxy-web-stack
+[2024-05-02 15:52:00] INFO root fetch - main [MainThread]: End processing [smooth-logger]: success
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-web-framework]: executing diffoscope
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-web-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-web-framework-24.0.0.tar.gz tmp/galaxy_web_framework-24.0.1.tar.gz --markdown 20240502/g/galaxy-web-framework/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-web-stack]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-tours]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-tours-24.0.0.tar.gz]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-tours]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_tours-24.0.1.tar.gz]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-tours]: Start processing: odoo-addon-purchase-invoice-plan
+[2024-05-02 15:52:00] INFO root fetch - main [MainThread]: End processing [galaxy-tours]: success
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-web-stack]: Downloading https://files.pythonhosted.org/packages/28/bc/b37281397ed3531a5bfcf7a85336a92b19d14eed1eace7e91203666c7ea4/galaxy-web-stack-24.0.0.tar.gz
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-selenium]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-selenium-24.0.0.tar.gz]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-selenium]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_selenium-24.0.1.tar.gz]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-selenium]: Start processing: galaxy-app
+[2024-05-02 15:52:00] INFO root fetch - main [MainThread]: End processing [galaxy-selenium]: success
+[2024-05-02 15:52:00] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.2]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [clbb-hermes]: Remove: archive file [/home/abi/fetcher/tmp/clbb-hermes-0.1.5.7.tar.gz]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [clbb-hermes]: Remove: archive file [/home/abi/fetcher/tmp/clbb_hermes-0.1.6.0.tar.gz]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [clbb-hermes]: Start processing: odoo-addon-purchase-request
+[2024-05-02 15:52:00] INFO root fetch - main [MainThread]: End processing [clbb-hermes]: success
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-auth]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-auth-24.0.0.tar.gz]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-auth]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_auth-24.0.1.tar.gz]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-app]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-auth]: Start processing: galaxy-web-apps
+[2024-05-02 15:52:00] INFO root fetch - main [MainThread]: End processing [galaxy-auth]: success
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-test-base]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-test-base-24.0.0.tar.gz]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-test-base]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_test_base-24.0.1.tar.gz]
+[2024-05-02 15:52:00] INFO root fetch - processPackages [galaxy-test-base]: Start processing: galaxy-test-driver
+[2024-05-02 15:52:00] INFO root fetch - main [MainThread]: End processing [galaxy-test-base]: success
+[2024-05-02 15:52:01] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [17.0.1.1.2] Old Version: [17.0.1.1.1]
+[2024-05-02 15:52:01] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: Downloading https://files.pythonhosted.org/packages/1b/a5/7d4a2d59f655f43f6b91df409d868eb06e661401ede5ff994d9f86f7f87a/odoo_addon_purchase_invoice_plan-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-job-execution]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-job-execution-24.0.0.tar.gz]
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-job-execution]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_job_execution-24.0.1.tar.gz]
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-job-execution]: Start processing: galaxy-tool-shed
+[2024-05-02 15:52:01] INFO root fetch - main [MainThread]: End processing [galaxy-job-execution]: success
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-web-apps]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-test-driver]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-web-stack]: Downloading https://files.pythonhosted.org/packages/8f/4f/ed6e1392f98809a1030caa682b6fc1ffffdad5e4d02d844063a603f2210a/galaxy_web_stack-24.0.1.tar.gz
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-app]: Downloading https://files.pythonhosted.org/packages/10/8a/8722621711150c5522028ae4f5ecd1a7e12cd7e430a6b9cf2f8f4d1ff409/galaxy-app-24.0.0.tar.gz
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-tool-shed]: New version: [24.0.1] Old Version: [24.0.0]
+[2024-05-02 15:52:01] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/0b/c9/3fc6d1e7d9d4b01ba809dcd512b5a807f8604ec00cb71655d823dc6f0fee/odoo_addon_purchase_request-17.0.1.1.1-py3-none-any.whl
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-web-apps]: Downloading https://files.pythonhosted.org/packages/ce/e3/6264544e689b7fd8e1cb4755a81f270dfeeb9108718f5fd2e44dc48056ca/galaxy-web-apps-24.0.0.tar.gz
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-web-framework]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-web-framework-24.0.0.tar.gz]
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-web-framework]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_web_framework-24.0.1.tar.gz]
+[2024-05-02 15:52:01] INFO root fetch - main [MainThread]: End processing [galaxy-web-framework]: success
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-web-stack]: executing diffoscope
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-web-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-web-stack-24.0.0.tar.gz tmp/galaxy_web_stack-24.0.1.tar.gz --markdown 20240502/g/galaxy-web-stack/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-test-driver]: Downloading https://files.pythonhosted.org/packages/39/c1/d29906ab354b44866f663eabbc602536762fcc1a4130190f274bcf431d98/galaxy-test-driver-24.0.0.tar.gz
+[2024-05-02 15:52:01] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: Downloading https://files.pythonhosted.org/packages/00/34/4d5679471b45b70d0af2b406d90b58104150cf01a04cea2b7627ba00bd70/odoo_addon_purchase_invoice_plan-17.0.1.0.1-py3-none-any.whl
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-tool-shed]: Downloading https://files.pythonhosted.org/packages/fb/9b/3053dc8dc70edc5b280623e726b7507b5b2284b67b8ba4a0f07e705d13d8/galaxy-tool-shed-24.0.0.tar.gz
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-test-api]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-test-api-24.0.0.tar.gz]
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-test-api]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_test_api-24.0.1.tar.gz]
+[2024-05-02 15:52:01] INFO root fetch - main [MainThread]: End processing [galaxy-test-api]: success
+[2024-05-02 15:52:01] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: executing diffoscope
+[2024-05-02 15:52:01] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_invoice_plan-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_invoice_plan-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-purchase-invoice-plan/17.0.1.0.0.2-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-02 15:52:01] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/e9/5d/606a827f29e8f001587ba58255a6606f793c6f3f897a0d8c996ddd1d62d1/odoo_addon_purchase_request-17.0.1.1.2-py3-none-any.whl
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-test-driver]: Downloading https://files.pythonhosted.org/packages/35/c9/cde645f94e8ce2cfb301b808099bb30cbbe1733d9938ea8e34889b89dc5e/galaxy_test_driver-24.0.1.tar.gz
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-app]: Downloading https://files.pythonhosted.org/packages/1b/a9/861c3fdb557700065a00872db1752b8f4797de95325630397f96c99146bd/galaxy_app-24.0.1.tar.gz
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-web-apps]: Downloading https://files.pythonhosted.org/packages/f7/76/b18997374b8057dd13097c5f730c1f21e62f771b2108938d45fcbec3bf5a/galaxy_web_apps-24.0.1.tar.gz
+[2024-05-02 15:52:01] INFO root fetch - processPackages [galaxy-tool-shed]: Downloading https://files.pythonhosted.org/packages/fe/ac/3735d0b018b63ffc863cb30ecbfb59d06c3993cf2822f2f8735adf743b10/galaxy_tool_shed-24.0.1.tar.gz
+[2024-05-02 15:52:02] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2024-05-02 15:52:02] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-17.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-17.0.1.1.2-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-purchase-request/17.0.1.1.1-17.0.1.1.2/README.md --exclude *.pyd
+[2024-05-02 15:52:02] INFO root fetch - processPackages [galaxy-test-driver]: executing diffoscope
+[2024-05-02 15:52:02] INFO root fetch - processPackages [galaxy-test-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-test-driver-24.0.0.tar.gz tmp/galaxy_test_driver-24.0.1.tar.gz --markdown 20240502/g/galaxy-test-driver/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:52:02] INFO root fetch - processPackages [galaxy-tool-shed]: executing diffoscope
+[2024-05-02 15:52:02] INFO root fetch - processPackages [galaxy-tool-shed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-tool-shed-24.0.0.tar.gz tmp/galaxy_tool_shed-24.0.1.tar.gz --markdown 20240502/g/galaxy-tool-shed/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:52:02] INFO root fetch - processPackages [galaxy-web-stack]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-web-stack-24.0.0.tar.gz]
+[2024-05-02 15:52:02] INFO root fetch - processPackages [galaxy-web-stack]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_web_stack-24.0.1.tar.gz]
+[2024-05-02 15:52:02] INFO root fetch - main [MainThread]: End processing [galaxy-web-stack]: success
+[2024-05-02 15:52:02] INFO root fetch - processPackages [galaxy-data]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-data-24.0.0.tar.gz]
+[2024-05-02 15:52:02] INFO root fetch - processPackages [galaxy-data]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_data-24.0.1.tar.gz]
+[2024-05-02 15:52:02] INFO root fetch - main [MainThread]: End processing [galaxy-data]: success
+[2024-05-02 15:52:02] INFO root fetch - processPackages [galaxy-app]: executing diffoscope
+[2024-05-02 15:52:02] INFO root fetch - processPackages [galaxy-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-app-24.0.0.tar.gz tmp/galaxy_app-24.0.1.tar.gz --markdown 20240502/g/galaxy-app/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:52:02] INFO root fetch - processPackages [galaxy-web-apps]: executing diffoscope
+[2024-05-02 15:52:02] INFO root fetch - processPackages [galaxy-web-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-web-apps-24.0.0.tar.gz tmp/galaxy_web_apps-24.0.1.tar.gz --markdown 20240502/g/galaxy-web-apps/24.0.0-24.0.1/README.md --exclude *.pyd
+[2024-05-02 15:52:02] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_invoice_plan-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-02 15:52:02] INFO root fetch - processPackages [odoo-addon-purchase-invoice-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_invoice_plan-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-02 15:52:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-invoice-plan]: success
+[2024-05-02 15:52:02] INFO root fetch - processPackages [galaxy-test-driver]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-test-driver-24.0.0.tar.gz]
+[2024-05-02 15:52:02] INFO root fetch - processPackages [galaxy-test-driver]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_test_driver-24.0.1.tar.gz]
+[2024-05-02 15:52:02] INFO root fetch - main [MainThread]: End processing [galaxy-test-driver]: success
+[2024-05-02 15:52:03] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-17.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-02 15:52:03] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-17.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-02 15:52:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2024-05-02 15:52:03] INFO root fetch - processPackages [galaxy-tool-shed]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-tool-shed-24.0.0.tar.gz]
+[2024-05-02 15:52:03] INFO root fetch - processPackages [galaxy-tool-shed]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_tool_shed-24.0.1.tar.gz]
+[2024-05-02 15:52:03] INFO root fetch - main [MainThread]: End processing [galaxy-tool-shed]: success
+[2024-05-02 15:52:04] INFO root fetch - processPackages [galaxy-web-apps]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-web-apps-24.0.0.tar.gz]
+[2024-05-02 15:52:04] INFO root fetch - processPackages [galaxy-web-apps]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_web_apps-24.0.1.tar.gz]
+[2024-05-02 15:52:04] INFO root fetch - main [MainThread]: End processing [galaxy-web-apps]: success
+[2024-05-02 15:52:05] INFO root fetch - processPackages [galaxy-app]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-app-24.0.0.tar.gz]
+[2024-05-02 15:52:05] INFO root fetch - processPackages [galaxy-app]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_app-24.0.1.tar.gz]
+[2024-05-02 15:52:05] INFO root fetch - main [MainThread]: End processing [galaxy-app]: success
+[2024-05-02 15:52:05] INFO root fetch - main [MainThread]: Store serial: [23031852]
