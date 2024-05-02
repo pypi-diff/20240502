@@ -21654,3 +21654,48 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:19:48] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.4.1.post1714655941.tar.gz]
 [2024-05-02 15:19:48] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
 [2024-05-02 15:19:48] INFO root fetch - main [MainThread]: Store serial: [23031466]
+[2024-05-02 15:21:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031466]
+[2024-05-02 15:21:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-05-02 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WGSE-NG
+[2024-05-02 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parkapi-sources
+[2024-05-02 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OmniGenome
+[2024-05-02 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-project-tracker
+[2024-05-02 15:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datahubNRK
+[2024-05-02 15:21:57] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev7] Old Version: [0.0.3.dev6]
+[2024-05-02 15:21:57] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 15:21:57] WARNING root fetch - processPackages [WGSE-NG]: Skipping, unable to determine old version
+[2024-05-02 15:21:57] INFO root fetch - main [MainThread]: End processing [WGSE-NG] error
+[2024-05-02 15:21:57] INFO root fetch - processPackages [OmniGenome]: New version: [0.0.3a0] Old Version: [0.0.2a0]
+[2024-05-02 15:21:57] INFO root fetch - processPackages [parkapi-sources]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-02 15:21:57] WARNING root fetch - processPackages [datahubNRK]: Skipping, unable to determine old version
+[2024-05-02 15:21:57] INFO root fetch - main [MainThread]: End processing [datahubNRK] error
+[2024-05-02 15:21:57] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/09/18/7f8010edfce08c640f8d6f68447b55beb192ff770e36e3b81c4b08e5374a/ml_project_tracker-0.0.3.dev6.tar.gz
+[2024-05-02 15:21:58] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-02 15:21:58] INFO root fetch - processPackages [OmniGenome]: Downloading https://files.pythonhosted.org/packages/17/69/82913b27806e74712fa58df07aaf13cdfa7eb1299cf01017666e6ae644bf/OmniGenome-0.0.2a0-py3-none-any.whl
+[2024-05-02 15:21:58] INFO root fetch - processPackages [parkapi-sources]: Downloading https://files.pythonhosted.org/packages/cb/87/f119b32d2af8e24bd284e5c9a837fb61de4761fd2ddc8eb21119fb505cb9/parkapi_sources-0.2.0.tar.gz
+[2024-05-02 15:21:58] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-02 15:21:58] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/71/4a/5197ee73edeb057c853e7d7fe3df763509587905e9c8127e302d46d784ec/ml_project_tracker-0.0.3.dev7.tar.gz
+[2024-05-02 15:21:58] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-02 15:21:58] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240502/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 15:21:58] INFO root fetch - processPackages [OmniGenome]: Downloading https://files.pythonhosted.org/packages/aa/4c/8ea1f7fc453bfce76d6256d64f54d7c6d774eb885d181bba1bdb36d6a4f7/OmniGenome-0.0.3a0-py3-none-any.whl
+[2024-05-02 15:21:58] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-02 15:21:58] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.dev6.tar.gz tmp/ml_project_tracker-0.0.3.dev7.tar.gz --markdown 20240502/m/ml-project-tracker/0.0.3.dev6-0.0.3.dev7/README.md --exclude *.pyd
+[2024-05-02 15:21:58] INFO root fetch - processPackages [parkapi-sources]: Downloading https://files.pythonhosted.org/packages/d8/05/dcbbf8affdd5c412559e910691f3c9f51a29c5204383107c4279340347a1/parkapi_sources-0.3.0.tar.gz
+[2024-05-02 15:21:58] INFO root fetch - processPackages [OmniGenome]: executing diffoscope
+[2024-05-02 15:21:58] INFO root fetch - processPackages [OmniGenome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OmniGenome-0.0.2a0-py3-none-any.whl.zip tmp/OmniGenome-0.0.3a0-py3-none-any.whl.zip --markdown 20240502/O/OmniGenome/0.0.2a0-0.0.3a0/README.md --exclude *.pyd
+[2024-05-02 15:21:58] INFO root fetch - processPackages [parkapi-sources]: executing diffoscope
+[2024-05-02 15:21:58] INFO root fetch - processPackages [parkapi-sources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parkapi_sources-0.2.0.tar.gz tmp/parkapi_sources-0.3.0.tar.gz --markdown 20240502/p/parkapi-sources/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-02 15:21:59] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev6.tar.gz]
+[2024-05-02 15:21:59] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev7.tar.gz]
+[2024-05-02 15:21:59] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-02 15:21:59] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-02 15:21:59] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-02 15:21:59] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-02 15:21:59] INFO root fetch - processPackages [OmniGenome]: Remove: archive file [/home/abi/fetcher/tmp/OmniGenome-0.0.2a0-py3-none-any.whl.zip]
+[2024-05-02 15:21:59] INFO root fetch - processPackages [OmniGenome]: Remove: archive file [/home/abi/fetcher/tmp/OmniGenome-0.0.3a0-py3-none-any.whl.zip]
+[2024-05-02 15:21:59] INFO root fetch - main [MainThread]: End processing [OmniGenome]: success
+[2024-05-02 15:22:00] INFO root fetch - processPackages [parkapi-sources]: Remove: archive file [/home/abi/fetcher/tmp/parkapi_sources-0.2.0.tar.gz]
+[2024-05-02 15:22:00] INFO root fetch - processPackages [parkapi-sources]: Remove: archive file [/home/abi/fetcher/tmp/parkapi_sources-0.3.0.tar.gz]
+[2024-05-02 15:22:00] INFO root fetch - main [MainThread]: End processing [parkapi-sources]: success
+[2024-05-02 15:22:00] INFO root fetch - main [MainThread]: Store serial: [23031491]
