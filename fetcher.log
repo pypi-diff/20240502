@@ -11469,3 +11469,45 @@
 [2024-05-02 09:19:41] INFO root fetch - processPackages [CurrencyConverter]: Remove: archive file [/home/abi/fetcher/tmp/CurrencyConverter-0.8.1.tar.gz]
 [2024-05-02 09:19:41] INFO root fetch - main [MainThread]: End processing [CurrencyConverter]: success
 [2024-05-02 09:19:41] INFO root fetch - main [MainThread]: Store serial: [23027355]
+[2024-05-02 09:21:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027355]
+[2024-05-02 09:21:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcm-processor
+[2024-05-02 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NeoBase
+[2024-05-02 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itwingstestsproject
+[2024-05-02 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embtechx
+[2024-05-02 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aioxdl
+[2024-05-02 09:21:50] INFO root fetch - processPackages [aioxdl]: New version: [0.0.21] Old Version: [0.0.20]
+[2024-05-02 09:21:50] INFO root fetch - processPackages [embtechx]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-02 09:21:50] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/f3/d8/cb263d8bc58b8f9d8503cd461ba75aff6d76d916b20585db91010b79c0d4/aioxdl-0.0.20.tar.gz
+[2024-05-02 09:21:50] INFO root fetch - processPackages [dcm-processor]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-02 09:21:50] WARNING root fetch - processPackages [itwingstestsproject]: Skipping, unable to determine old version
+[2024-05-02 09:21:50] INFO root fetch - main [MainThread]: End processing [itwingstestsproject] error
+[2024-05-02 09:21:50] INFO root fetch - processPackages [NeoBase]: New version: [0.9] Old Version: [0.8]
+[2024-05-02 09:21:50] INFO root fetch - processPackages [embtechx]: Downloading https://files.pythonhosted.org/packages/83/dd/9b92602576e49fb5e356b6be7415a02c7ae98b78ccf3ea10b3e44cb4c95f/embtechx-1.0.6.tar.gz
+[2024-05-02 09:21:50] INFO root fetch - processPackages [dcm-processor]: Downloading https://files.pythonhosted.org/packages/f0/0b/91e53e5914b8bee2a18c092bcd8717024b71915d5b1b5a800db55a828775/dcm-processor-1.1.2.tar.gz
+[2024-05-02 09:21:50] INFO root fetch - processPackages [embtechx]: Downloading https://files.pythonhosted.org/packages/4e/66/b6780726008156d1f5bc73d331fef08ac95336216b2f4d1eff43b76c1f2b/embtechx-1.0.7.tar.gz
+[2024-05-02 09:21:50] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/b4/53/4b4f01141b8169f2bc36cbab336187c93b3d7c513e01de94771feafd459d/NeoBase-0.8.tar.gz
+[2024-05-02 09:21:50] INFO root fetch - processPackages [embtechx]: executing diffoscope
+[2024-05-02 09:21:50] INFO root fetch - processPackages [embtechx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embtechx-1.0.6.tar.gz tmp/embtechx-1.0.7.tar.gz --markdown 20240502/e/embtechx/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-02 09:21:50] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/13/b3/9ccdfb420a057abba88b680f468383c14e2ff5dc4e42ce8fa07740a9a632/aioxdl-0.0.21.tar.gz
+[2024-05-02 09:21:50] INFO root fetch - processPackages [aioxdl]: executing diffoscope
+[2024-05-02 09:21:50] INFO root fetch - processPackages [aioxdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioxdl-0.0.20.tar.gz tmp/aioxdl-0.0.21.tar.gz --markdown 20240502/a/aioxdl/0.0.20-0.0.21/README.md --exclude *.pyd
+[2024-05-02 09:21:51] INFO root fetch - processPackages [embtechx]: Remove: archive file [/home/abi/fetcher/tmp/embtechx-1.0.6.tar.gz]
+[2024-05-02 09:21:51] INFO root fetch - processPackages [embtechx]: Remove: archive file [/home/abi/fetcher/tmp/embtechx-1.0.7.tar.gz]
+[2024-05-02 09:21:51] INFO root fetch - main [MainThread]: End processing [embtechx]: success
+[2024-05-02 09:21:51] INFO root fetch - processPackages [dcm-processor]: Downloading https://files.pythonhosted.org/packages/68/f5/c402cbff6dee4a2fd7a01ca4a45950828058ce099f06e007e3c6077ec156/dcm-processor-1.1.3.tar.gz
+[2024-05-02 09:21:51] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.20.tar.gz]
+[2024-05-02 09:21:51] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.21.tar.gz]
+[2024-05-02 09:21:51] INFO root fetch - main [MainThread]: End processing [aioxdl]: success
+[2024-05-02 09:21:51] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/1c/f1/8a7eff769f23a3a8cfc58c10f83fd688a54ca4051adf2fc99487632e3c4b/NeoBase-0.9.tar.gz
+[2024-05-02 09:21:51] INFO root fetch - processPackages [dcm-processor]: executing diffoscope
+[2024-05-02 09:21:51] INFO root fetch - processPackages [dcm-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcm-processor-1.1.2.tar.gz tmp/dcm-processor-1.1.3.tar.gz --markdown 20240502/d/dcm-processor/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-02 09:21:51] INFO root fetch - processPackages [NeoBase]: executing diffoscope
+[2024-05-02 09:21:51] INFO root fetch - processPackages [NeoBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeoBase-0.8.tar.gz tmp/NeoBase-0.9.tar.gz --markdown 20240502/N/NeoBase/0.8-0.9/README.md --exclude *.pyd
+[2024-05-02 09:21:52] INFO root fetch - processPackages [dcm-processor]: Remove: archive file [/home/abi/fetcher/tmp/dcm-processor-1.1.2.tar.gz]
+[2024-05-02 09:21:52] INFO root fetch - processPackages [dcm-processor]: Remove: archive file [/home/abi/fetcher/tmp/dcm-processor-1.1.3.tar.gz]
+[2024-05-02 09:21:52] INFO root fetch - main [MainThread]: End processing [dcm-processor]: success
+[2024-05-02 09:21:53] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.8.tar.gz]
+[2024-05-02 09:21:53] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
+[2024-05-02 09:21:53] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
+[2024-05-02 09:21:53] INFO root fetch - main [MainThread]: Store serial: [23027371]
