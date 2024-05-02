@@ -7477,3 +7477,24 @@
 [2024-05-02 04:21:43] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240501.tar.gz]
 [2024-05-02 04:21:43] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-05-02 04:21:43] INFO root fetch - main [MainThread]: Store serial: [23025714]
+[2024-05-02 04:23:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025714]
+[2024-05-02 04:23:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 04:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: templated-setup
+[2024-05-02 04:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqerakit
+[2024-05-02 04:23:53] INFO root fetch - processPackages [templated-setup]: New version: [0.91] Old Version: [0.9]
+[2024-05-02 04:23:53] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/b2/11/fd0a3fde9b37635737412cf3660b7edf0e7e02d2cc02dcf162575f6499fe/templated_setup-0.9.tar.gz
+[2024-05-02 04:23:53] INFO root fetch - processPackages [seqerakit]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-02 04:23:54] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/77/4b/34a4b87e0d5e3c82570da678264ecbee58d58bca8dc25cc5402c48e176a3/templated_setup-0.91.tar.gz
+[2024-05-02 04:23:54] INFO root fetch - processPackages [seqerakit]: Downloading https://files.pythonhosted.org/packages/30/ce/ce769bc12c4a9978b92d0a3804e78c48395e9b838bda4c8b1e6c369a261e/seqerakit-0.4.7.tar.gz
+[2024-05-02 04:23:54] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 04:23:54] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.9.tar.gz tmp/templated_setup-0.91.tar.gz --markdown 20240502/t/templated-setup/0.9-0.91/README.md --exclude *.pyd
+[2024-05-02 04:23:54] INFO root fetch - processPackages [seqerakit]: Downloading https://files.pythonhosted.org/packages/e0/a2/5a73d68bb48b96cb26f71f8c9bd7e7a7bb71f754f7d3b46c627a45694c6a/seqerakit-0.4.8.tar.gz
+[2024-05-02 04:23:54] INFO root fetch - processPackages [seqerakit]: executing diffoscope
+[2024-05-02 04:23:54] INFO root fetch - processPackages [seqerakit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqerakit-0.4.7.tar.gz tmp/seqerakit-0.4.8.tar.gz --markdown 20240502/s/seqerakit/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-02 04:23:54] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.9.tar.gz]
+[2024-05-02 04:23:54] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.91.tar.gz]
+[2024-05-02 04:23:54] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 04:23:55] INFO root fetch - processPackages [seqerakit]: Remove: archive file [/home/abi/fetcher/tmp/seqerakit-0.4.7.tar.gz]
+[2024-05-02 04:23:55] INFO root fetch - processPackages [seqerakit]: Remove: archive file [/home/abi/fetcher/tmp/seqerakit-0.4.8.tar.gz]
+[2024-05-02 04:23:55] INFO root fetch - main [MainThread]: End processing [seqerakit]: success
+[2024-05-02 04:23:55] INFO root fetch - main [MainThread]: Store serial: [23025724]
