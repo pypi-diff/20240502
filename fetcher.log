@@ -13736,3 +13736,62 @@
 [2024-05-02 10:41:18] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.77.tar.gz]
 [2024-05-02 10:41:18] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-05-02 10:41:18] INFO root fetch - main [MainThread]: Store serial: [23028246]
+[2024-05-02 10:43:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028246]
+[2024-05-02 10:43:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 10:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: McQueen
+[2024-05-02 10:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-labtest
+[2024-05-02 10:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IronXL
+[2024-05-02 10:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: surfalize
+[2024-05-02 10:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rul_datasets
+[2024-05-02 10:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kuzu
+[2024-05-02 10:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ixoncdkingress
+[2024-05-02 10:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: param
+[2024-05-02 10:43:28] INFO root fetch - processPackages [ixoncdkingress]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 10:43:28] WARNING root fetch - processPackages [flask-labtest]: Skipping, unable to determine old version
+[2024-05-02 10:43:28] INFO root fetch - main [MainThread]: End processing [flask-labtest] error
+[2024-05-02 10:43:28] INFO root fetch - processPackages [surfalize]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-02 10:43:28] INFO root fetch - processPackages [param]: New version: [2.1.0rc1] Old Version: [2.1.0a2]
+[2024-05-02 10:43:28] WARNING root fetch - processPackages [McQueen]: Skipping, unable to determine old version
+[2024-05-02 10:43:28] INFO root fetch - main [MainThread]: End processing [McQueen] error
+[2024-05-02 10:43:28] INFO root fetch - processPackages [IronXL]: New version: [2024.5.0.5] Old Version: [2024.4.0.4]
+[2024-05-02 10:43:28] INFO root fetch - processPackages [rul_datasets]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-02 10:43:28] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/b3/1b/2738933755f61b85947702010ca1d9403e64824e49dcdc082f1b61a07b4a/ixoncdkingress-0.0.8.tar.gz
+[2024-05-02 10:43:29] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev53] Old Version: [0.3.3.dev52]
+[2024-05-02 10:43:29] INFO root fetch - processPackages [surfalize]: Downloading https://files.pythonhosted.org/packages/51/de/805f46c5b75abe9e9ea45d9c2590c1f065c1574fdead28e53f99e2d7f513/surfalize-0.8.2-cp39-cp39-win_amd64.whl
+[2024-05-02 10:43:29] INFO root fetch - processPackages [param]: Downloading https://files.pythonhosted.org/packages/7a/32/34fe34291a13ec8110ffaf28b676d53d26840fa5762ffd3d53fbfa70fd7b/param-2.1.0a2.tar.gz
+[2024-05-02 10:43:29] INFO root fetch - processPackages [IronXL]: Downloading https://files.pythonhosted.org/packages/86/76/eca5ec25439b497478041a822691e679c157a80fe5b35f15b3ecbb3f7576/IronXL-2024.4.0.4-py37-none-any.whl
+[2024-05-02 10:43:29] INFO root fetch - processPackages [rul_datasets]: Downloading https://files.pythonhosted.org/packages/7d/8d/52560cb1b6855adf1f2fc79d2ed7923927d1ac2627f8ac40879c536ba18d/rul_datasets-0.9.0.tar.gz
+[2024-05-02 10:43:29] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/81/5d/64486ddfc794e9b261c3c76607feaa76e92ecb01cd26ffd13bced3ecac65/ixoncdkingress-0.0.9.tar.gz
+[2024-05-02 10:43:29] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/ec/c6/da604398ba4b7f371b27744aebe247fd0ccfbf84bcf73119cc1ed94cc0e4/kuzu-0.3.3.dev52.tar.gz
+[2024-05-02 10:43:29] INFO root fetch - processPackages [surfalize]: Downloading https://files.pythonhosted.org/packages/cb/e0/c36a8c54637bff455accbcf3fa6502b9ced70bdf57471f0ba2741219c0de/surfalize-0.9.0-cp39-cp39-win_amd64.whl
+[2024-05-02 10:43:29] WARNING root fetch - processPackages [IronXL]: Skipping package: exceeds size limit 12136621>=10485760
+[2024-05-02 10:43:29] INFO root fetch - main [MainThread]: End processing [IronXL] error
+[2024-05-02 10:43:29] INFO root fetch - processPackages [ixoncdkingress]: executing diffoscope
+[2024-05-02 10:43:29] INFO root fetch - processPackages [ixoncdkingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixoncdkingress-0.0.8.tar.gz tmp/ixoncdkingress-0.0.9.tar.gz --markdown 20240502/i/ixoncdkingress/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 10:43:29] INFO root fetch - processPackages [surfalize]: executing diffoscope
+[2024-05-02 10:43:29] INFO root fetch - processPackages [surfalize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfalize-0.8.2-cp39-cp39-win_amd64.whl.zip tmp/surfalize-0.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240502/s/surfalize/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-02 10:43:29] INFO root fetch - processPackages [param]: Downloading https://files.pythonhosted.org/packages/64/a2/99cf39031a8b0f446f2086ac75f2a465235198bc58f524e075bc35220844/param-2.1.0rc1.tar.gz
+[2024-05-02 10:43:29] INFO root fetch - processPackages [rul_datasets]: Downloading https://files.pythonhosted.org/packages/4d/95/bd0012072765f23f47bb5c7e357289f663b36cc25df57e74ea78041f846f/rul_datasets-0.9.1.tar.gz
+[2024-05-02 10:43:29] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/db/fe/9437769ff52eb9959fbafdaff240870ffaa676bb270862ea68a32ab031d5/kuzu-0.3.3.dev53.tar.gz
+[2024-05-02 10:43:29] INFO root fetch - processPackages [param]: executing diffoscope
+[2024-05-02 10:43:29] INFO root fetch - processPackages [param]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/param-2.1.0a2.tar.gz tmp/param-2.1.0rc1.tar.gz --markdown 20240502/p/param/2.1.0a2-2.1.0rc1/README.md --exclude *.pyd
+[2024-05-02 10:43:30] INFO root fetch - processPackages [rul_datasets]: executing diffoscope
+[2024-05-02 10:43:30] INFO root fetch - processPackages [rul_datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rul_datasets-0.9.0.tar.gz tmp/rul_datasets-0.9.1.tar.gz --markdown 20240502/r/rul_datasets/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-02 10:43:30] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.8.tar.gz]
+[2024-05-02 10:43:30] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.9.tar.gz]
+[2024-05-02 10:43:30] INFO root fetch - main [MainThread]: End processing [ixoncdkingress]: success
+[2024-05-02 10:43:30] INFO root fetch - processPackages [surfalize]: Remove: archive file [/home/abi/fetcher/tmp/surfalize-0.8.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 10:43:30] INFO root fetch - processPackages [surfalize]: Remove: archive file [/home/abi/fetcher/tmp/surfalize-0.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 10:43:30] INFO root fetch - main [MainThread]: End processing [surfalize]: success
+[2024-05-02 10:43:30] INFO root fetch - processPackages [rul_datasets]: Remove: archive file [/home/abi/fetcher/tmp/rul_datasets-0.9.0.tar.gz]
+[2024-05-02 10:43:30] INFO root fetch - processPackages [rul_datasets]: Remove: archive file [/home/abi/fetcher/tmp/rul_datasets-0.9.1.tar.gz]
+[2024-05-02 10:43:30] INFO root fetch - main [MainThread]: End processing [rul_datasets]: success
+[2024-05-02 10:43:30] INFO root fetch - processPackages [param]: Remove: archive file [/home/abi/fetcher/tmp/param-2.1.0a2.tar.gz]
+[2024-05-02 10:43:30] INFO root fetch - processPackages [param]: Remove: archive file [/home/abi/fetcher/tmp/param-2.1.0rc1.tar.gz]
+[2024-05-02 10:43:30] INFO root fetch - main [MainThread]: End processing [param]: success
+[2024-05-02 10:43:31] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-02 10:43:31] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev52.tar.gz tmp/kuzu-0.3.3.dev53.tar.gz --markdown 20240502/k/kuzu/0.3.3.dev52-0.3.3.dev53/README.md --exclude *.pyd
+[2024-05-02 10:43:38] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev52.tar.gz]
+[2024-05-02 10:43:38] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev53.tar.gz]
+[2024-05-02 10:43:38] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-02 10:43:38] INFO root fetch - main [MainThread]: Store serial: [23028300]
