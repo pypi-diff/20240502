@@ -23002,3 +23002,105 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 16:03:36] INFO root fetch - processPackages [insideopt-gains]: Remove: archive file [/home/abi/fetcher/tmp/insideopt-gains-0.0.2.tar.gz]
 [2024-05-02 16:03:36] INFO root fetch - main [MainThread]: End processing [insideopt-gains]: success
 [2024-05-02 16:03:36] INFO root fetch - main [MainThread]: Store serial: [23031973]
+[2024-05-02 16:05:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031973]
+[2024-05-02 16:05:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-02 16:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trame-vtk
+[2024-05-02 16:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: salabim
+[2024-05-02 16:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hunter
+[2024-05-02 16:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netlink-keepass
+[2024-05-02 16:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xsuite
+[2024-05-02 16:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: infini-transformer-pytorch
+[2024-05-02 16:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccs-digitalmarketplace-apiclient
+[2024-05-02 16:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-request
+[2024-05-02 16:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kibo-unibs-fp-lib
+[2024-05-02 16:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pipeline-ai
+[2024-05-02 16:05:55] INFO root fetch - processPackages [trame-vtk]: New version: [2.8.7] Old Version: [2.8.6]
+[2024-05-02 16:05:55] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: New version: [25.7.0] Old Version: [25.6.0]
+[2024-05-02 16:05:55] INFO root fetch - processPackages [netlink-keepass]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-02 16:05:55] INFO root fetch - processPackages [infini-transformer-pytorch]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-02 16:05:55] INFO root fetch - processPackages [salabim]: New version: [24.0.3.1] Old Version: [24.0.3]
+[2024-05-02 16:05:55] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.7]
+[2024-05-02 16:05:55] INFO root fetch - processPackages [kibo-unibs-fp-lib]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-02 16:05:55] INFO root fetch - processPackages [xsuite]: New version: [0.7.1] Old Version: [0.6.0]
+[2024-05-02 16:05:55] INFO root fetch - processPackages [pipeline-ai]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-05-02 16:05:55] INFO root fetch - processPackages [trame-vtk]: Downloading https://files.pythonhosted.org/packages/2a/1d/a52cac06f468d3d0351c5aeac1577311c11b780351c3a3323be6acfd986f/trame-vtk-2.8.6.tar.gz
+[2024-05-02 16:05:55] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Downloading https://files.pythonhosted.org/packages/a2/7c/9ef99d537dd6feb735bfc4206e4d327f67752c434dbf3ec89bd60d07fa10/ccs-digitalmarketplace-apiclient-25.6.0.tar.gz
+[2024-05-02 16:05:55] INFO root fetch - processPackages [hunter]: New version: [3.7.0] Old Version: [3.6.1]
+[2024-05-02 16:05:55] INFO root fetch - processPackages [salabim]: Downloading https://files.pythonhosted.org/packages/f8/d0/fffdefb7dd9af1a3a2f8ab4635c3edcea8982b813baaebd22ac3861ea16f/salabim-24.0.3.tar.gz
+[2024-05-02 16:05:55] INFO root fetch - processPackages [netlink-keepass]: Downloading https://files.pythonhosted.org/packages/20/30/b31d576df6436a11113ecd6f385163d624c2b188a1d22af9e2834bf70585/netlink-keepass-0.6.0.tar.gz
+[2024-05-02 16:05:55] INFO root fetch - processPackages [infini-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/d4/c2/61abef18037da403268ec8a98b80c90c1462cb5a5e254fd847806311794e/infini_transformer_pytorch-0.0.3.tar.gz
+[2024-05-02 16:05:55] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/11/8c/9fbd4fd236211b09082314d88b2a37814c743959b046ae8c85d5b3ebad82/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl
+[2024-05-02 16:05:55] INFO root fetch - processPackages [kibo-unibs-fp-lib]: Downloading https://files.pythonhosted.org/packages/9d/08/5bfa105278c20ec2914ecb20d77a5350d82dc281e652b5bc556c991f675d/kibo_unibs_fp_lib-1.0.4.tar.gz
+[2024-05-02 16:05:55] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/ba/89/50813dc240222d72cd69806c72e75e9b16e02bd3dc78f6a6e582c627ebca/pipeline_ai-2.1.7.tar.gz
+[2024-05-02 16:05:55] INFO root fetch - processPackages [xsuite]: Downloading https://files.pythonhosted.org/packages/ab/5a/30bda7b9ad96e0e0453bb1fbd0e5e686ac38e8825fd3331aaf1b89925e6b/xsuite-0.6.0.tar.gz
+[2024-05-02 16:05:55] INFO root fetch - processPackages [hunter]: Downloading https://files.pythonhosted.org/packages/ea/72/78704756bce8881f37bd5f29f86e8c4e3d599d29a5a7770750184c226735/hunter-3.6.1.tar.gz
+[2024-05-02 16:05:56] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Downloading https://files.pythonhosted.org/packages/24/3f/9d801a14faf11f5bef3f512bf306fabb6c1814428dd6be31354656388f3e/ccs-digitalmarketplace-apiclient-25.7.0.tar.gz
+[2024-05-02 16:05:56] INFO root fetch - processPackages [trame-vtk]: Downloading https://files.pythonhosted.org/packages/f8/5d/e2c8f2af2fbd8b1fae3c896d6ad90767054a3bcaebb2ec75b9228ae25284/trame-vtk-2.8.7.tar.gz
+[2024-05-02 16:05:56] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: executing diffoscope
+[2024-05-02 16:05:56] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-apiclient-25.6.0.tar.gz tmp/ccs-digitalmarketplace-apiclient-25.7.0.tar.gz --markdown 20240502/c/ccs-digitalmarketplace-apiclient/25.6.0-25.7.0/README.md --exclude *.pyd
+[2024-05-02 16:05:56] INFO root fetch - processPackages [salabim]: Downloading https://files.pythonhosted.org/packages/b2/b8/6beba4e0d1160ba42cabf824a7a3ccce4b05352da9adb5e92bc45d566439/salabim-24.0.3.1.tar.gz
+[2024-05-02 16:05:56] INFO root fetch - processPackages [netlink-keepass]: Downloading https://files.pythonhosted.org/packages/5a/42/bb1e2b5d8c5183914d0fa4fe99fb8893a61a904bf296e2e1298d69a266c6/netlink-keepass-0.6.1.tar.gz
+[2024-05-02 16:05:56] INFO root fetch - processPackages [trame-vtk]: executing diffoscope
+[2024-05-02 16:05:56] INFO root fetch - processPackages [infini-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/d6/ae2340275ccd82dba893f410b54f57f591fbcf7423cc8c0ffc665bc611cd/infini_transformer_pytorch-0.0.4.tar.gz
+[2024-05-02 16:05:56] INFO root fetch - processPackages [trame-vtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-vtk-2.8.6.tar.gz tmp/trame-vtk-2.8.7.tar.gz --markdown 20240502/t/trame-vtk/2.8.6-2.8.7/README.md --exclude *.pyd
+[2024-05-02 16:05:56] INFO root fetch - processPackages [xsuite]: Downloading https://files.pythonhosted.org/packages/b5/b3/51176096640bb3f45058994f824a55326d839810c88c3a2dc23fb7b1e8e4/xsuite-0.7.1.tar.gz
+[2024-05-02 16:05:56] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/81/22/374ed174abcecff46bf56f927a1e73cbb29399bb6436a66956d405cbd28f/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl
+[2024-05-02 16:05:56] INFO root fetch - processPackages [kibo-unibs-fp-lib]: Downloading https://files.pythonhosted.org/packages/57/77/69ef88df2a69bcc107d1cd3752770569a03d18644c3b3368befa107de97d/kibo_unibs_fp_lib-1.1.0.tar.gz
+[2024-05-02 16:05:56] INFO root fetch - processPackages [netlink-keepass]: executing diffoscope
+[2024-05-02 16:05:56] INFO root fetch - processPackages [netlink-keepass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netlink-keepass-0.6.0.tar.gz tmp/netlink-keepass-0.6.1.tar.gz --markdown 20240502/n/netlink-keepass/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-02 16:05:56] INFO root fetch - processPackages [infini-transformer-pytorch]: executing diffoscope
+[2024-05-02 16:05:56] INFO root fetch - processPackages [infini-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infini_transformer_pytorch-0.0.3.tar.gz tmp/infini_transformer_pytorch-0.0.4.tar.gz --markdown 20240502/i/infini-transformer-pytorch/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-02 16:05:56] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/44/97/ed6fea922c7436f09eff846a2469d158940e30fefe4968be6473b7f28fb4/pipeline_ai-2.1.8.tar.gz
+[2024-05-02 16:05:56] INFO root fetch - processPackages [hunter]: Downloading https://files.pythonhosted.org/packages/13/23/8549752fc57eff4b1ae113703b4d7943180b0aedb9d3513126b3605ca03f/hunter-3.7.0-pp310.pp38.pp39-none-any.whl
+[2024-05-02 16:05:56] INFO root fetch - processPackages [kibo-unibs-fp-lib]: executing diffoscope
+[2024-05-02 16:05:56] INFO root fetch - processPackages [kibo-unibs-fp-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kibo_unibs_fp_lib-1.0.4.tar.gz tmp/kibo_unibs_fp_lib-1.1.0.tar.gz --markdown 20240502/k/kibo-unibs-fp-lib/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-02 16:05:56] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2024-05-02 16:05:56] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-stock-request/17.0.1.0.0.7-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-02 16:05:56] INFO root fetch - processPackages [salabim]: executing diffoscope
+[2024-05-02 16:05:56] INFO root fetch - processPackages [salabim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salabim-24.0.3.tar.gz tmp/salabim-24.0.3.1.tar.gz --markdown 20240502/s/salabim/24.0.3-24.0.3.1/README.md --exclude *.pyd
+[2024-05-02 16:05:56] INFO root fetch - processPackages [hunter]: executing diffoscope
+[2024-05-02 16:05:56] INFO root fetch - processPackages [hunter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hunter-3.6.1.tar.gz tmp/hunter-3.7.0-pp310.pp38.pp39-none-any.whl.zip --markdown 20240502/h/hunter/3.6.1-3.7.0/README.md --exclude *.pyd
+[2024-05-02 16:05:56] INFO root fetch - processPackages [pipeline-ai]: executing diffoscope
+[2024-05-02 16:05:56] INFO root fetch - processPackages [pipeline-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_ai-2.1.7.tar.gz tmp/pipeline_ai-2.1.8.tar.gz --markdown 20240502/p/pipeline-ai/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-05-02 16:05:56] INFO root fetch - processPackages [xsuite]: executing diffoscope
+[2024-05-02 16:05:56] INFO root fetch - processPackages [xsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsuite-0.6.0.tar.gz tmp/xsuite-0.7.1.tar.gz --markdown 20240502/x/xsuite/0.6.0-0.7.1/README.md --exclude *.pyd
+[2024-05-02 16:05:57] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-apiclient-25.6.0.tar.gz]
+[2024-05-02 16:05:57] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-apiclient-25.7.0.tar.gz]
+[2024-05-02 16:05:57] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Start processing: lokzzpylib
+[2024-05-02 16:05:57] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-apiclient]: success
+[2024-05-02 16:05:57] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev9] Old Version: [0.2.dev83]
+[2024-05-02 16:05:57] INFO root fetch - processPackages [netlink-keepass]: Remove: archive file [/home/abi/fetcher/tmp/netlink-keepass-0.6.0.tar.gz]
+[2024-05-02 16:05:57] INFO root fetch - processPackages [netlink-keepass]: Remove: archive file [/home/abi/fetcher/tmp/netlink-keepass-0.6.1.tar.gz]
+[2024-05-02 16:05:57] INFO root fetch - main [MainThread]: End processing [netlink-keepass]: success
+[2024-05-02 16:05:57] INFO root fetch - processPackages [infini-transformer-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/infini_transformer_pytorch-0.0.3.tar.gz]
+[2024-05-02 16:05:57] INFO root fetch - processPackages [infini-transformer-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/infini_transformer_pytorch-0.0.4.tar.gz]
+[2024-05-02 16:05:57] INFO root fetch - main [MainThread]: End processing [infini-transformer-pytorch]: success
+[2024-05-02 16:05:57] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/ad/bb/c704676d05122984b4017b279ae1f3a1794dbb58937a70caa398321b52a5/lokzzpylib-0.2.dev83.tar.gz
+[2024-05-02 16:05:57] INFO root fetch - processPackages [kibo-unibs-fp-lib]: Remove: archive file [/home/abi/fetcher/tmp/kibo_unibs_fp_lib-1.0.4.tar.gz]
+[2024-05-02 16:05:57] INFO root fetch - processPackages [kibo-unibs-fp-lib]: Remove: archive file [/home/abi/fetcher/tmp/kibo_unibs_fp_lib-1.1.0.tar.gz]
+[2024-05-02 16:05:57] INFO root fetch - main [MainThread]: End processing [kibo-unibs-fp-lib]: success
+[2024-05-02 16:05:57] INFO root fetch - processPackages [hunter]: Remove: archive file [/home/abi/fetcher/tmp/hunter-3.6.1.tar.gz]
+[2024-05-02 16:05:57] INFO root fetch - processPackages [hunter]: Remove: archive file [/home/abi/fetcher/tmp/hunter-3.7.0-pp310.pp38.pp39-none-any.whl.zip]
+[2024-05-02 16:05:57] INFO root fetch - main [MainThread]: End processing [hunter]: success
+[2024-05-02 16:05:57] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/d3/9b/e4bbf15840f86c58df052ec37f778b6563255557c0f8edc61797a91a6dcf/lokzzpylib-0.2.dev9.tar.gz
+[2024-05-02 16:05:57] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-02 16:05:57] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-02 16:05:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2024-05-02 16:05:58] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-24.0.3.tar.gz]
+[2024-05-02 16:05:58] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-24.0.3.1.tar.gz]
+[2024-05-02 16:05:58] INFO root fetch - main [MainThread]: End processing [salabim]: success
+[2024-05-02 16:05:58] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2024-05-02 16:05:58] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev83.tar.gz tmp/lokzzpylib-0.2.dev9.tar.gz --markdown 20240502/l/lokzzpylib/0.2.dev83-0.2.dev9/README.md --exclude *.pyd
+[2024-05-02 16:05:58] INFO root fetch - processPackages [xsuite]: Remove: archive file [/home/abi/fetcher/tmp/xsuite-0.6.0.tar.gz]
+[2024-05-02 16:05:58] INFO root fetch - processPackages [xsuite]: Remove: archive file [/home/abi/fetcher/tmp/xsuite-0.7.1.tar.gz]
+[2024-05-02 16:05:58] INFO root fetch - main [MainThread]: End processing [xsuite]: success
+[2024-05-02 16:05:58] INFO root fetch - processPackages [trame-vtk]: Remove: archive file [/home/abi/fetcher/tmp/trame-vtk-2.8.6.tar.gz]
+[2024-05-02 16:05:58] INFO root fetch - processPackages [trame-vtk]: Remove: archive file [/home/abi/fetcher/tmp/trame-vtk-2.8.7.tar.gz]
+[2024-05-02 16:05:58] INFO root fetch - main [MainThread]: End processing [trame-vtk]: success
+[2024-05-02 16:05:58] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev83.tar.gz]
+[2024-05-02 16:05:58] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev9.tar.gz]
+[2024-05-02 16:05:58] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2024-05-02 16:05:58] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-2.1.7.tar.gz]
+[2024-05-02 16:05:58] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-2.1.8.tar.gz]
+[2024-05-02 16:05:58] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
+[2024-05-02 16:05:58] INFO root fetch - main [MainThread]: Store serial: [23032052]
