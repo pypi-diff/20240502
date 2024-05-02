@@ -19265,3 +19265,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 14:21:18] INFO root fetch - processPackages [snitun]: Remove: archive file [/home/abi/fetcher/tmp/snitun-0.9.tar.gz]
 [2024-05-02 14:21:18] INFO root fetch - main [MainThread]: End processing [snitun]: success
 [2024-05-02 14:21:18] INFO root fetch - main [MainThread]: Store serial: [23030658]
+[2024-05-02 14:23:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030658]
+[2024-05-02 14:23:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 14:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labeled-contrastive-framework
+[2024-05-02 14:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dialog-lib
+[2024-05-02 14:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: greyhorse
+[2024-05-02 14:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: http-backuper
+[2024-05-02 14:23:26] INFO root fetch - processPackages [dialog-lib]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2024-05-02 14:23:26] INFO root fetch - processPackages [labeled-contrastive-framework]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-02 14:23:26] INFO root fetch - processPackages [http-backuper]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-05-02 14:23:26] INFO root fetch - processPackages [dialog-lib]: Downloading https://files.pythonhosted.org/packages/e9/13/4188899d6b95c46737dcb91b618d7f043ee4fc94128efb54e8917315026d/dialog_lib-0.0.1.8.tar.gz
+[2024-05-02 14:23:26] INFO root fetch - processPackages [greyhorse]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-02 14:23:27] INFO root fetch - processPackages [greyhorse]: Downloading https://files.pythonhosted.org/packages/f6/03/d95d27f9eec104c0868bf64616dc7b4ed9d81f1d32df1bf4f56674755302/greyhorse-0.4.3.tar.gz
+[2024-05-02 14:23:27] INFO root fetch - processPackages [http-backuper]: Downloading https://files.pythonhosted.org/packages/de/e7/a3d9a51b9c7d8bdc1d80a24b303a2fab4b24440165fd5a5ecc1c7e0e3be9/http_backuper-0.1.5.tar.gz
+[2024-05-02 14:23:27] INFO root fetch - processPackages [dialog-lib]: Downloading https://files.pythonhosted.org/packages/a6/99/91b03e62dec54e7fb1c05a8fb35ed00fe60baf6eb48ab34311a56782abd6/dialog_lib-0.0.1.9.tar.gz
+[2024-05-02 14:23:27] INFO root fetch - processPackages [labeled-contrastive-framework]: Downloading https://files.pythonhosted.org/packages/6f/cb/f6b154913c9d43e956e3939ae3991c9eaff728eeb2fea956a373b19e28d0/labeled_contrastive_framework-0.2.5.tar.gz
+[2024-05-02 14:23:27] INFO root fetch - processPackages [dialog-lib]: executing diffoscope
+[2024-05-02 14:23:27] INFO root fetch - processPackages [dialog-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog_lib-0.0.1.8.tar.gz tmp/dialog_lib-0.0.1.9.tar.gz --markdown 20240502/d/dialog-lib/0.0.1.8-0.0.1.9/README.md --exclude *.pyd
+[2024-05-02 14:23:27] INFO root fetch - processPackages [greyhorse]: Downloading https://files.pythonhosted.org/packages/92/96/8b6df11e336cd129cd32eea0fddb60d0a6b05ddb5c917e17a52d5c6d7f27/greyhorse-0.4.4.tar.gz
+[2024-05-02 14:23:27] INFO root fetch - processPackages [labeled-contrastive-framework]: Downloading https://files.pythonhosted.org/packages/2b/c6/8eb433cb62f4baef1d641f5bda7105b33fc43c3fda6f59bdd9e1c16a0455/labeled_contrastive_framework-0.2.6.tar.gz
+[2024-05-02 14:23:27] INFO root fetch - processPackages [http-backuper]: Downloading https://files.pythonhosted.org/packages/b4/30/df43f7b803361ea39bbc2d032650ff4048ff124b5c699099c348c8bb033c/http_backuper-0.1.7.tar.gz
+[2024-05-02 14:23:27] INFO root fetch - processPackages [labeled-contrastive-framework]: executing diffoscope
+[2024-05-02 14:23:27] INFO root fetch - processPackages [labeled-contrastive-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labeled_contrastive_framework-0.2.5.tar.gz tmp/labeled_contrastive_framework-0.2.6.tar.gz --markdown 20240502/l/labeled-contrastive-framework/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-02 14:23:27] INFO root fetch - processPackages [greyhorse]: executing diffoscope
+[2024-05-02 14:23:27] INFO root fetch - processPackages [greyhorse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greyhorse-0.4.3.tar.gz tmp/greyhorse-0.4.4.tar.gz --markdown 20240502/g/greyhorse/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-02 14:23:27] INFO root fetch - processPackages [http-backuper]: executing diffoscope
+[2024-05-02 14:23:27] INFO root fetch - processPackages [http-backuper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http_backuper-0.1.5.tar.gz tmp/http_backuper-0.1.7.tar.gz --markdown 20240502/h/http-backuper/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-05-02 14:23:28] INFO root fetch - processPackages [dialog-lib]: Remove: archive file [/home/abi/fetcher/tmp/dialog_lib-0.0.1.8.tar.gz]
+[2024-05-02 14:23:28] INFO root fetch - processPackages [dialog-lib]: Remove: archive file [/home/abi/fetcher/tmp/dialog_lib-0.0.1.9.tar.gz]
+[2024-05-02 14:23:28] INFO root fetch - main [MainThread]: End processing [dialog-lib]: success
+[2024-05-02 14:23:28] INFO root fetch - processPackages [http-backuper]: Remove: archive file [/home/abi/fetcher/tmp/http_backuper-0.1.5.tar.gz]
+[2024-05-02 14:23:28] INFO root fetch - processPackages [http-backuper]: Remove: archive file [/home/abi/fetcher/tmp/http_backuper-0.1.7.tar.gz]
+[2024-05-02 14:23:28] INFO root fetch - main [MainThread]: End processing [http-backuper]: success
+[2024-05-02 14:23:28] INFO root fetch - processPackages [labeled-contrastive-framework]: Remove: archive file [/home/abi/fetcher/tmp/labeled_contrastive_framework-0.2.5.tar.gz]
+[2024-05-02 14:23:28] INFO root fetch - processPackages [labeled-contrastive-framework]: Remove: archive file [/home/abi/fetcher/tmp/labeled_contrastive_framework-0.2.6.tar.gz]
+[2024-05-02 14:23:28] INFO root fetch - main [MainThread]: End processing [labeled-contrastive-framework]: success
+[2024-05-02 14:23:28] INFO root fetch - processPackages [greyhorse]: Remove: archive file [/home/abi/fetcher/tmp/greyhorse-0.4.3.tar.gz]
+[2024-05-02 14:23:28] INFO root fetch - processPackages [greyhorse]: Remove: archive file [/home/abi/fetcher/tmp/greyhorse-0.4.4.tar.gz]
+[2024-05-02 14:23:28] INFO root fetch - main [MainThread]: End processing [greyhorse]: success
+[2024-05-02 14:23:28] INFO root fetch - main [MainThread]: Store serial: [23030670]
