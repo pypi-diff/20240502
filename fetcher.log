@@ -21482,3 +21482,118 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:15:21] INFO root fetch - processPackages [ironic]: Remove: archive file [/home/abi/fetcher/tmp/ironic-9.1.7.tar.gz]
 [2024-05-02 15:15:21] INFO root fetch - main [MainThread]: End processing [ironic]: success
 [2024-05-02 15:15:21] INFO root fetch - main [MainThread]: Store serial: [23031392]
+[2024-05-02 15:17:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031392]
+[2024-05-02 15:17:29] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-02 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yandexcloud
+[2024-05-02 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vfo
+[2024-05-02 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-project-tracker
+[2024-05-02 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: innertube-de
+[2024-05-02 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qtealeaves
+[2024-05-02 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yandexcloud
+[2024-05-02 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-tracking-manager
+[2024-05-02 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-l10n-br-fiscal
+[2024-05-02 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: velosaurus-calc
+[2024-05-02 15:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yandexcloud
+[2024-05-02 15:17:30] INFO root fetch - processPackages [innertube-de]: New version: [1.0.0.post2] Old Version: [1.0.0.post1]
+[2024-05-02 15:17:30] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev5] Old Version: [0.0.3.dev4]
+[2024-05-02 15:17:30] INFO root fetch - processPackages [vfo]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 15:17:30] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-02 15:17:30] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-02 15:17:30] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-02 15:17:30] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: New version: [16.0.1.9.0] Old Version: [16.0.1.8.1]
+[2024-05-02 15:17:30] INFO root fetch - processPackages [odoo-addon-tracking-manager]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.1.0]
+[2024-05-02 15:17:30] INFO root fetch - processPackages [qtealeaves]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-02 15:17:30] WARNING root fetch - processPackages [velosaurus-calc]: Skipping, unable to determine old version
+[2024-05-02 15:17:30] INFO root fetch - processPackages [velosaurus-calc]: Start processing: bifrost
+[2024-05-02 15:17:30] INFO root fetch - main [MainThread]: End processing [velosaurus-calc] error
+[2024-05-02 15:17:30] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/f2/b2/3170f109443b2b78f4807fe09398152143a7cff3475a1c6cd1e14082cfcc/ml_project_tracker-0.0.3.dev4.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [innertube-de]: Downloading https://files.pythonhosted.org/packages/44/f8/dddee1c2e8048604c7c8e328e24b5fbb943bfcf755f626557640d2820a54/innertube-de-1.0.0.post1.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [vfo]: Downloading https://files.pythonhosted.org/packages/22/89/bc9450ed228e298cefbb3e75740d646e77f0535eb47910ce0ea09ad60ef8/vfo-0.0.8.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [bifrost]: New version: [9.1.0] Old Version: [9.0.1]
+[2024-05-02 15:17:30] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [bifrost]: Downloading https://files.pythonhosted.org/packages/42/86/e2c354fa70edcda72eeab1fb109833e7d10268a25aed53dbf30dbc589724/bifrost-9.0.1.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [odoo-addon-tracking-manager]: Downloading https://files.pythonhosted.org/packages/44/34/006ab395c46f0e0d0a278a4e173ab141a4ee2b91190842ad84facad10c64/odoo_addon_tracking_manager-16.0.1.1.0-py3-none-any.whl
+[2024-05-02 15:17:30] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/8c/b7/2eccae596e7b39cf35b189de45f70337162c36b34d10eefd9985f2ad2fd8/qtealeaves-1.1.1.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/9a/ff/aeae7028d837f218dc1ae1e5c1a2a0b7454c8d0ef0cae1132d625dd11534/odoo_addon_l10n_br_fiscal-16.0.1.8.1-py3-none-any.whl
+[2024-05-02 15:17:30] INFO root fetch - processPackages [vfo]: Downloading https://files.pythonhosted.org/packages/27/94/f2e9323879b346faf68af1b8520aad47fe826f65e0b80797cc4e533d7654/vfo-0.0.9.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/a7/46/9c1cac6bc2bbcde98e6b7fd6a7dcfdca7b9ecef91696d74bfb0fd7576397/ml_project_tracker-0.0.3.dev5.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [innertube-de]: Downloading https://files.pythonhosted.org/packages/99/72/5238ce30fc5485d40ddb98a909c1f5f6c3940718783ace372c54919fec90/innertube-de-1.0.0.post2.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [bifrost]: Downloading https://files.pythonhosted.org/packages/8e/89/c4dd00db0f1522246906d43a5d1f1bed7fe424ad967c8a82a8c5f0fd452e/bifrost-9.1.0.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [vfo]: executing diffoscope
+[2024-05-02 15:17:30] INFO root fetch - processPackages [vfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vfo-0.0.8.tar.gz tmp/vfo-0.0.9.tar.gz --markdown 20240502/v/vfo/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 15:17:30] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-02 15:17:30] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.dev4.tar.gz tmp/ml_project_tracker-0.0.3.dev5.tar.gz --markdown 20240502/m/ml-project-tracker/0.0.3.dev4-0.0.3.dev5/README.md --exclude *.pyd
+[2024-05-02 15:17:30] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/33/76/f6fc357a6fa2dd32ce2c064ed1c15e7ec6be3e0580ac1a62b5b10a029e2c/qtealeaves-1.1.2.tar.gz
+[2024-05-02 15:17:30] INFO root fetch - processPackages [innertube-de]: executing diffoscope
+[2024-05-02 15:17:30] INFO root fetch - processPackages [innertube-de]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innertube-de-1.0.0.post1.tar.gz tmp/innertube-de-1.0.0.post2.tar.gz --markdown 20240502/i/innertube-de/1.0.0.post1-1.0.0.post2/README.md --exclude *.pyd
+[2024-05-02 15:17:30] INFO root fetch - processPackages [odoo-addon-tracking-manager]: Downloading https://files.pythonhosted.org/packages/ba/27/0cce4f4a023b7533f4ffae60d86903af8454add1be61adc3f99e0ec7874d/odoo_addon_tracking_manager-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-02 15:17:30] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-05-02 15:17:30] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240502/y/yandexcloud/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-02 15:17:31] INFO root fetch - processPackages [bifrost]: executing diffoscope
+[2024-05-02 15:17:31] INFO root fetch - processPackages [bifrost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bifrost-9.0.1.tar.gz tmp/bifrost-9.1.0.tar.gz --markdown 20240502/b/bifrost/9.0.1-9.1.0/README.md --exclude *.pyd
+[2024-05-02 15:17:31] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-05-02 15:17:31] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240502/y/yandexcloud/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-02 15:17:31] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-05-02 15:17:31] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240502/y/yandexcloud/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-02 15:17:31] INFO root fetch - processPackages [odoo-addon-tracking-manager]: executing diffoscope
+[2024-05-02 15:17:31] INFO root fetch - processPackages [odoo-addon-tracking-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_tracking_manager-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_tracking_manager-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-tracking-manager/16.0.1.1.0-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-02 15:17:31] INFO root fetch - processPackages [qtealeaves]: executing diffoscope
+[2024-05-02 15:17:31] INFO root fetch - processPackages [qtealeaves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtealeaves-1.1.1.tar.gz tmp/qtealeaves-1.1.2.tar.gz --markdown 20240502/q/qtealeaves/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-02 15:17:31] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/e7/1f/df19645f4430a961af7f148105e5a0d40a2e128f05890f99a5a90b42c98e/odoo_addon_l10n_br_fiscal-16.0.1.9.0-py3-none-any.whl
+[2024-05-02 15:17:31] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: executing diffoscope
+[2024-05-02 15:17:31] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_fiscal-16.0.1.8.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_fiscal-16.0.1.9.0-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-br-fiscal/16.0.1.8.1-16.0.1.9.0/README.md --exclude *.pyd
+[2024-05-02 15:17:31] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev4.tar.gz]
+[2024-05-02 15:17:31] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev5.tar.gz]
+[2024-05-02 15:17:31] INFO root fetch - processPackages [ml-project-tracker]: Start processing: networking-generic-switch
+[2024-05-02 15:17:31] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-02 15:17:31] INFO root fetch - processPackages [vfo]: Remove: archive file [/home/abi/fetcher/tmp/vfo-0.0.8.tar.gz]
+[2024-05-02 15:17:31] INFO root fetch - processPackages [vfo]: Remove: archive file [/home/abi/fetcher/tmp/vfo-0.0.9.tar.gz]
+[2024-05-02 15:17:31] INFO root fetch - processPackages [vfo]: Start processing: yandexcloud
+[2024-05-02 15:17:31] INFO root fetch - main [MainThread]: End processing [vfo]: success
+[2024-05-02 15:17:32] INFO root fetch - processPackages [innertube-de]: Remove: archive file [/home/abi/fetcher/tmp/innertube-de-1.0.0.post1.tar.gz]
+[2024-05-02 15:17:32] INFO root fetch - processPackages [innertube-de]: Remove: archive file [/home/abi/fetcher/tmp/innertube-de-1.0.0.post2.tar.gz]
+[2024-05-02 15:17:32] INFO root fetch - processPackages [innertube-de]: Start processing: decentriq-platform
+[2024-05-02 15:17:32] INFO root fetch - main [MainThread]: End processing [innertube-de]: success
+[2024-05-02 15:17:32] INFO root fetch - processPackages [networking-generic-switch]: New version: [7.3.0] Old Version: [7.2.0]
+[2024-05-02 15:17:32] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-02 15:17:32] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2024-05-02 15:17:32] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2024-05-02 15:17:32] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-05-02 15:17:32] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240502/y/yandexcloud/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-02 15:17:32] INFO root fetch - processPackages [odoo-addon-tracking-manager]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_tracking_manager-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-02 15:17:32] INFO root fetch - processPackages [odoo-addon-tracking-manager]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_tracking_manager-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-02 15:17:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-tracking-manager]: success
+[2024-05-02 15:17:32] INFO root fetch - processPackages [networking-generic-switch]: Downloading https://files.pythonhosted.org/packages/6c/70/e4e960321e2c64d4c7826de81ecb2388a61f3e359a57149d5384b622b828/networking-generic-switch-7.2.0.tar.gz
+[2024-05-02 15:17:32] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2024-05-02 15:17:32] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.1.tar.gz]
+[2024-05-02 15:17:32] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.2.tar.gz]
+[2024-05-02 15:17:32] INFO root fetch - main [MainThread]: End processing [qtealeaves]: success
+[2024-05-02 15:17:32] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2024-05-02 15:17:32] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20240502/d/decentriq-platform/0.9.0rc2-0.9.1/README.md --exclude *.pyd
+[2024-05-02 15:17:32] INFO root fetch - processPackages [networking-generic-switch]: Downloading https://files.pythonhosted.org/packages/00/e2/d7a25890ab592350e099ff20c9e3701d37dfcc0d9094bf9849edd7c7ba7f/networking-generic-switch-7.3.0.tar.gz
+[2024-05-02 15:17:33] INFO root fetch - processPackages [networking-generic-switch]: executing diffoscope
+[2024-05-02 15:17:33] INFO root fetch - processPackages [networking-generic-switch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networking-generic-switch-7.2.0.tar.gz tmp/networking-generic-switch-7.3.0.tar.gz --markdown 20240502/n/networking-generic-switch/7.2.0-7.3.0/README.md --exclude *.pyd
+[2024-05-02 15:17:33] INFO root fetch - processPackages [bifrost]: Remove: archive file [/home/abi/fetcher/tmp/bifrost-9.0.1.tar.gz]
+[2024-05-02 15:17:33] INFO root fetch - processPackages [bifrost]: Remove: archive file [/home/abi/fetcher/tmp/bifrost-9.1.0.tar.gz]
+[2024-05-02 15:17:33] INFO root fetch - main [MainThread]: End processing [bifrost]: success
+[2024-05-02 15:17:33] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2024-05-02 15:17:33] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2024-05-02 15:17:33] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2024-05-02 15:17:34] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_fiscal-16.0.1.8.1-py3-none-any.whl.zip]
+[2024-05-02 15:17:34] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_fiscal-16.0.1.9.0-py3-none-any.whl.zip]
+[2024-05-02 15:17:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-fiscal]: success
+[2024-05-02 15:17:34] INFO root fetch - processPackages [networking-generic-switch]: Remove: archive file [/home/abi/fetcher/tmp/networking-generic-switch-7.2.0.tar.gz]
+[2024-05-02 15:17:34] INFO root fetch - processPackages [networking-generic-switch]: Remove: archive file [/home/abi/fetcher/tmp/networking-generic-switch-7.3.0.tar.gz]
+[2024-05-02 15:17:34] INFO root fetch - main [MainThread]: End processing [networking-generic-switch]: success
+[2024-05-02 15:17:34] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2024-05-02 15:17:34] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2024-05-02 15:17:34] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-05-02 15:17:34] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-05-02 15:17:34] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-05-02 15:17:35] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-05-02 15:17:35] INFO root fetch - main [MainThread]: Store serial: [23031445]
