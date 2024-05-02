@@ -8865,3 +8865,50 @@
 [2024-05-02 06:22:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-iot-template-oca]: success
 [2024-05-02 06:22:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-iot-template-oca]: success
 [2024-05-02 06:22:31] INFO root fetch - main [MainThread]: Store serial: [23026282]
+[2024-05-02 06:24:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026282]
+[2024-05-02 06:24:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 06:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: karellen-llvm-clang
+[2024-05-02 06:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: karellen-llvm-core
+[2024-05-02 06:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: karellen-llvm-toolchain-tools
+[2024-05-02 06:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zcbot-web-core
+[2024-05-02 06:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zcbot-web-core
+[2024-05-02 06:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kubernator
+[2024-05-02 06:24:40] INFO root fetch - processPackages [karellen-llvm-clang]: New version: [18.1.4.0.post30] Old Version: [18.1.4.0.post25]
+[2024-05-02 06:24:40] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: New version: [18.1.4.0.post30] Old Version: [18.1.4.0.post25]
+[2024-05-02 06:24:40] INFO root fetch - processPackages [karellen-llvm-core]: New version: [18.1.4.0.post30] Old Version: [18.1.4.0.post25]
+[2024-05-02 06:24:40] INFO root fetch - processPackages [zcbot-web-core]: New version: [1.9] Old Version: [1.8]
+[2024-05-02 06:24:40] INFO root fetch - processPackages [zcbot-web-core]: New version: [1.9] Old Version: [1.8]
+[2024-05-02 06:24:40] INFO root fetch - processPackages [kubernator]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 06:24:40] INFO root fetch - processPackages [karellen-llvm-clang]: Downloading https://files.pythonhosted.org/packages/f5/75/08a2747af4570c145beddf128f97a7aa5a4c7c677daf73ea6d86cbd12211/karellen_llvm_clang-18.1.4.0.post25-py3-none-manylinux2014_x86_64.whl
+[2024-05-02 06:24:40] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/04/88/99729d19fdad014723172c055f8e3a6f01249ecd0c6d1a944726f8055d03/karellen_llvm_toolchain_tools-18.1.4.0.post25-py3-none-manylinux2014_x86_64.whl
+[2024-05-02 06:24:40] INFO root fetch - processPackages [karellen-llvm-core]: Downloading https://files.pythonhosted.org/packages/e8/ec/225793d235e2140e81ea98814651f0b276398a40115d39fd4c7c2a20b662/karellen_llvm_core-18.1.4.0.post25-py3-none-manylinux2014_x86_64.whl
+[2024-05-02 06:24:40] INFO root fetch - processPackages [zcbot-web-core]: Downloading https://files.pythonhosted.org/packages/8e/1b/c708c5a5d6c6afabb6fa37d532cdd71b40696e7474f521fc148af547e058/zcbot-web-core-1.8.tar.gz
+[2024-05-02 06:24:40] WARNING root fetch - processPackages [karellen-llvm-clang]: Skipping package: exceeds size limit 78662118>=10485760
+[2024-05-02 06:24:40] INFO root fetch - main [MainThread]: End processing [karellen-llvm-clang] error
+[2024-05-02 06:24:40] INFO root fetch - processPackages [zcbot-web-core]: Downloading https://files.pythonhosted.org/packages/8e/1b/c708c5a5d6c6afabb6fa37d532cdd71b40696e7474f521fc148af547e058/zcbot-web-core-1.8.tar.gz
+[2024-05-02 06:24:40] WARNING root fetch - processPackages [karellen-llvm-core]: Skipping package: exceeds size limit 28600827>=10485760
+[2024-05-02 06:24:40] INFO root fetch - main [MainThread]: End processing [karellen-llvm-core] error
+[2024-05-02 06:24:40] INFO root fetch - processPackages [kubernator]: Downloading https://files.pythonhosted.org/packages/2c/46/9af0e05ad02b9449b49e892c43d69397745d0fab42e776b482f7c5b0d4fb/kubernator-1.0.8.tar.gz
+[2024-05-02 06:24:40] INFO root fetch - processPackages [zcbot-web-core]: Downloading https://files.pythonhosted.org/packages/e2/ee/ee6c1ef3025adbd2050fce3f3af6f7be8f5f4e3e78736755de8cbe8feb98/zcbot-web-core-1.9.tar.gz
+[2024-05-02 06:24:40] INFO root fetch - processPackages [zcbot-web-core]: Downloading https://files.pythonhosted.org/packages/e2/ee/ee6c1ef3025adbd2050fce3f3af6f7be8f5f4e3e78736755de8cbe8feb98/zcbot-web-core-1.9.tar.gz
+[2024-05-02 06:24:41] INFO root fetch - processPackages [kubernator]: Downloading https://files.pythonhosted.org/packages/3d/3a/f4fc92df915f81b62593a43db2e8d608735d2df1672fc2c1ffceecb45870/kubernator-1.0.9.tar.gz
+[2024-05-02 06:24:41] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/58/f6/bb5295da9df2ee7d99b55976fc9add1523856e22d58a6a18f4a0543d8fbd/karellen_llvm_toolchain_tools-18.1.4.0.post30-py3-none-manylinux2014_x86_64.whl
+[2024-05-02 06:24:41] INFO root fetch - processPackages [zcbot-web-core]: executing diffoscope
+[2024-05-02 06:24:41] INFO root fetch - processPackages [zcbot-web-core]: executing diffoscope
+[2024-05-02 06:24:41] INFO root fetch - processPackages [zcbot-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-web-core-1.8.tar.gz tmp/zcbot-web-core-1.9.tar.gz --markdown 20240502/z/zcbot-web-core/1.8-1.9/README.md --exclude *.pyd
+[2024-05-02 06:24:41] INFO root fetch - processPackages [zcbot-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-web-core-1.8.tar.gz tmp/zcbot-web-core-1.9.tar.gz --markdown 20240502/z/zcbot-web-core/1.8-1.9/README.md --exclude *.pyd
+[2024-05-02 06:24:41] INFO root fetch - processPackages [kubernator]: executing diffoscope
+[2024-05-02 06:24:41] INFO root fetch - processPackages [kubernator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernator-1.0.8.tar.gz tmp/kubernator-1.0.9.tar.gz --markdown 20240502/k/kubernator/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 06:24:41] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: executing diffoscope
+[2024-05-02 06:24:41] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karellen_llvm_toolchain_tools-18.1.4.0.post25-py3-none-manylinux2014_x86_64.whl.zip tmp/karellen_llvm_toolchain_tools-18.1.4.0.post30-py3-none-manylinux2014_x86_64.whl.zip --markdown 20240502/k/karellen-llvm-toolchain-tools/18.1.4.0.post25-18.1.4.0.post30/README.md --exclude *.pyd
+[2024-05-02 06:24:41] INFO root fetch - processPackages [zcbot-web-core]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-web-core-1.8.tar.gz]
+[2024-05-02 06:24:41] INFO root fetch - processPackages [zcbot-web-core]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-web-core-1.9.tar.gz]
+[2024-05-02 06:24:41] INFO root fetch - main [MainThread]: End processing [zcbot-web-core]: success
+[2024-05-02 06:24:41] INFO root fetch - processPackages [kubernator]: Remove: archive file [/home/abi/fetcher/tmp/kubernator-1.0.8.tar.gz]
+[2024-05-02 06:24:41] INFO root fetch - processPackages [kubernator]: Remove: archive file [/home/abi/fetcher/tmp/kubernator-1.0.9.tar.gz]
+[2024-05-02 06:24:41] INFO root fetch - main [MainThread]: End processing [kubernator]: success
+[2024-05-02 06:24:41] INFO root fetch - main [MainThread]: End processing [zcbot-web-core]: success
+[2024-05-02 06:25:09] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.4.0.post25-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-02 06:25:09] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.4.0.post30-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-02 06:25:09] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
+[2024-05-02 06:25:09] INFO root fetch - main [MainThread]: Store serial: [23026295]
