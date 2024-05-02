@@ -7176,3 +7176,32 @@
 [2024-05-02 03:52:48] INFO root fetch - processPackages [cc512-evolution]: Remove: archive file [/home/abi/fetcher/tmp/cc512_evolution-1.0.0.tar.gz]
 [2024-05-02 03:52:48] INFO root fetch - main [MainThread]: End processing [cc512-evolution]: success
 [2024-05-02 03:52:48] INFO root fetch - main [MainThread]: Store serial: [23025564]
+[2024-05-02 03:54:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025564]
+[2024-05-02 03:54:56] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-02 03:56:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025564]
+[2024-05-02 03:57:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 03:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkg-inspect
+[2024-05-02 03:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aws
+[2024-05-02 03:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: es-wait
+[2024-05-02 03:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qai-storage
+[2024-05-02 03:57:03] WARNING root fetch - processPackages [qai-storage]: Skipping, unable to determine old version
+[2024-05-02 03:57:03] INFO root fetch - main [MainThread]: End processing [qai-storage] error
+[2024-05-02 03:57:03] WARNING root fetch - processPackages [pkg-inspect]: Skipping, unable to determine old version
+[2024-05-02 03:57:03] INFO root fetch - processPackages [es-wait]: New version: [0.5.0] Old Version: [0.3.5]
+[2024-05-02 03:57:03] INFO root fetch - main [MainThread]: End processing [pkg-inspect] error
+[2024-05-02 03:57:03] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-02 03:57:04] INFO root fetch - processPackages [es-wait]: Downloading https://files.pythonhosted.org/packages/96/29/cf8ee97bf8a41c0da6d0027eb67b857817bbc9af62581d00f7fe996ad242/es_wait-0.3.5.tar.gz
+[2024-05-02 03:57:04] INFO root fetch - processPackages [es-wait]: Downloading https://files.pythonhosted.org/packages/00/e9/e1a3e38b1e0968fd0e1b64ea0c591b31048ae5ad589c23460cce6c4d8899/es_wait-0.5.0.tar.gz
+[2024-05-02 03:57:04] INFO root fetch - processPackages [es-wait]: executing diffoscope
+[2024-05-02 03:57:04] INFO root fetch - processPackages [es-wait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_wait-0.3.5.tar.gz tmp/es_wait-0.5.0.tar.gz --markdown 20240502/e/es-wait/0.3.5-0.5.0/README.md --exclude *.pyd
+[2024-05-02 03:57:04] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.3.5.tar.gz]
+[2024-05-02 03:57:05] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.5.0.tar.gz]
+[2024-05-02 03:57:05] INFO root fetch - main [MainThread]: End processing [es-wait]: success
+[2024-05-02 03:57:07] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-02 03:57:08] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-02 03:57:08] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-02 03:57:08] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240502/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-02 03:57:24] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-02 03:57:24] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-02 03:57:24] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-02 03:57:24] INFO root fetch - main [MainThread]: Store serial: [23025577]
