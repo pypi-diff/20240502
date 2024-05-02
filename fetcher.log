@@ -10054,3 +10054,33 @@
 [2024-05-02 07:52:35] INFO root fetch - processPackages [k8sAI]: Remove: archive file [/home/abi/fetcher/tmp/k8sai-0.1.2.tar.gz]
 [2024-05-02 07:52:35] INFO root fetch - main [MainThread]: End processing [k8sAI]: success
 [2024-05-02 07:52:35] INFO root fetch - main [MainThread]: Store serial: [23026781]
+[2024-05-02 07:54:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026781]
+[2024-05-02 07:54:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 07:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-project-timeline
+[2024-05-02 07:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hbox
+[2024-05-02 07:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: generate-tools
+[2024-05-02 07:54:44] INFO root fetch - processPackages [hbox]: New version: [0.1.2] Old Version: [0.1.17]
+[2024-05-02 07:54:44] INFO root fetch - processPackages [odoo-addon-project-timeline]: New version: [16.0.1.4.1.4] Old Version: [16.0.1.4.1.3]
+[2024-05-02 07:54:44] INFO root fetch - processPackages [generate-tools]: New version: [0.1.1.dev1] Old Version: [0.1.0]
+[2024-05-02 07:54:44] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/6d/e9/4304c265a011eda6a0f796f048ff73f0aa7282d3ce29a28829b89e0aa49b/hbox-0.1.17.tar.gz
+[2024-05-02 07:54:44] INFO root fetch - processPackages [odoo-addon-project-timeline]: Downloading https://files.pythonhosted.org/packages/a6/8a/3bb47b14f918ed6233ea58dc77cd804034732c4fcd27ce0d56df8a3b0b56/odoo_addon_project_timeline-16.0.1.4.1.3-py3-none-any.whl
+[2024-05-02 07:54:44] INFO root fetch - processPackages [generate-tools]: Downloading https://files.pythonhosted.org/packages/3b/11/7facbabbd2b0fcf08a295af6150059b9e642d6ac6b10120e42f34e8eb101/generate_tools-0.1.0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-02 07:54:44] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/d9/1e/d6c044d1dd876f640fd8080c0d80bf9c1d753b6ae9fc1d5040d28b71f52c/hbox-0.1.2.tar.gz
+[2024-05-02 07:54:44] INFO root fetch - processPackages [hbox]: executing diffoscope
+[2024-05-02 07:54:44] INFO root fetch - processPackages [hbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbox-0.1.17.tar.gz tmp/hbox-0.1.2.tar.gz --markdown 20240502/h/hbox/0.1.17-0.1.2/README.md --exclude *.pyd
+[2024-05-02 07:54:45] INFO root fetch - processPackages [odoo-addon-project-timeline]: Downloading https://files.pythonhosted.org/packages/b9/74/094acd851a1f8c4ed82863a9a77e4a5f4bebd73c870fd46fe0dfda48e355/odoo_addon_project_timeline-16.0.1.4.1.4-py3-none-any.whl
+[2024-05-02 07:54:45] INFO root fetch - processPackages [odoo-addon-project-timeline]: executing diffoscope
+[2024-05-02 07:54:45] INFO root fetch - processPackages [odoo-addon-project-timeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_timeline-16.0.1.4.1.3-py3-none-any.whl.zip tmp/odoo_addon_project_timeline-16.0.1.4.1.4-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-project-timeline/16.0.1.4.1.3-16.0.1.4.1.4/README.md --exclude *.pyd
+[2024-05-02 07:54:45] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.1.17.tar.gz]
+[2024-05-02 07:54:45] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.1.2.tar.gz]
+[2024-05-02 07:54:45] INFO root fetch - main [MainThread]: End processing [hbox]: success
+[2024-05-02 07:54:45] INFO root fetch - processPackages [odoo-addon-project-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_timeline-16.0.1.4.1.3-py3-none-any.whl.zip]
+[2024-05-02 07:54:45] INFO root fetch - processPackages [odoo-addon-project-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_timeline-16.0.1.4.1.4-py3-none-any.whl.zip]
+[2024-05-02 07:54:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-timeline]: success
+[2024-05-02 07:54:46] INFO root fetch - processPackages [generate-tools]: Downloading https://files.pythonhosted.org/packages/89/a6/ffcea2cea791fbdf2ea6bebabf8175248334f670419e05a83218552f57fb/generate_tools-0.1.1.dev1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-02 07:54:49] INFO root fetch - processPackages [generate-tools]: executing diffoscope
+[2024-05-02 07:54:49] INFO root fetch - processPackages [generate-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generate_tools-0.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/generate_tools-0.1.1.dev1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240502/g/generate-tools/0.1.0-0.1.1.dev1/README.md --exclude *.pyd
+[2024-05-02 07:54:53] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-02 07:54:53] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.1.dev1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-02 07:54:53] INFO root fetch - main [MainThread]: End processing [generate-tools]: success
+[2024-05-02 07:54:53] INFO root fetch - main [MainThread]: Store serial: [23026790]
