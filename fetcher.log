@@ -11332,3 +11332,42 @@
 [2024-05-02 09:08:45] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.4-py3-none-any.whl.zip]
 [2024-05-02 09:08:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-sheet]: success
 [2024-05-02 09:08:45] INFO root fetch - main [MainThread]: Store serial: [23027306]
+[2024-05-02 09:10:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027306]
+[2024-05-02 09:10:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 09:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rulebricks
+[2024-05-02 09:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lense
+[2024-05-02 09:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adcl
+[2024-05-02 09:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pre5g
+[2024-05-02 09:10:55] INFO root fetch - processPackages [rulebricks]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-02 09:10:55] INFO root fetch - processPackages [adcl]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-02 09:10:55] INFO root fetch - processPackages [rulebricks]: Downloading https://files.pythonhosted.org/packages/c3/03/e38f7ada718cdcff19e925217a6b013f9640149cf2c548c011b6642a4d71/rulebricks-0.1.4.tar.gz
+[2024-05-02 09:10:55] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 09:10:55] INFO root fetch - processPackages [adcl]: Downloading https://files.pythonhosted.org/packages/75/b6/a0c00aa418de1666854ca6e6f556fafe81aba616d590d56b04245fb20a3d/adcl-0.1.4.tar.gz
+[2024-05-02 09:10:55] INFO root fetch - processPackages [pre5g]: New version: [4.0] Old Version: [3.9]
+[2024-05-02 09:10:55] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-05-02 09:10:55] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/dc/e7/450f7e0c156f851525e25a3b68a2b931a2cfb31f6ec213fb2ca882699195/pre5g-3.9.tar.gz
+[2024-05-02 09:10:56] INFO root fetch - processPackages [rulebricks]: Downloading https://files.pythonhosted.org/packages/f4/e1/a87d2cc6df74b5808905e71d3c7531d028a687f89472525f7c324d5cf674/rulebricks-0.1.5.tar.gz
+[2024-05-02 09:10:56] INFO root fetch - processPackages [adcl]: Downloading https://files.pythonhosted.org/packages/98/7e/bc3faaf0c0079240c0d52485576dd0174464ff32f681570d99ca025c1d45/adcl-0.1.5.tar.gz
+[2024-05-02 09:10:56] INFO root fetch - processPackages [rulebricks]: executing diffoscope
+[2024-05-02 09:10:56] INFO root fetch - processPackages [rulebricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rulebricks-0.1.4.tar.gz tmp/rulebricks-0.1.5.tar.gz --markdown 20240502/r/rulebricks/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-02 09:10:56] INFO root fetch - processPackages [adcl]: executing diffoscope
+[2024-05-02 09:10:56] INFO root fetch - processPackages [adcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adcl-0.1.4.tar.gz tmp/adcl-0.1.5.tar.gz --markdown 20240502/a/adcl/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-02 09:10:56] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-05-02 09:10:56] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/71/d0/f573c01bf0da908502c3500b0c93b01cb07663e29df73522d26e8ed5643f/pre5g-4.0-py3-none-any.whl
+[2024-05-02 09:10:56] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-05-02 09:10:56] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240502/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 09:10:56] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-05-02 09:10:56] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-3.9.tar.gz tmp/pre5g-4.0-py3-none-any.whl.zip --markdown 20240502/p/pre5g/3.9-4.0/README.md --exclude *.pyd
+[2024-05-02 09:10:56] INFO root fetch - processPackages [adcl]: Remove: archive file [/home/abi/fetcher/tmp/adcl-0.1.4.tar.gz]
+[2024-05-02 09:10:56] INFO root fetch - processPackages [adcl]: Remove: archive file [/home/abi/fetcher/tmp/adcl-0.1.5.tar.gz]
+[2024-05-02 09:10:56] INFO root fetch - main [MainThread]: End processing [adcl]: success
+[2024-05-02 09:10:56] INFO root fetch - processPackages [rulebricks]: Remove: archive file [/home/abi/fetcher/tmp/rulebricks-0.1.4.tar.gz]
+[2024-05-02 09:10:56] INFO root fetch - processPackages [rulebricks]: Remove: archive file [/home/abi/fetcher/tmp/rulebricks-0.1.5.tar.gz]
+[2024-05-02 09:10:56] INFO root fetch - main [MainThread]: End processing [rulebricks]: success
+[2024-05-02 09:10:57] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-05-02 09:10:57] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-05-02 09:10:57] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-05-02 09:10:57] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.9.tar.gz]
+[2024-05-02 09:10:57] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-4.0-py3-none-any.whl.zip]
+[2024-05-02 09:10:57] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-05-02 09:10:57] INFO root fetch - main [MainThread]: Store serial: [23027317]
