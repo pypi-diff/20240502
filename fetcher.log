@@ -8752,3 +8752,27 @@
 [2024-05-02 06:11:35] INFO root fetch - processPackages [decipher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decipher-sdk-0.0.2.tar.gz]
 [2024-05-02 06:11:35] INFO root fetch - main [MainThread]: End processing [decipher-sdk]: success
 [2024-05-02 06:11:35] INFO root fetch - main [MainThread]: Store serial: [23026247]
+[2024-05-02 06:13:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026247]
+[2024-05-02 06:13:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 06:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MyLLM
+[2024-05-02 06:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iamlistening
+[2024-05-02 06:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-uu
+[2024-05-02 06:13:44] WARNING root fetch - processPackages [simple-uu]: Skipping, unable to determine old version
+[2024-05-02 06:13:44] INFO root fetch - main [MainThread]: End processing [simple-uu] error
+[2024-05-02 06:13:44] INFO root fetch - processPackages [iamlistening]: New version: [5.1.9] Old Version: [5.1.8]
+[2024-05-02 06:13:44] INFO root fetch - processPackages [MyLLM]: New version: [4.8.9] Old Version: [4.8.8]
+[2024-05-02 06:13:44] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/17/a3/c8c72d3fe2409e7c53f4f1b62d22d58eda0f109b746f00cee99c542888b9/myllm-4.8.8.tar.gz
+[2024-05-02 06:13:44] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/07/a4/ba0689d7ba373ab01bee30148890982c66aebce125bf4cb4463c1279f1c8/iamlistening-5.1.8.tar.gz
+[2024-05-02 06:13:44] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/57/3a/bfe2f2c55e10a6dee7a033bc1731f5ed17fe7c958a210478832a958f6d80/myllm-4.8.9.tar.gz
+[2024-05-02 06:13:44] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/1e/81/79876c2de874a7124601107f9019de809d107376866a30720062e102ab24/iamlistening-5.1.9.tar.gz
+[2024-05-02 06:13:44] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2024-05-02 06:13:44] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-5.1.8.tar.gz tmp/iamlistening-5.1.9.tar.gz --markdown 20240502/i/iamlistening/5.1.8-5.1.9/README.md --exclude *.pyd
+[2024-05-02 06:13:44] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-05-02 06:13:44] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.8.tar.gz tmp/myllm-4.8.9.tar.gz --markdown 20240502/M/MyLLM/4.8.8-4.8.9/README.md --exclude *.pyd
+[2024-05-02 06:13:45] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.8.tar.gz]
+[2024-05-02 06:13:45] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.9.tar.gz]
+[2024-05-02 06:13:45] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2024-05-02 06:13:45] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.8.tar.gz]
+[2024-05-02 06:13:45] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.9.tar.gz]
+[2024-05-02 06:13:45] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-05-02 06:13:45] INFO root fetch - main [MainThread]: Store serial: [23026258]
