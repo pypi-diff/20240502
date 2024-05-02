@@ -6864,3 +6864,75 @@
 [2024-05-02 03:30:35] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.9.tar.gz]
 [2024-05-02 03:30:35] INFO root fetch - main [MainThread]: End processing [comfy-cli]: success
 [2024-05-02 03:30:35] INFO root fetch - main [MainThread]: Store serial: [23025296]
+[2024-05-02 03:32:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025296]
+[2024-05-02 03:32:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 03:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mistralrs
+[2024-05-02 03:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mistralrs-accelerate
+[2024-05-02 03:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mistralrs-cuda
+[2024-05-02 03:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mistralrs-metal
+[2024-05-02 03:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mistralrs-mkl
+[2024-05-02 03:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dflat-opt
+[2024-05-02 03:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geojp
+[2024-05-02 03:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-aws-native
+[2024-05-02 03:32:44] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-02 03:32:44] INFO root fetch - processPackages [geojp]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs-mkl]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-02 03:32:44] INFO root fetch - processPackages [dflat-opt]: New version: [3.1.0] Old Version: [3.0.1]
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs-metal]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs-accelerate]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-02 03:32:44] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs-cuda]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs-mkl]: Downloading https://files.pythonhosted.org/packages/b5/ed/d55c346e859971a73a6f46319198e4702e297da8dfe78b1ed0090503537b/mistralrs_mkl-0.1.2.tar.gz
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs]: Downloading https://files.pythonhosted.org/packages/b4/23/aa5b54e0b174ecc0e5ba8663612a3a72d02ffbe0f4deccf1a959e5e1dcec/mistralrs-0.1.2.tar.gz
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs-metal]: Downloading https://files.pythonhosted.org/packages/2e/83/375a3fd2cd78de38d5a79eadc2455937657da6058c25e195047d9ec231aa/mistralrs_metal-0.1.2.tar.gz
+[2024-05-02 03:32:44] INFO root fetch - processPackages [geojp]: Downloading https://files.pythonhosted.org/packages/4b/aa/d64cd5a731b62fd01fdbfb3eb1ea30e9214236065073223fbc7be921f88e/geojp-0.0.4.tar.gz
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs-accelerate]: Downloading https://files.pythonhosted.org/packages/d0/e6/9b6a6ae253aa8d699349edd85e1a8af5ed5db976e9434f0cb1cac56232a5/mistralrs_accelerate-0.1.2.tar.gz
+[2024-05-02 03:32:44] INFO root fetch - processPackages [dflat-opt]: Downloading https://files.pythonhosted.org/packages/2a/d1/f24e5d9b1747b2e1518d3c2a3b0d3795d120f37d7e5ce7307cbbffee9ec3/dflat_opt-3.0.1.tar.gz
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs-cuda]: Downloading https://files.pythonhosted.org/packages/e7/61/89892e82af5154dd0c818701c6a17f4f4fb56e1125c945fc6a0f185e28a0/mistralrs_cuda-0.1.2.tar.gz
+[2024-05-02 03:32:44] INFO root fetch - processPackages [dflat-opt]: Downloading https://files.pythonhosted.org/packages/bb/76/6c93624cf64ad4c58198bab68b9329da27ade19d1ec0dda0214507918bce/dflat_opt-3.1.0.tar.gz
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs-mkl]: Downloading https://files.pythonhosted.org/packages/b6/0f/bd0b08c5ca021c9bf91f84181ef8760ac024fb00e7e32ee9c7533f537f58/mistralrs_mkl-0.1.3.tar.gz
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs-accelerate]: Downloading https://files.pythonhosted.org/packages/01/f2/624f8e634b090831d54646abe1333802c9f01e02aec2ace0efc1ae9df88a/mistralrs_accelerate-0.1.3.tar.gz
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs]: Downloading https://files.pythonhosted.org/packages/5f/a3/452f5135862b46eb0925677cfe37380022786d981f440efb2c210a7fa068/mistralrs-0.1.3.tar.gz
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs-metal]: Downloading https://files.pythonhosted.org/packages/86/16/df9ba380414415265be73dd5c920a651149b7ee703e19bbedb7572670cb7/mistralrs_metal-0.1.3.tar.gz
+[2024-05-02 03:32:44] INFO root fetch - processPackages [geojp]: Downloading https://files.pythonhosted.org/packages/07/1f/c9f580109825ad2404cf59c11ef28b60a2eb4f93934c5063a305d7bfc97a/geojp-0.0.5.tar.gz
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs-cuda]: Downloading https://files.pythonhosted.org/packages/d3/91/439732f132881c7f57c1c260c0142a3a34364681e1535377301659acc28f/mistralrs_cuda-0.1.3.tar.gz
+[2024-05-02 03:32:44] WARNING root fetch - processPackages [geojp]: Skipping package: exceeds size limit 27823197>=10485760
+[2024-05-02 03:32:44] INFO root fetch - main [MainThread]: End processing [geojp] error
+[2024-05-02 03:32:44] INFO root fetch - processPackages [dflat-opt]: executing diffoscope
+[2024-05-02 03:32:44] INFO root fetch - processPackages [dflat-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dflat_opt-3.0.1.tar.gz tmp/dflat_opt-3.1.0.tar.gz --markdown 20240502/d/dflat-opt/3.0.1-3.1.0/README.md --exclude *.pyd
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs-mkl]: executing diffoscope
+[2024-05-02 03:32:44] INFO root fetch - processPackages [mistralrs-mkl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_mkl-0.1.2.tar.gz tmp/mistralrs_mkl-0.1.3.tar.gz --markdown 20240502/m/mistralrs-mkl/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-02 03:32:45] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-02 03:32:45] INFO root fetch - processPackages [mistralrs-accelerate]: executing diffoscope
+[2024-05-02 03:32:45] INFO root fetch - processPackages [mistralrs-accelerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_accelerate-0.1.2.tar.gz tmp/mistralrs_accelerate-0.1.3.tar.gz --markdown 20240502/m/mistralrs-accelerate/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-02 03:32:45] INFO root fetch - processPackages [mistralrs-metal]: executing diffoscope
+[2024-05-02 03:32:45] INFO root fetch - processPackages [mistralrs-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_metal-0.1.2.tar.gz tmp/mistralrs_metal-0.1.3.tar.gz --markdown 20240502/m/mistralrs-metal/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-02 03:32:45] INFO root fetch - processPackages [mistralrs-cuda]: executing diffoscope
+[2024-05-02 03:32:45] INFO root fetch - processPackages [mistralrs]: executing diffoscope
+[2024-05-02 03:32:45] INFO root fetch - processPackages [mistralrs-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_cuda-0.1.2.tar.gz tmp/mistralrs_cuda-0.1.3.tar.gz --markdown 20240502/m/mistralrs-cuda/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-02 03:32:45] INFO root fetch - processPackages [mistralrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs-0.1.2.tar.gz tmp/mistralrs-0.1.3.tar.gz --markdown 20240502/m/mistralrs/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-02 03:32:45] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-02 03:32:45] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240502/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-02 03:32:46] INFO root fetch - processPackages [dflat-opt]: Remove: archive file [/home/abi/fetcher/tmp/dflat_opt-3.0.1.tar.gz]
+[2024-05-02 03:32:46] INFO root fetch - processPackages [dflat-opt]: Remove: archive file [/home/abi/fetcher/tmp/dflat_opt-3.1.0.tar.gz]
+[2024-05-02 03:32:46] INFO root fetch - main [MainThread]: End processing [dflat-opt]: success
+[2024-05-02 03:32:46] INFO root fetch - processPackages [mistralrs-accelerate]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_accelerate-0.1.2.tar.gz]
+[2024-05-02 03:32:46] INFO root fetch - processPackages [mistralrs-accelerate]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_accelerate-0.1.3.tar.gz]
+[2024-05-02 03:32:46] INFO root fetch - main [MainThread]: End processing [mistralrs-accelerate]: success
+[2024-05-02 03:32:46] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.2.tar.gz]
+[2024-05-02 03:32:46] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.3.tar.gz]
+[2024-05-02 03:32:46] INFO root fetch - main [MainThread]: End processing [mistralrs]: success
+[2024-05-02 03:32:46] INFO root fetch - processPackages [mistralrs-metal]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_metal-0.1.2.tar.gz]
+[2024-05-02 03:32:46] INFO root fetch - processPackages [mistralrs-metal]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_metal-0.1.3.tar.gz]
+[2024-05-02 03:32:46] INFO root fetch - main [MainThread]: End processing [mistralrs-metal]: success
+[2024-05-02 03:32:46] INFO root fetch - processPackages [mistralrs-mkl]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_mkl-0.1.2.tar.gz]
+[2024-05-02 03:32:46] INFO root fetch - processPackages [mistralrs-mkl]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_mkl-0.1.3.tar.gz]
+[2024-05-02 03:32:46] INFO root fetch - main [MainThread]: End processing [mistralrs-mkl]: success
+[2024-05-02 03:32:46] INFO root fetch - processPackages [mistralrs-cuda]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_cuda-0.1.2.tar.gz]
+[2024-05-02 03:32:46] INFO root fetch - processPackages [mistralrs-cuda]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_cuda-0.1.3.tar.gz]
+[2024-05-02 03:32:46] INFO root fetch - main [MainThread]: End processing [mistralrs-cuda]: success
+[2024-05-02 03:32:59] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-02 03:32:59] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-02 03:32:59] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-02 03:32:59] INFO root fetch - main [MainThread]: Store serial: [23025373]
