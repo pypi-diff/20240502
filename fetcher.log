@@ -17155,3 +17155,36 @@
 [2024-05-02 12:50:57] INFO root fetch - processPackages [chargebee]: Remove: archive file [/home/abi/fetcher/tmp/chargebee-2.9.0.tar.gz]
 [2024-05-02 12:50:57] INFO root fetch - main [MainThread]: End processing [chargebee]: success
 [2024-05-02 12:50:57] INFO root fetch - main [MainThread]: Store serial: [23029720]
+[2024-05-02 12:53:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029720]
+[2024-05-02 12:53:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 12:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-barcodes
+[2024-05-02 12:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ado_wrapper
+[2024-05-02 12:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zk-synk
+[2024-05-02 12:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DataExtractorOEG
+[2024-05-02 12:53:06] INFO root fetch - processPackages [ado_wrapper]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-02 12:53:06] WARNING root fetch - processPackages [zk-synk]: Skipping, unable to determine old version
+[2024-05-02 12:53:06] INFO root fetch - main [MainThread]: End processing [zk-synk] error
+[2024-05-02 12:53:06] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 12:53:06] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/ee/37/4db15891b22c2cfea4d5232272f11b6090838c212c484e9406ee9d156140/ado_wrapper-1.3.0.tar.gz
+[2024-05-02 12:53:06] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/19/71/ff833491696fa8f4d7bdeba56ab2dd1597f169857e778291d2475a0c04d8/dataextractoroeg-0.3.8.tar.gz
+[2024-05-02 12:53:06] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: New version: [15.0.3.1.2] Old Version: [15.0.3.1.1]
+[2024-05-02 12:53:06] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/d0/59/a33f459a540d44809cd77a3beb04480436c212f2decd700817664a36573b/odoo_addon_stock_barcodes-15.0.3.1.1-py3-none-any.whl
+[2024-05-02 12:53:06] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/c8/20/96aa78294ea9171ec2e4d45f4b6e92d5ff555bf1c1890c051098c6db4422/ado_wrapper-1.4.0.tar.gz
+[2024-05-02 12:53:06] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/49/52/e5021f45b211823b931d5612b4aeff5943fb8ed95e19143beb6bad9d5620/dataextractoroeg-0.3.9.tar.gz
+[2024-05-02 12:53:06] INFO root fetch - processPackages [ado_wrapper]: executing diffoscope
+[2024-05-02 12:53:06] INFO root fetch - processPackages [ado_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ado_wrapper-1.3.0.tar.gz tmp/ado_wrapper-1.4.0.tar.gz --markdown 20240502/a/ado_wrapper/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-02 12:53:06] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-05-02 12:53:06] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.3.8.tar.gz tmp/dataextractoroeg-0.3.9.tar.gz --markdown 20240502/D/DataExtractorOEG/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 12:53:06] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/c2/b0/0e1f61721d5463ce444b1e79c562bbafea0a80dfee339c2a43ea623f34b3/odoo_addon_stock_barcodes-15.0.3.1.2-py3-none-any.whl
+[2024-05-02 12:53:06] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: executing diffoscope
+[2024-05-02 12:53:06] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes-15.0.3.1.1-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes-15.0.3.1.2-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-stock-barcodes/15.0.3.1.1-15.0.3.1.2/README.md --exclude *.pyd
+[2024-05-02 12:53:07] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.3.8.tar.gz]
+[2024-05-02 12:53:07] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.3.9.tar.gz]
+[2024-05-02 12:53:07] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-05-02 12:53:07] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.3.0.tar.gz]
+[2024-05-02 12:53:07] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.4.0.tar.gz]
+[2024-05-02 12:53:07] INFO root fetch - main [MainThread]: End processing [ado_wrapper]: success
+[2024-05-02 12:53:07] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.3.1.1-py3-none-any.whl.zip]
+[2024-05-02 12:53:07] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.3.1.2-py3-none-any.whl.zip]
+[2024-05-02 12:53:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
+[2024-05-02 12:53:07] INFO root fetch - main [MainThread]: Store serial: [23029730]
