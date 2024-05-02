@@ -19304,3 +19304,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 14:23:28] INFO root fetch - processPackages [greyhorse]: Remove: archive file [/home/abi/fetcher/tmp/greyhorse-0.4.4.tar.gz]
 [2024-05-02 14:23:28] INFO root fetch - main [MainThread]: End processing [greyhorse]: success
 [2024-05-02 14:23:28] INFO root fetch - main [MainThread]: Store serial: [23030670]
+[2024-05-02 14:25:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030670]
+[2024-05-02 14:25:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 14:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cycurl
+[2024-05-02 14:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2024-05-02 14:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azureml-acft-image-components
+[2024-05-02 14:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fedot-ind
+[2024-05-02 14:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fresco-static
+[2024-05-02 14:25:38] INFO root fetch - processPackages [azureml-acft-image-components]: New version: [47.0.0] Old Version: [0.0.9]
+[2024-05-02 14:25:38] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-02 14:25:38] INFO root fetch - processPackages [azureml-acft-image-components]: Downloading https://files.pythonhosted.org/packages/c2/4c/c39c6718dda35b70925d6b2c893e31372e3c932478f5c52caf1ae909f8fa/azureml_acft_image_components-0.0.9-py3-none-any.whl
+[2024-05-02 14:25:38] INFO root fetch - processPackages [fedot-ind]: New version: [0.4.2] Old Version: [0.4.1.2]
+[2024-05-02 14:25:38] INFO root fetch - processPackages [fresco-static]: New version: [0.3] Old Version: [0.2]
+[2024-05-02 14:25:38] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/10/ba/dce7980ff0b7c11c6b0d4933f275f376eb8a4c997f0527cc483ac2310c8b/bridgecrew-3.2.8.tar.gz
+[2024-05-02 14:25:38] INFO root fetch - processPackages [cycurl]: New version: [0.7.0b4] Old Version: [0.6.3b1]
+[2024-05-02 14:25:39] INFO root fetch - processPackages [fedot-ind]: Downloading https://files.pythonhosted.org/packages/c9/aa/b56915a89d3468e0eb206fcfe7ffdeb4637a5afde7d92964845eb69d0499/fedot_ind-0.4.1.2.tar.gz
+[2024-05-02 14:25:39] INFO root fetch - processPackages [fresco-static]: Downloading https://files.pythonhosted.org/packages/ab/10/8b1882754f4bef8d7812f5e116365cb39f507d8f08deae8707819feaa257/fresco-static-0.2.tar.gz
+[2024-05-02 14:25:39] INFO root fetch - processPackages [azureml-acft-image-components]: Downloading https://files.pythonhosted.org/packages/ed/c6/0925bf8a515e97fa26476fcb6e87ab00fd7d229eb4ef2ca46004f4e31e56/azureml_acft_image_components-47.0.0-py3-none-any.whl
+[2024-05-02 14:25:39] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-05-02 14:25:39] INFO root fetch - processPackages [cycurl]: Downloading https://files.pythonhosted.org/packages/1b/3d/6f834e284a9ebe0897acfc6476be5669af0dba9c086606360cac26170702/cycurl-0.6.3b1.tar.gz
+[2024-05-02 14:25:39] WARNING root fetch - processPackages [cycurl]: Skipping package: exceeds size limit 55364774>=10485760
+[2024-05-02 14:25:39] INFO root fetch - main [MainThread]: End processing [cycurl] error
+[2024-05-02 14:25:39] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-02 14:25:39] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.8.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240502/b/bridgecrew/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-02 14:25:39] INFO root fetch - processPackages [azureml-acft-image-components]: executing diffoscope
+[2024-05-02 14:25:39] INFO root fetch - processPackages [azureml-acft-image-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_image_components-0.0.9-py3-none-any.whl.zip tmp/azureml_acft_image_components-47.0.0-py3-none-any.whl.zip --markdown 20240502/a/azureml-acft-image-components/0.0.9-47.0.0/README.md --exclude *.pyd
+[2024-05-02 14:25:39] INFO root fetch - processPackages [fresco-static]: Downloading https://files.pythonhosted.org/packages/f1/51/4e85f4e2b2fc85c3b65023cf1a7e72c37bf0b07f2b81870573bc0503fee4/fresco_static-0.3-py3-none-any.whl
+[2024-05-02 14:25:39] INFO root fetch - processPackages [fedot-ind]: Downloading https://files.pythonhosted.org/packages/2a/ce/41df741b6d5b7d34b53fb650509ca46659942e4eac4f56e3c81580c9a923/fedot_ind-0.4.2.tar.gz
+[2024-05-02 14:25:39] INFO root fetch - processPackages [fedot-ind]: executing diffoscope
+[2024-05-02 14:25:39] INFO root fetch - processPackages [fedot-ind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedot_ind-0.4.1.2.tar.gz tmp/fedot_ind-0.4.2.tar.gz --markdown 20240502/f/fedot-ind/0.4.1.2-0.4.2/README.md --exclude *.pyd
+[2024-05-02 14:25:39] INFO root fetch - processPackages [fresco-static]: executing diffoscope
+[2024-05-02 14:25:39] INFO root fetch - processPackages [fresco-static]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fresco-static-0.2.tar.gz tmp/fresco_static-0.3-py3-none-any.whl.zip --markdown 20240502/f/fresco-static/0.2-0.3/README.md --exclude *.pyd
+[2024-05-02 14:25:39] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.8.tar.gz]
+[2024-05-02 14:25:39] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-05-02 14:25:39] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-02 14:25:40] INFO root fetch - processPackages [fresco-static]: Remove: archive file [/home/abi/fetcher/tmp/fresco-static-0.2.tar.gz]
+[2024-05-02 14:25:40] INFO root fetch - processPackages [fresco-static]: Remove: archive file [/home/abi/fetcher/tmp/fresco_static-0.3-py3-none-any.whl.zip]
+[2024-05-02 14:25:40] INFO root fetch - main [MainThread]: End processing [fresco-static]: success
+[2024-05-02 14:25:40] INFO root fetch - processPackages [azureml-acft-image-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_image_components-0.0.9-py3-none-any.whl.zip]
+[2024-05-02 14:25:40] INFO root fetch - processPackages [azureml-acft-image-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_image_components-47.0.0-py3-none-any.whl.zip]
+[2024-05-02 14:25:40] INFO root fetch - main [MainThread]: End processing [azureml-acft-image-components]: success
+[2024-05-02 14:25:40] INFO root fetch - processPackages [fedot-ind]: Remove: archive file [/home/abi/fetcher/tmp/fedot_ind-0.4.1.2.tar.gz]
+[2024-05-02 14:25:40] INFO root fetch - processPackages [fedot-ind]: Remove: archive file [/home/abi/fetcher/tmp/fedot_ind-0.4.2.tar.gz]
+[2024-05-02 14:25:40] INFO root fetch - main [MainThread]: End processing [fedot-ind]: success
+[2024-05-02 14:25:40] INFO root fetch - main [MainThread]: Store serial: [23030698]
