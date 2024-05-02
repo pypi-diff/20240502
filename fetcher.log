@@ -12506,3 +12506,74 @@
 [2024-05-02 09:59:35] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.9.tar.gz]
 [2024-05-02 09:59:35] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
 [2024-05-02 09:59:35] INFO root fetch - main [MainThread]: Store serial: [23027798]
+[2024-05-02 10:01:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027798]
+[2024-05-02 10:01:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 10:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly
+[2024-05-02 10:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvalem
+[2024-05-02 10:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-oscar
+[2024-05-02 10:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crewai
+[2024-05-02 10:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: github-org-manager
+[2024-05-02 10:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nnetsauce
+[2024-05-02 10:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Python-Education-Tools
+[2024-05-02 10:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: l2m2
+[2024-05-02 10:01:45] INFO root fetch - processPackages [github-org-manager]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-02 10:01:45] INFO root fetch - processPackages [Python-Education-Tools]: New version: [24.5.2] Old Version: [24.5.1]
+[2024-05-02 10:01:45] INFO root fetch - processPackages [crewai]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-05-02 10:01:45] INFO root fetch - processPackages [l2m2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 10:01:46] INFO root fetch - processPackages [pyvalem]: New version: [2.6.1] Old Version: [2.6]
+[2024-05-02 10:01:46] INFO root fetch - processPackages [github-org-manager]: Downloading https://files.pythonhosted.org/packages/1e/29/67f523b28db6d32d768ea1e0d7e7302f7b5488177f99edc648034a9e56d7/github_org_manager-0.1.0.tar.gz
+[2024-05-02 10:01:46] INFO root fetch - processPackages [nnetsauce]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-02 10:01:46] INFO root fetch - processPackages [django-oscar]: New version: [3.2b1] Old Version: [3.2b0]
+[2024-05-02 10:01:46] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/e9/e3/15cbe7ed14b2b805613edd70fe8d16de0f00ad49e45f0496db0d34c3274c/crewai-0.5.3.tar.gz
+[2024-05-02 10:01:46] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/7f/d9/56c6f685d611068059bd5a3578bbb0aad1b305b1842dc2c8904cc123b945/l2m2-0.0.8.tar.gz
+[2024-05-02 10:01:46] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240502] Old Version: [2.17.0.dev20240501]
+[2024-05-02 10:01:46] INFO root fetch - processPackages [pyvalem]: Downloading https://files.pythonhosted.org/packages/b3/8c/5fcfed3573036af478d986064110be2a03ea0674b87d9c6b2c26515eeb17/pyvalem-2.6.tar.gz
+[2024-05-02 10:01:46] INFO root fetch - processPackages [django-oscar]: Downloading https://files.pythonhosted.org/packages/03/ca/7927959daaaf4df8421bf25e219307ec98d9df1dad0511615ae76e032b4d/django-oscar-3.2b0.tar.gz
+[2024-05-02 10:01:46] INFO root fetch - processPackages [github-org-manager]: Downloading https://files.pythonhosted.org/packages/46/d8/bc89a1e1e282aeca2ad40a9ecb0a3a271e53cebc148c84930d382d221104/github_org_manager-0.2.0.tar.gz
+[2024-05-02 10:01:46] INFO root fetch - processPackages [nnetsauce]: Downloading https://files.pythonhosted.org/packages/e4/c1/c099d0aaf9dd67f11d6704ca840f18bc30e5bc6bc8610951c94cafda6620/nnetsauce-0.9.5-cp38-cp38-macosx_10_15_x86_64.whl
+[2024-05-02 10:01:46] INFO root fetch - processPackages [Python-Education-Tools]: Downloading https://files.pythonhosted.org/packages/f6/a9/68e03303cf3dc442d0c7e85c5833c62a340a7a156889742dd845b19a0614/Python_Education_Tools-24.5.1-py3-none-any.whl
+[2024-05-02 10:01:46] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/cc/a2/dbe134061914f7906a58b526cdf405e02c2a78096e5d90fc4eb5b326176c/l2m2-0.0.9.tar.gz
+[2024-05-02 10:01:46] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/4e/2d/131d296cf0495637bfea59b11af0767de8fa11466880e3d702ab43a360d0/crewai-0.5.5.tar.gz
+[2024-05-02 10:01:46] WARNING root fetch - processPackages [Python-Education-Tools]: Skipping package: exceeds size limit 26386315>=10485760
+[2024-05-02 10:01:46] INFO root fetch - main [MainThread]: End processing [Python-Education-Tools] error
+[2024-05-02 10:01:46] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/41/68/3e91bc51f94b161acc3e4992abd6c33d5c5eb30f03fb7ffa499aaee648dc/tf_nightly-2.17.0.dev20240501-cp39-cp39-win_amd64.whl
+[2024-05-02 10:01:46] INFO root fetch - processPackages [github-org-manager]: executing diffoscope
+[2024-05-02 10:01:46] INFO root fetch - processPackages [github-org-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_org_manager-0.1.0.tar.gz tmp/github_org_manager-0.2.0.tar.gz --markdown 20240502/g/github-org-manager/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-02 10:01:46] INFO root fetch - processPackages [l2m2]: executing diffoscope
+[2024-05-02 10:01:46] INFO root fetch - processPackages [l2m2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l2m2-0.0.8.tar.gz tmp/l2m2-0.0.9.tar.gz --markdown 20240502/l/l2m2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 10:01:46] INFO root fetch - processPackages [crewai]: executing diffoscope
+[2024-05-02 10:01:46] INFO root fetch - processPackages [crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai-0.5.3.tar.gz tmp/crewai-0.5.5.tar.gz --markdown 20240502/c/crewai/0.5.3-0.5.5/README.md --exclude *.pyd
+[2024-05-02 10:01:46] INFO root fetch - processPackages [pyvalem]: Downloading https://files.pythonhosted.org/packages/43/73/319d22faae152a983e31d6614de0454e2b99b3130d8f6400ed65c4e5225f/pyvalem-2.6.1.tar.gz
+[2024-05-02 10:01:46] INFO root fetch - processPackages [pyvalem]: executing diffoscope
+[2024-05-02 10:01:46] INFO root fetch - processPackages [pyvalem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvalem-2.6.tar.gz tmp/pyvalem-2.6.1.tar.gz --markdown 20240502/p/pyvalem/2.6-2.6.1/README.md --exclude *.pyd
+[2024-05-02 10:01:46] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/a5/a4/0b881c7002cabd5e9ccda52f1df3e956f2013c6d468881fe617ee9ed3a21/tf_nightly-2.17.0.dev20240502-cp39-cp39-win_amd64.whl
+[2024-05-02 10:01:46] INFO root fetch - processPackages [nnetsauce]: Downloading https://files.pythonhosted.org/packages/5d/3d/2c1ea2226e34b252e89b11951ff2d62c9dd12ea4a6a66be92a58b378f9de/nnetsauce-0.9.6-cp38-cp38-macosx_10_15_x86_64.whl
+[2024-05-02 10:01:47] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-02 10:01:47] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240501-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240502-cp39-cp39-win_amd64.whl.zip --markdown 20240502/t/tf-nightly/2.17.0.dev20240501-2.17.0.dev20240502/README.md --exclude *.pyd
+[2024-05-02 10:01:47] INFO root fetch - processPackages [nnetsauce]: executing diffoscope
+[2024-05-02 10:01:47] INFO root fetch - processPackages [nnetsauce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnetsauce-0.9.5-cp38-cp38-macosx_10_15_x86_64.whl.zip tmp/nnetsauce-0.9.6-cp38-cp38-macosx_10_15_x86_64.whl.zip --markdown 20240502/n/nnetsauce/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-02 10:01:47] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.8.tar.gz]
+[2024-05-02 10:01:47] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.9.tar.gz]
+[2024-05-02 10:01:47] INFO root fetch - main [MainThread]: End processing [l2m2]: success
+[2024-05-02 10:01:47] INFO root fetch - processPackages [github-org-manager]: Remove: archive file [/home/abi/fetcher/tmp/github_org_manager-0.1.0.tar.gz]
+[2024-05-02 10:01:47] INFO root fetch - processPackages [github-org-manager]: Remove: archive file [/home/abi/fetcher/tmp/github_org_manager-0.2.0.tar.gz]
+[2024-05-02 10:01:47] INFO root fetch - main [MainThread]: End processing [github-org-manager]: success
+[2024-05-02 10:01:47] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.3.tar.gz]
+[2024-05-02 10:01:47] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.5.tar.gz]
+[2024-05-02 10:01:47] INFO root fetch - main [MainThread]: End processing [crewai]: success
+[2024-05-02 10:01:47] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240501-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 10:01:47] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240502-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 10:01:47] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-02 10:01:47] INFO root fetch - processPackages [pyvalem]: Remove: archive file [/home/abi/fetcher/tmp/pyvalem-2.6.tar.gz]
+[2024-05-02 10:01:47] INFO root fetch - processPackages [pyvalem]: Remove: archive file [/home/abi/fetcher/tmp/pyvalem-2.6.1.tar.gz]
+[2024-05-02 10:01:47] INFO root fetch - main [MainThread]: End processing [pyvalem]: success
+[2024-05-02 10:01:48] INFO root fetch - processPackages [django-oscar]: Downloading https://files.pythonhosted.org/packages/1a/14/dc459ec70b66337293ad74e489b6a084513601c4976dff40c85ecd467fe6/django-oscar-3.2b1.tar.gz
+[2024-05-02 10:01:50] INFO root fetch - processPackages [django-oscar]: executing diffoscope
+[2024-05-02 10:01:50] INFO root fetch - processPackages [django-oscar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oscar-3.2b0.tar.gz tmp/django-oscar-3.2b1.tar.gz --markdown 20240502/d/django-oscar/3.2b0-3.2b1/README.md --exclude *.pyd
+[2024-05-02 10:01:55] INFO root fetch - processPackages [nnetsauce]: Remove: archive file [/home/abi/fetcher/tmp/nnetsauce-0.9.5-cp38-cp38-macosx_10_15_x86_64.whl.zip]
+[2024-05-02 10:01:55] INFO root fetch - processPackages [nnetsauce]: Remove: archive file [/home/abi/fetcher/tmp/nnetsauce-0.9.6-cp38-cp38-macosx_10_15_x86_64.whl.zip]
+[2024-05-02 10:01:55] INFO root fetch - main [MainThread]: End processing [nnetsauce]: success
+[2024-05-02 10:01:56] INFO root fetch - processPackages [django-oscar]: Remove: archive file [/home/abi/fetcher/tmp/django-oscar-3.2b0.tar.gz]
+[2024-05-02 10:01:56] INFO root fetch - processPackages [django-oscar]: Remove: archive file [/home/abi/fetcher/tmp/django-oscar-3.2b1.tar.gz]
+[2024-05-02 10:01:56] INFO root fetch - main [MainThread]: End processing [django-oscar]: success
+[2024-05-02 10:01:56] INFO root fetch - main [MainThread]: Store serial: [23027824]
