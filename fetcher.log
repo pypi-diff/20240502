@@ -8936,3 +8936,36 @@
 [2024-05-02 06:29:30] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-05-02 06:29:30] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-05-02 06:29:30] INFO root fetch - main [MainThread]: Store serial: [23026300]
+[2024-05-02 06:31:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026300]
+[2024-05-02 06:31:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 06:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-br-account-payment-order
+[2024-05-02 06:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arz-api
+[2024-05-02 06:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manyhttp
+[2024-05-02 06:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unstract-sdk
+[2024-05-02 06:31:40] INFO root fetch - processPackages [arz-api]: New version: [1.8] Old Version: [1.7]
+[2024-05-02 06:31:40] WARNING root fetch - processPackages [manyhttp]: Skipping, unable to determine old version
+[2024-05-02 06:31:40] INFO root fetch - main [MainThread]: End processing [manyhttp] error
+[2024-05-02 06:31:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: New version: [14.0.5.3.0] Old Version: [14.0.5.2.1.dev2]
+[2024-05-02 06:31:40] INFO root fetch - processPackages [arz-api]: Downloading https://files.pythonhosted.org/packages/e7/2f/67861fce68f4dfaef89d285a3496275322e8a128636b18b96ea87f11d736/arz_api-1.7.tar.gz
+[2024-05-02 06:31:40] INFO root fetch - processPackages [unstract-sdk]: New version: [0.9.0] Old Version: [0.24.0]
+[2024-05-02 06:31:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: Downloading https://files.pythonhosted.org/packages/b2/33/30c5b8e6a75cfa61c89018bd8f7c51b9f9f7c3dfdaec806d9484580195f6/odoo14_addon_l10n_br_account_payment_order-14.0.5.2.1.dev2-py3-none-any.whl
+[2024-05-02 06:31:40] INFO root fetch - processPackages [arz-api]: Downloading https://files.pythonhosted.org/packages/5d/2e/c2270c799977f0d914fd704a4f68f6e069e74af2c5418d591f473e8744d5/arz_api-1.8.tar.gz
+[2024-05-02 06:31:40] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/19/f4/e729c5930108d49d91cc462e5a6e2e7ea607c9e970ee2ae8d7d7f28005f4/unstract_sdk-0.24.0.tar.gz
+[2024-05-02 06:31:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: Downloading https://files.pythonhosted.org/packages/d9/7e/2693a0b3977858fa615d52e004c96af4178550ec6f3ecd66edcbbd6e5d71/odoo14_addon_l10n_br_account_payment_order-14.0.5.3.0-py3-none-any.whl
+[2024-05-02 06:31:40] INFO root fetch - processPackages [arz-api]: executing diffoscope
+[2024-05-02 06:31:40] INFO root fetch - processPackages [arz-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arz_api-1.7.tar.gz tmp/arz_api-1.8.tar.gz --markdown 20240502/a/arz-api/1.7-1.8/README.md --exclude *.pyd
+[2024-05-02 06:31:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: executing diffoscope
+[2024-05-02 06:31:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account_payment_order-14.0.5.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account_payment_order-14.0.5.3.0-py3-none-any.whl.zip --markdown 20240502/o/odoo14-addon-l10n-br-account-payment-order/14.0.5.2.1.dev2-14.0.5.3.0/README.md --exclude *.pyd
+[2024-05-02 06:31:40] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/22/1f/50c387a8927cd896566732d9181d7f9f7e3401ecd3b8958f546dd4dc605f/unstract_sdk-0.9.0.tar.gz
+[2024-05-02 06:31:41] INFO root fetch - processPackages [unstract-sdk]: executing diffoscope
+[2024-05-02 06:31:41] INFO root fetch - processPackages [unstract-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_sdk-0.24.0.tar.gz tmp/unstract_sdk-0.9.0.tar.gz --markdown 20240502/u/unstract-sdk/0.24.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 06:31:41] INFO root fetch - processPackages [arz-api]: Remove: archive file [/home/abi/fetcher/tmp/arz_api-1.7.tar.gz]
+[2024-05-02 06:31:41] INFO root fetch - processPackages [arz-api]: Remove: archive file [/home/abi/fetcher/tmp/arz_api-1.8.tar.gz]
+[2024-05-02 06:31:41] INFO root fetch - main [MainThread]: End processing [arz-api]: success
+[2024-05-02 06:31:41] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.24.0.tar.gz]
+[2024-05-02 06:31:41] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.9.0.tar.gz]
+[2024-05-02 06:31:41] INFO root fetch - main [MainThread]: End processing [unstract-sdk]: success
+[2024-05-02 06:31:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account_payment_order-14.0.5.2.1.dev2-py3-none-any.whl.zip]
+[2024-05-02 06:31:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account_payment_order-14.0.5.3.0-py3-none-any.whl.zip]
+[2024-05-02 06:31:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account-payment-order]: success
+[2024-05-02 06:31:41] INFO root fetch - main [MainThread]: Store serial: [23026311]
