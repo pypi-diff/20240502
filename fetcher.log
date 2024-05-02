@@ -14108,3 +14108,36 @@
 [2024-05-02 10:57:03] INFO root fetch - processPackages [prbdes]: Remove: archive file [/home/abi/fetcher/tmp/prbdes-0.1.1.tar.gz]
 [2024-05-02 10:57:03] INFO root fetch - main [MainThread]: End processing [prbdes]: success
 [2024-05-02 10:57:03] INFO root fetch - main [MainThread]: Store serial: [23028408]
+[2024-05-02 10:59:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028408]
+[2024-05-02 10:59:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 10:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cohere-haystack
+[2024-05-02 10:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssm-svg
+[2024-05-02 10:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sigmund
+[2024-05-02 10:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gekkota
+[2024-05-02 10:59:12] INFO root fetch - processPackages [sigmund]: New version: [0.16.6] Old Version: [0.16.5]
+[2024-05-02 10:59:12] WARNING root fetch - processPackages [ssm-svg]: Skipping, unable to determine old version
+[2024-05-02 10:59:12] INFO root fetch - main [MainThread]: End processing [ssm-svg] error
+[2024-05-02 10:59:12] INFO root fetch - processPackages [cohere-haystack]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-02 10:59:12] INFO root fetch - processPackages [sigmund]: Downloading https://files.pythonhosted.org/packages/b6/5a/ada1a68bcb4397e457709e26f6bd28d8ca7856010a5d2b2fc243ee694a65/sigmund-0.16.5.tar.gz
+[2024-05-02 10:59:12] INFO root fetch - processPackages [cohere-haystack]: Downloading https://files.pythonhosted.org/packages/54/a3/6c649d0d98a968bed63023394d07996d6e16fd60517eb49e8a0c37e093f6/cohere_haystack-0.6.0.tar.gz
+[2024-05-02 10:59:12] INFO root fetch - processPackages [gekkota]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-02 10:59:12] INFO root fetch - processPackages [gekkota]: Downloading https://files.pythonhosted.org/packages/3f/9a/433a050b6a079b01c2a2ae11de9a6507ca6bc78b73f5155691818a1f83df/gekkota-0.6.0.tar.gz
+[2024-05-02 10:59:12] INFO root fetch - processPackages [cohere-haystack]: Downloading https://files.pythonhosted.org/packages/43/b5/02df76c8a45fea0e088b9eb1bb33a1ade9a1593b870d379e58ed54858bf6/cohere_haystack-0.7.0.tar.gz
+[2024-05-02 10:59:13] INFO root fetch - processPackages [cohere-haystack]: executing diffoscope
+[2024-05-02 10:59:13] INFO root fetch - processPackages [cohere-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere_haystack-0.6.0.tar.gz tmp/cohere_haystack-0.7.0.tar.gz --markdown 20240502/c/cohere-haystack/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-02 10:59:13] INFO root fetch - processPackages [gekkota]: Downloading https://files.pythonhosted.org/packages/3e/43/fd935738bccb33fb824ad9882267682530e3f135f1d2d5d871339315074e/gekkota-0.7.0.tar.gz
+[2024-05-02 10:59:13] INFO root fetch - processPackages [sigmund]: Downloading https://files.pythonhosted.org/packages/01/30/46562b648441f390d438cfe7ae020b0db8c7ea703657149872650a498e68/sigmund-0.16.6.tar.gz
+[2024-05-02 10:59:13] INFO root fetch - processPackages [gekkota]: executing diffoscope
+[2024-05-02 10:59:13] INFO root fetch - processPackages [gekkota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gekkota-0.6.0.tar.gz tmp/gekkota-0.7.0.tar.gz --markdown 20240502/g/gekkota/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-02 10:59:13] INFO root fetch - processPackages [cohere-haystack]: Remove: archive file [/home/abi/fetcher/tmp/cohere_haystack-0.6.0.tar.gz]
+[2024-05-02 10:59:13] INFO root fetch - processPackages [cohere-haystack]: Remove: archive file [/home/abi/fetcher/tmp/cohere_haystack-0.7.0.tar.gz]
+[2024-05-02 10:59:13] INFO root fetch - main [MainThread]: End processing [cohere-haystack]: success
+[2024-05-02 10:59:13] INFO root fetch - processPackages [sigmund]: executing diffoscope
+[2024-05-02 10:59:13] INFO root fetch - processPackages [sigmund]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigmund-0.16.5.tar.gz tmp/sigmund-0.16.6.tar.gz --markdown 20240502/s/sigmund/0.16.5-0.16.6/README.md --exclude *.pyd
+[2024-05-02 10:59:14] INFO root fetch - processPackages [gekkota]: Remove: archive file [/home/abi/fetcher/tmp/gekkota-0.6.0.tar.gz]
+[2024-05-02 10:59:14] INFO root fetch - processPackages [gekkota]: Remove: archive file [/home/abi/fetcher/tmp/gekkota-0.7.0.tar.gz]
+[2024-05-02 10:59:14] INFO root fetch - main [MainThread]: End processing [gekkota]: success
+[2024-05-02 10:59:14] INFO root fetch - processPackages [sigmund]: Remove: archive file [/home/abi/fetcher/tmp/sigmund-0.16.5.tar.gz]
+[2024-05-02 10:59:14] INFO root fetch - processPackages [sigmund]: Remove: archive file [/home/abi/fetcher/tmp/sigmund-0.16.6.tar.gz]
+[2024-05-02 10:59:14] INFO root fetch - main [MainThread]: End processing [sigmund]: success
+[2024-05-02 10:59:14] INFO root fetch - main [MainThread]: Store serial: [23028422]
