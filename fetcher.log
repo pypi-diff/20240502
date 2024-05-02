@@ -23187,3 +23187,81 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 16:08:13] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.9.tar.gz]
 [2024-05-02 16:08:13] INFO root fetch - main [MainThread]: End processing [django-json-schema-editor]: success
 [2024-05-02 16:08:13] INFO root fetch - main [MainThread]: Store serial: [23032079]
+[2024-05-02 16:10:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23032079]
+[2024-05-02 16:10:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 16:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docker-shaper
+[2024-05-02 16:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elody
+[2024-05-02 16:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-date-range-account
+[2024-05-02 16:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: etncanedge-files
+[2024-05-02 16:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: camel-kenlm
+[2024-05-02 16:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rashdf
+[2024-05-02 16:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hdsr-pygithub
+[2024-05-02 16:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rHDPE-Data-Analysis
+[2024-05-02 16:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mindsdb-sql
+[2024-05-02 16:10:23] INFO root fetch - processPackages [rHDPE-Data-Analysis]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-02 16:10:23] INFO root fetch - processPackages [docker-shaper]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-02 16:10:23] INFO root fetch - processPackages [rashdf]: New version: [0.1.0b1] Old Version: [0.1.0]
+[2024-05-02 16:10:23] INFO root fetch - processPackages [camel-kenlm]: New version: [2024.5.2] Old Version: [2023.3.17.2]
+[2024-05-02 16:10:23] WARNING root fetch - processPackages [etncanedge-files]: Skipping, unable to determine old version
+[2024-05-02 16:10:23] INFO root fetch - main [MainThread]: End processing [etncanedge-files] error
+[2024-05-02 16:10:23] INFO root fetch - processPackages [odoo-addon-date-range-account]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1.6]
+[2024-05-02 16:10:23] INFO root fetch - processPackages [elody]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 16:10:23] INFO root fetch - processPackages [hdsr-pygithub]: New version: [1.9] Old Version: [1.8]
+[2024-05-02 16:10:23] INFO root fetch - processPackages [docker-shaper]: Downloading https://files.pythonhosted.org/packages/2a/fa/61f8b19ae20701ebfe7b5b61f9dc9323096ae5c7ef5f85e108bd9bfc5d00/docker_shaper-2.0.0.tar.gz
+[2024-05-02 16:10:23] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/92/49/b6f99d9570daebd738e8ff91753a2967746bfbe07aeec0cfa46a2ae70375/rHDPE_Data_Analysis-1.0.4.tar.gz
+[2024-05-02 16:10:23] INFO root fetch - processPackages [mindsdb-sql]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-02 16:10:23] INFO root fetch - processPackages [rashdf]: Downloading https://files.pythonhosted.org/packages/aa/cd/0dbe35b6bafe3ac2b2fe180ff2ecf3587c9d34cce6cfba79c1d769404042/rashdf-0.1.0.tar.gz
+[2024-05-02 16:10:23] INFO root fetch - processPackages [camel-kenlm]: Downloading https://files.pythonhosted.org/packages/d7/39/7c216baa683bd1cd4b6bb1ba1bc6b5d11874fb4636ce08ad896f5b25f1d5/camel-kenlm-2023.3.17.2.tar.gz
+[2024-05-02 16:10:23] INFO root fetch - processPackages [hdsr-pygithub]: Downloading https://files.pythonhosted.org/packages/41/f9/141e6b650cc5d419f4d1b0a37b76c17fc249842093c99e830ffe39515b3e/hdsr_pygithub-1.8.tar.gz
+[2024-05-02 16:10:23] INFO root fetch - processPackages [odoo-addon-date-range-account]: Downloading https://files.pythonhosted.org/packages/f2/71/d9b9d028f75bb8b7959d98b4fdf3e8734e2ad941f840db0f49f7081cb65d/odoo_addon_date_range_account-16.0.1.0.1.6-py3-none-any.whl
+[2024-05-02 16:10:23] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/14/85/dcf8ab018bbc225f911ce5f407f5d2b730dcf1cbe3c337d8c462c8444d4e/elody-0.0.8.tar.gz
+[2024-05-02 16:10:23] INFO root fetch - processPackages [docker-shaper]: Downloading https://files.pythonhosted.org/packages/c5/ab/719e48a5942af38c8c18364ad2b62d6817b2f6f38d89259fbf28ae6e5a05/docker_shaper-2.0.1.tar.gz
+[2024-05-02 16:10:23] INFO root fetch - processPackages [mindsdb-sql]: Downloading https://files.pythonhosted.org/packages/56/2f/83a44d655acc3b1adf5992ec45a80b34b7f56745ddad6605ff256faeb276/mindsdb_sql-0.8.1.tar.gz
+[2024-05-02 16:10:23] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/b4/70/607fbc5fa055710371c0be43030101da13eea73fdb230429496fcb4d5b6e/rHDPE_Data_Analysis-1.0.5.tar.gz
+[2024-05-02 16:10:23] INFO root fetch - processPackages [docker-shaper]: executing diffoscope
+[2024-05-02 16:10:23] INFO root fetch - processPackages [docker-shaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_shaper-2.0.0.tar.gz tmp/docker_shaper-2.0.1.tar.gz --markdown 20240502/d/docker-shaper/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-02 16:10:24] INFO root fetch - processPackages [rashdf]: Downloading https://files.pythonhosted.org/packages/92/24/27e9e90816800c505bbd84ca89e6da991ba2ffa5efc356a269bbcfb62979/rashdf-0.1.0b1.tar.gz
+[2024-05-02 16:10:24] INFO root fetch - processPackages [rHDPE-Data-Analysis]: executing diffoscope
+[2024-05-02 16:10:24] INFO root fetch - processPackages [rHDPE-Data-Analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rHDPE_Data_Analysis-1.0.4.tar.gz tmp/rHDPE_Data_Analysis-1.0.5.tar.gz --markdown 20240502/r/rHDPE-Data-Analysis/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-02 16:10:24] INFO root fetch - processPackages [camel-kenlm]: Downloading https://files.pythonhosted.org/packages/f4/df/34c74dd72f2bd440603e8cd784b0ef3850961bf9b8d6a88fdf79601de268/camel-kenlm-2024.5.2.zip
+[2024-05-02 16:10:24] INFO root fetch - processPackages [hdsr-pygithub]: Downloading https://files.pythonhosted.org/packages/5d/42/aaeb22fc67e6d652872597b97abfc7cca20a0bf555240cce92c5858309f2/hdsr_pygithub-1.9.tar.gz
+[2024-05-02 16:10:24] INFO root fetch - processPackages [rashdf]: executing diffoscope
+[2024-05-02 16:10:24] INFO root fetch - processPackages [rashdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rashdf-0.1.0.tar.gz tmp/rashdf-0.1.0b1.tar.gz --markdown 20240502/r/rashdf/0.1.0-0.1.0b1/README.md --exclude *.pyd
+[2024-05-02 16:10:24] INFO root fetch - processPackages [odoo-addon-date-range-account]: Downloading https://files.pythonhosted.org/packages/e7/31/459700fe6c6d19114ff441adf4fd89a888bd22621d70b9787bfff6a58c13/odoo_addon_date_range_account-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-02 16:10:24] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/99/6f/f71f54ed05b6deb367f13a4a8fb4bbcc9f25633144ffc11127b732f02e92/elody-0.0.9.tar.gz
+[2024-05-02 16:10:24] INFO root fetch - processPackages [camel-kenlm]: executing diffoscope
+[2024-05-02 16:10:24] INFO root fetch - processPackages [camel-kenlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camel-kenlm-2023.3.17.2.tar.gz tmp/camel-kenlm-2024.5.2.zip --markdown 20240502/c/camel-kenlm/2023.3.17.2-2024.5.2/README.md --exclude *.pyd
+[2024-05-02 16:10:24] INFO root fetch - processPackages [mindsdb-sql]: Downloading https://files.pythonhosted.org/packages/1a/30/d2ec692ab8426475be27f1632f19f01ecf647be7b17c1349166e60c27602/mindsdb_sql-0.9.0.tar.gz
+[2024-05-02 16:10:24] INFO root fetch - processPackages [odoo-addon-date-range-account]: executing diffoscope
+[2024-05-02 16:10:24] INFO root fetch - processPackages [odoo-addon-date-range-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_date_range_account-16.0.1.0.1.6-py3-none-any.whl.zip tmp/odoo_addon_date_range_account-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-date-range-account/16.0.1.0.1.6-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-02 16:10:24] INFO root fetch - processPackages [elody]: executing diffoscope
+[2024-05-02 16:10:24] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.8.tar.gz tmp/elody-0.0.9.tar.gz --markdown 20240502/e/elody/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 16:10:24] INFO root fetch - processPackages [hdsr-pygithub]: executing diffoscope
+[2024-05-02 16:10:24] INFO root fetch - processPackages [hdsr-pygithub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdsr_pygithub-1.8.tar.gz tmp/hdsr_pygithub-1.9.tar.gz --markdown 20240502/h/hdsr-pygithub/1.8-1.9/README.md --exclude *.pyd
+[2024-05-02 16:10:24] INFO root fetch - processPackages [mindsdb-sql]: executing diffoscope
+[2024-05-02 16:10:24] INFO root fetch - processPackages [mindsdb-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindsdb_sql-0.8.1.tar.gz tmp/mindsdb_sql-0.9.0.tar.gz --markdown 20240502/m/mindsdb-sql/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-02 16:10:24] INFO root fetch - processPackages [rashdf]: Remove: archive file [/home/abi/fetcher/tmp/rashdf-0.1.0.tar.gz]
+[2024-05-02 16:10:24] INFO root fetch - processPackages [rashdf]: Remove: archive file [/home/abi/fetcher/tmp/rashdf-0.1.0b1.tar.gz]
+[2024-05-02 16:10:24] INFO root fetch - main [MainThread]: End processing [rashdf]: success
+[2024-05-02 16:10:25] INFO root fetch - processPackages [docker-shaper]: Remove: archive file [/home/abi/fetcher/tmp/docker_shaper-2.0.0.tar.gz]
+[2024-05-02 16:10:25] INFO root fetch - processPackages [docker-shaper]: Remove: archive file [/home/abi/fetcher/tmp/docker_shaper-2.0.1.tar.gz]
+[2024-05-02 16:10:25] INFO root fetch - main [MainThread]: End processing [docker-shaper]: success
+[2024-05-02 16:10:25] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.4.tar.gz]
+[2024-05-02 16:10:25] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.5.tar.gz]
+[2024-05-02 16:10:25] INFO root fetch - main [MainThread]: End processing [rHDPE-Data-Analysis]: success
+[2024-05-02 16:10:25] INFO root fetch - processPackages [camel-kenlm]: Remove: archive file [/home/abi/fetcher/tmp/camel-kenlm-2023.3.17.2.tar.gz]
+[2024-05-02 16:10:25] INFO root fetch - processPackages [camel-kenlm]: Remove: archive file [/home/abi/fetcher/tmp/camel-kenlm-2024.5.2.zip]
+[2024-05-02 16:10:25] INFO root fetch - main [MainThread]: End processing [camel-kenlm]: success
+[2024-05-02 16:10:25] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.8.tar.gz]
+[2024-05-02 16:10:25] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.9.tar.gz]
+[2024-05-02 16:10:25] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2024-05-02 16:10:25] INFO root fetch - processPackages [odoo-addon-date-range-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_date_range_account-16.0.1.0.1.6-py3-none-any.whl.zip]
+[2024-05-02 16:10:25] INFO root fetch - processPackages [odoo-addon-date-range-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_date_range_account-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-02 16:10:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-date-range-account]: success
+[2024-05-02 16:10:25] INFO root fetch - processPackages [hdsr-pygithub]: Remove: archive file [/home/abi/fetcher/tmp/hdsr_pygithub-1.8.tar.gz]
+[2024-05-02 16:10:25] INFO root fetch - processPackages [hdsr-pygithub]: Remove: archive file [/home/abi/fetcher/tmp/hdsr_pygithub-1.9.tar.gz]
+[2024-05-02 16:10:25] INFO root fetch - main [MainThread]: End processing [hdsr-pygithub]: success
+[2024-05-02 16:10:25] INFO root fetch - processPackages [mindsdb-sql]: Remove: archive file [/home/abi/fetcher/tmp/mindsdb_sql-0.8.1.tar.gz]
+[2024-05-02 16:10:25] INFO root fetch - processPackages [mindsdb-sql]: Remove: archive file [/home/abi/fetcher/tmp/mindsdb_sql-0.9.0.tar.gz]
+[2024-05-02 16:10:25] INFO root fetch - main [MainThread]: End processing [mindsdb-sql]: success
+[2024-05-02 16:10:25] INFO root fetch - main [MainThread]: Store serial: [23032105]
