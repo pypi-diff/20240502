@@ -22345,3 +22345,36 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:45:21] INFO root fetch - processPackages [tsbot]: Remove: archive file [/home/abi/fetcher/tmp/tsbot-1.1.2.tar.gz]
 [2024-05-02 15:45:21] INFO root fetch - main [MainThread]: End processing [tsbot]: success
 [2024-05-02 15:45:21] INFO root fetch - main [MainThread]: Store serial: [23031734]
+[2024-05-02 15:47:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031734]
+[2024-05-02 15:47:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 15:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-05-02 15:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: defijn-integrations
+[2024-05-02 15:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bs-greenlight-cli
+[2024-05-02 15:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-project-tracker
+[2024-05-02 15:47:32] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev9] Old Version: [0.0.3.dev8]
+[2024-05-02 15:47:32] INFO root fetch - processPackages [torch-model-manager]: New version: [0.2.0.dev1] Old Version: [0.2.0]
+[2024-05-02 15:47:32] INFO root fetch - processPackages [bs-greenlight-cli]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-02 15:47:32] WARNING root fetch - processPackages [defijn-integrations]: Skipping, unable to determine old version
+[2024-05-02 15:47:32] INFO root fetch - main [MainThread]: End processing [defijn-integrations] error
+[2024-05-02 15:47:32] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/13/26/a5b9a6b4bcb04a2c400aacd5ec9a82c1f19e9deeddec458b16a3214c0d43/ml_project_tracker-0.0.3.dev8.tar.gz
+[2024-05-02 15:47:32] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/d8/36/8336c07cf05cc134b5135cb7218b6d083d68321e82b592ca5d53497f236f/torch_model_manager-0.2.0.tar.gz
+[2024-05-02 15:47:32] INFO root fetch - processPackages [bs-greenlight-cli]: Downloading https://files.pythonhosted.org/packages/97/ca/919b574e3264582c828f01b460475468fdcc8267c1f8b65904c7ac024913/bs_greenlight_cli-0.1.2.tar.gz
+[2024-05-02 15:47:32] INFO root fetch - processPackages [bs-greenlight-cli]: Downloading https://files.pythonhosted.org/packages/e4/00/5b5fd44f9731021a68591488a0c00c66099e8a4b55ee1d77e40e7d5d6cd9/bs_greenlight_cli-0.2.0.tar.gz
+[2024-05-02 15:47:32] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/39/89/e1d228a8873559d6109ad7534a4e1360eb86580d1eeda8724493e10c6d14/torch_model_manager-0.2.0.dev1.tar.gz
+[2024-05-02 15:47:32] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/3d/93/3fc636a58e164ddb5e1ec90928722e61b62248afeebf67163c16d1ca67cc/ml_project_tracker-0.0.3.dev9.tar.gz
+[2024-05-02 15:47:32] INFO root fetch - processPackages [bs-greenlight-cli]: executing diffoscope
+[2024-05-02 15:47:32] INFO root fetch - processPackages [bs-greenlight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_greenlight_cli-0.1.2.tar.gz tmp/bs_greenlight_cli-0.2.0.tar.gz --markdown 20240502/b/bs-greenlight-cli/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-02 15:47:32] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-02 15:47:32] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.2.0.tar.gz tmp/torch_model_manager-0.2.0.dev1.tar.gz --markdown 20240502/t/torch-model-manager/0.2.0-0.2.0.dev1/README.md --exclude *.pyd
+[2024-05-02 15:47:32] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-02 15:47:32] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.dev8.tar.gz tmp/ml_project_tracker-0.0.3.dev9.tar.gz --markdown 20240502/m/ml-project-tracker/0.0.3.dev8-0.0.3.dev9/README.md --exclude *.pyd
+[2024-05-02 15:47:33] INFO root fetch - processPackages [bs-greenlight-cli]: Remove: archive file [/home/abi/fetcher/tmp/bs_greenlight_cli-0.1.2.tar.gz]
+[2024-05-02 15:47:33] INFO root fetch - processPackages [bs-greenlight-cli]: Remove: archive file [/home/abi/fetcher/tmp/bs_greenlight_cli-0.2.0.tar.gz]
+[2024-05-02 15:47:33] INFO root fetch - main [MainThread]: End processing [bs-greenlight-cli]: success
+[2024-05-02 15:47:33] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev8.tar.gz]
+[2024-05-02 15:47:33] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev9.tar.gz]
+[2024-05-02 15:47:33] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-02 15:47:33] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.tar.gz]
+[2024-05-02 15:47:33] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev1.tar.gz]
+[2024-05-02 15:47:33] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-02 15:47:33] INFO root fetch - main [MainThread]: Store serial: [23031748]
