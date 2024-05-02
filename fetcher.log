@@ -13795,3 +13795,90 @@
 [2024-05-02 10:43:38] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev53.tar.gz]
 [2024-05-02 10:43:38] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-05-02 10:43:38] INFO root fetch - main [MainThread]: Store serial: [23028300]
+[2024-05-02 10:45:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028300]
+[2024-05-02 10:45:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-02 10:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vdf-io
+[2024-05-02 10:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2024-05-02 10:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: McQueen
+[2024-05-02 10:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aanalyticsact-1
+[2024-05-02 10:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kv-api
+[2024-05-02 10:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kv-fs
+[2024-05-02 10:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kv-sqlite-sync
+[2024-05-02 10:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly-cpu
+[2024-05-02 10:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydantic-glue
+[2024-05-02 10:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qontract-reconcile
+[2024-05-02 10:45:47] WARNING root fetch - processPackages [McQueen]: Skipping, unable to determine old version
+[2024-05-02 10:45:47] INFO root fetch - main [MainThread]: End processing [McQueen] error
+[2024-05-02 10:45:47] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-05-02 10:45:47] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-02 10:45:47] INFO root fetch - processPackages [aanalyticsact-1]: New version: [0.0.1.51] Old Version: [0.0.1.50]
+[2024-05-02 10:45:47] INFO root fetch - processPackages [kv-sqlite-sync]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 10:45:47] INFO root fetch - processPackages [pydantic-glue]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-02 10:45:47] INFO root fetch - processPackages [kv-fs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 10:45:47] INFO root fetch - processPackages [kv-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 10:45:47] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240502] Old Version: [2.17.0.dev20240501]
+[2024-05-02 10:45:47] INFO root fetch - processPackages [vdf-io]: New version: [0.1.9] Old Version: [0.1.85]
+[2024-05-02 10:45:47] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-05-02 10:45:47] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-02 10:45:47] INFO root fetch - processPackages [aanalyticsact-1]: Downloading https://files.pythonhosted.org/packages/c1/29/2217b0ff7d6e1c450c0fe3532987d9dc186b078e51046c86cbed62b9980d/aanalyticsact_1-0.0.1.50.tar.gz
+[2024-05-02 10:45:47] INFO root fetch - processPackages [kv-sqlite-sync]: Downloading https://files.pythonhosted.org/packages/35/dc/71d9618738e2f04df81fab68dc4c94206f00db110fc449ba2fff07b0ebf9/kv_sqlite_sync-0.1.8.tar.gz
+[2024-05-02 10:45:47] INFO root fetch - processPackages [kv-fs]: Downloading https://files.pythonhosted.org/packages/ce/a2/f35ba564d8ebb6ee16acf46478427e0c7a3b53c0670615888e41f3a659f7/kv_fs-0.1.8.tar.gz
+[2024-05-02 10:45:47] INFO root fetch - processPackages [kv-api]: Downloading https://files.pythonhosted.org/packages/61/c2/0cd9dfb6d55d90176e03da250e9cd3d7895a17404d1e263d27df26867816/kv_api-0.1.8.tar.gz
+[2024-05-02 10:45:47] INFO root fetch - processPackages [pydantic-glue]: Downloading https://files.pythonhosted.org/packages/3c/d7/143061386dbefe7cb6e00df4e2619664f9ade55a4b0db231e874ae6a0b94/pydantic_glue-0.1.0.tar.gz
+[2024-05-02 10:45:47] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/b5/4a/95d0ba3eb884a2adbe2144a1c341f3c653ba0e8afcff023002b48c8219a9/tf_nightly_cpu-2.17.0.dev20240501-cp39-cp39-win_amd64.whl
+[2024-05-02 10:45:47] INFO root fetch - processPackages [vdf-io]: Downloading https://files.pythonhosted.org/packages/0f/79/960c399848c4b4e73ae4986620f78539ea8443881aa1b95f0e571909a7f3/vdf_io-0.1.85.tar.gz
+[2024-05-02 10:45:47] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-02 10:45:48] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-05-02 10:45:48] INFO root fetch - processPackages [kv-sqlite-sync]: Downloading https://files.pythonhosted.org/packages/f2/b3/62cc7dc93e4f4e0659962d40a617454c3d9749cdb31b2018346d8fbd1d11/kv_sqlite_sync-0.1.9.tar.gz
+[2024-05-02 10:45:48] INFO root fetch - processPackages [aanalyticsact-1]: Downloading https://files.pythonhosted.org/packages/a9/06/8155b2f2f746b66400524bf3054ab8415f1807011098daac4a96dcf9d983/aanalyticsact_1-0.0.1.51.tar.gz
+[2024-05-02 10:45:48] INFO root fetch - processPackages [kv-fs]: Downloading https://files.pythonhosted.org/packages/64/9f/f2643d0b67c1ae501ceb250103b8c184589ed066befb6ff10f19fae5a2ab/kv_fs-0.1.9.tar.gz
+[2024-05-02 10:45:48] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-02 10:45:48] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240502/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-02 10:45:48] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/a8/f4/a6f72a52fd1f84a266cb7bf56af8bd452d51ca00c53868cd16adc630bbee/tf_nightly_cpu-2.17.0.dev20240502-cp39-cp39-win_amd64.whl
+[2024-05-02 10:45:48] INFO root fetch - processPackages [pydantic-glue]: Downloading https://files.pythonhosted.org/packages/a8/98/1dba2692589f11eeb1303f65d6e2bb08e397f1aac864ff8e845ba8d29707/pydantic_glue-0.2.0.tar.gz
+[2024-05-02 10:45:48] INFO root fetch - processPackages [vdf-io]: Downloading https://files.pythonhosted.org/packages/54/48/6653d701926d0676616e4c8e49bd591c2fa67a2abb3c903073d39d6cfe8b/vdf_io-0.1.9.tar.gz
+[2024-05-02 10:45:48] INFO root fetch - processPackages [kv-api]: Downloading https://files.pythonhosted.org/packages/1e/b2/f25171e71a6d535fa7b27e3336d68243c754ab5b6beccbda42bd247b98e3/kv_api-0.1.9.tar.gz
+[2024-05-02 10:45:48] INFO root fetch - processPackages [kv-sqlite-sync]: executing diffoscope
+[2024-05-02 10:45:48] INFO root fetch - processPackages [kv-sqlite-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_sqlite_sync-0.1.8.tar.gz tmp/kv_sqlite_sync-0.1.9.tar.gz --markdown 20240502/k/kv-sqlite-sync/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 10:45:48] INFO root fetch - processPackages [aanalyticsact-1]: executing diffoscope
+[2024-05-02 10:45:48] INFO root fetch - processPackages [aanalyticsact-1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalyticsact_1-0.0.1.50.tar.gz tmp/aanalyticsact_1-0.0.1.51.tar.gz --markdown 20240502/a/aanalyticsact-1/0.0.1.50-0.0.1.51/README.md --exclude *.pyd
+[2024-05-02 10:45:48] INFO root fetch - processPackages [kv-api]: executing diffoscope
+[2024-05-02 10:45:48] INFO root fetch - processPackages [kv-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_api-0.1.8.tar.gz tmp/kv_api-0.1.9.tar.gz --markdown 20240502/k/kv-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 10:45:48] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-02 10:45:48] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240501-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240502-cp39-cp39-win_amd64.whl.zip --markdown 20240502/t/tf-nightly-cpu/2.17.0.dev20240501-2.17.0.dev20240502/README.md --exclude *.pyd
+[2024-05-02 10:45:48] INFO root fetch - processPackages [vdf-io]: executing diffoscope
+[2024-05-02 10:45:48] INFO root fetch - processPackages [vdf-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdf_io-0.1.85.tar.gz tmp/vdf_io-0.1.9.tar.gz --markdown 20240502/v/vdf-io/0.1.85-0.1.9/README.md --exclude *.pyd
+[2024-05-02 10:45:48] INFO root fetch - processPackages [kv-fs]: executing diffoscope
+[2024-05-02 10:45:48] INFO root fetch - processPackages [kv-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_fs-0.1.8.tar.gz tmp/kv_fs-0.1.9.tar.gz --markdown 20240502/k/kv-fs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 10:45:48] INFO root fetch - processPackages [pydantic-glue]: executing diffoscope
+[2024-05-02 10:45:48] INFO root fetch - processPackages [pydantic-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_glue-0.1.0.tar.gz tmp/pydantic_glue-0.2.0.tar.gz --markdown 20240502/p/pydantic-glue/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-02 10:45:48] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-05-02 10:45:48] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240502/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-05-02 10:45:49] INFO root fetch - processPackages [kv-sqlite-sync]: Remove: archive file [/home/abi/fetcher/tmp/kv_sqlite_sync-0.1.8.tar.gz]
+[2024-05-02 10:45:49] INFO root fetch - processPackages [kv-sqlite-sync]: Remove: archive file [/home/abi/fetcher/tmp/kv_sqlite_sync-0.1.9.tar.gz]
+[2024-05-02 10:45:49] INFO root fetch - main [MainThread]: End processing [kv-sqlite-sync]: success
+[2024-05-02 10:45:49] INFO root fetch - processPackages [kv-api]: Remove: archive file [/home/abi/fetcher/tmp/kv_api-0.1.8.tar.gz]
+[2024-05-02 10:45:49] INFO root fetch - processPackages [kv-api]: Remove: archive file [/home/abi/fetcher/tmp/kv_api-0.1.9.tar.gz]
+[2024-05-02 10:45:49] INFO root fetch - main [MainThread]: End processing [kv-api]: success
+[2024-05-02 10:45:49] INFO root fetch - processPackages [aanalyticsact-1]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact_1-0.0.1.50.tar.gz]
+[2024-05-02 10:45:49] INFO root fetch - processPackages [aanalyticsact-1]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact_1-0.0.1.51.tar.gz]
+[2024-05-02 10:45:49] INFO root fetch - main [MainThread]: End processing [aanalyticsact-1]: success
+[2024-05-02 10:45:49] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240501-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 10:45:49] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240502-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 10:45:49] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-02 10:45:49] INFO root fetch - processPackages [pydantic-glue]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_glue-0.1.0.tar.gz]
+[2024-05-02 10:45:49] INFO root fetch - processPackages [pydantic-glue]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_glue-0.2.0.tar.gz]
+[2024-05-02 10:45:49] INFO root fetch - main [MainThread]: End processing [pydantic-glue]: success
+[2024-05-02 10:45:49] INFO root fetch - processPackages [kv-fs]: Remove: archive file [/home/abi/fetcher/tmp/kv_fs-0.1.8.tar.gz]
+[2024-05-02 10:45:49] INFO root fetch - processPackages [kv-fs]: Remove: archive file [/home/abi/fetcher/tmp/kv_fs-0.1.9.tar.gz]
+[2024-05-02 10:45:49] INFO root fetch - main [MainThread]: End processing [kv-fs]: success
+[2024-05-02 10:45:49] INFO root fetch - processPackages [vdf-io]: Remove: archive file [/home/abi/fetcher/tmp/vdf_io-0.1.85.tar.gz]
+[2024-05-02 10:45:49] INFO root fetch - processPackages [vdf-io]: Remove: archive file [/home/abi/fetcher/tmp/vdf_io-0.1.9.tar.gz]
+[2024-05-02 10:45:49] INFO root fetch - main [MainThread]: End processing [vdf-io]: success
+[2024-05-02 10:45:50] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-02 10:45:50] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-02 10:45:50] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-02 10:45:51] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-05-02 10:45:51] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-05-02 10:45:51] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-05-02 10:45:51] INFO root fetch - main [MainThread]: Store serial: [23028328]
