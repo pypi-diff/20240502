@@ -2406,3 +2406,59 @@
 [2024-05-02 02:26:45] INFO root fetch - processPackages [xlextract]: Remove: archive file [/home/abi/fetcher/tmp/xlextract-0.1.3.tar.gz]
 [2024-05-02 02:26:45] INFO root fetch - main [MainThread]: End processing [xlextract]: success
 [2024-05-02 02:26:45] INFO root fetch - main [MainThread]: Store serial: [23023889]
+[2024-05-02 02:28:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023889]
+[2024-05-02 02:28:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 02:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2024-05-02 02:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: layeutils
+[2024-05-02 02:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abutils
+[2024-05-02 02:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qai-agent
+[2024-05-02 02:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llamascript
+[2024-05-02 02:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-certbot-dns-route53
+[2024-05-02 02:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-aurora-globaldatabase
+[2024-05-02 02:28:54] INFO root fetch - processPackages [llamascript]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-02 02:28:54] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-02 02:28:54] INFO root fetch - processPackages [layeutils]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-02 02:28:54] WARNING root fetch - processPackages [qai-agent]: Skipping, unable to determine old version
+[2024-05-02 02:28:54] INFO root fetch - main [MainThread]: End processing [qai-agent] error
+[2024-05-02 02:28:54] INFO root fetch - processPackages [abutils]: New version: [0.4.9] Old Version: [0.4.5]
+[2024-05-02 02:28:54] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-02 02:28:54] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-02 02:28:54] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-02 02:28:54] INFO root fetch - processPackages [llamascript]: Downloading https://files.pythonhosted.org/packages/8b/e2/bf5fca1b6cf18eafcb015ce6a5e1b5af77454b38bb5828fe36f8d4ac30a8/llamascript-0.1.0.tar.gz
+[2024-05-02 02:28:54] INFO root fetch - processPackages [layeutils]: Downloading https://files.pythonhosted.org/packages/df/8a/5750fd27fb4c3487b4dbdfad44f376e0526542c6ee8cc4234e63d034eff8/layeutils-0.2.8.tar.gz
+[2024-05-02 02:28:55] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-02 02:28:55] INFO root fetch - processPackages [abutils]: Downloading https://files.pythonhosted.org/packages/14/ba/621da2e617c467936d12b7568b959ad5b15b2859ac421b5d7fdfdb9de6b8/abutils-0.4.5.tar.gz
+[2024-05-02 02:28:55] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-02 02:28:55] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-02 02:28:55] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-02 02:28:55] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240502/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-02 02:28:55] INFO root fetch - processPackages [layeutils]: Downloading https://files.pythonhosted.org/packages/49/3d/c713aa3374b8d3b84cd8820b2906eff00ed129c458180bc7ae7c4568a911/layeutils-0.2.9.tar.gz
+[2024-05-02 02:28:55] INFO root fetch - processPackages [llamascript]: Downloading https://files.pythonhosted.org/packages/ef/89/56f8db33c19702150ed85e7ef47596c0a16a1eba0fada6ce4a767ce7447c/llamascript-0.2.0.tar.gz
+[2024-05-02 02:28:55] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-02 02:28:55] INFO root fetch - processPackages [layeutils]: executing diffoscope
+[2024-05-02 02:28:55] INFO root fetch - processPackages [layeutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layeutils-0.2.8.tar.gz tmp/layeutils-0.2.9.tar.gz --markdown 20240502/l/layeutils/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-02 02:28:55] INFO root fetch - processPackages [llamascript]: executing diffoscope
+[2024-05-02 02:28:55] INFO root fetch - processPackages [llamascript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamascript-0.1.0.tar.gz tmp/llamascript-0.2.0.tar.gz --markdown 20240502/l/llamascript/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-02 02:28:55] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-02 02:28:55] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240502/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-02 02:28:55] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-02 02:28:55] WARNING root fetch - processPackages [abutils]: Skipping package: exceeds size limit 93835787>=10485760
+[2024-05-02 02:28:55] INFO root fetch - main [MainThread]: End processing [abutils] error
+[2024-05-02 02:28:55] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-02 02:28:55] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240502/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-02 02:28:55] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-02 02:28:55] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-02 02:28:55] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-02 02:28:56] INFO root fetch - processPackages [layeutils]: Remove: archive file [/home/abi/fetcher/tmp/layeutils-0.2.8.tar.gz]
+[2024-05-02 02:28:56] INFO root fetch - processPackages [layeutils]: Remove: archive file [/home/abi/fetcher/tmp/layeutils-0.2.9.tar.gz]
+[2024-05-02 02:28:56] INFO root fetch - main [MainThread]: End processing [layeutils]: success
+[2024-05-02 02:28:56] INFO root fetch - processPackages [llamascript]: Remove: archive file [/home/abi/fetcher/tmp/llamascript-0.1.0.tar.gz]
+[2024-05-02 02:28:56] INFO root fetch - processPackages [llamascript]: Remove: archive file [/home/abi/fetcher/tmp/llamascript-0.2.0.tar.gz]
+[2024-05-02 02:28:56] INFO root fetch - main [MainThread]: End processing [llamascript]: success
+[2024-05-02 02:28:56] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-02 02:28:56] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-02 02:28:56] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-02 02:28:56] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-02 02:28:56] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-02 02:28:56] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-02 02:28:56] INFO root fetch - main [MainThread]: Store serial: [23023917]
