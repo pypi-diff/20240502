@@ -9145,3 +9145,33 @@
 [2024-05-02 06:46:51] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-05-02 06:46:51] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-05-02 06:46:51] INFO root fetch - main [MainThread]: Store serial: [23026360]
+[2024-05-02 06:48:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026360]
+[2024-05-02 06:49:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 06:49:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icare-nlp
+[2024-05-02 06:49:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shipper-shippy
+[2024-05-02 06:49:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jh2
+[2024-05-02 06:49:00] INFO root fetch - processPackages [icare-nlp]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-02 06:49:00] INFO root fetch - processPackages [shipper-shippy]: New version: [2.36.5] Old Version: [2.36.4]
+[2024-05-02 06:49:00] INFO root fetch - processPackages [jh2]: New version: [5.0.3] Old Version: [5.0.2]
+[2024-05-02 06:49:00] INFO root fetch - processPackages [icare-nlp]: Downloading https://files.pythonhosted.org/packages/28/3d/04ce07846ccfbaeb2b10934462b7b36c71a371c31cb90e5944a5dc502173/icare_nlp-0.0.1.tar.gz
+[2024-05-02 06:49:00] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/55/c0/969d427c419f7f438a712082b541707ad840dbadbc8d8fbbb679b50f4f2a/shipper_shippy-2.36.4.tar.gz
+[2024-05-02 06:49:00] INFO root fetch - processPackages [jh2]: Downloading https://files.pythonhosted.org/packages/7e/01/0d3fb58b65578b1a873294088dce197d1491ae5e940823b026a654af4282/jh2-5.0.2.tar.gz
+[2024-05-02 06:49:01] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/3d/79/498cf56f36f48ebb304e195364e53268c87c8963124c880811f09836377a/shipper_shippy-2.36.5.tar.gz
+[2024-05-02 06:49:01] INFO root fetch - processPackages [icare-nlp]: Downloading https://files.pythonhosted.org/packages/3c/0c/093ba013c8b579c1ca984926d28851647ba2523f19f87a02be0de495766c/icare_nlp-0.0.2.tar.gz
+[2024-05-02 06:49:01] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2024-05-02 06:49:01] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper_shippy-2.36.4.tar.gz tmp/shipper_shippy-2.36.5.tar.gz --markdown 20240502/s/shipper-shippy/2.36.4-2.36.5/README.md --exclude *.pyd
+[2024-05-02 06:49:01] INFO root fetch - processPackages [icare-nlp]: executing diffoscope
+[2024-05-02 06:49:01] INFO root fetch - processPackages [icare-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icare_nlp-0.0.1.tar.gz tmp/icare_nlp-0.0.2.tar.gz --markdown 20240502/i/icare-nlp/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-02 06:49:01] INFO root fetch - processPackages [jh2]: Downloading https://files.pythonhosted.org/packages/da/73/7105c5346c4040af13f30a95f620cc1634798b1f1fb4bc1a92e31e6f8945/jh2-5.0.3-pp37-pypy37_pp73-manylinux_2_17_ppc64.manylinux2014_ppc64.whl
+[2024-05-02 06:49:01] INFO root fetch - processPackages [icare-nlp]: Remove: archive file [/home/abi/fetcher/tmp/icare_nlp-0.0.1.tar.gz]
+[2024-05-02 06:49:01] INFO root fetch - processPackages [icare-nlp]: Remove: archive file [/home/abi/fetcher/tmp/icare_nlp-0.0.2.tar.gz]
+[2024-05-02 06:49:01] INFO root fetch - main [MainThread]: End processing [icare-nlp]: success
+[2024-05-02 06:49:01] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.36.4.tar.gz]
+[2024-05-02 06:49:01] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.36.5.tar.gz]
+[2024-05-02 06:49:01] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2024-05-02 06:49:03] INFO root fetch - processPackages [jh2]: executing diffoscope
+[2024-05-02 06:49:03] INFO root fetch - processPackages [jh2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jh2-5.0.2.tar.gz tmp/jh2-5.0.3-pp37-pypy37_pp73-manylinux_2_17_ppc64.manylinux2014_ppc64.whl.zip --markdown 20240502/j/jh2/5.0.2-5.0.3/README.md --exclude *.pyd
+[2024-05-02 06:49:05] INFO root fetch - processPackages [jh2]: Remove: archive file [/home/abi/fetcher/tmp/jh2-5.0.2.tar.gz]
+[2024-05-02 06:49:05] INFO root fetch - processPackages [jh2]: Remove: archive file [/home/abi/fetcher/tmp/jh2-5.0.3-pp37-pypy37_pp73-manylinux_2_17_ppc64.manylinux2014_ppc64.whl.zip]
+[2024-05-02 06:49:05] INFO root fetch - main [MainThread]: End processing [jh2]: success
+[2024-05-02 06:49:05] INFO root fetch - main [MainThread]: Store serial: [23026398]
