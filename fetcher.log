@@ -18025,3 +18025,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 13:24:36] INFO root fetch - processPackages [visyn-core]: Remove: archive file [/home/abi/fetcher/tmp/visyn_core-9.2.2-py3-none-any.whl.zip]
 [2024-05-02 13:24:36] INFO root fetch - main [MainThread]: End processing [visyn-core]: success
 [2024-05-02 13:24:36] INFO root fetch - main [MainThread]: Store serial: [23029983]
+[2024-05-02 13:26:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029983]
+[2024-05-02 13:26:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 13:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DataExtractorOEG
+[2024-05-02 13:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autocbei
+[2024-05-02 13:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cylc-flow
+[2024-05-02 13:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchx-nightly
+[2024-05-02 13:26:45] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-02 13:26:45] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.1] Old Version: [2024.4.30]
+[2024-05-02 13:26:46] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/49/52/e5021f45b211823b931d5612b4aeff5943fb8ed95e19143beb6bad9d5620/dataextractoroeg-0.3.9.tar.gz
+[2024-05-02 13:26:46] INFO root fetch - processPackages [autocbei]: New version: [1.8] Old Version: [1.7]
+[2024-05-02 13:26:46] INFO root fetch - processPackages [cylc-flow]: New version: [8.2.6] Old Version: [8.2.5]
+[2024-05-02 13:26:46] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/19/40/d615361056ba9bf3d74b28952b97d22faa79b013de804262c64b8379add8/torchx_nightly-2024.4.30-py3-none-any.whl
+[2024-05-02 13:26:46] INFO root fetch - processPackages [autocbei]: Downloading https://files.pythonhosted.org/packages/57/c2/93b8cfc979f567ad78f20fb1560eba580d4adafba3806486018d22804173/autocbei-1.7.tar.gz
+[2024-05-02 13:26:46] INFO root fetch - processPackages [cylc-flow]: Downloading https://files.pythonhosted.org/packages/02/e0/8202648609942d60cb7629358f9d1d2003f226834690b0b5860c9f4a902e/cylc-flow-8.2.5.tar.gz
+[2024-05-02 13:26:46] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/6d/ad/f91706f5f3b652c764162f033486495aff7487cbf4806ed78a9deda1d141/dataextractoroeg-0.4.0.tar.gz
+[2024-05-02 13:26:46] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/21/63/52f1787151258c649cf20a5564c17e970af032cf58f7db90e6cb4ea5f526/torchx_nightly-2024.5.1-py3-none-any.whl
+[2024-05-02 13:26:46] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-05-02 13:26:46] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.3.9.tar.gz tmp/dataextractoroeg-0.4.0.tar.gz --markdown 20240502/D/DataExtractorOEG/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-02 13:26:46] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-02 13:26:46] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.4.30-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.1-py3-none-any.whl.zip --markdown 20240502/t/torchx-nightly/2024.4.30-2024.5.1/README.md --exclude *.pyd
+[2024-05-02 13:26:46] INFO root fetch - processPackages [autocbei]: Downloading https://files.pythonhosted.org/packages/1b/3e/b4f494f25162b9d880df17ead0f701e3ace060b0f807e3acb9a0355ae92f/autocbei-1.8.tar.gz
+[2024-05-02 13:26:46] INFO root fetch - processPackages [cylc-flow]: Downloading https://files.pythonhosted.org/packages/59/e4/f1fc8984ebb2026f394c3dfddb95926b8d91cd139e0e05f03bcfd1c0c4a0/cylc_flow-8.2.6.tar.gz
+[2024-05-02 13:26:46] INFO root fetch - processPackages [autocbei]: executing diffoscope
+[2024-05-02 13:26:46] INFO root fetch - processPackages [autocbei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocbei-1.7.tar.gz tmp/autocbei-1.8.tar.gz --markdown 20240502/a/autocbei/1.7-1.8/README.md --exclude *.pyd
+[2024-05-02 13:26:47] INFO root fetch - processPackages [cylc-flow]: executing diffoscope
+[2024-05-02 13:26:47] INFO root fetch - processPackages [cylc-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cylc-flow-8.2.5.tar.gz tmp/cylc_flow-8.2.6.tar.gz --markdown 20240502/c/cylc-flow/8.2.5-8.2.6/README.md --exclude *.pyd
+[2024-05-02 13:26:47] INFO root fetch - processPackages [autocbei]: Remove: archive file [/home/abi/fetcher/tmp/autocbei-1.7.tar.gz]
+[2024-05-02 13:26:47] INFO root fetch - processPackages [autocbei]: Remove: archive file [/home/abi/fetcher/tmp/autocbei-1.8.tar.gz]
+[2024-05-02 13:26:47] INFO root fetch - main [MainThread]: End processing [autocbei]: success
+[2024-05-02 13:26:47] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.30-py3-none-any.whl.zip]
+[2024-05-02 13:26:47] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.1-py3-none-any.whl.zip]
+[2024-05-02 13:26:47] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-02 13:26:48] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.3.9.tar.gz]
+[2024-05-02 13:26:48] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.0.tar.gz]
+[2024-05-02 13:26:48] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-05-02 13:26:48] INFO root fetch - processPackages [cylc-flow]: Remove: archive file [/home/abi/fetcher/tmp/cylc-flow-8.2.5.tar.gz]
+[2024-05-02 13:26:48] INFO root fetch - processPackages [cylc-flow]: Remove: archive file [/home/abi/fetcher/tmp/cylc_flow-8.2.6.tar.gz]
+[2024-05-02 13:26:48] INFO root fetch - main [MainThread]: End processing [cylc-flow]: success
+[2024-05-02 13:26:48] INFO root fetch - main [MainThread]: Store serial: [23029993]
