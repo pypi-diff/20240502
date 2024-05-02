@@ -7603,3 +7603,54 @@
 [2024-05-02 04:34:45] INFO root fetch - processPackages [sesql]: Remove: archive file [/home/abi/fetcher/tmp/sesql-2024.5.0.tar.gz]
 [2024-05-02 04:34:45] INFO root fetch - main [MainThread]: End processing [sesql]: success
 [2024-05-02 04:34:45] INFO root fetch - main [MainThread]: Store serial: [23025774]
+[2024-05-02 04:36:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025774]
+[2024-05-02 04:36:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 04:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cutseq
+[2024-05-02 04:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-axe
+[2024-05-02 04:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cc521-evolution
+[2024-05-02 04:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: munet
+[2024-05-02 04:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: musicnotes
+[2024-05-02 04:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-amcards
+[2024-05-02 04:36:54] INFO root fetch - processPackages [cutseq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 04:36:54] INFO root fetch - processPackages [musicnotes]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-02 04:36:54] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/95/33/6984c0732c17eb925be43f23c0c27167392d2900fcd21ebf93d9b68f6c2a/cutseq-0.0.8.tar.gz
+[2024-05-02 04:36:54] WARNING root fetch - processPackages [cc521-evolution]: Skipping, unable to determine old version
+[2024-05-02 04:36:54] INFO root fetch - main [MainThread]: End processing [cc521-evolution] error
+[2024-05-02 04:36:54] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/6c/39/7c125699ee85de4c0e02ab2def8482baf278ed20f36f909091361a25c333/musicnotes-1.0.6.tar.gz
+[2024-05-02 04:36:54] INFO root fetch - processPackages [llm-axe]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-02 04:36:54] INFO root fetch - processPackages [munet]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 04:36:54] INFO root fetch - processPackages [python-amcards]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-02 04:36:54] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/e5/82/45b103e58b439dac0cf4c7f6ef6957633721ec0f4553abfabba5ed961a0f/cutseq-0.0.9.tar.gz
+[2024-05-02 04:36:54] INFO root fetch - processPackages [llm-axe]: Downloading https://files.pythonhosted.org/packages/d3/13/8ed660110c84af614541b3175cd0bee7be6a4f1c646f9752a0284e228974/llm_axe-1.0.2.tar.gz
+[2024-05-02 04:36:54] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/ab/ab/50abc3289545adb952eebcb12b5d75cd68c3deddb2ead102309f6b23b3fd/munet-0.9.8.tar.gz
+[2024-05-02 04:36:54] INFO root fetch - processPackages [python-amcards]: Downloading https://files.pythonhosted.org/packages/11/f8/ed584c4c4cd13274f65d0963c0c4524c5da1784a626ff23c9f95cbf59423/python_amcards-1.3.2.tar.gz
+[2024-05-02 04:36:54] INFO root fetch - processPackages [cutseq]: executing diffoscope
+[2024-05-02 04:36:54] INFO root fetch - processPackages [cutseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutseq-0.0.8.tar.gz tmp/cutseq-0.0.9.tar.gz --markdown 20240502/c/cutseq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 04:36:54] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/32/4d/dca917c794bd617c9252017515c61cb68c493dfb9191242b8b800ada5379/musicnotes-1.0.7.tar.gz
+[2024-05-02 04:36:55] INFO root fetch - processPackages [musicnotes]: executing diffoscope
+[2024-05-02 04:36:55] INFO root fetch - processPackages [musicnotes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicnotes-1.0.6.tar.gz tmp/musicnotes-1.0.7.tar.gz --markdown 20240502/m/musicnotes/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-02 04:36:55] INFO root fetch - processPackages [llm-axe]: Downloading https://files.pythonhosted.org/packages/8e/22/f60ad207780c12e3ce1361104724bbb94a377fa8833df4352f4c2bb41c12/llm_axe-1.0.3.tar.gz
+[2024-05-02 04:36:55] INFO root fetch - processPackages [python-amcards]: Downloading https://files.pythonhosted.org/packages/01/66/4023268d59157cbdffcefad7612556ed3b015c64647cafcb65f533fa2bd2/python_amcards-1.3.3.tar.gz
+[2024-05-02 04:36:55] INFO root fetch - processPackages [llm-axe]: executing diffoscope
+[2024-05-02 04:36:55] INFO root fetch - processPackages [llm-axe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_axe-1.0.2.tar.gz tmp/llm_axe-1.0.3.tar.gz --markdown 20240502/l/llm-axe/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-02 04:36:55] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/e9/a7/16aef984464ad235996a4918e7377bd5e40cd015eb9b5cae381b237aeba4/munet-0.9.9.tar.gz
+[2024-05-02 04:36:55] INFO root fetch - processPackages [python-amcards]: executing diffoscope
+[2024-05-02 04:36:55] INFO root fetch - processPackages [python-amcards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_amcards-1.3.2.tar.gz tmp/python_amcards-1.3.3.tar.gz --markdown 20240502/p/python-amcards/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-02 04:36:55] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.8.tar.gz]
+[2024-05-02 04:36:55] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.9.tar.gz]
+[2024-05-02 04:36:55] INFO root fetch - main [MainThread]: End processing [cutseq]: success
+[2024-05-02 04:36:55] INFO root fetch - processPackages [munet]: executing diffoscope
+[2024-05-02 04:36:55] INFO root fetch - processPackages [munet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/munet-0.9.8.tar.gz tmp/munet-0.9.9.tar.gz --markdown 20240502/m/munet/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 04:36:55] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.6.tar.gz]
+[2024-05-02 04:36:55] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.7.tar.gz]
+[2024-05-02 04:36:55] INFO root fetch - main [MainThread]: End processing [musicnotes]: success
+[2024-05-02 04:36:55] INFO root fetch - processPackages [llm-axe]: Remove: archive file [/home/abi/fetcher/tmp/llm_axe-1.0.2.tar.gz]
+[2024-05-02 04:36:55] INFO root fetch - processPackages [llm-axe]: Remove: archive file [/home/abi/fetcher/tmp/llm_axe-1.0.3.tar.gz]
+[2024-05-02 04:36:55] INFO root fetch - main [MainThread]: End processing [llm-axe]: success
+[2024-05-02 04:36:55] INFO root fetch - processPackages [python-amcards]: Remove: archive file [/home/abi/fetcher/tmp/python_amcards-1.3.2.tar.gz]
+[2024-05-02 04:36:55] INFO root fetch - processPackages [python-amcards]: Remove: archive file [/home/abi/fetcher/tmp/python_amcards-1.3.3.tar.gz]
+[2024-05-02 04:36:55] INFO root fetch - main [MainThread]: End processing [python-amcards]: success
+[2024-05-02 04:36:56] INFO root fetch - processPackages [munet]: Remove: archive file [/home/abi/fetcher/tmp/munet-0.9.8.tar.gz]
+[2024-05-02 04:36:56] INFO root fetch - processPackages [munet]: Remove: archive file [/home/abi/fetcher/tmp/munet-0.9.9.tar.gz]
+[2024-05-02 04:36:56] INFO root fetch - main [MainThread]: End processing [munet]: success
+[2024-05-02 04:36:56] INFO root fetch - main [MainThread]: Store serial: [23025798]
