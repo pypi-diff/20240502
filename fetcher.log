@@ -8969,3 +8969,60 @@
 [2024-05-02 06:31:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account_payment_order-14.0.5.3.0-py3-none-any.whl.zip]
 [2024-05-02 06:31:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account-payment-order]: success
 [2024-05-02 06:31:41] INFO root fetch - main [MainThread]: Store serial: [23026311]
+[2024-05-02 06:33:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026311]
+[2024-05-02 06:33:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 06:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bambooai
+[2024-05-02 06:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swanlab
+[2024-05-02 06:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bh-database
+[2024-05-02 06:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitops
+[2024-05-02 06:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: e2b-code-interpreter
+[2024-05-02 06:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hpeOneView
+[2024-05-02 06:33:50] INFO root fetch - processPackages [swanlab]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-02 06:33:50] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 06:33:50] INFO root fetch - processPackages [bh-database]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-02 06:33:50] INFO root fetch - processPackages [hpeOneView]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-05-02 06:33:50] INFO root fetch - processPackages [e2b-code-interpreter]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-02 06:33:50] INFO root fetch - processPackages [gitops]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-02 06:33:50] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-02 06:33:50] INFO root fetch - processPackages [swanlab]: Downloading https://files.pythonhosted.org/packages/03/49/8c52b334ae605148be4795637fcd982cadb1e05ba572e3a0b27f5aff0b02/swanlab-0.3.0.tar.gz
+[2024-05-02 06:33:50] INFO root fetch - processPackages [bh-database]: Downloading https://files.pythonhosted.org/packages/63/c2/a3ce1916582d7d90bc8ae9d7deb870cbc02fa9ff554e45c9ff5747a7b057/bh-database-0.0.4.tar.gz
+[2024-05-02 06:33:50] INFO root fetch - processPackages [e2b-code-interpreter]: Downloading https://files.pythonhosted.org/packages/bb/d0/355f9e611da41b3c09e2ae0b5fc0eeffeb42f59cefbbc49609f5ed35e757/e2b_code_interpreter-0.0.3.tar.gz
+[2024-05-02 06:33:50] INFO root fetch - processPackages [gitops]: Downloading https://files.pythonhosted.org/packages/d7/7d/32d8e2cd57d1b9f160168c79642b03cce3c879758c84179733a2bcb095d5/gitops-0.9.7.tar.gz
+[2024-05-02 06:33:50] INFO root fetch - processPackages [hpeOneView]: Downloading https://files.pythonhosted.org/packages/b8/23/90ca571ac0f78c7edebe900ed6c2e9269a2e74146ad3240053025b80c04c/hpeOneView-8.8.0.tar.gz
+[2024-05-02 06:33:51] INFO root fetch - processPackages [e2b-code-interpreter]: Downloading https://files.pythonhosted.org/packages/bd/af/990eaa7404707a0588c5442de15b1fc08755276f2a78ab02120b663ed06a/e2b_code_interpreter-0.0.4.tar.gz
+[2024-05-02 06:33:51] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-02 06:33:51] INFO root fetch - processPackages [bh-database]: Downloading https://files.pythonhosted.org/packages/54/2f/3098fdd5178b4cc75390674d48c692cecf288f14b0872df25d0274e478b5/bh_database-0.0.5.tar.gz
+[2024-05-02 06:33:51] INFO root fetch - processPackages [hpeOneView]: Downloading https://files.pythonhosted.org/packages/a6/fb/b6e99099e5c333515205706b890241baf433112147eede24581a7a19ae57/hpeoneview-8.9.0.tar.gz
+[2024-05-02 06:33:51] INFO root fetch - processPackages [gitops]: Downloading https://files.pythonhosted.org/packages/35/a2/a6b8ecb5528074acc324a799084d617910b5f9457284406808a542b0c1c1/gitops-0.9.8.tar.gz
+[2024-05-02 06:33:51] INFO root fetch - processPackages [swanlab]: Downloading https://files.pythonhosted.org/packages/fe/8b/b590486d4811eb20a5e6bef7f3f4c3dca0df77b6b89edcf04db200e2ea3b/swanlab-0.3.1.tar.gz
+[2024-05-02 06:33:51] INFO root fetch - processPackages [e2b-code-interpreter]: executing diffoscope
+[2024-05-02 06:33:51] INFO root fetch - processPackages [e2b-code-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2b_code_interpreter-0.0.3.tar.gz tmp/e2b_code_interpreter-0.0.4.tar.gz --markdown 20240502/e/e2b-code-interpreter/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-02 06:33:51] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-02 06:33:51] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240502/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 06:33:51] INFO root fetch - processPackages [bh-database]: executing diffoscope
+[2024-05-02 06:33:51] INFO root fetch - processPackages [bh-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bh-database-0.0.4.tar.gz tmp/bh_database-0.0.5.tar.gz --markdown 20240502/b/bh-database/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-02 06:33:52] INFO root fetch - processPackages [hpeOneView]: executing diffoscope
+[2024-05-02 06:33:52] INFO root fetch - processPackages [hpeOneView]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpeOneView-8.8.0.tar.gz tmp/hpeoneview-8.9.0.tar.gz --markdown 20240502/h/hpeOneView/8.8.0-8.9.0/README.md --exclude *.pyd
+[2024-05-02 06:33:52] INFO root fetch - processPackages [gitops]: executing diffoscope
+[2024-05-02 06:33:52] INFO root fetch - processPackages [gitops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitops-0.9.7.tar.gz tmp/gitops-0.9.8.tar.gz --markdown 20240502/g/gitops/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-02 06:33:52] INFO root fetch - processPackages [swanlab]: executing diffoscope
+[2024-05-02 06:33:52] INFO root fetch - processPackages [swanlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swanlab-0.3.0.tar.gz tmp/swanlab-0.3.1.tar.gz --markdown 20240502/s/swanlab/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-02 06:33:52] INFO root fetch - processPackages [e2b-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/e2b_code_interpreter-0.0.3.tar.gz]
+[2024-05-02 06:33:52] INFO root fetch - processPackages [e2b-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/e2b_code_interpreter-0.0.4.tar.gz]
+[2024-05-02 06:33:52] INFO root fetch - main [MainThread]: End processing [e2b-code-interpreter]: success
+[2024-05-02 06:33:52] INFO root fetch - processPackages [bh-database]: Remove: archive file [/home/abi/fetcher/tmp/bh-database-0.0.4.tar.gz]
+[2024-05-02 06:33:52] INFO root fetch - processPackages [bh-database]: Remove: archive file [/home/abi/fetcher/tmp/bh_database-0.0.5.tar.gz]
+[2024-05-02 06:33:52] INFO root fetch - main [MainThread]: End processing [bh-database]: success
+[2024-05-02 06:33:52] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-02 06:33:52] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-02 06:33:52] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-02 06:33:52] INFO root fetch - processPackages [gitops]: Remove: archive file [/home/abi/fetcher/tmp/gitops-0.9.7.tar.gz]
+[2024-05-02 06:33:52] INFO root fetch - processPackages [gitops]: Remove: archive file [/home/abi/fetcher/tmp/gitops-0.9.8.tar.gz]
+[2024-05-02 06:33:52] INFO root fetch - main [MainThread]: End processing [gitops]: success
+[2024-05-02 06:33:53] INFO root fetch - processPackages [hpeOneView]: Remove: archive file [/home/abi/fetcher/tmp/hpeOneView-8.8.0.tar.gz]
+[2024-05-02 06:33:53] INFO root fetch - processPackages [hpeOneView]: Remove: archive file [/home/abi/fetcher/tmp/hpeoneview-8.9.0.tar.gz]
+[2024-05-02 06:33:53] INFO root fetch - main [MainThread]: End processing [hpeOneView]: success
+[2024-05-02 06:33:54] INFO root fetch - processPackages [swanlab]: Remove: archive file [/home/abi/fetcher/tmp/swanlab-0.3.0.tar.gz]
+[2024-05-02 06:33:54] INFO root fetch - processPackages [swanlab]: Remove: archive file [/home/abi/fetcher/tmp/swanlab-0.3.1.tar.gz]
+[2024-05-02 06:33:54] INFO root fetch - main [MainThread]: End processing [swanlab]: success
+[2024-05-02 06:33:54] INFO root fetch - main [MainThread]: Store serial: [23026329]
