@@ -20372,3 +20372,304 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 14:44:10] INFO root fetch - processPackages [fds.sdk.OpenFactSetPartnersDocuments]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.OpenFactSetPartnersDocuments-3.0.7-py3-none-any.whl.zip]
 [2024-05-02 14:44:10] INFO root fetch - main [MainThread]: End processing [fds.sdk.OpenFactSetPartnersDocuments]: success
 [2024-05-02 14:44:10] INFO root fetch - main [MainThread]: Store serial: [23031000]
+[2024-05-02 14:46:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031000]
+[2024-05-02 14:46:19] INFO root fetch - main [MainThread]: Found 33 changed packages
+[2024-05-02 14:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fds.sdk.OpenFactSetPartnersDocuments
+[2024-05-02 14:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fds.sdk.OpenRisk
+[2024-05-02 14:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fds.sdk.OptimizationEngineAPIMultiperiod
+[2024-05-02 14:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fds.sdk.OverviewReportBuilder
+[2024-05-02 14:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fds.sdk.PAEngine
+[2024-05-02 14:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fds.sdk.Portfolio
+[2024-05-02 14:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fds.sdk.PortfolioReportingBatcher
+[2024-05-02 14:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fds.sdk.ProcuretoPayAPISCIM
+[2024-05-02 14:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fds.sdk.Publisher
+[2024-05-02 14:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fds.sdk.Publisher
+[2024-05-02 14:46:19] INFO root fetch - processPackages [fds.sdk.OpenFactSetPartnersDocuments]: New version: [3.0.7] Old Version: [3.0.6]
+[2024-05-02 14:46:19] INFO root fetch - processPackages [fds.sdk.PAEngine]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-02 14:46:19] INFO root fetch - processPackages [fds.sdk.Portfolio]: New version: [0.21.9] Old Version: [0.21.8]
+[2024-05-02 14:46:19] INFO root fetch - processPackages [fds.sdk.ProcuretoPayAPISCIM]: New version: [0.22.9] Old Version: [0.22.8]
+[2024-05-02 14:46:19] INFO root fetch - processPackages [fds.sdk.PortfolioReportingBatcher]: New version: [0.23.1] Old Version: [0.23.0]
+[2024-05-02 14:46:19] INFO root fetch - processPackages [fds.sdk.Publisher]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-02 14:46:19] INFO root fetch - processPackages [fds.sdk.OverviewReportBuilder]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-02 14:46:19] INFO root fetch - processPackages [fds.sdk.OpenFactSetPartnersDocuments]: Downloading https://files.pythonhosted.org/packages/73/5b/a5ad959098aa4d9fbb3ad9b7cf178e134a2021b79c30de4fb59392226e89/fds.sdk.OpenFactSetPartnersDocuments-3.0.6-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.OpenRisk]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.Publisher]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.OptimizationEngineAPIMultiperiod]: New version: [0.21.9] Old Version: [0.21.8]
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.OpenRisk]: Downloading https://files.pythonhosted.org/packages/3e/ce/c2f5485e759fd35da99da93d37be17468c3765eeb2c1b0ba2eaa403cf6d1/fds.sdk.OpenRisk-1.3.1-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.Publisher]: Downloading https://files.pythonhosted.org/packages/a6/64/ec709822c9cb3e88dea9800f282f94082b428bce9acc6294ab1a36ed80bb/fds.sdk.Publisher-0.9.0-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.Publisher]: Downloading https://files.pythonhosted.org/packages/a6/64/ec709822c9cb3e88dea9800f282f94082b428bce9acc6294ab1a36ed80bb/fds.sdk.Publisher-0.9.0-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.PAEngine]: Downloading https://files.pythonhosted.org/packages/a2/c4/295cd53985f4e0ffff42a3ec97106ea5fc0b1427cde1db2645389029475b/fds.sdk.PAEngine-1.0.3-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.ProcuretoPayAPISCIM]: Downloading https://files.pythonhosted.org/packages/37/18/2c4c3d3d4ace3106b7d1d8cfdb4739e9374b22ce770c6a2b54a1d5905808/fds.sdk.ProcuretoPayAPISCIM-0.22.8-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.Portfolio]: Downloading https://files.pythonhosted.org/packages/3a/92/aab364345f84d212322cef660ec1c5efaded257527eef78d3943074695f9/fds.sdk.Portfolio-0.21.8-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.PortfolioReportingBatcher]: Downloading https://files.pythonhosted.org/packages/e9/db/918030b612c63f223b8b9093e209964fb5d609453ec6c5429efa4258f672/fds.sdk.PortfolioReportingBatcher-0.23.0-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.OptimizationEngineAPIMultiperiod]: Downloading https://files.pythonhosted.org/packages/30/ba/f8091496d92dec73d5d8134a178ed5da52a8f47071aef64e704ff5897d8b/fds.sdk.OptimizationEngineAPIMultiperiod-0.21.8-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.OverviewReportBuilder]: Downloading https://files.pythonhosted.org/packages/6b/52/c7daff58f2b99e5ace22be673d4753539bab8c2d1116765887e1c5f553fd/fds.sdk.OverviewReportBuilder-1.1.7-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.OpenFactSetPartnersDocuments]: Downloading https://files.pythonhosted.org/packages/ae/53/8471226f7c7115d9feed11b4e317cfc57eae083f594b761352ef289c923d/fds.sdk.OpenFactSetPartnersDocuments-3.0.7-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.OpenFactSetPartnersDocuments]: executing diffoscope
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.OpenFactSetPartnersDocuments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.OpenFactSetPartnersDocuments-3.0.6-py3-none-any.whl.zip tmp/fds.sdk.OpenFactSetPartnersDocuments-3.0.7-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.OpenFactSetPartnersDocuments/3.0.6-3.0.7/README.md --exclude *.pyd
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.OpenRisk]: Downloading https://files.pythonhosted.org/packages/b6/62/93da814b8d994bdc7c5def89b5c80a7d786033751f55c4cae59054e7eaae/fds.sdk.OpenRisk-1.3.2-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.PAEngine]: Downloading https://files.pythonhosted.org/packages/d9/71/29cb823cfaed8ee83ff1b70f262ad15d6aa9813c0eac0a4fd0cc247e0cff/fds.sdk.PAEngine-1.0.4-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.Publisher]: Downloading https://files.pythonhosted.org/packages/37/ff/df0009a411f4f239728beaa4994d85dd712401d0e0e7af1628e5fa8f7c20/fds.sdk.Publisher-0.9.1-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.Publisher]: Downloading https://files.pythonhosted.org/packages/37/ff/df0009a411f4f239728beaa4994d85dd712401d0e0e7af1628e5fa8f7c20/fds.sdk.Publisher-0.9.1-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.OptimizationEngineAPIMultiperiod]: Downloading https://files.pythonhosted.org/packages/e9/06/65c4e37295a218320c7378c7c08300c99859388945d3fe92f440ba98abbe/fds.sdk.OptimizationEngineAPIMultiperiod-0.21.9-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.ProcuretoPayAPISCIM]: Downloading https://files.pythonhosted.org/packages/21/b0/b9a3367779379f9700bfbd4c994c57c5970c94ee61687445bfb5c09bad5b/fds.sdk.ProcuretoPayAPISCIM-0.22.9-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.PortfolioReportingBatcher]: Downloading https://files.pythonhosted.org/packages/34/68/5e83d4204d2506792f46f852e9e8ccf60a66f1374110924c96a2d75d52c3/fds.sdk.PortfolioReportingBatcher-0.23.1-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.OpenRisk]: executing diffoscope
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.Portfolio]: Downloading https://files.pythonhosted.org/packages/00/0d/06884edd0e492d08c2d786570e36556d1dc1c1c52ba0c3503bcd5c58b412/fds.sdk.Portfolio-0.21.9-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.OpenRisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.OpenRisk-1.3.1-py3-none-any.whl.zip tmp/fds.sdk.OpenRisk-1.3.2-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.OpenRisk/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.OverviewReportBuilder]: Downloading https://files.pythonhosted.org/packages/cc/a3/87eeda0b2b6ffd29ad96152c8cd36643a330f1a05e9446c35268194f3c71/fds.sdk.OverviewReportBuilder-1.1.8-py3-none-any.whl
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.PAEngine]: executing diffoscope
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.PAEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.PAEngine-1.0.3-py3-none-any.whl.zip tmp/fds.sdk.PAEngine-1.0.4-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.PAEngine/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.Publisher]: executing diffoscope
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.Publisher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.Publisher-0.9.0-py3-none-any.whl.zip tmp/fds.sdk.Publisher-0.9.1-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.Publisher/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.Publisher]: executing diffoscope
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.Publisher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.Publisher-0.9.0-py3-none-any.whl.zip tmp/fds.sdk.Publisher-0.9.1-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.Publisher/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.ProcuretoPayAPISCIM]: executing diffoscope
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.ProcuretoPayAPISCIM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.ProcuretoPayAPISCIM-0.22.8-py3-none-any.whl.zip tmp/fds.sdk.ProcuretoPayAPISCIM-0.22.9-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.ProcuretoPayAPISCIM/0.22.8-0.22.9/README.md --exclude *.pyd
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.PortfolioReportingBatcher]: executing diffoscope
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.PortfolioReportingBatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.PortfolioReportingBatcher-0.23.0-py3-none-any.whl.zip tmp/fds.sdk.PortfolioReportingBatcher-0.23.1-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.PortfolioReportingBatcher/0.23.0-0.23.1/README.md --exclude *.pyd
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.Portfolio]: executing diffoscope
+[2024-05-02 14:46:20] INFO root fetch - processPackages [fds.sdk.Portfolio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.Portfolio-0.21.8-py3-none-any.whl.zip tmp/fds.sdk.Portfolio-0.21.9-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.Portfolio/0.21.8-0.21.9/README.md --exclude *.pyd
+[2024-05-02 14:46:21] INFO root fetch - processPackages [fds.sdk.OptimizationEngineAPIMultiperiod]: executing diffoscope
+[2024-05-02 14:46:21] INFO root fetch - processPackages [fds.sdk.OptimizationEngineAPIMultiperiod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.OptimizationEngineAPIMultiperiod-0.21.8-py3-none-any.whl.zip tmp/fds.sdk.OptimizationEngineAPIMultiperiod-0.21.9-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.OptimizationEngineAPIMultiperiod/0.21.8-0.21.9/README.md --exclude *.pyd
+[2024-05-02 14:46:21] INFO root fetch - processPackages [fds.sdk.OverviewReportBuilder]: executing diffoscope
+[2024-05-02 14:46:21] INFO root fetch - processPackages [fds.sdk.OverviewReportBuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.OverviewReportBuilder-1.1.7-py3-none-any.whl.zip tmp/fds.sdk.OverviewReportBuilder-1.1.8-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.OverviewReportBuilder/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-02 14:46:21] INFO root fetch - processPackages [fds.sdk.OpenFactSetPartnersDocuments]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.OpenFactSetPartnersDocuments-3.0.6-py3-none-any.whl.zip]
+[2024-05-02 14:46:21] INFO root fetch - processPackages [fds.sdk.OpenFactSetPartnersDocuments]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.OpenFactSetPartnersDocuments-3.0.7-py3-none-any.whl.zip]
+[2024-05-02 14:46:21] INFO root fetch - processPackages [fds.sdk.OpenFactSetPartnersDocuments]: Start processing: fds.sdk.QuantEngine
+[2024-05-02 14:46:21] INFO root fetch - main [MainThread]: End processing [fds.sdk.OpenFactSetPartnersDocuments]: success
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.QuantEngine]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.QuantEngine]: Downloading https://files.pythonhosted.org/packages/60/6c/3c5f7913cdc415bc003b80b5969be1a7ca2759180829a1d3e02bb3538bad/fds.sdk.QuantEngine-1.0.2-py3-none-any.whl
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.Publisher]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.Publisher-0.9.0-py3-none-any.whl.zip]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.Publisher]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.Publisher-0.9.1-py3-none-any.whl.zip]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.Publisher]: Start processing: fds.sdk.RealTimeNews
+[2024-05-02 14:46:22] INFO root fetch - main [MainThread]: End processing [fds.sdk.Publisher]: success
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.Portfolio]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.Portfolio-0.21.8-py3-none-any.whl.zip]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.Portfolio]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.Portfolio-0.21.9-py3-none-any.whl.zip]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.Portfolio]: Start processing: fds.sdk.RealTimePriceAlerting
+[2024-05-02 14:46:22] INFO root fetch - main [MainThread]: End processing [fds.sdk.Portfolio]: success
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.Publisher]: Start processing: fds.sdk.RealTimeQuotes
+[2024-05-02 14:46:22] INFO root fetch - main [MainThread]: End processing [fds.sdk.Publisher]: success
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.RealTimeNews]: New version: [0.11.3] Old Version: [0.11.2]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.OpenRisk]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.OpenRisk-1.3.1-py3-none-any.whl.zip]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.OpenRisk]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.OpenRisk-1.3.2-py3-none-any.whl.zip]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.OpenRisk]: Start processing: fds.sdk.RealTimeTimeSeries
+[2024-05-02 14:46:22] INFO root fetch - main [MainThread]: End processing [fds.sdk.OpenRisk]: success
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.PortfolioReportingBatcher]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.PortfolioReportingBatcher-0.23.0-py3-none-any.whl.zip]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.PortfolioReportingBatcher]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.PortfolioReportingBatcher-0.23.1-py3-none-any.whl.zip]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.PortfolioReportingBatcher]: Start processing: fds.sdk.SPAREngine
+[2024-05-02 14:46:22] INFO root fetch - main [MainThread]: End processing [fds.sdk.PortfolioReportingBatcher]: success
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.RealTimePriceAlerting]: New version: [0.11.3] Old Version: [0.11.2]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.RealTimeQuotes]: New version: [0.12.3] Old Version: [0.12.2]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.PAEngine]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.PAEngine-1.0.3-py3-none-any.whl.zip]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.PAEngine]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.PAEngine-1.0.4-py3-none-any.whl.zip]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.PAEngine]: Start processing: fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics
+[2024-05-02 14:46:22] INFO root fetch - main [MainThread]: End processing [fds.sdk.PAEngine]: success
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.RealTimeTimeSeries]: New version: [0.11.2] Old Version: [0.11.1]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.ProcuretoPayAPISCIM]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.ProcuretoPayAPISCIM-0.22.8-py3-none-any.whl.zip]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.ProcuretoPayAPISCIM]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.ProcuretoPayAPISCIM-0.22.9-py3-none-any.whl.zip]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.ProcuretoPayAPISCIM]: Start processing: fds.sdk.SecurityModeling
+[2024-05-02 14:46:22] INFO root fetch - main [MainThread]: End processing [fds.sdk.ProcuretoPayAPISCIM]: success
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.QuantEngine]: Downloading https://files.pythonhosted.org/packages/07/e0/1b28ee71e3cf97dd7ac1e83b419fac31f2848200b69871ad731cbfc92e8e/fds.sdk.QuantEngine-1.0.3-py3-none-any.whl
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.RealTimeNews]: Downloading https://files.pythonhosted.org/packages/26/38/39e2165a9a5e7614876bb5c6243c79d381c0182fd6f8a128e901aba38c1b/fds.sdk.RealTimeNews-0.11.2-py3-none-any.whl
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.SPAREngine]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 14:46:22] INFO root fetch - processPackages [fds.sdk.RealTimePriceAlerting]: Downloading https://files.pythonhosted.org/packages/3e/44/f655137b9a969a528f6e87e500785758d5d7725027bfc8ce960dcc3c7b6f/fds.sdk.RealTimePriceAlerting-0.11.2-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.SecurityModeling]: New version: [0.20.9] Old Version: [0.20.8]
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.QuantEngine]: executing diffoscope
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.QuantEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.QuantEngine-1.0.2-py3-none-any.whl.zip tmp/fds.sdk.QuantEngine-1.0.3-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.QuantEngine/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.RealTimeTimeSeries]: Downloading https://files.pythonhosted.org/packages/51/d9/774ae49595489900f896ee021f70dbd0052ce0cbe6f131f629929381d1e4/fds.sdk.RealTimeTimeSeries-0.11.1-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.RealTimeQuotes]: Downloading https://files.pythonhosted.org/packages/c4/89/23f77ff7a6d9b0d15fc4b9b6c86307f7df708b626ab2004f0c2a53464923/fds.sdk.RealTimeQuotes-0.12.2-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.OverviewReportBuilder]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.OverviewReportBuilder-1.1.7-py3-none-any.whl.zip]
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.OverviewReportBuilder]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.OverviewReportBuilder-1.1.8-py3-none-any.whl.zip]
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.OverviewReportBuilder]: Start processing: fds.sdk.Signals
+[2024-05-02 14:46:23] INFO root fetch - main [MainThread]: End processing [fds.sdk.OverviewReportBuilder]: success
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.SPAREngine]: Downloading https://files.pythonhosted.org/packages/d4/54/793f26b3108276c5c0252a08b5412b1078955830a97e7cf4e5fba9915700/fds.sdk.SPAREngine-1.0.2-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.OptimizationEngineAPIMultiperiod]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.OptimizationEngineAPIMultiperiod-0.21.8-py3-none-any.whl.zip]
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.OptimizationEngineAPIMultiperiod]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.OptimizationEngineAPIMultiperiod-0.21.9-py3-none-any.whl.zip]
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.OptimizationEngineAPIMultiperiod]: Start processing: fds.sdk.StandardDatafeed
+[2024-05-02 14:46:23] INFO root fetch - main [MainThread]: End processing [fds.sdk.OptimizationEngineAPIMultiperiod]: success
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics]: Downloading https://files.pythonhosted.org/packages/e7/33/18dc2dfdc84d83d0370f581130de248da40f9793726d3cc7bf78e5afc520/fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics-0.1.8-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.Signals]: New version: [0.22.9] Old Version: [0.22.8]
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.SecurityModeling]: Downloading https://files.pythonhosted.org/packages/fc/89/cde5dc5a723effb45f736ed1c5f27174f024fe5108976f0803aeefdbc64f/fds.sdk.SecurityModeling-0.20.8-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.RealTimeNews]: Downloading https://files.pythonhosted.org/packages/65/71/b4a42588e0ef907ec44db0d06eabc94600e689886124382b8b92cec6bb9a/fds.sdk.RealTimeNews-0.11.3-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: New version: [0.40.3] Old Version: [0.40.2]
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.RealTimePriceAlerting]: Downloading https://files.pythonhosted.org/packages/3c/ad/147e1dcb720ce96bac771625381cd60db346287405b93d7ebdc337522ab6/fds.sdk.RealTimePriceAlerting-0.11.3-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.RealTimeNews]: executing diffoscope
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.RealTimeNews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.RealTimeNews-0.11.2-py3-none-any.whl.zip tmp/fds.sdk.RealTimeNews-0.11.3-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.RealTimeNews/0.11.2-0.11.3/README.md --exclude *.pyd
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.Signals]: Downloading https://files.pythonhosted.org/packages/a8/b0/de6463562a142d2237ed9c477e5d29fd015e19d87c41f5a0b2c687d4eb92/fds.sdk.Signals-0.22.8-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.RealTimeTimeSeries]: Downloading https://files.pythonhosted.org/packages/fe/d9/517ef5f8adcb25f16ea20b35913a2fd54f43e891c38a1d1e7804452547c1/fds.sdk.RealTimeTimeSeries-0.11.2-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.SPAREngine]: Downloading https://files.pythonhosted.org/packages/0d/75/f2c30549cf35c86df654d409a3889eb9e3665ab7358b1d95ee9646e12f44/fds.sdk.SPAREngine-1.0.3-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: Downloading https://files.pythonhosted.org/packages/55/88/228b76aee11a0e3e39f5468674f1783ca6503caba3b64baa874817df83dc/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.RealTimeQuotes]: Downloading https://files.pythonhosted.org/packages/dd/81/ce752d7bb079582d8db93e68cb92a12451aada2d534828912a3febf72e68/fds.sdk.RealTimeQuotes-0.12.3-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.RealTimePriceAlerting]: executing diffoscope
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.RealTimePriceAlerting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.RealTimePriceAlerting-0.11.2-py3-none-any.whl.zip tmp/fds.sdk.RealTimePriceAlerting-0.11.3-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.RealTimePriceAlerting/0.11.2-0.11.3/README.md --exclude *.pyd
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.SecurityModeling]: Downloading https://files.pythonhosted.org/packages/bb/ad/f6cdfaa1ea0d3087bcff6b4b6bbf67fb65f6c4528acb7dcec4fbf4efe062/fds.sdk.SecurityModeling-0.20.9-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics]: Downloading https://files.pythonhosted.org/packages/4f/bd/15d832f426e0c7608d48fff2321324b7f43f2398d00ef431712db92a689f/fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics-0.1.9-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.RealTimeTimeSeries]: executing diffoscope
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.RealTimeTimeSeries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.RealTimeTimeSeries-0.11.1-py3-none-any.whl.zip tmp/fds.sdk.RealTimeTimeSeries-0.11.2-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.RealTimeTimeSeries/0.11.1-0.11.2/README.md --exclude *.pyd
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.SPAREngine]: executing diffoscope
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.SPAREngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.SPAREngine-1.0.2-py3-none-any.whl.zip tmp/fds.sdk.SPAREngine-1.0.3-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.SPAREngine/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.SecurityModeling]: executing diffoscope
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.SecurityModeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.SecurityModeling-0.20.8-py3-none-any.whl.zip tmp/fds.sdk.SecurityModeling-0.20.9-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.SecurityModeling/0.20.8-0.20.9/README.md --exclude *.pyd
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.Signals]: Downloading https://files.pythonhosted.org/packages/32/9f/9237322f01504f0aa0162dd60cfacefa4ba2154617f11380c911cb6087ea/fds.sdk.Signals-0.22.9-py3-none-any.whl
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics]: executing diffoscope
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics-0.1.8-py3-none-any.whl.zip tmp/fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics-0.1.9-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.RealTimeQuotes]: executing diffoscope
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.RealTimeQuotes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.RealTimeQuotes-0.12.2-py3-none-any.whl.zip tmp/fds.sdk.RealTimeQuotes-0.12.3-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.RealTimeQuotes/0.12.2-0.12.3/README.md --exclude *.pyd
+[2024-05-02 14:46:23] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: Downloading https://files.pythonhosted.org/packages/06/e5/6230f9002ee48492dbc178cb0bed6ee03fb4731f0d16069fff17923af370/fds.sdk.StandardDatafeed-0.40.3-py3-none-any.whl
+[2024-05-02 14:46:24] INFO root fetch - processPackages [fds.sdk.Signals]: executing diffoscope
+[2024-05-02 14:46:24] INFO root fetch - processPackages [fds.sdk.Signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.Signals-0.22.8-py3-none-any.whl.zip tmp/fds.sdk.Signals-0.22.9-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.Signals/0.22.8-0.22.9/README.md --exclude *.pyd
+[2024-05-02 14:46:24] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: executing diffoscope
+[2024-05-02 14:46:24] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip tmp/fds.sdk.StandardDatafeed-0.40.3-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.StandardDatafeed/0.40.2-0.40.3/README.md --exclude *.pyd
+[2024-05-02 14:46:24] INFO root fetch - processPackages [fds.sdk.QuantEngine]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.QuantEngine-1.0.2-py3-none-any.whl.zip]
+[2024-05-02 14:46:24] INFO root fetch - processPackages [fds.sdk.QuantEngine]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.QuantEngine-1.0.3-py3-none-any.whl.zip]
+[2024-05-02 14:46:24] INFO root fetch - processPackages [fds.sdk.QuantEngine]: Start processing: fds.sdk.StandardDatafeed
+[2024-05-02 14:46:24] INFO root fetch - main [MainThread]: End processing [fds.sdk.QuantEngine]: success
+[2024-05-02 14:46:24] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: New version: [0.40.3] Old Version: [0.40.2]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: executing diffoscope
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip tmp/fds.sdk.StandardDatafeed-0.40.3-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.StandardDatafeed/0.40.2-0.40.3/README.md --exclude *.pyd
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.RealTimePriceAlerting]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.RealTimePriceAlerting-0.11.2-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.RealTimePriceAlerting]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.RealTimePriceAlerting-0.11.3-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.RealTimePriceAlerting]: Start processing: fds.sdk.StocksAPIforDigitalPortals
+[2024-05-02 14:46:25] INFO root fetch - main [MainThread]: End processing [fds.sdk.RealTimePriceAlerting]: success
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.StocksAPIforDigitalPortals]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.SecurityModeling]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.SecurityModeling-0.20.8-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.SecurityModeling]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.SecurityModeling-0.20.9-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.SecurityModeling]: Start processing: fds.sdk.StreetAccountNews
+[2024-05-02 14:46:25] INFO root fetch - main [MainThread]: End processing [fds.sdk.SecurityModeling]: success
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.SPAREngine]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.SPAREngine-1.0.2-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.SPAREngine]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.SPAREngine-1.0.3-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.SPAREngine]: Start processing: fds.sdk.StreetAccountNews
+[2024-05-02 14:46:25] INFO root fetch - main [MainThread]: End processing [fds.sdk.SPAREngine]: success
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.RealTimeTimeSeries]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.RealTimeTimeSeries-0.11.1-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.RealTimeTimeSeries]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.RealTimeTimeSeries-0.11.2-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.RealTimeTimeSeries]: Start processing: logfire
+[2024-05-02 14:46:25] INFO root fetch - main [MainThread]: End processing [fds.sdk.RealTimeTimeSeries]: success
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.RealTimeNews]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.RealTimeNews-0.11.2-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.RealTimeNews]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.RealTimeNews-0.11.3-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.RealTimeNews]: Start processing: fds.sdk.Symbology
+[2024-05-02 14:46:25] INFO root fetch - main [MainThread]: End processing [fds.sdk.RealTimeNews]: success
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: New version: [0.40.1] Old Version: [0.40.0]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: New version: [0.40.1] Old Version: [0.40.0]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [logfire]: New version: [0.28.2] Old Version: [0.28.1]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics-0.1.8-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics-0.1.9-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics]: Start processing: b-lambda-layer-common
+[2024-05-02 14:46:25] INFO root fetch - main [MainThread]: End processing [fds.sdk.SPGlobalFixedIncomeEvaluatedPricesandAnalytics]: success
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.StocksAPIforDigitalPortals]: Downloading https://files.pythonhosted.org/packages/c6/67/8891f38fe7ce50d38f8b06d6ee68e60c4322ad0e19a524343aa43eee3c59/fds.sdk.StocksAPIforDigitalPortals-0.9.3-py3-none-any.whl
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.StandardDatafeed-0.40.3-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: Start processing: fds.sdk.Symbology
+[2024-05-02 14:46:25] INFO root fetch - main [MainThread]: End processing [fds.sdk.StandardDatafeed]: success
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.Symbology]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.Symbology]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.Signals]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.Signals-0.22.8-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.Signals]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.Signals-0.22.9-py3-none-any.whl.zip]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.Signals]: Start processing: fds.sdk.UniversalScreening
+[2024-05-02 14:46:25] INFO root fetch - main [MainThread]: End processing [fds.sdk.Signals]: success
+[2024-05-02 14:46:25] INFO root fetch - processPackages [b-lambda-layer-common]: New version: [4.5.0] Old Version: [4.4.0]
+[2024-05-02 14:46:25] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/5b/bc/30a2bef84faa464221741d140c7e234c1ea7b8ac729071778dbbab09e55c/logfire-0.28.1.tar.gz
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: Downloading https://files.pythonhosted.org/packages/4b/62/90d76beb3bb86c09e73cfc5e9a1fef0cd6138ecfefe31022e1704536e856/fds.sdk.StreetAccountNews-0.40.0-py3-none-any.whl
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: Downloading https://files.pythonhosted.org/packages/4b/62/90d76beb3bb86c09e73cfc5e9a1fef0cd6138ecfefe31022e1704536e856/fds.sdk.StreetAccountNews-0.40.0-py3-none-any.whl
+[2024-05-02 14:46:25] WARNING root fetch - processPackages [logfire]: Skipping package: exceeds size limit 24925400>=10485760
+[2024-05-02 14:46:25] INFO root fetch - processPackages [logfire]: Start processing: fds.sdk.Vault
+[2024-05-02 14:46:25] INFO root fetch - main [MainThread]: End processing [logfire] error
+[2024-05-02 14:46:25] INFO root fetch - processPackages [fds.sdk.UniversalScreening]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 14:46:26] ERROR root fetch - processPackages [fds.sdk.StandardDatafeed]: Diffoscope failed: time="2024-05-02T14:46:25+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 75, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 35, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does not exist
+
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.StandardDatafeed]: Start processing: fds.sdk.Vermilion
+[2024-05-02 14:46:26] INFO root fetch - main [MainThread]: End processing [fds.sdk.StandardDatafeed] error
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.Symbology]: Downloading https://files.pythonhosted.org/packages/70/39/cab585af1777b888313aa08ae5c80b199703fdea05dff285abe7d3d00ba9/fds.sdk.Symbology-3.0.1-py3-none-any.whl
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.Symbology]: Downloading https://files.pythonhosted.org/packages/70/39/cab585af1777b888313aa08ae5c80b199703fdea05dff285abe7d3d00ba9/fds.sdk.Symbology-3.0.1-py3-none-any.whl
+[2024-05-02 14:46:26] INFO root fetch - processPackages [b-lambda-layer-common]: Downloading https://files.pythonhosted.org/packages/77/8b/9810a4cf739be0171bdf5e2a45b90c7d9afd7366120bf81c34e3d888c035/b_lambda_layer_common-4.4.0.tar.gz
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.Vault]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.Vermilion]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.UniversalScreening]: Downloading https://files.pythonhosted.org/packages/03/73/9cab1ed14955058f9e00811a7273c5278a4d6f74798ac439e274b55f04f2/fds.sdk.UniversalScreening-1.0.8-py3-none-any.whl
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.Vault]: Downloading https://files.pythonhosted.org/packages/f6/c9/6b9f98106300853d75034491ade27ff0e599999b9d5308f8130b61989dd4/fds.sdk.Vault-1.0.2-py3-none-any.whl
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: Downloading https://files.pythonhosted.org/packages/e3/47/1198f33b1e24ddb9fa648a0a9c46c0a8d43e9061c11570e8db36ac1d9023/fds.sdk.StreetAccountNews-0.40.1-py3-none-any.whl
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: Downloading https://files.pythonhosted.org/packages/e3/47/1198f33b1e24ddb9fa648a0a9c46c0a8d43e9061c11570e8db36ac1d9023/fds.sdk.StreetAccountNews-0.40.1-py3-none-any.whl
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.Symbology]: Downloading https://files.pythonhosted.org/packages/76/7f/0e39872ebf8c30ce83a1a5ab497a0a7528be062a3894217adbfb9b167969/fds.sdk.Symbology-3.0.2-py3-none-any.whl
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.Symbology]: Downloading https://files.pythonhosted.org/packages/76/7f/0e39872ebf8c30ce83a1a5ab497a0a7528be062a3894217adbfb9b167969/fds.sdk.Symbology-3.0.2-py3-none-any.whl
+[2024-05-02 14:46:26] INFO root fetch - processPackages [b-lambda-layer-common]: Downloading https://files.pythonhosted.org/packages/2a/7f/d5d97e2558935c8e7d2fc4051b4c0e963e82445c31d863f0793a9cd816ad/b_lambda_layer_common-4.5.0.tar.gz
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.Vermilion]: Downloading https://files.pythonhosted.org/packages/ec/fc/39cfada5974088c0ce2a076958deeead353665c693da7d6d46c0b73007cf/fds.sdk.Vermilion-1.0.0-py3-none-any.whl
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.StocksAPIforDigitalPortals]: Downloading https://files.pythonhosted.org/packages/fa/8c/dfa6dc8103294f89bfacd8905145b59ba52e4e3880ae1961e05ba168056c/fds.sdk.StocksAPIforDigitalPortals-0.9.4-py3-none-any.whl
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.Symbology]: executing diffoscope
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.Symbology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.Symbology-3.0.1-py3-none-any.whl.zip tmp/fds.sdk.Symbology-3.0.2-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.Symbology/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-05-02 14:46:26] INFO root fetch - processPackages [b-lambda-layer-common]: executing diffoscope
+[2024-05-02 14:46:26] INFO root fetch - processPackages [b-lambda-layer-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b_lambda_layer_common-4.4.0.tar.gz tmp/b_lambda_layer_common-4.5.0.tar.gz --markdown 20240502/b/b-lambda-layer-common/4.4.0-4.5.0/README.md --exclude *.pyd
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.Symbology]: executing diffoscope
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.Symbology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.Symbology-3.0.1-py3-none-any.whl.zip tmp/fds.sdk.Symbology-3.0.2-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.Symbology/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.UniversalScreening]: Downloading https://files.pythonhosted.org/packages/96/22/4b43aca3283e8f2541d459af1333147a2f4f2d02c24e1c60024ed3a574b6/fds.sdk.UniversalScreening-1.0.9-py3-none-any.whl
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: executing diffoscope
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.StreetAccountNews-0.40.0-py3-none-any.whl.zip tmp/fds.sdk.StreetAccountNews-0.40.1-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.StreetAccountNews/0.40.0-0.40.1/README.md --exclude *.pyd
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: executing diffoscope
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.StreetAccountNews-0.40.0-py3-none-any.whl.zip tmp/fds.sdk.StreetAccountNews-0.40.1-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.StreetAccountNews/0.40.0-0.40.1/README.md --exclude *.pyd
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.Vault]: Downloading https://files.pythonhosted.org/packages/31/d0/6aeab28b8e8e53c60249bc1c06ce4cfd20e88d69233c5c5fb0bd329b1315/fds.sdk.Vault-1.0.3-py3-none-any.whl
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.UniversalScreening]: executing diffoscope
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.UniversalScreening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.UniversalScreening-1.0.8-py3-none-any.whl.zip tmp/fds.sdk.UniversalScreening-1.0.9-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.UniversalScreening/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 14:46:26] INFO root fetch - processPackages [fds.sdk.Vermilion]: Downloading https://files.pythonhosted.org/packages/ee/fb/1e55ced2dd93c2003d6440a02ceb2988a83cc225c4e761331eb4f92ab986/fds.sdk.Vermilion-1.0.1-py3-none-any.whl
+[2024-05-02 14:46:27] INFO root fetch - processPackages [fds.sdk.Vault]: executing diffoscope
+[2024-05-02 14:46:27] INFO root fetch - processPackages [fds.sdk.Vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.Vault-1.0.2-py3-none-any.whl.zip tmp/fds.sdk.Vault-1.0.3-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.Vault/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-02 14:46:27] INFO root fetch - processPackages [fds.sdk.Vermilion]: executing diffoscope
+[2024-05-02 14:46:27] INFO root fetch - processPackages [fds.sdk.Vermilion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.Vermilion-1.0.0-py3-none-any.whl.zip tmp/fds.sdk.Vermilion-1.0.1-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.Vermilion/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-02 14:46:27] INFO root fetch - processPackages [fds.sdk.StocksAPIforDigitalPortals]: executing diffoscope
+[2024-05-02 14:46:27] INFO root fetch - processPackages [fds.sdk.StocksAPIforDigitalPortals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.StocksAPIforDigitalPortals-0.9.3-py3-none-any.whl.zip tmp/fds.sdk.StocksAPIforDigitalPortals-0.9.4-py3-none-any.whl.zip --markdown 20240502/f/fds.sdk.StocksAPIforDigitalPortals/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-02 14:46:28] INFO root fetch - processPackages [fds.sdk.Symbology]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.Symbology-3.0.1-py3-none-any.whl.zip]
+[2024-05-02 14:46:28] INFO root fetch - processPackages [fds.sdk.Symbology]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.Symbology-3.0.2-py3-none-any.whl.zip]
+[2024-05-02 14:46:28] INFO root fetch - processPackages [b-lambda-layer-common]: Remove: archive file [/home/abi/fetcher/tmp/b_lambda_layer_common-4.4.0.tar.gz]
+[2024-05-02 14:46:28] INFO root fetch - processPackages [b-lambda-layer-common]: Remove: archive file [/home/abi/fetcher/tmp/b_lambda_layer_common-4.5.0.tar.gz]
+[2024-05-02 14:46:28] INFO root fetch - processPackages [fds.sdk.Symbology]: Start processing: rapyd-sdk
+[2024-05-02 14:46:28] INFO root fetch - main [MainThread]: End processing [fds.sdk.Symbology]: success
+[2024-05-02 14:46:28] INFO root fetch - processPackages [b-lambda-layer-common]: Start processing: spaceone-inventory
+[2024-05-02 14:46:28] INFO root fetch - main [MainThread]: End processing [b-lambda-layer-common]: success
+[2024-05-02 14:46:28] INFO root fetch - main [MainThread]: End processing [fds.sdk.Symbology]: success
+[2024-05-02 14:46:28] WARNING root fetch - processPackages [rapyd-sdk]: Skipping, unable to determine old version
+[2024-05-02 14:46:28] INFO root fetch - main [MainThread]: End processing [rapyd-sdk] error
+[2024-05-02 14:46:28] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-02 14:46:28] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.StreetAccountNews-0.40.0-py3-none-any.whl.zip]
+[2024-05-02 14:46:28] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.StreetAccountNews-0.40.1-py3-none-any.whl.zip]
+[2024-05-02 14:46:28] INFO root fetch - main [MainThread]: End processing [fds.sdk.StreetAccountNews]: success
+[2024-05-02 14:46:28] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-02 14:46:28] INFO root fetch - processPackages [fds.sdk.UniversalScreening]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.UniversalScreening-1.0.8-py3-none-any.whl.zip]
+[2024-05-02 14:46:28] INFO root fetch - processPackages [fds.sdk.UniversalScreening]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.UniversalScreening-1.0.9-py3-none-any.whl.zip]
+[2024-05-02 14:46:28] INFO root fetch - main [MainThread]: End processing [fds.sdk.StreetAccountNews]: success
+[2024-05-02 14:46:28] INFO root fetch - main [MainThread]: End processing [fds.sdk.UniversalScreening]: success
+[2024-05-02 14:46:28] INFO root fetch - processPackages [fds.sdk.RealTimeQuotes]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.RealTimeQuotes-0.12.2-py3-none-any.whl.zip]
+[2024-05-02 14:46:28] INFO root fetch - processPackages [fds.sdk.RealTimeQuotes]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.RealTimeQuotes-0.12.3-py3-none-any.whl.zip]
+[2024-05-02 14:46:28] INFO root fetch - main [MainThread]: End processing [fds.sdk.RealTimeQuotes]: success
+[2024-05-02 14:46:28] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-02 14:46:28] INFO root fetch - processPackages [fds.sdk.Vault]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.Vault-1.0.2-py3-none-any.whl.zip]
+[2024-05-02 14:46:28] INFO root fetch - processPackages [fds.sdk.Vault]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.Vault-1.0.3-py3-none-any.whl.zip]
+[2024-05-02 14:46:28] INFO root fetch - main [MainThread]: End processing [fds.sdk.Vault]: success
+[2024-05-02 14:46:28] INFO root fetch - processPackages [fds.sdk.Vermilion]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.Vermilion-1.0.0-py3-none-any.whl.zip]
+[2024-05-02 14:46:28] INFO root fetch - processPackages [fds.sdk.Vermilion]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.Vermilion-1.0.1-py3-none-any.whl.zip]
+[2024-05-02 14:46:28] INFO root fetch - main [MainThread]: End processing [fds.sdk.Vermilion]: success
+[2024-05-02 14:46:28] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-02 14:46:28] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240502/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-02 14:46:30] INFO root fetch - processPackages [fds.sdk.StocksAPIforDigitalPortals]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.StocksAPIforDigitalPortals-0.9.3-py3-none-any.whl.zip]
+[2024-05-02 14:46:30] INFO root fetch - processPackages [fds.sdk.StocksAPIforDigitalPortals]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.StocksAPIforDigitalPortals-0.9.4-py3-none-any.whl.zip]
+[2024-05-02 14:46:30] INFO root fetch - main [MainThread]: End processing [fds.sdk.StocksAPIforDigitalPortals]: success
+[2024-05-02 14:46:30] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-02 14:46:30] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-02 14:46:30] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-02 14:46:30] INFO root fetch - main [MainThread]: Store serial: [23031073]
