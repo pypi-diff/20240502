@@ -9631,3 +9631,9 @@
 [2024-05-02 07:21:55] INFO root fetch - processPackages [wavespectra]: Remove: archive file [/home/abi/fetcher/tmp/wavespectra-3.9.0.tar.gz]
 [2024-05-02 07:21:55] INFO root fetch - main [MainThread]: End processing [wavespectra]: success
 [2024-05-02 07:21:55] INFO root fetch - main [MainThread]: Store serial: [23026639]
+[2024-05-02 07:23:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026639]
+[2024-05-02 07:24:04] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 07:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: samgob-test
+[2024-05-02 07:24:04] ERROR root fetch - processPackages [samgob-test]: Unable to get metadata: No such project 'samgob-test'
+[2024-05-02 07:24:04] INFO root fetch - main [MainThread]: End processing [samgob-test] error
+[2024-05-02 07:24:04] INFO root fetch - main [MainThread]: Store serial: [23026646]
