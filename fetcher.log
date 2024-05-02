@@ -14423,3 +14423,51 @@
 [2024-05-02 11:05:57] INFO root fetch - processPackages [lca-algebraic-dev]: Remove: archive file [/home/abi/fetcher/tmp/lca_algebraic_dev-1.1.1753145.dev0.tar.gz]
 [2024-05-02 11:05:57] INFO root fetch - main [MainThread]: End processing [lca-algebraic-dev]: success
 [2024-05-02 11:05:57] INFO root fetch - main [MainThread]: Store serial: [23028511]
+[2024-05-02 11:08:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028511]
+[2024-05-02 11:08:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 11:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lca-algebraic-dev
+[2024-05-02 11:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akshare
+[2024-05-02 11:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mozdevice
+[2024-05-02 11:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wrapper-b2p
+[2024-05-02 11:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlvana
+[2024-05-02 11:08:06] INFO root fetch - processPackages [lca-algebraic-dev]: New version: [1.1.1753145.dev0] Old Version: [1.1.1750653.dev0]
+[2024-05-02 11:08:06] INFO root fetch - processPackages [sqlvana]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-02 11:08:06] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-02 11:08:06] INFO root fetch - processPackages [wrapper-b2p]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-02 11:08:06] INFO root fetch - processPackages [mozdevice]: New version: [4.1.2] Old Version: [4.1.1]
+[2024-05-02 11:08:06] INFO root fetch - processPackages [lca-algebraic-dev]: Downloading https://files.pythonhosted.org/packages/7a/3c/9968812477ab9f45d6650450b638e30db8774027c82b2b295ac51c4556a5/lca_algebraic_dev-1.1.1750653.dev0.tar.gz
+[2024-05-02 11:08:06] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-02 11:08:07] INFO root fetch - processPackages [sqlvana]: Downloading https://files.pythonhosted.org/packages/bd/a0/d85ada0eec0fea9497db764b49a05e1e65f09b32c3f8b339c2f299787744/sqlvana-0.1.tar.gz
+[2024-05-02 11:08:07] INFO root fetch - processPackages [wrapper-b2p]: Downloading https://files.pythonhosted.org/packages/6f/8e/b508fa31dc6273b72268627207c7132edcf146168ced1dcc231d32613dc0/wrapper_b2p-0.1.0.tar.gz
+[2024-05-02 11:08:07] INFO root fetch - processPackages [mozdevice]: Downloading https://files.pythonhosted.org/packages/12/51/8b629c9b931d681c3493c92664e445caffd19e844005bd3a69453dcf7e87/mozdevice-4.1.1.tar.gz
+[2024-05-02 11:08:07] INFO root fetch - processPackages [lca-algebraic-dev]: Downloading https://files.pythonhosted.org/packages/a4/1e/5362a3cd57622e45fc40ad45b50be3809a0bb9d2a6d69d4ed1b66e4a77c0/lca_algebraic_dev-1.1.1753145.dev0.tar.gz
+[2024-05-02 11:08:07] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-02 11:08:07] INFO root fetch - processPackages [wrapper-b2p]: Downloading https://files.pythonhosted.org/packages/8d/26/5ee7026c2b2788f439b8980f9652e4ee58b3fe8db0e9323f8d1e5cf9e39c/wrapper_b2p-0.2.0.tar.gz
+[2024-05-02 11:08:07] INFO root fetch - processPackages [sqlvana]: Downloading https://files.pythonhosted.org/packages/54/80/dd7ac680829e33e09ba8f38dea88c36a093d33fb4efe6af2ab33fad0ef4b/sqlvana-0.1.1.tar.gz
+[2024-05-02 11:08:07] INFO root fetch - processPackages [lca-algebraic-dev]: executing diffoscope
+[2024-05-02 11:08:07] INFO root fetch - processPackages [lca-algebraic-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lca_algebraic_dev-1.1.1750653.dev0.tar.gz tmp/lca_algebraic_dev-1.1.1753145.dev0.tar.gz --markdown 20240502/l/lca-algebraic-dev/1.1.1750653.dev0-1.1.1753145.dev0/README.md --exclude *.pyd
+[2024-05-02 11:08:07] INFO root fetch - processPackages [mozdevice]: Downloading https://files.pythonhosted.org/packages/f4/68/6e716cbf53d1ac1b32650d754e0d19228cf51699cbdddeb8a66cf06fde67/mozdevice-4.1.2.tar.gz
+[2024-05-02 11:08:07] INFO root fetch - processPackages [wrapper-b2p]: executing diffoscope
+[2024-05-02 11:08:07] INFO root fetch - processPackages [wrapper-b2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrapper_b2p-0.1.0.tar.gz tmp/wrapper_b2p-0.2.0.tar.gz --markdown 20240502/w/wrapper-b2p/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-02 11:08:07] INFO root fetch - processPackages [sqlvana]: executing diffoscope
+[2024-05-02 11:08:07] INFO root fetch - processPackages [sqlvana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlvana-0.1.tar.gz tmp/sqlvana-0.1.1.tar.gz --markdown 20240502/s/sqlvana/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-02 11:08:08] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-02 11:08:08] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240502/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-02 11:08:08] INFO root fetch - processPackages [mozdevice]: executing diffoscope
+[2024-05-02 11:08:08] INFO root fetch - processPackages [mozdevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozdevice-4.1.1.tar.gz tmp/mozdevice-4.1.2.tar.gz --markdown 20240502/m/mozdevice/4.1.1-4.1.2/README.md --exclude *.pyd
+[2024-05-02 11:08:08] INFO root fetch - processPackages [lca-algebraic-dev]: Remove: archive file [/home/abi/fetcher/tmp/lca_algebraic_dev-1.1.1750653.dev0.tar.gz]
+[2024-05-02 11:08:08] INFO root fetch - processPackages [lca-algebraic-dev]: Remove: archive file [/home/abi/fetcher/tmp/lca_algebraic_dev-1.1.1753145.dev0.tar.gz]
+[2024-05-02 11:08:08] INFO root fetch - main [MainThread]: End processing [lca-algebraic-dev]: success
+[2024-05-02 11:08:08] INFO root fetch - processPackages [wrapper-b2p]: Remove: archive file [/home/abi/fetcher/tmp/wrapper_b2p-0.1.0.tar.gz]
+[2024-05-02 11:08:08] INFO root fetch - processPackages [wrapper-b2p]: Remove: archive file [/home/abi/fetcher/tmp/wrapper_b2p-0.2.0.tar.gz]
+[2024-05-02 11:08:08] INFO root fetch - processPackages [sqlvana]: Remove: archive file [/home/abi/fetcher/tmp/sqlvana-0.1.tar.gz]
+[2024-05-02 11:08:08] INFO root fetch - main [MainThread]: End processing [wrapper-b2p]: success
+[2024-05-02 11:08:08] INFO root fetch - processPackages [sqlvana]: Remove: archive file [/home/abi/fetcher/tmp/sqlvana-0.1.1.tar.gz]
+[2024-05-02 11:08:08] INFO root fetch - main [MainThread]: End processing [sqlvana]: success
+[2024-05-02 11:08:08] INFO root fetch - processPackages [mozdevice]: Remove: archive file [/home/abi/fetcher/tmp/mozdevice-4.1.1.tar.gz]
+[2024-05-02 11:08:08] INFO root fetch - processPackages [mozdevice]: Remove: archive file [/home/abi/fetcher/tmp/mozdevice-4.1.2.tar.gz]
+[2024-05-02 11:08:08] INFO root fetch - main [MainThread]: End processing [mozdevice]: success
+[2024-05-02 11:08:10] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-02 11:08:10] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-02 11:08:10] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-02 11:08:10] INFO root fetch - main [MainThread]: Store serial: [23028527]
