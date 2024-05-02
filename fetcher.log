@@ -14645,3 +14645,126 @@
 [2024-05-02 11:15:16] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
 [2024-05-02 11:15:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-05-02 11:15:16] INFO root fetch - main [MainThread]: Store serial: [23028593]
+[2024-05-02 11:17:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028593]
+[2024-05-02 11:17:26] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-02 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: github-org-manager
+[2024-05-02 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvfuser-cu121
+[2024-05-02 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: increff-runner
+[2024-05-02 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycrdt
+[2024-05-02 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geotribu
+[2024-05-02 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: safe-ds-runner
+[2024-05-02 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-commands2
+[2024-05-02 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-ssm-juggle
+[2024-05-02 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nvfuser-cu118
+[2024-05-02 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: templated-setup
+[2024-05-02 11:17:26] INFO root fetch - processPackages [github-org-manager]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-02 11:17:26] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.3.dev20240501] Old Version: [0.2.3.dev20240428]
+[2024-05-02 11:17:26] INFO root fetch - processPackages [aws-ssm-juggle]: New version: [24.5.0] Old Version: [24.4.5]
+[2024-05-02 11:17:26] INFO root fetch - processPackages [increff-runner]: New version: [3.1.8] Old Version: [3.1.7]
+[2024-05-02 11:17:26] INFO root fetch - processPackages [templated-setup]: New version: [0.956] Old Version: [0.955]
+[2024-05-02 11:17:26] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.3.dev20240501] Old Version: [0.2.3.dev20240428]
+[2024-05-02 11:17:26] INFO root fetch - processPackages [pycrdt]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-02 11:17:26] INFO root fetch - processPackages [github-org-manager]: Downloading https://files.pythonhosted.org/packages/46/d8/bc89a1e1e282aeca2ad40a9ecb0a3a271e53cebc148c84930d382d221104/github_org_manager-0.2.0.tar.gz
+[2024-05-02 11:17:26] INFO root fetch - processPackages [safe-ds-runner]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 11:17:26] INFO root fetch - processPackages [django-commands2]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-02 11:17:26] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/06/bb/1980f46492a7d8b082e0a348eb0a5e0deb5c83d0d56b58f84f6bc428a07c/increff_runner-3.1.7-py3-none-any.whl
+[2024-05-02 11:17:26] INFO root fetch - processPackages [geotribu]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-02 11:17:26] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/9a/80/a48fb1ffb85100ee88d2d6cb23e43c702acb20050afbc70aea7dc43b80e9/nvfuser_cu121-0.2.3.dev20240428.tar.gz
+[2024-05-02 11:17:26] INFO root fetch - processPackages [aws-ssm-juggle]: Downloading https://files.pythonhosted.org/packages/66/2b/b2045943ab75f9614e1a3431d2054fdda0cd2daa621711b72088623e1a15/aws_ssm_juggle-24.4.5.tar.gz
+[2024-05-02 11:17:26] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/a3/10/fa601adf5f5a3eb775f3ba4c79390620ada843cc8c88adb89c234add2647/templated_setup-0.955.tar.gz
+[2024-05-02 11:17:26] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/9a/ff/1a87571f00891221274ef4d347a604ea771d193d616f4fcf469676ef6410/nvfuser_cu118-0.2.3.dev20240428.tar.gz
+[2024-05-02 11:17:27] INFO root fetch - processPackages [pycrdt]: Downloading https://files.pythonhosted.org/packages/93/23/0799d6c98c5ba4abf174c18a0b275626e439d9c9583ce663a124bf4d53e3/pycrdt-0.8.8.tar.gz
+[2024-05-02 11:17:27] INFO root fetch - processPackages [safe-ds-runner]: Downloading https://files.pythonhosted.org/packages/26/51/7201459d57d5908314248a4dd1c59ec2d745a3d9f63d7c4e66a1593e51a5/safe_ds_runner-0.8.0.tar.gz
+[2024-05-02 11:17:27] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/9c/90/f768bc9ea84bf9a4392d0384d01590a376d108b0241dbb859d931bff58e4/increff_runner-3.1.8-py3-none-any.whl
+[2024-05-02 11:17:27] INFO root fetch - processPackages [django-commands2]: Downloading https://files.pythonhosted.org/packages/4a/56/2b5bcae29d39b757bdbe70d08b6d89fbfc3e1a08ba8e0984e6cd9d0363be/django_commands2-0.4.0.tar.gz
+[2024-05-02 11:17:27] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b4/2b/1e72e3a365b7cfe97b8caf38a75583f16794046143a83a4694baa5d69d6e/nvfuser_cu121-0.2.3.dev20240501.tar.gz
+[2024-05-02 11:17:27] INFO root fetch - processPackages [aws-ssm-juggle]: Downloading https://files.pythonhosted.org/packages/38/e9/ba8c3edc5d44349312e51a0f579339bdd71a13f0db76f197c522a5520e4c/aws_ssm_juggle-24.5.0.tar.gz
+[2024-05-02 11:17:27] INFO root fetch - processPackages [geotribu]: Downloading https://files.pythonhosted.org/packages/0c/88/9ed63e5b1ed623ecc1bbe33f1abbe27529df60c105218f58ec8e861e50c3/geotribu-0.9.0.tar.gz
+[2024-05-02 11:17:27] INFO root fetch - processPackages [github-org-manager]: Downloading https://files.pythonhosted.org/packages/ca/6b/3e8f16a8b272633812cade603f0b82b721f8d1930d5bff4b59501b2edda0/github_org_manager-0.2.1.tar.gz
+[2024-05-02 11:17:27] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-05-02 11:17:27] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-3.1.7-py3-none-any.whl.zip tmp/increff_runner-3.1.8-py3-none-any.whl.zip --markdown 20240502/i/increff-runner/3.1.7-3.1.8/README.md --exclude *.pyd
+[2024-05-02 11:17:27] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/40/97/230f68336985c19d5317466cf2f3ae66c05b161bb93c44edbeda440e53dd/nvfuser_cu118-0.2.3.dev20240501.tar.gz
+[2024-05-02 11:17:27] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/7b/ba/a605a61a63b4b9df0bb4d5cb123271af13f53c72d5793b78aed3fcd5ab29/templated_setup-0.956.tar.gz
+[2024-05-02 11:17:27] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-02 11:17:27] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.3.dev20240428.tar.gz tmp/nvfuser_cu121-0.2.3.dev20240501.tar.gz --markdown 20240502/n/nvfuser-cu121/0.2.3.dev20240428-0.2.3.dev20240501/README.md --exclude *.pyd
+[2024-05-02 11:17:27] INFO root fetch - processPackages [aws-ssm-juggle]: executing diffoscope
+[2024-05-02 11:17:27] INFO root fetch - processPackages [aws-ssm-juggle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_ssm_juggle-24.4.5.tar.gz tmp/aws_ssm_juggle-24.5.0.tar.gz --markdown 20240502/a/aws-ssm-juggle/24.4.5-24.5.0/README.md --exclude *.pyd
+[2024-05-02 11:17:27] INFO root fetch - processPackages [github-org-manager]: executing diffoscope
+[2024-05-02 11:17:27] INFO root fetch - processPackages [github-org-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_org_manager-0.2.0.tar.gz tmp/github_org_manager-0.2.1.tar.gz --markdown 20240502/g/github-org-manager/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-02 11:17:27] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-02 11:17:27] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.3.dev20240428.tar.gz tmp/nvfuser_cu118-0.2.3.dev20240501.tar.gz --markdown 20240502/n/nvfuser-cu118/0.2.3.dev20240428-0.2.3.dev20240501/README.md --exclude *.pyd
+[2024-05-02 11:17:27] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 11:17:27] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.955.tar.gz tmp/templated_setup-0.956.tar.gz --markdown 20240502/t/templated-setup/0.955-0.956/README.md --exclude *.pyd
+[2024-05-02 11:17:27] INFO root fetch - processPackages [safe-ds-runner]: Downloading https://files.pythonhosted.org/packages/20/3d/c4895c123cfc06603d02ec8039c6c0e0b40b2a14c7fc844e007ee41ceb23/safe_ds_runner-0.9.0.tar.gz
+[2024-05-02 11:17:27] INFO root fetch - processPackages [safe-ds-runner]: executing diffoscope
+[2024-05-02 11:17:27] INFO root fetch - processPackages [django-commands2]: Downloading https://files.pythonhosted.org/packages/c4/3c/d09b5633ce9278cc81c928402ab946a4cf7e67ca85ecf17a4fc15bed9cf8/django_commands2-0.5.0.tar.gz
+[2024-05-02 11:17:27] INFO root fetch - processPackages [safe-ds-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_ds_runner-0.8.0.tar.gz tmp/safe_ds_runner-0.9.0.tar.gz --markdown 20240502/s/safe-ds-runner/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 11:17:27] INFO root fetch - processPackages [pycrdt]: Downloading https://files.pythonhosted.org/packages/e1/8d/1a192121bb657c5e119f3f4d64361b806fcb9423021725407252a919e987/pycrdt-0.8.9.tar.gz
+[2024-05-02 11:17:27] INFO root fetch - processPackages [geotribu]: Downloading https://files.pythonhosted.org/packages/62/b3/c0a91ca5efa5c4c0338fbdec554fce09bf08ac357fd3020e1830d1194bc2/geotribu-0.9.1.tar.gz
+[2024-05-02 11:17:27] INFO root fetch - processPackages [django-commands2]: executing diffoscope
+[2024-05-02 11:17:27] INFO root fetch - processPackages [django-commands2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_commands2-0.4.0.tar.gz tmp/django_commands2-0.5.0.tar.gz --markdown 20240502/d/django-commands2/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-02 11:17:27] INFO root fetch - processPackages [pycrdt]: executing diffoscope
+[2024-05-02 11:17:27] INFO root fetch - processPackages [pycrdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrdt-0.8.8.tar.gz tmp/pycrdt-0.8.9.tar.gz --markdown 20240502/p/pycrdt/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-02 11:17:28] INFO root fetch - processPackages [geotribu]: executing diffoscope
+[2024-05-02 11:17:28] INFO root fetch - processPackages [geotribu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotribu-0.9.0.tar.gz tmp/geotribu-0.9.1.tar.gz --markdown 20240502/g/geotribu/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-02 11:17:28] INFO root fetch - processPackages [aws-ssm-juggle]: Remove: archive file [/home/abi/fetcher/tmp/aws_ssm_juggle-24.4.5.tar.gz]
+[2024-05-02 11:17:28] INFO root fetch - processPackages [aws-ssm-juggle]: Remove: archive file [/home/abi/fetcher/tmp/aws_ssm_juggle-24.5.0.tar.gz]
+[2024-05-02 11:17:28] INFO root fetch - processPackages [aws-ssm-juggle]: Start processing: lilya
+[2024-05-02 11:17:28] INFO root fetch - main [MainThread]: End processing [aws-ssm-juggle]: success
+[2024-05-02 11:17:28] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.7-py3-none-any.whl.zip]
+[2024-05-02 11:17:28] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240428.tar.gz]
+[2024-05-02 11:17:28] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240501.tar.gz]
+[2024-05-02 11:17:28] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.8-py3-none-any.whl.zip]
+[2024-05-02 11:17:28] INFO root fetch - processPackages [nvfuser-cu121]: Start processing: telicent-lib
+[2024-05-02 11:17:28] INFO root fetch - processPackages [increff-runner]: Start processing: ablog
+[2024-05-02 11:17:28] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-02 11:17:28] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-05-02 11:17:28] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240428.tar.gz]
+[2024-05-02 11:17:28] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240501.tar.gz]
+[2024-05-02 11:17:28] INFO root fetch - processPackages [nvfuser-cu118]: Start processing: drf-redesign
+[2024-05-02 11:17:28] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-02 11:17:28] INFO root fetch - processPackages [github-org-manager]: Remove: archive file [/home/abi/fetcher/tmp/github_org_manager-0.2.0.tar.gz]
+[2024-05-02 11:17:28] INFO root fetch - processPackages [github-org-manager]: Remove: archive file [/home/abi/fetcher/tmp/github_org_manager-0.2.1.tar.gz]
+[2024-05-02 11:17:28] INFO root fetch - main [MainThread]: End processing [github-org-manager]: success
+[2024-05-02 11:17:28] INFO root fetch - processPackages [lilya]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-02 11:17:28] WARNING root fetch - processPackages [telicent-lib]: Skipping, unable to determine old version
+[2024-05-02 11:17:28] INFO root fetch - main [MainThread]: End processing [telicent-lib] error
+[2024-05-02 11:17:28] INFO root fetch - processPackages [ablog]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-02 11:17:28] INFO root fetch - processPackages [safe-ds-runner]: Remove: archive file [/home/abi/fetcher/tmp/safe_ds_runner-0.8.0.tar.gz]
+[2024-05-02 11:17:28] INFO root fetch - processPackages [safe-ds-runner]: Remove: archive file [/home/abi/fetcher/tmp/safe_ds_runner-0.9.0.tar.gz]
+[2024-05-02 11:17:28] INFO root fetch - main [MainThread]: End processing [safe-ds-runner]: success
+[2024-05-02 11:17:28] INFO root fetch - processPackages [drf-redesign]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-02 11:17:29] INFO root fetch - processPackages [django-commands2]: Remove: archive file [/home/abi/fetcher/tmp/django_commands2-0.4.0.tar.gz]
+[2024-05-02 11:17:29] INFO root fetch - processPackages [django-commands2]: Remove: archive file [/home/abi/fetcher/tmp/django_commands2-0.5.0.tar.gz]
+[2024-05-02 11:17:29] INFO root fetch - main [MainThread]: End processing [django-commands2]: success
+[2024-05-02 11:17:29] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.955.tar.gz]
+[2024-05-02 11:17:29] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.956.tar.gz]
+[2024-05-02 11:17:29] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 11:17:29] INFO root fetch - processPackages [ablog]: Downloading https://files.pythonhosted.org/packages/63/e8/82790091411d74571d1e67b11a8175e175f6234dac63bba89bdb87447290/ablog-0.9.4.tar.gz
+[2024-05-02 11:17:29] INFO root fetch - processPackages [drf-redesign]: Downloading https://files.pythonhosted.org/packages/c6/3b/f02c2b2cc338ba978cb64dde979d7181130a761e79bd717bb3aa36d05e48/drf_redesign-0.3.3.tar.gz
+[2024-05-02 11:17:29] INFO root fetch - processPackages [lilya]: Downloading https://files.pythonhosted.org/packages/dd/39/ccf5dd5ec1d42e9c0b9d868e162a00ebc224909f1badedcd47b94fa2c468/lilya-0.5.0.tar.gz
+[2024-05-02 11:17:29] INFO root fetch - processPackages [pycrdt]: Remove: archive file [/home/abi/fetcher/tmp/pycrdt-0.8.8.tar.gz]
+[2024-05-02 11:17:29] INFO root fetch - processPackages [pycrdt]: Remove: archive file [/home/abi/fetcher/tmp/pycrdt-0.8.9.tar.gz]
+[2024-05-02 11:17:29] INFO root fetch - main [MainThread]: End processing [pycrdt]: success
+[2024-05-02 11:17:29] INFO root fetch - processPackages [geotribu]: Remove: archive file [/home/abi/fetcher/tmp/geotribu-0.9.0.tar.gz]
+[2024-05-02 11:17:29] INFO root fetch - processPackages [geotribu]: Remove: archive file [/home/abi/fetcher/tmp/geotribu-0.9.1.tar.gz]
+[2024-05-02 11:17:29] INFO root fetch - main [MainThread]: End processing [geotribu]: success
+[2024-05-02 11:17:29] INFO root fetch - processPackages [drf-redesign]: Downloading https://files.pythonhosted.org/packages/b7/18/41afe0057fec12e6284cedf55d931905e22d97f46a6dc2f018af3f3766f8/drf_redesign-0.3.4.tar.gz
+[2024-05-02 11:17:29] INFO root fetch - processPackages [lilya]: Downloading https://files.pythonhosted.org/packages/18/bc/65eef2dd249359d8a1cfa75f42c9a326972b9e26356c5574c5fe119a447e/lilya-0.6.0.tar.gz
+[2024-05-02 11:17:29] INFO root fetch - processPackages [ablog]: Downloading https://files.pythonhosted.org/packages/7b/1f/2e363c1ad1dd60b7f4feb29a57cf90fede60e9513e5b9d17e474b8e9af32/ablog-0.9.5.tar.gz
+[2024-05-02 11:17:29] INFO root fetch - processPackages [drf-redesign]: executing diffoscope
+[2024-05-02 11:17:29] INFO root fetch - processPackages [drf-redesign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_redesign-0.3.3.tar.gz tmp/drf_redesign-0.3.4.tar.gz --markdown 20240502/d/drf-redesign/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-02 11:17:29] INFO root fetch - processPackages [lilya]: executing diffoscope
+[2024-05-02 11:17:29] INFO root fetch - processPackages [lilya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lilya-0.5.0.tar.gz tmp/lilya-0.6.0.tar.gz --markdown 20240502/l/lilya/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-02 11:17:29] INFO root fetch - processPackages [ablog]: executing diffoscope
+[2024-05-02 11:17:29] INFO root fetch - processPackages [ablog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ablog-0.9.4.tar.gz tmp/ablog-0.9.5.tar.gz --markdown 20240502/a/ablog/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-02 11:17:30] INFO root fetch - processPackages [drf-redesign]: Remove: archive file [/home/abi/fetcher/tmp/drf_redesign-0.3.3.tar.gz]
+[2024-05-02 11:17:30] INFO root fetch - processPackages [drf-redesign]: Remove: archive file [/home/abi/fetcher/tmp/drf_redesign-0.3.4.tar.gz]
+[2024-05-02 11:17:30] INFO root fetch - main [MainThread]: End processing [drf-redesign]: success
+[2024-05-02 11:17:30] INFO root fetch - processPackages [ablog]: Remove: archive file [/home/abi/fetcher/tmp/ablog-0.9.4.tar.gz]
+[2024-05-02 11:17:30] INFO root fetch - processPackages [ablog]: Remove: archive file [/home/abi/fetcher/tmp/ablog-0.9.5.tar.gz]
+[2024-05-02 11:17:30] INFO root fetch - main [MainThread]: End processing [ablog]: success
+[2024-05-02 11:17:30] INFO root fetch - processPackages [lilya]: Remove: archive file [/home/abi/fetcher/tmp/lilya-0.5.0.tar.gz]
+[2024-05-02 11:17:30] INFO root fetch - processPackages [lilya]: Remove: archive file [/home/abi/fetcher/tmp/lilya-0.6.0.tar.gz]
+[2024-05-02 11:17:30] INFO root fetch - main [MainThread]: End processing [lilya]: success
+[2024-05-02 11:17:30] INFO root fetch - main [MainThread]: Store serial: [23028692]
