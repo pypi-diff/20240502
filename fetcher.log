@@ -10963,3 +10963,45 @@
 [2024-05-02 08:46:41] INFO root fetch - processPackages [pytest-ruff]: Remove: archive file [/home/abi/fetcher/tmp/pytest_ruff-0.3.2.tar.gz]
 [2024-05-02 08:46:41] INFO root fetch - main [MainThread]: End processing [pytest-ruff]: success
 [2024-05-02 08:46:41] INFO root fetch - main [MainThread]: Store serial: [23027109]
+[2024-05-02 08:48:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027109]
+[2024-05-02 08:48:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 08:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skytable-py
+[2024-05-02 08:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apmtools
+[2024-05-02 08:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khoj-assistant
+[2024-05-02 08:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spand
+[2024-05-02 08:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xurpas-data-quality
+[2024-05-02 08:48:49] INFO root fetch - processPackages [skytable-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 08:48:50] INFO root fetch - processPackages [skytable-py]: Downloading https://files.pythonhosted.org/packages/49/22/181d7a61e7275cef9634b01cb5931ab1d2a1a9db9b9646aef17e5490b6e8/skytable_py-0.1.0.tar.gz
+[2024-05-02 08:48:50] INFO root fetch - processPackages [spand]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 08:48:50] WARNING root fetch - processPackages [xurpas-data-quality]: Skipping, unable to determine old version
+[2024-05-02 08:48:50] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality] error
+[2024-05-02 08:48:50] INFO root fetch - processPackages [apmtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 08:48:50] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-02 08:48:50] INFO root fetch - processPackages [spand]: Downloading https://files.pythonhosted.org/packages/8e/f3/d121671fd3740634487304eadeffeb8e0e6a8ff0f95bbc79a879f6ad3603/spand-0.1.0.tar.gz
+[2024-05-02 08:48:50] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/de/e4/d6e711ac61fe6f7af46eda73a0f1b76b8fea3058ed7ff8d5ed8e37631da0/apmtools-0.0.8.tar.gz
+[2024-05-02 08:48:50] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-02 08:48:50] INFO root fetch - processPackages [skytable-py]: Downloading https://files.pythonhosted.org/packages/fc/65/2a91a71146d6d5fc4207f33c49c03a1975754daf3588454796b980576177/skytable_py-0.1.1.tar.gz
+[2024-05-02 08:48:50] INFO root fetch - processPackages [skytable-py]: executing diffoscope
+[2024-05-02 08:48:50] INFO root fetch - processPackages [skytable-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytable_py-0.1.0.tar.gz tmp/skytable_py-0.1.1.tar.gz --markdown 20240502/s/skytable-py/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 08:48:50] INFO root fetch - processPackages [spand]: Downloading https://files.pythonhosted.org/packages/2f/be/d89aaa952661650546e2be11b6ca1e1a5a9a3527cb3c74c04cd5654d1e92/spand-0.1.1.tar.gz
+[2024-05-02 08:48:50] INFO root fetch - processPackages [spand]: executing diffoscope
+[2024-05-02 08:48:50] INFO root fetch - processPackages [spand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spand-0.1.0.tar.gz tmp/spand-0.1.1.tar.gz --markdown 20240502/s/spand/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 08:48:50] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-02 08:48:50] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/1b/d8/f078c028e3a31e87a9d21228f1c6989660a625af41cadc32b810ce6f8332/apmtools-0.0.9.tar.gz
+[2024-05-02 08:48:51] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-02 08:48:51] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240502/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-02 08:48:51] INFO root fetch - processPackages [skytable-py]: Remove: archive file [/home/abi/fetcher/tmp/skytable_py-0.1.0.tar.gz]
+[2024-05-02 08:48:51] INFO root fetch - processPackages [skytable-py]: Remove: archive file [/home/abi/fetcher/tmp/skytable_py-0.1.1.tar.gz]
+[2024-05-02 08:48:51] INFO root fetch - main [MainThread]: End processing [skytable-py]: success
+[2024-05-02 08:48:51] INFO root fetch - processPackages [spand]: Remove: archive file [/home/abi/fetcher/tmp/spand-0.1.0.tar.gz]
+[2024-05-02 08:48:51] INFO root fetch - processPackages [spand]: Remove: archive file [/home/abi/fetcher/tmp/spand-0.1.1.tar.gz]
+[2024-05-02 08:48:51] INFO root fetch - main [MainThread]: End processing [spand]: success
+[2024-05-02 08:48:51] INFO root fetch - processPackages [apmtools]: executing diffoscope
+[2024-05-02 08:48:51] INFO root fetch - processPackages [apmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apmtools-0.0.8.tar.gz tmp/apmtools-0.0.9.tar.gz --markdown 20240502/a/apmtools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 08:48:52] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-02 08:48:52] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-02 08:48:52] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-02 08:48:52] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.8.tar.gz]
+[2024-05-02 08:48:52] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.9.tar.gz]
+[2024-05-02 08:48:52] INFO root fetch - main [MainThread]: End processing [apmtools]: success
+[2024-05-02 08:48:52] INFO root fetch - main [MainThread]: Store serial: [23027128]
