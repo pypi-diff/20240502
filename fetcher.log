@@ -8654,3 +8654,20 @@
 [2024-05-02 06:02:53] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.9.0.tar.gz]
 [2024-05-02 06:02:53] INFO root fetch - main [MainThread]: End processing [mylocale]: success
 [2024-05-02 06:02:53] INFO root fetch - main [MainThread]: Store serial: [23026204]
+[2024-05-02 06:04:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026204]
+[2024-05-02 06:05:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 06:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opendp
+[2024-05-02 06:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hexdoc
+[2024-05-02 06:05:03] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240416001]
+[2024-05-02 06:05:03] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/1c/31/4ebee2e092efb0f95ee7fe527220aa20edc7675a16e59057bd779d3633ed/opendp-0.9.2a20240416001-py3-none-any.whl
+[2024-05-02 06:05:03] INFO root fetch - processPackages [hexdoc]: New version: [1!0.1.0a9] Old Version: [1!0.1.0a8]
+[2024-05-02 06:05:03] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36076642>=10485760
+[2024-05-02 06:05:03] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-05-02 06:05:03] INFO root fetch - processPackages [hexdoc]: Downloading https://files.pythonhosted.org/packages/41/3c/095a3abe0276460303a7fb44be7549f3b5eeee9ab93e540fe79d34c61915/hexdoc-1!0.1.0a8.tar.gz
+[2024-05-02 06:05:03] INFO root fetch - processPackages [hexdoc]: Downloading https://files.pythonhosted.org/packages/cd/f8/77bb4fb48d1590fa4afd9345e60063d3975f2401318af826181c3435d518/hexdoc-1!0.1.0a9.tar.gz
+[2024-05-02 06:05:04] INFO root fetch - processPackages [hexdoc]: executing diffoscope
+[2024-05-02 06:05:04] INFO root fetch - processPackages [hexdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexdoc-1!0.1.0a8.tar.gz tmp/hexdoc-1!0.1.0a9.tar.gz --markdown 20240502/h/hexdoc/1!0.1.0a8-1!0.1.0a9/README.md --exclude *.pyd
+[2024-05-02 06:05:04] INFO root fetch - processPackages [hexdoc]: Remove: archive file [/home/abi/fetcher/tmp/hexdoc-1!0.1.0a8.tar.gz]
+[2024-05-02 06:05:04] INFO root fetch - processPackages [hexdoc]: Remove: archive file [/home/abi/fetcher/tmp/hexdoc-1!0.1.0a9.tar.gz]
+[2024-05-02 06:05:04] INFO root fetch - main [MainThread]: End processing [hexdoc]: success
+[2024-05-02 06:05:04] INFO root fetch - main [MainThread]: Store serial: [23026224]
