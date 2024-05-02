@@ -9331,3 +9331,51 @@
 [2024-05-02 06:57:54] INFO root fetch - processPackages [labelbox]: Remove: archive file [/home/abi/fetcher/tmp/labelbox-3.9.0.tar.gz]
 [2024-05-02 06:57:54] INFO root fetch - main [MainThread]: End processing [labelbox]: success
 [2024-05-02 06:57:54] INFO root fetch - main [MainThread]: Store serial: [23026488]
+[2024-05-02 06:59:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026488]
+[2024-05-02 07:00:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 07:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: templated-setup
+[2024-05-02 07:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django_herobiz_ds
+[2024-05-02 07:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kmport
+[2024-05-02 07:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shipper-shippy
+[2024-05-02 07:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-es-aeat-mod347
+[2024-05-02 07:00:03] INFO root fetch - processPackages [templated-setup]: New version: [0.951] Old Version: [0.95]
+[2024-05-02 07:00:03] INFO root fetch - processPackages [kmport]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-02 07:00:03] INFO root fetch - processPackages [shipper-shippy]: New version: [2.36.5] Old Version: [2.36.4]
+[2024-05-02 07:00:03] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/49/6d/24194e59adc9e7f7550e36faa73fefa58507bf31237d688434199815ab4a/templated_setup-0.95.tar.gz
+[2024-05-02 07:00:03] INFO root fetch - processPackages [django_herobiz_ds]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-02 07:00:03] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: New version: [17.0.1.0.1.5] Old Version: [17.0.1.0.1.3]
+[2024-05-02 07:00:03] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/55/c0/969d427c419f7f438a712082b541707ad840dbadbc8d8fbbb679b50f4f2a/shipper_shippy-2.36.4.tar.gz
+[2024-05-02 07:00:03] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/07/5f/fdd706ea07c1da0d10178206ddb7c55847c3b9301a2b783deb2e1ed75771/kmport-2.1.8.tar.gz
+[2024-05-02 07:00:03] INFO root fetch - processPackages [django_herobiz_ds]: Downloading https://files.pythonhosted.org/packages/40/80/1d55aa5111884ea4ef12eb1b36eacc7671a4861134f57eb4ef9f4daf1ee7/django_herobiz_ds-2.2.1.tar.gz
+[2024-05-02 07:00:03] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/39/97/36d83185ab668d6d40932adf68bbb9562022101aae89ae15ad09c5f10824/odoo_addon_l10n_es_aeat_mod347-17.0.1.0.1.3-py3-none-any.whl
+[2024-05-02 07:00:04] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/3d/79/498cf56f36f48ebb304e195364e53268c87c8963124c880811f09836377a/shipper_shippy-2.36.5.tar.gz
+[2024-05-02 07:00:04] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/cf/a6/a45040db97aabb2edc05bde1a372786067c777c4dd2decbccb1a7869e501/kmport-2.1.9.tar.gz
+[2024-05-02 07:00:04] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/17/84/b369eb1875ac1355bc67cbe96171a568487aa3d96e14f0cb67df2a60e468/templated_setup-0.951.tar.gz
+[2024-05-02 07:00:04] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2024-05-02 07:00:04] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper_shippy-2.36.4.tar.gz tmp/shipper_shippy-2.36.5.tar.gz --markdown 20240502/s/shipper-shippy/2.36.4-2.36.5/README.md --exclude *.pyd
+[2024-05-02 07:00:04] INFO root fetch - processPackages [kmport]: executing diffoscope
+[2024-05-02 07:00:04] INFO root fetch - processPackages [kmport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmport-2.1.8.tar.gz tmp/kmport-2.1.9.tar.gz --markdown 20240502/k/kmport/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-02 07:00:04] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 07:00:04] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.95.tar.gz tmp/templated_setup-0.951.tar.gz --markdown 20240502/t/templated-setup/0.95-0.951/README.md --exclude *.pyd
+[2024-05-02 07:00:04] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/6d/80/50270823eb72bef8382ab9955143c6599ea3d1c60f254cdba29b0eff65ef/odoo_addon_l10n_es_aeat_mod347-17.0.1.0.1.5-py3-none-any.whl
+[2024-05-02 07:00:04] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: executing diffoscope
+[2024-05-02 07:00:04] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod347-17.0.1.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod347-17.0.1.0.1.5-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-es-aeat-mod347/17.0.1.0.1.3-17.0.1.0.1.5/README.md --exclude *.pyd
+[2024-05-02 07:00:04] INFO root fetch - processPackages [django_herobiz_ds]: Downloading https://files.pythonhosted.org/packages/e9/58/d6bcb7d035745e24e9ff8e03de14cfed8eed0fb835716509062183f57862/django_herobiz_ds-2.2.2.tar.gz
+[2024-05-02 07:00:04] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.36.4.tar.gz]
+[2024-05-02 07:00:04] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.36.5.tar.gz]
+[2024-05-02 07:00:04] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2024-05-02 07:00:04] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.95.tar.gz]
+[2024-05-02 07:00:04] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.951.tar.gz]
+[2024-05-02 07:00:04] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 07:00:04] INFO root fetch - processPackages [django_herobiz_ds]: executing diffoscope
+[2024-05-02 07:00:04] INFO root fetch - processPackages [django_herobiz_ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_ds-2.2.1.tar.gz tmp/django_herobiz_ds-2.2.2.tar.gz --markdown 20240502/d/django_herobiz_ds/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-02 07:00:05] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.8.tar.gz]
+[2024-05-02 07:00:05] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.9.tar.gz]
+[2024-05-02 07:00:05] INFO root fetch - main [MainThread]: End processing [kmport]: success
+[2024-05-02 07:00:05] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-17.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-02 07:00:05] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-17.0.1.0.1.5-py3-none-any.whl.zip]
+[2024-05-02 07:00:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod347]: success
+[2024-05-02 07:00:06] INFO root fetch - processPackages [django_herobiz_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_ds-2.2.1.tar.gz]
+[2024-05-02 07:00:06] INFO root fetch - processPackages [django_herobiz_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_ds-2.2.2.tar.gz]
+[2024-05-02 07:00:06] INFO root fetch - main [MainThread]: End processing [django_herobiz_ds]: success
+[2024-05-02 07:00:06] INFO root fetch - main [MainThread]: Store serial: [23026501]
