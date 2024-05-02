@@ -2120,3 +2120,54 @@
 [2024-05-02 02:13:39] INFO root fetch - processPackages [lunapi]: Remove: archive file [/home/abi/fetcher/tmp/lunapi-0.0.7-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip]
 [2024-05-02 02:13:39] INFO root fetch - main [MainThread]: End processing [lunapi]: success
 [2024-05-02 02:13:39] INFO root fetch - main [MainThread]: Store serial: [23023752]
+[2024-05-02 02:15:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023752]
+[2024-05-02 02:15:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-ignite
+[2024-05-02 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rulebricks
+[2024-05-02 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-skylight
+[2024-05-02 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-manager
+[2024-05-02 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medicafe
+[2024-05-02 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-common
+[2024-05-02 02:15:50] INFO root fetch - processPackages [medicafe]: New version: [0.240501.1] Old Version: [0.240419.2]
+[2024-05-02 02:15:50] WARNING root fetch - processPackages [rulebricks]: Skipping, unable to determine old version
+[2024-05-02 02:15:50] INFO root fetch - main [MainThread]: End processing [rulebricks] error
+[2024-05-02 02:15:50] INFO root fetch - processPackages [torch-model-manager]: New version: [0.1.0.dev8] Old Version: [0.1.0.dev7]
+[2024-05-02 02:15:50] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-02 02:15:50] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-02 02:15:50] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/05/ce/84a05f6ca06cb4f24c0f3c42fcb5017df50b67dfb6965a15ad929572b120/medicafe-0.240419.2.zip
+[2024-05-02 02:15:50] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240502] Old Version: [0.6.0.dev20240501]
+[2024-05-02 02:15:50] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/f8/48/b53eabb87f4a1cd85f6247b41e9ae0a5de374cc4d65f53d444e3f4b2df8b/torch_model_manager-0.1.0.dev7.tar.gz
+[2024-05-02 02:15:50] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-05-02 02:15:50] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-02 02:15:50] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/e5/7b/486ad165cd5a3b37898a9b9dff9e1556f31358932d8a76a37cf335958c05/pytorch-ignite-0.6.0.dev20240501.tar.gz
+[2024-05-02 02:15:50] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/11/20/c89a11e0b7e0c27963ae21dd7a73655674b516eeff6e8ad8ef17c40e2dee/medicafe-0.240501.1.tar.gz
+[2024-05-02 02:15:50] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-05-02 02:15:50] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-02 02:15:50] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240419.2.zip tmp/medicafe-0.240501.1.tar.gz --markdown 20240502/m/medicafe/0.240419.2-0.240501.1/README.md --exclude *.pyd
+[2024-05-02 02:15:50] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/ee/3c/c614e7ac7056c26f614611697513634f62e993bd5147317ae77bcee5bc75/torch_model_manager-0.1.0.dev8.tar.gz
+[2024-05-02 02:15:50] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-05-02 02:15:50] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240502/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-02 02:15:50] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/45/0c/f8a2fe7b49b8bf09dcfa0fb92899526c96225c7922ad1238ba8ba1e58e29/pytorch-ignite-0.6.0.dev20240502.tar.gz
+[2024-05-02 02:15:50] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-02 02:15:50] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.1.0.dev7.tar.gz tmp/torch_model_manager-0.1.0.dev8.tar.gz --markdown 20240502/t/torch-model-manager/0.1.0.dev7-0.1.0.dev8/README.md --exclude *.pyd
+[2024-05-02 02:15:51] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-02 02:15:51] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-05-02 02:15:51] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.6.0.dev20240501.tar.gz tmp/pytorch-ignite-0.6.0.dev20240502.tar.gz --markdown 20240502/p/pytorch-ignite/0.6.0.dev20240501-0.6.0.dev20240502/README.md --exclude *.pyd
+[2024-05-02 02:15:51] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-02 02:15:51] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240502/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-02 02:15:51] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240419.2.zip]
+[2024-05-02 02:15:51] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240501.1.tar.gz]
+[2024-05-02 02:15:51] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-02 02:15:51] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev7.tar.gz]
+[2024-05-02 02:15:51] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev8.tar.gz]
+[2024-05-02 02:15:51] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-02 02:15:51] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-05-02 02:15:51] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-05-02 02:15:51] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-05-02 02:15:52] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240501.tar.gz]
+[2024-05-02 02:15:52] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240502.tar.gz]
+[2024-05-02 02:15:52] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-05-02 02:15:52] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-02 02:15:52] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-02 02:15:52] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-02 02:15:52] INFO root fetch - main [MainThread]: Store serial: [23023769]
