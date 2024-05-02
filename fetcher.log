@@ -8776,3 +8776,15 @@
 [2024-05-02 06:13:45] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.9.tar.gz]
 [2024-05-02 06:13:45] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
 [2024-05-02 06:13:45] INFO root fetch - main [MainThread]: Store serial: [23026258]
+[2024-05-02 06:15:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026258]
+[2024-05-02 06:15:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 06:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seeq
+[2024-05-02 06:15:53] INFO root fetch - processPackages [seeq]: New version: [65.0.1] Old Version: [65.0.0]
+[2024-05-02 06:15:54] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/16/e7/6bcc99f6a6f9532e40c02557fe47801fef30f649e1671de5e839dc373864/seeq-65.0.0.tar.gz
+[2024-05-02 06:15:54] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/82/67/c8293207bbe83feb36a9cc3e071d26536090b704cbf3b95eba349ef6af2c/seeq-65.0.1.tar.gz
+[2024-05-02 06:15:54] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2024-05-02 06:15:54] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-65.0.0.tar.gz tmp/seeq-65.0.1.tar.gz --markdown 20240502/s/seeq/65.0.0-65.0.1/README.md --exclude *.pyd
+[2024-05-02 06:15:59] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.0.tar.gz]
+[2024-05-02 06:15:59] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.1.tar.gz]
+[2024-05-02 06:15:59] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2024-05-02 06:15:59] INFO root fetch - main [MainThread]: Store serial: [23026261]
