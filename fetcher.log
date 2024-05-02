@@ -10030,3 +10030,27 @@
 [2024-05-02 07:50:24] INFO root fetch - processPackages [libfvde-python]: Remove: archive file [/home/abi/fetcher/tmp/libfvde-python-20240502.tar.gz]
 [2024-05-02 07:50:24] INFO root fetch - main [MainThread]: End processing [libfvde-python]: success
 [2024-05-02 07:50:24] INFO root fetch - main [MainThread]: Store serial: [23026769]
+[2024-05-02 07:52:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026769]
+[2024-05-02 07:52:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 07:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: k8sAI
+[2024-05-02 07:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taskprogressbar
+[2024-05-02 07:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiomysensors
+[2024-05-02 07:52:33] WARNING root fetch - processPackages [taskprogressbar]: Skipping, unable to determine old version
+[2024-05-02 07:52:33] INFO root fetch - main [MainThread]: End processing [taskprogressbar] error
+[2024-05-02 07:52:33] INFO root fetch - processPackages [k8sAI]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 07:52:33] INFO root fetch - processPackages [aiomysensors]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 07:52:33] INFO root fetch - processPackages [k8sAI]: Downloading https://files.pythonhosted.org/packages/a7/1f/f4f719f5562f089980a88de5d94c28105dd806be86fd394ff64d3466531e/k8sai-0.1.1.tar.gz
+[2024-05-02 07:52:33] INFO root fetch - processPackages [aiomysensors]: Downloading https://files.pythonhosted.org/packages/9a/4f/0f503c02d5d4a25c660da5d942808c90c3489a1ba3101a27ff3301b503f7/aiomysensors-0.3.8.tar.gz
+[2024-05-02 07:52:34] INFO root fetch - processPackages [aiomysensors]: Downloading https://files.pythonhosted.org/packages/5c/ce/c94904f52db9866f482d2cc8a0a76543024a7a85b164697d029b6067efc0/aiomysensors-0.3.9.tar.gz
+[2024-05-02 07:52:34] INFO root fetch - processPackages [k8sAI]: Downloading https://files.pythonhosted.org/packages/ad/40/ef09e0a09bf3119d82a3b3276338e4da74e5bed1f5c08d86b361923b6133/k8sai-0.1.2.tar.gz
+[2024-05-02 07:52:34] INFO root fetch - processPackages [aiomysensors]: executing diffoscope
+[2024-05-02 07:52:34] INFO root fetch - processPackages [aiomysensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomysensors-0.3.8.tar.gz tmp/aiomysensors-0.3.9.tar.gz --markdown 20240502/a/aiomysensors/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 07:52:34] INFO root fetch - processPackages [k8sAI]: executing diffoscope
+[2024-05-02 07:52:34] INFO root fetch - processPackages [k8sAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8sai-0.1.1.tar.gz tmp/k8sai-0.1.2.tar.gz --markdown 20240502/k/k8sAI/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 07:52:35] INFO root fetch - processPackages [aiomysensors]: Remove: archive file [/home/abi/fetcher/tmp/aiomysensors-0.3.8.tar.gz]
+[2024-05-02 07:52:35] INFO root fetch - processPackages [aiomysensors]: Remove: archive file [/home/abi/fetcher/tmp/aiomysensors-0.3.9.tar.gz]
+[2024-05-02 07:52:35] INFO root fetch - main [MainThread]: End processing [aiomysensors]: success
+[2024-05-02 07:52:35] INFO root fetch - processPackages [k8sAI]: Remove: archive file [/home/abi/fetcher/tmp/k8sai-0.1.1.tar.gz]
+[2024-05-02 07:52:35] INFO root fetch - processPackages [k8sAI]: Remove: archive file [/home/abi/fetcher/tmp/k8sai-0.1.2.tar.gz]
+[2024-05-02 07:52:35] INFO root fetch - main [MainThread]: End processing [k8sAI]: success
+[2024-05-02 07:52:35] INFO root fetch - main [MainThread]: Store serial: [23026781]
