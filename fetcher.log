@@ -2848,3 +2848,33 @@
 [2024-05-02 02:54:58] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.30.1.tar.gz]
 [2024-05-02 02:54:58] INFO root fetch - main [MainThread]: End processing [sts-lib]: success
 [2024-05-02 02:54:58] INFO root fetch - main [MainThread]: Store serial: [23024078]
+[2024-05-02 02:57:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23024078]
+[2024-05-02 02:57:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 02:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xlextract
+[2024-05-02 02:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: umbrela
+[2024-05-02 02:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gtauthclient
+[2024-05-02 02:57:06] INFO root fetch - processPackages [xlextract]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-02 02:57:06] INFO root fetch - processPackages [umbrela]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-02 02:57:07] INFO root fetch - processPackages [xlextract]: Downloading https://files.pythonhosted.org/packages/5b/c8/e2295188d8fa797673e149196769f11c57ec441658ad1e1522f5626600bd/xlextract-0.1.4.tar.gz
+[2024-05-02 02:57:07] INFO root fetch - processPackages [umbrela]: Downloading https://files.pythonhosted.org/packages/09/15/582b912cac8faec9849b8757ef26e6a3176e5df2c885229f5029d724d6d9/umbrela-0.0.4-py3-none-any.whl
+[2024-05-02 02:57:07] INFO root fetch - processPackages [gtauthclient]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-02 02:57:07] INFO root fetch - processPackages [gtauthclient]: Downloading https://files.pythonhosted.org/packages/82/31/a8230266ecf6c5e74a3fea31ce7c6e16dbac4bcdbbaf6c342213e781e936/gtauthclient-0.0.6.tar.gz
+[2024-05-02 02:57:07] INFO root fetch - processPackages [umbrela]: Downloading https://files.pythonhosted.org/packages/29/a1/04ca9729d278b24ae7c4b7f52a93265e8fbe21d1beeec081a49165038240/umbrela-0.0.5-py3-none-any.whl
+[2024-05-02 02:57:07] INFO root fetch - processPackages [xlextract]: Downloading https://files.pythonhosted.org/packages/d0/4e/4075c2e9f1580377b6b315e8f5da8609e7ac84e18182eb15d4117294936a/xlextract-0.1.5.tar.gz
+[2024-05-02 02:57:07] INFO root fetch - processPackages [umbrela]: executing diffoscope
+[2024-05-02 02:57:07] INFO root fetch - processPackages [umbrela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umbrela-0.0.4-py3-none-any.whl.zip tmp/umbrela-0.0.5-py3-none-any.whl.zip --markdown 20240502/u/umbrela/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-02 02:57:07] INFO root fetch - processPackages [xlextract]: executing diffoscope
+[2024-05-02 02:57:07] INFO root fetch - processPackages [xlextract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlextract-0.1.4.tar.gz tmp/xlextract-0.1.5.tar.gz --markdown 20240502/x/xlextract/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-02 02:57:07] INFO root fetch - processPackages [gtauthclient]: Downloading https://files.pythonhosted.org/packages/71/2b/8e4c9760bffedd06f586123f43387976800ad5d10106a34d2578070edcfb/gtauthclient-0.0.7.tar.gz
+[2024-05-02 02:57:07] INFO root fetch - processPackages [gtauthclient]: executing diffoscope
+[2024-05-02 02:57:07] INFO root fetch - processPackages [gtauthclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtauthclient-0.0.6.tar.gz tmp/gtauthclient-0.0.7.tar.gz --markdown 20240502/g/gtauthclient/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-02 02:57:08] INFO root fetch - processPackages [umbrela]: Remove: archive file [/home/abi/fetcher/tmp/umbrela-0.0.4-py3-none-any.whl.zip]
+[2024-05-02 02:57:08] INFO root fetch - processPackages [umbrela]: Remove: archive file [/home/abi/fetcher/tmp/umbrela-0.0.5-py3-none-any.whl.zip]
+[2024-05-02 02:57:08] INFO root fetch - main [MainThread]: End processing [umbrela]: success
+[2024-05-02 02:57:08] INFO root fetch - processPackages [xlextract]: Remove: archive file [/home/abi/fetcher/tmp/xlextract-0.1.4.tar.gz]
+[2024-05-02 02:57:08] INFO root fetch - processPackages [xlextract]: Remove: archive file [/home/abi/fetcher/tmp/xlextract-0.1.5.tar.gz]
+[2024-05-02 02:57:08] INFO root fetch - main [MainThread]: End processing [xlextract]: success
+[2024-05-02 02:57:08] INFO root fetch - processPackages [gtauthclient]: Remove: archive file [/home/abi/fetcher/tmp/gtauthclient-0.0.6.tar.gz]
+[2024-05-02 02:57:08] INFO root fetch - processPackages [gtauthclient]: Remove: archive file [/home/abi/fetcher/tmp/gtauthclient-0.0.7.tar.gz]
+[2024-05-02 02:57:08] INFO root fetch - main [MainThread]: End processing [gtauthclient]: success
+[2024-05-02 02:57:08] INFO root fetch - main [MainThread]: Store serial: [23024091]
