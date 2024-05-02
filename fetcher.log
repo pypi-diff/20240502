@@ -18493,3 +18493,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 13:44:31] INFO root fetch - processPackages [odoo-addon-l10n-be-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_intrastat_product-16.0.1.0.0.4-py3-none-any.whl.zip]
 [2024-05-02 13:44:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-be-intrastat-product]: success
 [2024-05-02 13:44:31] INFO root fetch - main [MainThread]: Store serial: [23030163]
+[2024-05-02 13:46:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030163]
+[2024-05-02 13:46:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 13:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agixt
+[2024-05-02 13:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jesse
+[2024-05-02 13:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-05-02 13:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: packg
+[2024-05-02 13:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: config-ninja
+[2024-05-02 13:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frequenz-sdk
+[2024-05-02 13:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yeref
+[2024-05-02 13:46:41] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-02 13:46:41] INFO root fetch - processPackages [packg]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-02 13:46:41] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 13:46:41] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-02 13:46:41] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/35/f5/de411f4b1201d757eb0aab94b26e1480689d8322ab6621ed887351575c73/packg-0.9.2.tar.gz
+[2024-05-02 13:46:41] INFO root fetch - processPackages [jesse]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-02 13:46:41] INFO root fetch - processPackages [config-ninja]: New version: [1.3.0b5] Old Version: [1.3.0b4]
+[2024-05-02 13:46:41] INFO root fetch - processPackages [frequenz-sdk]: New version: [1.0.0rc6.post1] Old Version: [1.0.0rc6]
+[2024-05-02 13:46:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-02 13:46:41] INFO root fetch - processPackages [agixt]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-02 13:46:42] INFO root fetch - processPackages [jesse]: Downloading https://files.pythonhosted.org/packages/3d/42/48c74d04f47eb581a344bec1702569264a10dc46e09154fe195faff3a76a/jesse-0.9.1.tar.gz
+[2024-05-02 13:46:42] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/9a/d2/c8c96c46c7352d8d450cd3603781f17a1c2fb55e67cb7758cfe016ed7bad/packg-0.9.3.tar.gz
+[2024-05-02 13:46:42] INFO root fetch - processPackages [config-ninja]: Downloading https://files.pythonhosted.org/packages/e6/d1/166d8da275eacfc981b86a30c0c23f9899fc0bb04ebcb8ad306ce13a1d63/config_ninja-1.3.0b4.tar.gz
+[2024-05-02 13:46:42] INFO root fetch - processPackages [frequenz-sdk]: Downloading https://files.pythonhosted.org/packages/86/ad/c3d5a66750ab792ecaba46736b1983dfc9e927445845645db802161c2704/frequenz-sdk-1.0.0rc6.tar.gz
+[2024-05-02 13:46:42] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-02 13:46:42] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/06/8b/f4b0981365819afdbeecb1796ebb1d23439132f5063fcb9b4192e4c43a18/agixt-1.5.8-py3-none-any.whl
+[2024-05-02 13:46:42] INFO root fetch - processPackages [packg]: executing diffoscope
+[2024-05-02 13:46:42] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.9.2.tar.gz tmp/packg-0.9.3.tar.gz --markdown 20240502/p/packg/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-02 13:46:42] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-02 13:46:42] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-02 13:46:42] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240502/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 13:46:42] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-02 13:46:42] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240502/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-02 13:46:42] INFO root fetch - processPackages [config-ninja]: Downloading https://files.pythonhosted.org/packages/bd/b1/5dbfec7f28de4d486a57ebc0408d47e217bb4b3c1a289b66d84abb1fb90a/config_ninja-1.3.0b5.tar.gz
+[2024-05-02 13:46:42] INFO root fetch - processPackages [jesse]: Downloading https://files.pythonhosted.org/packages/02/58/150ec6c6c6a68ba45091a842e60d38f186d225d3a737941000cf39902f00/jesse-0.9.2.tar.gz
+[2024-05-02 13:46:42] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/25/a0/f70bdd10c23b4095f2f5ebd25957e2c061b93a50907a0651a729f4b4656c/agixt-1.5.9-py3-none-any.whl
+[2024-05-02 13:46:42] INFO root fetch - processPackages [config-ninja]: executing diffoscope
+[2024-05-02 13:46:42] INFO root fetch - processPackages [config-ninja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_ninja-1.3.0b4.tar.gz tmp/config_ninja-1.3.0b5.tar.gz --markdown 20240502/c/config-ninja/1.3.0b4-1.3.0b5/README.md --exclude *.pyd
+[2024-05-02 13:46:42] INFO root fetch - processPackages [frequenz-sdk]: Downloading https://files.pythonhosted.org/packages/45/b2/e126c8ccd651e51dd0c3e02886c2b2287f9bb4c8fca18107d2fc890a889f/frequenz-sdk-1.0.0rc6.post1.tar.gz
+[2024-05-02 13:46:42] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2024-05-02 13:46:42] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.5.8-py3-none-any.whl.zip tmp/agixt-1.5.9-py3-none-any.whl.zip --markdown 20240502/a/agixt/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-02 13:46:42] INFO root fetch - processPackages [jesse]: executing diffoscope
+[2024-05-02 13:46:42] INFO root fetch - processPackages [jesse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jesse-0.9.1.tar.gz tmp/jesse-0.9.2.tar.gz --markdown 20240502/j/jesse/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-02 13:46:42] INFO root fetch - processPackages [frequenz-sdk]: executing diffoscope
+[2024-05-02 13:46:42] INFO root fetch - processPackages [frequenz-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-sdk-1.0.0rc6.tar.gz tmp/frequenz-sdk-1.0.0rc6.post1.tar.gz --markdown 20240502/f/frequenz-sdk/1.0.0rc6-1.0.0rc6.post1/README.md --exclude *.pyd
+[2024-05-02 13:46:43] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.9.2.tar.gz]
+[2024-05-02 13:46:43] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.9.3.tar.gz]
+[2024-05-02 13:46:43] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2024-05-02 13:46:43] INFO root fetch - processPackages [config-ninja]: Remove: archive file [/home/abi/fetcher/tmp/config_ninja-1.3.0b4.tar.gz]
+[2024-05-02 13:46:43] INFO root fetch - processPackages [config-ninja]: Remove: archive file [/home/abi/fetcher/tmp/config_ninja-1.3.0b5.tar.gz]
+[2024-05-02 13:46:43] INFO root fetch - main [MainThread]: End processing [config-ninja]: success
+[2024-05-02 13:46:43] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-02 13:46:43] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-02 13:46:43] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-02 13:46:43] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.8-py3-none-any.whl.zip]
+[2024-05-02 13:46:43] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.9-py3-none-any.whl.zip]
+[2024-05-02 13:46:43] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2024-05-02 13:46:44] INFO root fetch - processPackages [frequenz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-sdk-1.0.0rc6.tar.gz]
+[2024-05-02 13:46:44] INFO root fetch - processPackages [frequenz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-sdk-1.0.0rc6.post1.tar.gz]
+[2024-05-02 13:46:44] INFO root fetch - main [MainThread]: End processing [frequenz-sdk]: success
+[2024-05-02 13:46:44] INFO root fetch - processPackages [jesse]: Remove: archive file [/home/abi/fetcher/tmp/jesse-0.9.1.tar.gz]
+[2024-05-02 13:46:44] INFO root fetch - processPackages [jesse]: Remove: archive file [/home/abi/fetcher/tmp/jesse-0.9.2.tar.gz]
+[2024-05-02 13:46:44] INFO root fetch - main [MainThread]: End processing [jesse]: success
+[2024-05-02 13:46:44] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-02 13:46:44] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-02 13:46:44] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-02 13:46:44] INFO root fetch - main [MainThread]: Store serial: [23030182]
