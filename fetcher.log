@@ -1970,3 +1970,24 @@
 [2024-05-02 02:04:51] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
 [2024-05-02 02:04:51] INFO root fetch - main [MainThread]: End processing [humanloop]: success
 [2024-05-02 02:04:51] INFO root fetch - main [MainThread]: Store serial: [23023693]
+[2024-05-02 02:06:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023693]
+[2024-05-02 02:07:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 02:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxkern-nightly
+[2024-05-02 02:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxutils-nightly
+[2024-05-02 02:07:00] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240501] Old Version: [0.0.8.dev20240430]
+[2024-05-02 02:07:00] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/7b/a3/bb73658ea2c2e884798c88c3d8865bc02ec66a0604fceadbbd203427a5bd/jaxutils-nightly-0.0.8.dev20240430.tar.gz
+[2024-05-02 02:07:00] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-05-02 02:07:00] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-05-02 02:07:00] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/6d/f2/0a6301e159ab2787a9f01b99b5979b88bdf99e5114c0b6d16d35f08f9377/jaxutils-nightly-0.0.8.dev20240501.tar.gz
+[2024-05-02 02:07:00] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-05-02 02:07:00] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240430.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240501.tar.gz --markdown 20240502/j/jaxutils-nightly/0.0.8.dev20240430-0.0.8.dev20240501/README.md --exclude *.pyd
+[2024-05-02 02:07:00] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-05-02 02:07:00] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-05-02 02:07:00] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240502/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-05-02 02:07:01] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240430.tar.gz]
+[2024-05-02 02:07:01] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240501.tar.gz]
+[2024-05-02 02:07:01] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-05-02 02:07:01] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-05-02 02:07:01] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-05-02 02:07:01] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-05-02 02:07:01] INFO root fetch - main [MainThread]: Store serial: [23023700]
