@@ -13022,3 +13022,61 @@
 [2024-05-02 10:16:56] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.7.0.tar.gz]
 [2024-05-02 10:16:56] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
 [2024-05-02 10:16:56] INFO root fetch - main [MainThread]: Store serial: [23027985]
+[2024-05-02 10:19:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027985]
+[2024-05-02 10:19:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 10:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatpack
+[2024-05-02 10:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aissemble-foundation-messaging-python
+[2024-05-02 10:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aissemble-foundation-messaging-python
+[2024-05-02 10:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wkutils
+[2024-05-02 10:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lpcML
+[2024-05-02 10:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: s6r-bitwarden-cli
+[2024-05-02 10:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openlit
+[2024-05-02 10:19:05] INFO root fetch - processPackages [openlit]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-02 10:19:05] INFO root fetch - processPackages [wkutils]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-02 10:19:05] INFO root fetch - processPackages [lpcML]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 10:19:05] INFO root fetch - processPackages [flatpack]: New version: [3.4.3] Old Version: [3.4.2]
+[2024-05-02 10:19:05] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: New version: [1.7.0.dev1714637906] Old Version: [1.7.0.dev1714637905]
+[2024-05-02 10:19:05] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: New version: [1.7.0.dev1714637906] Old Version: [1.7.0.dev1714637905]
+[2024-05-02 10:19:05] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/a2/a6/a2ab98f5c2447dfa49d842a140306711d9cea287a3b2f28a1ce2308935fa/openlit-1.1.1.tar.gz
+[2024-05-02 10:19:05] INFO root fetch - processPackages [wkutils]: Downloading https://files.pythonhosted.org/packages/00/c4/ceb30ab21de1631d09bb63a4eb64b130aa5f40fefc48e3b56a59d8af0019/wkutils-0.0.5.tar.gz
+[2024-05-02 10:19:05] INFO root fetch - processPackages [lpcML]: Downloading https://files.pythonhosted.org/packages/e3/16/f870b5eadb23636ea7501b02b63b20ff6f1b68cf2de66a23da3c7a1b74d6/lpcML-0.0.8.tar.gz
+[2024-05-02 10:19:05] INFO root fetch - processPackages [s6r-bitwarden-cli]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-02 10:19:05] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/1a/72/6a3d17d5384976f0f568259ae9e45c01054ec928ecb9c9e958f25f331158/flatpack-3.4.2.tar.gz
+[2024-05-02 10:19:05] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: Downloading https://files.pythonhosted.org/packages/7d/c8/788db297910bc46be2199996f63c3e4bd4d3c99ac0256e6a238993e88d66/aissemble_foundation_messaging_python-1.7.0.dev1714637905.tar.gz
+[2024-05-02 10:19:05] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: Downloading https://files.pythonhosted.org/packages/7d/c8/788db297910bc46be2199996f63c3e4bd4d3c99ac0256e6a238993e88d66/aissemble_foundation_messaging_python-1.7.0.dev1714637905.tar.gz
+[2024-05-02 10:19:05] INFO root fetch - processPackages [s6r-bitwarden-cli]: Downloading https://files.pythonhosted.org/packages/1a/9f/150517bc78cd7bafb89c3f5895e3a7fd00de3abdaf6a9f8a427df1e5ea88/s6r-bitwarden-cli-1.0.5.tar.gz
+[2024-05-02 10:19:05] INFO root fetch - processPackages [lpcML]: Downloading https://files.pythonhosted.org/packages/3e/4e/b08f5f142001ff119f4f1ad25a6749057df98e48fa1cd2484cc9e01163e7/lpcML-0.0.9.tar.gz
+[2024-05-02 10:19:05] INFO root fetch - processPackages [wkutils]: Downloading https://files.pythonhosted.org/packages/a9/3b/bbe6a1b2af302cdc3a2a59bbb6cd7841a0c9d621d2d1cfe3f6808329c54f/wkutils-0.0.6.tar.gz
+[2024-05-02 10:19:05] WARNING root fetch - processPackages [aissemble-foundation-messaging-python]: Skipping package: exceeds size limit 75170549>=10485760
+[2024-05-02 10:19:05] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-messaging-python] error
+[2024-05-02 10:19:05] WARNING root fetch - processPackages [aissemble-foundation-messaging-python]: Skipping package: exceeds size limit 75170549>=10485760
+[2024-05-02 10:19:05] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-messaging-python] error
+[2024-05-02 10:19:05] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/ec/77/7790ddc689839e1e1304976c73eb03e1b8412f239004f0c0576bed1c9caf/flatpack-3.4.3.tar.gz
+[2024-05-02 10:19:05] INFO root fetch - processPackages [lpcML]: executing diffoscope
+[2024-05-02 10:19:05] INFO root fetch - processPackages [lpcML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpcML-0.0.8.tar.gz tmp/lpcML-0.0.9.tar.gz --markdown 20240502/l/lpcML/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 10:19:05] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/9f/9c/4fcdcc65bd4dbfe59f6f736be539f32cd788f84a4df1a8aae549a8e5a860/openlit-1.1.2.tar.gz
+[2024-05-02 10:19:06] INFO root fetch - processPackages [wkutils]: executing diffoscope
+[2024-05-02 10:19:06] INFO root fetch - processPackages [wkutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wkutils-0.0.5.tar.gz tmp/wkutils-0.0.6.tar.gz --markdown 20240502/w/wkutils/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-02 10:19:06] INFO root fetch - processPackages [openlit]: executing diffoscope
+[2024-05-02 10:19:06] INFO root fetch - processPackages [openlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlit-1.1.1.tar.gz tmp/openlit-1.1.2.tar.gz --markdown 20240502/o/openlit/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-02 10:19:06] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-02 10:19:06] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.2.tar.gz tmp/flatpack-3.4.3.tar.gz --markdown 20240502/f/flatpack/3.4.2-3.4.3/README.md --exclude *.pyd
+[2024-05-02 10:19:06] INFO root fetch - processPackages [s6r-bitwarden-cli]: Downloading https://files.pythonhosted.org/packages/a1/55/af7e5c8cc335236394af50204ec6f457bb6f33e930a4703228dfa05f161c/s6r_bitwarden_cli-1.0.6.tar.gz
+[2024-05-02 10:19:06] INFO root fetch - processPackages [s6r-bitwarden-cli]: executing diffoscope
+[2024-05-02 10:19:06] INFO root fetch - processPackages [s6r-bitwarden-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s6r-bitwarden-cli-1.0.5.tar.gz tmp/s6r_bitwarden_cli-1.0.6.tar.gz --markdown 20240502/s/s6r-bitwarden-cli/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-02 10:19:06] INFO root fetch - processPackages [wkutils]: Remove: archive file [/home/abi/fetcher/tmp/wkutils-0.0.5.tar.gz]
+[2024-05-02 10:19:06] INFO root fetch - processPackages [wkutils]: Remove: archive file [/home/abi/fetcher/tmp/wkutils-0.0.6.tar.gz]
+[2024-05-02 10:19:06] INFO root fetch - main [MainThread]: End processing [wkutils]: success
+[2024-05-02 10:19:06] INFO root fetch - processPackages [lpcML]: Remove: archive file [/home/abi/fetcher/tmp/lpcML-0.0.8.tar.gz]
+[2024-05-02 10:19:06] INFO root fetch - processPackages [lpcML]: Remove: archive file [/home/abi/fetcher/tmp/lpcML-0.0.9.tar.gz]
+[2024-05-02 10:19:06] INFO root fetch - main [MainThread]: End processing [lpcML]: success
+[2024-05-02 10:19:06] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.1.1.tar.gz]
+[2024-05-02 10:19:06] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.1.2.tar.gz]
+[2024-05-02 10:19:06] INFO root fetch - main [MainThread]: End processing [openlit]: success
+[2024-05-02 10:19:07] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.2.tar.gz]
+[2024-05-02 10:19:07] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.3.tar.gz]
+[2024-05-02 10:19:07] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-02 10:19:07] INFO root fetch - processPackages [s6r-bitwarden-cli]: Remove: archive file [/home/abi/fetcher/tmp/s6r-bitwarden-cli-1.0.5.tar.gz]
+[2024-05-02 10:19:07] INFO root fetch - processPackages [s6r-bitwarden-cli]: Remove: archive file [/home/abi/fetcher/tmp/s6r_bitwarden_cli-1.0.6.tar.gz]
+[2024-05-02 10:19:07] INFO root fetch - main [MainThread]: End processing [s6r-bitwarden-cli]: success
+[2024-05-02 10:19:07] INFO root fetch - main [MainThread]: Store serial: [23028005]
