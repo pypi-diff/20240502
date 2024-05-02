@@ -10219,3 +10219,43 @@
 [2024-05-02 08:05:49] INFO root fetch - processPackages [odoo-addon-bi-view-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_bi_view_editor-16.0.1.1.0.8-py3-none-any.whl.zip]
 [2024-05-02 08:05:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-bi-view-editor]: success
 [2024-05-02 08:05:49] INFO root fetch - main [MainThread]: Store serial: [23026832]
+[2024-05-02 08:07:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026832]
+[2024-05-02 08:07:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 08:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ydb
+[2024-05-02 08:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: samgob
+[2024-05-02 08:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qai-server
+[2024-05-02 08:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fmtutil
+[2024-05-02 08:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qai-server
+[2024-05-02 08:07:58] WARNING root fetch - processPackages [samgob]: Skipping, unable to determine old version
+[2024-05-02 08:07:58] INFO root fetch - main [MainThread]: End processing [samgob] error
+[2024-05-02 08:07:58] INFO root fetch - processPackages [fmtutil]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-02 08:07:58] INFO root fetch - processPackages [ydb]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-02 08:07:58] INFO root fetch - processPackages [qai-server]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-02 08:07:58] INFO root fetch - processPackages [qai-server]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-02 08:07:59] INFO root fetch - processPackages [ydb]: Downloading https://files.pythonhosted.org/packages/22/2b/e63e7ab27d09bb5aa541ce3a6eaded5f840b150a15e16d692b255d41a4b2/ydb-3.9.0.tar.gz
+[2024-05-02 08:07:59] INFO root fetch - processPackages [fmtutil]: Downloading https://files.pythonhosted.org/packages/ab/82/6ea373e2890d1977f08ecac12a7daf5f29ce6b8461ffdf30579637e8913e/fmtutil-1.0.3.tar.gz
+[2024-05-02 08:07:59] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/60/59/25a10a7cf31cbb534d6908359cd6b7e5a29ee3bff71e3bd76a61eeffd0e6/qai_server-0.5.0.tar.gz
+[2024-05-02 08:07:59] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/60/59/25a10a7cf31cbb534d6908359cd6b7e5a29ee3bff71e3bd76a61eeffd0e6/qai_server-0.5.0.tar.gz
+[2024-05-02 08:07:59] INFO root fetch - processPackages [fmtutil]: Downloading https://files.pythonhosted.org/packages/46/fc/ec259ec4c2163e67a0368eb49b28b0a1f766cfdb0d172d2b147b220c48d4/fmtutil-1.0.4.tar.gz
+[2024-05-02 08:07:59] INFO root fetch - processPackages [ydb]: Downloading https://files.pythonhosted.org/packages/8a/b2/3fe260eb753c63f41a7c1da4478185d8d2a7eee1b69da77fb5277d1e45a5/ydb-3.9.1.tar.gz
+[2024-05-02 08:07:59] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/22/e6/502e16ab4b99458c01741accd352f44f1d8a71311a49330593a825abe268/qai_server-0.5.1-py3-none-any.whl
+[2024-05-02 08:07:59] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/22/e6/502e16ab4b99458c01741accd352f44f1d8a71311a49330593a825abe268/qai_server-0.5.1-py3-none-any.whl
+[2024-05-02 08:07:59] INFO root fetch - processPackages [ydb]: executing diffoscope
+[2024-05-02 08:07:59] INFO root fetch - processPackages [ydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydb-3.9.0.tar.gz tmp/ydb-3.9.1.tar.gz --markdown 20240502/y/ydb/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-02 08:07:59] INFO root fetch - processPackages [fmtutil]: executing diffoscope
+[2024-05-02 08:07:59] INFO root fetch - processPackages [fmtutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmtutil-1.0.3.tar.gz tmp/fmtutil-1.0.4.tar.gz --markdown 20240502/f/fmtutil/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-02 08:08:00] INFO root fetch - processPackages [qai-server]: executing diffoscope
+[2024-05-02 08:08:00] INFO root fetch - processPackages [qai-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_server-0.5.0.tar.gz tmp/qai_server-0.5.1-py3-none-any.whl.zip --markdown 20240502/q/qai-server/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-02 08:08:00] INFO root fetch - processPackages [qai-server]: executing diffoscope
+[2024-05-02 08:08:00] INFO root fetch - processPackages [qai-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_server-0.5.0.tar.gz tmp/qai_server-0.5.1-py3-none-any.whl.zip --markdown 20240502/q/qai-server/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-02 08:08:00] INFO root fetch - processPackages [fmtutil]: Remove: archive file [/home/abi/fetcher/tmp/fmtutil-1.0.3.tar.gz]
+[2024-05-02 08:08:00] INFO root fetch - processPackages [fmtutil]: Remove: archive file [/home/abi/fetcher/tmp/fmtutil-1.0.4.tar.gz]
+[2024-05-02 08:08:00] INFO root fetch - main [MainThread]: End processing [fmtutil]: success
+[2024-05-02 08:08:00] INFO root fetch - processPackages [qai-server]: Remove: archive file [/home/abi/fetcher/tmp/qai_server-0.5.0.tar.gz]
+[2024-05-02 08:08:00] INFO root fetch - processPackages [qai-server]: Remove: archive file [/home/abi/fetcher/tmp/qai_server-0.5.1-py3-none-any.whl.zip]
+[2024-05-02 08:08:00] INFO root fetch - main [MainThread]: End processing [qai-server]: success
+[2024-05-02 08:08:00] INFO root fetch - main [MainThread]: End processing [qai-server]: success
+[2024-05-02 08:08:01] INFO root fetch - processPackages [ydb]: Remove: archive file [/home/abi/fetcher/tmp/ydb-3.9.0.tar.gz]
+[2024-05-02 08:08:01] INFO root fetch - processPackages [ydb]: Remove: archive file [/home/abi/fetcher/tmp/ydb-3.9.1.tar.gz]
+[2024-05-02 08:08:01] INFO root fetch - main [MainThread]: End processing [ydb]: success
+[2024-05-02 08:08:01] INFO root fetch - main [MainThread]: Store serial: [23026846]
