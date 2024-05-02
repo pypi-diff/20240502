@@ -2815,3 +2815,36 @@
 [2024-05-02 02:52:47] INFO root fetch - processPackages [xlextract]: Remove: archive file [/home/abi/fetcher/tmp/xlextract-0.1.4.tar.gz]
 [2024-05-02 02:52:47] INFO root fetch - main [MainThread]: End processing [xlextract]: success
 [2024-05-02 02:52:47] INFO root fetch - main [MainThread]: Store serial: [23024062]
+[2024-05-02 02:54:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23024062]
+[2024-05-02 02:54:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 02:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-curl
+[2024-05-02 02:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantastica-qps-api
+[2024-05-02 02:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flash-attn-jax
+[2024-05-02 02:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sts-lib
+[2024-05-02 02:54:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-02 02:54:56] WARNING root fetch - processPackages [flash-attn-jax]: Skipping, unable to determine old version
+[2024-05-02 02:54:56] INFO root fetch - main [MainThread]: End processing [flash-attn-jax] error
+[2024-05-02 02:54:56] INFO root fetch - processPackages [quantastica-qps-api]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 02:54:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-02 02:54:56] INFO root fetch - processPackages [sts-lib]: New version: [0.30.1] Old Version: [0.30.0]
+[2024-05-02 02:54:56] INFO root fetch - processPackages [quantastica-qps-api]: Downloading https://files.pythonhosted.org/packages/05/71/032d761387c87fecb9fb5648863536bf2de25d14c3265a6f660a99db1836/quantastica-qps-api-0.9.8.tar.gz
+[2024-05-02 02:54:56] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/33/86/e6091ec3e41cdc901f6f1045ddbc19770cbdc2a9e5fe37717243021a772e/sts_lib-0.30.0.tar.gz
+[2024-05-02 02:54:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-02 02:54:56] INFO root fetch - processPackages [quantastica-qps-api]: Downloading https://files.pythonhosted.org/packages/2e/fa/3d77c59dcb502536811933e182c9a14eeb20d12e91b3318d33e304392ac5/quantastica-qps-api-0.9.9.tar.gz
+[2024-05-02 02:54:57] INFO root fetch - processPackages [quantastica-qps-api]: executing diffoscope
+[2024-05-02 02:54:57] INFO root fetch - processPackages [quantastica-qps-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantastica-qps-api-0.9.8.tar.gz tmp/quantastica-qps-api-0.9.9.tar.gz --markdown 20240502/q/quantastica-qps-api/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 02:54:57] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-02 02:54:57] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240502/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-02 02:54:57] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/9f/8a/d6e204585cc85bd79f9c68175975004ad2590307932587bd180935f5fa8b/sts_lib-0.30.1.tar.gz
+[2024-05-02 02:54:57] INFO root fetch - processPackages [sts-lib]: executing diffoscope
+[2024-05-02 02:54:57] INFO root fetch - processPackages [sts-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts_lib-0.30.0.tar.gz tmp/sts_lib-0.30.1.tar.gz --markdown 20240502/s/sts-lib/0.30.0-0.30.1/README.md --exclude *.pyd
+[2024-05-02 02:54:57] INFO root fetch - processPackages [quantastica-qps-api]: Remove: archive file [/home/abi/fetcher/tmp/quantastica-qps-api-0.9.8.tar.gz]
+[2024-05-02 02:54:57] INFO root fetch - processPackages [quantastica-qps-api]: Remove: archive file [/home/abi/fetcher/tmp/quantastica-qps-api-0.9.9.tar.gz]
+[2024-05-02 02:54:57] INFO root fetch - main [MainThread]: End processing [quantastica-qps-api]: success
+[2024-05-02 02:54:57] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-02 02:54:57] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-02 02:54:57] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-02 02:54:58] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.30.0.tar.gz]
+[2024-05-02 02:54:58] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.30.1.tar.gz]
+[2024-05-02 02:54:58] INFO root fetch - main [MainThread]: End processing [sts-lib]: success
+[2024-05-02 02:54:58] INFO root fetch - main [MainThread]: Store serial: [23024078]
