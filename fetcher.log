@@ -7755,3 +7755,18 @@
 [2024-05-02 04:45:37] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
 [2024-05-02 04:45:37] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
 [2024-05-02 04:45:37] INFO root fetch - main [MainThread]: Store serial: [23025863]
+[2024-05-02 04:47:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025863]
+[2024-05-02 04:47:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 04:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pingintel-api
+[2024-05-02 04:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PokeCodePy-Library
+[2024-05-02 04:47:45] INFO root fetch - processPackages [pingintel-api]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-02 04:47:46] WARNING root fetch - processPackages [PokeCodePy-Library]: Skipping, unable to determine old version
+[2024-05-02 04:47:46] INFO root fetch - main [MainThread]: End processing [PokeCodePy-Library] error
+[2024-05-02 04:47:46] INFO root fetch - processPackages [pingintel-api]: Downloading https://files.pythonhosted.org/packages/c6/bf/0b84716121679c8d6e04492eecc2f04124d803de999e0b7746d1303ab756/pingintel_api-0.1.0.tar.gz
+[2024-05-02 04:47:46] INFO root fetch - processPackages [pingintel-api]: Downloading https://files.pythonhosted.org/packages/79/3d/504a9ad448a9aabd860c815824d2627ee8cc570656b732df58e5e364ae88/pingintel_api-0.2.0.tar.gz
+[2024-05-02 04:47:46] INFO root fetch - processPackages [pingintel-api]: executing diffoscope
+[2024-05-02 04:47:46] INFO root fetch - processPackages [pingintel-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pingintel_api-0.1.0.tar.gz tmp/pingintel_api-0.2.0.tar.gz --markdown 20240502/p/pingintel-api/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-02 04:47:47] INFO root fetch - processPackages [pingintel-api]: Remove: archive file [/home/abi/fetcher/tmp/pingintel_api-0.1.0.tar.gz]
+[2024-05-02 04:47:47] INFO root fetch - processPackages [pingintel-api]: Remove: archive file [/home/abi/fetcher/tmp/pingintel_api-0.2.0.tar.gz]
+[2024-05-02 04:47:47] INFO root fetch - main [MainThread]: End processing [pingintel-api]: success
+[2024-05-02 04:47:47] INFO root fetch - main [MainThread]: Store serial: [23025871]
