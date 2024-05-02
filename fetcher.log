@@ -7549,3 +7549,24 @@
 [2024-05-02 04:28:15] INFO root fetch - processPackages [featuring-data]: Remove: archive file [/home/abi/fetcher/tmp/featuring_data-0.2.4.tar.gz]
 [2024-05-02 04:28:15] INFO root fetch - main [MainThread]: End processing [featuring-data]: success
 [2024-05-02 04:28:15] INFO root fetch - main [MainThread]: Store serial: [23025747]
+[2024-05-02 04:30:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025747]
+[2024-05-02 04:30:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 04:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: musicnotes
+[2024-05-02 04:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: knowledge-distillation-framework
+[2024-05-02 04:30:24] INFO root fetch - processPackages [musicnotes]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-02 04:30:24] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/4e/2c/a86357f9189f98b98b770d63adbbc7d2bc4e35c7b53869f64d6ea06dba5c/musicnotes-1.0.5.tar.gz
+[2024-05-02 04:30:24] INFO root fetch - processPackages [knowledge-distillation-framework]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 04:30:24] INFO root fetch - processPackages [knowledge-distillation-framework]: Downloading https://files.pythonhosted.org/packages/8e/92/be626b54c1fed3a3efd23bea78fd2902e83ee3a1604a5b959e2f4cb6df7f/knowledge_distillation_framework-0.1.0.tar.gz
+[2024-05-02 04:30:24] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/6c/39/7c125699ee85de4c0e02ab2def8482baf278ed20f36f909091361a25c333/musicnotes-1.0.6.tar.gz
+[2024-05-02 04:30:24] INFO root fetch - processPackages [musicnotes]: executing diffoscope
+[2024-05-02 04:30:24] INFO root fetch - processPackages [musicnotes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicnotes-1.0.5.tar.gz tmp/musicnotes-1.0.6.tar.gz --markdown 20240502/m/musicnotes/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-02 04:30:24] INFO root fetch - processPackages [knowledge-distillation-framework]: Downloading https://files.pythonhosted.org/packages/d7/c1/0476bacc37826f7910153a0d50c4ab48375226677480c521e87f7631efd2/knowledge_distillation_framework-0.1.1.tar.gz
+[2024-05-02 04:30:25] INFO root fetch - processPackages [knowledge-distillation-framework]: executing diffoscope
+[2024-05-02 04:30:25] INFO root fetch - processPackages [knowledge-distillation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knowledge_distillation_framework-0.1.0.tar.gz tmp/knowledge_distillation_framework-0.1.1.tar.gz --markdown 20240502/k/knowledge-distillation-framework/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 04:30:25] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.5.tar.gz]
+[2024-05-02 04:30:25] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.6.tar.gz]
+[2024-05-02 04:30:25] INFO root fetch - main [MainThread]: End processing [musicnotes]: success
+[2024-05-02 04:30:25] INFO root fetch - processPackages [knowledge-distillation-framework]: Remove: archive file [/home/abi/fetcher/tmp/knowledge_distillation_framework-0.1.0.tar.gz]
+[2024-05-02 04:30:25] INFO root fetch - processPackages [knowledge-distillation-framework]: Remove: archive file [/home/abi/fetcher/tmp/knowledge_distillation_framework-0.1.1.tar.gz]
+[2024-05-02 04:30:25] INFO root fetch - main [MainThread]: End processing [knowledge-distillation-framework]: success
+[2024-05-02 04:30:25] INFO root fetch - main [MainThread]: Store serial: [23025758]
