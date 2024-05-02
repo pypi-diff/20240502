@@ -20818,3 +20818,69 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 14:50:56] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-1.0.4.tar.gz]
 [2024-05-02 14:50:56] INFO root fetch - main [MainThread]: End processing [Fragmenstein]: success
 [2024-05-02 14:50:56] INFO root fetch - main [MainThread]: Store serial: [23031133]
+[2024-05-02 14:53:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031133]
+[2024-05-02 14:53:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 14:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inoopa_utils
+[2024-05-02 14:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mq4hemc
+[2024-05-02 14:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lyytkwidget
+[2024-05-02 14:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pifcap
+[2024-05-02 14:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agenta
+[2024-05-02 14:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ltbfiles
+[2024-05-02 14:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccs-digitalmarketplace-apiclient
+[2024-05-02 14:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fancylog
+[2024-05-02 14:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vss-tools
+[2024-05-02 14:53:06] WARNING root fetch - processPackages [lyytkwidget]: Skipping, unable to determine old version
+[2024-05-02 14:53:06] INFO root fetch - main [MainThread]: End processing [lyytkwidget] error
+[2024-05-02 14:53:06] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-02 14:53:06] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-02 14:53:06] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-05-02 14:53:06] INFO root fetch - processPackages [vss-tools]: New version: [4.1rc0] Old Version: [4.1.dev5]
+[2024-05-02 14:53:06] WARNING root fetch - processPackages [pifcap]: Skipping, unable to determine old version
+[2024-05-02 14:53:06] INFO root fetch - main [MainThread]: End processing [pifcap] error
+[2024-05-02 14:53:06] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: New version: [25.7.0] Old Version: [25.6.0]
+[2024-05-02 14:53:06] INFO root fetch - processPackages [ltbfiles]: New version: [4.0.1rc283] Old Version: [4.0.0rc262]
+[2024-05-02 14:53:06] WARNING root fetch - processPackages [mq4hemc]: Skipping, unable to determine old version
+[2024-05-02 14:53:06] INFO root fetch - main [MainThread]: End processing [mq4hemc] error
+[2024-05-02 14:53:06] INFO root fetch - processPackages [fancylog]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-02 14:53:06] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-02 14:53:07] INFO root fetch - processPackages [ltbfiles]: Downloading https://files.pythonhosted.org/packages/df/fb/6ff7d116478341553fb9ba0e1933092833af64a7c39f379912345f6c800c/ltbfiles-4.0.0rc262.tar.gz
+[2024-05-02 14:53:07] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Downloading https://files.pythonhosted.org/packages/a2/7c/9ef99d537dd6feb735bfc4206e4d327f67752c434dbf3ec89bd60d07fa10/ccs-digitalmarketplace-apiclient-25.6.0.tar.gz
+[2024-05-02 14:53:07] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-05-02 14:53:07] INFO root fetch - processPackages [vss-tools]: Downloading https://files.pythonhosted.org/packages/e4/45/5a5992009fabc072fcc61f1408263ab40ac21769dcda39aa9622358e9234/vss-tools-4.1.dev5.tar.gz
+[2024-05-02 14:53:07] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-02 14:53:07] INFO root fetch - processPackages [fancylog]: Downloading https://files.pythonhosted.org/packages/95/97/4a9a90dad4b39f15bdbd80224802db5c8b956c0aaae8cf486e0ce4369125/fancylog-0.4.1.tar.gz
+[2024-05-02 14:53:07] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-02 14:53:07] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240502/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-02 14:53:07] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-05-02 14:53:07] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240502/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-02 14:53:07] INFO root fetch - processPackages [ltbfiles]: Downloading https://files.pythonhosted.org/packages/d9/1a/7b2098c52ed7e34d495ddc9e17f0ba337efadffc683cb92e860b176dfb9a/ltbfiles-4.0.1rc283.tar.gz
+[2024-05-02 14:53:07] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Downloading https://files.pythonhosted.org/packages/24/3f/9d801a14faf11f5bef3f512bf306fabb6c1814428dd6be31354656388f3e/ccs-digitalmarketplace-apiclient-25.7.0.tar.gz
+[2024-05-02 14:53:07] INFO root fetch - processPackages [fancylog]: Downloading https://files.pythonhosted.org/packages/0f/6c/684be90d1574ca8b8c8fa980d7e6fdb5942309ce751adf36e207ce04b10c/fancylog-0.4.2.tar.gz
+[2024-05-02 14:53:07] INFO root fetch - processPackages [ltbfiles]: executing diffoscope
+[2024-05-02 14:53:07] INFO root fetch - processPackages [ltbfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltbfiles-4.0.0rc262.tar.gz tmp/ltbfiles-4.0.1rc283.tar.gz --markdown 20240502/l/ltbfiles/4.0.0rc262-4.0.1rc283/README.md --exclude *.pyd
+[2024-05-02 14:53:07] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: executing diffoscope
+[2024-05-02 14:53:07] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-apiclient-25.6.0.tar.gz tmp/ccs-digitalmarketplace-apiclient-25.7.0.tar.gz --markdown 20240502/c/ccs-digitalmarketplace-apiclient/25.6.0-25.7.0/README.md --exclude *.pyd
+[2024-05-02 14:53:07] INFO root fetch - processPackages [fancylog]: executing diffoscope
+[2024-05-02 14:53:07] INFO root fetch - processPackages [fancylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancylog-0.4.1.tar.gz tmp/fancylog-0.4.2.tar.gz --markdown 20240502/f/fancylog/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-02 14:53:07] INFO root fetch - processPackages [vss-tools]: Downloading https://files.pythonhosted.org/packages/61/c4/6c8c7c8f46ac1b419439e660d7ec0d439deb26ffe57ae32a2b993e022b41/vss-tools-4.1rc0.tar.gz
+[2024-05-02 14:53:07] INFO root fetch - processPackages [vss-tools]: executing diffoscope
+[2024-05-02 14:53:07] INFO root fetch - processPackages [vss-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vss-tools-4.1.dev5.tar.gz tmp/vss-tools-4.1rc0.tar.gz --markdown 20240502/v/vss-tools/4.1.dev5-4.1rc0/README.md --exclude *.pyd
+[2024-05-02 14:53:07] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-02 14:53:07] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-02 14:53:07] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-02 14:53:08] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-05-02 14:53:08] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-05-02 14:53:08] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-05-02 14:53:08] INFO root fetch - processPackages [ltbfiles]: Remove: archive file [/home/abi/fetcher/tmp/ltbfiles-4.0.0rc262.tar.gz]
+[2024-05-02 14:53:08] INFO root fetch - processPackages [ltbfiles]: Remove: archive file [/home/abi/fetcher/tmp/ltbfiles-4.0.1rc283.tar.gz]
+[2024-05-02 14:53:08] INFO root fetch - main [MainThread]: End processing [ltbfiles]: success
+[2024-05-02 14:53:08] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-apiclient-25.6.0.tar.gz]
+[2024-05-02 14:53:08] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-apiclient-25.7.0.tar.gz]
+[2024-05-02 14:53:08] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-apiclient]: success
+[2024-05-02 14:53:08] INFO root fetch - processPackages [fancylog]: Remove: archive file [/home/abi/fetcher/tmp/fancylog-0.4.1.tar.gz]
+[2024-05-02 14:53:08] INFO root fetch - processPackages [fancylog]: Remove: archive file [/home/abi/fetcher/tmp/fancylog-0.4.2.tar.gz]
+[2024-05-02 14:53:08] INFO root fetch - main [MainThread]: End processing [fancylog]: success
+[2024-05-02 14:53:08] INFO root fetch - processPackages [vss-tools]: Remove: archive file [/home/abi/fetcher/tmp/vss-tools-4.1.dev5.tar.gz]
+[2024-05-02 14:53:08] INFO root fetch - processPackages [vss-tools]: Remove: archive file [/home/abi/fetcher/tmp/vss-tools-4.1rc0.tar.gz]
+[2024-05-02 14:53:08] INFO root fetch - main [MainThread]: End processing [vss-tools]: success
+[2024-05-02 14:53:08] INFO root fetch - main [MainThread]: Store serial: [23031165]
