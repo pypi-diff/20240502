@@ -8800,3 +8800,40 @@
 [2024-05-02 06:18:11] INFO root fetch - processPackages [odoo-addons-oca-hr-expense]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_hr_expense-16.0.20231202.0-py3-none-any.whl.zip]
 [2024-05-02 06:18:11] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-hr-expense]: success
 [2024-05-02 06:18:11] INFO root fetch - main [MainThread]: Store serial: [23026264]
+[2024-05-02 06:20:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026264]
+[2024-05-02 06:20:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 06:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decipher-sdk
+[2024-05-02 06:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decipher-sdk
+[2024-05-02 06:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quasarpy
+[2024-05-02 06:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-intrastat-product
+[2024-05-02 06:20:19] INFO root fetch - processPackages [quasarpy]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-02 06:20:19] INFO root fetch - processPackages [decipher-sdk]: New version: [0.0.2] Old Version: [0.0.15]
+[2024-05-02 06:20:19] INFO root fetch - processPackages [decipher-sdk]: New version: [0.0.2] Old Version: [0.0.15]
+[2024-05-02 06:20:19] INFO root fetch - processPackages [odoo14-addon-intrastat-product]: New version: [14.0.2.1.6.dev4] Old Version: [14.0.2.1.6.dev2]
+[2024-05-02 06:20:19] INFO root fetch - processPackages [quasarpy]: Downloading https://files.pythonhosted.org/packages/03/5f/c2ca5667947425b8fbfd8fc5a3c33853082fc5114dc9b053be2fbce0ea50/quasarpy-0.1.6.tar.gz
+[2024-05-02 06:20:19] INFO root fetch - processPackages [decipher-sdk]: Downloading https://files.pythonhosted.org/packages/c6/3d/2d8beb3bbf380a48b0c785028f21be810fbd6d026558db248a9af2724b9e/decipher-sdk-0.0.15.tar.gz
+[2024-05-02 06:20:19] INFO root fetch - processPackages [decipher-sdk]: Downloading https://files.pythonhosted.org/packages/c6/3d/2d8beb3bbf380a48b0c785028f21be810fbd6d026558db248a9af2724b9e/decipher-sdk-0.0.15.tar.gz
+[2024-05-02 06:20:19] INFO root fetch - processPackages [odoo14-addon-intrastat-product]: Downloading https://files.pythonhosted.org/packages/ef/a5/41dabc368887bad6017f464baf976ad3b4df6eca94c32c196322822cbac9/odoo14_addon_intrastat_product-14.0.2.1.6.dev2-py3-none-any.whl
+[2024-05-02 06:20:19] INFO root fetch - processPackages [decipher-sdk]: Downloading https://files.pythonhosted.org/packages/b6/76/488a3b60f46131f5344a85aded6198e0d9501cfc6e60fe54c0bc0387468b/decipher-sdk-0.0.2.tar.gz
+[2024-05-02 06:20:19] INFO root fetch - processPackages [decipher-sdk]: Downloading https://files.pythonhosted.org/packages/b6/76/488a3b60f46131f5344a85aded6198e0d9501cfc6e60fe54c0bc0387468b/decipher-sdk-0.0.2.tar.gz
+[2024-05-02 06:20:19] INFO root fetch - processPackages [decipher-sdk]: executing diffoscope
+[2024-05-02 06:20:19] INFO root fetch - processPackages [decipher-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decipher-sdk-0.0.15.tar.gz tmp/decipher-sdk-0.0.2.tar.gz --markdown 20240502/d/decipher-sdk/0.0.15-0.0.2/README.md --exclude *.pyd
+[2024-05-02 06:20:19] INFO root fetch - processPackages [decipher-sdk]: executing diffoscope
+[2024-05-02 06:20:19] INFO root fetch - processPackages [decipher-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decipher-sdk-0.0.15.tar.gz tmp/decipher-sdk-0.0.2.tar.gz --markdown 20240502/d/decipher-sdk/0.0.15-0.0.2/README.md --exclude *.pyd
+[2024-05-02 06:20:19] INFO root fetch - processPackages [quasarpy]: Downloading https://files.pythonhosted.org/packages/60/13/6a288d3406965bf98c2d7a7d0fe316bb680e736d65ca4cfd91f7c886c19a/quasarpy-0.1.7.tar.gz
+[2024-05-02 06:20:20] INFO root fetch - processPackages [odoo14-addon-intrastat-product]: Downloading https://files.pythonhosted.org/packages/e1/a0/6c4da837a774316d32377e314889c2ba2e56ed700ce2c65e8a283ea12952/odoo14_addon_intrastat_product-14.0.2.1.6.dev4-py3-none-any.whl
+[2024-05-02 06:20:20] INFO root fetch - processPackages [quasarpy]: executing diffoscope
+[2024-05-02 06:20:20] INFO root fetch - processPackages [quasarpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quasarpy-0.1.6.tar.gz tmp/quasarpy-0.1.7.tar.gz --markdown 20240502/q/quasarpy/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-02 06:20:20] INFO root fetch - processPackages [odoo14-addon-intrastat-product]: executing diffoscope
+[2024-05-02 06:20:20] INFO root fetch - processPackages [odoo14-addon-intrastat-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_intrastat_product-14.0.2.1.6.dev2-py3-none-any.whl.zip tmp/odoo14_addon_intrastat_product-14.0.2.1.6.dev4-py3-none-any.whl.zip --markdown 20240502/o/odoo14-addon-intrastat-product/14.0.2.1.6.dev2-14.0.2.1.6.dev4/README.md --exclude *.pyd
+[2024-05-02 06:20:20] INFO root fetch - processPackages [decipher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decipher-sdk-0.0.15.tar.gz]
+[2024-05-02 06:20:20] INFO root fetch - processPackages [decipher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decipher-sdk-0.0.2.tar.gz]
+[2024-05-02 06:20:20] INFO root fetch - main [MainThread]: End processing [decipher-sdk]: success
+[2024-05-02 06:20:20] INFO root fetch - main [MainThread]: End processing [decipher-sdk]: success
+[2024-05-02 06:20:20] INFO root fetch - processPackages [quasarpy]: Remove: archive file [/home/abi/fetcher/tmp/quasarpy-0.1.6.tar.gz]
+[2024-05-02 06:20:20] INFO root fetch - processPackages [quasarpy]: Remove: archive file [/home/abi/fetcher/tmp/quasarpy-0.1.7.tar.gz]
+[2024-05-02 06:20:20] INFO root fetch - main [MainThread]: End processing [quasarpy]: success
+[2024-05-02 06:20:21] INFO root fetch - processPackages [odoo14-addon-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_intrastat_product-14.0.2.1.6.dev2-py3-none-any.whl.zip]
+[2024-05-02 06:20:21] INFO root fetch - processPackages [odoo14-addon-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_intrastat_product-14.0.2.1.6.dev4-py3-none-any.whl.zip]
+[2024-05-02 06:20:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-intrastat-product]: success
+[2024-05-02 06:20:21] INFO root fetch - main [MainThread]: Store serial: [23026275]
