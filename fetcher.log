@@ -2231,3 +2231,45 @@
 [2024-05-02 02:18:02] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
 [2024-05-02 02:18:02] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
 [2024-05-02 02:18:02] INFO root fetch - main [MainThread]: Store serial: [23023798]
+[2024-05-02 02:20:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023798]
+[2024-05-02 02:20:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 02:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-budibase
+[2024-05-02 02:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: k8sAI
+[2024-05-02 02:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OZI.build
+[2024-05-02 02:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aq-geometric
+[2024-05-02 02:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-aurora-globaldatabase
+[2024-05-02 02:20:11] INFO root fetch - processPackages [OZI.build]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-02 02:20:11] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-02 02:20:11] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-02 02:20:11] INFO root fetch - processPackages [aq-geometric]: New version: [2024.5.1.1] Old Version: [2024.4.7.2]
+[2024-05-02 02:20:11] WARNING root fetch - processPackages [k8sAI]: Skipping, unable to determine old version
+[2024-05-02 02:20:11] INFO root fetch - main [MainThread]: End processing [k8sAI] error
+[2024-05-02 02:20:11] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-02 02:20:11] INFO root fetch - processPackages [OZI.build]: Downloading https://files.pythonhosted.org/packages/7e/4b/f57d109d5590a157744dff17ebcc583d88bfa8e7b8850e8e35103dc5fd48/OZI.build-0.0.4.tar.gz
+[2024-05-02 02:20:11] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-05-02 02:20:11] INFO root fetch - processPackages [aq-geometric]: Downloading https://files.pythonhosted.org/packages/0e/08/70b34eb8103823c658557aaaf636d19969e7d9c7e2f66f140ce371644f59/aq_geometric-2024.4.7.2.tar.gz
+[2024-05-02 02:20:11] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-02 02:20:12] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-02 02:20:12] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240502/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-02 02:20:12] INFO root fetch - processPackages [OZI.build]: Downloading https://files.pythonhosted.org/packages/a1/d3/3ad57fe7d9b43e64700f1739deced629b9e327cb578fabea89d379d21266/OZI.build-0.0.5.tar.gz
+[2024-05-02 02:20:12] INFO root fetch - processPackages [aq-geometric]: Downloading https://files.pythonhosted.org/packages/af/c7/652deec876c605a3ef934725d72debdca629091dd9f40b57e32d6f63076f/aq_geometric-2024.5.1.1.tar.gz
+[2024-05-02 02:20:12] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-05-02 02:20:12] INFO root fetch - processPackages [OZI.build]: executing diffoscope
+[2024-05-02 02:20:12] INFO root fetch - processPackages [OZI.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI.build-0.0.4.tar.gz tmp/OZI.build-0.0.5.tar.gz --markdown 20240502/O/OZI.build/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-02 02:20:12] INFO root fetch - processPackages [aq-geometric]: executing diffoscope
+[2024-05-02 02:20:12] INFO root fetch - processPackages [aq-geometric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aq_geometric-2024.4.7.2.tar.gz tmp/aq_geometric-2024.5.1.1.tar.gz --markdown 20240502/a/aq-geometric/2024.4.7.2-2024.5.1.1/README.md --exclude *.pyd
+[2024-05-02 02:20:12] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-05-02 02:20:12] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240502/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-02 02:20:12] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-02 02:20:12] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-02 02:20:12] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-02 02:20:12] INFO root fetch - processPackages [OZI.build]: Remove: archive file [/home/abi/fetcher/tmp/OZI.build-0.0.4.tar.gz]
+[2024-05-02 02:20:12] INFO root fetch - processPackages [OZI.build]: Remove: archive file [/home/abi/fetcher/tmp/OZI.build-0.0.5.tar.gz]
+[2024-05-02 02:20:12] INFO root fetch - main [MainThread]: End processing [OZI.build]: success
+[2024-05-02 02:20:12] INFO root fetch - processPackages [aq-geometric]: Remove: archive file [/home/abi/fetcher/tmp/aq_geometric-2024.4.7.2.tar.gz]
+[2024-05-02 02:20:12] INFO root fetch - processPackages [aq-geometric]: Remove: archive file [/home/abi/fetcher/tmp/aq_geometric-2024.5.1.1.tar.gz]
+[2024-05-02 02:20:12] INFO root fetch - main [MainThread]: End processing [aq-geometric]: success
+[2024-05-02 02:20:12] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-05-02 02:20:12] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-05-02 02:20:12] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-05-02 02:20:12] INFO root fetch - main [MainThread]: Store serial: [23023823]
