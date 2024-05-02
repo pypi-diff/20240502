@@ -6727,3 +6727,42 @@
 [2024-05-02 03:21:41] INFO root fetch - processPackages [datascope]: Remove: archive file [/home/abi/fetcher/tmp/datascope-0.0.9.tar.gz]
 [2024-05-02 03:21:41] INFO root fetch - main [MainThread]: End processing [datascope]: success
 [2024-05-02 03:21:41] INFO root fetch - main [MainThread]: Store serial: [23025020]
+[2024-05-02 03:23:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025020]
+[2024-05-02 03:24:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 03:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cutseq
+[2024-05-02 03:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mailslurp-client
+[2024-05-02 03:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forevd
+[2024-05-02 03:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: musicnotes
+[2024-05-02 03:24:01] INFO root fetch - processPackages [musicnotes]: New version: [1.0.1] Old Version: [1.0]
+[2024-05-02 03:24:01] INFO root fetch - processPackages [cutseq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 03:24:01] INFO root fetch - processPackages [forevd]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-02 03:24:01] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2024-05-02 03:24:01] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/95/33/6984c0732c17eb925be43f23c0c27167392d2900fcd21ebf93d9b68f6c2a/cutseq-0.0.8.tar.gz
+[2024-05-02 03:24:01] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/87/77/5ecd8f599adbdc4f5ece521c4e078886609957d6b8acbf5110808f35d5b8/musicnotes-1.0.tar.gz
+[2024-05-02 03:24:01] INFO root fetch - processPackages [forevd]: Downloading https://files.pythonhosted.org/packages/5c/9c/301e7355efbe722decd83b00f8950f9b5126e72da6af5f2188e12084e66f/forevd-0.2.0.tar.gz
+[2024-05-02 03:24:01] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2024-05-02 03:24:01] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/e5/82/45b103e58b439dac0cf4c7f6ef6957633721ec0f4553abfabba5ed961a0f/cutseq-0.0.9.tar.gz
+[2024-05-02 03:24:01] INFO root fetch - processPackages [cutseq]: executing diffoscope
+[2024-05-02 03:24:01] INFO root fetch - processPackages [cutseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutseq-0.0.8.tar.gz tmp/cutseq-0.0.9.tar.gz --markdown 20240502/c/cutseq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 03:24:01] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/0a/b6/153c52ef887567e8db5668235b735ead435c3b21d9a2299e1d1dc2c2fafd/musicnotes-1.0.1.tar.gz
+[2024-05-02 03:24:01] INFO root fetch - processPackages [forevd]: Downloading https://files.pythonhosted.org/packages/b3/c2/e56a5688b25c89c6468908a44696e749f61acd456fa6464322c6b4e57ee1/forevd-0.2.1.tar.gz
+[2024-05-02 03:24:01] INFO root fetch - processPackages [musicnotes]: executing diffoscope
+[2024-05-02 03:24:01] INFO root fetch - processPackages [musicnotes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicnotes-1.0.tar.gz tmp/musicnotes-1.0.1.tar.gz --markdown 20240502/m/musicnotes/1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-02 03:24:02] INFO root fetch - processPackages [forevd]: executing diffoscope
+[2024-05-02 03:24:02] INFO root fetch - processPackages [forevd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forevd-0.2.0.tar.gz tmp/forevd-0.2.1.tar.gz --markdown 20240502/f/forevd/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-02 03:24:02] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2024-05-02 03:24:02] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2024-05-02 03:24:02] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20240502/m/mailslurp-client/8.7.1-9.0.0/README.md --exclude *.pyd
+[2024-05-02 03:24:02] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.8.tar.gz]
+[2024-05-02 03:24:02] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.9.tar.gz]
+[2024-05-02 03:24:02] INFO root fetch - main [MainThread]: End processing [cutseq]: success
+[2024-05-02 03:24:02] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.tar.gz]
+[2024-05-02 03:24:02] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.1.tar.gz]
+[2024-05-02 03:24:02] INFO root fetch - main [MainThread]: End processing [musicnotes]: success
+[2024-05-02 03:24:02] INFO root fetch - processPackages [forevd]: Remove: archive file [/home/abi/fetcher/tmp/forevd-0.2.0.tar.gz]
+[2024-05-02 03:24:02] INFO root fetch - processPackages [forevd]: Remove: archive file [/home/abi/fetcher/tmp/forevd-0.2.1.tar.gz]
+[2024-05-02 03:24:02] INFO root fetch - main [MainThread]: End processing [forevd]: success
+[2024-05-02 03:24:03] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2024-05-02 03:24:03] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2024-05-02 03:24:03] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2024-05-02 03:24:03] INFO root fetch - main [MainThread]: Store serial: [23025099]
