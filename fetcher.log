@@ -9405,3 +9405,33 @@
 [2024-05-02 07:02:17] INFO root fetch - processPackages [kmisc]: Remove: archive file [/home/abi/fetcher/tmp/kmisc-2.1.99.tar.gz]
 [2024-05-02 07:02:17] INFO root fetch - main [MainThread]: End processing [kmisc]: success
 [2024-05-02 07:02:17] INFO root fetch - main [MainThread]: Store serial: [23026510]
+[2024-05-02 07:04:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026510]
+[2024-05-02 07:04:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 07:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pathlib-next
+[2024-05-02 07:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hbox
+[2024-05-02 07:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molgenis-py-bbmri-eric
+[2024-05-02 07:04:26] INFO root fetch - processPackages [hbox]: New version: [0.1.2] Old Version: [0.1.10]
+[2024-05-02 07:04:26] INFO root fetch - processPackages [pathlib-next]: New version: [0.3.5] Old Version: [0.3.0]
+[2024-05-02 07:04:26] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-02 07:04:26] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/8a/ab/cae3e40aff3edf147313f81555c4725136e7db48f9bca0cdd9950f1a878f/hbox-0.1.10.tar.gz
+[2024-05-02 07:04:26] INFO root fetch - processPackages [pathlib-next]: Downloading https://files.pythonhosted.org/packages/ef/35/92a0a457069157adb87e74ccd93c00983f485f20de564e8049e7e6b65835/pathlib_next-0.3.0.tar.gz
+[2024-05-02 07:04:26] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Downloading https://files.pythonhosted.org/packages/55/e0/24290eb827939ce28ad443ab501a1de5c78477b51893febb32a6076230db/molgenis-py-bbmri-eric-1.8.0.tar.gz
+[2024-05-02 07:04:26] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/d9/1e/d6c044d1dd876f640fd8080c0d80bf9c1d753b6ae9fc1d5040d28b71f52c/hbox-0.1.2.tar.gz
+[2024-05-02 07:04:27] INFO root fetch - processPackages [pathlib-next]: Downloading https://files.pythonhosted.org/packages/12/9c/ea3ceea898503d0f530eaf9940476e9580a5144f2ddbfef3cc5d21825197/pathlib_next-0.3.5.tar.gz
+[2024-05-02 07:04:27] INFO root fetch - processPackages [hbox]: executing diffoscope
+[2024-05-02 07:04:27] INFO root fetch - processPackages [hbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbox-0.1.10.tar.gz tmp/hbox-0.1.2.tar.gz --markdown 20240502/h/hbox/0.1.10-0.1.2/README.md --exclude *.pyd
+[2024-05-02 07:04:27] INFO root fetch - processPackages [pathlib-next]: executing diffoscope
+[2024-05-02 07:04:27] INFO root fetch - processPackages [pathlib-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathlib_next-0.3.0.tar.gz tmp/pathlib_next-0.3.5.tar.gz --markdown 20240502/p/pathlib-next/0.3.0-0.3.5/README.md --exclude *.pyd
+[2024-05-02 07:04:27] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Downloading https://files.pythonhosted.org/packages/4f/1a/131ad33a5603630c7855f8913a04402a5d52300cfdfad2aa7cae84988fcf/molgenis-py-bbmri-eric-1.9.0.tar.gz
+[2024-05-02 07:04:27] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: executing diffoscope
+[2024-05-02 07:04:27] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis-py-bbmri-eric-1.8.0.tar.gz tmp/molgenis-py-bbmri-eric-1.9.0.tar.gz --markdown 20240502/m/molgenis-py-bbmri-eric/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-02 07:04:27] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.1.10.tar.gz]
+[2024-05-02 07:04:27] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.1.2.tar.gz]
+[2024-05-02 07:04:27] INFO root fetch - main [MainThread]: End processing [hbox]: success
+[2024-05-02 07:04:27] INFO root fetch - processPackages [pathlib-next]: Remove: archive file [/home/abi/fetcher/tmp/pathlib_next-0.3.0.tar.gz]
+[2024-05-02 07:04:27] INFO root fetch - processPackages [pathlib-next]: Remove: archive file [/home/abi/fetcher/tmp/pathlib_next-0.3.5.tar.gz]
+[2024-05-02 07:04:27] INFO root fetch - main [MainThread]: End processing [pathlib-next]: success
+[2024-05-02 07:04:28] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-py-bbmri-eric-1.8.0.tar.gz]
+[2024-05-02 07:04:28] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-py-bbmri-eric-1.9.0.tar.gz]
+[2024-05-02 07:04:28] INFO root fetch - main [MainThread]: End processing [molgenis-py-bbmri-eric]: success
+[2024-05-02 07:04:28] INFO root fetch - main [MainThread]: Store serial: [23026521]
