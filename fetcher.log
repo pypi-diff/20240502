@@ -7962,3 +7962,12 @@
 [2024-05-02 05:01:34] INFO root fetch - processPackages [cioblender]: Remove: archive file [/home/abi/fetcher/tmp/cioblender-0.3.7b1-py2.py3-none-any.whl.zip]
 [2024-05-02 05:01:34] INFO root fetch - main [MainThread]: End processing [cioblender]: success
 [2024-05-02 05:01:34] INFO root fetch - main [MainThread]: Store serial: [23025969]
+[2024-05-02 05:03:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025969]
+[2024-05-02 05:03:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 05:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ldc-pdf
+[2024-05-02 05:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ldc-tint
+[2024-05-02 05:03:44] WARNING root fetch - processPackages [ldc-pdf]: Skipping, unable to determine old version
+[2024-05-02 05:03:44] INFO root fetch - main [MainThread]: End processing [ldc-pdf] error
+[2024-05-02 05:03:44] WARNING root fetch - processPackages [ldc-tint]: Skipping, unable to determine old version
+[2024-05-02 05:03:44] INFO root fetch - main [MainThread]: End processing [ldc-tint] error
+[2024-05-02 05:03:44] INFO root fetch - main [MainThread]: Store serial: [23025980]
