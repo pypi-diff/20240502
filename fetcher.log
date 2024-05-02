@@ -7803,3 +7803,48 @@
 [2024-05-02 04:50:21] INFO root fetch - processPackages [jericho]: Remove: archive file [/home/abi/fetcher/tmp/jericho-3.2.0.tar.gz]
 [2024-05-02 04:50:21] INFO root fetch - main [MainThread]: End processing [jericho]: success
 [2024-05-02 04:50:21] INFO root fetch - main [MainThread]: Store serial: [23025885]
+[2024-05-02 04:52:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025885]
+[2024-05-02 04:52:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 04:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sosap
+[2024-05-02 04:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musicnotes
+[2024-05-02 04:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medicafe
+[2024-05-02 04:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: heudiconv
+[2024-05-02 04:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ldc-docx
+[2024-05-02 04:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meetSam
+[2024-05-02 04:52:30] INFO root fetch - processPackages [musicnotes]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 04:52:30] INFO root fetch - processPackages [medicafe]: New version: [0.240501.3] Old Version: [0.240501.2]
+[2024-05-02 04:52:30] INFO root fetch - processPackages [sosap]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 04:52:30] WARNING root fetch - processPackages [ldc-docx]: Skipping, unable to determine old version
+[2024-05-02 04:52:30] INFO root fetch - main [MainThread]: End processing [ldc-docx] error
+[2024-05-02 04:52:30] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/1a/55/a0bec7d3f70e7932bb08d38f33aa5a307362c1e1a8fb9888eb6c7f80f21b/musicnotes-1.0.8.tar.gz
+[2024-05-02 04:52:30] INFO root fetch - processPackages [heudiconv]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-02 04:52:30] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/7b/b8/f9aabf5415b675c1b3ff764bc3ad8ce49b2a0ed6a67bb27548ec905fd755/medicafe-0.240501.2.tar.gz
+[2024-05-02 04:52:30] INFO root fetch - processPackages [sosap]: Downloading https://files.pythonhosted.org/packages/29/e6/688518523cdb3064e5970556729accb1bcbdedaff40aa5cc2ccaa598dc6e/sosap-0.1.0.tar.gz
+[2024-05-02 04:52:30] WARNING root fetch - processPackages [meetSam]: Skipping, unable to determine old version
+[2024-05-02 04:52:30] INFO root fetch - main [MainThread]: End processing [meetSam] error
+[2024-05-02 04:52:30] INFO root fetch - processPackages [heudiconv]: Downloading https://files.pythonhosted.org/packages/77/73/8f3d44559f83ce49e64bb78cf9f349db2939cfa4a1192c0bd4e4d7ab0e87/heudiconv-1.1.0.tar.gz
+[2024-05-02 04:52:30] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/38/2f/e335b95c786beb14cc53b620c47531ecf29eec3c369a03cb3db9f0728cc4/musicnotes-1.0.9.tar.gz
+[2024-05-02 04:52:30] INFO root fetch - processPackages [sosap]: Downloading https://files.pythonhosted.org/packages/dd/77/28c4a9b9a0cf3d57c2f87ee49dbe3775b9e4167bd95d95f9dda798030abf/sosap-0.1.1.tar.gz
+[2024-05-02 04:52:30] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/91/72/dc8716b2fe4584cf3a8bd04b0bfb988ca9118b23478f5e99e2052526eb6b/medicafe-0.240501.3.tar.gz
+[2024-05-02 04:52:30] INFO root fetch - processPackages [sosap]: executing diffoscope
+[2024-05-02 04:52:30] INFO root fetch - processPackages [sosap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosap-0.1.0.tar.gz tmp/sosap-0.1.1.tar.gz --markdown 20240502/s/sosap/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 04:52:30] INFO root fetch - processPackages [musicnotes]: executing diffoscope
+[2024-05-02 04:52:30] INFO root fetch - processPackages [musicnotes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicnotes-1.0.8.tar.gz tmp/musicnotes-1.0.9.tar.gz --markdown 20240502/m/musicnotes/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 04:52:31] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-02 04:52:31] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240501.2.tar.gz tmp/medicafe-0.240501.3.tar.gz --markdown 20240502/m/medicafe/0.240501.2-0.240501.3/README.md --exclude *.pyd
+[2024-05-02 04:52:31] INFO root fetch - processPackages [sosap]: Remove: archive file [/home/abi/fetcher/tmp/sosap-0.1.0.tar.gz]
+[2024-05-02 04:52:31] INFO root fetch - processPackages [sosap]: Remove: archive file [/home/abi/fetcher/tmp/sosap-0.1.1.tar.gz]
+[2024-05-02 04:52:31] INFO root fetch - main [MainThread]: End processing [sosap]: success
+[2024-05-02 04:52:31] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.8.tar.gz]
+[2024-05-02 04:52:31] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.9.tar.gz]
+[2024-05-02 04:52:31] INFO root fetch - main [MainThread]: End processing [musicnotes]: success
+[2024-05-02 04:52:31] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240501.2.tar.gz]
+[2024-05-02 04:52:31] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240501.3.tar.gz]
+[2024-05-02 04:52:31] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-02 04:52:31] INFO root fetch - processPackages [heudiconv]: Downloading https://files.pythonhosted.org/packages/3c/58/2bb760b6946f3088086100cff8695d72aca6c15a7288f5e08e8ddee3e97f/heudiconv-1.1.1.tar.gz
+[2024-05-02 04:52:32] INFO root fetch - processPackages [heudiconv]: executing diffoscope
+[2024-05-02 04:52:32] INFO root fetch - processPackages [heudiconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heudiconv-1.1.0.tar.gz tmp/heudiconv-1.1.1.tar.gz --markdown 20240502/h/heudiconv/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-02 04:52:33] INFO root fetch - processPackages [heudiconv]: Remove: archive file [/home/abi/fetcher/tmp/heudiconv-1.1.0.tar.gz]
+[2024-05-02 04:52:33] INFO root fetch - processPackages [heudiconv]: Remove: archive file [/home/abi/fetcher/tmp/heudiconv-1.1.1.tar.gz]
+[2024-05-02 04:52:33] INFO root fetch - main [MainThread]: End processing [heudiconv]: success
+[2024-05-02 04:52:33] INFO root fetch - main [MainThread]: Store serial: [23025906]
