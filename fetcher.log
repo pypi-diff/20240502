@@ -11272,3 +11272,42 @@
 [2024-05-02 09:04:25] INFO root fetch - processPackages [tink]: Remove: archive file [/home/abi/fetcher/tmp/tink-1.9.0.tar.gz]
 [2024-05-02 09:04:25] INFO root fetch - main [MainThread]: End processing [tink]: success
 [2024-05-02 09:04:25] INFO root fetch - main [MainThread]: Store serial: [23027289]
+[2024-05-02 09:06:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027289]
+[2024-05-02 09:06:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 09:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-all-star
+[2024-05-02 09:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eyes17
+[2024-05-02 09:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adcl
+[2024-05-02 09:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xursparks
+[2024-05-02 09:06:33] INFO root fetch - processPackages [adcl]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-02 09:06:33] INFO root fetch - processPackages [eyes17]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 09:06:33] INFO root fetch - processPackages [xursparks]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-02 09:06:33] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/de/3d/3d6998b934f55a028e30c4f6e8a6ccb5bf1315d89bcd1b8caaf3d867e3c7/eyes17-1.0.8.tar.gz
+[2024-05-02 09:06:33] INFO root fetch - processPackages [gpt-all-star]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-02 09:06:33] INFO root fetch - processPackages [adcl]: Downloading https://files.pythonhosted.org/packages/be/e0/b350c320f9d39e2efd2b02352efb74426d14805d619cadd484549ef5f030/adcl-0.1.3.tar.gz
+[2024-05-02 09:06:33] INFO root fetch - processPackages [xursparks]: Downloading https://files.pythonhosted.org/packages/23/b1/8d6f50284edfad9d4a00d1994e0dbb7656480561a805ad588d571632e7ff/xursparks-1.0.1.tar.gz
+[2024-05-02 09:06:33] INFO root fetch - processPackages [gpt-all-star]: Downloading https://files.pythonhosted.org/packages/95/00/47f2780dce549d1ce8aad7cb17a7c758209c4539c6f75dcdbe0e9322ce0e/gpt_all_star-0.0.7.tar.gz
+[2024-05-02 09:06:34] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/6b/c4/71e2c3544ce45f549a59c74ee3f327ede9a5b9168005bc0c577b9b309bc3/eyes17-1.0.9.tar.gz
+[2024-05-02 09:06:34] INFO root fetch - processPackages [adcl]: Downloading https://files.pythonhosted.org/packages/75/b6/a0c00aa418de1666854ca6e6f556fafe81aba616d590d56b04245fb20a3d/adcl-0.1.4.tar.gz
+[2024-05-02 09:06:34] INFO root fetch - processPackages [adcl]: executing diffoscope
+[2024-05-02 09:06:34] INFO root fetch - processPackages [adcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adcl-0.1.3.tar.gz tmp/adcl-0.1.4.tar.gz --markdown 20240502/a/adcl/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-02 09:06:34] INFO root fetch - processPackages [eyes17]: executing diffoscope
+[2024-05-02 09:06:34] INFO root fetch - processPackages [eyes17]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes17-1.0.8.tar.gz tmp/eyes17-1.0.9.tar.gz --markdown 20240502/e/eyes17/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 09:06:34] INFO root fetch - processPackages [xursparks]: Downloading https://files.pythonhosted.org/packages/1a/39/13f2ed7352efb218c3f69520f599c09a9522739f39d651cb55d6b41915b5/xursparks-1.0.2.tar.gz
+[2024-05-02 09:06:34] INFO root fetch - processPackages [gpt-all-star]: Downloading https://files.pythonhosted.org/packages/96/40/c6f6b9dc146ffbf8c97d68b1ad200a51bb0f5a239c5e4d11725f1fff5f45/gpt_all_star-0.0.9.tar.gz
+[2024-05-02 09:06:34] INFO root fetch - processPackages [xursparks]: executing diffoscope
+[2024-05-02 09:06:34] INFO root fetch - processPackages [xursparks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xursparks-1.0.1.tar.gz tmp/xursparks-1.0.2.tar.gz --markdown 20240502/x/xursparks/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-02 09:06:34] INFO root fetch - processPackages [gpt-all-star]: executing diffoscope
+[2024-05-02 09:06:34] INFO root fetch - processPackages [gpt-all-star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_all_star-0.0.7.tar.gz tmp/gpt_all_star-0.0.9.tar.gz --markdown 20240502/g/gpt-all-star/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-02 09:06:34] INFO root fetch - processPackages [adcl]: Remove: archive file [/home/abi/fetcher/tmp/adcl-0.1.3.tar.gz]
+[2024-05-02 09:06:34] INFO root fetch - processPackages [adcl]: Remove: archive file [/home/abi/fetcher/tmp/adcl-0.1.4.tar.gz]
+[2024-05-02 09:06:34] INFO root fetch - main [MainThread]: End processing [adcl]: success
+[2024-05-02 09:06:34] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.1.tar.gz]
+[2024-05-02 09:06:34] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.2.tar.gz]
+[2024-05-02 09:06:34] INFO root fetch - main [MainThread]: End processing [xursparks]: success
+[2024-05-02 09:06:35] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.8.tar.gz]
+[2024-05-02 09:06:35] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.9.tar.gz]
+[2024-05-02 09:06:35] INFO root fetch - main [MainThread]: End processing [eyes17]: success
+[2024-05-02 09:06:35] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.7.tar.gz]
+[2024-05-02 09:06:35] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.9.tar.gz]
+[2024-05-02 09:06:35] INFO root fetch - main [MainThread]: End processing [gpt-all-star]: success
+[2024-05-02 09:06:35] INFO root fetch - main [MainThread]: Store serial: [23027301]
