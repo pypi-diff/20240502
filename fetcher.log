@@ -17405,3 +17405,51 @@
 [2024-05-02 13:01:53] INFO root fetch - processPackages [securesystemslib]: Remove: archive file [/home/abi/fetcher/tmp/securesystemslib-1.0.0.tar.gz]
 [2024-05-02 13:01:53] INFO root fetch - main [MainThread]: End processing [securesystemslib]: success
 [2024-05-02 13:01:53] INFO root fetch - main [MainThread]: Store serial: [23029813]
+[2024-05-02 13:03:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029813]
+[2024-05-02 13:04:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 13:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbfrs
+[2024-05-02 13:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ibind
+[2024-05-02 13:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codeforlife-portal
+[2024-05-02 13:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfl-common
+[2024-05-02 13:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-admin-assets
+[2024-05-02 13:04:02] INFO root fetch - processPackages [dbfrs]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-02 13:04:02] INFO root fetch - processPackages [ibind]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-02 13:04:02] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1523] Old Version: [1.0.0.post1521]
+[2024-05-02 13:04:02] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-02 13:04:02] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-02 13:04:02] INFO root fetch - processPackages [dbfrs]: Downloading https://files.pythonhosted.org/packages/81/06/1a001e52f030114913e1ab2b96f97624ef36903bf5700cd9f95d0f59edfa/dbfrs-0.1.2.tar.gz
+[2024-05-02 13:04:02] INFO root fetch - processPackages [ibind]: Downloading https://files.pythonhosted.org/packages/c6/65/cfb97112d43e0b80193000b31dbbd0885112c4cdfae92fd019d83dc89be9/ibind-0.0.1.tar.gz
+[2024-05-02 13:04:02] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/b2/df/e38da4595c77dd14ba9e684b9840f3e697661165b69b4b60df693bc79070/nucliadb_admin_assets-1.0.0.post1521-py3-none-any.whl
+[2024-05-02 13:04:03] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2024-05-02 13:04:03] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2024-05-02 13:04:03] INFO root fetch - processPackages [dbfrs]: Downloading https://files.pythonhosted.org/packages/ef/5a/e70ada8e991252724840cfdf561a7c030125f496c58d02c5d976b151c313/dbfrs-0.1.3.tar.gz
+[2024-05-02 13:04:03] INFO root fetch - processPackages [dbfrs]: executing diffoscope
+[2024-05-02 13:04:03] INFO root fetch - processPackages [dbfrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbfrs-0.1.2.tar.gz tmp/dbfrs-0.1.3.tar.gz --markdown 20240502/d/dbfrs/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-02 13:04:03] INFO root fetch - processPackages [ibind]: Downloading https://files.pythonhosted.org/packages/ea/63/a2f81e1910768ed43282dc3174472bbe6425bce5e8328ff1d38e16831d81/ibind-0.0.2.tar.gz
+[2024-05-02 13:04:03] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/bc/cf/59dfeb3621350ad4c217d8368efad3dd5a36f3418287bad2a26164af228d/nucliadb_admin_assets-1.0.0.post1523-py3-none-any.whl
+[2024-05-02 13:04:03] INFO root fetch - processPackages [ibind]: executing diffoscope
+[2024-05-02 13:04:03] INFO root fetch - processPackages [ibind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibind-0.0.1.tar.gz tmp/ibind-0.0.2.tar.gz --markdown 20240502/i/ibind/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-02 13:04:03] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2024-05-02 13:04:03] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2024-05-02 13:04:03] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20240502/c/cfl-common/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-02 13:04:03] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-02 13:04:03] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1521-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1523-py3-none-any.whl.zip --markdown 20240502/n/nucliadb-admin-assets/1.0.0.post1521-1.0.0.post1523/README.md --exclude *.pyd
+[2024-05-02 13:04:03] INFO root fetch - processPackages [dbfrs]: Remove: archive file [/home/abi/fetcher/tmp/dbfrs-0.1.2.tar.gz]
+[2024-05-02 13:04:03] INFO root fetch - processPackages [dbfrs]: Remove: archive file [/home/abi/fetcher/tmp/dbfrs-0.1.3.tar.gz]
+[2024-05-02 13:04:03] INFO root fetch - main [MainThread]: End processing [dbfrs]: success
+[2024-05-02 13:04:04] INFO root fetch - processPackages [ibind]: Remove: archive file [/home/abi/fetcher/tmp/ibind-0.0.1.tar.gz]
+[2024-05-02 13:04:04] INFO root fetch - processPackages [ibind]: Remove: archive file [/home/abi/fetcher/tmp/ibind-0.0.2.tar.gz]
+[2024-05-02 13:04:04] INFO root fetch - main [MainThread]: End processing [ibind]: success
+[2024-05-02 13:04:04] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2024-05-02 13:04:04] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2024-05-02 13:04:04] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2024-05-02 13:04:04] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2024-05-02 13:04:05] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2024-05-02 13:04:05] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20240502/c/codeforlife-portal/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-02 13:04:07] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.8.9.tar.gz]
+[2024-05-02 13:04:07] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
+[2024-05-02 13:04:07] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2024-05-02 13:04:18] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1521-py3-none-any.whl.zip]
+[2024-05-02 13:04:18] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1523-py3-none-any.whl.zip]
+[2024-05-02 13:04:18] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-02 13:04:18] INFO root fetch - main [MainThread]: Store serial: [23029827]
