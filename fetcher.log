@@ -9823,3 +9823,78 @@
 [2024-05-02 07:37:08] INFO root fetch - processPackages [datadreamer.dev]: Remove: archive file [/home/abi/fetcher/tmp/datadreamer_dev-0.9.0.tar.gz]
 [2024-05-02 07:37:08] INFO root fetch - main [MainThread]: End processing [datadreamer.dev]: success
 [2024-05-02 07:37:08] INFO root fetch - main [MainThread]: Store serial: [23026704]
+[2024-05-02 07:39:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026704]
+[2024-05-02 07:39:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spinach
+[2024-05-02 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eidolon_ai_client
+[2024-05-02 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appsurifyci
+[2024-05-02 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eidolon-ai-sdk
+[2024-05-02 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: suql
+[2024-05-02 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hbox
+[2024-05-02 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-pms
+[2024-05-02 07:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-pms-l10n-es
+[2024-05-02 07:39:17] INFO root fetch - processPackages [eidolon_ai_client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 07:39:17] INFO root fetch - processPackages [hbox]: New version: [0.1.2] Old Version: [0.1.14]
+[2024-05-02 07:39:17] INFO root fetch - processPackages [spinach]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 07:39:17] INFO root fetch - processPackages [eidolon-ai-sdk]: New version: [0.1.43] Old Version: [0.1.42]
+[2024-05-02 07:39:17] INFO root fetch - processPackages [eidolon_ai_client]: Downloading https://files.pythonhosted.org/packages/f0/61/6ca231006909006ba96753a764654d05e47de665b1bf7f42b131a6cdb841/eidolon_ai_client-0.1.8.tar.gz
+[2024-05-02 07:39:17] INFO root fetch - processPackages [suql]: New version: [1.1.7a0] Old Version: [1.1.6]
+[2024-05-02 07:39:17] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2024-05-02 07:39:17] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 07:39:17] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/d8/e4/990176d138e5fd13991c82c8efdee5cfd3dfb338d69a245263513379f296/eidolon_ai_sdk-0.1.42.tar.gz
+[2024-05-02 07:39:17] INFO root fetch - processPackages [spinach]: Downloading https://files.pythonhosted.org/packages/48/8a/9c4c5432c26b935b18414052632bf0f8067ae028692e6bd634ab7b373e9c/spinach-0.0.8.tar.gz
+[2024-05-02 07:39:17] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: New version: [14.0.2.6.8.dev9] Old Version: [14.0.2.6.8.dev8]
+[2024-05-02 07:39:17] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/6e/c2/480aaf9a07adcea72e6def67322c981a7ffb195751701442bbae983239aa/hbox-0.1.14.tar.gz
+[2024-05-02 07:39:17] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/12/79/5bc5c99fdcc4450553614e205296f6254ba38a6b7697a811749a01778b7a/suql-1.1.6.tar.gz
+[2024-05-02 07:39:17] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/35/dd/9ca9ec4be1214b080d690d035081114d6c68515ac18307d8cb5edc8c7664/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl
+[2024-05-02 07:39:17] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/be/78/e633e7cea242e900964a292a85e443de25712046c3092cb90e623f5df51f/appsurifyci-0.1.8.tar.gz
+[2024-05-02 07:39:17] INFO root fetch - processPackages [eidolon_ai_client]: Downloading https://files.pythonhosted.org/packages/14/16/63be890da3058c38960189037563296eb56f3d69154718e4a35d80261950/eidolon_ai_client-0.1.9.tar.gz
+[2024-05-02 07:39:17] INFO root fetch - processPackages [spinach]: Downloading https://files.pythonhosted.org/packages/0f/2b/cda39c8b2418f57f23dddf166247768fa47cda8235684fa63b442596a605/spinach-0.0.9.tar.gz
+[2024-05-02 07:39:17] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Downloading https://files.pythonhosted.org/packages/fc/ed/525349fd2a15ad0a00e765e046e196b42732fa88715451518fb87a6f635d/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl
+[2024-05-02 07:39:17] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/96/ec/880586d71aea0c5fef7ed8ca08179528a46b168fe9fe6d58aae6020689e6/eidolon_ai_sdk-0.1.43.tar.gz
+[2024-05-02 07:39:17] INFO root fetch - processPackages [eidolon_ai_client]: executing diffoscope
+[2024-05-02 07:39:17] INFO root fetch - processPackages [eidolon_ai_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_client-0.1.8.tar.gz tmp/eidolon_ai_client-0.1.9.tar.gz --markdown 20240502/e/eidolon_ai_client/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 07:39:18] INFO root fetch - processPackages [spinach]: executing diffoscope
+[2024-05-02 07:39:18] INFO root fetch - processPackages [spinach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinach-0.0.8.tar.gz tmp/spinach-0.0.9.tar.gz --markdown 20240502/s/spinach/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 07:39:18] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/d9/1e/d6c044d1dd876f640fd8080c0d80bf9c1d753b6ae9fc1d5040d28b71f52c/hbox-0.1.2.tar.gz
+[2024-05-02 07:39:18] INFO root fetch - processPackages [eidolon-ai-sdk]: executing diffoscope
+[2024-05-02 07:39:18] INFO root fetch - processPackages [eidolon-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_sdk-0.1.42.tar.gz tmp/eidolon_ai_sdk-0.1.43.tar.gz --markdown 20240502/e/eidolon-ai-sdk/0.1.42-0.1.43/README.md --exclude *.pyd
+[2024-05-02 07:39:18] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/1c/c8/12a0e1c4a630ab4efeb199f1ce51e015060bd1c2f78af9ae2e5cbfeea405/suql-1.1.7a0.tar.gz
+[2024-05-02 07:39:18] INFO root fetch - processPackages [hbox]: executing diffoscope
+[2024-05-02 07:39:18] INFO root fetch - processPackages [hbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbox-0.1.14.tar.gz tmp/hbox-0.1.2.tar.gz --markdown 20240502/h/hbox/0.1.14-0.1.2/README.md --exclude *.pyd
+[2024-05-02 07:39:18] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/6b/d2/872d4271026f02e164cdf6773633ee7c39723165f305fdf11e37a2224677/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl
+[2024-05-02 07:39:18] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/d1/1a/83fd0a2a85db4bcfae5c7da196564233f55a65456f7d620ff4d1899e8f0c/appsurifyci-0.1.9.tar.gz
+[2024-05-02 07:39:18] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Downloading https://files.pythonhosted.org/packages/f9/46/01f03598bf302f5e6faa906abf772582d6fcfb66609c83995ac64259bd11/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl
+[2024-05-02 07:39:18] INFO root fetch - processPackages [suql]: executing diffoscope
+[2024-05-02 07:39:18] INFO root fetch - processPackages [suql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suql-1.1.6.tar.gz tmp/suql-1.1.7a0.tar.gz --markdown 20240502/s/suql/1.1.6-1.1.7a0/README.md --exclude *.pyd
+[2024-05-02 07:39:18] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2024-05-02 07:39:18] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20240502/a/appsurifyci/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 07:39:18] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: executing diffoscope
+[2024-05-02 07:39:18] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl.zip tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl.zip --markdown 20240502/o/odoo14-addon-pms-l10n-es/14.0.2.6.8.dev8-14.0.2.6.8.dev9/README.md --exclude *.pyd
+[2024-05-02 07:39:18] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2024-05-02 07:39:18] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20240502/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/README.md --exclude *.pyd
+[2024-05-02 07:39:18] INFO root fetch - processPackages [eidolon_ai_client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.8.tar.gz]
+[2024-05-02 07:39:18] INFO root fetch - processPackages [eidolon_ai_client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.9.tar.gz]
+[2024-05-02 07:39:18] INFO root fetch - main [MainThread]: End processing [eidolon_ai_client]: success
+[2024-05-02 07:39:18] INFO root fetch - processPackages [spinach]: Remove: archive file [/home/abi/fetcher/tmp/spinach-0.0.8.tar.gz]
+[2024-05-02 07:39:18] INFO root fetch - processPackages [spinach]: Remove: archive file [/home/abi/fetcher/tmp/spinach-0.0.9.tar.gz]
+[2024-05-02 07:39:18] INFO root fetch - main [MainThread]: End processing [spinach]: success
+[2024-05-02 07:39:18] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.1.14.tar.gz]
+[2024-05-02 07:39:18] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.1.2.tar.gz]
+[2024-05-02 07:39:18] INFO root fetch - main [MainThread]: End processing [hbox]: success
+[2024-05-02 07:39:19] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.6.tar.gz]
+[2024-05-02 07:39:19] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.7a0.tar.gz]
+[2024-05-02 07:39:19] INFO root fetch - main [MainThread]: End processing [suql]: success
+[2024-05-02 07:39:19] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl.zip]
+[2024-05-02 07:39:19] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl.zip]
+[2024-05-02 07:39:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms-l10n-es]: success
+[2024-05-02 07:39:19] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.8.tar.gz]
+[2024-05-02 07:39:19] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.9.tar.gz]
+[2024-05-02 07:39:19] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2024-05-02 07:39:19] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.42.tar.gz]
+[2024-05-02 07:39:19] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.43.tar.gz]
+[2024-05-02 07:39:19] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
+[2024-05-02 07:39:19] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip]
+[2024-05-02 07:39:19] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
+[2024-05-02 07:39:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2024-05-02 07:39:19] INFO root fetch - main [MainThread]: Store serial: [23026723]
