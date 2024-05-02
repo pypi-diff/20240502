@@ -2543,3 +2543,18 @@
 [2024-05-02 02:35:30] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.1.tar.gz]
 [2024-05-02 02:35:30] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2024-05-02 02:35:30] INFO root fetch - main [MainThread]: Store serial: [23023958]
+[2024-05-02 02:37:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023958]
+[2024-05-02 02:37:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 02:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: musicnotes
+[2024-05-02 02:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openparse
+[2024-05-02 02:37:39] INFO root fetch - processPackages [openparse]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-02 02:37:39] WARNING root fetch - processPackages [musicnotes]: Skipping, unable to determine old version
+[2024-05-02 02:37:39] INFO root fetch - main [MainThread]: End processing [musicnotes] error
+[2024-05-02 02:37:39] INFO root fetch - processPackages [openparse]: Downloading https://files.pythonhosted.org/packages/b5/88/2a0ae1b1f2d5b1432f876261a1838c9f14fa61c6a48b60892dd5cc6a4365/openparse-0.5.5.tar.gz
+[2024-05-02 02:37:40] INFO root fetch - processPackages [openparse]: Downloading https://files.pythonhosted.org/packages/6c/4c/2275fd2d20f6f30bff5c34dc86393d4430ab5cdb7cd23d665aae9ada27e8/openparse-0.5.6.tar.gz
+[2024-05-02 02:37:40] INFO root fetch - processPackages [openparse]: executing diffoscope
+[2024-05-02 02:37:40] INFO root fetch - processPackages [openparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openparse-0.5.5.tar.gz tmp/openparse-0.5.6.tar.gz --markdown 20240502/o/openparse/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-02 02:37:41] INFO root fetch - processPackages [openparse]: Remove: archive file [/home/abi/fetcher/tmp/openparse-0.5.5.tar.gz]
+[2024-05-02 02:37:41] INFO root fetch - processPackages [openparse]: Remove: archive file [/home/abi/fetcher/tmp/openparse-0.5.6.tar.gz]
+[2024-05-02 02:37:41] INFO root fetch - main [MainThread]: End processing [openparse]: success
+[2024-05-02 02:37:41] INFO root fetch - main [MainThread]: Store serial: [23023967]
