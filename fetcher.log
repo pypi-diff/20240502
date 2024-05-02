@@ -6840,3 +6840,27 @@
 [2024-05-02 03:28:25] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.9.tar.gz]
 [2024-05-02 03:28:25] INFO root fetch - main [MainThread]: End processing [replit-river]: success
 [2024-05-02 03:28:25] INFO root fetch - main [MainThread]: Store serial: [23025232]
+[2024-05-02 03:30:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025232]
+[2024-05-02 03:30:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 03:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qai-storage
+[2024-05-02 03:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comfy-cli
+[2024-05-02 03:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cutseq
+[2024-05-02 03:30:33] INFO root fetch - processPackages [cutseq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 03:30:33] INFO root fetch - processPackages [comfy-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 03:30:33] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/95/33/6984c0732c17eb925be43f23c0c27167392d2900fcd21ebf93d9b68f6c2a/cutseq-0.0.8.tar.gz
+[2024-05-02 03:30:33] WARNING root fetch - processPackages [qai-storage]: Skipping, unable to determine old version
+[2024-05-02 03:30:33] INFO root fetch - main [MainThread]: End processing [qai-storage] error
+[2024-05-02 03:30:34] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/be/4d/ed5f7c3399cb056c16b657ae3d716971e1ca59dde362b950f13d4e85bbe2/comfy_cli-0.0.8.tar.gz
+[2024-05-02 03:30:34] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/e5/82/45b103e58b439dac0cf4c7f6ef6957633721ec0f4553abfabba5ed961a0f/cutseq-0.0.9.tar.gz
+[2024-05-02 03:30:34] INFO root fetch - processPackages [cutseq]: executing diffoscope
+[2024-05-02 03:30:34] INFO root fetch - processPackages [cutseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutseq-0.0.8.tar.gz tmp/cutseq-0.0.9.tar.gz --markdown 20240502/c/cutseq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 03:30:34] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/e0/64/bda74e2826240c0c779e679f675d7adb8fe53c0f89fac01c26065422006c/comfy_cli-0.0.9.tar.gz
+[2024-05-02 03:30:34] INFO root fetch - processPackages [comfy-cli]: executing diffoscope
+[2024-05-02 03:30:34] INFO root fetch - processPackages [comfy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfy_cli-0.0.8.tar.gz tmp/comfy_cli-0.0.9.tar.gz --markdown 20240502/c/comfy-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 03:30:34] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.8.tar.gz]
+[2024-05-02 03:30:34] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.9.tar.gz]
+[2024-05-02 03:30:34] INFO root fetch - main [MainThread]: End processing [cutseq]: success
+[2024-05-02 03:30:35] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.8.tar.gz]
+[2024-05-02 03:30:35] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.9.tar.gz]
+[2024-05-02 03:30:35] INFO root fetch - main [MainThread]: End processing [comfy-cli]: success
+[2024-05-02 03:30:35] INFO root fetch - main [MainThread]: Store serial: [23025296]
