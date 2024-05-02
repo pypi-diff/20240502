@@ -11392,3 +11392,33 @@
 [2024-05-02 09:13:08] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: Remove: archive file [/home/abi/fetcher/tmp/gcp-sphinx-docfx-yaml-3.2.0.tar.gz]
 [2024-05-02 09:13:08] INFO root fetch - main [MainThread]: End processing [gcp-sphinx-docfx-yaml]: success
 [2024-05-02 09:13:08] INFO root fetch - main [MainThread]: Store serial: [23027322]
+[2024-05-02 09:15:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027322]
+[2024-05-02 09:15:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 09:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eyes17
+[2024-05-02 09:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dektools
+[2024-05-02 09:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lsrestclient
+[2024-05-02 09:15:18] INFO root fetch - processPackages [eyes17]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 09:15:18] INFO root fetch - processPackages [dektools]: New version: [0.1.91] Old Version: [0.1.90]
+[2024-05-02 09:15:18] INFO root fetch - processPackages [lsrestclient]: New version: [1.7.0] Old Version: [1.5.2]
+[2024-05-02 09:15:18] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/93/49/976c2cc71d6a9161e1a05aa250a4ac4eac620ff0b59575caf2901486e564/dektools-0.1.90.tar.gz
+[2024-05-02 09:15:18] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/de/3d/3d6998b934f55a028e30c4f6e8a6ccb5bf1315d89bcd1b8caaf3d867e3c7/eyes17-1.0.8.tar.gz
+[2024-05-02 09:15:18] INFO root fetch - processPackages [lsrestclient]: Downloading https://files.pythonhosted.org/packages/85/18/3bf2d1ec26e72e810cfead0bedcdd6c5e37f6162c3b261ae41c76418d499/lsrestclient-1.5.2.tar.gz
+[2024-05-02 09:15:18] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/a7/04/b941d3b66214b6563165b1d4e6811d73f2e6390b88062b5a4f3dab90d129/dektools-0.1.91.tar.gz
+[2024-05-02 09:15:18] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/6b/c4/71e2c3544ce45f549a59c74ee3f327ede9a5b9168005bc0c577b9b309bc3/eyes17-1.0.9.tar.gz
+[2024-05-02 09:15:18] INFO root fetch - processPackages [dektools]: executing diffoscope
+[2024-05-02 09:15:18] INFO root fetch - processPackages [dektools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dektools-0.1.90.tar.gz tmp/dektools-0.1.91.tar.gz --markdown 20240502/d/dektools/0.1.90-0.1.91/README.md --exclude *.pyd
+[2024-05-02 09:15:18] INFO root fetch - processPackages [eyes17]: executing diffoscope
+[2024-05-02 09:15:18] INFO root fetch - processPackages [eyes17]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes17-1.0.8.tar.gz tmp/eyes17-1.0.9.tar.gz --markdown 20240502/e/eyes17/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 09:15:19] INFO root fetch - processPackages [lsrestclient]: Downloading https://files.pythonhosted.org/packages/57/8a/c802d7833006f3b8c70d169f7011a8ee32737f19333759e8d3e9b5c804dd/lsrestclient-1.7.0.tar.gz
+[2024-05-02 09:15:19] INFO root fetch - processPackages [lsrestclient]: executing diffoscope
+[2024-05-02 09:15:19] INFO root fetch - processPackages [lsrestclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsrestclient-1.5.2.tar.gz tmp/lsrestclient-1.7.0.tar.gz --markdown 20240502/l/lsrestclient/1.5.2-1.7.0/README.md --exclude *.pyd
+[2024-05-02 09:15:19] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.90.tar.gz]
+[2024-05-02 09:15:19] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.91.tar.gz]
+[2024-05-02 09:15:19] INFO root fetch - main [MainThread]: End processing [dektools]: success
+[2024-05-02 09:15:19] INFO root fetch - processPackages [lsrestclient]: Remove: archive file [/home/abi/fetcher/tmp/lsrestclient-1.5.2.tar.gz]
+[2024-05-02 09:15:19] INFO root fetch - processPackages [lsrestclient]: Remove: archive file [/home/abi/fetcher/tmp/lsrestclient-1.7.0.tar.gz]
+[2024-05-02 09:15:19] INFO root fetch - main [MainThread]: End processing [lsrestclient]: success
+[2024-05-02 09:15:19] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.8.tar.gz]
+[2024-05-02 09:15:19] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.9.tar.gz]
+[2024-05-02 09:15:19] INFO root fetch - main [MainThread]: End processing [eyes17]: success
+[2024-05-02 09:15:19] INFO root fetch - main [MainThread]: Store serial: [23027336]
