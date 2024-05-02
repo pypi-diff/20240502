@@ -9568,3 +9568,15 @@
 [2024-05-02 07:13:12] INFO root fetch - processPackages [graph-validation-tests]: Remove: archive file [/home/abi/fetcher/tmp/graph_validation_tests-0.0.9.tar.gz]
 [2024-05-02 07:13:12] INFO root fetch - main [MainThread]: End processing [graph-validation-tests]: success
 [2024-05-02 07:13:12] INFO root fetch - main [MainThread]: Store serial: [23026610]
+[2024-05-02 07:15:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026610]
+[2024-05-02 07:15:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 07:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: subsetsumdfs
+[2024-05-02 07:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sturgmap
+[2024-05-02 07:15:21] WARNING root fetch - processPackages [subsetsumdfs]: Skipping, unable to determine old version
+[2024-05-02 07:15:21] INFO root fetch - main [MainThread]: End processing [subsetsumdfs] error
+[2024-05-02 07:15:21] INFO root fetch - processPackages [sturgmap]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-02 07:15:22] INFO root fetch - processPackages [sturgmap]: Downloading https://files.pythonhosted.org/packages/72/71/9d8a221a35efd191040851be7a2fac6eeb16488b073cbd6e2c5ac7dfd9ef/sturgmap-0.0.4.tar.gz
+[2024-05-02 07:15:22] INFO root fetch - processPackages [sturgmap]: Downloading https://files.pythonhosted.org/packages/56/28/9f5e16d6bb694ae57ce56f338cd9fa1da4ad5ca441b2adda979b4597af6b/sturgmap-0.0.5.tar.gz
+[2024-05-02 07:15:22] WARNING root fetch - processPackages [sturgmap]: Skipping package: exceeds size limit 15922551>=10485760
+[2024-05-02 07:15:22] INFO root fetch - main [MainThread]: End processing [sturgmap] error
+[2024-05-02 07:15:22] INFO root fetch - main [MainThread]: Store serial: [23026616]
