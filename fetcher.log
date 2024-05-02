@@ -1913,3 +1913,60 @@
 [2024-05-02 02:02:37] INFO root fetch - processPackages [weba]: Remove: archive file [/home/abi/fetcher/tmp/weba-0.0.9.tar.gz]
 [2024-05-02 02:02:37] INFO root fetch - main [MainThread]: End processing [weba]: success
 [2024-05-02 02:02:37] INFO root fetch - main [MainThread]: Store serial: [23023675]
+[2024-05-02 02:04:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023675]
+[2024-05-02 02:04:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parcllabs
+[2024-05-02 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnxscript
+[2024-05-02 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pcleaner
+[2024-05-02 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-spykes
+[2024-05-02 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mct-nightly
+[2024-05-02 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: humanloop
+[2024-05-02 02:04:45] INFO root fetch - processPackages [parcllabs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 02:04:45] INFO root fetch - processPackages [humanloop]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-02 02:04:45] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240501] Old Version: [0.1.0.dev20240430]
+[2024-05-02 02:04:45] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240501.441] Old Version: [2.0.0.20240430.357]
+[2024-05-02 02:04:45] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/4b/a7/9060c070fcbeed0ac71fb0b49e67b6162c4027ec3296ac7d9595c1654294/parcllabs-0.1.8.tar.gz
+[2024-05-02 02:04:45] INFO root fetch - processPackages [simple-spykes]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-02 02:04:46] INFO root fetch - processPackages [pcleaner]: New version: [2.6.2] Old Version: [2.6.1]
+[2024-05-02 02:04:46] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/a9/3e/009720c0b9e003162078c8c95a11300ebe059ecd686da246464ffea41ca2/onnxscript-0.1.0.dev20240430.tar.gz
+[2024-05-02 02:04:46] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/f3/0f/6563d7ec6757564521491230927d66f8f32f7eede6f247c15caa702aeddd/humanloop-0.7.8.tar.gz
+[2024-05-02 02:04:46] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/b1/04/b8a1ece4ea66ac5e24c3fcff3315c3c1aefe992e01b4d256a75aa5178b93/mct-nightly-2.0.0.20240430.357.tar.gz
+[2024-05-02 02:04:46] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/54/76/252d5d459b8fefcdb4cd8ba9124168cc37b81f5740ca09ff3e754621335b/parcllabs-0.1.9.tar.gz
+[2024-05-02 02:04:46] INFO root fetch - processPackages [simple-spykes]: Downloading https://files.pythonhosted.org/packages/f0/8c/45c24f9f3de8423cfe0bfe31219be59ed5d0cb4694b575698922c911b234/simple_spykes-0.0.3.tar.gz
+[2024-05-02 02:04:46] INFO root fetch - processPackages [pcleaner]: Downloading https://files.pythonhosted.org/packages/ca/b8/f7037ca67da481fa39142ae3411dea6e20711205d3cc46fc9a922ae7f969/pcleaner-2.6.1.tar.gz
+[2024-05-02 02:04:46] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/42/49/2e50db62f54004990b08a1ec75901635bb6ce90d3f84155b1af3de5c750f/humanloop-0.7.9.tar.gz
+[2024-05-02 02:04:46] INFO root fetch - processPackages [parcllabs]: executing diffoscope
+[2024-05-02 02:04:46] INFO root fetch - processPackages [parcllabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parcllabs-0.1.8.tar.gz tmp/parcllabs-0.1.9.tar.gz --markdown 20240502/p/parcllabs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 02:04:46] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/f3/47/f32c99a5663dd3a09915790a919f42ac13332ab4ea911b7e8a473832381b/onnxscript-0.1.0.dev20240501.tar.gz
+[2024-05-02 02:04:46] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/15/7f/36ee98da06b7673e4c4eb7310447497e61bbca3af54b74d058cdb890287c/mct-nightly-2.0.0.20240501.441.tar.gz
+[2024-05-02 02:04:46] INFO root fetch - processPackages [simple-spykes]: Downloading https://files.pythonhosted.org/packages/ba/d8/edc69f928087e5c972b94c4950ffa22281255bea57c3ddc62b1c99f9299d/simple_spykes-0.1.0.tar.gz
+[2024-05-02 02:04:46] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2024-05-02 02:04:46] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.7.8.tar.gz tmp/humanloop-0.7.9.tar.gz --markdown 20240502/h/humanloop/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-02 02:04:46] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-02 02:04:46] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240430.tar.gz tmp/onnxscript-0.1.0.dev20240501.tar.gz --markdown 20240502/o/onnxscript/0.1.0.dev20240430-0.1.0.dev20240501/README.md --exclude *.pyd
+[2024-05-02 02:04:46] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-02 02:04:46] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240430.357.tar.gz tmp/mct-nightly-2.0.0.20240501.441.tar.gz --markdown 20240502/m/mct-nightly/2.0.0.20240430.357-2.0.0.20240501.441/README.md --exclude *.pyd
+[2024-05-02 02:04:46] INFO root fetch - processPackages [pcleaner]: Downloading https://files.pythonhosted.org/packages/68/78/6de608b3b042645c5e762800fe793d75a6ade06cc52a458f25da779519b0/pcleaner-2.6.2.tar.gz
+[2024-05-02 02:04:46] INFO root fetch - processPackages [simple-spykes]: executing diffoscope
+[2024-05-02 02:04:46] INFO root fetch - processPackages [simple-spykes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_spykes-0.0.3.tar.gz tmp/simple_spykes-0.1.0.tar.gz --markdown 20240502/s/simple-spykes/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-02 02:04:47] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.8.tar.gz]
+[2024-05-02 02:04:47] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.9.tar.gz]
+[2024-05-02 02:04:47] INFO root fetch - main [MainThread]: End processing [parcllabs]: success
+[2024-05-02 02:04:47] INFO root fetch - processPackages [pcleaner]: executing diffoscope
+[2024-05-02 02:04:47] INFO root fetch - processPackages [pcleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcleaner-2.6.1.tar.gz tmp/pcleaner-2.6.2.tar.gz --markdown 20240502/p/pcleaner/2.6.1-2.6.2/README.md --exclude *.pyd
+[2024-05-02 02:04:47] INFO root fetch - processPackages [simple-spykes]: Remove: archive file [/home/abi/fetcher/tmp/simple_spykes-0.0.3.tar.gz]
+[2024-05-02 02:04:47] INFO root fetch - processPackages [simple-spykes]: Remove: archive file [/home/abi/fetcher/tmp/simple_spykes-0.1.0.tar.gz]
+[2024-05-02 02:04:47] INFO root fetch - main [MainThread]: End processing [simple-spykes]: success
+[2024-05-02 02:04:47] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240430.tar.gz]
+[2024-05-02 02:04:47] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240501.tar.gz]
+[2024-05-02 02:04:47] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-02 02:04:48] INFO root fetch - processPackages [pcleaner]: Remove: archive file [/home/abi/fetcher/tmp/pcleaner-2.6.1.tar.gz]
+[2024-05-02 02:04:48] INFO root fetch - processPackages [pcleaner]: Remove: archive file [/home/abi/fetcher/tmp/pcleaner-2.6.2.tar.gz]
+[2024-05-02 02:04:48] INFO root fetch - main [MainThread]: End processing [pcleaner]: success
+[2024-05-02 02:04:48] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240430.357.tar.gz]
+[2024-05-02 02:04:48] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240501.441.tar.gz]
+[2024-05-02 02:04:48] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-02 02:04:51] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.8.tar.gz]
+[2024-05-02 02:04:51] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
+[2024-05-02 02:04:51] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2024-05-02 02:04:51] INFO root fetch - main [MainThread]: Store serial: [23023693]
