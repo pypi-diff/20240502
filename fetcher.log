@@ -19581,3 +19581,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 14:37:01] INFO root fetch - processPackages [hume]: Remove: archive file [/home/abi/fetcher/tmp/hume-0.5.1rc1.tar.gz]
 [2024-05-02 14:37:01] INFO root fetch - main [MainThread]: End processing [hume]: success
 [2024-05-02 14:37:01] INFO root fetch - main [MainThread]: Store serial: [23030795]
+[2024-05-02 14:39:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030795]
+[2024-05-02 14:39:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 14:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cylc-rose
+[2024-05-02 14:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multimodelclassify
+[2024-05-02 14:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ni-python-styleguide
+[2024-05-02 14:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2024-05-02 14:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-admin-assets
+[2024-05-02 14:39:10] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1523] Old Version: [1.0.0.post1521]
+[2024-05-02 14:39:10] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240502085340] Old Version: [3.4.1.dev20240501070922]
+[2024-05-02 14:39:10] INFO root fetch - processPackages [cylc-rose]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-02 14:39:10] WARNING root fetch - processPackages [multimodelclassify]: Skipping, unable to determine old version
+[2024-05-02 14:39:10] INFO root fetch - main [MainThread]: End processing [multimodelclassify] error
+[2024-05-02 14:39:10] INFO root fetch - processPackages [ni-python-styleguide]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-02 14:39:10] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a4/1d/95facc55dd0adae27c585ca01dee14a04a13f51fc366d6aaaa7751ec1a45/localstack_core-3.4.1.dev20240501070922.tar.gz
+[2024-05-02 14:39:10] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/b2/df/e38da4595c77dd14ba9e684b9840f3e697661165b69b4b60df693bc79070/nucliadb_admin_assets-1.0.0.post1521-py3-none-any.whl
+[2024-05-02 14:39:10] INFO root fetch - processPackages [cylc-rose]: Downloading https://files.pythonhosted.org/packages/49/6d/a7859234571f0c77fc6465f6ff6381384f553aad63c4eb6d9220a66baf2f/cylc-rose-1.3.3.tar.gz
+[2024-05-02 14:39:10] INFO root fetch - processPackages [ni-python-styleguide]: Downloading https://files.pythonhosted.org/packages/20/07/6c267a30ec62f2938df4c3df7b4658d3d67190f2eaffb177be0ecfdceeb2/ni_python_styleguide-0.4.4.tar.gz
+[2024-05-02 14:39:10] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/bc/cf/59dfeb3621350ad4c217d8368efad3dd5a36f3418287bad2a26164af228d/nucliadb_admin_assets-1.0.0.post1523-py3-none-any.whl
+[2024-05-02 14:39:10] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ce/1b/a062111d622a0116d34180a1fa7c9e540263b45b27ffdc4ea635079ca27d/localstack_core-3.4.1.dev20240502085340.tar.gz
+[2024-05-02 14:39:10] INFO root fetch - processPackages [ni-python-styleguide]: Downloading https://files.pythonhosted.org/packages/67/b3/d44ae72c8d51c84aa7475068cbc1bef7044744bc6f479aef45a8ed6b499b/ni_python_styleguide-0.4.5.tar.gz
+[2024-05-02 14:39:10] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-02 14:39:10] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1521-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1523-py3-none-any.whl.zip --markdown 20240502/n/nucliadb-admin-assets/1.0.0.post1521-1.0.0.post1523/README.md --exclude *.pyd
+[2024-05-02 14:39:10] INFO root fetch - processPackages [cylc-rose]: Downloading https://files.pythonhosted.org/packages/77/08/b581ecbbd521d6b44177214998bdb3f4fee659b50a7538f2eb231394bb3f/cylc-rose-1.3.4.tar.gz
+[2024-05-02 14:39:10] INFO root fetch - processPackages [ni-python-styleguide]: executing diffoscope
+[2024-05-02 14:39:10] INFO root fetch - processPackages [ni-python-styleguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ni_python_styleguide-0.4.4.tar.gz tmp/ni_python_styleguide-0.4.5.tar.gz --markdown 20240502/n/ni-python-styleguide/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-02 14:39:10] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-02 14:39:10] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240501070922.tar.gz tmp/localstack_core-3.4.1.dev20240502085340.tar.gz --markdown 20240502/l/localstack-core/3.4.1.dev20240501070922-3.4.1.dev20240502085340/README.md --exclude *.pyd
+[2024-05-02 14:39:10] INFO root fetch - processPackages [cylc-rose]: executing diffoscope
+[2024-05-02 14:39:10] INFO root fetch - processPackages [cylc-rose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cylc-rose-1.3.3.tar.gz tmp/cylc-rose-1.3.4.tar.gz --markdown 20240502/c/cylc-rose/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-02 14:39:11] INFO root fetch - processPackages [ni-python-styleguide]: Remove: archive file [/home/abi/fetcher/tmp/ni_python_styleguide-0.4.4.tar.gz]
+[2024-05-02 14:39:11] INFO root fetch - processPackages [ni-python-styleguide]: Remove: archive file [/home/abi/fetcher/tmp/ni_python_styleguide-0.4.5.tar.gz]
+[2024-05-02 14:39:11] INFO root fetch - main [MainThread]: End processing [ni-python-styleguide]: success
+[2024-05-02 14:39:11] INFO root fetch - processPackages [cylc-rose]: Remove: archive file [/home/abi/fetcher/tmp/cylc-rose-1.3.3.tar.gz]
+[2024-05-02 14:39:11] INFO root fetch - processPackages [cylc-rose]: Remove: archive file [/home/abi/fetcher/tmp/cylc-rose-1.3.4.tar.gz]
+[2024-05-02 14:39:11] INFO root fetch - main [MainThread]: End processing [cylc-rose]: success
+[2024-05-02 14:39:14] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240501070922.tar.gz]
+[2024-05-02 14:39:14] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240502085340.tar.gz]
+[2024-05-02 14:39:14] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-02 14:39:26] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1521-py3-none-any.whl.zip]
+[2024-05-02 14:39:26] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1523-py3-none-any.whl.zip]
+[2024-05-02 14:39:26] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-02 14:39:26] INFO root fetch - main [MainThread]: Store serial: [23030810]
