@@ -13933,3 +13933,56 @@
 [2024-05-02 10:48:04] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-02 10:48:04] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-02 10:48:04] INFO root fetch - main [MainThread]: Store serial: [23028347]
+[2024-05-02 10:50:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028347]
+[2024-05-02 10:50:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kv-api
+[2024-05-02 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: statsplotly
+[2024-05-02 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: few-shot-priming
+[2024-05-02 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kayalab
+[2024-05-02 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codex-of-the-damned
+[2024-05-02 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peerannot
+[2024-05-02 10:50:13] INFO root fetch - processPackages [kv-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 10:50:13] INFO root fetch - processPackages [kv-api]: Downloading https://files.pythonhosted.org/packages/61/c2/0cd9dfb6d55d90176e03da250e9cd3d7895a17404d1e263d27df26867816/kv_api-0.1.8.tar.gz
+[2024-05-02 10:50:13] INFO root fetch - processPackages [peerannot]: New version: [0.0.1.post9] Old Version: [0.0.1.post8]
+[2024-05-02 10:50:13] INFO root fetch - processPackages [statsplotly]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-02 10:50:13] INFO root fetch - processPackages [codex-of-the-damned]: New version: [1.9] Old Version: [1.8]
+[2024-05-02 10:50:13] INFO root fetch - processPackages [kayalab]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-05-02 10:50:14] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-02 10:50:14] INFO root fetch - processPackages [kv-api]: Downloading https://files.pythonhosted.org/packages/1e/b2/f25171e71a6d535fa7b27e3336d68243c754ab5b6beccbda42bd247b98e3/kv_api-0.1.9.tar.gz
+[2024-05-02 10:50:14] INFO root fetch - processPackages [statsplotly]: Downloading https://files.pythonhosted.org/packages/79/2f/762d80f65c49d57ab4078ff270142f21d34a54b26aaa4f18341645c50fd0/statsplotly-0.1.5.tar.gz
+[2024-05-02 10:50:14] INFO root fetch - processPackages [peerannot]: Downloading https://files.pythonhosted.org/packages/73/86/34c307db917133362d159bdc731afb8d3cff8bce48175cbc97bd27c6b323/PeerAnnot-0.0.1.post8.tar.gz
+[2024-05-02 10:50:14] INFO root fetch - processPackages [codex-of-the-damned]: Downloading https://files.pythonhosted.org/packages/c2/11/df884619fc13a601b050cb3e01ceb86181c35a4ee94f824c8544d07562f3/codex-of-the-damned-1.8.tar.gz
+[2024-05-02 10:50:14] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-02 10:50:14] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/68/63/0a29e7525b1f3462acb2531260d984867651bdccb876b75329d58bfa520d/kayalab-0.7.7.tar.gz
+[2024-05-02 10:50:14] INFO root fetch - processPackages [kv-api]: executing diffoscope
+[2024-05-02 10:50:14] INFO root fetch - processPackages [kv-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_api-0.1.8.tar.gz tmp/kv_api-0.1.9.tar.gz --markdown 20240502/k/kv-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 10:50:14] INFO root fetch - processPackages [statsplotly]: Downloading https://files.pythonhosted.org/packages/7d/6e/19eb6d01be8ab8c8f9cec889ba602ba4dbc0944ef88c621f7debe153aad6/statsplotly-0.2.0.tar.gz
+[2024-05-02 10:50:14] INFO root fetch - processPackages [peerannot]: Downloading https://files.pythonhosted.org/packages/dd/71/b94ad97cab8d83bde8d05acb23bf3af002e83ae39a4411d7d76fddb19db6/PeerAnnot-0.0.1.post9.tar.gz
+[2024-05-02 10:50:14] INFO root fetch - processPackages [statsplotly]: executing diffoscope
+[2024-05-02 10:50:14] INFO root fetch - processPackages [statsplotly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statsplotly-0.1.5.tar.gz tmp/statsplotly-0.2.0.tar.gz --markdown 20240502/s/statsplotly/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-02 10:50:14] WARNING root fetch - processPackages [codex-of-the-damned]: Skipping package: exceeds size limit 17715792>=10485760
+[2024-05-02 10:50:14] INFO root fetch - main [MainThread]: End processing [codex-of-the-damned] error
+[2024-05-02 10:50:14] INFO root fetch - processPackages [peerannot]: executing diffoscope
+[2024-05-02 10:50:14] INFO root fetch - processPackages [peerannot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PeerAnnot-0.0.1.post8.tar.gz tmp/PeerAnnot-0.0.1.post9.tar.gz --markdown 20240502/p/peerannot/0.0.1.post8-0.0.1.post9/README.md --exclude *.pyd
+[2024-05-02 10:50:14] INFO root fetch - processPackages [kv-api]: Remove: archive file [/home/abi/fetcher/tmp/kv_api-0.1.8.tar.gz]
+[2024-05-02 10:50:14] INFO root fetch - processPackages [kv-api]: Remove: archive file [/home/abi/fetcher/tmp/kv_api-0.1.9.tar.gz]
+[2024-05-02 10:50:14] INFO root fetch - main [MainThread]: End processing [kv-api]: success
+[2024-05-02 10:50:15] INFO root fetch - processPackages [statsplotly]: Remove: archive file [/home/abi/fetcher/tmp/statsplotly-0.1.5.tar.gz]
+[2024-05-02 10:50:15] INFO root fetch - processPackages [statsplotly]: Remove: archive file [/home/abi/fetcher/tmp/statsplotly-0.2.0.tar.gz]
+[2024-05-02 10:50:15] INFO root fetch - main [MainThread]: End processing [statsplotly]: success
+[2024-05-02 10:50:15] INFO root fetch - processPackages [peerannot]: Remove: archive file [/home/abi/fetcher/tmp/PeerAnnot-0.0.1.post8.tar.gz]
+[2024-05-02 10:50:15] INFO root fetch - processPackages [peerannot]: Remove: archive file [/home/abi/fetcher/tmp/PeerAnnot-0.0.1.post9.tar.gz]
+[2024-05-02 10:50:15] INFO root fetch - main [MainThread]: End processing [peerannot]: success
+[2024-05-02 10:50:16] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-02 10:50:17] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-02 10:50:17] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240502/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-02 10:50:18] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-02 10:50:18] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-02 10:50:18] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-02 10:50:21] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/48/39/39e758163c554700194cf72c42f0290287f1336d791be5766d519f7b266c/kayalab-0.7.9.tar.gz
+[2024-05-02 10:50:22] INFO root fetch - processPackages [kayalab]: executing diffoscope
+[2024-05-02 10:50:22] INFO root fetch - processPackages [kayalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayalab-0.7.7.tar.gz tmp/kayalab-0.7.9.tar.gz --markdown 20240502/k/kayalab/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-05-02 10:50:25] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.7.tar.gz]
+[2024-05-02 10:50:25] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
+[2024-05-02 10:50:25] INFO root fetch - main [MainThread]: End processing [kayalab]: success
+[2024-05-02 10:50:25] INFO root fetch - main [MainThread]: Store serial: [23028365]
