@@ -13882,3 +13882,54 @@
 [2024-05-02 10:45:51] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-02 10:45:51] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-02 10:45:51] INFO root fetch - main [MainThread]: Store serial: [23028328]
+[2024-05-02 10:47:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028328]
+[2024-05-02 10:48:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 10:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-05-02 10:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maildropy
+[2024-05-02 10:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-messages-token-helper
+[2024-05-02 10:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enigmapython
+[2024-05-02 10:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelon-impact-client
+[2024-05-02 10:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kv-sqlite-sync
+[2024-05-02 10:48:02] INFO root fetch - processPackages [enigmapython]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-02 10:48:02] INFO root fetch - processPackages [kv-sqlite-sync]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 10:48:02] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-02 10:48:02] INFO root fetch - processPackages [openai-messages-token-helper]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-05-02 10:48:02] WARNING root fetch - processPackages [maildropy]: Skipping, unable to determine old version
+[2024-05-02 10:48:02] INFO root fetch - main [MainThread]: End processing [maildropy] error
+[2024-05-02 10:48:02] INFO root fetch - processPackages [kv-sqlite-sync]: Downloading https://files.pythonhosted.org/packages/35/dc/71d9618738e2f04df81fab68dc4c94206f00db110fc449ba2fff07b0ebf9/kv_sqlite_sync-0.1.8.tar.gz
+[2024-05-02 10:48:02] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-05-02 10:48:02] INFO root fetch - processPackages [enigmapython]: Downloading https://files.pythonhosted.org/packages/04/49/3935bbb6518b8e6a79e2f182e01905387e26a806638447f5908877de51d2/enigmapython-0.1.4.tar.gz
+[2024-05-02 10:48:02] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-02 10:48:02] INFO root fetch - processPackages [openai-messages-token-helper]: Downloading https://files.pythonhosted.org/packages/6b/7f/e0a64490eb8aa720640408503827e50f9211a0f028ef742fbc1b08d8e2d8/openai_messages_token_helper-0.0.6.tar.gz
+[2024-05-02 10:48:02] INFO root fetch - processPackages [kv-sqlite-sync]: Downloading https://files.pythonhosted.org/packages/f2/b3/62cc7dc93e4f4e0659962d40a617454c3d9749cdb31b2018346d8fbd1d11/kv_sqlite_sync-0.1.9.tar.gz
+[2024-05-02 10:48:02] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/e6/38/1b8d34bf587fde7a79d9b937f1fe576d628ffdf0d9ca864081f0f93f7c25/modelon_impact_client-3.8.1.tar.gz
+[2024-05-02 10:48:02] INFO root fetch - processPackages [enigmapython]: Downloading https://files.pythonhosted.org/packages/09/66/70bdd179cf05edf2ff849804ac2108ad31964d148e9dbef29a858575aef9/enigmapython-0.1.5.tar.gz
+[2024-05-02 10:48:02] INFO root fetch - processPackages [kv-sqlite-sync]: executing diffoscope
+[2024-05-02 10:48:02] INFO root fetch - processPackages [kv-sqlite-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_sqlite_sync-0.1.8.tar.gz tmp/kv_sqlite_sync-0.1.9.tar.gz --markdown 20240502/k/kv-sqlite-sync/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 10:48:02] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-02 10:48:02] INFO root fetch - processPackages [enigmapython]: executing diffoscope
+[2024-05-02 10:48:02] INFO root fetch - processPackages [enigmapython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enigmapython-0.1.4.tar.gz tmp/enigmapython-0.1.5.tar.gz --markdown 20240502/e/enigmapython/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-02 10:48:03] INFO root fetch - processPackages [openai-messages-token-helper]: Downloading https://files.pythonhosted.org/packages/5f/7e/e5d4768e696f4cbad7168d2eb6c64bf3552a3b13bc5390e1c3fbb9092287/openai_messages_token_helper-0.1.0.tar.gz
+[2024-05-02 10:48:03] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-02 10:48:03] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240502/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-02 10:48:03] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/60/b8/7c2424190ed68b6558d409ff3ae458f12114b0e2ff5e4df7d07cc9344fd9/modelon_impact_client-3.9.0.tar.gz
+[2024-05-02 10:48:03] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2024-05-02 10:48:03] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.8.1.tar.gz tmp/modelon_impact_client-3.9.0.tar.gz --markdown 20240502/m/modelon-impact-client/3.8.1-3.9.0/README.md --exclude *.pyd
+[2024-05-02 10:48:03] INFO root fetch - processPackages [openai-messages-token-helper]: executing diffoscope
+[2024-05-02 10:48:03] INFO root fetch - processPackages [openai-messages-token-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_messages_token_helper-0.0.6.tar.gz tmp/openai_messages_token_helper-0.1.0.tar.gz --markdown 20240502/o/openai-messages-token-helper/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-05-02 10:48:03] INFO root fetch - processPackages [kv-sqlite-sync]: Remove: archive file [/home/abi/fetcher/tmp/kv_sqlite_sync-0.1.8.tar.gz]
+[2024-05-02 10:48:03] INFO root fetch - processPackages [kv-sqlite-sync]: Remove: archive file [/home/abi/fetcher/tmp/kv_sqlite_sync-0.1.9.tar.gz]
+[2024-05-02 10:48:03] INFO root fetch - main [MainThread]: End processing [kv-sqlite-sync]: success
+[2024-05-02 10:48:03] INFO root fetch - processPackages [enigmapython]: Remove: archive file [/home/abi/fetcher/tmp/enigmapython-0.1.4.tar.gz]
+[2024-05-02 10:48:03] INFO root fetch - processPackages [enigmapython]: Remove: archive file [/home/abi/fetcher/tmp/enigmapython-0.1.5.tar.gz]
+[2024-05-02 10:48:03] INFO root fetch - main [MainThread]: End processing [enigmapython]: success
+[2024-05-02 10:48:03] INFO root fetch - processPackages [openai-messages-token-helper]: Remove: archive file [/home/abi/fetcher/tmp/openai_messages_token_helper-0.0.6.tar.gz]
+[2024-05-02 10:48:03] INFO root fetch - processPackages [openai-messages-token-helper]: Remove: archive file [/home/abi/fetcher/tmp/openai_messages_token_helper-0.1.0.tar.gz]
+[2024-05-02 10:48:03] INFO root fetch - main [MainThread]: End processing [openai-messages-token-helper]: success
+[2024-05-02 10:48:03] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.8.1.tar.gz]
+[2024-05-02 10:48:03] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.9.0.tar.gz]
+[2024-05-02 10:48:03] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2024-05-02 10:48:04] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-02 10:48:04] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-02 10:48:04] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-02 10:48:04] INFO root fetch - main [MainThread]: Store serial: [23028347]
