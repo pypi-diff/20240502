@@ -10135,3 +10135,24 @@
 [2024-05-02 07:59:14] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-02 07:59:14] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2024-05-02 07:59:14] INFO root fetch - main [MainThread]: Store serial: [23026804]
+[2024-05-02 08:01:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026804]
+[2024-05-02 08:01:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 08:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hbox
+[2024-05-02 08:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-export-async
+[2024-05-02 08:01:23] INFO root fetch - processPackages [hbox]: New version: [0.1.2] Old Version: [0.1.18]
+[2024-05-02 08:01:24] INFO root fetch - processPackages [odoo-addon-base-export-async]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-02 08:01:24] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/5c/34/f76071c9eb82b88619210eb1d4767392c9dd816eff54f4a0ff8f157b95f2/hbox-0.1.18.tar.gz
+[2024-05-02 08:01:24] INFO root fetch - processPackages [odoo-addon-base-export-async]: Downloading https://files.pythonhosted.org/packages/fa/64/0ba11c2cd4acec79c8f3a705f938efba6e179fd5f4e4ea1817b360592f42/odoo_addon_base_export_async-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-02 08:01:24] INFO root fetch - processPackages [hbox]: Downloading https://files.pythonhosted.org/packages/d9/1e/d6c044d1dd876f640fd8080c0d80bf9c1d753b6ae9fc1d5040d28b71f52c/hbox-0.1.2.tar.gz
+[2024-05-02 08:01:24] INFO root fetch - processPackages [hbox]: executing diffoscope
+[2024-05-02 08:01:24] INFO root fetch - processPackages [hbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbox-0.1.18.tar.gz tmp/hbox-0.1.2.tar.gz --markdown 20240502/h/hbox/0.1.18-0.1.2/README.md --exclude *.pyd
+[2024-05-02 08:01:24] INFO root fetch - processPackages [odoo-addon-base-export-async]: Downloading https://files.pythonhosted.org/packages/c1/7e/2aa14bcacf3f317d76995bb889c1b479e52c538dddc543c4efa82808ed45/odoo_addon_base_export_async-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-02 08:01:24] INFO root fetch - processPackages [odoo-addon-base-export-async]: executing diffoscope
+[2024-05-02 08:01:24] INFO root fetch - processPackages [odoo-addon-base-export-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_export_async-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_base_export_async-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-base-export-async/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-02 08:01:24] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.1.18.tar.gz]
+[2024-05-02 08:01:24] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.1.2.tar.gz]
+[2024-05-02 08:01:25] INFO root fetch - main [MainThread]: End processing [hbox]: success
+[2024-05-02 08:01:25] INFO root fetch - processPackages [odoo-addon-base-export-async]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_export_async-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-02 08:01:25] INFO root fetch - processPackages [odoo-addon-base-export-async]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_export_async-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-02 08:01:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-export-async]: success
+[2024-05-02 08:01:25] INFO root fetch - main [MainThread]: Store serial: [23026810]
