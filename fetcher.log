@@ -16079,3 +16079,39 @@
 [2024-05-02 12:11:18] INFO root fetch - processPackages [sqlpile]: Remove: archive file [/home/abi/fetcher/tmp/sqlpile-0.1.2-py3-none-any.whl.zip]
 [2024-05-02 12:11:18] INFO root fetch - main [MainThread]: End processing [sqlpile]: success
 [2024-05-02 12:11:18] INFO root fetch - main [MainThread]: Store serial: [23029271]
+[2024-05-02 12:13:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029271]
+[2024-05-02 12:13:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 12:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: changedetection.io
+[2024-05-02 12:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crocodeel
+[2024-05-02 12:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cads-api-client
+[2024-05-02 12:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: satsure-core
+[2024-05-02 12:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acmecse-test
+[2024-05-02 12:13:27] WARNING root fetch - processPackages [satsure-core]: Skipping, unable to determine old version
+[2024-05-02 12:13:27] INFO root fetch - main [MainThread]: End processing [satsure-core] error
+[2024-05-02 12:13:27] INFO root fetch - processPackages [changedetection.io]: New version: [0.45.9] Old Version: [0.45.8.1]
+[2024-05-02 12:13:27] INFO root fetch - processPackages [acmecse-test]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-05-02 12:13:27] INFO root fetch - processPackages [cads-api-client]: New version: [1.0.0] Old Version: [0.9.2]
+[2024-05-02 12:13:27] WARNING root fetch - processPackages [crocodeel]: Skipping, unable to determine old version
+[2024-05-02 12:13:27] INFO root fetch - main [MainThread]: End processing [crocodeel] error
+[2024-05-02 12:13:27] INFO root fetch - processPackages [acmecse-test]: Downloading https://files.pythonhosted.org/packages/8b/e7/b98e1d300d472dc75202334e3b69e1312ab49828ecd4920d85617d3f2652/acmecse_test-2024.4.7-py3-none-any.whl
+[2024-05-02 12:13:27] INFO root fetch - processPackages [changedetection.io]: Downloading https://files.pythonhosted.org/packages/8d/b5/2e48942a3cd1710a18ac803faddf793104a103662fb464b300ef73c25af3/changedetection.io-0.45.8.1-py3-none-any.whl
+[2024-05-02 12:13:27] INFO root fetch - processPackages [cads-api-client]: Downloading https://files.pythonhosted.org/packages/7c/d7/9433522d16e35d2fea04c804ea2861cf2146327e9ed2fb898c852cb17adc/cads-api-client-0.9.2.tar.gz
+[2024-05-02 12:13:28] INFO root fetch - processPackages [cads-api-client]: Downloading https://files.pythonhosted.org/packages/ba/d5/a5157503a7af75b146d893cddb5f28599350d28ce8b00b358d129477540d/cads_api_client-1.0.0.tar.gz
+[2024-05-02 12:13:28] INFO root fetch - processPackages [acmecse-test]: Downloading https://files.pythonhosted.org/packages/83/c7/8079f1a0ff34e30ee02bc2b22b749824103789dd73e1354f4f728e7f6686/acmecse_test-2024.4.8-py3-none-any.whl
+[2024-05-02 12:13:28] INFO root fetch - processPackages [changedetection.io]: Downloading https://files.pythonhosted.org/packages/1c/ce/8c2a4cabb98fabeb569b4704217bbbd13cb61a6b68c9d307073b0bc33c5e/changedetection.io-0.45.9-py3-none-any.whl
+[2024-05-02 12:13:28] INFO root fetch - processPackages [cads-api-client]: executing diffoscope
+[2024-05-02 12:13:28] INFO root fetch - processPackages [cads-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cads-api-client-0.9.2.tar.gz tmp/cads_api_client-1.0.0.tar.gz --markdown 20240502/c/cads-api-client/0.9.2-1.0.0/README.md --exclude *.pyd
+[2024-05-02 12:13:28] INFO root fetch - processPackages [changedetection.io]: executing diffoscope
+[2024-05-02 12:13:28] INFO root fetch - processPackages [changedetection.io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changedetection.io-0.45.8.1-py3-none-any.whl.zip tmp/changedetection.io-0.45.9-py3-none-any.whl.zip --markdown 20240502/c/changedetection.io/0.45.8.1-0.45.9/README.md --exclude *.pyd
+[2024-05-02 12:13:28] INFO root fetch - processPackages [acmecse-test]: executing diffoscope
+[2024-05-02 12:13:28] INFO root fetch - processPackages [acmecse-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acmecse_test-2024.4.7-py3-none-any.whl.zip tmp/acmecse_test-2024.4.8-py3-none-any.whl.zip --markdown 20240502/a/acmecse-test/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-05-02 12:13:29] INFO root fetch - processPackages [cads-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cads-api-client-0.9.2.tar.gz]
+[2024-05-02 12:13:29] INFO root fetch - processPackages [cads-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cads_api_client-1.0.0.tar.gz]
+[2024-05-02 12:13:29] INFO root fetch - main [MainThread]: End processing [cads-api-client]: success
+[2024-05-02 12:13:30] INFO root fetch - processPackages [changedetection.io]: Remove: archive file [/home/abi/fetcher/tmp/changedetection.io-0.45.8.1-py3-none-any.whl.zip]
+[2024-05-02 12:13:30] INFO root fetch - processPackages [changedetection.io]: Remove: archive file [/home/abi/fetcher/tmp/changedetection.io-0.45.9-py3-none-any.whl.zip]
+[2024-05-02 12:13:30] INFO root fetch - main [MainThread]: End processing [changedetection.io]: success
+[2024-05-02 12:13:30] INFO root fetch - processPackages [acmecse-test]: Remove: archive file [/home/abi/fetcher/tmp/acmecse_test-2024.4.7-py3-none-any.whl.zip]
+[2024-05-02 12:13:30] INFO root fetch - processPackages [acmecse-test]: Remove: archive file [/home/abi/fetcher/tmp/acmecse_test-2024.4.8-py3-none-any.whl.zip]
+[2024-05-02 12:13:30] INFO root fetch - main [MainThread]: End processing [acmecse-test]: success
+[2024-05-02 12:13:30] INFO root fetch - main [MainThread]: Store serial: [23029289]
