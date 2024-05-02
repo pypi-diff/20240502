@@ -9958,3 +9958,15 @@
 [2024-05-02 07:43:41] INFO root fetch - processPackages [ts3l]: Remove: archive file [/home/abi/fetcher/tmp/ts3l-0.40.tar.gz]
 [2024-05-02 07:43:41] INFO root fetch - main [MainThread]: End processing [ts3l]: success
 [2024-05-02 07:43:41] INFO root fetch - main [MainThread]: Store serial: [23026748]
+[2024-05-02 07:45:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026748]
+[2024-05-02 07:45:51] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 07:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioxdl
+[2024-05-02 07:45:51] INFO root fetch - processPackages [aioxdl]: New version: [0.0.20] Old Version: [0.0.19]
+[2024-05-02 07:45:51] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/f0/5f/f82249de63f90dd20813322b85ae3ca7d2b4d25c658641111a5c6765212b/aioxdl-0.0.19.tar.gz
+[2024-05-02 07:45:52] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/f3/d8/cb263d8bc58b8f9d8503cd461ba75aff6d76d916b20585db91010b79c0d4/aioxdl-0.0.20.tar.gz
+[2024-05-02 07:45:52] INFO root fetch - processPackages [aioxdl]: executing diffoscope
+[2024-05-02 07:45:52] INFO root fetch - processPackages [aioxdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioxdl-0.0.19.tar.gz tmp/aioxdl-0.0.20.tar.gz --markdown 20240502/a/aioxdl/0.0.19-0.0.20/README.md --exclude *.pyd
+[2024-05-02 07:45:52] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.19.tar.gz]
+[2024-05-02 07:45:52] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.20.tar.gz]
+[2024-05-02 07:45:52] INFO root fetch - main [MainThread]: End processing [aioxdl]: success
+[2024-05-02 07:45:52] INFO root fetch - main [MainThread]: Store serial: [23026751]
