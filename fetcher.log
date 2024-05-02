@@ -17867,3 +17867,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 13:17:53] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
 [2024-05-02 13:17:53] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-02 13:17:53] INFO root fetch - main [MainThread]: Store serial: [23029936]
+[2024-05-02 13:19:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029936]
+[2024-05-02 13:20:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 13:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liveisstracker
+[2024-05-02 13:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vbimagetotext
+[2024-05-02 13:20:03] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-02 13:20:03] INFO root fetch - processPackages [liveisstracker]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-02 13:20:03] INFO root fetch - processPackages [liveisstracker]: Downloading https://files.pythonhosted.org/packages/c0/12/1b646f6c1cfee2b2e3e101fa0cacdc64c8f253e2d43fea59ec977377c17e/liveisstracker-1.1.7.tar.gz
+[2024-05-02 13:20:03] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/71/1b/0a60429a51c5ac615e18e6073d65d442bd2b40215eff529f110e7c218575/vbimagetotext-0.1.3.tar.gz
+[2024-05-02 13:20:04] INFO root fetch - processPackages [liveisstracker]: Downloading https://files.pythonhosted.org/packages/1a/8f/18f9a36b8091d817730db3cf25abcac3a2338f3c00b021c464ef37817202/liveisstracker-1.1.8.tar.gz
+[2024-05-02 13:20:04] INFO root fetch - processPackages [liveisstracker]: executing diffoscope
+[2024-05-02 13:20:04] INFO root fetch - processPackages [liveisstracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveisstracker-1.1.7.tar.gz tmp/liveisstracker-1.1.8.tar.gz --markdown 20240502/l/liveisstracker/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-02 13:20:04] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/09/4f/2d80f761608a9626dbf796055287c1908606d18afa32f7f70f7bd49b6322/vbimagetotext-0.1.4.tar.gz
+[2024-05-02 13:20:04] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-02 13:20:04] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.3.tar.gz tmp/vbimagetotext-0.1.4.tar.gz --markdown 20240502/v/vbimagetotext/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-02 13:20:04] INFO root fetch - processPackages [liveisstracker]: Remove: archive file [/home/abi/fetcher/tmp/liveisstracker-1.1.7.tar.gz]
+[2024-05-02 13:20:04] INFO root fetch - processPackages [liveisstracker]: Remove: archive file [/home/abi/fetcher/tmp/liveisstracker-1.1.8.tar.gz]
+[2024-05-02 13:20:04] INFO root fetch - main [MainThread]: End processing [liveisstracker]: success
+[2024-05-02 13:20:04] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.3.tar.gz]
+[2024-05-02 13:20:04] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.4.tar.gz]
+[2024-05-02 13:20:04] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-02 13:20:04] INFO root fetch - main [MainThread]: Store serial: [23029942]
