@@ -11119,3 +11119,45 @@
 [2024-05-02 08:55:30] INFO root fetch - processPackages [deltalake]: Remove: archive file [/home/abi/fetcher/tmp/deltalake-0.9.0.tar.gz]
 [2024-05-02 08:55:30] INFO root fetch - main [MainThread]: End processing [deltalake]: success
 [2024-05-02 08:55:30] INFO root fetch - main [MainThread]: Store serial: [23027208]
+[2024-05-02 08:57:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027208]
+[2024-05-02 08:57:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 08:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-content-editor
+[2024-05-02 08:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glue-utils
+[2024-05-02 08:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crewai-tools
+[2024-05-02 08:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sb_utils
+[2024-05-02 08:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grbl-streamer
+[2024-05-02 08:57:39] WARNING root fetch - processPackages [sb_utils]: Skipping, unable to determine old version
+[2024-05-02 08:57:39] INFO root fetch - main [MainThread]: End processing [sb_utils] error
+[2024-05-02 08:57:39] INFO root fetch - processPackages [crewai-tools]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-05-02 08:57:39] INFO root fetch - processPackages [django-content-editor]: New version: [6.4.5] Old Version: [6.4.4]
+[2024-05-02 08:57:39] INFO root fetch - processPackages [grbl-streamer]: New version: [2.0.2] Old Version: [2.0.0]
+[2024-05-02 08:57:39] INFO root fetch - processPackages [glue-utils]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-02 08:57:39] INFO root fetch - processPackages [crewai-tools]: Downloading https://files.pythonhosted.org/packages/24/e9/5ae4cc8391d59174137e4a5a6dcb2c678f2dff00120e0a592811d8cfb368/crewai_tools-0.1.7.tar.gz
+[2024-05-02 08:57:39] INFO root fetch - processPackages [django-content-editor]: Downloading https://files.pythonhosted.org/packages/d7/25/3d8fa411530ad2528cf5063e7316333489da8c4c468ebb798341c5969d8d/django_content_editor-6.4.4.tar.gz
+[2024-05-02 08:57:39] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/a8/ca/2f960b2f7aa8bd659685d45cc78a2cf870037561d8c95f9c1d23ce4c92a4/glue_utils-0.1.2.tar.gz
+[2024-05-02 08:57:39] INFO root fetch - processPackages [grbl-streamer]: Downloading https://files.pythonhosted.org/packages/56/22/70ee9b8c91665eb10c25c3470b8a8802025610eadebb563c07b3219ebb04/grbl_streamer-2.0.0.tar.gz
+[2024-05-02 08:57:39] INFO root fetch - processPackages [crewai-tools]: Downloading https://files.pythonhosted.org/packages/f9/59/ed1e9130f69473c495882622a280589a349cd0a95f18cd021643f788364f/crewai_tools-0.2.0.tar.gz
+[2024-05-02 08:57:40] INFO root fetch - processPackages [crewai-tools]: executing diffoscope
+[2024-05-02 08:57:40] INFO root fetch - processPackages [crewai-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai_tools-0.1.7.tar.gz tmp/crewai_tools-0.2.0.tar.gz --markdown 20240502/c/crewai-tools/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-05-02 08:57:40] INFO root fetch - processPackages [django-content-editor]: Downloading https://files.pythonhosted.org/packages/72/c0/2291bbf91883e06c1501b4c7e57cabbca0fa17badfac1cb0763b73cc0447/django_content_editor-6.4.5.tar.gz
+[2024-05-02 08:57:40] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/dd/3e/5a5a07da24c33799044f49ef96bf055ff51edbeefaf553d7385faacdfad8/glue_utils-0.2.0.tar.gz
+[2024-05-02 08:57:40] INFO root fetch - processPackages [grbl-streamer]: Downloading https://files.pythonhosted.org/packages/61/0f/7375c0508454236807b981d5d8c628951a3c63f4ab7518c51d2c3acdb2cb/grbl_streamer-2.0.2.tar.gz
+[2024-05-02 08:57:40] INFO root fetch - processPackages [django-content-editor]: executing diffoscope
+[2024-05-02 08:57:40] INFO root fetch - processPackages [django-content-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_content_editor-6.4.4.tar.gz tmp/django_content_editor-6.4.5.tar.gz --markdown 20240502/d/django-content-editor/6.4.4-6.4.5/README.md --exclude *.pyd
+[2024-05-02 08:57:40] INFO root fetch - processPackages [glue-utils]: executing diffoscope
+[2024-05-02 08:57:40] INFO root fetch - processPackages [glue-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_utils-0.1.2.tar.gz tmp/glue_utils-0.2.0.tar.gz --markdown 20240502/g/glue-utils/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-02 08:57:40] INFO root fetch - processPackages [grbl-streamer]: executing diffoscope
+[2024-05-02 08:57:40] INFO root fetch - processPackages [grbl-streamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grbl_streamer-2.0.0.tar.gz tmp/grbl_streamer-2.0.2.tar.gz --markdown 20240502/g/grbl-streamer/2.0.0-2.0.2/README.md --exclude *.pyd
+[2024-05-02 08:57:40] INFO root fetch - processPackages [crewai-tools]: Remove: archive file [/home/abi/fetcher/tmp/crewai_tools-0.1.7.tar.gz]
+[2024-05-02 08:57:40] INFO root fetch - processPackages [crewai-tools]: Remove: archive file [/home/abi/fetcher/tmp/crewai_tools-0.2.0.tar.gz]
+[2024-05-02 08:57:40] INFO root fetch - main [MainThread]: End processing [crewai-tools]: success
+[2024-05-02 08:57:40] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.1.2.tar.gz]
+[2024-05-02 08:57:40] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.2.0.tar.gz]
+[2024-05-02 08:57:40] INFO root fetch - main [MainThread]: End processing [glue-utils]: success
+[2024-05-02 08:57:41] INFO root fetch - processPackages [grbl-streamer]: Remove: archive file [/home/abi/fetcher/tmp/grbl_streamer-2.0.0.tar.gz]
+[2024-05-02 08:57:41] INFO root fetch - processPackages [grbl-streamer]: Remove: archive file [/home/abi/fetcher/tmp/grbl_streamer-2.0.2.tar.gz]
+[2024-05-02 08:57:41] INFO root fetch - main [MainThread]: End processing [grbl-streamer]: success
+[2024-05-02 08:57:41] INFO root fetch - processPackages [django-content-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_content_editor-6.4.4.tar.gz]
+[2024-05-02 08:57:41] INFO root fetch - processPackages [django-content-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_content_editor-6.4.5.tar.gz]
+[2024-05-02 08:57:41] INFO root fetch - main [MainThread]: End processing [django-content-editor]: success
+[2024-05-02 08:57:41] INFO root fetch - main [MainThread]: Store serial: [23027222]
