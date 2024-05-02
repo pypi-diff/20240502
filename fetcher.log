@@ -8274,3 +8274,36 @@
 [2024-05-02 05:27:40] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
 [2024-05-02 05:27:40] INFO root fetch - main [MainThread]: End processing [surfkit]: success
 [2024-05-02 05:27:40] INFO root fetch - main [MainThread]: Store serial: [23026081]
+[2024-05-02 05:29:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026081]
+[2024-05-02 05:29:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 05:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: servicing
+[2024-05-02 05:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-readers-youtube-metadata
+[2024-05-02 05:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-nlp-nightly
+[2024-05-02 05:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rulebricks
+[2024-05-02 05:29:49] INFO root fetch - processPackages [rulebricks]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-02 05:29:49] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-02 05:29:49] WARNING root fetch - processPackages [llama-index-readers-youtube-metadata]: Skipping, unable to determine old version
+[2024-05-02 05:29:49] INFO root fetch - main [MainThread]: End processing [llama-index-readers-youtube-metadata] error
+[2024-05-02 05:29:49] INFO root fetch - processPackages [rulebricks]: Downloading https://files.pythonhosted.org/packages/9c/8f/707d94f09098f895b35ce0f3a9f0ee37170b0fb8eac3204dd2b69cf2bfaf/rulebricks-0.0.9.tar.gz
+[2024-05-02 05:29:49] INFO root fetch - processPackages [servicing]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 05:29:49] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-02 05:29:49] INFO root fetch - processPackages [servicing]: Downloading https://files.pythonhosted.org/packages/60/d6/d7fd839db6a4261202a9fa56a606058091ceaa58a7f201f0b9829cea8e76/servicing-0.0.8.tar.gz
+[2024-05-02 05:29:49] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-02 05:29:49] INFO root fetch - processPackages [rulebricks]: Downloading https://files.pythonhosted.org/packages/e5/dc/3dda71e8ede8d74ac7bd2a0a78719a20549e6c2a57f2f05ed185247af9aa/rulebricks-0.1.0.tar.gz
+[2024-05-02 05:29:49] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-02 05:29:49] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240502/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-02 05:29:49] INFO root fetch - processPackages [rulebricks]: executing diffoscope
+[2024-05-02 05:29:49] INFO root fetch - processPackages [rulebricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rulebricks-0.0.9.tar.gz tmp/rulebricks-0.1.0.tar.gz --markdown 20240502/r/rulebricks/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-02 05:29:49] INFO root fetch - processPackages [servicing]: Downloading https://files.pythonhosted.org/packages/75/77/0b02dfaf760bc4567d3f5e6ba015912a61baf1d45e750eb34f8e6a7a4da1/servicing-0.0.9.tar.gz
+[2024-05-02 05:29:50] INFO root fetch - processPackages [servicing]: executing diffoscope
+[2024-05-02 05:29:50] INFO root fetch - processPackages [servicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicing-0.0.8.tar.gz tmp/servicing-0.0.9.tar.gz --markdown 20240502/s/servicing/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 05:29:50] INFO root fetch - processPackages [rulebricks]: Remove: archive file [/home/abi/fetcher/tmp/rulebricks-0.0.9.tar.gz]
+[2024-05-02 05:29:50] INFO root fetch - processPackages [rulebricks]: Remove: archive file [/home/abi/fetcher/tmp/rulebricks-0.1.0.tar.gz]
+[2024-05-02 05:29:50] INFO root fetch - main [MainThread]: End processing [rulebricks]: success
+[2024-05-02 05:29:50] INFO root fetch - processPackages [servicing]: Remove: archive file [/home/abi/fetcher/tmp/servicing-0.0.8.tar.gz]
+[2024-05-02 05:29:50] INFO root fetch - processPackages [servicing]: Remove: archive file [/home/abi/fetcher/tmp/servicing-0.0.9.tar.gz]
+[2024-05-02 05:29:50] INFO root fetch - main [MainThread]: End processing [servicing]: success
+[2024-05-02 05:29:51] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-02 05:29:51] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-02 05:29:51] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-02 05:29:51] INFO root fetch - main [MainThread]: Store serial: [23026114]
