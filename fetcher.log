@@ -18430,3 +18430,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 13:40:09] INFO root fetch - processPackages [supvisors]: Remove: archive file [/home/abi/fetcher/tmp/supvisors-0.9.tar.gz]
 [2024-05-02 13:40:09] INFO root fetch - main [MainThread]: End processing [supvisors]: success
 [2024-05-02 13:40:09] INFO root fetch - main [MainThread]: Store serial: [23030132]
+[2024-05-02 13:42:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030132]
+[2024-05-02 13:42:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 13:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasetron
+[2024-05-02 13:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydockerhub
+[2024-05-02 13:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: job-shop-lib
+[2024-05-02 13:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymongo-helper
+[2024-05-02 13:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ckanext-admin-panel
+[2024-05-02 13:42:18] INFO root fetch - processPackages [job-shop-lib]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-02 13:42:18] WARNING root fetch - processPackages [pydockerhub]: Skipping, unable to determine old version
+[2024-05-02 13:42:18] INFO root fetch - main [MainThread]: End processing [pydockerhub] error
+[2024-05-02 13:42:18] WARNING root fetch - processPackages [datasetron]: Skipping, unable to determine old version
+[2024-05-02 13:42:18] INFO root fetch - main [MainThread]: End processing [datasetron] error
+[2024-05-02 13:42:18] WARNING root fetch - processPackages [pymongo-helper]: Skipping, unable to determine old version
+[2024-05-02 13:42:18] INFO root fetch - main [MainThread]: End processing [pymongo-helper] error
+[2024-05-02 13:42:18] INFO root fetch - processPackages [ckanext-admin-panel]: New version: [1.0.12] Old Version: [1.0.11]
+[2024-05-02 13:42:18] INFO root fetch - processPackages [job-shop-lib]: Downloading https://files.pythonhosted.org/packages/d1/5f/af2c72e7c68f586def468867ada8aaa6c59af4dab00652e2f6e6485d68df/job_shop_lib-0.2.1.tar.gz
+[2024-05-02 13:42:19] INFO root fetch - processPackages [ckanext-admin-panel]: Downloading https://files.pythonhosted.org/packages/12/c9/6d8ec0aa330f803c56fd459ec5c75ee42f519c857a359b05e08f92cb273a/ckanext_admin_panel-1.0.11.tar.gz
+[2024-05-02 13:42:19] INFO root fetch - processPackages [job-shop-lib]: Downloading https://files.pythonhosted.org/packages/40/f6/0aa59563b824cabd1420c146c14ee228d884e73348406e4ff48acc8ddc29/job_shop_lib-0.3.0.tar.gz
+[2024-05-02 13:42:19] INFO root fetch - processPackages [ckanext-admin-panel]: Downloading https://files.pythonhosted.org/packages/8b/fc/3fef1ebe427550f8303f3d886012c5577d046e6508bcc791bdee9e07bb32/ckanext_admin_panel-1.0.12.tar.gz
+[2024-05-02 13:42:19] INFO root fetch - processPackages [job-shop-lib]: executing diffoscope
+[2024-05-02 13:42:19] INFO root fetch - processPackages [job-shop-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/job_shop_lib-0.2.1.tar.gz tmp/job_shop_lib-0.3.0.tar.gz --markdown 20240502/j/job-shop-lib/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-02 13:42:19] INFO root fetch - processPackages [ckanext-admin-panel]: executing diffoscope
+[2024-05-02 13:42:19] INFO root fetch - processPackages [ckanext-admin-panel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext_admin_panel-1.0.11.tar.gz tmp/ckanext_admin_panel-1.0.12.tar.gz --markdown 20240502/c/ckanext-admin-panel/1.0.11-1.0.12/README.md --exclude *.pyd
+[2024-05-02 13:42:20] INFO root fetch - processPackages [job-shop-lib]: Remove: archive file [/home/abi/fetcher/tmp/job_shop_lib-0.2.1.tar.gz]
+[2024-05-02 13:42:20] INFO root fetch - processPackages [job-shop-lib]: Remove: archive file [/home/abi/fetcher/tmp/job_shop_lib-0.3.0.tar.gz]
+[2024-05-02 13:42:20] INFO root fetch - main [MainThread]: End processing [job-shop-lib]: success
+[2024-05-02 13:42:20] INFO root fetch - processPackages [ckanext-admin-panel]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_admin_panel-1.0.11.tar.gz]
+[2024-05-02 13:42:20] INFO root fetch - processPackages [ckanext-admin-panel]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_admin_panel-1.0.12.tar.gz]
+[2024-05-02 13:42:20] INFO root fetch - main [MainThread]: End processing [ckanext-admin-panel]: success
+[2024-05-02 13:42:20] INFO root fetch - main [MainThread]: Store serial: [23030151]
