@@ -17453,3 +17453,56 @@
 [2024-05-02 13:04:18] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1523-py3-none-any.whl.zip]
 [2024-05-02 13:04:18] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-05-02 13:04:18] INFO root fetch - main [MainThread]: Store serial: [23029827]
+[2024-05-02 13:06:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029827]
+[2024-05-02 13:06:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biaspeech
+[2024-05-02 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netsome
+[2024-05-02 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esmerald
+[2024-05-02 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-ddmrp-history
+[2024-05-02 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fftrack
+[2024-05-02 13:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymdownx-logic-superfence
+[2024-05-02 13:06:27] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.1]
+[2024-05-02 13:06:27] INFO root fetch - processPackages [pymdownx-logic-superfence]: New version: [0.4] Old Version: [0.3]
+[2024-05-02 13:06:27] INFO root fetch - processPackages [biaspeech]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-02 13:06:27] INFO root fetch - processPackages [fftrack]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 13:06:28] INFO root fetch - processPackages [esmerald]: New version: [3.1.3] Old Version: [3.1.2]
+[2024-05-02 13:06:28] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/32/a4/e93435c662ffa68b928e143309819de2f2310f527c6b06de943ad0fa2e0f/odoo_addon_ddmrp_history-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-02 13:06:28] INFO root fetch - processPackages [netsome]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-02 13:06:28] INFO root fetch - processPackages [pymdownx-logic-superfence]: Downloading https://files.pythonhosted.org/packages/ae/31/74722d98415f18e7eda82c33b93dcb1c38fdba91bac527bf3d90ca87c49b/pymdownx-logic-superfence-0.3.tar.gz
+[2024-05-02 13:06:28] INFO root fetch - processPackages [fftrack]: Downloading https://files.pythonhosted.org/packages/9f/21/6efc65694d0b72021cf02f442c9ab82c639f765882ac6a9f44a0236917f8/fftrack-0.1.1.tar.gz
+[2024-05-02 13:06:28] INFO root fetch - processPackages [biaspeech]: Downloading https://files.pythonhosted.org/packages/19/4f/21cef16d72fe00a2c9f29760310fa78c66cf1a92dcac73127162b892965b/biaspeech-0.2.1.tar.gz
+[2024-05-02 13:06:28] WARNING root fetch - processPackages [biaspeech]: Skipping package: exceeds size limit 16678850>=10485760
+[2024-05-02 13:06:28] INFO root fetch - main [MainThread]: End processing [biaspeech] error
+[2024-05-02 13:06:28] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/95/33/d055b5b161cbccd9d8e8a3cb9b605d5e407ebd9b7c2898e8838f20833ff6/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl
+[2024-05-02 13:06:28] INFO root fetch - processPackages [netsome]: Downloading https://files.pythonhosted.org/packages/c3/c3/abe2c774857735bb5841fa4358fac28b2774cf708f98e47a3951fb972e09/netsome-0.3.7.tar.gz
+[2024-05-02 13:06:28] INFO root fetch - processPackages [esmerald]: Downloading https://files.pythonhosted.org/packages/ef/03/d6aa43c771257ddb984c5916bce4d7ff6fc31f1ff5bcb5280dc9c90698c0/esmerald-3.1.2.tar.gz
+[2024-05-02 13:06:28] INFO root fetch - processPackages [fftrack]: Downloading https://files.pythonhosted.org/packages/51/b9/bc340521e9b9b8258edb6097ee022d33a7c4cddd03ead97774e4026dcf27/fftrack-0.1.2.tar.gz
+[2024-05-02 13:06:28] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: executing diffoscope
+[2024-05-02 13:06:28] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_history-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-ddmrp-history/16.0.1.1.0.1-16.0.1.1.1/README.md --exclude *.pyd
+[2024-05-02 13:06:28] INFO root fetch - processPackages [pymdownx-logic-superfence]: Downloading https://files.pythonhosted.org/packages/52/5f/21df004cdc8e25ecc549be294e790c02f882c80d22830ae5c7b9d3ff385f/pymdownx-logic-superfence-0.4.tar.gz
+[2024-05-02 13:06:28] INFO root fetch - processPackages [fftrack]: executing diffoscope
+[2024-05-02 13:06:28] INFO root fetch - processPackages [fftrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fftrack-0.1.1.tar.gz tmp/fftrack-0.1.2.tar.gz --markdown 20240502/f/fftrack/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 13:06:28] INFO root fetch - processPackages [pymdownx-logic-superfence]: executing diffoscope
+[2024-05-02 13:06:28] INFO root fetch - processPackages [pymdownx-logic-superfence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymdownx-logic-superfence-0.3.tar.gz tmp/pymdownx-logic-superfence-0.4.tar.gz --markdown 20240502/p/pymdownx-logic-superfence/0.3-0.4/README.md --exclude *.pyd
+[2024-05-02 13:06:28] INFO root fetch - processPackages [netsome]: Downloading https://files.pythonhosted.org/packages/25/bd/d0110b6a47b40d5737f8b22bdc3ba7a13f2ef58e2fd2496f009716391e98/netsome-0.3.8.tar.gz
+[2024-05-02 13:06:28] INFO root fetch - processPackages [esmerald]: Downloading https://files.pythonhosted.org/packages/6f/ce/eca849f6391644d85e85421653998980ad1b7719dd27c950a82d0b6cddc0/esmerald-3.1.3.tar.gz
+[2024-05-02 13:06:28] INFO root fetch - processPackages [netsome]: executing diffoscope
+[2024-05-02 13:06:28] INFO root fetch - processPackages [netsome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsome-0.3.7.tar.gz tmp/netsome-0.3.8.tar.gz --markdown 20240502/n/netsome/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-02 13:06:28] INFO root fetch - processPackages [esmerald]: executing diffoscope
+[2024-05-02 13:06:28] INFO root fetch - processPackages [esmerald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esmerald-3.1.2.tar.gz tmp/esmerald-3.1.3.tar.gz --markdown 20240502/e/esmerald/3.1.2-3.1.3/README.md --exclude *.pyd
+[2024-05-02 13:06:29] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_history-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-02 13:06:29] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-02 13:06:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-history]: success
+[2024-05-02 13:06:29] INFO root fetch - processPackages [pymdownx-logic-superfence]: Remove: archive file [/home/abi/fetcher/tmp/pymdownx-logic-superfence-0.3.tar.gz]
+[2024-05-02 13:06:29] INFO root fetch - processPackages [pymdownx-logic-superfence]: Remove: archive file [/home/abi/fetcher/tmp/pymdownx-logic-superfence-0.4.tar.gz]
+[2024-05-02 13:06:29] INFO root fetch - main [MainThread]: End processing [pymdownx-logic-superfence]: success
+[2024-05-02 13:06:29] INFO root fetch - processPackages [fftrack]: Remove: archive file [/home/abi/fetcher/tmp/fftrack-0.1.1.tar.gz]
+[2024-05-02 13:06:29] INFO root fetch - processPackages [fftrack]: Remove: archive file [/home/abi/fetcher/tmp/fftrack-0.1.2.tar.gz]
+[2024-05-02 13:06:29] INFO root fetch - main [MainThread]: End processing [fftrack]: success
+[2024-05-02 13:06:29] INFO root fetch - processPackages [netsome]: Remove: archive file [/home/abi/fetcher/tmp/netsome-0.3.7.tar.gz]
+[2024-05-02 13:06:29] INFO root fetch - processPackages [netsome]: Remove: archive file [/home/abi/fetcher/tmp/netsome-0.3.8.tar.gz]
+[2024-05-02 13:06:29] INFO root fetch - main [MainThread]: End processing [netsome]: success
+[2024-05-02 13:06:29] INFO root fetch - processPackages [esmerald]: Remove: archive file [/home/abi/fetcher/tmp/esmerald-3.1.2.tar.gz]
+[2024-05-02 13:06:29] INFO root fetch - processPackages [esmerald]: Remove: archive file [/home/abi/fetcher/tmp/esmerald-3.1.3.tar.gz]
+[2024-05-02 13:06:29] INFO root fetch - main [MainThread]: End processing [esmerald]: success
+[2024-05-02 13:06:29] INFO root fetch - main [MainThread]: Store serial: [23029843]
