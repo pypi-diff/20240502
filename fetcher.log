@@ -14845,3 +14845,78 @@
 [2024-05-02 11:21:57] INFO root fetch - processPackages [django-cards]: Remove: archive file [/home/abi/fetcher/tmp/django-cards-0.9.8.tar.gz]
 [2024-05-02 11:21:57] INFO root fetch - main [MainThread]: End processing [django-cards]: success
 [2024-05-02 11:21:57] INFO root fetch - main [MainThread]: Store serial: [23028727]
+[2024-05-02 11:24:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028727]
+[2024-05-02 11:24:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 11:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dynamofl
+[2024-05-02 11:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testplans
+[2024-05-02 11:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-define
+[2024-05-02 11:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-assets-management
+[2024-05-02 11:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libvirt-python
+[2024-05-02 11:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stepup
+[2024-05-02 11:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pluma-analysis
+[2024-05-02 11:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ohmyadmin
+[2024-05-02 11:24:06] INFO root fetch - processPackages [python-define]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-02 11:24:06] INFO root fetch - processPackages [stepup]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-02 11:24:06] INFO root fetch - processPackages [odoo14-addon-assets-management]: New version: [14.0.1.5.0] Old Version: [14.0.1.4.5.dev3]
+[2024-05-02 11:24:07] INFO root fetch - processPackages [stepup]: Downloading https://files.pythonhosted.org/packages/6d/54/0d17aad8d05ba8aca44ca0d0f65ef554b8b09c229fe0680e2bed8be6d8d8/stepup-1.0.0.tar.gz
+[2024-05-02 11:24:07] INFO root fetch - processPackages [python-define]: Downloading https://files.pythonhosted.org/packages/8b/ec/e19a8bc5d27a57255e7e755bb2c68c894c51b0938eca2a7cc18ef40f6dda/python-define-1.3.0.tar.gz
+[2024-05-02 11:24:07] INFO root fetch - processPackages [testplans]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-02 11:24:07] INFO root fetch - processPackages [pluma-analysis]: New version: [0.5.0] Old Version: [0.4.7]
+[2024-05-02 11:24:07] INFO root fetch - processPackages [libvirt-python]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-05-02 11:24:07] INFO root fetch - processPackages [dynamofl]: New version: [0.0.9] Old Version: [0.0.83]
+[2024-05-02 11:24:07] INFO root fetch - processPackages [ohmyadmin]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-02 11:24:07] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/53/01/b9956d8892f632b00fb86c23ce09a369f44c04f5b2ecd937fa2b2e1839c6/odoo14_addon_assets_management-14.0.1.4.5.dev3-py3-none-any.whl
+[2024-05-02 11:24:07] INFO root fetch - processPackages [dynamofl]: Downloading https://files.pythonhosted.org/packages/ab/a9/6444b3cd18ab0b5d28952f6e8e641e00bb32c0d2192005a7db80f210fa11/dynamofl-0.0.83.tar.gz
+[2024-05-02 11:24:07] INFO root fetch - processPackages [pluma-analysis]: Downloading https://files.pythonhosted.org/packages/e4/03/bd82e7ea43887b965d7be5ebc3b97747ff0ee62787de35fdb1ab615aa225/pluma-analysis-0.4.7.tar.gz
+[2024-05-02 11:24:07] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/0e/5c/8cef53411f09a99bad4808f30ecc7f12125657841f806b8eb966155aa06f/testplans-0.2.4.tar.gz
+[2024-05-02 11:24:07] INFO root fetch - processPackages [python-define]: Downloading https://files.pythonhosted.org/packages/11/2a/afc688d628d18476a296b139f24ee045223661df57604b174cd1a2b4d7e4/python_define-1.3.1.tar.gz
+[2024-05-02 11:24:07] INFO root fetch - processPackages [libvirt-python]: Downloading https://files.pythonhosted.org/packages/90/63/722b08934531bf0842295b0532d2b2120d30774ed6b04ec44dff85a26db6/libvirt-python-9.8.0.tar.gz
+[2024-05-02 11:24:07] INFO root fetch - processPackages [ohmyadmin]: Downloading https://files.pythonhosted.org/packages/cb/64/43f0d18ec1d91b31c76f202700bd253825550b55d9f9b90bf17d0e7d5891/ohmyadmin-0.5.3.tar.gz
+[2024-05-02 11:24:07] INFO root fetch - processPackages [stepup]: Downloading https://files.pythonhosted.org/packages/a2/43/5c1162aa9d50fb8408066fd582f8c674aa8504fcb96d98df365438f9d193/stepup-1.1.0.tar.gz
+[2024-05-02 11:24:07] INFO root fetch - processPackages [python-define]: executing diffoscope
+[2024-05-02 11:24:07] INFO root fetch - processPackages [python-define]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-define-1.3.0.tar.gz tmp/python_define-1.3.1.tar.gz --markdown 20240502/p/python-define/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-02 11:24:07] INFO root fetch - processPackages [stepup]: executing diffoscope
+[2024-05-02 11:24:07] INFO root fetch - processPackages [stepup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stepup-1.0.0.tar.gz tmp/stepup-1.1.0.tar.gz --markdown 20240502/s/stepup/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-02 11:24:07] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/68/28/bcea8b65954965e44618814f8ef5ce4542be617f1a34387d954d5f588070/odoo14_addon_assets_management-14.0.1.5.0-py3-none-any.whl
+[2024-05-02 11:24:07] INFO root fetch - processPackages [dynamofl]: Downloading https://files.pythonhosted.org/packages/9e/ef/82e5063a7e7f71da0e7241bdaf20b86fbe864aa2d01701701c5899f3a5e8/dynamofl-0.0.9.tar.gz
+[2024-05-02 11:24:07] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/cc/03/8ede55b6600915a2a20d3e6d1e75add7f85044b08540bc29d5771586024b/testplans-0.2.5.tar.gz
+[2024-05-02 11:24:07] INFO root fetch - processPackages [pluma-analysis]: Downloading https://files.pythonhosted.org/packages/bb/a0/d9541e32385a1204045b920a1147b50a59bededc6d3cf0e7bf9c7a2c1867/pluma_analysis-0.5.0.tar.gz
+[2024-05-02 11:24:07] INFO root fetch - processPackages [libvirt-python]: Downloading https://files.pythonhosted.org/packages/92/92/315e66f442147369a592d2afe07df1321602c5c5ef93ed15cf4eecf90ffb/libvirt-python-9.9.0.tar.gz
+[2024-05-02 11:24:07] INFO root fetch - processPackages [ohmyadmin]: Downloading https://files.pythonhosted.org/packages/a9/12/bfd8e573532a790393aa589c6320ff1e9d9999f65dbab87b1e75364b78c7/ohmyadmin-0.5.4.tar.gz
+[2024-05-02 11:24:07] INFO root fetch - processPackages [odoo14-addon-assets-management]: executing diffoscope
+[2024-05-02 11:24:07] INFO root fetch - processPackages [odoo14-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_assets_management-14.0.1.4.5.dev3-py3-none-any.whl.zip tmp/odoo14_addon_assets_management-14.0.1.5.0-py3-none-any.whl.zip --markdown 20240502/o/odoo14-addon-assets-management/14.0.1.4.5.dev3-14.0.1.5.0/README.md --exclude *.pyd
+[2024-05-02 11:24:07] INFO root fetch - processPackages [dynamofl]: executing diffoscope
+[2024-05-02 11:24:07] INFO root fetch - processPackages [dynamofl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamofl-0.0.83.tar.gz tmp/dynamofl-0.0.9.tar.gz --markdown 20240502/d/dynamofl/0.0.83-0.0.9/README.md --exclude *.pyd
+[2024-05-02 11:24:07] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-05-02 11:24:07] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.4.tar.gz tmp/testplans-0.2.5.tar.gz --markdown 20240502/t/testplans/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-02 11:24:07] INFO root fetch - processPackages [libvirt-python]: executing diffoscope
+[2024-05-02 11:24:07] INFO root fetch - processPackages [libvirt-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libvirt-python-9.8.0.tar.gz tmp/libvirt-python-9.9.0.tar.gz --markdown 20240502/l/libvirt-python/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-05-02 11:24:07] INFO root fetch - processPackages [pluma-analysis]: executing diffoscope
+[2024-05-02 11:24:07] INFO root fetch - processPackages [pluma-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluma-analysis-0.4.7.tar.gz tmp/pluma_analysis-0.5.0.tar.gz --markdown 20240502/p/pluma-analysis/0.4.7-0.5.0/README.md --exclude *.pyd
+[2024-05-02 11:24:08] INFO root fetch - processPackages [ohmyadmin]: executing diffoscope
+[2024-05-02 11:24:08] INFO root fetch - processPackages [ohmyadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohmyadmin-0.5.3.tar.gz tmp/ohmyadmin-0.5.4.tar.gz --markdown 20240502/o/ohmyadmin/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-02 11:24:08] INFO root fetch - processPackages [python-define]: Remove: archive file [/home/abi/fetcher/tmp/python-define-1.3.0.tar.gz]
+[2024-05-02 11:24:08] INFO root fetch - processPackages [python-define]: Remove: archive file [/home/abi/fetcher/tmp/python_define-1.3.1.tar.gz]
+[2024-05-02 11:24:08] INFO root fetch - main [MainThread]: End processing [python-define]: success
+[2024-05-02 11:24:08] INFO root fetch - processPackages [dynamofl]: Remove: archive file [/home/abi/fetcher/tmp/dynamofl-0.0.83.tar.gz]
+[2024-05-02 11:24:08] INFO root fetch - processPackages [dynamofl]: Remove: archive file [/home/abi/fetcher/tmp/dynamofl-0.0.9.tar.gz]
+[2024-05-02 11:24:08] INFO root fetch - main [MainThread]: End processing [dynamofl]: success
+[2024-05-02 11:24:08] INFO root fetch - processPackages [pluma-analysis]: Remove: archive file [/home/abi/fetcher/tmp/pluma-analysis-0.4.7.tar.gz]
+[2024-05-02 11:24:08] INFO root fetch - processPackages [pluma-analysis]: Remove: archive file [/home/abi/fetcher/tmp/pluma_analysis-0.5.0.tar.gz]
+[2024-05-02 11:24:08] INFO root fetch - main [MainThread]: End processing [pluma-analysis]: success
+[2024-05-02 11:24:08] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.4.tar.gz]
+[2024-05-02 11:24:08] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.5.tar.gz]
+[2024-05-02 11:24:08] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-05-02 11:24:09] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.4.5.dev3-py3-none-any.whl.zip]
+[2024-05-02 11:24:09] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.5.0-py3-none-any.whl.zip]
+[2024-05-02 11:24:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-assets-management]: success
+[2024-05-02 11:24:09] INFO root fetch - processPackages [libvirt-python]: Remove: archive file [/home/abi/fetcher/tmp/libvirt-python-9.8.0.tar.gz]
+[2024-05-02 11:24:09] INFO root fetch - processPackages [libvirt-python]: Remove: archive file [/home/abi/fetcher/tmp/libvirt-python-9.9.0.tar.gz]
+[2024-05-02 11:24:09] INFO root fetch - main [MainThread]: End processing [libvirt-python]: success
+[2024-05-02 11:24:11] INFO root fetch - processPackages [stepup]: Remove: archive file [/home/abi/fetcher/tmp/stepup-1.0.0.tar.gz]
+[2024-05-02 11:24:11] INFO root fetch - processPackages [stepup]: Remove: archive file [/home/abi/fetcher/tmp/stepup-1.1.0.tar.gz]
+[2024-05-02 11:24:11] INFO root fetch - main [MainThread]: End processing [stepup]: success
+[2024-05-02 11:24:28] INFO root fetch - processPackages [ohmyadmin]: Remove: archive file [/home/abi/fetcher/tmp/ohmyadmin-0.5.3.tar.gz]
+[2024-05-02 11:24:28] INFO root fetch - processPackages [ohmyadmin]: Remove: archive file [/home/abi/fetcher/tmp/ohmyadmin-0.5.4.tar.gz]
+[2024-05-02 11:24:28] INFO root fetch - main [MainThread]: End processing [ohmyadmin]: success
+[2024-05-02 11:24:28] INFO root fetch - main [MainThread]: Store serial: [23028751]
