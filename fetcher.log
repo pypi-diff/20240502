@@ -18121,3 +18121,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 13:29:07] INFO root fetch - processPackages [piccolo-admin]: Remove: archive file [/home/abi/fetcher/tmp/piccolo_admin-1.3.3.tar.gz]
 [2024-05-02 13:29:07] INFO root fetch - main [MainThread]: End processing [piccolo-admin]: success
 [2024-05-02 13:29:07] INFO root fetch - main [MainThread]: Store serial: [23030013]
+[2024-05-02 13:31:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030013]
+[2024-05-02 13:31:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 13:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-05-02 13:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inoopa_utils
+[2024-05-02 13:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bridgecrew
+[2024-05-02 13:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Adyen
+[2024-05-02 13:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shodo
+[2024-05-02 13:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataspree-platform-sdk
+[2024-05-02 13:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: innertube-de
+[2024-05-02 13:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DataExtractorOEG
+[2024-05-02 13:31:16] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-02 13:31:16] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-02 13:31:16] INFO root fetch - processPackages [cg]: New version: [60.5.0] Old Version: [60.4.9]
+[2024-05-02 13:31:16] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-02 13:31:16] INFO root fetch - processPackages [innertube-de]: New version: [1.0.0.post1] Old Version: [1.0.0.post0]
+[2024-05-02 13:31:16] INFO root fetch - processPackages [dataspree-platform-sdk]: New version: [1.9.7] Old Version: [1.9.6]
+[2024-05-02 13:31:16] INFO root fetch - processPackages [Adyen]: New version: [9.1.0] Old Version: [9.0.3]
+[2024-05-02 13:31:16] INFO root fetch - processPackages [shodo]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 13:31:16] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/6d/ad/f91706f5f3b652c764162f033486495aff7487cbf4806ed78a9deda1d141/dataextractoroeg-0.4.0.tar.gz
+[2024-05-02 13:31:16] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-02 13:31:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/b3/ab/26825e53155724bbc3f90a3d62ae0d257e27bb52728714568e7229a50c63/cg-60.4.9.tar.gz
+[2024-05-02 13:31:16] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/10/ba/dce7980ff0b7c11c6b0d4933f275f376eb8a4c997f0527cc483ac2310c8b/bridgecrew-3.2.8.tar.gz
+[2024-05-02 13:31:17] INFO root fetch - processPackages [innertube-de]: Downloading https://files.pythonhosted.org/packages/e6/eb/8ef2e08a537e50cc9c2007c5d8eaea21a9b7710b194b98980e33bf2b380a/innertube_de-1.0.0.post0.tar.gz
+[2024-05-02 13:31:17] INFO root fetch - processPackages [Adyen]: Downloading https://files.pythonhosted.org/packages/cf/5d/a2933536f2879f9f891f4950af9433a2f9a5a3f8bd940f0c375ec4226d8c/Adyen-9.0.3.tar.gz
+[2024-05-02 13:31:17] INFO root fetch - processPackages [shodo]: Downloading https://files.pythonhosted.org/packages/08/6b/a1f9e1b69d41aa02e06cbd41813396db01d4d82e17fbf314b84d15e993a7/shodo-0.0.8.tar.gz
+[2024-05-02 13:31:17] INFO root fetch - processPackages [dataspree-platform-sdk]: Downloading https://files.pythonhosted.org/packages/38/2c/1fb149dd1c5dad9864798f20601be9c3965b734ecacfa09a08ab68898c76/dataspree-platform-sdk-1.9.6.tar.gz
+[2024-05-02 13:31:17] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-02 13:31:17] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-05-02 13:31:17] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-02 13:31:17] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240502/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-02 13:31:17] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/7c/d0/a4c82bdaa989bab775d8ea5ce4ad813d96bd97672a97432a140df18a41ca/cg-60.5.0.tar.gz
+[2024-05-02 13:31:17] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/6f/56/74c7dd58334a52e21b8277c7dd99be27577cca3440dbb38cd94e637cfbdf/dataextractoroeg-0.4.1.tar.gz
+[2024-05-02 13:31:17] INFO root fetch - processPackages [innertube-de]: Downloading https://files.pythonhosted.org/packages/44/f8/dddee1c2e8048604c7c8e328e24b5fbb943bfcf755f626557640d2820a54/innertube-de-1.0.0.post1.tar.gz
+[2024-05-02 13:31:17] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-02 13:31:17] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.8.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240502/b/bridgecrew/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-02 13:31:17] INFO root fetch - processPackages [Adyen]: Downloading https://files.pythonhosted.org/packages/cf/39/b446537a72582834f40a63c0b4c68c134415b8620f338d2ab68b4e6ce612/Adyen-9.1.0.tar.gz
+[2024-05-02 13:31:17] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-05-02 13:31:17] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.4.0.tar.gz tmp/dataextractoroeg-0.4.1.tar.gz --markdown 20240502/D/DataExtractorOEG/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-02 13:31:17] INFO root fetch - processPackages [dataspree-platform-sdk]: Downloading https://files.pythonhosted.org/packages/8f/04/97c2d028dfc0e6c6dbe4382def5de6cf83b72914b2dd25aa0ba206161d60/dataspree-platform-sdk-1.9.7.tar.gz
+[2024-05-02 13:31:17] INFO root fetch - processPackages [shodo]: Downloading https://files.pythonhosted.org/packages/bb/d7/43f82a53f4ea9a6785d52fe1459823b0b7c8274abd09ca83cfd49c978e59/shodo-0.0.9.tar.gz
+[2024-05-02 13:31:17] INFO root fetch - processPackages [innertube-de]: executing diffoscope
+[2024-05-02 13:31:17] INFO root fetch - processPackages [innertube-de]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innertube_de-1.0.0.post0.tar.gz tmp/innertube-de-1.0.0.post1.tar.gz --markdown 20240502/i/innertube-de/1.0.0.post0-1.0.0.post1/README.md --exclude *.pyd
+[2024-05-02 13:31:17] INFO root fetch - processPackages [Adyen]: executing diffoscope
+[2024-05-02 13:31:17] INFO root fetch - processPackages [Adyen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Adyen-9.0.3.tar.gz tmp/Adyen-9.1.0.tar.gz --markdown 20240502/A/Adyen/9.0.3-9.1.0/README.md --exclude *.pyd
+[2024-05-02 13:31:17] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-02 13:31:17] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.4.9.tar.gz tmp/cg-60.5.0.tar.gz --markdown 20240502/c/cg/60.4.9-60.5.0/README.md --exclude *.pyd
+[2024-05-02 13:31:17] INFO root fetch - processPackages [dataspree-platform-sdk]: executing diffoscope
+[2024-05-02 13:31:17] INFO root fetch - processPackages [dataspree-platform-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataspree-platform-sdk-1.9.6.tar.gz tmp/dataspree-platform-sdk-1.9.7.tar.gz --markdown 20240502/d/dataspree-platform-sdk/1.9.6-1.9.7/README.md --exclude *.pyd
+[2024-05-02 13:31:17] INFO root fetch - processPackages [shodo]: executing diffoscope
+[2024-05-02 13:31:17] INFO root fetch - processPackages [shodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shodo-0.0.8.tar.gz tmp/shodo-0.0.9.tar.gz --markdown 20240502/s/shodo/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 13:31:18] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.8.tar.gz]
+[2024-05-02 13:31:18] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-05-02 13:31:18] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-02 13:31:18] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-02 13:31:18] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-02 13:31:18] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-02 13:31:18] INFO root fetch - processPackages [innertube-de]: Remove: archive file [/home/abi/fetcher/tmp/innertube_de-1.0.0.post0.tar.gz]
+[2024-05-02 13:31:18] INFO root fetch - processPackages [innertube-de]: Remove: archive file [/home/abi/fetcher/tmp/innertube-de-1.0.0.post1.tar.gz]
+[2024-05-02 13:31:18] INFO root fetch - main [MainThread]: End processing [innertube-de]: success
+[2024-05-02 13:31:18] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.0.tar.gz]
+[2024-05-02 13:31:18] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.1.tar.gz]
+[2024-05-02 13:31:18] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-05-02 13:31:18] INFO root fetch - processPackages [dataspree-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataspree-platform-sdk-1.9.6.tar.gz]
+[2024-05-02 13:31:18] INFO root fetch - processPackages [dataspree-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataspree-platform-sdk-1.9.7.tar.gz]
+[2024-05-02 13:31:18] INFO root fetch - main [MainThread]: End processing [dataspree-platform-sdk]: success
+[2024-05-02 13:31:18] INFO root fetch - processPackages [shodo]: Remove: archive file [/home/abi/fetcher/tmp/shodo-0.0.8.tar.gz]
+[2024-05-02 13:31:18] INFO root fetch - processPackages [shodo]: Remove: archive file [/home/abi/fetcher/tmp/shodo-0.0.9.tar.gz]
+[2024-05-02 13:31:18] INFO root fetch - main [MainThread]: End processing [shodo]: success
+[2024-05-02 13:31:18] INFO root fetch - processPackages [Adyen]: Remove: archive file [/home/abi/fetcher/tmp/Adyen-9.0.3.tar.gz]
+[2024-05-02 13:31:18] INFO root fetch - processPackages [Adyen]: Remove: archive file [/home/abi/fetcher/tmp/Adyen-9.1.0.tar.gz]
+[2024-05-02 13:31:18] INFO root fetch - main [MainThread]: End processing [Adyen]: success
+[2024-05-02 13:31:22] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.9.tar.gz]
+[2024-05-02 13:31:22] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.5.0.tar.gz]
+[2024-05-02 13:31:22] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-02 13:31:22] INFO root fetch - main [MainThread]: Store serial: [23030036]
