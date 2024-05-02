@@ -22856,3 +22856,65 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:58:41] INFO root fetch - processPackages [pyshrimp]: Remove: archive file [/home/abi/fetcher/tmp/pyshrimp-0.8.0.tar.gz]
 [2024-05-02 15:58:41] INFO root fetch - main [MainThread]: End processing [pyshrimp]: success
 [2024-05-02 15:58:41] INFO root fetch - main [MainThread]: Store serial: [23031930]
+[2024-05-02 16:00:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031930]
+[2024-05-02 16:00:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 16:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parea-ai
+[2024-05-02 16:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beetl
+[2024-05-02 16:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datajunction-server
+[2024-05-02 16:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-delivery-carrier-info
+[2024-05-02 16:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2024-05-02 16:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sommify
+[2024-05-02 16:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: camel-kenlm
+[2024-05-02 16:00:49] INFO root fetch - processPackages [parea-ai]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-05-02 16:00:49] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 16:00:49] INFO root fetch - processPackages [beetl]: New version: [0.4.1] Old Version: [0.3.5]
+[2024-05-02 16:00:49] INFO root fetch - processPackages [camel-kenlm]: New version: [2024.1.30] Old Version: [2023.3.17.2]
+[2024-05-02 16:00:49] INFO root fetch - processPackages [datajunction-server]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2024-05-02 16:00:49] INFO root fetch - processPackages [sommify]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-02 16:00:49] INFO root fetch - processPackages [odoo-addon-delivery-carrier-info]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.5]
+[2024-05-02 16:00:49] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/cd/80/fcef2226405a0fb8e3a9a7fbda2b47a712f63d9294eac7e3fc336bbf5b0f/parea_ai-0.2.98.tar.gz
+[2024-05-02 16:00:49] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-02 16:00:50] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/3c/14/e5631614a5c6ec734386b611f2e5328ebd737ecbe47fe5c66974167fad75/beetl-0.3.5.tar.gz
+[2024-05-02 16:00:50] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/07/79/095b904d5599d887b70014a5f2d1052bdc5b3f03c515ed20361eb63e18ae/sommify-0.8.5.tar.gz
+[2024-05-02 16:00:50] INFO root fetch - processPackages [odoo-addon-delivery-carrier-info]: Downloading https://files.pythonhosted.org/packages/3a/93/c32066a4dcc40ada589a03971ff357782b57648f8fec2ba92c7ee7f24202/odoo_addon_delivery_carrier_info-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-02 16:00:50] INFO root fetch - processPackages [camel-kenlm]: Downloading https://files.pythonhosted.org/packages/d7/39/7c216baa683bd1cd4b6bb1ba1bc6b5d11874fb4636ce08ad896f5b25f1d5/camel-kenlm-2023.3.17.2.tar.gz
+[2024-05-02 16:00:50] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-02 16:00:50] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/5e/74/837b55d32da7e6b69cec7b2da69fbb3dcc2a71dc1ee1e0d3dd407363f091/datajunction_server-0.0.1a8.tar.gz
+[2024-05-02 16:00:50] WARNING root fetch - processPackages [datajunction-server]: Skipping package: exceeds size limit 25698763>=10485760
+[2024-05-02 16:00:50] INFO root fetch - main [MainThread]: End processing [datajunction-server] error
+[2024-05-02 16:00:50] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/9d/1c/c389e28a1a12c54ff1c8111a2f00058e77ba07333943eb06d3592659a691/parea_ai-0.2.99.tar.gz
+[2024-05-02 16:00:50] INFO root fetch - processPackages [beetl]: Downloading https://files.pythonhosted.org/packages/5a/9f/e6674115892f2a4c1ef7a117f589fbb17fc0da3ab8c40d65116742ba7a2b/beetl-0.4.1.tar.gz
+[2024-05-02 16:00:50] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-02 16:00:50] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240502/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 16:00:50] INFO root fetch - processPackages [odoo-addon-delivery-carrier-info]: Downloading https://files.pythonhosted.org/packages/86/3f/6b8d91e85abaeea114d5df23fa63ea33ae3e1e62ed514f1036d5c7c412c0/odoo_addon_delivery_carrier_info-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-02 16:00:50] INFO root fetch - processPackages [beetl]: executing diffoscope
+[2024-05-02 16:00:50] INFO root fetch - processPackages [beetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beetl-0.3.5.tar.gz tmp/beetl-0.4.1.tar.gz --markdown 20240502/b/beetl/0.3.5-0.4.1/README.md --exclude *.pyd
+[2024-05-02 16:00:50] INFO root fetch - processPackages [camel-kenlm]: Downloading https://files.pythonhosted.org/packages/d9/d6/ddb4fbf6d808de5c37775a68c0aeda948262ea7f5d2100f0406fc9669c74/camel-kenlm-2024.1.30.tar.gz
+[2024-05-02 16:00:50] INFO root fetch - processPackages [odoo-addon-delivery-carrier-info]: executing diffoscope
+[2024-05-02 16:00:50] INFO root fetch - processPackages [odoo-addon-delivery-carrier-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_carrier_info-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_delivery_carrier_info-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-delivery-carrier-info/16.0.1.0.0.5-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-02 16:00:50] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/5d/ca/ee757d80962e211e58f3b2e5832d6ae82e20cc0e968110994e317419d64c/sommify-0.8.6.tar.gz
+[2024-05-02 16:00:51] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.3.5.tar.gz]
+[2024-05-02 16:00:51] INFO root fetch - processPackages [beetl]: Remove: archive file [/home/abi/fetcher/tmp/beetl-0.4.1.tar.gz]
+[2024-05-02 16:00:51] INFO root fetch - main [MainThread]: End processing [beetl]: success
+[2024-05-02 16:00:51] INFO root fetch - processPackages [camel-kenlm]: executing diffoscope
+[2024-05-02 16:00:51] INFO root fetch - processPackages [camel-kenlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camel-kenlm-2023.3.17.2.tar.gz tmp/camel-kenlm-2024.1.30.tar.gz --markdown 20240502/c/camel-kenlm/2023.3.17.2-2024.1.30/README.md --exclude *.pyd
+[2024-05-02 16:00:51] INFO root fetch - processPackages [odoo-addon-delivery-carrier-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_carrier_info-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-02 16:00:51] INFO root fetch - processPackages [odoo-addon-delivery-carrier-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_carrier_info-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-02 16:00:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-carrier-info]: success
+[2024-05-02 16:00:51] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-02 16:00:51] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-02 16:00:51] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-02 16:00:51] INFO root fetch - processPackages [parea-ai]: executing diffoscope
+[2024-05-02 16:00:51] INFO root fetch - processPackages [parea-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parea_ai-0.2.98.tar.gz tmp/parea_ai-0.2.99.tar.gz --markdown 20240502/p/parea-ai/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-05-02 16:00:51] INFO root fetch - processPackages [sommify]: executing diffoscope
+[2024-05-02 16:00:51] INFO root fetch - processPackages [sommify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sommify-0.8.5.tar.gz tmp/sommify-0.8.6.tar.gz --markdown 20240502/s/sommify/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-05-02 16:00:52] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.98.tar.gz]
+[2024-05-02 16:00:52] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.99.tar.gz]
+[2024-05-02 16:00:52] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
+[2024-05-02 16:00:52] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.5.tar.gz]
+[2024-05-02 16:00:52] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.6.tar.gz]
+[2024-05-02 16:00:52] INFO root fetch - main [MainThread]: End processing [sommify]: success
+[2024-05-02 16:00:52] INFO root fetch - processPackages [camel-kenlm]: Remove: archive file [/home/abi/fetcher/tmp/camel-kenlm-2023.3.17.2.tar.gz]
+[2024-05-02 16:00:52] INFO root fetch - processPackages [camel-kenlm]: Remove: archive file [/home/abi/fetcher/tmp/camel-kenlm-2024.1.30.tar.gz]
+[2024-05-02 16:00:52] INFO root fetch - main [MainThread]: End processing [camel-kenlm]: success
+[2024-05-02 16:00:52] INFO root fetch - main [MainThread]: Store serial: [23031949]
