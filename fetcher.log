@@ -1991,3 +1991,20 @@
 [2024-05-02 02:07:01] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
 [2024-05-02 02:07:01] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
 [2024-05-02 02:07:01] INFO root fetch - main [MainThread]: Store serial: [23023700]
+[2024-05-02 02:09:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023700]
+[2024-05-02 02:09:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 02:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-cr-constructs
+[2024-05-02 02:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datatrail-cli
+[2024-05-02 02:09:10] INFO root fetch - processPackages [datatrail-cli]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-02 02:09:10] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.442] Old Version: [2.1.441]
+[2024-05-02 02:09:11] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/17/a0/c5e488c99afb9af724085c096f45bfd30fd0d055eb934a1b2340a632f870/cdk-cr-constructs-2.1.441.tar.gz
+[2024-05-02 02:09:11] INFO root fetch - processPackages [datatrail-cli]: Downloading https://files.pythonhosted.org/packages/3a/d7/07cad5bd3436a1e341a393f7b5584661694c0babbd50e74141e84ea39226/datatrail_cli-0.5.4.tar.gz
+[2024-05-02 02:09:11] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15165380>=10485760
+[2024-05-02 02:09:11] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-05-02 02:09:11] INFO root fetch - processPackages [datatrail-cli]: Downloading https://files.pythonhosted.org/packages/f5/26/074b53afdbd3bc3b9ca300621abd8d824e49f74a4d364eea2c8e01670de3/datatrail_cli-0.5.5.tar.gz
+[2024-05-02 02:09:11] INFO root fetch - processPackages [datatrail-cli]: executing diffoscope
+[2024-05-02 02:09:11] INFO root fetch - processPackages [datatrail-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatrail_cli-0.5.4.tar.gz tmp/datatrail_cli-0.5.5.tar.gz --markdown 20240502/d/datatrail-cli/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-02 02:09:12] INFO root fetch - processPackages [datatrail-cli]: Remove: archive file [/home/abi/fetcher/tmp/datatrail_cli-0.5.4.tar.gz]
+[2024-05-02 02:09:12] INFO root fetch - processPackages [datatrail-cli]: Remove: archive file [/home/abi/fetcher/tmp/datatrail_cli-0.5.5.tar.gz]
+[2024-05-02 02:09:12] INFO root fetch - main [MainThread]: End processing [datatrail-cli]: success
+[2024-05-02 02:09:12] INFO root fetch - main [MainThread]: Store serial: [23023708]
