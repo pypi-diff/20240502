@@ -6936,3 +6936,42 @@
 [2024-05-02 03:32:59] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
 [2024-05-02 03:32:59] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-05-02 03:32:59] INFO root fetch - main [MainThread]: Store serial: [23025373]
+[2024-05-02 03:35:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025373]
+[2024-05-02 03:35:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 03:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvlayer
+[2024-05-02 03:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: npiai-proto
+[2024-05-02 03:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homeassistant-stubs
+[2024-05-02 03:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-answ-auto
+[2024-05-02 03:35:08] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.5.0b5] Old Version: [2024.5.0b4]
+[2024-05-02 03:35:08] INFO root fetch - processPackages [npiai-proto]: New version: [0.0.4.dev1] Old Version: [0.0.3]
+[2024-05-02 03:35:08] INFO root fetch - processPackages [cvlayer]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 03:35:08] INFO root fetch - processPackages [pih-answ-auto]: New version: [0.18.2] Old Version: [0.18]
+[2024-05-02 03:35:09] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/a7/f4/6d1e75a59c95814a11e36c41789fe898a4569fb43a4dc147ce71bf07a31b/homeassistant_stubs-2024.5.0b4.tar.gz
+[2024-05-02 03:35:09] INFO root fetch - processPackages [npiai-proto]: Downloading https://files.pythonhosted.org/packages/13/eb/776ecc327d66088f3e6ec56e760e422db837f1ead37fb1ee49bfb4e38e14/npiai_proto-0.0.3.tar.gz
+[2024-05-02 03:35:09] INFO root fetch - processPackages [pih-answ-auto]: Downloading https://files.pythonhosted.org/packages/39/a9/2a0234ace444b01d29edf800973b77d491646176405f11bc3d8ca96981ed/pih-answ_auto-0.18.tar.gz
+[2024-05-02 03:35:09] INFO root fetch - processPackages [cvlayer]: Downloading https://files.pythonhosted.org/packages/54/11/820295642950a10c1d4b488dc4e39e5c398f1bdd7c23464429421bf583d2/cvlayer-0.8.0-py3-none-any.whl
+[2024-05-02 03:35:09] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/4a/43/c13876b8009316ab065fbae29f918b065d4cfea61c614261201b8bb1da6f/homeassistant_stubs-2024.5.0b5.tar.gz
+[2024-05-02 03:35:09] INFO root fetch - processPackages [npiai-proto]: Downloading https://files.pythonhosted.org/packages/7e/e8/f4d3edcf421fad7649a346aef45b29328752aeb82bcab8d8826dab9f59fb/npiai_proto-0.0.4.dev1.tar.gz
+[2024-05-02 03:35:09] INFO root fetch - processPackages [cvlayer]: Downloading https://files.pythonhosted.org/packages/e6/f0/0d07cdac8cd974d6d2b51e91b3b3a10962c6d442cf3d1d9d93553de15794/cvlayer-0.9.0-py3-none-any.whl
+[2024-05-02 03:35:09] INFO root fetch - processPackages [pih-answ-auto]: Downloading https://files.pythonhosted.org/packages/94/1b/55784fce76fad9f9d609d2e99f3dc57aabec1e0a706ed8e78968ccd6c7a8/pih-answ_auto-0.18.2.tar.gz
+[2024-05-02 03:35:09] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-05-02 03:35:09] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.5.0b4.tar.gz tmp/homeassistant_stubs-2024.5.0b5.tar.gz --markdown 20240502/h/homeassistant-stubs/2024.5.0b4-2024.5.0b5/README.md --exclude *.pyd
+[2024-05-02 03:35:09] INFO root fetch - processPackages [npiai-proto]: executing diffoscope
+[2024-05-02 03:35:09] INFO root fetch - processPackages [npiai-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npiai_proto-0.0.3.tar.gz tmp/npiai_proto-0.0.4.dev1.tar.gz --markdown 20240502/n/npiai-proto/0.0.3-0.0.4.dev1/README.md --exclude *.pyd
+[2024-05-02 03:35:09] INFO root fetch - processPackages [cvlayer]: executing diffoscope
+[2024-05-02 03:35:09] INFO root fetch - processPackages [cvlayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvlayer-0.8.0-py3-none-any.whl.zip tmp/cvlayer-0.9.0-py3-none-any.whl.zip --markdown 20240502/c/cvlayer/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 03:35:09] INFO root fetch - processPackages [pih-answ-auto]: executing diffoscope
+[2024-05-02 03:35:09] INFO root fetch - processPackages [pih-answ-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-answ_auto-0.18.tar.gz tmp/pih-answ_auto-0.18.2.tar.gz --markdown 20240502/p/pih-answ-auto/0.18-0.18.2/README.md --exclude *.pyd
+[2024-05-02 03:35:10] INFO root fetch - processPackages [npiai-proto]: Remove: archive file [/home/abi/fetcher/tmp/npiai_proto-0.0.3.tar.gz]
+[2024-05-02 03:35:10] INFO root fetch - processPackages [npiai-proto]: Remove: archive file [/home/abi/fetcher/tmp/npiai_proto-0.0.4.dev1.tar.gz]
+[2024-05-02 03:35:10] INFO root fetch - main [MainThread]: End processing [npiai-proto]: success
+[2024-05-02 03:35:10] INFO root fetch - processPackages [pih-answ-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-answ_auto-0.18.tar.gz]
+[2024-05-02 03:35:10] INFO root fetch - processPackages [pih-answ-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-answ_auto-0.18.2.tar.gz]
+[2024-05-02 03:35:10] INFO root fetch - main [MainThread]: End processing [pih-answ-auto]: success
+[2024-05-02 03:35:10] INFO root fetch - processPackages [cvlayer]: Remove: archive file [/home/abi/fetcher/tmp/cvlayer-0.8.0-py3-none-any.whl.zip]
+[2024-05-02 03:35:10] INFO root fetch - processPackages [cvlayer]: Remove: archive file [/home/abi/fetcher/tmp/cvlayer-0.9.0-py3-none-any.whl.zip]
+[2024-05-02 03:35:10] INFO root fetch - main [MainThread]: End processing [cvlayer]: success
+[2024-05-02 03:35:22] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.5.0b4.tar.gz]
+[2024-05-02 03:35:22] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.5.0b5.tar.gz]
+[2024-05-02 03:35:22] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-05-02 03:35:22] INFO root fetch - main [MainThread]: Store serial: [23025446]
