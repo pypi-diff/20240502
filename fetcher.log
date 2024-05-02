@@ -7433,3 +7433,26 @@
 [2024-05-02 04:15:11] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.5.tar.gz]
 [2024-05-02 04:15:11] INFO root fetch - main [MainThread]: End processing [musicnotes]: success
 [2024-05-02 04:15:11] INFO root fetch - main [MainThread]: Store serial: [23025646]
+[2024-05-02 04:17:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025646]
+[2024-05-02 04:17:20] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-02 04:19:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025678]
+[2024-05-02 04:19:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 04:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fgo-api-types
+[2024-05-02 04:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medicafe
+[2024-05-02 04:19:26] INFO root fetch - processPackages [medicafe]: New version: [0.240501.2] Old Version: [0.240501.1]
+[2024-05-02 04:19:26] INFO root fetch - processPackages [fgo-api-types]: New version: [2024.5.2.2.18.47] Old Version: [2024.5.1.1.59.10]
+[2024-05-02 04:19:26] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/11/20/c89a11e0b7e0c27963ae21dd7a73655674b516eeff6e8ad8ef17c40e2dee/medicafe-0.240501.1.tar.gz
+[2024-05-02 04:19:26] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/c7/c6/796b6d74fafbcd88f934eaf27a5f875743f51a0113129ace231f510b6a4d/fgo_api_types-2024.5.1.1.59.10.tar.gz
+[2024-05-02 04:19:27] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/7b/b8/f9aabf5415b675c1b3ff764bc3ad8ce49b2a0ed6a67bb27548ec905fd755/medicafe-0.240501.2.tar.gz
+[2024-05-02 04:19:27] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-02 04:19:27] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240501.1.tar.gz tmp/medicafe-0.240501.2.tar.gz --markdown 20240502/m/medicafe/0.240501.1-0.240501.2/README.md --exclude *.pyd
+[2024-05-02 04:19:27] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/01/77/8eec59bab9bb0a00924cc2e584d4048c2dc18936dc15a156c7e659b71c19/fgo_api_types-2024.5.2.2.18.47.tar.gz
+[2024-05-02 04:19:27] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2024-05-02 04:19:27] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2024.5.1.1.59.10.tar.gz tmp/fgo_api_types-2024.5.2.2.18.47.tar.gz --markdown 20240502/f/fgo-api-types/2024.5.1.1.59.10-2024.5.2.2.18.47/README.md --exclude *.pyd
+[2024-05-02 04:19:27] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240501.1.tar.gz]
+[2024-05-02 04:19:27] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240501.2.tar.gz]
+[2024-05-02 04:19:27] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-02 04:19:27] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.5.1.1.59.10.tar.gz]
+[2024-05-02 04:19:27] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.5.2.2.18.47.tar.gz]
+[2024-05-02 04:19:27] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2024-05-02 04:19:27] INFO root fetch - main [MainThread]: Store serial: [23025705]
