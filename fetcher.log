@@ -7941,3 +7941,24 @@
 [2024-05-02 04:59:24] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.9.3-py3-none-any.whl.zip]
 [2024-05-02 04:59:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconciliation-widget]: success
 [2024-05-02 04:59:24] INFO root fetch - main [MainThread]: Store serial: [23025953]
+[2024-05-02 05:01:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025953]
+[2024-05-02 05:01:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 05:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cioblender
+[2024-05-02 05:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ldc-openai
+[2024-05-02 05:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuikUI
+[2024-05-02 05:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manyhttp
+[2024-05-02 05:01:33] WARNING root fetch - processPackages [ldc-openai]: Skipping, unable to determine old version
+[2024-05-02 05:01:33] INFO root fetch - main [MainThread]: End processing [ldc-openai] error
+[2024-05-02 05:01:33] WARNING root fetch - processPackages [manyhttp]: Skipping, unable to determine old version
+[2024-05-02 05:01:33] WARNING root fetch - processPackages [QuikUI]: Skipping, unable to determine old version
+[2024-05-02 05:01:33] INFO root fetch - main [MainThread]: End processing [manyhttp] error
+[2024-05-02 05:01:33] INFO root fetch - main [MainThread]: End processing [QuikUI] error
+[2024-05-02 05:01:33] INFO root fetch - processPackages [cioblender]: New version: [0.3.7b1] Old Version: [0.3.6b1]
+[2024-05-02 05:01:33] INFO root fetch - processPackages [cioblender]: Downloading https://files.pythonhosted.org/packages/a4/0c/d851c567c52ca1ce296d6f63bc92defdff04f41e4105175aa4736e3088d5/cioblender-0.3.6b1-py2.py3-none-any.whl
+[2024-05-02 05:01:34] INFO root fetch - processPackages [cioblender]: Downloading https://files.pythonhosted.org/packages/7a/34/17c7605f28579fe6a9773dd897c69faf324da052543244f473b5ddcc0290/cioblender-0.3.7b1-py2.py3-none-any.whl
+[2024-05-02 05:01:34] INFO root fetch - processPackages [cioblender]: executing diffoscope
+[2024-05-02 05:01:34] INFO root fetch - processPackages [cioblender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cioblender-0.3.6b1-py2.py3-none-any.whl.zip tmp/cioblender-0.3.7b1-py2.py3-none-any.whl.zip --markdown 20240502/c/cioblender/0.3.6b1-0.3.7b1/README.md --exclude *.pyd
+[2024-05-02 05:01:34] INFO root fetch - processPackages [cioblender]: Remove: archive file [/home/abi/fetcher/tmp/cioblender-0.3.6b1-py2.py3-none-any.whl.zip]
+[2024-05-02 05:01:34] INFO root fetch - processPackages [cioblender]: Remove: archive file [/home/abi/fetcher/tmp/cioblender-0.3.7b1-py2.py3-none-any.whl.zip]
+[2024-05-02 05:01:34] INFO root fetch - main [MainThread]: End processing [cioblender]: success
+[2024-05-02 05:01:34] INFO root fetch - main [MainThread]: Store serial: [23025969]
