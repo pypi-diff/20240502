@@ -23265,3 +23265,111 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 16:10:25] INFO root fetch - processPackages [mindsdb-sql]: Remove: archive file [/home/abi/fetcher/tmp/mindsdb_sql-0.9.0.tar.gz]
 [2024-05-02 16:10:25] INFO root fetch - main [MainThread]: End processing [mindsdb-sql]: success
 [2024-05-02 16:10:25] INFO root fetch - main [MainThread]: Store serial: [23032105]
+[2024-05-02 16:12:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23032105]
+[2024-05-02 16:12:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-02 16:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: warpzone-sdk
+[2024-05-02 16:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaces
+[2024-05-02 16:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ember-mivia
+[2024-05-02 16:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-node-binding
+[2024-05-02 16:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-inventory
+[2024-05-02 16:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pinotdb
+[2024-05-02 16:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ploomber-cloud
+[2024-05-02 16:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qworker
+[2024-05-02 16:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: salabim
+[2024-05-02 16:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bambooai
+[2024-05-02 16:12:34] INFO root fetch - processPackages [ember-mivia]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-02 16:12:34] INFO root fetch - processPackages [warpzone-sdk]: New version: [9.1.9] Old Version: [9.1.8]
+[2024-05-02 16:12:34] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 16:12:34] INFO root fetch - processPackages [salabim]: New version: [24.0.3.post2] Old Version: [24.0.3.1]
+[2024-05-02 16:12:34] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-02 16:12:34] INFO root fetch - processPackages [spaces]: New version: [0.9b3] Old Version: [0.9b2]
+[2024-05-02 16:12:34] INFO root fetch - processPackages [ember-mivia]: Downloading https://files.pythonhosted.org/packages/00/ff/da6bcf55eeb4de6c2b807ba790d07466461d5679a59992a71c6c92d7ee08/ember-mivia-0.0.4.tar.gz
+[2024-05-02 16:12:34] INFO root fetch - processPackages [pinotdb]: New version: [5.2.0] Old Version: [5.1.6]
+[2024-05-02 16:12:34] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/30/c5/2385104102242b4b2796d6fcd2d927d857e92c09234689b6b3f81754a9b8/warpzone_sdk-9.1.8.tar.gz
+[2024-05-02 16:12:34] INFO root fetch - processPackages [salabim]: Downloading https://files.pythonhosted.org/packages/b2/b8/6beba4e0d1160ba42cabf824a7a3ccce4b05352da9adb5e92bc45d566439/salabim-24.0.3.1.tar.gz
+[2024-05-02 16:12:34] INFO root fetch - processPackages [ploomber-cloud]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-02 16:12:34] INFO root fetch - processPackages [qworker]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-02 16:12:34] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1240] Old Version: [3.0.3.post1233]
+[2024-05-02 16:12:35] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/97/20/6104cd0bd4c12ccb3af8b026d3fe0110bea1c762e3f1dc3381c6fe248cf7/spaces-0.9b2.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [pinotdb]: Downloading https://files.pythonhosted.org/packages/61/0b/01fd8379da79f2c29ff96dc185fd17b278f6d246d6fee613380d36ec070f/pinotdb-5.1.6.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [ember-mivia]: Downloading https://files.pythonhosted.org/packages/0e/45/ad5194014364102d183515bc485db3873513792c8492a7584fffc7dd2354/ember-mivia-0.0.5.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/05/ab/a6c851c81a2baa3ca6b01d585dfe58731fc256f1bfe2ccba47020d9138ec/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-02 16:12:35] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/bc/6a/233e8ec8da5e5e0fa1d619e44bad1ecbecb90b7d7e830c8dd8c212c5f532/ploomber-cloud-0.2.3.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/41/7d/cb14d7ee4be30f331412fbf42f28b30dca3df8ad102961c612ff2a1dd661/warpzone_sdk-9.1.9.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/82/d0/863ee238756920d4255c0babd28c688bfa6c41dfe3db6ea52731d5350bdb/nucliadb_node_binding-3.0.3.post1233.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [ember-mivia]: executing diffoscope
+[2024-05-02 16:12:35] INFO root fetch - processPackages [ember-mivia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ember-mivia-0.0.4.tar.gz tmp/ember-mivia-0.0.5.tar.gz --markdown 20240502/e/ember-mivia/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-02 16:12:35] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2024-05-02 16:12:35] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-9.1.8.tar.gz tmp/warpzone_sdk-9.1.9.tar.gz --markdown 20240502/w/warpzone-sdk/9.1.8-9.1.9/README.md --exclude *.pyd
+[2024-05-02 16:12:35] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-02 16:12:35] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240502/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 16:12:35] INFO root fetch - processPackages [salabim]: Downloading https://files.pythonhosted.org/packages/71/3a/142a2c2e8c022902f051d5297cece08227baf524dd29b90d6dbe16e9b4d5/salabim-24.0.3.post2.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-02 16:12:35] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240502/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-02 16:12:35] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/83/79/aa4f627e9e8f99f07d6b32f22ce1aa9f4788cebf4ae57072deae30fbbcb0/spaces-0.9b3.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [pinotdb]: Downloading https://files.pythonhosted.org/packages/05/6a/65084c448897b349a44bae9d71e0338cce73b25139f167ca62e8e5002a31/pinotdb-5.2.0.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/ba/3a/cf716250ca6107a8280cc50075de02987c24d00047c63c2065986ed26ecf/ploomber-cloud-0.2.4.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [spaces]: executing diffoscope
+[2024-05-02 16:12:35] INFO root fetch - processPackages [spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaces-0.9b2.tar.gz tmp/spaces-0.9b3.tar.gz --markdown 20240502/s/spaces/0.9b2-0.9b3/README.md --exclude *.pyd
+[2024-05-02 16:12:35] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/2f/f8/e816f774c6d264b18238d05f74a514ef9207095b79fd5b4572a92c301d97/nucliadb_node_binding-3.0.3.post1240.tar.gz
+[2024-05-02 16:12:35] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/49/7d/292c6ab6085be9b02a88ca7bbc43266254e8564c1e18d61acd1239abeee3/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-02 16:12:35] INFO root fetch - processPackages [pinotdb]: executing diffoscope
+[2024-05-02 16:12:35] INFO root fetch - processPackages [pinotdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinotdb-5.1.6.tar.gz tmp/pinotdb-5.2.0.tar.gz --markdown 20240502/p/pinotdb/5.1.6-5.2.0/README.md --exclude *.pyd
+[2024-05-02 16:12:36] INFO root fetch - processPackages [ploomber-cloud]: executing diffoscope
+[2024-05-02 16:12:36] INFO root fetch - processPackages [ploomber-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-cloud-0.2.3.tar.gz tmp/ploomber-cloud-0.2.4.tar.gz --markdown 20240502/p/ploomber-cloud/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-02 16:12:36] INFO root fetch - processPackages [salabim]: executing diffoscope
+[2024-05-02 16:12:36] INFO root fetch - processPackages [salabim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salabim-24.0.3.1.tar.gz tmp/salabim-24.0.3.post2.tar.gz --markdown 20240502/s/salabim/24.0.3.1-24.0.3.post2/README.md --exclude *.pyd
+[2024-05-02 16:12:36] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-02 16:12:36] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.3.post1233.tar.gz tmp/nucliadb_node_binding-3.0.3.post1240.tar.gz --markdown 20240502/n/nucliadb-node-binding/3.0.3.post1233-3.0.3.post1240/README.md --exclude *.pyd
+[2024-05-02 16:12:36] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2024-05-02 16:12:36] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240502/q/qworker/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-02 16:12:36] INFO root fetch - processPackages [ember-mivia]: Remove: archive file [/home/abi/fetcher/tmp/ember-mivia-0.0.4.tar.gz]
+[2024-05-02 16:12:36] INFO root fetch - processPackages [ember-mivia]: Remove: archive file [/home/abi/fetcher/tmp/ember-mivia-0.0.5.tar.gz]
+[2024-05-02 16:12:36] INFO root fetch - processPackages [ember-mivia]: Start processing: HapooDB
+[2024-05-02 16:12:36] INFO root fetch - main [MainThread]: End processing [ember-mivia]: success
+[2024-05-02 16:12:36] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-02 16:12:36] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-02 16:12:36] INFO root fetch - processPackages [bambooai]: Start processing: stag-python
+[2024-05-02 16:12:36] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-02 16:12:36] INFO root fetch - processPackages [HapooDB]: New version: [0.1.1] Old Version: [0.0.4]
+[2024-05-02 16:12:36] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.8.tar.gz]
+[2024-05-02 16:12:36] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.9.tar.gz]
+[2024-05-02 16:12:36] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2024-05-02 16:12:36] INFO root fetch - processPackages [stag-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-02 16:12:36] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.9b2.tar.gz]
+[2024-05-02 16:12:36] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.9b3.tar.gz]
+[2024-05-02 16:12:36] INFO root fetch - main [MainThread]: End processing [spaces]: success
+[2024-05-02 16:12:36] INFO root fetch - processPackages [HapooDB]: Downloading https://files.pythonhosted.org/packages/ea/ef/e604ed91b96f4aedc6b0b8b9a62771b7770acdaf0eb9429ffcf7a1bfd003/HapooDB-0.0.4.tar.gz
+[2024-05-02 16:12:36] INFO root fetch - processPackages [pinotdb]: Remove: archive file [/home/abi/fetcher/tmp/pinotdb-5.1.6.tar.gz]
+[2024-05-02 16:12:36] INFO root fetch - processPackages [pinotdb]: Remove: archive file [/home/abi/fetcher/tmp/pinotdb-5.2.0.tar.gz]
+[2024-05-02 16:12:36] INFO root fetch - main [MainThread]: End processing [pinotdb]: success
+[2024-05-02 16:12:37] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.2.3.tar.gz]
+[2024-05-02 16:12:37] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.2.4.tar.gz]
+[2024-05-02 16:12:37] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
+[2024-05-02 16:12:37] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-02 16:12:37] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-02 16:12:37] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-02 16:12:37] INFO root fetch - processPackages [stag-python]: Downloading https://files.pythonhosted.org/packages/d2/20/bf932729c91de8659888493950cc5ec246eac2ea23ffd2d81ac3563beffb/stag-python-1.0.1.tar.gz
+[2024-05-02 16:12:37] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-02 16:12:37] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-02 16:12:37] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2024-05-02 16:12:37] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-24.0.3.1.tar.gz]
+[2024-05-02 16:12:37] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-24.0.3.post2.tar.gz]
+[2024-05-02 16:12:37] INFO root fetch - main [MainThread]: End processing [salabim]: success
+[2024-05-02 16:12:37] INFO root fetch - processPackages [HapooDB]: Downloading https://files.pythonhosted.org/packages/52/51/cf187c657c04e869d476437182c9422342467f343ce85bad2aa8c89b1637/HapooDB-0.1.1.tar.gz
+[2024-05-02 16:12:37] INFO root fetch - processPackages [stag-python]: Downloading https://files.pythonhosted.org/packages/a3/5c/8edbdcc1c6b124114efb86817afacf4bc742add602d16d151cc662d39230/stag_python-1.0.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-02 16:12:37] INFO root fetch - processPackages [HapooDB]: executing diffoscope
+[2024-05-02 16:12:37] INFO root fetch - processPackages [HapooDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HapooDB-0.0.4.tar.gz tmp/HapooDB-0.1.1.tar.gz --markdown 20240502/H/HapooDB/0.0.4-0.1.1/README.md --exclude *.pyd
+[2024-05-02 16:12:38] INFO root fetch - processPackages [HapooDB]: Remove: archive file [/home/abi/fetcher/tmp/HapooDB-0.0.4.tar.gz]
+[2024-05-02 16:12:38] INFO root fetch - processPackages [HapooDB]: Remove: archive file [/home/abi/fetcher/tmp/HapooDB-0.1.1.tar.gz]
+[2024-05-02 16:12:38] INFO root fetch - main [MainThread]: End processing [HapooDB]: success
+[2024-05-02 16:12:38] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1233.tar.gz]
+[2024-05-02 16:12:38] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1240.tar.gz]
+[2024-05-02 16:12:38] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-02 16:12:38] WARNING root fetch - processPackages [stag-python]: Skipping package: exceeds size limit 11689292>=10485760
+[2024-05-02 16:12:38] INFO root fetch - main [MainThread]: End processing [stag-python] error
+[2024-05-02 16:12:38] INFO root fetch - main [MainThread]: Store serial: [23032154]
