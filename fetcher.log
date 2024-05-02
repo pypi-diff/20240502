@@ -2501,3 +2501,24 @@
 [2024-05-02 02:31:06] INFO root fetch - processPackages [coba]: Remove: archive file [/home/abi/fetcher/tmp/coba-8.0.5.tar.gz]
 [2024-05-02 02:31:06] INFO root fetch - main [MainThread]: End processing [coba]: success
 [2024-05-02 02:31:06] INFO root fetch - main [MainThread]: Store serial: [23023935]
+[2024-05-02 02:33:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023935]
+[2024-05-02 02:33:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 02:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torf-gui
+[2024-05-02 02:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fisspy
+[2024-05-02 02:33:15] INFO root fetch - processPackages [torf-gui]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-02 02:33:15] INFO root fetch - processPackages [fisspy]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-02 02:33:15] INFO root fetch - processPackages [torf-gui]: Downloading https://files.pythonhosted.org/packages/fa/e4/8583243de9453a8ff0671b805d58e64b3dd8daed5c1e4cf16f193594321f/torf-gui-0.4.0.tar.gz
+[2024-05-02 02:33:15] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/45/95/120339a8f53cdd3f17cdd3872641784e944ae2146ebed4dc8cf2cdcd245b/fisspy-1.0.9.tar.gz
+[2024-05-02 02:33:15] INFO root fetch - processPackages [torf-gui]: Downloading https://files.pythonhosted.org/packages/70/0f/86599a8a654e9736239663dc5a9363a99ae84c2bc98bd7b97126f6373129/torf-gui-0.4.1.tar.gz
+[2024-05-02 02:33:16] INFO root fetch - processPackages [torf-gui]: executing diffoscope
+[2024-05-02 02:33:16] INFO root fetch - processPackages [torf-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torf-gui-0.4.0.tar.gz tmp/torf-gui-0.4.1.tar.gz --markdown 20240502/t/torf-gui/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-02 02:33:16] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/62/a1/5969e80d653e7824de3046e64c5dbe30d3d60d41dc03939952a40c187f07/fisspy-1.1.0.tar.gz
+[2024-05-02 02:33:16] INFO root fetch - processPackages [fisspy]: executing diffoscope
+[2024-05-02 02:33:16] INFO root fetch - processPackages [fisspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fisspy-1.0.9.tar.gz tmp/fisspy-1.1.0.tar.gz --markdown 20240502/f/fisspy/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-02 02:33:16] INFO root fetch - processPackages [torf-gui]: Remove: archive file [/home/abi/fetcher/tmp/torf-gui-0.4.0.tar.gz]
+[2024-05-02 02:33:16] INFO root fetch - processPackages [torf-gui]: Remove: archive file [/home/abi/fetcher/tmp/torf-gui-0.4.1.tar.gz]
+[2024-05-02 02:33:16] INFO root fetch - main [MainThread]: End processing [torf-gui]: success
+[2024-05-02 02:33:16] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.0.9.tar.gz]
+[2024-05-02 02:33:16] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.1.0.tar.gz]
+[2024-05-02 02:33:16] INFO root fetch - main [MainThread]: End processing [fisspy]: success
+[2024-05-02 02:33:16] INFO root fetch - main [MainThread]: Store serial: [23023948]
