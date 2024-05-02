@@ -8122,3 +8122,24 @@
 [2024-05-02 05:16:46] INFO root fetch - processPackages [fmot]: Remove: archive file [/home/abi/fetcher/tmp/fmot-1.9.4-py3-none-any.whl.zip]
 [2024-05-02 05:16:46] INFO root fetch - main [MainThread]: End processing [fmot]: success
 [2024-05-02 05:16:46] INFO root fetch - main [MainThread]: Store serial: [23026029]
+[2024-05-02 05:18:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026029]
+[2024-05-02 05:18:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 05:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cj-package
+[2024-05-02 05:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-cv-nightly
+[2024-05-02 05:18:54] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 05:18:54] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-02 05:18:55] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-05-02 05:18:55] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-02 05:18:55] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-05-02 05:18:55] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-02 05:18:55] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-05-02 05:18:55] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240502/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 05:18:55] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-02 05:18:55] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240502/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-02 05:18:55] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-05-02 05:18:55] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-05-02 05:18:55] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-05-02 05:18:56] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-02 05:18:56] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-02 05:18:56] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-02 05:18:56] INFO root fetch - main [MainThread]: Store serial: [23026035]
