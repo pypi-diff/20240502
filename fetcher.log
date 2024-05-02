@@ -7100,3 +7100,27 @@
 [2024-05-02 03:44:12] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-3.0.0a64.tar.gz]
 [2024-05-02 03:44:12] INFO root fetch - main [MainThread]: End processing [reactivated]: success
 [2024-05-02 03:44:12] INFO root fetch - main [MainThread]: Store serial: [23025537]
+[2024-05-02 03:46:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025537]
+[2024-05-02 03:46:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 03:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qai-ai
+[2024-05-02 03:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ufmt
+[2024-05-02 03:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cf2tf
+[2024-05-02 03:46:21] INFO root fetch - processPackages [cf2tf]: New version: [0.8.0a2] Old Version: [0.8.0a1]
+[2024-05-02 03:46:21] WARNING root fetch - processPackages [qai-ai]: Skipping, unable to determine old version
+[2024-05-02 03:46:21] INFO root fetch - main [MainThread]: End processing [qai-ai] error
+[2024-05-02 03:46:21] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/38/58/72a64791159025391e7d02e6fecb7d3f4a6f6b1a563e0a4a0a45b3ad573a/cf2tf-0.8.0a1.tar.gz
+[2024-05-02 03:46:21] INFO root fetch - processPackages [ufmt]: New version: [2.6.0] Old Version: [2.5.1]
+[2024-05-02 03:46:21] INFO root fetch - processPackages [ufmt]: Downloading https://files.pythonhosted.org/packages/a9/ea/da6d305658dad79b400dca92eeb4fc46c30e7847a334b7ba5a678d1ff319/ufmt-2.5.1.tar.gz
+[2024-05-02 03:46:21] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/e6/26/93d35a1ce7aaef6427e94d49a4dd63e3c65034230485a91cbbecb68ba40a/cf2tf-0.8.0a2.tar.gz
+[2024-05-02 03:46:21] INFO root fetch - processPackages [cf2tf]: executing diffoscope
+[2024-05-02 03:46:21] INFO root fetch - processPackages [cf2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf2tf-0.8.0a1.tar.gz tmp/cf2tf-0.8.0a2.tar.gz --markdown 20240502/c/cf2tf/0.8.0a1-0.8.0a2/README.md --exclude *.pyd
+[2024-05-02 03:46:21] INFO root fetch - processPackages [ufmt]: Downloading https://files.pythonhosted.org/packages/a9/9a/fe5fa93f371afa73659b3e52efda788d8d64fe6d0b811fb858b8b0fa26de/ufmt-2.6.0.tar.gz
+[2024-05-02 03:46:21] INFO root fetch - processPackages [ufmt]: executing diffoscope
+[2024-05-02 03:46:21] INFO root fetch - processPackages [ufmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufmt-2.5.1.tar.gz tmp/ufmt-2.6.0.tar.gz --markdown 20240502/u/ufmt/2.5.1-2.6.0/README.md --exclude *.pyd
+[2024-05-02 03:46:22] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.8.0a1.tar.gz]
+[2024-05-02 03:46:22] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.8.0a2.tar.gz]
+[2024-05-02 03:46:22] INFO root fetch - main [MainThread]: End processing [cf2tf]: success
+[2024-05-02 03:46:22] INFO root fetch - processPackages [ufmt]: Remove: archive file [/home/abi/fetcher/tmp/ufmt-2.5.1.tar.gz]
+[2024-05-02 03:46:22] INFO root fetch - processPackages [ufmt]: Remove: archive file [/home/abi/fetcher/tmp/ufmt-2.6.0.tar.gz]
+[2024-05-02 03:46:22] INFO root fetch - main [MainThread]: End processing [ufmt]: success
+[2024-05-02 03:46:22] INFO root fetch - main [MainThread]: Store serial: [23025545]
