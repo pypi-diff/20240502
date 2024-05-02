@@ -18625,3 +18625,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 13:51:09] INFO root fetch - processPackages [PolicyEngine-UK]: Remove: archive file [/home/abi/fetcher/tmp/PolicyEngine-UK-0.75.0.tar.gz]
 [2024-05-02 13:51:09] INFO root fetch - main [MainThread]: End processing [PolicyEngine-UK]: success
 [2024-05-02 13:51:09] INFO root fetch - main [MainThread]: Store serial: [23030206]
+[2024-05-02 13:53:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030206]
+[2024-05-02 13:53:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 13:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twikit
+[2024-05-02 13:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-be-cooperator-national-number
+[2024-05-02 13:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slurm-viewer
+[2024-05-02 13:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2024-05-02 13:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-wialon
+[2024-05-02 13:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-br-base
+[2024-05-02 13:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yeref
+[2024-05-02 13:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: roadtx
+[2024-05-02 13:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tird
+[2024-05-02 13:53:19] INFO root fetch - processPackages [roadtx]: New version: [1.8.0] Old Version: [1.7.1]
+[2024-05-02 13:53:19] INFO root fetch - processPackages [twikit]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-02 13:53:19] INFO root fetch - processPackages [cg]: New version: [60.6.0] Old Version: [60.5.0]
+[2024-05-02 13:53:19] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 13:53:19] INFO root fetch - processPackages [slurm-viewer]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-02 13:53:19] WARNING root fetch - processPackages [odoo-addon-l10n-be-cooperator-national-number]: Skipping, unable to determine old version
+[2024-05-02 13:53:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-be-cooperator-national-number] error
+[2024-05-02 13:53:19] INFO root fetch - processPackages [odoo-addon-l10n-br-base]: New version: [16.0.1.5.1] Old Version: [16.0.1.5.0]
+[2024-05-02 13:53:19] INFO root fetch - processPackages [python-wialon]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-02 13:53:19] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-02 13:53:19] INFO root fetch - processPackages [roadtx]: Downloading https://files.pythonhosted.org/packages/3c/8d/4a4315a0188a70132eca916651a6cb0e2c9e83862bf45cff2b01b1019bff/roadtx-1.7.1.tar.gz
+[2024-05-02 13:53:19] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/9c/cc/fa2648bd6665831038c782f618568f0c464c18751a9883e6c8d42a7426a9/twikit-1.5.8.tar.gz
+[2024-05-02 13:53:19] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/7c/d0/a4c82bdaa989bab775d8ea5ce4ad813d96bd97672a97432a140df18a41ca/cg-60.5.0.tar.gz
+[2024-05-02 13:53:19] INFO root fetch - processPackages [tird]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 13:53:20] INFO root fetch - processPackages [slurm-viewer]: Downloading https://files.pythonhosted.org/packages/80/b7/d8880248d790eaa83b534ce31a0544f609cf505a0fcf6a9ea92c2034ab63/slurm_viewer-0.0.1-py3-none-any.whl
+[2024-05-02 13:53:20] INFO root fetch - processPackages [python-wialon]: Downloading https://files.pythonhosted.org/packages/f6/d9/362b5ba50a8f107ea322e0aa89630fc794d5776e8bfddfe147451354641c/python-wialon-1.2.3.tar.gz
+[2024-05-02 13:53:20] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/91/8f/4cbb6f8859c8b1bf5587ee57fa870e9ba808dd95602037d4719b70ed03ad/twikit-1.5.9.tar.gz
+[2024-05-02 13:53:20] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-02 13:53:20] INFO root fetch - processPackages [tird]: Downloading https://files.pythonhosted.org/packages/df/91/51a967d7b62728d869dbfff078fee12c0ccd96436038a159e9be77488430/tird-0.8.0.tar.gz
+[2024-05-02 13:53:20] INFO root fetch - processPackages [odoo-addon-l10n-br-base]: Downloading https://files.pythonhosted.org/packages/1a/cc/34e81782354deddcae6bc394dd422626e63a2eda7c0bcc61e62b27a3d0d1/odoo_addon_l10n_br_base-16.0.1.5.0-py3-none-any.whl
+[2024-05-02 13:53:20] INFO root fetch - processPackages [roadtx]: Downloading https://files.pythonhosted.org/packages/54/93/8e5c8f296e8a2b4774f65673c1d808d6abc3c83f878a326658a8634bacbe/roadtx-1.8.0.tar.gz
+[2024-05-02 13:53:20] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-02 13:53:20] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240502/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 13:53:20] INFO root fetch - processPackages [twikit]: executing diffoscope
+[2024-05-02 13:53:20] INFO root fetch - processPackages [twikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twikit-1.5.8.tar.gz tmp/twikit-1.5.9.tar.gz --markdown 20240502/t/twikit/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-02 13:53:20] INFO root fetch - processPackages [python-wialon]: Downloading https://files.pythonhosted.org/packages/3e/dc/7adaa9bcafd8686ba2c893cbed7c9bb0e57837d6515d6b2b4fb347267a26/python-wialon-1.2.4.tar.gz
+[2024-05-02 13:53:20] INFO root fetch - processPackages [slurm-viewer]: Downloading https://files.pythonhosted.org/packages/80/dd/2bb9870b25d6ef551cf55ac2b048d9c58c4ffba994664c6c13e4cb4b347b/slurm_viewer-0.0.2-py3-none-any.whl
+[2024-05-02 13:53:20] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/be/1c/beeaab87c45976656ce0cfd8e06ff2e7f75482da817f1d5f79ea7dc03d29/cg-60.6.0.tar.gz
+[2024-05-02 13:53:20] INFO root fetch - processPackages [roadtx]: executing diffoscope
+[2024-05-02 13:53:20] INFO root fetch - processPackages [roadtx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roadtx-1.7.1.tar.gz tmp/roadtx-1.8.0.tar.gz --markdown 20240502/r/roadtx/1.7.1-1.8.0/README.md --exclude *.pyd
+[2024-05-02 13:53:20] INFO root fetch - processPackages [odoo-addon-l10n-br-base]: Downloading https://files.pythonhosted.org/packages/c5/e8/50329a9d45e1c468ae4a9f1c6d3371c780f154f481dd576592ccad8f9f26/odoo_addon_l10n_br_base-16.0.1.5.1-py3-none-any.whl
+[2024-05-02 13:53:20] INFO root fetch - processPackages [python-wialon]: executing diffoscope
+[2024-05-02 13:53:20] INFO root fetch - processPackages [python-wialon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-wialon-1.2.3.tar.gz tmp/python-wialon-1.2.4.tar.gz --markdown 20240502/p/python-wialon/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-02 13:53:20] INFO root fetch - processPackages [slurm-viewer]: executing diffoscope
+[2024-05-02 13:53:20] INFO root fetch - processPackages [slurm-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurm_viewer-0.0.1-py3-none-any.whl.zip tmp/slurm_viewer-0.0.2-py3-none-any.whl.zip --markdown 20240502/s/slurm-viewer/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-02 13:53:20] INFO root fetch - processPackages [tird]: Downloading https://files.pythonhosted.org/packages/a4/94/84b7c9759ddc323ace346741a9f1356157fb1c0b9cc4ee798d0444de03fe/tird-0.9.0.tar.gz
+[2024-05-02 13:53:20] INFO root fetch - processPackages [odoo-addon-l10n-br-base]: executing diffoscope
+[2024-05-02 13:53:20] INFO root fetch - processPackages [odoo-addon-l10n-br-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_base-16.0.1.5.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_base-16.0.1.5.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-br-base/16.0.1.5.0-16.0.1.5.1/README.md --exclude *.pyd
+[2024-05-02 13:53:20] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-02 13:53:20] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.5.0.tar.gz tmp/cg-60.6.0.tar.gz --markdown 20240502/c/cg/60.5.0-60.6.0/README.md --exclude *.pyd
+[2024-05-02 13:53:20] INFO root fetch - processPackages [tird]: executing diffoscope
+[2024-05-02 13:53:20] INFO root fetch - processPackages [tird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tird-0.8.0.tar.gz tmp/tird-0.9.0.tar.gz --markdown 20240502/t/tird/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 13:53:21] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.8.tar.gz]
+[2024-05-02 13:53:21] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.9.tar.gz]
+[2024-05-02 13:53:21] INFO root fetch - main [MainThread]: End processing [twikit]: success
+[2024-05-02 13:53:21] INFO root fetch - processPackages [roadtx]: Remove: archive file [/home/abi/fetcher/tmp/roadtx-1.7.1.tar.gz]
+[2024-05-02 13:53:21] INFO root fetch - processPackages [roadtx]: Remove: archive file [/home/abi/fetcher/tmp/roadtx-1.8.0.tar.gz]
+[2024-05-02 13:53:21] INFO root fetch - main [MainThread]: End processing [roadtx]: success
+[2024-05-02 13:53:21] INFO root fetch - processPackages [python-wialon]: Remove: archive file [/home/abi/fetcher/tmp/python-wialon-1.2.3.tar.gz]
+[2024-05-02 13:53:21] INFO root fetch - processPackages [python-wialon]: Remove: archive file [/home/abi/fetcher/tmp/python-wialon-1.2.4.tar.gz]
+[2024-05-02 13:53:21] INFO root fetch - main [MainThread]: End processing [python-wialon]: success
+[2024-05-02 13:53:21] INFO root fetch - processPackages [slurm-viewer]: Remove: archive file [/home/abi/fetcher/tmp/slurm_viewer-0.0.1-py3-none-any.whl.zip]
+[2024-05-02 13:53:21] INFO root fetch - processPackages [slurm-viewer]: Remove: archive file [/home/abi/fetcher/tmp/slurm_viewer-0.0.2-py3-none-any.whl.zip]
+[2024-05-02 13:53:21] INFO root fetch - main [MainThread]: End processing [slurm-viewer]: success
+[2024-05-02 13:53:21] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-02 13:53:21] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-02 13:53:21] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-02 13:53:21] INFO root fetch - processPackages [tird]: Remove: archive file [/home/abi/fetcher/tmp/tird-0.8.0.tar.gz]
+[2024-05-02 13:53:21] INFO root fetch - processPackages [tird]: Remove: archive file [/home/abi/fetcher/tmp/tird-0.9.0.tar.gz]
+[2024-05-02 13:53:21] INFO root fetch - main [MainThread]: End processing [tird]: success
+[2024-05-02 13:53:22] INFO root fetch - processPackages [odoo-addon-l10n-br-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_base-16.0.1.5.0-py3-none-any.whl.zip]
+[2024-05-02 13:53:22] INFO root fetch - processPackages [odoo-addon-l10n-br-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_base-16.0.1.5.1-py3-none-any.whl.zip]
+[2024-05-02 13:53:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-base]: success
+[2024-05-02 13:53:25] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.5.0.tar.gz]
+[2024-05-02 13:53:25] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.6.0.tar.gz]
+[2024-05-02 13:53:25] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-02 13:53:25] INFO root fetch - main [MainThread]: Store serial: [23030233]
