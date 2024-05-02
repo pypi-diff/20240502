@@ -16854,3 +16854,81 @@
 [2024-05-02 12:37:46] INFO root fetch - processPackages [ansys-optislang-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_optislang_core-0.7.1.tar.gz]
 [2024-05-02 12:37:46] INFO root fetch - main [MainThread]: End processing [ansys-optislang-core]: success
 [2024-05-02 12:37:46] INFO root fetch - main [MainThread]: Store serial: [23029602]
+[2024-05-02 12:39:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029602]
+[2024-05-02 12:39:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 12:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bpx-py
+[2024-05-02 12:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skypilot-nightly
+[2024-05-02 12:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kleene-cli
+[2024-05-02 12:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mmisp-lib
+[2024-05-02 12:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IoTNetworkMalwareClassifier
+[2024-05-02 12:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specklia
+[2024-05-02 12:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymemgpt-nightly
+[2024-05-02 12:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yeref
+[2024-05-02 12:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: parsee-core
+[2024-05-02 12:39:55] INFO root fetch - processPackages [bpx-py]: New version: [1.1.1] Old Version: [1.0.1]
+[2024-05-02 12:39:55] WARNING root fetch - processPackages [IoTNetworkMalwareClassifier]: Skipping, unable to determine old version
+[2024-05-02 12:39:55] INFO root fetch - main [MainThread]: End processing [IoTNetworkMalwareClassifier] error
+[2024-05-02 12:39:55] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-02 12:39:55] INFO root fetch - processPackages [parsee-core]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2024-05-02 12:39:55] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-02 12:39:55] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240501] Old Version: [1.0.0.dev20240430]
+[2024-05-02 12:39:55] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 12:39:55] INFO root fetch - processPackages [kleene-cli]: New version: [0.1.0rc3] Old Version: [0.1.0rc2]
+[2024-05-02 12:39:55] INFO root fetch - processPackages [mmisp-lib]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 12:39:55] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/7a/50/254187550fba83da8e34776ce7e4c5844d1785b705b16a1ee835f8b7f74e/parsee_core-0.1.4.8.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [bpx-py]: Downloading https://files.pythonhosted.org/packages/5c/fe/91d7bcbc5ff838eb17e6fcfc77190ad2dbdb2f3f36c490fbb062c537937e/bpx_py-1.0.1.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/22/9d/0f6c2e2d10cf6965965f843398aa27ab2e61d3bdee7a095fcb85648c456b/skypilot_nightly-1.0.0.dev20240430.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [kleene-cli]: Downloading https://files.pythonhosted.org/packages/01/bc/9e86cfa9fa4a730e0610dac852148da4d9572a3a1f082870b7f1f51ffe07/kleene_cli-0.1.0rc2.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [mmisp-lib]: Downloading https://files.pythonhosted.org/packages/34/dd/c6a364851d1d90e48bc590cf3f8ef00b732d9d0b3dc88fe9317963248071/mmisp_lib-0.1.0.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [bpx-py]: Downloading https://files.pythonhosted.org/packages/6c/56/34264d999e85f53c6610e2e817e57fbe2f3a690b02b580ba2a8a4dffc471/bpx_py-1.1.1.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/87/4f/31752247b806b1f52883033ecb4efbcec34d8a58a18a3a051c733dd38686/parsee_core-0.1.4.9.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [bpx-py]: executing diffoscope
+[2024-05-02 12:39:55] INFO root fetch - processPackages [bpx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpx_py-1.0.1.tar.gz tmp/bpx_py-1.1.1.tar.gz --markdown 20240502/b/bpx-py/1.0.1-1.1.1/README.md --exclude *.pyd
+[2024-05-02 12:39:55] INFO root fetch - processPackages [parsee-core]: executing diffoscope
+[2024-05-02 12:39:55] INFO root fetch - processPackages [parsee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsee_core-0.1.4.8.tar.gz tmp/parsee_core-0.1.4.9.tar.gz --markdown 20240502/p/parsee-core/0.1.4.8-0.1.4.9/README.md --exclude *.pyd
+[2024-05-02 12:39:55] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-05-02 12:39:55] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240502/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-02 12:39:55] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [kleene-cli]: Downloading https://files.pythonhosted.org/packages/6a/19/a6912565cdc5932ce6d8037159fabd4ec5b740bb075916aece0c2c667591/kleene_cli-0.1.0rc3.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-02 12:39:55] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240502/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 12:39:55] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/be/3e/45bc4b32d333264071ad22a62b7fd993deba7a9dfaa3df3d255fe25634d4/skypilot_nightly-1.0.0.dev20240501.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [mmisp-lib]: Downloading https://files.pythonhosted.org/packages/b8/e3/d65041702f768e10801e5175ac78ce073b21cbb3d61171304ca5fa3536c1/mmisp_lib-0.1.1.tar.gz
+[2024-05-02 12:39:55] INFO root fetch - processPackages [kleene-cli]: executing diffoscope
+[2024-05-02 12:39:55] INFO root fetch - processPackages [kleene-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kleene_cli-0.1.0rc2.tar.gz tmp/kleene_cli-0.1.0rc3.tar.gz --markdown 20240502/k/kleene-cli/0.1.0rc2-0.1.0rc3/README.md --exclude *.pyd
+[2024-05-02 12:39:55] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-02 12:39:55] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240502/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-02 12:39:56] INFO root fetch - processPackages [mmisp-lib]: executing diffoscope
+[2024-05-02 12:39:56] INFO root fetch - processPackages [mmisp-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmisp_lib-0.1.0.tar.gz tmp/mmisp_lib-0.1.1.tar.gz --markdown 20240502/m/mmisp-lib/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 12:39:56] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-02 12:39:56] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240430.tar.gz tmp/skypilot_nightly-1.0.0.dev20240501.tar.gz --markdown 20240502/s/skypilot-nightly/1.0.0.dev20240430-1.0.0.dev20240501/README.md --exclude *.pyd
+[2024-05-02 12:39:56] INFO root fetch - processPackages [bpx-py]: Remove: archive file [/home/abi/fetcher/tmp/bpx_py-1.0.1.tar.gz]
+[2024-05-02 12:39:56] INFO root fetch - processPackages [bpx-py]: Remove: archive file [/home/abi/fetcher/tmp/bpx_py-1.1.1.tar.gz]
+[2024-05-02 12:39:56] INFO root fetch - main [MainThread]: End processing [bpx-py]: success
+[2024-05-02 12:39:56] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-05-02 12:39:56] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-05-02 12:39:56] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-05-02 12:39:56] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.8.tar.gz]
+[2024-05-02 12:39:56] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.9.tar.gz]
+[2024-05-02 12:39:56] INFO root fetch - main [MainThread]: End processing [parsee-core]: success
+[2024-05-02 12:39:56] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-02 12:39:56] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-02 12:39:56] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-02 12:39:57] INFO root fetch - processPackages [mmisp-lib]: Remove: archive file [/home/abi/fetcher/tmp/mmisp_lib-0.1.0.tar.gz]
+[2024-05-02 12:39:57] INFO root fetch - processPackages [mmisp-lib]: Remove: archive file [/home/abi/fetcher/tmp/mmisp_lib-0.1.1.tar.gz]
+[2024-05-02 12:39:57] INFO root fetch - main [MainThread]: End processing [mmisp-lib]: success
+[2024-05-02 12:39:57] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-02 12:39:57] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-02 12:39:57] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-02 12:39:57] INFO root fetch - processPackages [kleene-cli]: Remove: archive file [/home/abi/fetcher/tmp/kleene_cli-0.1.0rc2.tar.gz]
+[2024-05-02 12:39:57] INFO root fetch - processPackages [kleene-cli]: Remove: archive file [/home/abi/fetcher/tmp/kleene_cli-0.1.0rc3.tar.gz]
+[2024-05-02 12:39:57] INFO root fetch - main [MainThread]: End processing [kleene-cli]: success
+[2024-05-02 12:39:57] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240430.tar.gz]
+[2024-05-02 12:39:57] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240501.tar.gz]
+[2024-05-02 12:39:57] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-02 12:39:57] INFO root fetch - main [MainThread]: Store serial: [23029628]
