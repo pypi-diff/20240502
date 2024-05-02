@@ -8924,3 +8924,15 @@
 [2024-05-02 06:27:19] INFO root fetch - processPackages [scikit-duplo]: Remove: archive file [/home/abi/fetcher/tmp/scikit-duplo-0.1.9.tar.gz]
 [2024-05-02 06:27:19] INFO root fetch - main [MainThread]: End processing [scikit-duplo]: success
 [2024-05-02 06:27:19] INFO root fetch - main [MainThread]: Store serial: [23026297]
+[2024-05-02 06:29:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026297]
+[2024-05-02 06:29:28] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 06:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-05-02 06:29:28] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-02 06:29:28] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-02 06:29:28] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-02 06:29:28] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-02 06:29:28] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240502/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-02 06:29:30] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-02 06:29:30] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-02 06:29:30] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-02 06:29:30] INFO root fetch - main [MainThread]: Store serial: [23026300]
