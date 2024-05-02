@@ -10701,3 +10701,32 @@
 [2024-05-02 08:33:23] INFO root fetch - processPackages [odoo-addon-server-environment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_server_environment-17.0.1.0.0.8-py3-none-any.whl.zip]
 [2024-05-02 08:33:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-server-environment]: success
 [2024-05-02 08:33:23] INFO root fetch - main [MainThread]: Store serial: [23027003]
+[2024-05-02 08:35:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027003]
+[2024-05-02 08:35:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 08:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neqsim
+[2024-05-02 08:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-inventory
+[2024-05-02 08:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyblksim
+[2024-05-02 08:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raga-testing-platform
+[2024-05-02 08:35:31] WARNING root fetch - processPackages [pyblksim]: Skipping, unable to determine old version
+[2024-05-02 08:35:31] INFO root fetch - main [MainThread]: End processing [pyblksim] error
+[2024-05-02 08:35:31] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-02 08:35:32] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-02 08:35:32] INFO root fetch - processPackages [neqsim]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-05-02 08:35:32] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-02 08:35:32] INFO root fetch - processPackages [neqsim]: Downloading https://files.pythonhosted.org/packages/1f/d7/d340087712e8d6af09461fd0c71e1c6eaa35d0eee2739edc07d874642ddd/neqsim-2.5.8.tar.gz
+[2024-05-02 08:35:32] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-02 08:35:32] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/9e/96/7d3df28f50cc4d409b3729c541cb56bfd959e667a76ebc41e27a2d33774e/raga-testing-platform-1.1.7.tar.gz
+[2024-05-02 08:35:32] WARNING root fetch - processPackages [neqsim]: Skipping package: exceeds size limit 28193627>=10485760
+[2024-05-02 08:35:32] INFO root fetch - main [MainThread]: End processing [neqsim] error
+[2024-05-02 08:35:32] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-02 08:35:32] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240502/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-02 08:35:32] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/f3/0c/cf8081496c50df535dc7d62d57017bb420067952060b63e9833e6d7e35ae/raga-testing-platform-1.1.8.tar.gz
+[2024-05-02 08:35:32] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2024-05-02 08:35:32] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.1.7.tar.gz tmp/raga-testing-platform-1.1.8.tar.gz --markdown 20240502/r/raga-testing-platform/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-02 08:35:33] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-02 08:35:33] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-02 08:35:33] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-02 08:35:33] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.7.tar.gz]
+[2024-05-02 08:35:33] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.8.tar.gz]
+[2024-05-02 08:35:33] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2024-05-02 08:35:33] INFO root fetch - main [MainThread]: Store serial: [23027014]
