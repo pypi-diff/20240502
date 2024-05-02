@@ -22019,3 +22019,15 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:33:30] INFO root fetch - processPackages [graph-attention-student]: Remove: archive file [/home/abi/fetcher/tmp/graph_attention_student-0.9.0.tar.gz]
 [2024-05-02 15:33:30] INFO root fetch - main [MainThread]: End processing [graph-attention-student]: success
 [2024-05-02 15:33:30] INFO root fetch - main [MainThread]: Store serial: [23031624]
+[2024-05-02 15:35:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031624]
+[2024-05-02 15:35:39] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 15:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systema
+[2024-05-02 15:35:39] INFO root fetch - processPackages [systema]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-02 15:35:39] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/8e/12/3ea864b91e6ace29d986b77a9abdafaa765d4cde0dddfcf21db1fee57b4b/systema-0.0.1a8.tar.gz
+[2024-05-02 15:35:39] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/f7/0c/34874be8791c7f4db6ea26318b29e34bb786e061416ab2691b4dfb05276e/systema-0.0.1a9.tar.gz
+[2024-05-02 15:35:40] INFO root fetch - processPackages [systema]: executing diffoscope
+[2024-05-02 15:35:40] INFO root fetch - processPackages [systema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systema-0.0.1a8.tar.gz tmp/systema-0.0.1a9.tar.gz --markdown 20240502/s/systema/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-02 15:35:40] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a8.tar.gz]
+[2024-05-02 15:35:40] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a9.tar.gz]
+[2024-05-02 15:35:40] INFO root fetch - main [MainThread]: End processing [systema]: success
+[2024-05-02 15:35:40] INFO root fetch - main [MainThread]: Store serial: [23031627]
