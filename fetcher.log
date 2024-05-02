@@ -7400,3 +7400,15 @@
 [2024-05-02 04:10:52] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.9.tar.gz]
 [2024-05-02 04:10:52] INFO root fetch - main [MainThread]: End processing [report-creator]: success
 [2024-05-02 04:10:52] INFO root fetch - main [MainThread]: Store serial: [23025637]
+[2024-05-02 04:12:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025637]
+[2024-05-02 04:13:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 04:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: np-aind-metadata
+[2024-05-02 04:13:01] INFO root fetch - processPackages [np-aind-metadata]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 04:13:01] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/8a/8a/63058eaaa488166b71d6c5b799acb55930eda0500738316a33e579ab6dc6/np_aind_metadata-0.1.8.tar.gz
+[2024-05-02 04:13:01] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/14/6b/7f5a6a3b3c759871cab21389d38d1e5ef28b9bb1da0f3ce7a7da44d8df60/np_aind_metadata-0.1.9.tar.gz
+[2024-05-02 04:13:01] INFO root fetch - processPackages [np-aind-metadata]: executing diffoscope
+[2024-05-02 04:13:01] INFO root fetch - processPackages [np-aind-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_aind_metadata-0.1.8.tar.gz tmp/np_aind_metadata-0.1.9.tar.gz --markdown 20240502/n/np-aind-metadata/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 04:13:02] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.8.tar.gz]
+[2024-05-02 04:13:02] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.9.tar.gz]
+[2024-05-02 04:13:02] INFO root fetch - main [MainThread]: End processing [np-aind-metadata]: success
+[2024-05-02 04:13:02] INFO root fetch - main [MainThread]: Store serial: [23025640]
