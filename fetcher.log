@@ -2325,3 +2325,84 @@
 [2024-05-02 02:24:32] INFO root fetch - processPackages [tcp-modbus-aio]: Remove: archive file [/home/abi/fetcher/tmp/tcp_modbus_aio-0.2.6.tar.gz]
 [2024-05-02 02:24:32] INFO root fetch - main [MainThread]: End processing [tcp-modbus-aio]: success
 [2024-05-02 02:24:32] INFO root fetch - main [MainThread]: Store serial: [23023856]
+[2024-05-02 02:26:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023856]
+[2024-05-02 02:26:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-02 02:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-certbot-dns-route53
+[2024-05-02 02:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prefpicker
+[2024-05-02 02:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: obswx
+[2024-05-02 02:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xlextract
+[2024-05-02 02:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-serverless-clamscan
+[2024-05-02 02:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-02 02:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: makim
+[2024-05-02 02:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blaze-net
+[2024-05-02 02:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-ecs-service-extensions
+[2024-05-02 02:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uidgen
+[2024-05-02 02:26:43] INFO root fetch - processPackages [xlextract]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-02 02:26:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-02 02:26:43] INFO root fetch - processPackages [blaze-net]: New version: [1.1.1] Old Version: [1.0.1]
+[2024-05-02 02:26:43] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-05-02 02:26:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-02 02:26:43] WARNING root fetch - processPackages [uidgen]: Skipping, unable to determine old version
+[2024-05-02 02:26:43] INFO root fetch - main [MainThread]: End processing [uidgen] error
+[2024-05-02 02:26:43] WARNING root fetch - processPackages [obswx]: Skipping, unable to determine old version
+[2024-05-02 02:26:43] INFO root fetch - main [MainThread]: End processing [obswx] error
+[2024-05-02 02:26:43] INFO root fetch - processPackages [makim]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-02 02:26:43] INFO root fetch - processPackages [xlextract]: Downloading https://files.pythonhosted.org/packages/1b/9c/1aa6fb777e135d014551a5d6b0a28457829b85510ac270955cbc75e57333/xlextract-0.1.2.tar.gz
+[2024-05-02 02:26:43] INFO root fetch - processPackages [prefpicker]: New version: [1.9.2] Old Version: [1.9.0]
+[2024-05-02 02:26:43] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-05-02 02:26:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-02 02:26:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-02 02:26:43] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-05-02 02:26:43] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-05-02 02:26:43] INFO root fetch - processPackages [blaze-net]: Downloading https://files.pythonhosted.org/packages/e3/46/2330b73a0f1e1ef578ca7cdbcfdd958bc9df0d54ffe2b12a58b0694965eb/blaze-net-1.0.1.tar.gz
+[2024-05-02 02:26:43] INFO root fetch - processPackages [prefpicker]: Downloading https://files.pythonhosted.org/packages/16/99/0b5f2730e51d88a1a43ebdbe1d6470baea952571e1a26cc340a7dad03f7c/prefpicker-1.9.0.tar.gz
+[2024-05-02 02:26:43] INFO root fetch - processPackages [makim]: Downloading https://files.pythonhosted.org/packages/e0/3d/e4e4792cd68166efa4aecf9819e43dabfe79f6516ce300d172485d08781a/makim-1.9.0.tar.gz
+[2024-05-02 02:26:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-02 02:26:44] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-02 02:26:44] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-05-02 02:26:44] INFO root fetch - processPackages [xlextract]: Downloading https://files.pythonhosted.org/packages/80/68/855ca56c2edc8a0bfae24389413629d539fd719b5f112bfcb0415e031b91/xlextract-0.1.3.tar.gz
+[2024-05-02 02:26:44] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-05-02 02:26:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-02 02:26:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240502/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-02 02:26:44] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-02 02:26:44] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240502/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-02 02:26:44] INFO root fetch - processPackages [blaze-net]: Downloading https://files.pythonhosted.org/packages/dc/62/295a8481ba907eff541bfcf482f52d7ddd69ccd59ded1d14035aebaa1a5c/blaze-net-1.1.1.tar.gz
+[2024-05-02 02:26:44] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-05-02 02:26:44] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240502/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-05-02 02:26:44] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-05-02 02:26:44] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240502/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-05-02 02:26:44] INFO root fetch - processPackages [xlextract]: executing diffoscope
+[2024-05-02 02:26:44] INFO root fetch - processPackages [xlextract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlextract-0.1.2.tar.gz tmp/xlextract-0.1.3.tar.gz --markdown 20240502/x/xlextract/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-02 02:26:44] INFO root fetch - processPackages [blaze-net]: executing diffoscope
+[2024-05-02 02:26:44] INFO root fetch - processPackages [blaze-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaze-net-1.0.1.tar.gz tmp/blaze-net-1.1.1.tar.gz --markdown 20240502/b/blaze-net/1.0.1-1.1.1/README.md --exclude *.pyd
+[2024-05-02 02:26:44] INFO root fetch - processPackages [prefpicker]: Downloading https://files.pythonhosted.org/packages/45/83/8082b6ff48c85df160907d4ac91ef12e17e5e6f9baa13221a88d540bb41a/prefpicker-1.9.2.tar.gz
+[2024-05-02 02:26:44] INFO root fetch - processPackages [makim]: Downloading https://files.pythonhosted.org/packages/76/49/a70877421ce911916f2cf111c95e72b135947a0be408d0da6ef609089b72/makim-1.9.1.tar.gz
+[2024-05-02 02:26:44] INFO root fetch - processPackages [prefpicker]: executing diffoscope
+[2024-05-02 02:26:44] INFO root fetch - processPackages [prefpicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefpicker-1.9.0.tar.gz tmp/prefpicker-1.9.2.tar.gz --markdown 20240502/p/prefpicker/1.9.0-1.9.2/README.md --exclude *.pyd
+[2024-05-02 02:26:44] INFO root fetch - processPackages [makim]: executing diffoscope
+[2024-05-02 02:26:44] INFO root fetch - processPackages [makim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makim-1.9.0.tar.gz tmp/makim-1.9.1.tar.gz --markdown 20240502/m/makim/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-02 02:26:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-02 02:26:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-02 02:26:45] INFO root fetch - processPackages [blaze-net]: Remove: archive file [/home/abi/fetcher/tmp/blaze-net-1.0.1.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - processPackages [blaze-net]: Remove: archive file [/home/abi/fetcher/tmp/blaze-net-1.1.1.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - main [MainThread]: End processing [blaze-net]: success
+[2024-05-02 02:26:45] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-05-02 02:26:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-05-02 02:26:45] INFO root fetch - processPackages [makim]: Remove: archive file [/home/abi/fetcher/tmp/makim-1.9.0.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - processPackages [makim]: Remove: archive file [/home/abi/fetcher/tmp/makim-1.9.1.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - main [MainThread]: End processing [makim]: success
+[2024-05-02 02:26:45] INFO root fetch - processPackages [prefpicker]: Remove: archive file [/home/abi/fetcher/tmp/prefpicker-1.9.0.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - processPackages [prefpicker]: Remove: archive file [/home/abi/fetcher/tmp/prefpicker-1.9.2.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - main [MainThread]: End processing [prefpicker]: success
+[2024-05-02 02:26:45] INFO root fetch - processPackages [xlextract]: Remove: archive file [/home/abi/fetcher/tmp/xlextract-0.1.2.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - processPackages [xlextract]: Remove: archive file [/home/abi/fetcher/tmp/xlextract-0.1.3.tar.gz]
+[2024-05-02 02:26:45] INFO root fetch - main [MainThread]: End processing [xlextract]: success
+[2024-05-02 02:26:45] INFO root fetch - main [MainThread]: Store serial: [23023889]
