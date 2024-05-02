@@ -9802,3 +9802,24 @@
 [2024-05-02 07:34:58] INFO root fetch - processPackages [nonecorn]: Remove: archive file [/home/abi/fetcher/tmp/nonecorn-0.16.0.dev4.tar.gz]
 [2024-05-02 07:34:58] INFO root fetch - main [MainThread]: End processing [nonecorn]: success
 [2024-05-02 07:34:58] INFO root fetch - main [MainThread]: Store serial: [23026697]
+[2024-05-02 07:37:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026697]
+[2024-05-02 07:37:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 07:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qai-agent
+[2024-05-02 07:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datadreamer.dev
+[2024-05-02 07:37:06] INFO root fetch - processPackages [qai-agent]: New version: [0.5.2.1] Old Version: [0.5.2]
+[2024-05-02 07:37:06] INFO root fetch - processPackages [qai-agent]: Downloading https://files.pythonhosted.org/packages/24/f0/f2a2882a4a06160054d48e65acf6e99d7fa215115e0d2ce8efef546db4e3/qai_agent-0.5.2.tar.gz
+[2024-05-02 07:37:06] INFO root fetch - processPackages [datadreamer.dev]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 07:37:06] INFO root fetch - processPackages [datadreamer.dev]: Downloading https://files.pythonhosted.org/packages/1f/2c/32b5de0e35ed3db2eca18fdce324ee199b1fcc089bc278d325fc111ad6b4/datadreamer_dev-0.8.0.tar.gz
+[2024-05-02 07:37:06] INFO root fetch - processPackages [qai-agent]: Downloading https://files.pythonhosted.org/packages/38/bf/b4a14609ca9b0f4568dc0291b1331c029a41b3cd381ce51d2e4217429bb0/qai_agent-0.5.2.1.tar.gz
+[2024-05-02 07:37:07] INFO root fetch - processPackages [qai-agent]: executing diffoscope
+[2024-05-02 07:37:07] INFO root fetch - processPackages [qai-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_agent-0.5.2.tar.gz tmp/qai_agent-0.5.2.1.tar.gz --markdown 20240502/q/qai-agent/0.5.2-0.5.2.1/README.md --exclude *.pyd
+[2024-05-02 07:37:07] INFO root fetch - processPackages [datadreamer.dev]: Downloading https://files.pythonhosted.org/packages/2a/ec/b17b0b2244a9b377c90f022ce710f823144beca2aad8793c5118553bc133/datadreamer_dev-0.9.0.tar.gz
+[2024-05-02 07:37:07] INFO root fetch - processPackages [datadreamer.dev]: executing diffoscope
+[2024-05-02 07:37:07] INFO root fetch - processPackages [datadreamer.dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadreamer_dev-0.8.0.tar.gz tmp/datadreamer_dev-0.9.0.tar.gz --markdown 20240502/d/datadreamer.dev/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 07:37:07] INFO root fetch - processPackages [qai-agent]: Remove: archive file [/home/abi/fetcher/tmp/qai_agent-0.5.2.tar.gz]
+[2024-05-02 07:37:07] INFO root fetch - processPackages [qai-agent]: Remove: archive file [/home/abi/fetcher/tmp/qai_agent-0.5.2.1.tar.gz]
+[2024-05-02 07:37:07] INFO root fetch - main [MainThread]: End processing [qai-agent]: success
+[2024-05-02 07:37:08] INFO root fetch - processPackages [datadreamer.dev]: Remove: archive file [/home/abi/fetcher/tmp/datadreamer_dev-0.8.0.tar.gz]
+[2024-05-02 07:37:08] INFO root fetch - processPackages [datadreamer.dev]: Remove: archive file [/home/abi/fetcher/tmp/datadreamer_dev-0.9.0.tar.gz]
+[2024-05-02 07:37:08] INFO root fetch - main [MainThread]: End processing [datadreamer.dev]: success
+[2024-05-02 07:37:08] INFO root fetch - main [MainThread]: Store serial: [23026704]
