@@ -16294,3 +16294,210 @@
 [2024-05-02 12:20:08] INFO root fetch - processPackages [gaplint]: Remove: archive file [/home/abi/fetcher/tmp/gaplint-1.2.0.tar.gz]
 [2024-05-02 12:20:08] INFO root fetch - main [MainThread]: End processing [gaplint]: success
 [2024-05-02 12:20:08] INFO root fetch - main [MainThread]: Store serial: [23029398]
+[2024-05-02 12:22:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029398]
+[2024-05-02 12:22:16] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2024-05-02 12:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: queue-kv
+[2024-05-02 12:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funbible
+[2024-05-02 12:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iris-pex-embedded-python
+[2024-05-02 12:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: juju
+[2024-05-02 12:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brianmechanisms
+[2024-05-02 12:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imviz
+[2024-05-02 12:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyverse-api
+[2024-05-02 12:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fps-noauth
+[2024-05-02 12:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fps-auth
+[2024-05-02 12:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fps-auth-fief
+[2024-05-02 12:22:17] INFO root fetch - processPackages [queue-kv]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-02 12:22:17] INFO root fetch - processPackages [queue-kv]: Downloading https://files.pythonhosted.org/packages/86/0c/b185fd9326535693d247b0a52c32b02c4c4f329443a16bcb17651a4d60d4/queue_kv-0.1.3.tar.gz
+[2024-05-02 12:22:17] WARNING root fetch - processPackages [funbible]: Skipping, unable to determine old version
+[2024-05-02 12:22:17] INFO root fetch - processPackages [funbible]: Start processing: fps-auth-jupyterhub
+[2024-05-02 12:22:17] INFO root fetch - main [MainThread]: End processing [funbible] error
+[2024-05-02 12:22:17] WARNING root fetch - processPackages [brianmechanisms]: Skipping, unable to determine old version
+[2024-05-02 12:22:17] INFO root fetch - processPackages [brianmechanisms]: Start processing: fps-contents
+[2024-05-02 12:22:17] INFO root fetch - main [MainThread]: End processing [brianmechanisms] error
+[2024-05-02 12:22:17] INFO root fetch - processPackages [fps-noauth]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:17] INFO root fetch - processPackages [fps-auth-fief]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:17] INFO root fetch - processPackages [imviz]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-02 12:22:17] INFO root fetch - processPackages [jupyverse-api]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:17] INFO root fetch - processPackages [fps-auth]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:17] INFO root fetch - processPackages [juju]: New version: [3.4.0.0] Old Version: [3.3.1.1]
+[2024-05-02 12:22:17] INFO root fetch - processPackages [iris-pex-embedded-python]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-05-02 12:22:17] INFO root fetch - processPackages [fps-auth-jupyterhub]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:17] INFO root fetch - processPackages [fps-contents]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:17] INFO root fetch - processPackages [queue-kv]: Downloading https://files.pythonhosted.org/packages/ea/d9/1980522501630d5e54810cce50113568b971385ede14d01dc5ec30ad3b88/queue_kv-0.1.4.tar.gz
+[2024-05-02 12:22:17] INFO root fetch - processPackages [fps-auth]: Downloading https://files.pythonhosted.org/packages/d2/92/ff2f6b0ad989996893306a6e35416870ed0ce57b7558ddd19ab709d67094/fps_auth-0.5.1.tar.gz
+[2024-05-02 12:22:17] INFO root fetch - processPackages [jupyverse-api]: Downloading https://files.pythonhosted.org/packages/84/f8/3a2a5f136b8394276c26ae7d7aa3496ff92eae293a4680f48910ec1d4e32/jupyverse_api-0.5.1.tar.gz
+[2024-05-02 12:22:17] INFO root fetch - processPackages [juju]: Downloading https://files.pythonhosted.org/packages/50/63/3b1a279743b1b2518c3a0f81b2e3c42435ee09dd5784feec09621cfe5aaa/juju-3.3.1.1.tar.gz
+[2024-05-02 12:22:17] INFO root fetch - processPackages [imviz]: Downloading https://files.pythonhosted.org/packages/af/d7/0615dcc06d9e356360ce3d600bbf85958fc69045b8929092d9647b6ce35d/imviz-0.2.3.tar.gz
+[2024-05-02 12:22:17] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/0a/1e/871a26044c71126b987a44b3ec89c4b39caccaf6ac0bb646f27aba683927/iris_pex_embedded_python-2.3.8.tar.gz
+[2024-05-02 12:22:17] INFO root fetch - processPackages [fps-noauth]: Downloading https://files.pythonhosted.org/packages/82/74/fa28b94ddb523d2d0a510f6bdd7af86ebf86c2fb14c6e36529d524b8ec49/fps_noauth-0.5.1.tar.gz
+[2024-05-02 12:22:17] INFO root fetch - processPackages [fps-auth-jupyterhub]: Downloading https://files.pythonhosted.org/packages/5d/12/35e52d5fe48ec67397bc40b73f85736b4fa07bdd10d33d43c3b1f972494f/fps_auth_jupyterhub-0.5.1.tar.gz
+[2024-05-02 12:22:17] INFO root fetch - processPackages [fps-auth-fief]: Downloading https://files.pythonhosted.org/packages/48/0e/d6f1cf40bcc73b4de6af4238bcc2b8a2048fe8f94c6b2a078f30616b3589/fps_auth_fief-0.5.1.tar.gz
+[2024-05-02 12:22:17] INFO root fetch - processPackages [queue-kv]: executing diffoscope
+[2024-05-02 12:22:17] INFO root fetch - processPackages [queue-kv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queue_kv-0.1.3.tar.gz tmp/queue_kv-0.1.4.tar.gz --markdown 20240502/q/queue-kv/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-02 12:22:17] INFO root fetch - processPackages [fps-contents]: Downloading https://files.pythonhosted.org/packages/5b/60/91f4659b097b066648af4872180ddbb273ca06c5b3ffa00dda4ed9fab085/fps_contents-0.5.1.tar.gz
+[2024-05-02 12:22:17] INFO root fetch - processPackages [jupyverse-api]: Downloading https://files.pythonhosted.org/packages/48/87/fee89be16cec45e1edb17ce307b6cfac61ccac082be5a679d9e8cff4d23a/jupyverse_api-0.5.2.tar.gz
+[2024-05-02 12:22:17] INFO root fetch - processPackages [fps-auth]: Downloading https://files.pythonhosted.org/packages/38/f4/c38a8de754c23a73b4df967200cf323cd51b389c61ca7f096d0f9fc34d96/fps_auth-0.5.2.tar.gz
+[2024-05-02 12:22:18] INFO root fetch - processPackages [jupyverse-api]: executing diffoscope
+[2024-05-02 12:22:18] INFO root fetch - processPackages [jupyverse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyverse_api-0.5.1.tar.gz tmp/jupyverse_api-0.5.2.tar.gz --markdown 20240502/j/jupyverse-api/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-auth-fief]: Downloading https://files.pythonhosted.org/packages/37/1c/01935958fdb63af0c4368ec35c3b566a7b655526a3372d8af119ca16b3ef/fps_auth_fief-0.5.2.tar.gz
+[2024-05-02 12:22:18] INFO root fetch - processPackages [juju]: Downloading https://files.pythonhosted.org/packages/d8/3e/4168bafcde6920fce813ae97c6f45fca04542b36617badb1110b084b133b/juju-3.4.0.0.tar.gz
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-auth]: executing diffoscope
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_auth-0.5.1.tar.gz tmp/fps_auth-0.5.2.tar.gz --markdown 20240502/f/fps-auth/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:18] INFO root fetch - processPackages [imviz]: Downloading https://files.pythonhosted.org/packages/c7/86/b1119a6de00c6c63d1df24d9921ba10e76683e05fd366512dd6246bab126/imviz-0.2.4.tar.gz
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-contents]: Downloading https://files.pythonhosted.org/packages/ef/45/840b0b1032d1a013ff6f4cf8d7bec85d970135e4dbecd4bd9c886f484917/fps_contents-0.5.2.tar.gz
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-noauth]: Downloading https://files.pythonhosted.org/packages/3a/5a/ca17965472b3178a0d371b23332a3468c0ee1b6310a81b9b32ee84fd70fa/fps_noauth-0.5.2.tar.gz
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-auth-jupyterhub]: Downloading https://files.pythonhosted.org/packages/2d/74/2a574352287768e6158be123312832c4722da006a6e3530282728ca81a88/fps_auth_jupyterhub-0.5.2.tar.gz
+[2024-05-02 12:22:18] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/1f/d9/ca808faae976325522f21347afcfc5843a9cac222c09edb7a58702c2c50b/iris_pex_embedded_python-2.3.9.tar.gz
+[2024-05-02 12:22:18] INFO root fetch - processPackages [juju]: executing diffoscope
+[2024-05-02 12:22:18] INFO root fetch - processPackages [juju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juju-3.3.1.1.tar.gz tmp/juju-3.4.0.0.tar.gz --markdown 20240502/j/juju/3.3.1.1-3.4.0.0/README.md --exclude *.pyd
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-auth-fief]: executing diffoscope
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-auth-fief]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_auth_fief-0.5.1.tar.gz tmp/fps_auth_fief-0.5.2.tar.gz --markdown 20240502/f/fps-auth-fief/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:18] INFO root fetch - processPackages [imviz]: executing diffoscope
+[2024-05-02 12:22:18] INFO root fetch - processPackages [imviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imviz-0.2.3.tar.gz tmp/imviz-0.2.4.tar.gz --markdown 20240502/i/imviz/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-contents]: executing diffoscope
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-contents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_contents-0.5.1.tar.gz tmp/fps_contents-0.5.2.tar.gz --markdown 20240502/f/fps-contents/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-noauth]: executing diffoscope
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-noauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_noauth-0.5.1.tar.gz tmp/fps_noauth-0.5.2.tar.gz --markdown 20240502/f/fps-noauth/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-auth-jupyterhub]: executing diffoscope
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-auth-jupyterhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_auth_jupyterhub-0.5.1.tar.gz tmp/fps_auth_jupyterhub-0.5.2.tar.gz --markdown 20240502/f/fps-auth-jupyterhub/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:18] INFO root fetch - processPackages [iris-pex-embedded-python]: executing diffoscope
+[2024-05-02 12:22:18] INFO root fetch - processPackages [iris-pex-embedded-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iris_pex_embedded_python-2.3.8.tar.gz tmp/iris_pex_embedded_python-2.3.9.tar.gz --markdown 20240502/i/iris-pex-embedded-python/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-05-02 12:22:18] INFO root fetch - processPackages [queue-kv]: Remove: archive file [/home/abi/fetcher/tmp/queue_kv-0.1.3.tar.gz]
+[2024-05-02 12:22:18] INFO root fetch - processPackages [queue-kv]: Remove: archive file [/home/abi/fetcher/tmp/queue_kv-0.1.4.tar.gz]
+[2024-05-02 12:22:18] INFO root fetch - processPackages [queue-kv]: Start processing: fps-frontend
+[2024-05-02 12:22:18] INFO root fetch - main [MainThread]: End processing [queue-kv]: success
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-frontend]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-frontend]: Downloading https://files.pythonhosted.org/packages/ce/69/4bbbfbebcddcc6c8c1601f37bc1aa96c1da5bc3385608a7e4c9c521b942b/fps_frontend-0.5.1.tar.gz
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-auth]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth-0.5.1.tar.gz]
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-auth]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth-0.5.2.tar.gz]
+[2024-05-02 12:22:18] INFO root fetch - processPackages [fps-auth]: Start processing: e2enetworks
+[2024-05-02 12:22:18] INFO root fetch - main [MainThread]: End processing [fps-auth]: success
+[2024-05-02 12:22:19] INFO root fetch - processPackages [jupyverse-api]: Remove: archive file [/home/abi/fetcher/tmp/jupyverse_api-0.5.1.tar.gz]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [jupyverse-api]: Remove: archive file [/home/abi/fetcher/tmp/jupyverse_api-0.5.2.tar.gz]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [jupyverse-api]: Start processing: fps-jupyterlab
+[2024-05-02 12:22:19] INFO root fetch - main [MainThread]: End processing [jupyverse-api]: success
+[2024-05-02 12:22:19] INFO root fetch - processPackages [e2enetworks]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-frontend]: Downloading https://files.pythonhosted.org/packages/7c/5a/c029bf479fb900a068b820e69c11d4456eb2687b60fa65e779c38ccc13bd/fps_frontend-0.5.2.tar.gz
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-jupyterlab]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-frontend]: executing diffoscope
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_frontend-0.5.1.tar.gz tmp/fps_frontend-0.5.2.tar.gz --markdown 20240502/f/fps-frontend/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-auth-fief]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth_fief-0.5.1.tar.gz]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-auth-fief]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth_fief-0.5.2.tar.gz]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-auth-fief]: Start processing: fps-kernels
+[2024-05-02 12:22:19] INFO root fetch - main [MainThread]: End processing [fps-auth-fief]: success
+[2024-05-02 12:22:19] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/f6/c3/ea8b7707b017075a12ef0e42f039129053720da2f041a145c9ba58c414da/e2enetworks-1.2.3.tar.gz
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-contents]: Remove: archive file [/home/abi/fetcher/tmp/fps_contents-0.5.1.tar.gz]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-contents]: Remove: archive file [/home/abi/fetcher/tmp/fps_contents-0.5.2.tar.gz]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-contents]: Start processing: fps-lab
+[2024-05-02 12:22:19] INFO root fetch - main [MainThread]: End processing [fps-contents]: success
+[2024-05-02 12:22:19] INFO root fetch - processPackages [imviz]: Remove: archive file [/home/abi/fetcher/tmp/imviz-0.2.3.tar.gz]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [imviz]: Remove: archive file [/home/abi/fetcher/tmp/imviz-0.2.4.tar.gz]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [imviz]: Start processing: fps-nbconvert
+[2024-05-02 12:22:19] INFO root fetch - main [MainThread]: End processing [imviz]: success
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-kernels]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-auth-jupyterhub]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth_jupyterhub-0.5.1.tar.gz]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-auth-jupyterhub]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth_jupyterhub-0.5.2.tar.gz]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-auth-jupyterhub]: Start processing: fps-notebook
+[2024-05-02 12:22:19] INFO root fetch - main [MainThread]: End processing [fps-auth-jupyterhub]: success
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-noauth]: Remove: archive file [/home/abi/fetcher/tmp/fps_noauth-0.5.1.tar.gz]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-noauth]: Remove: archive file [/home/abi/fetcher/tmp/fps_noauth-0.5.2.tar.gz]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-noauth]: Start processing: fps-terminals
+[2024-05-02 12:22:19] INFO root fetch - main [MainThread]: End processing [fps-noauth]: success
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-jupyterlab]: Downloading https://files.pythonhosted.org/packages/00/ae/2a9ef409408932610294962291752ae863103a2d95ab7c3938d4d326ea83/fps_jupyterlab-0.5.1.tar.gz
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-lab]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-nbconvert]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-notebook]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-terminals]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/b2/f3/2fa2a872a06a4c9a2fdee4ba289d6adb617720ce85b9945d6ef06b69a9f7/e2enetworks-1.2.4.tar.gz
+[2024-05-02 12:22:19] INFO root fetch - processPackages [iris-pex-embedded-python]: Remove: archive file [/home/abi/fetcher/tmp/iris_pex_embedded_python-2.3.8.tar.gz]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [iris-pex-embedded-python]: Remove: archive file [/home/abi/fetcher/tmp/iris_pex_embedded_python-2.3.9.tar.gz]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [iris-pex-embedded-python]: Start processing: fps-yjs
+[2024-05-02 12:22:19] INFO root fetch - main [MainThread]: End processing [iris-pex-embedded-python]: success
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-kernels]: Downloading https://files.pythonhosted.org/packages/72/17/517190787edfc384b62444c729aa56798b87c0aabe2ea7721bea0549e6de/fps_kernels-0.5.1.tar.gz
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-lab]: Downloading https://files.pythonhosted.org/packages/6c/33/e734b585a127397eed7aec75793e5450e44dabe814f31934415a7be9bf3b/fps_lab-0.5.1.tar.gz
+[2024-05-02 12:22:19] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2024-05-02 12:22:19] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-1.2.3.tar.gz tmp/e2enetworks-1.2.4.tar.gz --markdown 20240502/e/e2enetworks/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-jupyterlab]: Downloading https://files.pythonhosted.org/packages/6e/45/353adb383a345356f2eeaf0cf31eee50b885e3859da1cbe39a43648b423c/fps_jupyterlab-0.5.2.tar.gz
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-yjs]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-nbconvert]: Downloading https://files.pythonhosted.org/packages/c6/fd/ad7d820ce19d62d518e68b38ca949277be27ec40faa96330f5d64fa9c9a6/fps_nbconvert-0.5.1.tar.gz
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-notebook]: Downloading https://files.pythonhosted.org/packages/0b/04/4cb0e4d4daeb7d2fae7bf0e548fde44d000b51856813d35ed8dd3a652540/fps_notebook-0.5.1.tar.gz
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-terminals]: Downloading https://files.pythonhosted.org/packages/8a/35/1b9ba4442629492ae57e3c689052fe7a9ef0f7d49d892afb9de132d69d5f/fps_terminals-0.5.1.tar.gz
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-jupyterlab]: executing diffoscope
+[2024-05-02 12:22:19] INFO root fetch - processPackages [fps-jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_jupyterlab-0.5.1.tar.gz tmp/fps_jupyterlab-0.5.2.tar.gz --markdown 20240502/f/fps-jupyterlab/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-kernels]: Downloading https://files.pythonhosted.org/packages/f3/52/94e0528ebfca1078a638af1123db8a0ea611cf8963d58e14dc6aac5bfc30/fps_kernels-0.5.2.tar.gz
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-frontend]: Remove: archive file [/home/abi/fetcher/tmp/fps_frontend-0.5.1.tar.gz]
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-frontend]: Remove: archive file [/home/abi/fetcher/tmp/fps_frontend-0.5.2.tar.gz]
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-frontend]: Start processing: fps-resource-usage
+[2024-05-02 12:22:20] INFO root fetch - main [MainThread]: End processing [fps-frontend]: success
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-lab]: Downloading https://files.pythonhosted.org/packages/7c/e1/e7457084ad3928762c414d8c3b70a83da5f28e087c1c56aa6e9bf0d1f8b0/fps_lab-0.5.2.tar.gz
+[2024-05-02 12:22:20] INFO root fetch - processPackages [juju]: Remove: archive file [/home/abi/fetcher/tmp/juju-3.3.1.1.tar.gz]
+[2024-05-02 12:22:20] INFO root fetch - processPackages [juju]: Remove: archive file [/home/abi/fetcher/tmp/juju-3.4.0.0.tar.gz]
+[2024-05-02 12:22:20] INFO root fetch - processPackages [juju]: Start processing: absbox
+[2024-05-02 12:22:20] INFO root fetch - main [MainThread]: End processing [juju]: success
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-yjs]: Downloading https://files.pythonhosted.org/packages/d0/96/d02f9aefbaea0ff87a156aa12efe15fda8a62cb47383a3c7328c8475b8d7/fps_yjs-0.5.1.tar.gz
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-notebook]: Downloading https://files.pythonhosted.org/packages/de/c7/282168112bb7f107cb46038b79843fe9accd6fe46e859006cd43448b0484/fps_notebook-0.5.2.tar.gz
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-terminals]: Downloading https://files.pythonhosted.org/packages/bd/02/2554350c149bd9bfb1902c1269133adcfb8e1e4ecd60280c1f6b8f81331e/fps_terminals-0.5.2.tar.gz
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-resource-usage]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:20] INFO root fetch - processPackages [absbox]: New version: [0.9.3] Old Version: [0.8.9]
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-nbconvert]: Downloading https://files.pythonhosted.org/packages/c5/b3/602105b38bcfeea80c32579b97509fca298a4acf19ecb03b6bd5191c198a/fps_nbconvert-0.5.2.tar.gz
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-kernels]: executing diffoscope
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-kernels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_kernels-0.5.1.tar.gz tmp/fps_kernels-0.5.2.tar.gz --markdown 20240502/f/fps-kernels/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-lab]: executing diffoscope
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_lab-0.5.1.tar.gz tmp/fps_lab-0.5.2.tar.gz --markdown 20240502/f/fps-lab/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-notebook]: executing diffoscope
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_notebook-0.5.1.tar.gz tmp/fps_notebook-0.5.2.tar.gz --markdown 20240502/f/fps-notebook/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-terminals]: executing diffoscope
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-terminals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_terminals-0.5.1.tar.gz tmp/fps_terminals-0.5.2.tar.gz --markdown 20240502/f/fps-terminals/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-yjs]: Downloading https://files.pythonhosted.org/packages/68/b4/d0b75a71f92ea5d985a323695d37056891906834cfef8b96f99e510e5f39/fps_yjs-0.5.2.tar.gz
+[2024-05-02 12:22:20] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/f2/f5/d913079148fbe1aebd6fc56849f3245eda346886eb6d2488747d9a978493/AbsBox-0.8.9.tar.gz
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-resource-usage]: Downloading https://files.pythonhosted.org/packages/6f/c7/7961ad7323b5d3220af79bd0f8aa975f5a71a06446abd6a06d4932dfe62d/fps_resource_usage-0.5.1.tar.gz
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-nbconvert]: executing diffoscope
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-nbconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_nbconvert-0.5.1.tar.gz tmp/fps_nbconvert-0.5.2.tar.gz --markdown 20240502/f/fps-nbconvert/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-yjs]: executing diffoscope
+[2024-05-02 12:22:20] INFO root fetch - processPackages [fps-yjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_yjs-0.5.1.tar.gz tmp/fps_yjs-0.5.2.tar.gz --markdown 20240502/f/fps-yjs/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:20] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-1.2.3.tar.gz]
+[2024-05-02 12:22:20] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-1.2.4.tar.gz]
+[2024-05-02 12:22:20] INFO root fetch - processPackages [e2enetworks]: Start processing: fps-login
+[2024-05-02 12:22:20] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-resource-usage]: Downloading https://files.pythonhosted.org/packages/bb/38/ee571adf3c19055f8600baf2ee763800fb5517492b0c5a1bc7b9e1084a06/fps_resource_usage-0.5.2.tar.gz
+[2024-05-02 12:22:21] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/63/df/8bc5a95a40d1cc98f7aa27a8baf79a5df19fa8dc2f6836ff02171d21c08a/AbsBox-0.9.3.tar.gz
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-login]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:22:21] INFO root fetch - processPackages [absbox]: executing diffoscope
+[2024-05-02 12:22:21] INFO root fetch - processPackages [absbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AbsBox-0.8.9.tar.gz tmp/AbsBox-0.9.3.tar.gz --markdown 20240502/a/absbox/0.8.9-0.9.3/README.md --exclude *.pyd
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/fps_jupyterlab-0.5.1.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/fps_jupyterlab-0.5.2.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - main [MainThread]: End processing [fps-jupyterlab]: success
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-resource-usage]: executing diffoscope
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-resource-usage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_resource_usage-0.5.1.tar.gz tmp/fps_resource_usage-0.5.2.tar.gz --markdown 20240502/f/fps-resource-usage/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-lab]: Remove: archive file [/home/abi/fetcher/tmp/fps_lab-0.5.1.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-lab]: Remove: archive file [/home/abi/fetcher/tmp/fps_lab-0.5.2.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - main [MainThread]: End processing [fps-lab]: success
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-login]: Downloading https://files.pythonhosted.org/packages/40/29/78ae6c9ae977f42df0d4345f66ac189d807121d975caab43dbb4339ffc13/fps_login-0.5.1.tar.gz
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-nbconvert]: Remove: archive file [/home/abi/fetcher/tmp/fps_nbconvert-0.5.1.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-nbconvert]: Remove: archive file [/home/abi/fetcher/tmp/fps_nbconvert-0.5.2.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - main [MainThread]: End processing [fps-nbconvert]: success
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-kernels]: Remove: archive file [/home/abi/fetcher/tmp/fps_kernels-0.5.1.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-kernels]: Remove: archive file [/home/abi/fetcher/tmp/fps_kernels-0.5.2.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - main [MainThread]: End processing [fps-kernels]: success
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-notebook]: Remove: archive file [/home/abi/fetcher/tmp/fps_notebook-0.5.1.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-notebook]: Remove: archive file [/home/abi/fetcher/tmp/fps_notebook-0.5.2.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - main [MainThread]: End processing [fps-notebook]: success
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-terminals]: Remove: archive file [/home/abi/fetcher/tmp/fps_terminals-0.5.1.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-terminals]: Remove: archive file [/home/abi/fetcher/tmp/fps_terminals-0.5.2.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - main [MainThread]: End processing [fps-terminals]: success
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-yjs]: Remove: archive file [/home/abi/fetcher/tmp/fps_yjs-0.5.1.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-yjs]: Remove: archive file [/home/abi/fetcher/tmp/fps_yjs-0.5.2.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - main [MainThread]: End processing [fps-yjs]: success
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-login]: Downloading https://files.pythonhosted.org/packages/61/0f/f1b41039b3d27a40130ba395401ea6b5436580214223dc1d0f0593357936/fps_login-0.5.2.tar.gz
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-resource-usage]: Remove: archive file [/home/abi/fetcher/tmp/fps_resource_usage-0.5.1.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - processPackages [fps-resource-usage]: Remove: archive file [/home/abi/fetcher/tmp/fps_resource_usage-0.5.2.tar.gz]
+[2024-05-02 12:22:21] INFO root fetch - main [MainThread]: End processing [fps-resource-usage]: success
+[2024-05-02 12:22:22] INFO root fetch - processPackages [fps-login]: executing diffoscope
+[2024-05-02 12:22:22] INFO root fetch - processPackages [fps-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_login-0.5.1.tar.gz tmp/fps_login-0.5.2.tar.gz --markdown 20240502/f/fps-login/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:22:22] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.8.9.tar.gz]
+[2024-05-02 12:22:22] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.9.3.tar.gz]
+[2024-05-02 12:22:22] INFO root fetch - main [MainThread]: End processing [absbox]: success
+[2024-05-02 12:22:22] INFO root fetch - processPackages [fps-login]: Remove: archive file [/home/abi/fetcher/tmp/fps_login-0.5.1.tar.gz]
+[2024-05-02 12:22:22] INFO root fetch - processPackages [fps-login]: Remove: archive file [/home/abi/fetcher/tmp/fps_login-0.5.2.tar.gz]
+[2024-05-02 12:22:22] INFO root fetch - main [MainThread]: End processing [fps-login]: success
+[2024-05-02 12:22:22] INFO root fetch - main [MainThread]: Store serial: [23029464]
