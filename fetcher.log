@@ -19142,3 +19142,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 14:14:37] INFO root fetch - processPackages [opentrons]: Remove: archive file [/home/abi/fetcher/tmp/opentrons-7.3.0a0.tar.gz]
 [2024-05-02 14:14:38] INFO root fetch - main [MainThread]: End processing [opentrons]: success
 [2024-05-02 14:14:38] INFO root fetch - main [MainThread]: Store serial: [23030597]
+[2024-05-02 14:16:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030597]
+[2024-05-02 14:16:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 14:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: joblib
+[2024-05-02 14:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkov
+[2024-05-02 14:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytypedmatrix
+[2024-05-02 14:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anipie
+[2024-05-02 14:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imio.smartweb.common
+[2024-05-02 14:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deltachat-chatbot
+[2024-05-02 14:16:47] INFO root fetch - processPackages [anipie]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 14:16:47] INFO root fetch - processPackages [joblib]: New version: [1.4.2] Old Version: [1.4.0]
+[2024-05-02 14:16:47] INFO root fetch - processPackages [imio.smartweb.common]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-02 14:16:47] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-02 14:16:47] INFO root fetch - processPackages [deltachat-chatbot]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-02 14:16:47] INFO root fetch - processPackages [anipie]: Downloading https://files.pythonhosted.org/packages/4d/68/2278c86e11369dc685aa40c65c6b87bc8a42657590fee504fb2eef3e28ea/anipie-0.0.8.tar.gz
+[2024-05-02 14:16:47] INFO root fetch - processPackages [joblib]: Downloading https://files.pythonhosted.org/packages/7c/c3/94c9e4886e8f33832690ab48fdac4a121a7bfec3e2c044c9f2762aa9068e/joblib-1.4.0.tar.gz
+[2024-05-02 14:16:47] WARNING root fetch - processPackages [pytypedmatrix]: Skipping, unable to determine old version
+[2024-05-02 14:16:47] INFO root fetch - main [MainThread]: End processing [pytypedmatrix] error
+[2024-05-02 14:16:47] INFO root fetch - processPackages [imio.smartweb.common]: Downloading https://files.pythonhosted.org/packages/a8/10/446f945c7faaeda4e31be5b66463c99b6a78ed1a1729a1241a0433d74d14/imio.smartweb.common-1.2.8.tar.gz
+[2024-05-02 14:16:47] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/88/07/1509be74cf47a29b012a6f7477139e57bee2a7d01634b6bd6a71d095ace8/checkov-3.2.8.tar.gz
+[2024-05-02 14:16:47] INFO root fetch - processPackages [deltachat-chatbot]: Downloading https://files.pythonhosted.org/packages/89/91/856d87058d690b2147f06a462f61a3ed05ffb8bbfdcd9b134f713ad4d762/deltachat_chatbot-0.1.0-py3-none-any.whl
+[2024-05-02 14:16:47] INFO root fetch - processPackages [anipie]: Downloading https://files.pythonhosted.org/packages/d5/9d/964081b1645daa3a0c3fb84dc0c0c94dcf2d69e3d69b6cc44ccde87bbab7/anipie-0.0.9.tar.gz
+[2024-05-02 14:16:47] INFO root fetch - processPackages [imio.smartweb.common]: Downloading https://files.pythonhosted.org/packages/91/5e/d0034350465921f436497838bf83b0a442bcbce6d7ad0120d81ad61da38c/imio.smartweb.common-1.2.9.tar.gz
+[2024-05-02 14:16:47] INFO root fetch - processPackages [anipie]: executing diffoscope
+[2024-05-02 14:16:47] INFO root fetch - processPackages [anipie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anipie-0.0.8.tar.gz tmp/anipie-0.0.9.tar.gz --markdown 20240502/a/anipie/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 14:16:47] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-05-02 14:16:47] INFO root fetch - processPackages [imio.smartweb.common]: executing diffoscope
+[2024-05-02 14:16:47] INFO root fetch - processPackages [imio.smartweb.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.common-1.2.8.tar.gz tmp/imio.smartweb.common-1.2.9.tar.gz --markdown 20240502/i/imio.smartweb.common/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-02 14:16:47] INFO root fetch - processPackages [joblib]: Downloading https://files.pythonhosted.org/packages/64/33/60135848598c076ce4b231e1b1895170f45fbcaeaa2c9d5e38b04db70c35/joblib-1.4.2.tar.gz
+[2024-05-02 14:16:48] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-02 14:16:48] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.8.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240502/c/checkov/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-02 14:16:48] INFO root fetch - processPackages [deltachat-chatbot]: Downloading https://files.pythonhosted.org/packages/8b/a9/c1eb998c5b03882c89fd2fb2c21c72438bc967e943a20fa58e8bfdcc7dcf/deltachat_chatbot-0.2.0-py3-none-any.whl
+[2024-05-02 14:16:48] INFO root fetch - processPackages [joblib]: executing diffoscope
+[2024-05-02 14:16:48] INFO root fetch - processPackages [joblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joblib-1.4.0.tar.gz tmp/joblib-1.4.2.tar.gz --markdown 20240502/j/joblib/1.4.0-1.4.2/README.md --exclude *.pyd
+[2024-05-02 14:16:48] INFO root fetch - processPackages [deltachat-chatbot]: executing diffoscope
+[2024-05-02 14:16:48] INFO root fetch - processPackages [deltachat-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat_chatbot-0.1.0-py3-none-any.whl.zip tmp/deltachat_chatbot-0.2.0-py3-none-any.whl.zip --markdown 20240502/d/deltachat-chatbot/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-02 14:16:48] INFO root fetch - processPackages [anipie]: Remove: archive file [/home/abi/fetcher/tmp/anipie-0.0.8.tar.gz]
+[2024-05-02 14:16:48] INFO root fetch - processPackages [anipie]: Remove: archive file [/home/abi/fetcher/tmp/anipie-0.0.9.tar.gz]
+[2024-05-02 14:16:48] INFO root fetch - main [MainThread]: End processing [anipie]: success
+[2024-05-02 14:16:48] INFO root fetch - processPackages [deltachat-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/deltachat_chatbot-0.1.0-py3-none-any.whl.zip]
+[2024-05-02 14:16:48] INFO root fetch - processPackages [deltachat-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/deltachat_chatbot-0.2.0-py3-none-any.whl.zip]
+[2024-05-02 14:16:48] INFO root fetch - main [MainThread]: End processing [deltachat-chatbot]: success
+[2024-05-02 14:16:49] INFO root fetch - processPackages [imio.smartweb.common]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.common-1.2.8.tar.gz]
+[2024-05-02 14:16:49] INFO root fetch - processPackages [imio.smartweb.common]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.common-1.2.9.tar.gz]
+[2024-05-02 14:16:49] INFO root fetch - main [MainThread]: End processing [imio.smartweb.common]: success
+[2024-05-02 14:16:51] INFO root fetch - processPackages [joblib]: Remove: archive file [/home/abi/fetcher/tmp/joblib-1.4.0.tar.gz]
+[2024-05-02 14:16:51] INFO root fetch - processPackages [joblib]: Remove: archive file [/home/abi/fetcher/tmp/joblib-1.4.2.tar.gz]
+[2024-05-02 14:16:51] INFO root fetch - main [MainThread]: End processing [joblib]: success
+[2024-05-02 14:16:57] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.8.tar.gz]
+[2024-05-02 14:16:57] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-05-02 14:16:57] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-02 14:16:57] INFO root fetch - main [MainThread]: Store serial: [23030616]
