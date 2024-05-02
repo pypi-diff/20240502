@@ -10319,3 +10319,78 @@
 [2024-05-02 08:12:23] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.2.0.tar.gz]
 [2024-05-02 08:12:23] INFO root fetch - main [MainThread]: End processing [laktory]: success
 [2024-05-02 08:12:23] INFO root fetch - main [MainThread]: Store serial: [23026862]
+[2024-05-02 08:14:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026862]
+[2024-05-02 08:14:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git_alert
+[2024-05-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maspy-ml
+[2024-05-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qai-server
+[2024-05-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: h2ogpte
+[2024-05-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-awscdk-resolver
+[2024-05-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fake-bpy-module-latest
+[2024-05-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pretext
+[2024-05-02 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fake-bpy-module
+[2024-05-02 08:14:32] INFO root fetch - processPackages [qai-server]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-02 08:14:32] INFO root fetch - processPackages [git_alert]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-02 08:14:32] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.93] Old Version: [0.0.92]
+[2024-05-02 08:14:32] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240501] Old Version: [20240430]
+[2024-05-02 08:14:32] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240501] Old Version: [20240430]
+[2024-05-02 08:14:32] INFO root fetch - processPackages [pretext]: New version: [2.4.0] Old Version: [2.3.9.dev20240302]
+[2024-05-02 08:14:32] INFO root fetch - processPackages [maspy-ml]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-05-02 08:14:32] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/60/59/25a10a7cf31cbb534d6908359cd6b7e5a29ee3bff71e3bd76a61eeffd0e6/qai_server-0.5.0.tar.gz
+[2024-05-02 08:14:32] INFO root fetch - processPackages [h2ogpte]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-02 08:14:32] INFO root fetch - processPackages [git_alert]: Downloading https://files.pythonhosted.org/packages/72/1b/c593b0c58bcbe7a662ac8c76b691175444b674b513cc0748f14f4539962a/git_alert-0.3.0.tar.gz
+[2024-05-02 08:14:32] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/fa/d8/157dbb0551d158d32670136c11c64e4012ba388f20bd2181b9a1fbfa603e/cdk8s-awscdk-resolver-0.0.92.tar.gz
+[2024-05-02 08:14:33] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/4b/e4/c209d643b202171b795db399ee2167c2393b1acaae277b7f2bc9e2d3956d/fake_bpy_module-20240430.tar.gz
+[2024-05-02 08:14:33] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/3f/2d/22e687f1fb945aeb16176a4f9c25da1aab63664c88cd2966d7ad79f1b144/pretext-2.3.9.dev20240302.tar.gz
+[2024-05-02 08:14:33] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/09/32/ea037c5bf6d9eee3840db802ed317aca2cb9de86ba166bc72150ebe33cb3/fake_bpy_module_latest-20240430.tar.gz
+[2024-05-02 08:14:33] INFO root fetch - processPackages [maspy-ml]: Downloading https://files.pythonhosted.org/packages/00/a8/af172ceb3b104e380fc88cd11cbdff1b7324ed0407da147c62167eedda88/maspy-ml-0.0.4.tar.gz
+[2024-05-02 08:14:33] INFO root fetch - processPackages [h2ogpte]: Downloading https://files.pythonhosted.org/packages/8b/e0/69b0902722adb7c3f55c933cea5b4b875c48c02759e7d0f86516d6313b47/h2ogpte-1.4.8-py3-none-any.whl
+[2024-05-02 08:14:33] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/98/60/88ff2e384027ab3868b690b0a37c2bcff541188c64e070b467eb88112e05/qai_server-0.5.1.tar.gz
+[2024-05-02 08:14:33] INFO root fetch - processPackages [qai-server]: executing diffoscope
+[2024-05-02 08:14:33] INFO root fetch - processPackages [qai-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_server-0.5.0.tar.gz tmp/qai_server-0.5.1.tar.gz --markdown 20240502/q/qai-server/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-02 08:14:33] INFO root fetch - processPackages [git_alert]: Downloading https://files.pythonhosted.org/packages/a3/ca/d469e62d1c386440a43fa583d5064be4143300352ed260dd4fe2981def74/git_alert-0.3.1.tar.gz
+[2024-05-02 08:14:33] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/b6/d8/6827d1c869dc15277f3d8b70d5cf96a0908f144909388d93782e7662c1cc/cdk8s-awscdk-resolver-0.0.93.tar.gz
+[2024-05-02 08:14:33] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/26/18/4b4b0abc4962058cf961ce578563f25d524beb29086e5d4b685137a0d195/pretext-2.4.0.tar.gz
+[2024-05-02 08:14:33] INFO root fetch - processPackages [git_alert]: executing diffoscope
+[2024-05-02 08:14:33] INFO root fetch - processPackages [git_alert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_alert-0.3.0.tar.gz tmp/git_alert-0.3.1.tar.gz --markdown 20240502/g/git_alert/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-02 08:14:33] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/09/4b/c285f004a243d54229f44af82b06ae922b2c9e5ed6a032fbc87952cf6701/fake_bpy_module_latest-20240501.tar.gz
+[2024-05-02 08:14:33] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/6e/7d/7d1b90a4d5e586976c5f2307e671c0674de5bf3d5223b21544ac96fec577/fake_bpy_module-20240501.tar.gz
+[2024-05-02 08:14:33] INFO root fetch - processPackages [maspy-ml]: Downloading https://files.pythonhosted.org/packages/f4/5d/e468fa5f62653de1422ce52ee2b752bd18fdd1d056a44837e86ecc4000f8/maspy-ml-0.1.0.tar.gz
+[2024-05-02 08:14:33] INFO root fetch - processPackages [h2ogpte]: Downloading https://files.pythonhosted.org/packages/2c/bb/ece6cc3a49ef7a8c9729b91d6b3e5dcfd2c20fba522b1f27e1115edafd00/h2ogpte-1.4.9-py3-none-any.whl
+[2024-05-02 08:14:33] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-05-02 08:14:33] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.92.tar.gz tmp/cdk8s-awscdk-resolver-0.0.93.tar.gz --markdown 20240502/c/cdk8s-awscdk-resolver/0.0.92-0.0.93/README.md --exclude *.pyd
+[2024-05-02 08:14:33] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-02 08:14:33] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240430.tar.gz tmp/fake_bpy_module_latest-20240501.tar.gz --markdown 20240502/f/fake-bpy-module-latest/20240430-20240501/README.md --exclude *.pyd
+[2024-05-02 08:14:33] INFO root fetch - processPackages [maspy-ml]: executing diffoscope
+[2024-05-02 08:14:33] INFO root fetch - processPackages [maspy-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maspy-ml-0.0.4.tar.gz tmp/maspy-ml-0.1.0.tar.gz --markdown 20240502/m/maspy-ml/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-05-02 08:14:33] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-05-02 08:14:33] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240430.tar.gz tmp/fake_bpy_module-20240501.tar.gz --markdown 20240502/f/fake-bpy-module/20240430-20240501/README.md --exclude *.pyd
+[2024-05-02 08:14:33] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2024-05-02 08:14:33] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-2.3.9.dev20240302.tar.gz tmp/pretext-2.4.0.tar.gz --markdown 20240502/p/pretext/2.3.9.dev20240302-2.4.0/README.md --exclude *.pyd
+[2024-05-02 08:14:33] INFO root fetch - processPackages [h2ogpte]: executing diffoscope
+[2024-05-02 08:14:33] INFO root fetch - processPackages [h2ogpte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2ogpte-1.4.8-py3-none-any.whl.zip tmp/h2ogpte-1.4.9-py3-none-any.whl.zip --markdown 20240502/h/h2ogpte/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-02 08:14:34] INFO root fetch - processPackages [qai-server]: Remove: archive file [/home/abi/fetcher/tmp/qai_server-0.5.0.tar.gz]
+[2024-05-02 08:14:34] INFO root fetch - processPackages [qai-server]: Remove: archive file [/home/abi/fetcher/tmp/qai_server-0.5.1.tar.gz]
+[2024-05-02 08:14:34] INFO root fetch - main [MainThread]: End processing [qai-server]: success
+[2024-05-02 08:14:34] INFO root fetch - processPackages [git_alert]: Remove: archive file [/home/abi/fetcher/tmp/git_alert-0.3.0.tar.gz]
+[2024-05-02 08:14:34] INFO root fetch - processPackages [git_alert]: Remove: archive file [/home/abi/fetcher/tmp/git_alert-0.3.1.tar.gz]
+[2024-05-02 08:14:34] INFO root fetch - main [MainThread]: End processing [git_alert]: success
+[2024-05-02 08:14:34] INFO root fetch - processPackages [maspy-ml]: Remove: archive file [/home/abi/fetcher/tmp/maspy-ml-0.0.4.tar.gz]
+[2024-05-02 08:14:34] INFO root fetch - processPackages [maspy-ml]: Remove: archive file [/home/abi/fetcher/tmp/maspy-ml-0.1.0.tar.gz]
+[2024-05-02 08:14:34] INFO root fetch - main [MainThread]: End processing [maspy-ml]: success
+[2024-05-02 08:14:34] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.92.tar.gz]
+[2024-05-02 08:14:34] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.93.tar.gz]
+[2024-05-02 08:14:34] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-05-02 08:14:34] INFO root fetch - processPackages [h2ogpte]: Remove: archive file [/home/abi/fetcher/tmp/h2ogpte-1.4.8-py3-none-any.whl.zip]
+[2024-05-02 08:14:34] INFO root fetch - processPackages [h2ogpte]: Remove: archive file [/home/abi/fetcher/tmp/h2ogpte-1.4.9-py3-none-any.whl.zip]
+[2024-05-02 08:14:34] INFO root fetch - main [MainThread]: End processing [h2ogpte]: success
+[2024-05-02 08:14:37] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240302.tar.gz]
+[2024-05-02 08:14:37] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.4.0.tar.gz]
+[2024-05-02 08:14:37] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2024-05-02 08:14:42] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240430.tar.gz]
+[2024-05-02 08:14:42] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240501.tar.gz]
+[2024-05-02 08:14:42] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-02 08:14:42] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240430.tar.gz]
+[2024-05-02 08:14:42] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240501.tar.gz]
+[2024-05-02 08:14:42] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-05-02 08:14:42] INFO root fetch - main [MainThread]: Store serial: [23026886]
