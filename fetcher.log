@@ -10790,3 +10790,42 @@
 [2024-05-02 08:37:45] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.1.dev3-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-02 08:37:45] INFO root fetch - main [MainThread]: End processing [generate-tools]: success
 [2024-05-02 08:37:45] INFO root fetch - main [MainThread]: Store serial: [23027040]
+[2024-05-02 08:39:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027040]
+[2024-05-02 08:39:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wkutils
+[2024-05-02 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musicnotes
+[2024-05-02 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: model-explorer
+[2024-05-02 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adcl
+[2024-05-02 08:39:56] INFO root fetch - processPackages [musicnotes]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 08:39:56] INFO root fetch - processPackages [wkutils]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-02 08:39:56] INFO root fetch - processPackages [adcl]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 08:39:56] INFO root fetch - processPackages [model-explorer]: New version: [0.0.84] Old Version: [0.0.83]
+[2024-05-02 08:39:56] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/1a/55/a0bec7d3f70e7932bb08d38f33aa5a307362c1e1a8fb9888eb6c7f80f21b/musicnotes-1.0.8.tar.gz
+[2024-05-02 08:39:56] INFO root fetch - processPackages [wkutils]: Downloading https://files.pythonhosted.org/packages/fe/cb/aded8e5a9f5d7ef7cc56ab52699c7c6a9d2c2345f56e5ac8c3473bce5aa3/wkutils-0.0.2.tar.gz
+[2024-05-02 08:39:56] INFO root fetch - processPackages [adcl]: Downloading https://files.pythonhosted.org/packages/87/90/d56780944352549d9df1c6a7cbff40fa2d6c8e3c3da3547b45562942ba0a/adcl-0.1.0.tar.gz
+[2024-05-02 08:39:56] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/ba/83/70eeb50e03eedff91f828778b881ad82609dc38147a3d65e484c959487df/model_explorer-0.0.83.tar.gz
+[2024-05-02 08:39:56] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/38/2f/e335b95c786beb14cc53b620c47531ecf29eec3c369a03cb3db9f0728cc4/musicnotes-1.0.9.tar.gz
+[2024-05-02 08:39:56] INFO root fetch - processPackages [wkutils]: Downloading https://files.pythonhosted.org/packages/8a/14/82047658243d892ca55cf950f9dab4f43438d3516569fed73fa8a8953ff7/wkutils-0.0.3.tar.gz
+[2024-05-02 08:39:56] INFO root fetch - processPackages [wkutils]: executing diffoscope
+[2024-05-02 08:39:56] INFO root fetch - processPackages [wkutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wkutils-0.0.2.tar.gz tmp/wkutils-0.0.3.tar.gz --markdown 20240502/w/wkutils/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-02 08:39:56] INFO root fetch - processPackages [musicnotes]: executing diffoscope
+[2024-05-02 08:39:56] INFO root fetch - processPackages [musicnotes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicnotes-1.0.8.tar.gz tmp/musicnotes-1.0.9.tar.gz --markdown 20240502/m/musicnotes/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 08:39:56] INFO root fetch - processPackages [adcl]: Downloading https://files.pythonhosted.org/packages/67/8a/864cfb027d004e043e3ac9734340468e79af8adfe9dae1db952c2a750e88/adcl-0.1.1.tar.gz
+[2024-05-02 08:39:57] INFO root fetch - processPackages [adcl]: executing diffoscope
+[2024-05-02 08:39:57] INFO root fetch - processPackages [adcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adcl-0.1.0.tar.gz tmp/adcl-0.1.1.tar.gz --markdown 20240502/a/adcl/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 08:39:57] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/7a/d4/1c9a629dbb4b70e33f5bfec4dfff6f2c576c4ca4d4afd7feb816240872b3/model_explorer-0.0.84.tar.gz
+[2024-05-02 08:39:57] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-05-02 08:39:57] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_explorer-0.0.83.tar.gz tmp/model_explorer-0.0.84.tar.gz --markdown 20240502/m/model-explorer/0.0.83-0.0.84/README.md --exclude *.pyd
+[2024-05-02 08:39:57] INFO root fetch - processPackages [wkutils]: Remove: archive file [/home/abi/fetcher/tmp/wkutils-0.0.2.tar.gz]
+[2024-05-02 08:39:57] INFO root fetch - processPackages [wkutils]: Remove: archive file [/home/abi/fetcher/tmp/wkutils-0.0.3.tar.gz]
+[2024-05-02 08:39:57] INFO root fetch - main [MainThread]: End processing [wkutils]: success
+[2024-05-02 08:39:57] INFO root fetch - processPackages [adcl]: Remove: archive file [/home/abi/fetcher/tmp/adcl-0.1.0.tar.gz]
+[2024-05-02 08:39:57] INFO root fetch - processPackages [adcl]: Remove: archive file [/home/abi/fetcher/tmp/adcl-0.1.1.tar.gz]
+[2024-05-02 08:39:57] INFO root fetch - main [MainThread]: End processing [adcl]: success
+[2024-05-02 08:39:57] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.8.tar.gz]
+[2024-05-02 08:39:57] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.9.tar.gz]
+[2024-05-02 08:39:57] INFO root fetch - main [MainThread]: End processing [musicnotes]: success
+[2024-05-02 08:40:07] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.83.tar.gz]
+[2024-05-02 08:40:07] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.84.tar.gz]
+[2024-05-02 08:40:07] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-05-02 08:40:07] INFO root fetch - main [MainThread]: Store serial: [23027052]
