@@ -10912,3 +10912,54 @@
 [2024-05-02 08:44:30] INFO root fetch - processPackages [crewai-tools]: Remove: archive file [/home/abi/fetcher/tmp/crewai_tools-0.2.0.tar.gz]
 [2024-05-02 08:44:30] INFO root fetch - main [MainThread]: End processing [crewai-tools]: success
 [2024-05-02 08:44:30] INFO root fetch - main [MainThread]: Store serial: [23027088]
+[2024-05-02 08:46:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027088]
+[2024-05-02 08:46:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Xurpas-Data-Quality-Report
+[2024-05-02 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Xurpas-Data-Quality-Report
+[2024-05-02 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guanin
+[2024-05-02 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-ruff
+[2024-05-02 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-inventory
+[2024-05-02 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adcl
+[2024-05-02 08:46:39] INFO root fetch - processPackages [adcl]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 08:46:39] INFO root fetch - processPackages [guanin]: New version: [1.2.9.3] Old Version: [1.2.9.2]
+[2024-05-02 08:46:39] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-02 08:46:39] INFO root fetch - processPackages [Xurpas-Data-Quality-Report]: New version: [0.1] Old Version: [0.0.1]
+[2024-05-02 08:46:39] INFO root fetch - processPackages [Xurpas-Data-Quality-Report]: New version: [0.1] Old Version: [0.0.1]
+[2024-05-02 08:46:39] INFO root fetch - processPackages [adcl]: Downloading https://files.pythonhosted.org/packages/87/90/d56780944352549d9df1c6a7cbff40fa2d6c8e3c3da3547b45562942ba0a/adcl-0.1.0.tar.gz
+[2024-05-02 08:46:39] INFO root fetch - processPackages [pytest-ruff]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-02 08:46:39] INFO root fetch - processPackages [guanin]: Downloading https://files.pythonhosted.org/packages/14/38/d12a3a18d8ccbf137ecf5304c2f1805e10c91446113725e93415a6f6c0ff/guanin-1.2.9.2.tar.gz
+[2024-05-02 08:46:39] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-02 08:46:39] WARNING root fetch - processPackages [guanin]: Skipping package: exceeds size limit 11010614>=10485760
+[2024-05-02 08:46:39] INFO root fetch - main [MainThread]: End processing [guanin] error
+[2024-05-02 08:46:39] INFO root fetch - processPackages [Xurpas-Data-Quality-Report]: Downloading https://files.pythonhosted.org/packages/5e/6b/4e6685013a6dfec3a71574b7145491c7bbd24cf01b74ff0f21e8eac0b843/Xurpas_Data_Quality_Report-0.0.1-py3-none-any.whl
+[2024-05-02 08:46:39] INFO root fetch - processPackages [Xurpas-Data-Quality-Report]: Downloading https://files.pythonhosted.org/packages/5e/6b/4e6685013a6dfec3a71574b7145491c7bbd24cf01b74ff0f21e8eac0b843/Xurpas_Data_Quality_Report-0.0.1-py3-none-any.whl
+[2024-05-02 08:46:39] INFO root fetch - processPackages [pytest-ruff]: Downloading https://files.pythonhosted.org/packages/93/85/65daa94d5e3a3fd3d74fe1a3dbe772943e5aa63e78bc2d90d019de45ba35/pytest_ruff-0.3.1.tar.gz
+[2024-05-02 08:46:39] INFO root fetch - processPackages [adcl]: Downloading https://files.pythonhosted.org/packages/67/8a/864cfb027d004e043e3ac9734340468e79af8adfe9dae1db952c2a750e88/adcl-0.1.1.tar.gz
+[2024-05-02 08:46:39] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-02 08:46:40] INFO root fetch - processPackages [adcl]: executing diffoscope
+[2024-05-02 08:46:40] INFO root fetch - processPackages [adcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adcl-0.1.0.tar.gz tmp/adcl-0.1.1.tar.gz --markdown 20240502/a/adcl/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 08:46:40] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-02 08:46:40] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240502/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-02 08:46:40] INFO root fetch - processPackages [Xurpas-Data-Quality-Report]: Downloading https://files.pythonhosted.org/packages/59/55/68c8cc0b369d2800cca9d3dcd35aec18e7f984b1b35555078cf114af4cb5/Xurpas_Data_Quality_Report-0.1-py3-none-any.whl
+[2024-05-02 08:46:40] INFO root fetch - processPackages [Xurpas-Data-Quality-Report]: Downloading https://files.pythonhosted.org/packages/59/55/68c8cc0b369d2800cca9d3dcd35aec18e7f984b1b35555078cf114af4cb5/Xurpas_Data_Quality_Report-0.1-py3-none-any.whl
+[2024-05-02 08:46:40] INFO root fetch - processPackages [pytest-ruff]: Downloading https://files.pythonhosted.org/packages/89/88/591cbcb3d84650c7ff4b6b679258fc2c6a9f3b9d1a439a4ba45ca940a043/pytest_ruff-0.3.2.tar.gz
+[2024-05-02 08:46:40] INFO root fetch - processPackages [Xurpas-Data-Quality-Report]: executing diffoscope
+[2024-05-02 08:46:40] INFO root fetch - processPackages [Xurpas-Data-Quality-Report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Xurpas_Data_Quality_Report-0.0.1-py3-none-any.whl.zip tmp/Xurpas_Data_Quality_Report-0.1-py3-none-any.whl.zip --markdown 20240502/X/Xurpas-Data-Quality-Report/0.0.1-0.1/README.md --exclude *.pyd
+[2024-05-02 08:46:40] INFO root fetch - processPackages [Xurpas-Data-Quality-Report]: executing diffoscope
+[2024-05-02 08:46:40] INFO root fetch - processPackages [Xurpas-Data-Quality-Report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Xurpas_Data_Quality_Report-0.0.1-py3-none-any.whl.zip tmp/Xurpas_Data_Quality_Report-0.1-py3-none-any.whl.zip --markdown 20240502/X/Xurpas-Data-Quality-Report/0.0.1-0.1/README.md --exclude *.pyd
+[2024-05-02 08:46:40] INFO root fetch - processPackages [pytest-ruff]: executing diffoscope
+[2024-05-02 08:46:40] INFO root fetch - processPackages [pytest-ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_ruff-0.3.1.tar.gz tmp/pytest_ruff-0.3.2.tar.gz --markdown 20240502/p/pytest-ruff/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-02 08:46:40] INFO root fetch - processPackages [adcl]: Remove: archive file [/home/abi/fetcher/tmp/adcl-0.1.0.tar.gz]
+[2024-05-02 08:46:40] INFO root fetch - processPackages [adcl]: Remove: archive file [/home/abi/fetcher/tmp/adcl-0.1.1.tar.gz]
+[2024-05-02 08:46:40] INFO root fetch - main [MainThread]: End processing [adcl]: success
+[2024-05-02 08:46:40] INFO root fetch - processPackages [Xurpas-Data-Quality-Report]: Remove: archive file [/home/abi/fetcher/tmp/Xurpas_Data_Quality_Report-0.0.1-py3-none-any.whl.zip]
+[2024-05-02 08:46:40] INFO root fetch - processPackages [Xurpas-Data-Quality-Report]: Remove: archive file [/home/abi/fetcher/tmp/Xurpas_Data_Quality_Report-0.1-py3-none-any.whl.zip]
+[2024-05-02 08:46:40] INFO root fetch - main [MainThread]: End processing [Xurpas-Data-Quality-Report]: success
+[2024-05-02 08:46:40] INFO root fetch - main [MainThread]: End processing [Xurpas-Data-Quality-Report]: success
+[2024-05-02 08:46:41] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-02 08:46:41] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-02 08:46:41] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-02 08:46:41] INFO root fetch - processPackages [pytest-ruff]: Remove: archive file [/home/abi/fetcher/tmp/pytest_ruff-0.3.1.tar.gz]
+[2024-05-02 08:46:41] INFO root fetch - processPackages [pytest-ruff]: Remove: archive file [/home/abi/fetcher/tmp/pytest_ruff-0.3.2.tar.gz]
+[2024-05-02 08:46:41] INFO root fetch - main [MainThread]: End processing [pytest-ruff]: success
+[2024-05-02 08:46:41] INFO root fetch - main [MainThread]: Store serial: [23027109]
