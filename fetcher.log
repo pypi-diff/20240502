@@ -12340,3 +12340,36 @@
 [2024-05-02 09:52:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-02 09:52:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-02 09:52:58] INFO root fetch - main [MainThread]: Store serial: [23027732]
+[2024-05-02 09:55:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027732]
+[2024-05-02 09:55:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 09:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-05-02 09:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-cdk
+[2024-05-02 09:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sidradataquality
+[2024-05-02 09:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itwingstestsproject
+[2024-05-02 09:55:08] WARNING root fetch - processPackages [itwingstestsproject]: Skipping, unable to determine old version
+[2024-05-02 09:55:08] INFO root fetch - main [MainThread]: End processing [itwingstestsproject] error
+[2024-05-02 09:55:08] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-02 09:55:09] INFO root fetch - processPackages [sidradataquality]: New version: [1.0.5.post84] Old Version: [1.0.4.post82]
+[2024-05-02 09:55:09] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-02 09:55:09] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-02 09:55:09] INFO root fetch - processPackages [sidradataquality]: Downloading https://files.pythonhosted.org/packages/f0/54/40ed8d23f1925c090a58cae1b2e8e9089701d86534ed41a0649feff25cae/sidradataquality-1.0.4.post82-py3-none-any.whl
+[2024-05-02 09:55:09] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2024-05-02 09:55:09] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-02 09:55:09] INFO root fetch - processPackages [sidradataquality]: Downloading https://files.pythonhosted.org/packages/ac/fa/798c4196fc97e456e851f393501a2aa922d21cf74bae3617b42f4feff82f/sidradataquality-1.0.5.post84-py3-none-any.whl
+[2024-05-02 09:55:09] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-02 09:55:09] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240502/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-02 09:55:09] INFO root fetch - processPackages [sidradataquality]: executing diffoscope
+[2024-05-02 09:55:09] INFO root fetch - processPackages [sidradataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidradataquality-1.0.4.post82-py3-none-any.whl.zip tmp/sidradataquality-1.0.5.post84-py3-none-any.whl.zip --markdown 20240502/s/sidradataquality/1.0.4.post82-1.0.5.post84/README.md --exclude *.pyd
+[2024-05-02 09:55:09] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2024-05-02 09:55:09] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2024-05-02 09:55:09] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20240502/a/airbyte-cdk/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-02 09:55:10] INFO root fetch - processPackages [sidradataquality]: Remove: archive file [/home/abi/fetcher/tmp/sidradataquality-1.0.4.post82-py3-none-any.whl.zip]
+[2024-05-02 09:55:10] INFO root fetch - processPackages [sidradataquality]: Remove: archive file [/home/abi/fetcher/tmp/sidradataquality-1.0.5.post84-py3-none-any.whl.zip]
+[2024-05-02 09:55:10] INFO root fetch - main [MainThread]: End processing [sidradataquality]: success
+[2024-05-02 09:55:10] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2024-05-02 09:55:10] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2024-05-02 09:55:10] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2024-05-02 09:55:11] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-02 09:55:11] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-02 09:55:11] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-02 09:55:11] INFO root fetch - main [MainThread]: Store serial: [23027745]
