@@ -16788,3 +16788,69 @@
 [2024-05-02 12:35:35] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.7.tar.gz]
 [2024-05-02 12:35:35] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-05-02 12:35:35] INFO root fetch - main [MainThread]: Store serial: [23029582]
+[2024-05-02 12:37:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029582]
+[2024-05-02 12:37:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 12:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansys-optislang-core
+[2024-05-02 12:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-messages-token-helper
+[2024-05-02 12:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syntaxlight
+[2024-05-02 12:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ReverseBox
+[2024-05-02 12:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fftrack
+[2024-05-02 12:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: decentriq-platform
+[2024-05-02 12:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dagshub
+[2024-05-02 12:37:44] INFO root fetch - processPackages [syntaxlight]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 12:37:44] INFO root fetch - processPackages [openai-messages-token-helper]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 12:37:44] INFO root fetch - processPackages [fftrack]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 12:37:44] INFO root fetch - processPackages [ReverseBox]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-02 12:37:44] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/7a/79/2301ec8f55a293537267c3551e3399e12935dda72420a72467f0c6bdc555/syntaxlight-0.1.8.tar.gz
+[2024-05-02 12:37:44] INFO root fetch - processPackages [ansys-optislang-core]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-02 12:37:44] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2024-05-02 12:37:44] INFO root fetch - processPackages [dagshub]: New version: [0.3.9] Old Version: [0.3.8.post2]
+[2024-05-02 12:37:44] INFO root fetch - processPackages [openai-messages-token-helper]: Downloading https://files.pythonhosted.org/packages/5f/7e/e5d4768e696f4cbad7168d2eb6c64bf3552a3b13bc5390e1c3fbb9092287/openai_messages_token_helper-0.1.0.tar.gz
+[2024-05-02 12:37:44] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/0d/ae/bb62846616532eba334d2638fb3dcdc0b56584d0ba899a48611a02e1d375/ReverseBox-0.7.0.tar.gz
+[2024-05-02 12:37:44] INFO root fetch - processPackages [fftrack]: Downloading https://files.pythonhosted.org/packages/41/68/44ce58582147a75a6dd9c8894ab625cd5d18fc04835979320ff9cd0313df/fftrack-0.1.0.tar.gz
+[2024-05-02 12:37:44] INFO root fetch - processPackages [ansys-optislang-core]: Downloading https://files.pythonhosted.org/packages/de/60/70c8ac3ccbc03cee3418445174ff8165be2c68e1fb0e0b541a6ff09a182b/ansys_optislang_core-0.7.0.tar.gz
+[2024-05-02 12:37:44] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2024-05-02 12:37:44] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/48/89/8bb3a84ebd082889ed2dc85597e8954fec711589e17f0891e344b6e627a9/dagshub-0.3.8.post2.tar.gz
+[2024-05-02 12:37:44] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/5d/5d/baa11c92a42514efc11f867983e51bcf5c2a036044e6117d6a4e629d267f/syntaxlight-0.1.9.tar.gz
+[2024-05-02 12:37:44] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/d7/a6/4e9e8bdc1e7dcf1538947cb431fedd01763a1f0f9eac2b159dfd59195c94/ReverseBox-0.8.0.tar.gz
+[2024-05-02 12:37:44] INFO root fetch - processPackages [openai-messages-token-helper]: Downloading https://files.pythonhosted.org/packages/bc/be/301d578661a21fd78a09ab4473e8de47b782c017820b03493f3e170cc0c7/openai_messages_token_helper-0.1.1.tar.gz
+[2024-05-02 12:37:44] INFO root fetch - processPackages [ReverseBox]: executing diffoscope
+[2024-05-02 12:37:44] INFO root fetch - processPackages [ReverseBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseBox-0.7.0.tar.gz tmp/ReverseBox-0.8.0.tar.gz --markdown 20240502/R/ReverseBox/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-02 12:37:44] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2024-05-02 12:37:44] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.1.8.tar.gz tmp/syntaxlight-0.1.9.tar.gz --markdown 20240502/s/syntaxlight/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 12:37:44] INFO root fetch - processPackages [fftrack]: Downloading https://files.pythonhosted.org/packages/9f/21/6efc65694d0b72021cf02f442c9ab82c639f765882ac6a9f44a0236917f8/fftrack-0.1.1.tar.gz
+[2024-05-02 12:37:45] INFO root fetch - processPackages [openai-messages-token-helper]: executing diffoscope
+[2024-05-02 12:37:45] INFO root fetch - processPackages [openai-messages-token-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_messages_token_helper-0.1.0.tar.gz tmp/openai_messages_token_helper-0.1.1.tar.gz --markdown 20240502/o/openai-messages-token-helper/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 12:37:45] INFO root fetch - processPackages [ansys-optislang-core]: Downloading https://files.pythonhosted.org/packages/42/63/f68bbca94fb7349728bb30e0f97a808523268ba7b5cbfe360b7d9f5e2990/ansys_optislang_core-0.7.1.tar.gz
+[2024-05-02 12:37:45] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2024-05-02 12:37:45] INFO root fetch - processPackages [fftrack]: executing diffoscope
+[2024-05-02 12:37:45] INFO root fetch - processPackages [fftrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fftrack-0.1.0.tar.gz tmp/fftrack-0.1.1.tar.gz --markdown 20240502/f/fftrack/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 12:37:45] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/b6/58/bed17e869dd65b7d76ece8837800b97096849fcccf69372b6647a4f4ccd9/dagshub-0.3.9.tar.gz
+[2024-05-02 12:37:45] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2024-05-02 12:37:45] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20240502/d/decentriq-platform/0.9.0rc2-0.9.1/README.md --exclude *.pyd
+[2024-05-02 12:37:45] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2024-05-02 12:37:45] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.3.8.post2.tar.gz tmp/dagshub-0.3.9.tar.gz --markdown 20240502/d/dagshub/0.3.8.post2-0.3.9/README.md --exclude *.pyd
+[2024-05-02 12:37:45] INFO root fetch - processPackages [ansys-optislang-core]: executing diffoscope
+[2024-05-02 12:37:45] INFO root fetch - processPackages [ansys-optislang-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_optislang_core-0.7.0.tar.gz tmp/ansys_optislang_core-0.7.1.tar.gz --markdown 20240502/a/ansys-optislang-core/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-02 12:37:45] INFO root fetch - processPackages [openai-messages-token-helper]: Remove: archive file [/home/abi/fetcher/tmp/openai_messages_token_helper-0.1.0.tar.gz]
+[2024-05-02 12:37:45] INFO root fetch - processPackages [openai-messages-token-helper]: Remove: archive file [/home/abi/fetcher/tmp/openai_messages_token_helper-0.1.1.tar.gz]
+[2024-05-02 12:37:45] INFO root fetch - main [MainThread]: End processing [openai-messages-token-helper]: success
+[2024-05-02 12:37:45] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.7.0.tar.gz]
+[2024-05-02 12:37:45] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.8.0.tar.gz]
+[2024-05-02 12:37:45] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
+[2024-05-02 12:37:45] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.8.tar.gz]
+[2024-05-02 12:37:45] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.9.tar.gz]
+[2024-05-02 12:37:45] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2024-05-02 12:37:45] INFO root fetch - processPackages [fftrack]: Remove: archive file [/home/abi/fetcher/tmp/fftrack-0.1.0.tar.gz]
+[2024-05-02 12:37:45] INFO root fetch - processPackages [fftrack]: Remove: archive file [/home/abi/fetcher/tmp/fftrack-0.1.1.tar.gz]
+[2024-05-02 12:37:45] INFO root fetch - main [MainThread]: End processing [fftrack]: success
+[2024-05-02 12:37:46] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2024-05-02 12:37:46] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2024-05-02 12:37:46] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2024-05-02 12:37:46] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.8.post2.tar.gz]
+[2024-05-02 12:37:46] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.9.tar.gz]
+[2024-05-02 12:37:46] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2024-05-02 12:37:46] INFO root fetch - processPackages [ansys-optislang-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_optislang_core-0.7.0.tar.gz]
+[2024-05-02 12:37:46] INFO root fetch - processPackages [ansys-optislang-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_optislang_core-0.7.1.tar.gz]
+[2024-05-02 12:37:46] INFO root fetch - main [MainThread]: End processing [ansys-optislang-core]: success
+[2024-05-02 12:37:46] INFO root fetch - main [MainThread]: Store serial: [23029602]
