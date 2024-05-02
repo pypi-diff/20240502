@@ -15872,3 +15872,15 @@
 [2024-05-02 12:04:30] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst_pipe_base-27.0.0rc1.tar.gz]
 [2024-05-02 12:04:30] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
 [2024-05-02 12:04:30] INFO root fetch - main [MainThread]: Store serial: [23029204]
+[2024-05-02 12:06:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029204]
+[2024-05-02 12:06:39] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 12:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recce
+[2024-05-02 12:06:40] INFO root fetch - processPackages [recce]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-02 12:06:40] INFO root fetch - processPackages [recce]: Downloading https://files.pythonhosted.org/packages/21/df/adca101db9b99292c6610c06f9f9f9dba09307c59db7b48b0c3b9ecb4c47/recce-0.8.2.tar.gz
+[2024-05-02 12:06:40] INFO root fetch - processPackages [recce]: Downloading https://files.pythonhosted.org/packages/1f/7b/6a960c2015316c08df9c69a378c80579bd00ffa654316ef62781e6e4ac3c/recce-0.9.0.tar.gz
+[2024-05-02 12:06:40] INFO root fetch - processPackages [recce]: executing diffoscope
+[2024-05-02 12:06:40] INFO root fetch - processPackages [recce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recce-0.8.2.tar.gz tmp/recce-0.9.0.tar.gz --markdown 20240502/r/recce/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-02 12:06:52] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.8.2.tar.gz]
+[2024-05-02 12:06:52] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.9.0.tar.gz]
+[2024-05-02 12:06:52] INFO root fetch - main [MainThread]: End processing [recce]: success
+[2024-05-02 12:06:52] INFO root fetch - main [MainThread]: Store serial: [23029208]
