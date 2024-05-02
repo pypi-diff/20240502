@@ -11511,3 +11511,51 @@
 [2024-05-02 09:21:53] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
 [2024-05-02 09:21:53] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
 [2024-05-02 09:21:53] INFO root fetch - main [MainThread]: Store serial: [23027371]
+[2024-05-02 09:23:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027371]
+[2024-05-02 09:24:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 09:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pre5g
+[2024-05-02 09:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrapegraphai
+[2024-05-02 09:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threed-optix
+[2024-05-02 09:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-manager
+[2024-05-02 09:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dalpha
+[2024-05-02 09:24:04] INFO root fetch - processPackages [threed-optix]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-05-02 09:24:04] INFO root fetch - processPackages [torch-model-manager]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2024-05-02 09:24:04] INFO root fetch - processPackages [scrapegraphai]: New version: [0.5.0b7] Old Version: [0.5.0b6]
+[2024-05-02 09:24:04] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/b6/38/b8e7e1c3841683762c4d838b4d9206d44d71fa71f750026a28542efe48ff/threed_optix-5.0.0.tar.gz
+[2024-05-02 09:24:04] INFO root fetch - processPackages [dalpha]: New version: [0.4.5rc0] Old Version: [0.4.4rc5]
+[2024-05-02 09:24:04] INFO root fetch - processPackages [pre5g]: New version: [4.1] Old Version: [4.0]
+[2024-05-02 09:24:04] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/ee/3c/c614e7ac7056c26f614611697513634f62e993bd5147317ae77bcee5bc75/torch_model_manager-0.1.0.dev8.tar.gz
+[2024-05-02 09:24:04] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/79/18/997e61f3dc0c8524451b712232f3d735e750a3c389893f8b710e8b957be7/scrapegraphai-0.5.0b6.tar.gz
+[2024-05-02 09:24:04] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/71/d0/f573c01bf0da908502c3500b0c93b01cb07663e29df73522d26e8ed5643f/pre5g-4.0-py3-none-any.whl
+[2024-05-02 09:24:04] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/0a/57/a50391f3bd8011c5f196c355675364d80a6802149b3fb90573d48cb26387/dalpha-0.4.4rc5.tar.gz
+[2024-05-02 09:24:04] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/f9/03/543213763197d03caf2e7fb8eca97561e33afefba35bce06d52ce6aa8232/torch_model_manager-0.1.0.dev9.tar.gz
+[2024-05-02 09:24:04] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/05/f8/4fcfbdee56331fc2b6908da72122da110a5d935e67f0481b55fa72bf8d89/scrapegraphai-0.5.0b7.tar.gz
+[2024-05-02 09:24:04] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/68/c3/89edb90ee7121d514eb2035f8ca126cf1a71d52e1d2b607151d8b957ea2b/threed_optix-5.0.1.tar.gz
+[2024-05-02 09:24:04] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-02 09:24:04] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.1.0.dev8.tar.gz tmp/torch_model_manager-0.1.0.dev9.tar.gz --markdown 20240502/t/torch-model-manager/0.1.0.dev8-0.1.0.dev9/README.md --exclude *.pyd
+[2024-05-02 09:24:04] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/f3/8c/a0cfc49f27289b76a40a9cd235426b7001c8eaa5e272bcf7b239cc0697d3/pre5g-4.1.tar.gz
+[2024-05-02 09:24:04] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-02 09:24:04] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.5.0b6.tar.gz tmp/scrapegraphai-0.5.0b7.tar.gz --markdown 20240502/s/scrapegraphai/0.5.0b6-0.5.0b7/README.md --exclude *.pyd
+[2024-05-02 09:24:04] INFO root fetch - processPackages [threed-optix]: executing diffoscope
+[2024-05-02 09:24:04] INFO root fetch - processPackages [threed-optix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threed_optix-5.0.0.tar.gz tmp/threed_optix-5.0.1.tar.gz --markdown 20240502/t/threed-optix/5.0.0-5.0.1/README.md --exclude *.pyd
+[2024-05-02 09:24:04] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-05-02 09:24:04] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-4.0-py3-none-any.whl.zip tmp/pre5g-4.1.tar.gz --markdown 20240502/p/pre5g/4.0-4.1/README.md --exclude *.pyd
+[2024-05-02 09:24:04] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/f9/93/513c379d0063bfaf1370af718c013792efb9e8fe364cf15e7d57ba97c8c8/dalpha-0.4.5rc0.tar.gz
+[2024-05-02 09:24:05] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2024-05-02 09:24:05] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.4.4rc5.tar.gz tmp/dalpha-0.4.5rc0.tar.gz --markdown 20240502/d/dalpha/0.4.4rc5-0.4.5rc0/README.md --exclude *.pyd
+[2024-05-02 09:24:05] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev8.tar.gz]
+[2024-05-02 09:24:05] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev9.tar.gz]
+[2024-05-02 09:24:05] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-02 09:24:05] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-5.0.0.tar.gz]
+[2024-05-02 09:24:05] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-5.0.1.tar.gz]
+[2024-05-02 09:24:05] INFO root fetch - main [MainThread]: End processing [threed-optix]: success
+[2024-05-02 09:24:05] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-4.0-py3-none-any.whl.zip]
+[2024-05-02 09:24:05] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-4.1.tar.gz]
+[2024-05-02 09:24:05] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-05-02 09:24:05] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.5.0b6.tar.gz]
+[2024-05-02 09:24:05] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.5.0b7.tar.gz]
+[2024-05-02 09:24:05] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-02 09:24:05] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.4.4rc5.tar.gz]
+[2024-05-02 09:24:05] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.4.5rc0.tar.gz]
+[2024-05-02 09:24:05] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2024-05-02 09:24:05] INFO root fetch - main [MainThread]: Store serial: [23027386]
