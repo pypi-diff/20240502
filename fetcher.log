@@ -21109,3 +21109,54 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:01:59] INFO root fetch - processPackages [ChemInterface-ppchem]: Remove: archive file [/home/abi/fetcher/tmp/cheminterface_ppchem-2.1.tar.gz]
 [2024-05-02 15:01:59] INFO root fetch - main [MainThread]: End processing [ChemInterface-ppchem]: success
 [2024-05-02 15:01:59] INFO root fetch - main [MainThread]: Store serial: [23031237]
+[2024-05-02 15:04:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031237]
+[2024-05-02 15:04:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 15:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fiddler-client
+[2024-05-02 15:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2024-05-02 15:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logic-superfence
+[2024-05-02 15:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ozonetel-ai
+[2024-05-02 15:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cosmian-kms
+[2024-05-02 15:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: itwingstestsprojectnn
+[2024-05-02 15:04:08] WARNING root fetch - processPackages [logic-superfence]: Skipping, unable to determine old version
+[2024-05-02 15:04:08] INFO root fetch - main [MainThread]: End processing [logic-superfence] error
+[2024-05-02 15:04:08] INFO root fetch - processPackages [fiddler-client]: New version: [3.1.0.dev4] Old Version: [3.1.0.dev3]
+[2024-05-02 15:04:08] INFO root fetch - processPackages [ozonetel-ai]: New version: [0.0.11] Old Version: [0.0.10]
+[2024-05-02 15:04:08] INFO root fetch - processPackages [itwingstestsprojectnn]: New version: [0.2] Old Version: [0.1]
+[2024-05-02 15:04:08] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 15:04:08] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/1b/84/9294e54e9f1d5f35991583895e86b08b56bde1b9936e8331f3f7d4e35a2b/ozonetel-ai-0.0.10.tar.gz
+[2024-05-02 15:04:08] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/43/fb/2a39b11c92c91266d6c6c5107acb317438cb839d0795d222d916476c4ce8/fiddler-client-3.1.0.dev3.tar.gz
+[2024-05-02 15:04:08] INFO root fetch - processPackages [cosmian-kms]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-05-02 15:04:08] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-02 15:04:08] INFO root fetch - processPackages [itwingstestsprojectnn]: Downloading https://files.pythonhosted.org/packages/55/5b/0c3bbe1d56ebbb76242ae2c3b2f7f510c1367e40bfd5089b706a993587db/itwingstestsprojectnn-0.1.tar.gz
+[2024-05-02 15:04:08] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/1b/92/05ec7172d30ff7c8af143a434de46b92b4fe525aaf8df5fb76c0a8ffc89c/fiddler_client-3.1.0.dev4.tar.gz
+[2024-05-02 15:04:08] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/cb/8c/f110006a8b723fc1e9e8bdd4686a2e2593b549815a5c272ebadb8a6e948c/ozonetel-ai-0.0.11.tar.gz
+[2024-05-02 15:04:08] INFO root fetch - processPackages [cosmian-kms]: Downloading https://files.pythonhosted.org/packages/f4/4d/d6113b555e84f4eda7c0649b576dcf9ef9a372c79940d008cf0170b7b6e2/cosmian_kms-4.9.0-cp37-abi3-win_amd64.whl
+[2024-05-02 15:04:08] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-02 15:04:08] INFO root fetch - processPackages [itwingstestsprojectnn]: Downloading https://files.pythonhosted.org/packages/9f/60/2d1c8e422a85b58790db85d927b8626f98d50fcd2bf201012bd3d86e1dd6/itwingstestsprojectnn-0.2.tar.gz
+[2024-05-02 15:04:08] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-05-02 15:04:08] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-3.1.0.dev3.tar.gz tmp/fiddler_client-3.1.0.dev4.tar.gz --markdown 20240502/f/fiddler-client/3.1.0.dev3-3.1.0.dev4/README.md --exclude *.pyd
+[2024-05-02 15:04:08] INFO root fetch - processPackages [ozonetel-ai]: executing diffoscope
+[2024-05-02 15:04:08] INFO root fetch - processPackages [ozonetel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozonetel-ai-0.0.10.tar.gz tmp/ozonetel-ai-0.0.11.tar.gz --markdown 20240502/o/ozonetel-ai/0.0.10-0.0.11/README.md --exclude *.pyd
+[2024-05-02 15:04:08] INFO root fetch - processPackages [itwingstestsprojectnn]: executing diffoscope
+[2024-05-02 15:04:08] INFO root fetch - processPackages [itwingstestsprojectnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itwingstestsprojectnn-0.1.tar.gz tmp/itwingstestsprojectnn-0.2.tar.gz --markdown 20240502/i/itwingstestsprojectnn/0.1-0.2/README.md --exclude *.pyd
+[2024-05-02 15:04:08] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-02 15:04:08] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240502/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 15:04:09] INFO root fetch - processPackages [cosmian-kms]: Downloading https://files.pythonhosted.org/packages/b0/23/fad1edf9bca7c2a8f6ad0ed4166cec21becfbcc7afbde957144da34013c7/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl
+[2024-05-02 15:04:09] INFO root fetch - processPackages [itwingstestsprojectnn]: Remove: archive file [/home/abi/fetcher/tmp/itwingstestsprojectnn-0.1.tar.gz]
+[2024-05-02 15:04:09] INFO root fetch - processPackages [itwingstestsprojectnn]: Remove: archive file [/home/abi/fetcher/tmp/itwingstestsprojectnn-0.2.tar.gz]
+[2024-05-02 15:04:09] INFO root fetch - main [MainThread]: End processing [itwingstestsprojectnn]: success
+[2024-05-02 15:04:09] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.10.tar.gz]
+[2024-05-02 15:04:09] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.11.tar.gz]
+[2024-05-02 15:04:09] INFO root fetch - main [MainThread]: End processing [ozonetel-ai]: success
+[2024-05-02 15:04:09] INFO root fetch - processPackages [cosmian-kms]: executing diffoscope
+[2024-05-02 15:04:09] INFO root fetch - processPackages [cosmian-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_kms-4.9.0-cp37-abi3-win_amd64.whl.zip tmp/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl.zip --markdown 20240502/c/cosmian-kms/4.9.0-4.9.1/README.md --exclude *.pyd
+[2024-05-02 15:04:09] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-02 15:04:09] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-02 15:04:09] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-02 15:04:09] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev3.tar.gz]
+[2024-05-02 15:04:09] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler_client-3.1.0.dev4.tar.gz]
+[2024-05-02 15:04:09] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-05-02 15:04:10] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.9.0-cp37-abi3-win_amd64.whl.zip]
+[2024-05-02 15:04:10] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl.zip]
+[2024-05-02 15:04:10] INFO root fetch - main [MainThread]: End processing [cosmian-kms]: success
+[2024-05-02 15:04:10] INFO root fetch - main [MainThread]: Store serial: [23031251]
