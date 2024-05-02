@@ -16579,3 +16579,42 @@
 [2024-05-02 12:24:33] INFO root fetch - processPackages [jupyverse]: Remove: archive file [/home/abi/fetcher/tmp/jupyverse-0.5.2.tar.gz]
 [2024-05-02 12:24:33] INFO root fetch - main [MainThread]: End processing [jupyverse]: success
 [2024-05-02 12:24:33] INFO root fetch - main [MainThread]: Store serial: [23029495]
+[2024-05-02 12:26:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029495]
+[2024-05-02 12:26:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 12:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cas-tools
+[2024-05-02 12:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ya360
+[2024-05-02 12:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-messages-token-helper
+[2024-05-02 12:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: transformers-js-py
+[2024-05-02 12:26:43] INFO root fetch - processPackages [cas-tools]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2024-05-02 12:26:43] INFO root fetch - processPackages [openai-messages-token-helper]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-05-02 12:26:43] INFO root fetch - processPackages [cas-tools]: Downloading https://files.pythonhosted.org/packages/b9/5e/39f97fb29d99b0ef2f2ffcffe6cab596041f77151661c1a2ce8808c686da/cas-tools-0.0.1.dev8.tar.gz
+[2024-05-02 12:26:43] INFO root fetch - processPackages [openai-messages-token-helper]: Downloading https://files.pythonhosted.org/packages/6b/7f/e0a64490eb8aa720640408503827e50f9211a0f028ef742fbc1b08d8e2d8/openai_messages_token_helper-0.0.6.tar.gz
+[2024-05-02 12:26:43] INFO root fetch - processPackages [ya360]: New version: [3.6.1] Old Version: [3.6.0]
+[2024-05-02 12:26:43] INFO root fetch - processPackages [transformers-js-py]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-02 12:26:43] INFO root fetch - processPackages [cas-tools]: Downloading https://files.pythonhosted.org/packages/28/ec/5317b3525f1d8446524985a0eafd9be6ebd8d7ada90d82fef5a5830a585f/cas-tools-0.0.1.dev9.tar.gz
+[2024-05-02 12:26:43] INFO root fetch - processPackages [ya360]: Downloading https://files.pythonhosted.org/packages/7d/b4/a3d4bf5e03cc77ae12398b6932c6d1a08d8564845040012dc8c4233880e1/ya360-3.6.0.tar.gz
+[2024-05-02 12:26:43] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/e9/d4/245ab3f4c5f82c00b652b8ff4b0d02cde64e88d462ead1ae460fdf5a43df/transformers_js_py-0.8.1.tar.gz
+[2024-05-02 12:26:43] INFO root fetch - processPackages [cas-tools]: executing diffoscope
+[2024-05-02 12:26:43] INFO root fetch - processPackages [cas-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cas-tools-0.0.1.dev8.tar.gz tmp/cas-tools-0.0.1.dev9.tar.gz --markdown 20240502/c/cas-tools/0.0.1.dev8-0.0.1.dev9/README.md --exclude *.pyd
+[2024-05-02 12:26:43] INFO root fetch - processPackages [openai-messages-token-helper]: Downloading https://files.pythonhosted.org/packages/5f/7e/e5d4768e696f4cbad7168d2eb6c64bf3552a3b13bc5390e1c3fbb9092287/openai_messages_token_helper-0.1.0.tar.gz
+[2024-05-02 12:26:43] INFO root fetch - processPackages [openai-messages-token-helper]: executing diffoscope
+[2024-05-02 12:26:43] INFO root fetch - processPackages [openai-messages-token-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_messages_token_helper-0.0.6.tar.gz tmp/openai_messages_token_helper-0.1.0.tar.gz --markdown 20240502/o/openai-messages-token-helper/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-05-02 12:26:43] INFO root fetch - processPackages [ya360]: Downloading https://files.pythonhosted.org/packages/5a/68/0dedf56ebaa9fe6e63fdbf3f511731aa709ae2f2c54117f850fe0685f7e9/ya360-3.6.1.tar.gz
+[2024-05-02 12:26:43] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/69/a5/f53e404079de13cda9053663becf9d7e3a3351cfa3b254d9a695544db414/transformers_js_py-0.9.0.tar.gz
+[2024-05-02 12:26:43] INFO root fetch - processPackages [transformers-js-py]: executing diffoscope
+[2024-05-02 12:26:43] INFO root fetch - processPackages [transformers-js-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers_js_py-0.8.1.tar.gz tmp/transformers_js_py-0.9.0.tar.gz --markdown 20240502/t/transformers-js-py/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-02 12:26:43] INFO root fetch - processPackages [ya360]: executing diffoscope
+[2024-05-02 12:26:43] INFO root fetch - processPackages [ya360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ya360-3.6.0.tar.gz tmp/ya360-3.6.1.tar.gz --markdown 20240502/y/ya360/3.6.0-3.6.1/README.md --exclude *.pyd
+[2024-05-02 12:26:44] INFO root fetch - processPackages [cas-tools]: Remove: archive file [/home/abi/fetcher/tmp/cas-tools-0.0.1.dev8.tar.gz]
+[2024-05-02 12:26:44] INFO root fetch - processPackages [cas-tools]: Remove: archive file [/home/abi/fetcher/tmp/cas-tools-0.0.1.dev9.tar.gz]
+[2024-05-02 12:26:44] INFO root fetch - main [MainThread]: End processing [cas-tools]: success
+[2024-05-02 12:26:44] INFO root fetch - processPackages [openai-messages-token-helper]: Remove: archive file [/home/abi/fetcher/tmp/openai_messages_token_helper-0.0.6.tar.gz]
+[2024-05-02 12:26:44] INFO root fetch - processPackages [openai-messages-token-helper]: Remove: archive file [/home/abi/fetcher/tmp/openai_messages_token_helper-0.1.0.tar.gz]
+[2024-05-02 12:26:44] INFO root fetch - main [MainThread]: End processing [openai-messages-token-helper]: success
+[2024-05-02 12:26:44] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.8.1.tar.gz]
+[2024-05-02 12:26:44] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.9.0.tar.gz]
+[2024-05-02 12:26:44] INFO root fetch - main [MainThread]: End processing [transformers-js-py]: success
+[2024-05-02 12:26:44] INFO root fetch - processPackages [ya360]: Remove: archive file [/home/abi/fetcher/tmp/ya360-3.6.0.tar.gz]
+[2024-05-02 12:26:44] INFO root fetch - processPackages [ya360]: Remove: archive file [/home/abi/fetcher/tmp/ya360-3.6.1.tar.gz]
+[2024-05-02 12:26:44] INFO root fetch - main [MainThread]: End processing [ya360]: success
+[2024-05-02 12:26:44] INFO root fetch - main [MainThread]: Store serial: [23029507]
