@@ -14768,3 +14768,36 @@
 [2024-05-02 11:17:30] INFO root fetch - processPackages [lilya]: Remove: archive file [/home/abi/fetcher/tmp/lilya-0.6.0.tar.gz]
 [2024-05-02 11:17:30] INFO root fetch - main [MainThread]: End processing [lilya]: success
 [2024-05-02 11:17:30] INFO root fetch - main [MainThread]: Store serial: [23028692]
+[2024-05-02 11:19:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028692]
+[2024-05-02 11:19:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 11:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stepup
+[2024-05-02 11:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yoloxyz
+[2024-05-02 11:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aissemble-extensions-model-training-api-sagemaker
+[2024-05-02 11:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: craft-ai-sdk
+[2024-05-02 11:19:41] INFO root fetch - processPackages [stepup]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-02 11:19:41] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: New version: [1.7.0.dev1714641537] Old Version: [1.7.0.dev1714554917]
+[2024-05-02 11:19:41] WARNING root fetch - processPackages [yoloxyz]: Skipping, unable to determine old version
+[2024-05-02 11:19:41] INFO root fetch - main [MainThread]: End processing [yoloxyz] error
+[2024-05-02 11:19:41] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-02 11:19:41] INFO root fetch - processPackages [stepup]: Downloading https://files.pythonhosted.org/packages/6d/54/0d17aad8d05ba8aca44ca0d0f65ef554b8b09c229fe0680e2bed8be6d8d8/stepup-1.0.0.tar.gz
+[2024-05-02 11:19:41] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Downloading https://files.pythonhosted.org/packages/e6/82/5d795d65b5216f09ec285096763f6b882d2566d2c0d9589fe5a6887e53a8/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714554917.tar.gz
+[2024-05-02 11:19:41] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2024-05-02 11:19:41] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Downloading https://files.pythonhosted.org/packages/35/2d/98412c343d72ffa1d41ee7670605c8dd4e2641ec6601761a6d37fde47975/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641537.tar.gz
+[2024-05-02 11:19:41] INFO root fetch - processPackages [stepup]: Downloading https://files.pythonhosted.org/packages/a2/43/5c1162aa9d50fb8408066fd582f8c674aa8504fcb96d98df365438f9d193/stepup-1.1.0.tar.gz
+[2024-05-02 11:19:41] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: executing diffoscope
+[2024-05-02 11:19:41] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714554917.tar.gz tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641537.tar.gz --markdown 20240502/a/aissemble-extensions-model-training-api-sagemaker/1.7.0.dev1714554917-1.7.0.dev1714641537/README.md --exclude *.pyd
+[2024-05-02 11:19:41] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2024-05-02 11:19:42] INFO root fetch - processPackages [stepup]: executing diffoscope
+[2024-05-02 11:19:42] INFO root fetch - processPackages [stepup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stepup-1.0.0.tar.gz tmp/stepup-1.1.0.tar.gz --markdown 20240502/s/stepup/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-02 11:19:42] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2024-05-02 11:19:42] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20240502/c/craft-ai-sdk/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-02 11:19:42] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714554917.tar.gz]
+[2024-05-02 11:19:42] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641537.tar.gz]
+[2024-05-02 11:19:42] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-model-training-api-sagemaker]: success
+[2024-05-02 11:19:42] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2024-05-02 11:19:42] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2024-05-02 11:19:42] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2024-05-02 11:19:46] INFO root fetch - processPackages [stepup]: Remove: archive file [/home/abi/fetcher/tmp/stepup-1.0.0.tar.gz]
+[2024-05-02 11:19:46] INFO root fetch - processPackages [stepup]: Remove: archive file [/home/abi/fetcher/tmp/stepup-1.1.0.tar.gz]
+[2024-05-02 11:19:46] INFO root fetch - main [MainThread]: End processing [stepup]: success
+[2024-05-02 11:19:46] INFO root fetch - main [MainThread]: Store serial: [23028707]
