@@ -7971,3 +7971,24 @@
 [2024-05-02 05:03:44] WARNING root fetch - processPackages [ldc-tint]: Skipping, unable to determine old version
 [2024-05-02 05:03:44] INFO root fetch - main [MainThread]: End processing [ldc-tint] error
 [2024-05-02 05:03:44] INFO root fetch - main [MainThread]: Store serial: [23025980]
+[2024-05-02 05:05:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025980]
+[2024-05-02 05:05:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 05:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linkml-map
+[2024-05-02 05:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qai-ai
+[2024-05-02 05:05:53] INFO root fetch - processPackages [qai-ai]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 05:05:53] INFO root fetch - processPackages [qai-ai]: Downloading https://files.pythonhosted.org/packages/ea/e3/b3c586ddeae18f6fa0cb3be65adda5c95d6002bff49ebb48e360fec66996/qai_ai-0.5.1.tar.gz
+[2024-05-02 05:05:53] INFO root fetch - processPackages [linkml-map]: New version: [0.3.5] Old Version: [0.1.0]
+[2024-05-02 05:05:53] INFO root fetch - processPackages [linkml-map]: Downloading https://files.pythonhosted.org/packages/d5/23/1965553327028ba8aae9b5234b298db85fbbe2925ddd351a1a6c5ffe81ad/linkml_map-0.1.0.tar.gz
+[2024-05-02 05:05:53] INFO root fetch - processPackages [qai-ai]: Downloading https://files.pythonhosted.org/packages/d6/b7/9439b8b6ad68ea44e0e0829342cb6738ebe6742e1a86ac2795b1c379c457/qai_ai-0.5.2.tar.gz
+[2024-05-02 05:05:53] INFO root fetch - processPackages [qai-ai]: executing diffoscope
+[2024-05-02 05:05:53] INFO root fetch - processPackages [qai-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_ai-0.5.1.tar.gz tmp/qai_ai-0.5.2.tar.gz --markdown 20240502/q/qai-ai/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 05:05:53] INFO root fetch - processPackages [linkml-map]: Downloading https://files.pythonhosted.org/packages/83/4d/bec2562e2900a2112749f9bea9841eb64980af7018edd5882712a57b7426/linkml_map-0.3.5.tar.gz
+[2024-05-02 05:05:53] INFO root fetch - processPackages [linkml-map]: executing diffoscope
+[2024-05-02 05:05:53] INFO root fetch - processPackages [linkml-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkml_map-0.1.0.tar.gz tmp/linkml_map-0.3.5.tar.gz --markdown 20240502/l/linkml-map/0.1.0-0.3.5/README.md --exclude *.pyd
+[2024-05-02 05:05:54] INFO root fetch - processPackages [qai-ai]: Remove: archive file [/home/abi/fetcher/tmp/qai_ai-0.5.1.tar.gz]
+[2024-05-02 05:05:54] INFO root fetch - processPackages [qai-ai]: Remove: archive file [/home/abi/fetcher/tmp/qai_ai-0.5.2.tar.gz]
+[2024-05-02 05:05:54] INFO root fetch - main [MainThread]: End processing [qai-ai]: success
+[2024-05-02 05:05:54] INFO root fetch - processPackages [linkml-map]: Remove: archive file [/home/abi/fetcher/tmp/linkml_map-0.1.0.tar.gz]
+[2024-05-02 05:05:54] INFO root fetch - processPackages [linkml-map]: Remove: archive file [/home/abi/fetcher/tmp/linkml_map-0.3.5.tar.gz]
+[2024-05-02 05:05:54] INFO root fetch - main [MainThread]: End processing [linkml-map]: success
+[2024-05-02 05:05:54] INFO root fetch - main [MainThread]: Store serial: [23025986]
