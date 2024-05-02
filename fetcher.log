@@ -10730,3 +10730,63 @@
 [2024-05-02 08:35:33] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.8.tar.gz]
 [2024-05-02 08:35:33] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
 [2024-05-02 08:35:33] INFO root fetch - main [MainThread]: Store serial: [23027014]
+[2024-05-02 08:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027014]
+[2024-05-02 08:37:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 08:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: generate-tools
+[2024-05-02 08:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mypybuildcode
+[2024-05-02 08:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-database-cleanup
+[2024-05-02 08:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medspacy
+[2024-05-02 08:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wkutils
+[2024-05-02 08:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astx
+[2024-05-02 08:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-gemini-api
+[2024-05-02 08:37:42] INFO root fetch - processPackages [astx]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-02 08:37:42] INFO root fetch - processPackages [wkutils]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-02 08:37:42] INFO root fetch - processPackages [generate-tools]: New version: [0.1.1.dev3] Old Version: [0.1.1.dev2]
+[2024-05-02 08:37:42] INFO root fetch - processPackages [astx]: Downloading https://files.pythonhosted.org/packages/31/0e/4804dbbc6714313cff3eb17ebe9c35dcaef7828f7f1f3c4331bf8e0a4f65/astx-0.9.0.tar.gz
+[2024-05-02 08:37:42] INFO root fetch - processPackages [python-gemini-api]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-05-02 08:37:42] WARNING root fetch - processPackages [mypybuildcode]: Skipping, unable to determine old version
+[2024-05-02 08:37:42] INFO root fetch - main [MainThread]: End processing [mypybuildcode] error
+[2024-05-02 08:37:42] INFO root fetch - processPackages [odoo-addon-database-cleanup]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-02 08:37:42] INFO root fetch - processPackages [medspacy]: New version: [1.1.6a0] Old Version: [1.1.5]
+[2024-05-02 08:37:42] INFO root fetch - processPackages [generate-tools]: Downloading https://files.pythonhosted.org/packages/34/d9/a19cf0db000465d413d553564a7e46f12a4c2f67c955e9b2a472a30e8e6f/generate_tools-0.1.1.dev2-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-02 08:37:42] INFO root fetch - processPackages [wkutils]: Downloading https://files.pythonhosted.org/packages/2d/28/6428f010695454c8d49b9150033b268cbb16954b38134ff15600eca6e1bb/wkutils-0.0.1.tar.gz
+[2024-05-02 08:37:42] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/39/9b/f51448a6e5f70895cf29d4cbfb897f60fb82eca5fb3c4c0593f890a68319/odoo_addon_database_cleanup-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-02 08:37:42] INFO root fetch - processPackages [medspacy]: Downloading https://files.pythonhosted.org/packages/5c/9a/ec97b840f9d6d92825d532b080e94f3d494853dfc7baa2695c06af0658a9/medspacy-1.1.5.tar.gz
+[2024-05-02 08:37:42] INFO root fetch - processPackages [astx]: Downloading https://files.pythonhosted.org/packages/2f/78/69527dee0e3b550af8130d584921b500bd800460e0009cfb2352c6babcd3/astx-0.9.1.tar.gz
+[2024-05-02 08:37:42] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/df/92/933ff04cb3c679d643c1c60a056f42f9d700aa265c44d69427a5e8379850/python_gemini_api-2.4.8.tar.gz
+[2024-05-02 08:37:42] INFO root fetch - processPackages [astx]: executing diffoscope
+[2024-05-02 08:37:42] INFO root fetch - processPackages [astx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astx-0.9.0.tar.gz tmp/astx-0.9.1.tar.gz --markdown 20240502/a/astx/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-02 08:37:42] INFO root fetch - processPackages [wkutils]: Downloading https://files.pythonhosted.org/packages/fe/cb/aded8e5a9f5d7ef7cc56ab52699c7c6a9d2c2345f56e5ac8c3473bce5aa3/wkutils-0.0.2.tar.gz
+[2024-05-02 08:37:42] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/47/1e/5e383b7f0029280e106563a369e5df187d611eb67cb57ce5584fbf916840/python_gemini_api-2.4.9.tar.gz
+[2024-05-02 08:37:42] INFO root fetch - processPackages [medspacy]: Downloading https://files.pythonhosted.org/packages/c0/d8/4f5f9199ece6f99462976b03482f920b921f906332e5b0cd635493d2af9c/medspacy-1.1.6a0.tar.gz
+[2024-05-02 08:37:42] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/ab/2c/0c58d54b1107c8b72c37faf27f82cccfdbd5f8024537d0709f5886045156/odoo_addon_database_cleanup-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-02 08:37:42] INFO root fetch - processPackages [generate-tools]: Downloading https://files.pythonhosted.org/packages/5b/5b/8d6cab54de0c5f50a9940d87c29ed5295ad913f71f5b1df16323d18f159d/generate_tools-0.1.1.dev3-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-02 08:37:42] INFO root fetch - processPackages [python-gemini-api]: executing diffoscope
+[2024-05-02 08:37:42] INFO root fetch - processPackages [python-gemini-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_gemini_api-2.4.8.tar.gz tmp/python_gemini_api-2.4.9.tar.gz --markdown 20240502/p/python-gemini-api/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-05-02 08:37:43] INFO root fetch - processPackages [medspacy]: executing diffoscope
+[2024-05-02 08:37:43] INFO root fetch - processPackages [medspacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medspacy-1.1.5.tar.gz tmp/medspacy-1.1.6a0.tar.gz --markdown 20240502/m/medspacy/1.1.5-1.1.6a0/README.md --exclude *.pyd
+[2024-05-02 08:37:43] INFO root fetch - processPackages [odoo-addon-database-cleanup]: executing diffoscope
+[2024-05-02 08:37:43] INFO root fetch - processPackages [odoo-addon-database-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_database_cleanup-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_database_cleanup-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-database-cleanup/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-02 08:37:43] INFO root fetch - processPackages [astx]: Remove: archive file [/home/abi/fetcher/tmp/astx-0.9.0.tar.gz]
+[2024-05-02 08:37:43] INFO root fetch - processPackages [astx]: Remove: archive file [/home/abi/fetcher/tmp/astx-0.9.1.tar.gz]
+[2024-05-02 08:37:43] INFO root fetch - main [MainThread]: End processing [astx]: success
+[2024-05-02 08:37:43] INFO root fetch - processPackages [generate-tools]: executing diffoscope
+[2024-05-02 08:37:43] INFO root fetch - processPackages [generate-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generate_tools-0.1.1.dev2-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/generate_tools-0.1.1.dev3-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240502/g/generate-tools/0.1.1.dev2-0.1.1.dev3/README.md --exclude *.pyd
+[2024-05-02 08:37:43] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python_gemini_api-2.4.8.tar.gz]
+[2024-05-02 08:37:43] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python_gemini_api-2.4.9.tar.gz]
+[2024-05-02 08:37:43] INFO root fetch - main [MainThread]: End processing [python-gemini-api]: success
+[2024-05-02 08:37:44] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-02 08:37:44] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-02 08:37:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-database-cleanup]: success
+[2024-05-02 08:37:44] INFO root fetch - processPackages [wkutils]: executing diffoscope
+[2024-05-02 08:37:44] INFO root fetch - processPackages [wkutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wkutils-0.0.1.tar.gz tmp/wkutils-0.0.2.tar.gz --markdown 20240502/w/wkutils/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-02 08:37:44] INFO root fetch - processPackages [medspacy]: Remove: archive file [/home/abi/fetcher/tmp/medspacy-1.1.5.tar.gz]
+[2024-05-02 08:37:44] INFO root fetch - processPackages [medspacy]: Remove: archive file [/home/abi/fetcher/tmp/medspacy-1.1.6a0.tar.gz]
+[2024-05-02 08:37:44] INFO root fetch - main [MainThread]: End processing [medspacy]: success
+[2024-05-02 08:37:44] INFO root fetch - processPackages [wkutils]: Remove: archive file [/home/abi/fetcher/tmp/wkutils-0.0.1.tar.gz]
+[2024-05-02 08:37:44] INFO root fetch - processPackages [wkutils]: Remove: archive file [/home/abi/fetcher/tmp/wkutils-0.0.2.tar.gz]
+[2024-05-02 08:37:44] INFO root fetch - main [MainThread]: End processing [wkutils]: success
+[2024-05-02 08:37:45] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.1.dev2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-02 08:37:45] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.1.dev3-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-02 08:37:45] INFO root fetch - main [MainThread]: End processing [generate-tools]: success
+[2024-05-02 08:37:45] INFO root fetch - main [MainThread]: Store serial: [23027040]
