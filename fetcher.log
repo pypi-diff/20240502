@@ -6975,3 +6975,67 @@
 [2024-05-02 03:35:22] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.5.0b5.tar.gz]
 [2024-05-02 03:35:22] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-05-02 03:35:22] INFO root fetch - main [MainThread]: Store serial: [23025446]
+[2024-05-02 03:37:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025446]
+[2024-05-02 03:37:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 03:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sleipnirgroup-jormungandr
+[2024-05-02 03:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-ntfc-auto
+[2024-05-02 03:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homeassistant-stubs
+[2024-05-02 03:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astx
+[2024-05-02 03:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyAgrum-nightly
+[2024-05-02 03:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cutseq
+[2024-05-02 03:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: homeassistant-stubs
+[2024-05-02 03:37:32] INFO root fetch - processPackages [cutseq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 03:37:32] INFO root fetch - processPackages [astx]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-02 03:37:32] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-05-02 03:37:32] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.5.0b6] Old Version: [2024.5.0b5]
+[2024-05-02 03:37:32] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.5.0b6] Old Version: [2024.5.0b5]
+[2024-05-02 03:37:32] INFO root fetch - processPackages [pih-ntfc-auto]: New version: [0.15.1] Old Version: [0.15]
+[2024-05-02 03:37:32] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/95/33/6984c0732c17eb925be43f23c0c27167392d2900fcd21ebf93d9b68f6c2a/cutseq-0.0.8.tar.gz
+[2024-05-02 03:37:32] INFO root fetch - processPackages [astx]: Downloading https://files.pythonhosted.org/packages/31/0e/4804dbbc6714313cff3eb17ebe9c35dcaef7828f7f1f3c4331bf8e0a4f65/astx-0.9.0.tar.gz
+[2024-05-02 03:37:32] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/4a/43/c13876b8009316ab065fbae29f918b065d4cfea61c614261201b8bb1da6f/homeassistant_stubs-2024.5.0b5.tar.gz
+[2024-05-02 03:37:32] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-05-02 03:37:32] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/4a/43/c13876b8009316ab065fbae29f918b065d4cfea61c614261201b8bb1da6f/homeassistant_stubs-2024.5.0b5.tar.gz
+[2024-05-02 03:37:33] INFO root fetch - processPackages [pih-ntfc-auto]: Downloading https://files.pythonhosted.org/packages/a9/f8/fc506b8b6cf6f051dae1f9e651a1c8ab79e8a8c48be7b0c40788573f03ef/pih-ntfc_auto-0.15.tar.gz
+[2024-05-02 03:37:33] INFO root fetch - processPackages [astx]: Downloading https://files.pythonhosted.org/packages/2f/78/69527dee0e3b550af8130d584921b500bd800460e0009cfb2352c6babcd3/astx-0.9.1.tar.gz
+[2024-05-02 03:37:33] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/e5/82/45b103e58b439dac0cf4c7f6ef6957633721ec0f4553abfabba5ed961a0f/cutseq-0.0.9.tar.gz
+[2024-05-02 03:37:33] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-05-02 03:37:33] INFO root fetch - processPackages [astx]: executing diffoscope
+[2024-05-02 03:37:33] INFO root fetch - processPackages [astx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astx-0.9.0.tar.gz tmp/astx-0.9.1.tar.gz --markdown 20240502/a/astx/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-02 03:37:33] INFO root fetch - processPackages [cutseq]: executing diffoscope
+[2024-05-02 03:37:33] INFO root fetch - processPackages [cutseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutseq-0.0.8.tar.gz tmp/cutseq-0.0.9.tar.gz --markdown 20240502/c/cutseq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 03:37:33] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/cb/65/60de03cace8cf7d39ee97fcfcc600a5f6f4bc3192ffd84df7880fac4e0d3/homeassistant_stubs-2024.5.0b6.tar.gz
+[2024-05-02 03:37:33] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/cb/65/60de03cace8cf7d39ee97fcfcc600a5f6f4bc3192ffd84df7880fac4e0d3/homeassistant_stubs-2024.5.0b6.tar.gz
+[2024-05-02 03:37:33] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-05-02 03:37:33] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240502/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-05-02 03:37:33] INFO root fetch - processPackages [pih-ntfc-auto]: Downloading https://files.pythonhosted.org/packages/08/5a/13731efec1fe8160e6f6b25878b620ee866ecd1ea15a5530fe9035f0e0ba/pih-ntfc_auto-0.15.1.tar.gz
+[2024-05-02 03:37:33] INFO root fetch - processPackages [pih-ntfc-auto]: executing diffoscope
+[2024-05-02 03:37:33] INFO root fetch - processPackages [pih-ntfc-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-ntfc_auto-0.15.tar.gz tmp/pih-ntfc_auto-0.15.1.tar.gz --markdown 20240502/p/pih-ntfc-auto/0.15-0.15.1/README.md --exclude *.pyd
+[2024-05-02 03:37:33] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-05-02 03:37:33] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.5.0b5.tar.gz tmp/homeassistant_stubs-2024.5.0b6.tar.gz --markdown 20240502/h/homeassistant-stubs/2024.5.0b5-2024.5.0b6/README.md --exclude *.pyd
+[2024-05-02 03:37:33] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-05-02 03:37:33] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.5.0b5.tar.gz tmp/homeassistant_stubs-2024.5.0b6.tar.gz --markdown 20240502/h/homeassistant-stubs/2024.5.0b5-2024.5.0b6/README.md --exclude *.pyd
+[2024-05-02 03:37:33] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.8.tar.gz]
+[2024-05-02 03:37:33] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.9.tar.gz]
+[2024-05-02 03:37:33] INFO root fetch - main [MainThread]: End processing [cutseq]: success
+[2024-05-02 03:37:34] INFO root fetch - processPackages [astx]: Remove: archive file [/home/abi/fetcher/tmp/astx-0.9.0.tar.gz]
+[2024-05-02 03:37:34] INFO root fetch - processPackages [astx]: Remove: archive file [/home/abi/fetcher/tmp/astx-0.9.1.tar.gz]
+[2024-05-02 03:37:34] INFO root fetch - main [MainThread]: End processing [astx]: success
+[2024-05-02 03:37:34] INFO root fetch - processPackages [pih-ntfc-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-ntfc_auto-0.15.tar.gz]
+[2024-05-02 03:37:34] INFO root fetch - processPackages [pih-ntfc-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-ntfc_auto-0.15.1.tar.gz]
+[2024-05-02 03:37:34] INFO root fetch - main [MainThread]: End processing [pih-ntfc-auto]: success
+[2024-05-02 03:37:34] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-05-02 03:37:34] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-05-02 03:37:34] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-05-02 03:37:34] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-02 03:37:34] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-02 03:37:35] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-02 03:37:35] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-02 03:37:35] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240502/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-02 03:37:36] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 03:37:36] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 03:37:36] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-02 03:37:46] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.5.0b5.tar.gz]
+[2024-05-02 03:37:46] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.5.0b6.tar.gz]
+[2024-05-02 03:37:46] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-05-02 03:37:46] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-05-02 03:37:46] INFO root fetch - main [MainThread]: Store serial: [23025501]
