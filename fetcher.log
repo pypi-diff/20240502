@@ -14141,3 +14141,51 @@
 [2024-05-02 10:59:14] INFO root fetch - processPackages [sigmund]: Remove: archive file [/home/abi/fetcher/tmp/sigmund-0.16.6.tar.gz]
 [2024-05-02 10:59:14] INFO root fetch - main [MainThread]: End processing [sigmund]: success
 [2024-05-02 10:59:14] INFO root fetch - main [MainThread]: Store serial: [23028422]
+[2024-05-02 11:01:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028422]
+[2024-05-02 11:01:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 11:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: titli
+[2024-05-02 11:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-glue
+[2024-05-02 11:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BrickBundles
+[2024-05-02 11:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BrickAgx
+[2024-05-02 11:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xrdPlanner
+[2024-05-02 11:01:23] INFO root fetch - processPackages [pydantic-glue]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-02 11:01:23] INFO root fetch - processPackages [titli]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-02 11:01:23] INFO root fetch - processPackages [BrickBundles]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-02 11:01:23] INFO root fetch - processPackages [pydantic-glue]: Downloading https://files.pythonhosted.org/packages/3c/d7/143061386dbefe7cb6e00df4e2619664f9ade55a4b0db231e874ae6a0b94/pydantic_glue-0.1.0.tar.gz
+[2024-05-02 11:01:23] INFO root fetch - processPackages [xrdPlanner]: New version: [2023.6.21] Old Version: [1.7.0]
+[2024-05-02 11:01:23] INFO root fetch - processPackages [BrickAgx]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-02 11:01:23] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/22/78/4f68dad7eb866f4b06744879ae4dcfaabc61378647bf1581594657f81172/brickagx-0.7.4-cp39-cp39-win_amd64.whl
+[2024-05-02 11:01:23] INFO root fetch - processPackages [titli]: Downloading https://files.pythonhosted.org/packages/b8/c6/358a8a3a2a8ad71e5a324da6ffdbdabc9dc8b680fd0d075fbf4fa39db597/titli-0.0.1.tar.gz
+[2024-05-02 11:01:23] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/ce/0f/d130131bfea579c78828374a3fe99c3ef71bab1f3b57edb6fa9f88af3708/brickbundles-0.7.4-py3-none-any.whl
+[2024-05-02 11:01:23] INFO root fetch - processPackages [xrdPlanner]: Downloading https://files.pythonhosted.org/packages/9b/92/c35df45858f7101b07a2574eb0c438235364b63e611cf758c7da98733bf2/xrdplanner-1.7.0.tar.gz
+[2024-05-02 11:01:23] INFO root fetch - processPackages [pydantic-glue]: Downloading https://files.pythonhosted.org/packages/a8/98/1dba2692589f11eeb1303f65d6e2bb08e397f1aac864ff8e845ba8d29707/pydantic_glue-0.2.0.tar.gz
+[2024-05-02 11:01:24] INFO root fetch - processPackages [titli]: Downloading https://files.pythonhosted.org/packages/52/33/ecac6093827a44077aa443b0721c1d32b88d5ec4f88315232dc711fb4e5d/titli-0.0.2.tar.gz
+[2024-05-02 11:01:24] INFO root fetch - processPackages [pydantic-glue]: executing diffoscope
+[2024-05-02 11:01:24] INFO root fetch - processPackages [pydantic-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_glue-0.1.0.tar.gz tmp/pydantic_glue-0.2.0.tar.gz --markdown 20240502/p/pydantic-glue/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-02 11:01:24] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/fe/e5/830e732c08af44438ec725661e2ad063e0677b34b7217b956cd154e59740/brickbundles-0.7.5-py3-none-any.whl
+[2024-05-02 11:01:24] INFO root fetch - processPackages [xrdPlanner]: Downloading https://files.pythonhosted.org/packages/41/64/d98917c04771e9b308e8286daa8af34ba7bcfc8c9e3dd0f5b3690fcabb4c/xrdPlanner-2023.6.21.tar.gz
+[2024-05-02 11:01:24] INFO root fetch - processPackages [titli]: executing diffoscope
+[2024-05-02 11:01:24] INFO root fetch - processPackages [titli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titli-0.0.1.tar.gz tmp/titli-0.0.2.tar.gz --markdown 20240502/t/titli/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-02 11:01:24] INFO root fetch - processPackages [BrickBundles]: executing diffoscope
+[2024-05-02 11:01:24] INFO root fetch - processPackages [BrickBundles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickbundles-0.7.4-py3-none-any.whl.zip tmp/brickbundles-0.7.5-py3-none-any.whl.zip --markdown 20240502/B/BrickBundles/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-02 11:01:24] INFO root fetch - processPackages [xrdPlanner]: executing diffoscope
+[2024-05-02 11:01:24] INFO root fetch - processPackages [xrdPlanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrdplanner-1.7.0.tar.gz tmp/xrdPlanner-2023.6.21.tar.gz --markdown 20240502/x/xrdPlanner/1.7.0-2023.6.21/README.md --exclude *.pyd
+[2024-05-02 11:01:24] INFO root fetch - processPackages [pydantic-glue]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_glue-0.1.0.tar.gz]
+[2024-05-02 11:01:24] INFO root fetch - processPackages [pydantic-glue]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_glue-0.2.0.tar.gz]
+[2024-05-02 11:01:24] INFO root fetch - main [MainThread]: End processing [pydantic-glue]: success
+[2024-05-02 11:01:24] INFO root fetch - processPackages [titli]: Remove: archive file [/home/abi/fetcher/tmp/titli-0.0.1.tar.gz]
+[2024-05-02 11:01:24] INFO root fetch - processPackages [titli]: Remove: archive file [/home/abi/fetcher/tmp/titli-0.0.2.tar.gz]
+[2024-05-02 11:01:24] INFO root fetch - main [MainThread]: End processing [titli]: success
+[2024-05-02 11:01:25] INFO root fetch - processPackages [xrdPlanner]: Remove: archive file [/home/abi/fetcher/tmp/xrdplanner-1.7.0.tar.gz]
+[2024-05-02 11:01:25] INFO root fetch - processPackages [xrdPlanner]: Remove: archive file [/home/abi/fetcher/tmp/xrdPlanner-2023.6.21.tar.gz]
+[2024-05-02 11:01:25] INFO root fetch - main [MainThread]: End processing [xrdPlanner]: success
+[2024-05-02 11:01:25] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.7.4-py3-none-any.whl.zip]
+[2024-05-02 11:01:25] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.7.5-py3-none-any.whl.zip]
+[2024-05-02 11:01:25] INFO root fetch - main [MainThread]: End processing [BrickBundles]: success
+[2024-05-02 11:01:25] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/14/9f/2f8be104adbc4ae3268b1aed2e37dfe15953f254dbdc02eb2ea8ddc580b1/brickagx-0.7.5-cp39-cp39-win_amd64.whl
+[2024-05-02 11:01:26] INFO root fetch - processPackages [BrickAgx]: executing diffoscope
+[2024-05-02 11:01:26] INFO root fetch - processPackages [BrickAgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickagx-0.7.4-cp39-cp39-win_amd64.whl.zip tmp/brickagx-0.7.5-cp39-cp39-win_amd64.whl.zip --markdown 20240502/B/BrickAgx/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-02 11:01:28] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.7.4-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 11:01:28] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.7.5-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 11:01:28] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
+[2024-05-02 11:01:28] INFO root fetch - main [MainThread]: Store serial: [23028441]
