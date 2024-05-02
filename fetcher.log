@@ -13223,3 +13223,33 @@
 [2024-05-02 10:23:29] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-encryption-policy-python]: success
 [2024-05-02 10:23:29] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-transform-core-python]: success
 [2024-05-02 10:23:29] INFO root fetch - main [MainThread]: Store serial: [23028068]
+[2024-05-02 10:25:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028068]
+[2024-05-02 10:25:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 10:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-invoice-report-grouped-by-picking
+[2024-05-02 10:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enigmapython
+[2024-05-02 10:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiomedon
+[2024-05-02 10:25:39] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.5]
+[2024-05-02 10:25:39] INFO root fetch - processPackages [xiomedon]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-02 10:25:39] INFO root fetch - processPackages [enigmapython]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 10:25:39] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Downloading https://files.pythonhosted.org/packages/b7/f9/2fbcb34a62aa77284c1efc968199dc64675a0f97f1939313759566e2e58c/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-02 10:25:39] INFO root fetch - processPackages [xiomedon]: Downloading https://files.pythonhosted.org/packages/7e/c0/0e4f8dbf47e010348243555fcfc5dfc94f9adb5ed3c1f4d2b6c5974b98d3/xiomedon-1.0.1.tar.gz
+[2024-05-02 10:25:39] INFO root fetch - processPackages [enigmapython]: Downloading https://files.pythonhosted.org/packages/df/81/681fa2ca34b35c8943c631112bbdae84f7a2042496640d050701541067d9/enigmapython-0.1.0.tar.gz
+[2024-05-02 10:25:39] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Downloading https://files.pythonhosted.org/packages/13/22/4640377150727433febb8f9a261b01de12a99bfc5009d63822761d7999a5/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.1-py3-none-any.whl
+[2024-05-02 10:25:40] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: executing diffoscope
+[2024-05-02 10:25:40] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-account-invoice-report-grouped-by-picking/17.0.1.0.0.5-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-02 10:25:40] INFO root fetch - processPackages [xiomedon]: Downloading https://files.pythonhosted.org/packages/77/84/d0a7be98739280eaad42e68670f66a165b051d09127f66135326a1dbd3f5/xiomedon-1.0.2.tar.gz
+[2024-05-02 10:25:40] INFO root fetch - processPackages [enigmapython]: Downloading https://files.pythonhosted.org/packages/bc/82/05adef6b4d998471dd1d23e6c6c723a8db766d4126101ef9d238466d232e/enigmapython-0.1.1.tar.gz
+[2024-05-02 10:25:40] INFO root fetch - processPackages [xiomedon]: executing diffoscope
+[2024-05-02 10:25:40] INFO root fetch - processPackages [xiomedon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiomedon-1.0.1.tar.gz tmp/xiomedon-1.0.2.tar.gz --markdown 20240502/x/xiomedon/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-02 10:25:40] INFO root fetch - processPackages [enigmapython]: executing diffoscope
+[2024-05-02 10:25:40] INFO root fetch - processPackages [enigmapython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enigmapython-0.1.0.tar.gz tmp/enigmapython-0.1.1.tar.gz --markdown 20240502/e/enigmapython/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 10:25:40] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-02 10:25:40] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-02 10:25:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-report-grouped-by-picking]: success
+[2024-05-02 10:25:40] INFO root fetch - processPackages [enigmapython]: Remove: archive file [/home/abi/fetcher/tmp/enigmapython-0.1.0.tar.gz]
+[2024-05-02 10:25:40] INFO root fetch - processPackages [enigmapython]: Remove: archive file [/home/abi/fetcher/tmp/enigmapython-0.1.1.tar.gz]
+[2024-05-02 10:25:40] INFO root fetch - main [MainThread]: End processing [enigmapython]: success
+[2024-05-02 10:25:40] INFO root fetch - processPackages [xiomedon]: Remove: archive file [/home/abi/fetcher/tmp/xiomedon-1.0.1.tar.gz]
+[2024-05-02 10:25:40] INFO root fetch - processPackages [xiomedon]: Remove: archive file [/home/abi/fetcher/tmp/xiomedon-1.0.2.tar.gz]
+[2024-05-02 10:25:40] INFO root fetch - main [MainThread]: End processing [xiomedon]: success
+[2024-05-02 10:25:40] INFO root fetch - main [MainThread]: Store serial: [23028076]
