@@ -7039,3 +7039,50 @@
 [2024-05-02 03:37:46] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-05-02 03:37:46] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-05-02 03:37:46] INFO root fetch - main [MainThread]: Store serial: [23025501]
+[2024-05-02 03:39:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025501]
+[2024-05-02 03:39:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 03:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cc512-evolution
+[2024-05-02 03:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comfy-cli
+[2024-05-02 03:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: insideopt-nextmv
+[2024-05-02 03:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exafs-neo
+[2024-05-02 03:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quasigraph
+[2024-05-02 03:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: genomeshader
+[2024-05-02 03:39:55] INFO root fetch - processPackages [insideopt-nextmv]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-02 03:39:55] INFO root fetch - processPackages [comfy-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 03:39:55] INFO root fetch - processPackages [genomeshader]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 03:39:55] INFO root fetch - processPackages [insideopt-nextmv]: Downloading https://files.pythonhosted.org/packages/76/6a/e9e07f04515e3bd15ddd218d7b48ede2108f9409ae1fc18ad1804bacae21/insideopt-nextmv-0.0.7.tar.gz
+[2024-05-02 03:39:55] INFO root fetch - processPackages [exafs-neo]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-05-02 03:39:55] WARNING root fetch - processPackages [cc512-evolution]: Skipping, unable to determine old version
+[2024-05-02 03:39:55] INFO root fetch - processPackages [quasigraph]: New version: [24.5.0] Old Version: [24.3.0]
+[2024-05-02 03:39:55] INFO root fetch - main [MainThread]: End processing [cc512-evolution] error
+[2024-05-02 03:39:55] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/be/4d/ed5f7c3399cb056c16b657ae3d716971e1ca59dde362b950f13d4e85bbe2/comfy_cli-0.0.8.tar.gz
+[2024-05-02 03:39:55] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/1c/84/39f1662d319381705e811acf6c7854194d08e68e45c79d57c5a763bdc863/genomeshader-0.1.8.tar.gz
+[2024-05-02 03:39:55] WARNING root fetch - processPackages [insideopt-nextmv]: Skipping package: exceeds size limit 12174296>=10485760
+[2024-05-02 03:39:55] INFO root fetch - main [MainThread]: End processing [insideopt-nextmv] error
+[2024-05-02 03:39:55] INFO root fetch - processPackages [exafs-neo]: Downloading https://files.pythonhosted.org/packages/f4/c7/2e41133d624195dd7780cf276e6734fb06c64cd4ef004c34c25abbd80340/exafs_neo-2.0.7.tar.gz
+[2024-05-02 03:39:55] INFO root fetch - processPackages [quasigraph]: Downloading https://files.pythonhosted.org/packages/85/4f/0bde80d44c4b33dfbf11c60f09853ee013599951ecbf4ddc178dc29e01df/quasigraph-24.3.0.tar.gz
+[2024-05-02 03:39:55] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/e0/64/bda74e2826240c0c779e679f675d7adb8fe53c0f89fac01c26065422006c/comfy_cli-0.0.9.tar.gz
+[2024-05-02 03:39:55] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/99/48/90c7c052b1a65bbffd3e20c6f11964c9fc1a3dc182ef8de7c3611b26d473/genomeshader-0.1.9.tar.gz
+[2024-05-02 03:39:55] INFO root fetch - processPackages [comfy-cli]: executing diffoscope
+[2024-05-02 03:39:55] INFO root fetch - processPackages [comfy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfy_cli-0.0.8.tar.gz tmp/comfy_cli-0.0.9.tar.gz --markdown 20240502/c/comfy-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 03:39:55] INFO root fetch - processPackages [genomeshader]: executing diffoscope
+[2024-05-02 03:39:55] INFO root fetch - processPackages [genomeshader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomeshader-0.1.8.tar.gz tmp/genomeshader-0.1.9.tar.gz --markdown 20240502/g/genomeshader/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 03:39:55] INFO root fetch - processPackages [exafs-neo]: Downloading https://files.pythonhosted.org/packages/ea/80/5a5d2a2ae194e29ad3e3f61bfcf878df0e0f07fa0bba8eb755fff747298c/exafs_neo-2.0.8.tar.gz
+[2024-05-02 03:39:56] INFO root fetch - processPackages [exafs-neo]: executing diffoscope
+[2024-05-02 03:39:56] INFO root fetch - processPackages [exafs-neo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exafs_neo-2.0.7.tar.gz tmp/exafs_neo-2.0.8.tar.gz --markdown 20240502/e/exafs-neo/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-05-02 03:39:56] INFO root fetch - processPackages [quasigraph]: Downloading https://files.pythonhosted.org/packages/fb/18/b28e2e27f88406156441b5e37adcc6a219da729158c2885e5f3e093d5a3d/quasigraph-24.5.0.tar.gz
+[2024-05-02 03:39:56] INFO root fetch - processPackages [quasigraph]: executing diffoscope
+[2024-05-02 03:39:56] INFO root fetch - processPackages [quasigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quasigraph-24.3.0.tar.gz tmp/quasigraph-24.5.0.tar.gz --markdown 20240502/q/quasigraph/24.3.0-24.5.0/README.md --exclude *.pyd
+[2024-05-02 03:39:56] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.8.tar.gz]
+[2024-05-02 03:39:56] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.9.tar.gz]
+[2024-05-02 03:39:56] INFO root fetch - main [MainThread]: End processing [genomeshader]: success
+[2024-05-02 03:39:56] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.8.tar.gz]
+[2024-05-02 03:39:56] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.9.tar.gz]
+[2024-05-02 03:39:56] INFO root fetch - main [MainThread]: End processing [comfy-cli]: success
+[2024-05-02 03:39:56] INFO root fetch - processPackages [quasigraph]: Remove: archive file [/home/abi/fetcher/tmp/quasigraph-24.3.0.tar.gz]
+[2024-05-02 03:39:56] INFO root fetch - processPackages [quasigraph]: Remove: archive file [/home/abi/fetcher/tmp/quasigraph-24.5.0.tar.gz]
+[2024-05-02 03:39:56] INFO root fetch - main [MainThread]: End processing [quasigraph]: success
+[2024-05-02 03:39:56] INFO root fetch - processPackages [exafs-neo]: Remove: archive file [/home/abi/fetcher/tmp/exafs_neo-2.0.7.tar.gz]
+[2024-05-02 03:39:56] INFO root fetch - processPackages [exafs-neo]: Remove: archive file [/home/abi/fetcher/tmp/exafs_neo-2.0.8.tar.gz]
+[2024-05-02 03:39:56] INFO root fetch - main [MainThread]: End processing [exafs-neo]: success
+[2024-05-02 03:39:56] INFO root fetch - main [MainThread]: Store serial: [23025534]
