@@ -9991,3 +9991,42 @@
 [2024-05-02 07:48:03] INFO root fetch - processPackages [hbox]: Remove: archive file [/home/abi/fetcher/tmp/hbox-0.1.2.tar.gz]
 [2024-05-02 07:48:03] INFO root fetch - main [MainThread]: End processing [hbox]: success
 [2024-05-02 07:48:03] INFO root fetch - main [MainThread]: Store serial: [23026757]
+[2024-05-02 07:50:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026757]
+[2024-05-02 07:50:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 07:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-05-02 07:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toollib
+[2024-05-02 07:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msoffcrypto-tool
+[2024-05-02 07:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libfvde-python
+[2024-05-02 07:50:12] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-02 07:50:12] INFO root fetch - processPackages [toollib]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-05-02 07:50:12] INFO root fetch - processPackages [libfvde-python]: New version: [20240502] Old Version: [20240113]
+[2024-05-02 07:50:12] INFO root fetch - processPackages [msoffcrypto-tool]: New version: [5.4.0] Old Version: [5.3.1]
+[2024-05-02 07:50:12] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-02 07:50:12] INFO root fetch - processPackages [toollib]: Downloading https://files.pythonhosted.org/packages/0d/c8/ba5376773943200dbb66ff71003243f6568530ce3f0470dbdfffdaaa8ba3/toollib-1.5.2-py3-none-any.whl
+[2024-05-02 07:50:12] INFO root fetch - processPackages [msoffcrypto-tool]: Downloading https://files.pythonhosted.org/packages/9a/1f/90411664d8d8005387d292047be77e7ae7d373365a19a861768e95bd5754/msoffcrypto_tool-5.3.1.tar.gz
+[2024-05-02 07:50:12] INFO root fetch - processPackages [libfvde-python]: Downloading https://files.pythonhosted.org/packages/b0/7a/7e2b7d076acf5ddf0d3a147a732992d315bcb9a00bf05d8c32907c95f96c/libfvde-python-20240113.tar.gz
+[2024-05-02 07:50:12] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-02 07:50:12] INFO root fetch - processPackages [msoffcrypto-tool]: Downloading https://files.pythonhosted.org/packages/36/25/a6011eda90e546ee457df941a4e1f24876ef8745b8a1d083369b2880e66f/msoffcrypto_tool-5.4.0.tar.gz
+[2024-05-02 07:50:12] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-02 07:50:12] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240502/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-02 07:50:12] INFO root fetch - processPackages [msoffcrypto-tool]: executing diffoscope
+[2024-05-02 07:50:12] INFO root fetch - processPackages [msoffcrypto-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msoffcrypto_tool-5.3.1.tar.gz tmp/msoffcrypto_tool-5.4.0.tar.gz --markdown 20240502/m/msoffcrypto-tool/5.3.1-5.4.0/README.md --exclude *.pyd
+[2024-05-02 07:50:13] INFO root fetch - processPackages [toollib]: Downloading https://files.pythonhosted.org/packages/85/4b/30418d22596fe14ad5814e978f2bda38db62b09f49a993ff7aa77e8f739e/toollib-1.5.3-py3-none-any.whl
+[2024-05-02 07:50:13] INFO root fetch - processPackages [libfvde-python]: Downloading https://files.pythonhosted.org/packages/fc/fa/ac70830c7a6f0530e920a1d9cafd576edec9d4e8e2a14ac0c4ec8ca1e2b8/libfvde-python-20240502.tar.gz
+[2024-05-02 07:50:13] INFO root fetch - processPackages [toollib]: executing diffoscope
+[2024-05-02 07:50:13] INFO root fetch - processPackages [toollib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toollib-1.5.2-py3-none-any.whl.zip tmp/toollib-1.5.3-py3-none-any.whl.zip --markdown 20240502/t/toollib/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-05-02 07:50:13] INFO root fetch - processPackages [libfvde-python]: executing diffoscope
+[2024-05-02 07:50:13] INFO root fetch - processPackages [libfvde-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libfvde-python-20240113.tar.gz tmp/libfvde-python-20240502.tar.gz --markdown 20240502/l/libfvde-python/20240113-20240502/README.md --exclude *.pyd
+[2024-05-02 07:50:13] INFO root fetch - processPackages [msoffcrypto-tool]: Remove: archive file [/home/abi/fetcher/tmp/msoffcrypto_tool-5.3.1.tar.gz]
+[2024-05-02 07:50:13] INFO root fetch - processPackages [msoffcrypto-tool]: Remove: archive file [/home/abi/fetcher/tmp/msoffcrypto_tool-5.4.0.tar.gz]
+[2024-05-02 07:50:13] INFO root fetch - main [MainThread]: End processing [msoffcrypto-tool]: success
+[2024-05-02 07:50:14] INFO root fetch - processPackages [toollib]: Remove: archive file [/home/abi/fetcher/tmp/toollib-1.5.2-py3-none-any.whl.zip]
+[2024-05-02 07:50:14] INFO root fetch - processPackages [toollib]: Remove: archive file [/home/abi/fetcher/tmp/toollib-1.5.3-py3-none-any.whl.zip]
+[2024-05-02 07:50:14] INFO root fetch - main [MainThread]: End processing [toollib]: success
+[2024-05-02 07:50:14] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-02 07:50:14] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-02 07:50:14] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-02 07:50:24] INFO root fetch - processPackages [libfvde-python]: Remove: archive file [/home/abi/fetcher/tmp/libfvde-python-20240113.tar.gz]
+[2024-05-02 07:50:24] INFO root fetch - processPackages [libfvde-python]: Remove: archive file [/home/abi/fetcher/tmp/libfvde-python-20240502.tar.gz]
+[2024-05-02 07:50:24] INFO root fetch - main [MainThread]: End processing [libfvde-python]: success
+[2024-05-02 07:50:24] INFO root fetch - main [MainThread]: Store serial: [23026769]
