@@ -8080,3 +8080,45 @@
 [2024-05-02 05:14:35] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-boundary-9.0.3.tar.gz]
 [2024-05-02 05:14:35] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-boundary]: success
 [2024-05-02 05:14:35] INFO root fetch - main [MainThread]: Store serial: [23026014]
+[2024-05-02 05:16:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026014]
+[2024-05-02 05:16:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 05:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mat3ra-utils
+[2024-05-02 05:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bambooai
+[2024-05-02 05:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codigofacilito-vc
+[2024-05-02 05:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cj-package
+[2024-05-02 05:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fmot
+[2024-05-02 05:16:44] INFO root fetch - processPackages [mat3ra-utils]: New version: [2024.5.2.post0] Old Version: [2024.4.6.post0]
+[2024-05-02 05:16:44] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 05:16:44] WARNING root fetch - processPackages [codigofacilito-vc]: Skipping, unable to determine old version
+[2024-05-02 05:16:44] INFO root fetch - main [MainThread]: End processing [codigofacilito-vc] error
+[2024-05-02 05:16:44] INFO root fetch - processPackages [fmot]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-05-02 05:16:44] INFO root fetch - processPackages [mat3ra-utils]: Downloading https://files.pythonhosted.org/packages/9b/27/b7f3bb3dec20fb4e33ad8c8cfd084b26f82c780312cad713e1cc23d6efa1/mat3ra-utils-2024.4.6.post0.tar.gz
+[2024-05-02 05:16:44] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 05:16:44] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-02 05:16:44] INFO root fetch - processPackages [fmot]: Downloading https://files.pythonhosted.org/packages/e8/f9/790f26a2331c3846d7731d16007ec0981320ad8f0d835a8a8f03689295dd/fmot-1.9.3-py3-none-any.whl
+[2024-05-02 05:16:44] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-05-02 05:16:44] INFO root fetch - processPackages [mat3ra-utils]: Downloading https://files.pythonhosted.org/packages/64/3a/218831f837f5b10447e5c84f006aa4988352333e64433c59a566f40c3246/mat3ra_utils-2024.5.2.post0.tar.gz
+[2024-05-02 05:16:44] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-02 05:16:44] INFO root fetch - processPackages [mat3ra-utils]: executing diffoscope
+[2024-05-02 05:16:44] INFO root fetch - processPackages [mat3ra-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra-utils-2024.4.6.post0.tar.gz tmp/mat3ra_utils-2024.5.2.post0.tar.gz --markdown 20240502/m/mat3ra-utils/2024.4.6.post0-2024.5.2.post0/README.md --exclude *.pyd
+[2024-05-02 05:16:44] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-02 05:16:44] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240502/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 05:16:45] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-05-02 05:16:45] INFO root fetch - processPackages [fmot]: Downloading https://files.pythonhosted.org/packages/fc/04/1f6015e154b7629d1fa020d474eba2aac7fa6f253bf5c7ac8daab2146488/fmot-1.9.4-py3-none-any.whl
+[2024-05-02 05:16:45] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-05-02 05:16:45] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240502/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 05:16:45] INFO root fetch - processPackages [fmot]: executing diffoscope
+[2024-05-02 05:16:45] INFO root fetch - processPackages [fmot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmot-1.9.3-py3-none-any.whl.zip tmp/fmot-1.9.4-py3-none-any.whl.zip --markdown 20240502/f/fmot/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-05-02 05:16:45] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-02 05:16:45] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-02 05:16:45] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-02 05:16:45] INFO root fetch - processPackages [mat3ra-utils]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-utils-2024.4.6.post0.tar.gz]
+[2024-05-02 05:16:45] INFO root fetch - processPackages [mat3ra-utils]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_utils-2024.5.2.post0.tar.gz]
+[2024-05-02 05:16:45] INFO root fetch - main [MainThread]: End processing [mat3ra-utils]: success
+[2024-05-02 05:16:45] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-05-02 05:16:45] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-05-02 05:16:45] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-05-02 05:16:46] INFO root fetch - processPackages [fmot]: Remove: archive file [/home/abi/fetcher/tmp/fmot-1.9.3-py3-none-any.whl.zip]
+[2024-05-02 05:16:46] INFO root fetch - processPackages [fmot]: Remove: archive file [/home/abi/fetcher/tmp/fmot-1.9.4-py3-none-any.whl.zip]
+[2024-05-02 05:16:46] INFO root fetch - main [MainThread]: End processing [fmot]: success
+[2024-05-02 05:16:46] INFO root fetch - main [MainThread]: Store serial: [23026029]
