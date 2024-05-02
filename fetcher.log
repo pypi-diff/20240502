@@ -8692,3 +8692,24 @@
 [2024-05-02 06:07:14] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.9.tar.gz]
 [2024-05-02 06:07:14] INFO root fetch - main [MainThread]: End processing [email-address-local]: success
 [2024-05-02 06:07:14] INFO root fetch - main [MainThread]: Store serial: [23026230]
+[2024-05-02 06:09:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026230]
+[2024-05-02 06:09:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 06:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: compasspy
+[2024-05-02 06:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aic-tools-alpaca
+[2024-05-02 06:09:23] INFO root fetch - processPackages [compasspy]: New version: [3.0] Old Version: [1.2]
+[2024-05-02 06:09:23] INFO root fetch - processPackages [aic-tools-alpaca]: New version: [1.0.0] Old Version: [0.0.3]
+[2024-05-02 06:09:23] INFO root fetch - processPackages [compasspy]: Downloading https://files.pythonhosted.org/packages/6d/c9/ddd7fcb34f1831881b9d29fb55eb01520786b90071cc2067c4f37a7f5597/compasspy-1.2.tar.gz
+[2024-05-02 06:09:23] INFO root fetch - processPackages [aic-tools-alpaca]: Downloading https://files.pythonhosted.org/packages/12/2f/8cd4b5f98ef27ece2906c12379c23d9d2eef06f5d1019693a92b18134e1c/aic_tools_alpaca-0.0.3.tar.gz
+[2024-05-02 06:09:23] INFO root fetch - processPackages [compasspy]: Downloading https://files.pythonhosted.org/packages/54/45/6e190d9bc08e8113be5ec87e58488e08df34c3b96a76427f4ff38235e574/compasspy-3.0.tar.gz
+[2024-05-02 06:09:23] INFO root fetch - processPackages [aic-tools-alpaca]: Downloading https://files.pythonhosted.org/packages/9a/f8/ebdb9492a26f3a121d0850cba64fe00bfb61602300306df859f46936de2e/aic_tools_alpaca-1.0.0.tar.gz
+[2024-05-02 06:09:23] INFO root fetch - processPackages [compasspy]: executing diffoscope
+[2024-05-02 06:09:23] INFO root fetch - processPackages [compasspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compasspy-1.2.tar.gz tmp/compasspy-3.0.tar.gz --markdown 20240502/c/compasspy/1.2-3.0/README.md --exclude *.pyd
+[2024-05-02 06:09:24] INFO root fetch - processPackages [aic-tools-alpaca]: executing diffoscope
+[2024-05-02 06:09:24] INFO root fetch - processPackages [aic-tools-alpaca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aic_tools_alpaca-0.0.3.tar.gz tmp/aic_tools_alpaca-1.0.0.tar.gz --markdown 20240502/a/aic-tools-alpaca/0.0.3-1.0.0/README.md --exclude *.pyd
+[2024-05-02 06:09:24] INFO root fetch - processPackages [aic-tools-alpaca]: Remove: archive file [/home/abi/fetcher/tmp/aic_tools_alpaca-0.0.3.tar.gz]
+[2024-05-02 06:09:24] INFO root fetch - processPackages [aic-tools-alpaca]: Remove: archive file [/home/abi/fetcher/tmp/aic_tools_alpaca-1.0.0.tar.gz]
+[2024-05-02 06:09:24] INFO root fetch - main [MainThread]: End processing [aic-tools-alpaca]: success
+[2024-05-02 06:09:24] INFO root fetch - processPackages [compasspy]: Remove: archive file [/home/abi/fetcher/tmp/compasspy-1.2.tar.gz]
+[2024-05-02 06:09:24] INFO root fetch - processPackages [compasspy]: Remove: archive file [/home/abi/fetcher/tmp/compasspy-3.0.tar.gz]
+[2024-05-02 06:09:24] INFO root fetch - main [MainThread]: End processing [compasspy]: success
+[2024-05-02 06:09:24] INFO root fetch - main [MainThread]: Store serial: [23026235]
