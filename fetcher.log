@@ -11221,3 +11221,54 @@
 [2024-05-02 09:02:13] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-05-02 09:02:13] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-05-02 09:02:13] INFO root fetch - main [MainThread]: Store serial: [23027247]
+[2024-05-02 09:04:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027247]
+[2024-05-02 09:04:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 09:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PepperPepper
+[2024-05-02 09:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apmtools
+[2024-05-02 09:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssm-svg
+[2024-05-02 09:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tink
+[2024-05-02 09:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eyes17
+[2024-05-02 09:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hedera-proto
+[2024-05-02 09:04:22] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.6] Old Version: [0.0.5.9]
+[2024-05-02 09:04:22] INFO root fetch - processPackages [apmtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 09:04:22] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/2d/03/462d4a6d03c63103124ffe53cd7033f4914c3c636cccb827fc6b81a56d38/pepperpepper-0.0.5.9.tar.gz
+[2024-05-02 09:04:22] WARNING root fetch - processPackages [ssm-svg]: Skipping, unable to determine old version
+[2024-05-02 09:04:22] INFO root fetch - main [MainThread]: End processing [ssm-svg] error
+[2024-05-02 09:04:22] INFO root fetch - processPackages [hedera-proto]: New version: [0.49.0] Old Version: [0.21.0]
+[2024-05-02 09:04:22] INFO root fetch - processPackages [eyes17]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 09:04:22] INFO root fetch - processPackages [tink]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-02 09:04:22] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/de/e4/d6e711ac61fe6f7af46eda73a0f1b76b8fea3058ed7ff8d5ed8e37631da0/apmtools-0.0.8.tar.gz
+[2024-05-02 09:04:22] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/d7/c1/8a4b1af5327b4ebcc2768642e71d2d9f6f1a12c4cbb157ca19bb48fc31fc/pepperpepper-0.0.6.tar.gz
+[2024-05-02 09:04:22] INFO root fetch - processPackages [tink]: Downloading https://files.pythonhosted.org/packages/47/5c/873507189a0b5672c0a8f0e0c2ea45eff9013a03112170e1a1d91da940f6/tink-1.8.0.tar.gz
+[2024-05-02 09:04:22] INFO root fetch - processPackages [hedera-proto]: Downloading https://files.pythonhosted.org/packages/18/e0/7aa06afeb90af1e62b6bcbd97810838538c7dcc5f0c90e55209978c32f18/hedera-proto-0.21.0.tar.gz
+[2024-05-02 09:04:22] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/de/3d/3d6998b934f55a028e30c4f6e8a6ccb5bf1315d89bcd1b8caaf3d867e3c7/eyes17-1.0.8.tar.gz
+[2024-05-02 09:04:22] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-02 09:04:22] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.5.9.tar.gz tmp/pepperpepper-0.0.6.tar.gz --markdown 20240502/P/PepperPepper/0.0.5.9-0.0.6/README.md --exclude *.pyd
+[2024-05-02 09:04:22] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/1b/d8/f078c028e3a31e87a9d21228f1c6989660a625af41cadc32b810ce6f8332/apmtools-0.0.9.tar.gz
+[2024-05-02 09:04:22] INFO root fetch - processPackages [hedera-proto]: Downloading https://files.pythonhosted.org/packages/ba/99/83c6a780b18951ecec43fddaac5a354434a1451245fbf29acf303f64fe67/hedera_proto-0.49.0.tar.gz
+[2024-05-02 09:04:22] INFO root fetch - processPackages [tink]: Downloading https://files.pythonhosted.org/packages/b9/69/57f1fc1089e1b6b9e950587fd7c0916a9b7b2796d97dcb583f1546afa4cf/tink-1.9.0.tar.gz
+[2024-05-02 09:04:23] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/6b/c4/71e2c3544ce45f549a59c74ee3f327ede9a5b9168005bc0c577b9b309bc3/eyes17-1.0.9.tar.gz
+[2024-05-02 09:04:23] INFO root fetch - processPackages [hedera-proto]: executing diffoscope
+[2024-05-02 09:04:23] INFO root fetch - processPackages [hedera-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hedera-proto-0.21.0.tar.gz tmp/hedera_proto-0.49.0.tar.gz --markdown 20240502/h/hedera-proto/0.21.0-0.49.0/README.md --exclude *.pyd
+[2024-05-02 09:04:23] INFO root fetch - processPackages [tink]: executing diffoscope
+[2024-05-02 09:04:23] INFO root fetch - processPackages [tink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tink-1.8.0.tar.gz tmp/tink-1.9.0.tar.gz --markdown 20240502/t/tink/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-02 09:04:23] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.5.9.tar.gz]
+[2024-05-02 09:04:23] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.6.tar.gz]
+[2024-05-02 09:04:23] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-02 09:04:23] INFO root fetch - processPackages [apmtools]: executing diffoscope
+[2024-05-02 09:04:23] INFO root fetch - processPackages [apmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apmtools-0.0.8.tar.gz tmp/apmtools-0.0.9.tar.gz --markdown 20240502/a/apmtools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 09:04:23] INFO root fetch - processPackages [eyes17]: executing diffoscope
+[2024-05-02 09:04:23] INFO root fetch - processPackages [eyes17]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes17-1.0.8.tar.gz tmp/eyes17-1.0.9.tar.gz --markdown 20240502/e/eyes17/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 09:04:23] INFO root fetch - processPackages [hedera-proto]: Remove: archive file [/home/abi/fetcher/tmp/hedera-proto-0.21.0.tar.gz]
+[2024-05-02 09:04:23] INFO root fetch - processPackages [hedera-proto]: Remove: archive file [/home/abi/fetcher/tmp/hedera_proto-0.49.0.tar.gz]
+[2024-05-02 09:04:23] INFO root fetch - main [MainThread]: End processing [hedera-proto]: success
+[2024-05-02 09:04:24] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.8.tar.gz]
+[2024-05-02 09:04:24] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.9.tar.gz]
+[2024-05-02 09:04:24] INFO root fetch - main [MainThread]: End processing [apmtools]: success
+[2024-05-02 09:04:24] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.8.tar.gz]
+[2024-05-02 09:04:24] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.9.tar.gz]
+[2024-05-02 09:04:24] INFO root fetch - main [MainThread]: End processing [eyes17]: success
+[2024-05-02 09:04:25] INFO root fetch - processPackages [tink]: Remove: archive file [/home/abi/fetcher/tmp/tink-1.8.0.tar.gz]
+[2024-05-02 09:04:25] INFO root fetch - processPackages [tink]: Remove: archive file [/home/abi/fetcher/tmp/tink-1.9.0.tar.gz]
+[2024-05-02 09:04:25] INFO root fetch - main [MainThread]: End processing [tink]: success
+[2024-05-02 09:04:25] INFO root fetch - main [MainThread]: Store serial: [23027289]
