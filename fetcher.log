@@ -15579,3 +15579,44 @@
 [2024-05-02 11:53:31] INFO root fetch - processPackages [carmen-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/carmen_cloud_client-1.0.3.tar.gz]
 [2024-05-02 11:53:31] INFO root fetch - main [MainThread]: End processing [carmen-cloud-client]: success
 [2024-05-02 11:53:31] INFO root fetch - main [MainThread]: Store serial: [23029061]
+[2024-05-02 11:55:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029061]
+[2024-05-02 11:55:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 11:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: USJ-dsptools
+[2024-05-02 11:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codex-of-the-damned
+[2024-05-02 11:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: increff-runner
+[2024-05-02 11:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bent
+[2024-05-02 11:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: galaxy-release-util
+[2024-05-02 11:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: senseiv2
+[2024-05-02 11:55:41] INFO root fetch - processPackages [increff-runner]: New version: [3.1.9] Old Version: [3.1.8]
+[2024-05-02 11:55:41] INFO root fetch - processPackages [bent]: New version: [0.0.9] Old Version: [0.0.55]
+[2024-05-02 11:55:41] INFO root fetch - processPackages [codex-of-the-damned]: New version: [1.9] Old Version: [1.8]
+[2024-05-02 11:55:41] WARNING root fetch - processPackages [senseiv2]: Skipping, unable to determine old version
+[2024-05-02 11:55:41] INFO root fetch - main [MainThread]: End processing [senseiv2] error
+[2024-05-02 11:55:41] INFO root fetch - processPackages [galaxy-release-util]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-02 11:55:41] WARNING root fetch - processPackages [USJ-dsptools]: Skipping, unable to determine old version
+[2024-05-02 11:55:41] INFO root fetch - main [MainThread]: End processing [USJ-dsptools] error
+[2024-05-02 11:55:41] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/9c/90/f768bc9ea84bf9a4392d0384d01590a376d108b0241dbb859d931bff58e4/increff_runner-3.1.8-py3-none-any.whl
+[2024-05-02 11:55:41] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/1f/cf/0b2286a189c66d1281c373c886b52017add3dd4eecf4072cdcdeb3f80bf5/bent-0.0.55.tar.gz
+[2024-05-02 11:55:41] INFO root fetch - processPackages [codex-of-the-damned]: Downloading https://files.pythonhosted.org/packages/c2/11/df884619fc13a601b050cb3e01ceb86181c35a4ee94f824c8544d07562f3/codex-of-the-damned-1.8.tar.gz
+[2024-05-02 11:55:41] WARNING root fetch - processPackages [codex-of-the-damned]: Skipping package: exceeds size limit 17715792>=10485760
+[2024-05-02 11:55:41] INFO root fetch - main [MainThread]: End processing [codex-of-the-damned] error
+[2024-05-02 11:55:41] INFO root fetch - processPackages [galaxy-release-util]: Downloading https://files.pythonhosted.org/packages/c7/e8/d347ed65369eec4075c14bdc41fd8fb6f80678a5a4fbf61859bb8bd22da7/galaxy-release-util-0.1.7.tar.gz
+[2024-05-02 11:55:41] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/90/0b/e90bc1c1cde3dc26fe2b1f4a0648bdbf77fa5cd447091e4accd93b6ce8bb/bent-0.0.9.tar.gz
+[2024-05-02 11:55:41] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/e4/ff/915ea61b2914019096f3fc92314dfbd0d7fdd10bbafd5a83f1a83e88069b/increff_runner-3.1.9-py3-none-any.whl
+[2024-05-02 11:55:41] INFO root fetch - processPackages [bent]: executing diffoscope
+[2024-05-02 11:55:41] INFO root fetch - processPackages [bent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bent-0.0.55.tar.gz tmp/bent-0.0.9.tar.gz --markdown 20240502/b/bent/0.0.55-0.0.9/README.md --exclude *.pyd
+[2024-05-02 11:55:41] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-05-02 11:55:41] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-3.1.8-py3-none-any.whl.zip tmp/increff_runner-3.1.9-py3-none-any.whl.zip --markdown 20240502/i/increff-runner/3.1.8-3.1.9/README.md --exclude *.pyd
+[2024-05-02 11:55:41] INFO root fetch - processPackages [galaxy-release-util]: Downloading https://files.pythonhosted.org/packages/4d/39/40561e735037feb61aa130088c60324fc4e11e3db5036ab5ede1930c62a0/galaxy_release_util-0.1.8.tar.gz
+[2024-05-02 11:55:42] INFO root fetch - processPackages [galaxy-release-util]: executing diffoscope
+[2024-05-02 11:55:42] INFO root fetch - processPackages [galaxy-release-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-release-util-0.1.7.tar.gz tmp/galaxy_release_util-0.1.8.tar.gz --markdown 20240502/g/galaxy-release-util/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-02 11:55:42] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.8-py3-none-any.whl.zip]
+[2024-05-02 11:55:42] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.9-py3-none-any.whl.zip]
+[2024-05-02 11:55:42] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-05-02 11:55:42] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.55.tar.gz]
+[2024-05-02 11:55:42] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.9.tar.gz]
+[2024-05-02 11:55:42] INFO root fetch - main [MainThread]: End processing [bent]: success
+[2024-05-02 11:55:42] INFO root fetch - processPackages [galaxy-release-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-release-util-0.1.7.tar.gz]
+[2024-05-02 11:55:42] INFO root fetch - processPackages [galaxy-release-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_release_util-0.1.8.tar.gz]
+[2024-05-02 11:55:42] INFO root fetch - main [MainThread]: End processing [galaxy-release-util]: success
+[2024-05-02 11:55:42] INFO root fetch - main [MainThread]: Store serial: [23029082]
