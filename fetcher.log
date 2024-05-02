@@ -18460,3 +18460,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 13:42:20] INFO root fetch - processPackages [ckanext-admin-panel]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_admin_panel-1.0.12.tar.gz]
 [2024-05-02 13:42:20] INFO root fetch - main [MainThread]: End processing [ckanext-admin-panel]: success
 [2024-05-02 13:42:20] INFO root fetch - main [MainThread]: Store serial: [23030151]
+[2024-05-02 13:44:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030151]
+[2024-05-02 13:44:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 13:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-05-02 13:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tollm
+[2024-05-02 13:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ibind
+[2024-05-02 13:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-be-intrastat-product
+[2024-05-02 13:44:29] INFO root fetch - processPackages [ibind]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-02 13:44:29] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 13:44:29] WARNING root fetch - processPackages [tollm]: Skipping, unable to determine old version
+[2024-05-02 13:44:29] INFO root fetch - main [MainThread]: End processing [tollm] error
+[2024-05-02 13:44:29] INFO root fetch - processPackages [odoo-addon-l10n-be-intrastat-product]: New version: [16.0.1.0.0.4] Old Version: [15.0.1.0.0.2]
+[2024-05-02 13:44:29] INFO root fetch - processPackages [ibind]: Downloading https://files.pythonhosted.org/packages/c6/65/cfb97112d43e0b80193000b31dbbd0885112c4cdfae92fd019d83dc89be9/ibind-0.0.1.tar.gz
+[2024-05-02 13:44:29] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-02 13:44:29] INFO root fetch - processPackages [ibind]: Downloading https://files.pythonhosted.org/packages/ea/63/a2f81e1910768ed43282dc3174472bbe6425bce5e8328ff1d38e16831d81/ibind-0.0.2.tar.gz
+[2024-05-02 13:44:29] INFO root fetch - processPackages [odoo-addon-l10n-be-intrastat-product]: Downloading https://files.pythonhosted.org/packages/81/e5/9a737e1bdfc72b113d9fef3496620153dd37c4e401878e8886b327b02e71/odoo_addon_l10n_be_intrastat_product-15.0.1.0.0.2-py3-none-any.whl
+[2024-05-02 13:44:29] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-02 13:44:30] INFO root fetch - processPackages [ibind]: executing diffoscope
+[2024-05-02 13:44:30] INFO root fetch - processPackages [ibind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibind-0.0.1.tar.gz tmp/ibind-0.0.2.tar.gz --markdown 20240502/i/ibind/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-02 13:44:30] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-02 13:44:30] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240502/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 13:44:30] INFO root fetch - processPackages [odoo-addon-l10n-be-intrastat-product]: Downloading https://files.pythonhosted.org/packages/ce/80/23be378645b0d28929d1f5073c6afc899474f865a303719877246be08f3d/odoo_addon_l10n_be_intrastat_product-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-02 13:44:30] INFO root fetch - processPackages [ibind]: Remove: archive file [/home/abi/fetcher/tmp/ibind-0.0.1.tar.gz]
+[2024-05-02 13:44:30] INFO root fetch - processPackages [ibind]: Remove: archive file [/home/abi/fetcher/tmp/ibind-0.0.2.tar.gz]
+[2024-05-02 13:44:30] INFO root fetch - main [MainThread]: End processing [ibind]: success
+[2024-05-02 13:44:30] INFO root fetch - processPackages [odoo-addon-l10n-be-intrastat-product]: executing diffoscope
+[2024-05-02 13:44:30] INFO root fetch - processPackages [odoo-addon-l10n-be-intrastat-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_be_intrastat_product-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_be_intrastat_product-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-be-intrastat-product/15.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-02 13:44:30] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-02 13:44:30] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-02 13:44:30] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-02 13:44:31] INFO root fetch - processPackages [odoo-addon-l10n-be-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_intrastat_product-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-02 13:44:31] INFO root fetch - processPackages [odoo-addon-l10n-be-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_intrastat_product-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-02 13:44:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-be-intrastat-product]: success
+[2024-05-02 13:44:31] INFO root fetch - main [MainThread]: Store serial: [23030163]
