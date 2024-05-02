@@ -21288,3 +21288,60 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:08:37] INFO root fetch - processPackages [bifrost]: Remove: archive file [/home/abi/fetcher/tmp/bifrost-9.1.0.tar.gz]
 [2024-05-02 15:08:37] INFO root fetch - main [MainThread]: End processing [bifrost]: success
 [2024-05-02 15:08:37] INFO root fetch - main [MainThread]: Store serial: [23031300]
+[2024-05-02 15:10:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031300]
+[2024-05-02 15:10:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ao3statscraper
+[2024-05-02 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ironic
+[2024-05-02 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sushy
+[2024-05-02 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-project-tracker
+[2024-05-02 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paasta-tools
+[2024-05-02 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: networking-baremetal
+[2024-05-02 15:10:47] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev4] Old Version: [0.0.3.dev3]
+[2024-05-02 15:10:47] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/20/1f/d6510bba19083dd168821df3c9f4e8c912a1b523bdf9fe1354ee66e7d5cc/ml_project_tracker-0.0.3.dev3.tar.gz
+[2024-05-02 15:10:47] INFO root fetch - processPackages [networking-baremetal]: New version: [6.3.0] Old Version: [6.2.0]
+[2024-05-02 15:10:47] INFO root fetch - processPackages [ironic]: New version: [9.1.7] Old Version: [9.1.6]
+[2024-05-02 15:10:47] INFO root fetch - processPackages [ao3statscraper]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-02 15:10:47] INFO root fetch - processPackages [sushy]: New version: [5.0.0] Old Version: [4.8.0]
+[2024-05-02 15:10:47] INFO root fetch - processPackages [paasta-tools]: New version: [0.92.1] Old Version: [0.92.0]
+[2024-05-02 15:10:47] INFO root fetch - processPackages [networking-baremetal]: Downloading https://files.pythonhosted.org/packages/d9/34/c24468a7571dce498426cb4a0772649f9e54919b9896a83cbe9449fb56ae/networking-baremetal-6.2.0.tar.gz
+[2024-05-02 15:10:47] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/4a/0d/4404f538f73fd9262e827faffa3ec48b8413a24ff7a44cb416e30e89634c/paasta-tools-0.92.0.tar.gz
+[2024-05-02 15:10:47] INFO root fetch - processPackages [sushy]: Downloading https://files.pythonhosted.org/packages/5b/0e/6667c15445d7c2826f46aeaa7cf6444ad5198c6d92d130031aba7e030431/sushy-4.8.0.tar.gz
+[2024-05-02 15:10:47] INFO root fetch - processPackages [ironic]: Downloading https://files.pythonhosted.org/packages/2f/88/2a3768b7c2b45ce67cc1f858f9600c72dac3a4abe7d2c3189c79c3059309/ironic-9.1.6.tar.gz
+[2024-05-02 15:10:47] INFO root fetch - processPackages [ao3statscraper]: Downloading https://files.pythonhosted.org/packages/eb/a0/e57fd4e176fa9e1335917b7cf81055262e747005646a0804ef7c09f7f255/ao3statscraper-0.1.2.tar.gz
+[2024-05-02 15:10:47] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/f2/b2/3170f109443b2b78f4807fe09398152143a7cff3475a1c6cd1e14082cfcc/ml_project_tracker-0.0.3.dev4.tar.gz
+[2024-05-02 15:10:47] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-02 15:10:47] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.dev3.tar.gz tmp/ml_project_tracker-0.0.3.dev4.tar.gz --markdown 20240502/m/ml-project-tracker/0.0.3.dev3-0.0.3.dev4/README.md --exclude *.pyd
+[2024-05-02 15:10:47] INFO root fetch - processPackages [networking-baremetal]: Downloading https://files.pythonhosted.org/packages/e6/87/f9cb1e572f70a2aa42d54e225568afd9dabfec3bcf3fffe099de6e352270/networking-baremetal-6.3.0.tar.gz
+[2024-05-02 15:10:47] INFO root fetch - processPackages [ao3statscraper]: Downloading https://files.pythonhosted.org/packages/75/37/9917f92573f66bb04aed670f01963c591b6a8cdd9725e06e94572bea246f/ao3statscraper-0.1.4.tar.gz
+[2024-05-02 15:10:48] INFO root fetch - processPackages [networking-baremetal]: executing diffoscope
+[2024-05-02 15:10:48] INFO root fetch - processPackages [networking-baremetal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networking-baremetal-6.2.0.tar.gz tmp/networking-baremetal-6.3.0.tar.gz --markdown 20240502/n/networking-baremetal/6.2.0-6.3.0/README.md --exclude *.pyd
+[2024-05-02 15:10:48] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/d8/f5/9a4c0134f4d0862da0cbcc57381d5c9f52e37ea937fa628e123433ccb7a4/paasta-tools-0.92.1.tar.gz
+[2024-05-02 15:10:48] INFO root fetch - processPackages [sushy]: Downloading https://files.pythonhosted.org/packages/c8/21/9951a7b87b5f9e2f1881bf5bed9878241b8284aa38ea9714c223e8cf658d/sushy-5.0.0.tar.gz
+[2024-05-02 15:10:48] INFO root fetch - processPackages [ao3statscraper]: executing diffoscope
+[2024-05-02 15:10:48] INFO root fetch - processPackages [ao3statscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ao3statscraper-0.1.2.tar.gz tmp/ao3statscraper-0.1.4.tar.gz --markdown 20240502/a/ao3statscraper/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-02 15:10:48] INFO root fetch - processPackages [sushy]: executing diffoscope
+[2024-05-02 15:10:48] INFO root fetch - processPackages [sushy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sushy-4.8.0.tar.gz tmp/sushy-5.0.0.tar.gz --markdown 20240502/s/sushy/4.8.0-5.0.0/README.md --exclude *.pyd
+[2024-05-02 15:10:48] INFO root fetch - processPackages [paasta-tools]: executing diffoscope
+[2024-05-02 15:10:48] INFO root fetch - processPackages [paasta-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paasta-tools-0.92.0.tar.gz tmp/paasta-tools-0.92.1.tar.gz --markdown 20240502/p/paasta-tools/0.92.0-0.92.1/README.md --exclude *.pyd
+[2024-05-02 15:10:48] INFO root fetch - processPackages [ironic]: Downloading https://files.pythonhosted.org/packages/88/68/bd7861aad5bfd401f4424a760169d5ed3b6d54c05b9b3458ea48f5b274d9/ironic-9.1.7.tar.gz
+[2024-05-02 15:10:48] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev3.tar.gz]
+[2024-05-02 15:10:48] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev4.tar.gz]
+[2024-05-02 15:10:48] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-02 15:10:48] INFO root fetch - processPackages [ironic]: executing diffoscope
+[2024-05-02 15:10:48] INFO root fetch - processPackages [ironic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ironic-9.1.6.tar.gz tmp/ironic-9.1.7.tar.gz --markdown 20240502/i/ironic/9.1.6-9.1.7/README.md --exclude *.pyd
+[2024-05-02 15:10:48] INFO root fetch - processPackages [ao3statscraper]: Remove: archive file [/home/abi/fetcher/tmp/ao3statscraper-0.1.2.tar.gz]
+[2024-05-02 15:10:48] INFO root fetch - processPackages [ao3statscraper]: Remove: archive file [/home/abi/fetcher/tmp/ao3statscraper-0.1.4.tar.gz]
+[2024-05-02 15:10:48] INFO root fetch - main [MainThread]: End processing [ao3statscraper]: success
+[2024-05-02 15:10:49] INFO root fetch - processPackages [networking-baremetal]: Remove: archive file [/home/abi/fetcher/tmp/networking-baremetal-6.2.0.tar.gz]
+[2024-05-02 15:10:49] INFO root fetch - processPackages [networking-baremetal]: Remove: archive file [/home/abi/fetcher/tmp/networking-baremetal-6.3.0.tar.gz]
+[2024-05-02 15:10:49] INFO root fetch - main [MainThread]: End processing [networking-baremetal]: success
+[2024-05-02 15:10:49] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.0.tar.gz]
+[2024-05-02 15:10:49] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
+[2024-05-02 15:10:49] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
+[2024-05-02 15:10:49] INFO root fetch - processPackages [sushy]: Remove: archive file [/home/abi/fetcher/tmp/sushy-4.8.0.tar.gz]
+[2024-05-02 15:10:49] INFO root fetch - processPackages [sushy]: Remove: archive file [/home/abi/fetcher/tmp/sushy-5.0.0.tar.gz]
+[2024-05-02 15:10:49] INFO root fetch - main [MainThread]: End processing [sushy]: success
+[2024-05-02 15:10:52] INFO root fetch - processPackages [ironic]: Remove: archive file [/home/abi/fetcher/tmp/ironic-9.1.6.tar.gz]
+[2024-05-02 15:10:52] INFO root fetch - processPackages [ironic]: Remove: archive file [/home/abi/fetcher/tmp/ironic-9.1.7.tar.gz]
+[2024-05-02 15:10:52] INFO root fetch - main [MainThread]: End processing [ironic]: success
+[2024-05-02 15:10:52] INFO root fetch - main [MainThread]: Store serial: [23031318]
