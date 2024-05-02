@@ -10557,3 +10557,27 @@
 [2024-05-02 08:24:38] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.1.4.tar.gz]
 [2024-05-02 08:24:38] INFO root fetch - main [MainThread]: End processing [trimnami]: success
 [2024-05-02 08:24:38] INFO root fetch - main [MainThread]: Store serial: [23026959]
+[2024-05-02 08:26:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026959]
+[2024-05-02 08:26:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 08:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: szkGraph
+[2024-05-02 08:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qai-scraper
+[2024-05-02 08:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-vertex
+[2024-05-02 08:26:47] WARNING root fetch - processPackages [llm-vertex]: Skipping, unable to determine old version
+[2024-05-02 08:26:47] INFO root fetch - main [MainThread]: End processing [llm-vertex] error
+[2024-05-02 08:26:47] INFO root fetch - processPackages [qai-scraper]: New version: [0.5.1] Old Version: [0.5]
+[2024-05-02 08:26:47] INFO root fetch - processPackages [szkGraph]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-02 08:26:47] INFO root fetch - processPackages [qai-scraper]: Downloading https://files.pythonhosted.org/packages/1b/f2/74008a3d4b58f6126f60dd5e4e2f51073cef38e747dcf15cd2603397ba9b/qai_scraper-0.5.tar.gz
+[2024-05-02 08:26:47] INFO root fetch - processPackages [szkGraph]: Downloading https://files.pythonhosted.org/packages/23/d8/437d95c9b879e39dab861b12964cd219429e9037cee7bccbba64e73cb5d6/szkgraph-0.0.2.tar.gz
+[2024-05-02 08:26:47] INFO root fetch - processPackages [qai-scraper]: Downloading https://files.pythonhosted.org/packages/9b/0c/617d1ac9384629b4cc8ab9976bd5fc9b73a7e5c75e9bca1056c1d6452a87/qai_scraper-0.5.1.tar.gz
+[2024-05-02 08:26:48] INFO root fetch - processPackages [qai-scraper]: executing diffoscope
+[2024-05-02 08:26:48] INFO root fetch - processPackages [qai-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_scraper-0.5.tar.gz tmp/qai_scraper-0.5.1.tar.gz --markdown 20240502/q/qai-scraper/0.5-0.5.1/README.md --exclude *.pyd
+[2024-05-02 08:26:48] INFO root fetch - processPackages [szkGraph]: Downloading https://files.pythonhosted.org/packages/44/82/a34ca01ceb5aef0d9684644e41b5c2fcbdcd4fad845e1b92c77e0e50bfd8/szkgraph-0.0.3.tar.gz
+[2024-05-02 08:26:48] INFO root fetch - processPackages [szkGraph]: executing diffoscope
+[2024-05-02 08:26:48] INFO root fetch - processPackages [szkGraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/szkgraph-0.0.2.tar.gz tmp/szkgraph-0.0.3.tar.gz --markdown 20240502/s/szkGraph/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-02 08:26:48] INFO root fetch - processPackages [qai-scraper]: Remove: archive file [/home/abi/fetcher/tmp/qai_scraper-0.5.tar.gz]
+[2024-05-02 08:26:48] INFO root fetch - processPackages [qai-scraper]: Remove: archive file [/home/abi/fetcher/tmp/qai_scraper-0.5.1.tar.gz]
+[2024-05-02 08:26:48] INFO root fetch - main [MainThread]: End processing [qai-scraper]: success
+[2024-05-02 08:26:48] INFO root fetch - processPackages [szkGraph]: Remove: archive file [/home/abi/fetcher/tmp/szkgraph-0.0.2.tar.gz]
+[2024-05-02 08:26:48] INFO root fetch - processPackages [szkGraph]: Remove: archive file [/home/abi/fetcher/tmp/szkgraph-0.0.3.tar.gz]
+[2024-05-02 08:26:48] INFO root fetch - main [MainThread]: End processing [szkGraph]: success
+[2024-05-02 08:26:48] INFO root fetch - main [MainThread]: Store serial: [23026968]
