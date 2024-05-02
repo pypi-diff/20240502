@@ -2878,3 +2878,42 @@
 [2024-05-02 02:57:08] INFO root fetch - processPackages [gtauthclient]: Remove: archive file [/home/abi/fetcher/tmp/gtauthclient-0.0.7.tar.gz]
 [2024-05-02 02:57:08] INFO root fetch - main [MainThread]: End processing [gtauthclient]: success
 [2024-05-02 02:57:08] INFO root fetch - main [MainThread]: Store serial: [23024091]
+[2024-05-02 02:59:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23024091]
+[2024-05-02 02:59:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 02:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wah
+[2024-05-02 02:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: komoutils
+[2024-05-02 02:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mike
+[2024-05-02 02:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: umbrela
+[2024-05-02 02:59:16] INFO root fetch - processPackages [umbrela]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-02 02:59:16] INFO root fetch - processPackages [komoutils]: New version: [0.0.225] Old Version: [0.0.224]
+[2024-05-02 02:59:17] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 02:59:17] INFO root fetch - processPackages [mike]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-02 02:59:17] INFO root fetch - processPackages [umbrela]: Downloading https://files.pythonhosted.org/packages/29/a1/04ca9729d278b24ae7c4b7f52a93265e8fbe21d1beeec081a49165038240/umbrela-0.0.5-py3-none-any.whl
+[2024-05-02 02:59:17] INFO root fetch - processPackages [komoutils]: Downloading https://files.pythonhosted.org/packages/d8/80/ba1b13b94fcefc7ccc0d0cff662847ffe75392f0bd963eac33dbbced6970/komoutils-0.0.224.tar.gz
+[2024-05-02 02:59:17] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-02 02:59:17] INFO root fetch - processPackages [mike]: Downloading https://files.pythonhosted.org/packages/69/86/fe79ca89ad1a393a9129b3ab77649dbe542103a76c92d2d68ac9f0da496c/mike-2.0.0.tar.gz
+[2024-05-02 02:59:17] INFO root fetch - processPackages [komoutils]: Downloading https://files.pythonhosted.org/packages/89/98/24ac7ffdecf4429f1e2399cdc281d63d95e703e85d1875e4248a335104da/komoutils-0.0.225.tar.gz
+[2024-05-02 02:59:17] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-02 02:59:17] INFO root fetch - processPackages [umbrela]: Downloading https://files.pythonhosted.org/packages/8e/88/580c8886ef000ef377d6b2caf552b6bd46c194687e0983ecfe9d1591e311/umbrela-0.0.6-py3-none-any.whl
+[2024-05-02 02:59:17] INFO root fetch - processPackages [komoutils]: executing diffoscope
+[2024-05-02 02:59:17] INFO root fetch - processPackages [komoutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komoutils-0.0.224.tar.gz tmp/komoutils-0.0.225.tar.gz --markdown 20240502/k/komoutils/0.0.224-0.0.225/README.md --exclude *.pyd
+[2024-05-02 02:59:17] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-02 02:59:17] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240502/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 02:59:17] INFO root fetch - processPackages [umbrela]: executing diffoscope
+[2024-05-02 02:59:17] INFO root fetch - processPackages [umbrela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umbrela-0.0.5-py3-none-any.whl.zip tmp/umbrela-0.0.6-py3-none-any.whl.zip --markdown 20240502/u/umbrela/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-02 02:59:17] INFO root fetch - processPackages [mike]: Downloading https://files.pythonhosted.org/packages/ab/53/908b55432ce4817ac15ee1d835b4635e8f3a82e125a23b7ed08d7cfadb99/mike-2.1.0.tar.gz
+[2024-05-02 02:59:17] INFO root fetch - processPackages [mike]: executing diffoscope
+[2024-05-02 02:59:17] INFO root fetch - processPackages [mike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mike-2.0.0.tar.gz tmp/mike-2.1.0.tar.gz --markdown 20240502/m/mike/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-02 02:59:18] INFO root fetch - processPackages [komoutils]: Remove: archive file [/home/abi/fetcher/tmp/komoutils-0.0.224.tar.gz]
+[2024-05-02 02:59:18] INFO root fetch - processPackages [komoutils]: Remove: archive file [/home/abi/fetcher/tmp/komoutils-0.0.225.tar.gz]
+[2024-05-02 02:59:18] INFO root fetch - main [MainThread]: End processing [komoutils]: success
+[2024-05-02 02:59:18] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-02 02:59:18] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-02 02:59:18] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-02 02:59:18] INFO root fetch - processPackages [umbrela]: Remove: archive file [/home/abi/fetcher/tmp/umbrela-0.0.5-py3-none-any.whl.zip]
+[2024-05-02 02:59:18] INFO root fetch - processPackages [umbrela]: Remove: archive file [/home/abi/fetcher/tmp/umbrela-0.0.6-py3-none-any.whl.zip]
+[2024-05-02 02:59:18] INFO root fetch - main [MainThread]: End processing [umbrela]: success
+[2024-05-02 02:59:18] INFO root fetch - processPackages [mike]: Remove: archive file [/home/abi/fetcher/tmp/mike-2.0.0.tar.gz]
+[2024-05-02 02:59:18] INFO root fetch - processPackages [mike]: Remove: archive file [/home/abi/fetcher/tmp/mike-2.1.0.tar.gz]
+[2024-05-02 02:59:18] INFO root fetch - main [MainThread]: End processing [mike]: success
+[2024-05-02 02:59:18] INFO root fetch - main [MainThread]: Store serial: [23024101]
