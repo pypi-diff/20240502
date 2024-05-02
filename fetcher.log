@@ -13253,3 +13253,112 @@
 [2024-05-02 10:25:40] INFO root fetch - processPackages [xiomedon]: Remove: archive file [/home/abi/fetcher/tmp/xiomedon-1.0.2.tar.gz]
 [2024-05-02 10:25:40] INFO root fetch - main [MainThread]: End processing [xiomedon]: success
 [2024-05-02 10:25:40] INFO root fetch - main [MainThread]: Store serial: [23028076]
+[2024-05-02 10:27:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028076]
+[2024-05-02 10:27:49] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-02 10:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-configurator
+[2024-05-02 10:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hapi-schema
+[2024-05-02 10:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aissemble-foundation-drift-detection-client-python
+[2024-05-02 10:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissemble-foundation-drift-detection-client-python
+[2024-05-02 10:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: georeader-spaceml
+[2024-05-02 10:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: senseiv2test-aliFrancis
+[2024-05-02 10:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hp2p-api
+[2024-05-02 10:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytabtex
+[2024-05-02 10:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aissemble-foundation-model-training-api
+[2024-05-02 10:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dektools
+[2024-05-02 10:27:49] INFO root fetch - processPackages [georeader-spaceml]: New version: [1.1] Old Version: [1.0.9]
+[2024-05-02 10:27:49] WARNING root fetch - processPackages [pytabtex]: Skipping, unable to determine old version
+[2024-05-02 10:27:49] INFO root fetch - processPackages [pytabtex]: Start processing: aissemble-foundation-model-training-api
+[2024-05-02 10:27:49] INFO root fetch - main [MainThread]: End processing [pytabtex] error
+[2024-05-02 10:27:49] INFO root fetch - processPackages [dektools]: New version: [0.1.92] Old Version: [0.1.91]
+[2024-05-02 10:27:49] INFO root fetch - processPackages [hp2p-api]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-02 10:27:49] INFO root fetch - processPackages [odoo-configurator]: New version: [3.4.7] Old Version: [3.4.6]
+[2024-05-02 10:27:49] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: New version: [1.7.0.dev1714638370] Old Version: [1.7.0.dev1714638368]
+[2024-05-02 10:27:49] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: New version: [1.7.0.dev1714638370] Old Version: [1.7.0.dev1714638368]
+[2024-05-02 10:27:49] WARNING root fetch - processPackages [senseiv2test-aliFrancis]: Skipping, unable to determine old version
+[2024-05-02 10:27:49] INFO root fetch - processPackages [senseiv2test-aliFrancis]: Start processing: checkov
+[2024-05-02 10:27:49] INFO root fetch - main [MainThread]: End processing [senseiv2test-aliFrancis] error
+[2024-05-02 10:27:49] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: New version: [1.7.0.dev1714638400] Old Version: [1.7.0.dev1714638396]
+[2024-05-02 10:27:49] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: New version: [1.7.0.dev1714638400] Old Version: [1.7.0.dev1714638396]
+[2024-05-02 10:27:49] INFO root fetch - processPackages [hapi-schema]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-02 10:27:49] INFO root fetch - processPackages [georeader-spaceml]: Downloading https://files.pythonhosted.org/packages/8a/59/b16aca8b7920855422d197ef73e34224af5e718b9dc2a94465c5341ea913/georeader-spaceml-1.0.9.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/a7/04/b941d3b66214b6563165b1d4e6811d73f2e6390b88062b5a4f3dab90d129/dektools-0.1.91.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-02 10:27:50] INFO root fetch - processPackages [hp2p-api]: Downloading https://files.pythonhosted.org/packages/bd/e3/9d44be31625e1198d809d1420d8461d056295895c6d6e288a042db8802a7/hp2p-api-1.0.6.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Downloading https://files.pythonhosted.org/packages/c1/91/932d260a593a36afe89e33a174d2d9fad56703735883df61c3d532ae4889/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714638368.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Downloading https://files.pythonhosted.org/packages/c1/91/932d260a593a36afe89e33a174d2d9fad56703735883df61c3d532ae4889/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714638368.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [odoo-configurator]: Downloading https://files.pythonhosted.org/packages/05/c8/8a6c69f21e052edc25cad671d7c01978ad599699e5aecb8bffa0791b4775/odoo-configurator-3.4.6.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Downloading https://files.pythonhosted.org/packages/fd/c7/fcc2a62991ce502161aee43bbc5ceee398439fadd37720d6c12446be1768/aissemble_foundation_model_training_api-1.7.0.dev1714638396.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Downloading https://files.pythonhosted.org/packages/fd/c7/fcc2a62991ce502161aee43bbc5ceee398439fadd37720d6c12446be1768/aissemble_foundation_model_training_api-1.7.0.dev1714638396.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/45/b5/a7639364cb06e31f18c4ced5c30c5be87ef86f1311e2bf43f84fcc5fc10d/hapi_schema-0.7.3.tar.gz
+[2024-05-02 10:27:50] WARNING root fetch - processPackages [hp2p-api]: Skipping package: exceeds size limit 31712493>=10485760
+[2024-05-02 10:27:50] INFO root fetch - processPackages [hp2p-api]: Start processing: aissemble-foundation-versioning-service
+[2024-05-02 10:27:50] INFO root fetch - main [MainThread]: End processing [hp2p-api] error
+[2024-05-02 10:27:50] INFO root fetch - processPackages [georeader-spaceml]: Downloading https://files.pythonhosted.org/packages/a1/56/4caa07cc33585803b129f5411a553038a7c3cbea216eeaad32e7b3b3bffe/georeader-spaceml-1.1.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/88/07/1509be74cf47a29b012a6f7477139e57bee2a7d01634b6bd6a71d095ace8/checkov-3.2.8.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/11/10/9296302ba1c037ecd708065ccaa3285628d40caec66db89901c4b97aafa4/dektools-0.1.92.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: New version: [1.7.0.dev1714638441] Old Version: [1.7.0.dev1714638435]
+[2024-05-02 10:27:50] INFO root fetch - processPackages [georeader-spaceml]: executing diffoscope
+[2024-05-02 10:27:50] INFO root fetch - processPackages [georeader-spaceml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/georeader-spaceml-1.0.9.tar.gz tmp/georeader-spaceml-1.1.tar.gz --markdown 20240502/g/georeader-spaceml/1.0.9-1.1/README.md --exclude *.pyd
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Downloading https://files.pythonhosted.org/packages/76/b7/bc9dee259b0bc5682323cf1e42aafeee1eba1d0d31ff2cb01658226a1625/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714638370.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Downloading https://files.pythonhosted.org/packages/76/b7/bc9dee259b0bc5682323cf1e42aafeee1eba1d0d31ff2cb01658226a1625/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714638370.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [dektools]: executing diffoscope
+[2024-05-02 10:27:50] INFO root fetch - processPackages [dektools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dektools-0.1.91.tar.gz tmp/dektools-0.1.92.tar.gz --markdown 20240502/d/dektools/0.1.91-0.1.92/README.md --exclude *.pyd
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Downloading https://files.pythonhosted.org/packages/ed/64/85d7d644a248bd9746a74aa89442f40e267bca3a314c1c3c9e29ea168427/aissemble_foundation_model_training_api-1.7.0.dev1714638400.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [odoo-configurator]: Downloading https://files.pythonhosted.org/packages/90/37/c18813d566ac00acec113760b01a359ca0f3324781f0181e77e94887753f/odoo_configurator-3.4.7.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Downloading https://files.pythonhosted.org/packages/ed/64/85d7d644a248bd9746a74aa89442f40e267bca3a314c1c3c9e29ea168427/aissemble_foundation_model_training_api-1.7.0.dev1714638400.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Downloading https://files.pythonhosted.org/packages/8a/12/b135673cd4b33ab9b049f145955b4d8bfdda06ea4e5085b57373dc68dbe1/aissemble_foundation_versioning_service-1.7.0.dev1714638435.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/8c/9c/709521bb85b6394622fe718d83cd05df99e53ecfdbe04231169ae1e24075/hapi_schema-0.7.4.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: executing diffoscope
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714638368.tar.gz tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714638370.tar.gz --markdown 20240502/a/aissemble-foundation-drift-detection-client-python/1.7.0.dev1714638368-1.7.0.dev1714638370/README.md --exclude *.pyd
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: executing diffoscope
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714638368.tar.gz tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714638370.tar.gz --markdown 20240502/a/aissemble-foundation-drift-detection-client-python/1.7.0.dev1714638368-1.7.0.dev1714638370/README.md --exclude *.pyd
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: executing diffoscope
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_model_training_api-1.7.0.dev1714638396.tar.gz tmp/aissemble_foundation_model_training_api-1.7.0.dev1714638400.tar.gz --markdown 20240502/a/aissemble-foundation-model-training-api/1.7.0.dev1714638396-1.7.0.dev1714638400/README.md --exclude *.pyd
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: executing diffoscope
+[2024-05-02 10:27:50] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_model_training_api-1.7.0.dev1714638396.tar.gz tmp/aissemble_foundation_model_training_api-1.7.0.dev1714638400.tar.gz --markdown 20240502/a/aissemble-foundation-model-training-api/1.7.0.dev1714638396-1.7.0.dev1714638400/README.md --exclude *.pyd
+[2024-05-02 10:27:50] INFO root fetch - processPackages [odoo-configurator]: executing diffoscope
+[2024-05-02 10:27:50] INFO root fetch - processPackages [odoo-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo-configurator-3.4.6.tar.gz tmp/odoo_configurator-3.4.7.tar.gz --markdown 20240502/o/odoo-configurator/3.4.6-3.4.7/README.md --exclude *.pyd
+[2024-05-02 10:27:50] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-05-02 10:27:50] INFO root fetch - processPackages [hapi-schema]: executing diffoscope
+[2024-05-02 10:27:50] INFO root fetch - processPackages [hapi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapi_schema-0.7.3.tar.gz tmp/hapi_schema-0.7.4.tar.gz --markdown 20240502/h/hapi-schema/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-02 10:27:51] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Downloading https://files.pythonhosted.org/packages/d7/9f/cb8f3cd11db964e7428f920a4bbbfdbd5cf47db5ecc3c6c0ddb6e9f3f560/aissemble_foundation_versioning_service-1.7.0.dev1714638441.tar.gz
+[2024-05-02 10:27:51] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-02 10:27:51] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.8.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240502/c/checkov/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-02 10:27:51] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: executing diffoscope
+[2024-05-02 10:27:51] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_versioning_service-1.7.0.dev1714638435.tar.gz tmp/aissemble_foundation_versioning_service-1.7.0.dev1714638441.tar.gz --markdown 20240502/a/aissemble-foundation-versioning-service/1.7.0.dev1714638435-1.7.0.dev1714638441/README.md --exclude *.pyd
+[2024-05-02 10:27:51] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.91.tar.gz]
+[2024-05-02 10:27:51] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.92.tar.gz]
+[2024-05-02 10:27:51] INFO root fetch - processPackages [dektools]: Start processing: aissemble-foundation-versioning-service
+[2024-05-02 10:27:51] INFO root fetch - main [MainThread]: End processing [dektools]: success
+[2024-05-02 10:27:51] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714638368.tar.gz]
+[2024-05-02 10:27:51] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714638370.tar.gz]
+[2024-05-02 10:27:51] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-drift-detection-client-python]: success
+[2024-05-02 10:27:51] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: New version: [1.7.0.dev1714638441] Old Version: [1.7.0.dev1714638435]
+[2024-05-02 10:27:52] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-drift-detection-client-python]: success
+[2024-05-02 10:27:52] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_training_api-1.7.0.dev1714638396.tar.gz]
+[2024-05-02 10:27:52] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_training_api-1.7.0.dev1714638400.tar.gz]
+[2024-05-02 10:27:52] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-model-training-api]: success
+[2024-05-02 10:27:52] INFO root fetch - processPackages [georeader-spaceml]: Remove: archive file [/home/abi/fetcher/tmp/georeader-spaceml-1.0.9.tar.gz]
+[2024-05-02 10:27:52] INFO root fetch - processPackages [georeader-spaceml]: Remove: archive file [/home/abi/fetcher/tmp/georeader-spaceml-1.1.tar.gz]
+[2024-05-02 10:27:52] INFO root fetch - main [MainThread]: End processing [georeader-spaceml]: success
+[2024-05-02 10:27:52] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-model-training-api]: success
+[2024-05-02 10:27:52] INFO root fetch - processPackages [odoo-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo-configurator-3.4.6.tar.gz]
+[2024-05-02 10:27:52] INFO root fetch - processPackages [odoo-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_configurator-3.4.7.tar.gz]
+[2024-05-02 10:27:52] INFO root fetch - main [MainThread]: End processing [odoo-configurator]: success
+[2024-05-02 10:27:52] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.7.3.tar.gz]
+[2024-05-02 10:27:52] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.7.4.tar.gz]
+[2024-05-02 10:27:52] INFO root fetch - main [MainThread]: End processing [hapi-schema]: success
+[2024-05-02 10:27:52] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: executing diffoscope
+[2024-05-02 10:27:52] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_versioning_service-1.7.0.dev1714638435.tar.gz tmp/aissemble_foundation_versioning_service-1.7.0.dev1714638441.tar.gz --markdown 20240502/a/aissemble-foundation-versioning-service/1.7.0.dev1714638435-1.7.0.dev1714638441/README.md --exclude *.pyd
+[2024-05-02 10:27:52] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_versioning_service-1.7.0.dev1714638435.tar.gz]
+[2024-05-02 10:27:52] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_versioning_service-1.7.0.dev1714638441.tar.gz]
+[2024-05-02 10:27:52] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-versioning-service]: success
+[2024-05-02 10:27:52] ERROR root fetch - processPackages [aissemble-foundation-versioning-service]: Diffoscope failed: time="2024-05-02T10:27:52+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/aissemble_foundation_versioning_service-1.7.0.dev1714638435.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/aissemble_foundation_versioning_service-1.7.0.dev1714638441.tar.gz: No such file or directory
+
+[2024-05-02 10:27:52] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-versioning-service] error
+[2024-05-02 10:28:00] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.8.tar.gz]
+[2024-05-02 10:28:00] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-05-02 10:28:00] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-02 10:28:00] INFO root fetch - main [MainThread]: Store serial: [23028121]
