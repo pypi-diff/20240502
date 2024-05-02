@@ -18592,3 +18592,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 13:48:57] INFO root fetch - processPackages [spatialdata-plot]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata_plot-0.2.2.tar.gz]
 [2024-05-02 13:48:57] INFO root fetch - main [MainThread]: End processing [spatialdata-plot]: success
 [2024-05-02 13:48:57] INFO root fetch - main [MainThread]: Store serial: [23030196]
+[2024-05-02 13:51:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030196]
+[2024-05-02 13:51:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 13:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragfmk
+[2024-05-02 13:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: groq-cli
+[2024-05-02 13:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-project-tracker
+[2024-05-02 13:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PolicyEngine-UK
+[2024-05-02 13:51:06] INFO root fetch - processPackages [ragfmk]: New version: [0.1.4.1] Old Version: [0.1.3.1]
+[2024-05-02 13:51:06] WARNING root fetch - processPackages [groq-cli]: Skipping, unable to determine old version
+[2024-05-02 13:51:06] INFO root fetch - main [MainThread]: End processing [groq-cli] error
+[2024-05-02 13:51:06] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev1] Old Version: [0.0.3]
+[2024-05-02 13:51:06] INFO root fetch - processPackages [PolicyEngine-UK]: New version: [0.75.0] Old Version: [0.74.1]
+[2024-05-02 13:51:06] INFO root fetch - processPackages [ragfmk]: Downloading https://files.pythonhosted.org/packages/d2/f5/ef035d68f6c63ceb62dbc6695eb80102588d3a75f4c06e984808ab861791/ragfmk-0.1.3.1-py3-none-any.whl
+[2024-05-02 13:51:06] INFO root fetch - processPackages [PolicyEngine-UK]: Downloading https://files.pythonhosted.org/packages/dd/28/fa56ff8ed46484243a3555770056c9b0be5b796bf0be7fa086faaea6a65e/PolicyEngine-UK-0.74.1.tar.gz
+[2024-05-02 13:51:06] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/8a/b3/8c1ad494e1c387894d53784fb436e56afe962a4d39b5cb4eb4f6df9c7136/ml_project_tracker-0.0.3.tar.gz
+[2024-05-02 13:51:07] INFO root fetch - processPackages [ragfmk]: Downloading https://files.pythonhosted.org/packages/09/26/60d496ebc01b6a07ee07ab5dad1b20752ab76e544764913f9e14cb070ba5/ragfmk-0.1.4.1-py3-none-any.whl
+[2024-05-02 13:51:07] INFO root fetch - processPackages [PolicyEngine-UK]: Downloading https://files.pythonhosted.org/packages/37/f4/3fce3148ef4a471ecf9abc3ce08d698fdb9e958afc854e5f1cb3a716d6ec/PolicyEngine-UK-0.75.0.tar.gz
+[2024-05-02 13:51:07] INFO root fetch - processPackages [ragfmk]: executing diffoscope
+[2024-05-02 13:51:07] INFO root fetch - processPackages [ragfmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragfmk-0.1.3.1-py3-none-any.whl.zip tmp/ragfmk-0.1.4.1-py3-none-any.whl.zip --markdown 20240502/r/ragfmk/0.1.3.1-0.1.4.1/README.md --exclude *.pyd
+[2024-05-02 13:51:07] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/cc/87/46bf3a8c056524d28bbaeeb37b7b5de0af1f6490c09b7f2ab080eb3d92b1/ml_project_tracker-0.0.3.dev1.tar.gz
+[2024-05-02 13:51:07] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-02 13:51:07] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.tar.gz tmp/ml_project_tracker-0.0.3.dev1.tar.gz --markdown 20240502/m/ml-project-tracker/0.0.3-0.0.3.dev1/README.md --exclude *.pyd
+[2024-05-02 13:51:07] INFO root fetch - processPackages [PolicyEngine-UK]: executing diffoscope
+[2024-05-02 13:51:07] INFO root fetch - processPackages [PolicyEngine-UK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PolicyEngine-UK-0.74.1.tar.gz tmp/PolicyEngine-UK-0.75.0.tar.gz --markdown 20240502/P/PolicyEngine-UK/0.74.1-0.75.0/README.md --exclude *.pyd
+[2024-05-02 13:51:07] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.tar.gz]
+[2024-05-02 13:51:07] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev1.tar.gz]
+[2024-05-02 13:51:07] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-02 13:51:08] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.3.1-py3-none-any.whl.zip]
+[2024-05-02 13:51:08] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.4.1-py3-none-any.whl.zip]
+[2024-05-02 13:51:08] INFO root fetch - main [MainThread]: End processing [ragfmk]: success
+[2024-05-02 13:51:09] INFO root fetch - processPackages [PolicyEngine-UK]: Remove: archive file [/home/abi/fetcher/tmp/PolicyEngine-UK-0.74.1.tar.gz]
+[2024-05-02 13:51:09] INFO root fetch - processPackages [PolicyEngine-UK]: Remove: archive file [/home/abi/fetcher/tmp/PolicyEngine-UK-0.75.0.tar.gz]
+[2024-05-02 13:51:09] INFO root fetch - main [MainThread]: End processing [PolicyEngine-UK]: success
+[2024-05-02 13:51:09] INFO root fetch - main [MainThread]: Store serial: [23030206]
