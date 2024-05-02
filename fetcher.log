@@ -12792,3 +12792,81 @@
 [2024-05-02 10:10:13] INFO root fetch - processPackages [ipyvue]: Remove: archive file [/home/abi/fetcher/tmp/ipyvue-3.0.0a2.tar.gz]
 [2024-05-02 10:10:13] INFO root fetch - main [MainThread]: End processing [ipyvue]: success
 [2024-05-02 10:10:13] INFO root fetch - main [MainThread]: Store serial: [23027908]
+[2024-05-02 10:12:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027908]
+[2024-05-02 10:12:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 10:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumiverse-doppler
+[2024-05-02 10:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sifflet-sdk
+[2024-05-02 10:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sifflet
+[2024-05-02 10:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openlit
+[2024-05-02 10:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-cloud-spanner
+[2024-05-02 10:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: izihawa-textparser
+[2024-05-02 10:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-project-tracker
+[2024-05-02 10:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frequenz-repo-config
+[2024-05-02 10:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fin-maestro-kin
+[2024-05-02 10:12:23] INFO root fetch - processPackages [openlit]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-02 10:12:23] INFO root fetch - processPackages [pulumiverse-doppler]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-02 10:12:24] WARNING root fetch - processPackages [ml-project-tracker]: Skipping, unable to determine old version
+[2024-05-02 10:12:24] INFO root fetch - main [MainThread]: End processing [ml-project-tracker] error
+[2024-05-02 10:12:24] INFO root fetch - processPackages [sifflet-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 10:12:24] INFO root fetch - processPackages [sifflet]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 10:12:24] INFO root fetch - processPackages [pulumiverse-doppler]: Downloading https://files.pythonhosted.org/packages/c4/40/0df6e6c0c0f55f878d4ebc9572d426f5a55cf453c4f9570e56da039ee0b2/pulumiverse_doppler-0.4.0.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/80/b1/ba7a43369ace88414dc79e0e6a59fcd9ad6e52350e833067d1529c6472d5/openlit-1.1.0.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [frequenz-repo-config]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-02 10:12:24] INFO root fetch - processPackages [google-cloud-spanner]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-05-02 10:12:24] INFO root fetch - processPackages [fin-maestro-kin]: New version: [0.3.0] Old Version: [0.2.6]
+[2024-05-02 10:12:24] INFO root fetch - processPackages [izihawa-textparser]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-02 10:12:24] INFO root fetch - processPackages [sifflet-sdk]: Downloading https://files.pythonhosted.org/packages/e6/37/5a4153596590de453a8b57c8e0541981e60cd1e63f1d9756081a2d3f8128/sifflet_sdk-0.3.8.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [sifflet]: Downloading https://files.pythonhosted.org/packages/32/89/9bb97bb69c4a7142f8d91aa542d61da94ec11183fb1244950dc81c23801d/sifflet-0.3.8.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [google-cloud-spanner]: Downloading https://files.pythonhosted.org/packages/c0/2d/9383b183858aaf9f33a19f695d5db62abbd3750f41e5461f5d4dd68d2da2/google-cloud-spanner-3.8.0.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [izihawa-textparser]: Downloading https://files.pythonhosted.org/packages/35/86/992655e63799238532d03dd8b42dcd77753a22fdf22b27b893be713093e2/izihawa_textparser-0.1.98.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [frequenz-repo-config]: Downloading https://files.pythonhosted.org/packages/94/3f/fa59d18e18521fb3fe3d52de35901e37d9c3c69f9c9f2a9d71bdd70b9bd1/frequenz-repo-config-0.9.1.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [fin-maestro-kin]: Downloading https://files.pythonhosted.org/packages/6d/eb/cac4a595e7f5b9c03046901a7c318fefc9e1fdfbea0c6611380f17462a76/fin_maestro_kin-0.2.6.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [pulumiverse-doppler]: Downloading https://files.pythonhosted.org/packages/fc/e7/38957687ea0c8e669606c3d700cf26160e176ecfba3c82359ad4a9e02e52/pulumiverse_doppler-0.5.0.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/a2/a6/a2ab98f5c2447dfa49d842a140306711d9cea287a3b2f28a1ce2308935fa/openlit-1.1.1.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [pulumiverse-doppler]: executing diffoscope
+[2024-05-02 10:12:24] INFO root fetch - processPackages [pulumiverse-doppler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_doppler-0.4.0.tar.gz tmp/pulumiverse_doppler-0.5.0.tar.gz --markdown 20240502/p/pulumiverse-doppler/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-02 10:12:24] INFO root fetch - processPackages [openlit]: executing diffoscope
+[2024-05-02 10:12:24] INFO root fetch - processPackages [openlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlit-1.1.0.tar.gz tmp/openlit-1.1.1.tar.gz --markdown 20240502/o/openlit/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-02 10:12:24] INFO root fetch - processPackages [sifflet]: Downloading https://files.pythonhosted.org/packages/9a/87/e2ebefcc2fde934952a74f35ebaeaa7df84cc37fe1848266cdf92e76ef6e/sifflet-0.3.9.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [sifflet-sdk]: Downloading https://files.pythonhosted.org/packages/29/47/0d62d3d63131862e9603f236af00a783e3490d0c6a27871618cfe9487441/sifflet_sdk-0.3.9.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [izihawa-textparser]: Downloading https://files.pythonhosted.org/packages/65/50/86f091e47fe0a6c2f3484f1f8b741be2e544f2e48405158d5baf7afc92ea/izihawa_textparser-0.1.99.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [frequenz-repo-config]: Downloading https://files.pythonhosted.org/packages/ba/6d/579bbc93973388d6c7dcad2840a13ecd2cfe6372a4e77d2464f106c776d6/frequenz-repo-config-0.9.2.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [fin-maestro-kin]: Downloading https://files.pythonhosted.org/packages/a5/1a/191739a5bfdbda0682a73fffe681b17590065b9a71b04bedb24c7028cc18/fin_maestro_kin-0.3.0.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [sifflet]: executing diffoscope
+[2024-05-02 10:12:24] INFO root fetch - processPackages [sifflet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sifflet-0.3.8.tar.gz tmp/sifflet-0.3.9.tar.gz --markdown 20240502/s/sifflet/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 10:12:24] INFO root fetch - processPackages [google-cloud-spanner]: Downloading https://files.pythonhosted.org/packages/7f/af/852f011a0e2347701621b19205ec8b0037c7a76ce4c0705f0ee8e7788671/google-cloud-spanner-3.9.0.tar.gz
+[2024-05-02 10:12:24] INFO root fetch - processPackages [sifflet-sdk]: executing diffoscope
+[2024-05-02 10:12:24] INFO root fetch - processPackages [sifflet-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sifflet_sdk-0.3.8.tar.gz tmp/sifflet_sdk-0.3.9.tar.gz --markdown 20240502/s/sifflet-sdk/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 10:12:24] INFO root fetch - processPackages [izihawa-textparser]: executing diffoscope
+[2024-05-02 10:12:24] INFO root fetch - processPackages [izihawa-textparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izihawa_textparser-0.1.98.tar.gz tmp/izihawa_textparser-0.1.99.tar.gz --markdown 20240502/i/izihawa-textparser/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-02 10:12:24] INFO root fetch - processPackages [frequenz-repo-config]: executing diffoscope
+[2024-05-02 10:12:24] INFO root fetch - processPackages [frequenz-repo-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-repo-config-0.9.1.tar.gz tmp/frequenz-repo-config-0.9.2.tar.gz --markdown 20240502/f/frequenz-repo-config/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-02 10:12:24] INFO root fetch - processPackages [fin-maestro-kin]: executing diffoscope
+[2024-05-02 10:12:24] INFO root fetch - processPackages [fin-maestro-kin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fin_maestro_kin-0.2.6.tar.gz tmp/fin_maestro_kin-0.3.0.tar.gz --markdown 20240502/f/fin-maestro-kin/0.2.6-0.3.0/README.md --exclude *.pyd
+[2024-05-02 10:12:25] INFO root fetch - processPackages [google-cloud-spanner]: executing diffoscope
+[2024-05-02 10:12:25] INFO root fetch - processPackages [google-cloud-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-spanner-3.8.0.tar.gz tmp/google-cloud-spanner-3.9.0.tar.gz --markdown 20240502/g/google-cloud-spanner/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-05-02 10:12:25] INFO root fetch - processPackages [pulumiverse-doppler]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_doppler-0.4.0.tar.gz]
+[2024-05-02 10:12:25] INFO root fetch - processPackages [pulumiverse-doppler]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_doppler-0.5.0.tar.gz]
+[2024-05-02 10:12:25] INFO root fetch - main [MainThread]: End processing [pulumiverse-doppler]: success
+[2024-05-02 10:12:25] INFO root fetch - processPackages [sifflet]: Remove: archive file [/home/abi/fetcher/tmp/sifflet-0.3.8.tar.gz]
+[2024-05-02 10:12:25] INFO root fetch - processPackages [sifflet]: Remove: archive file [/home/abi/fetcher/tmp/sifflet-0.3.9.tar.gz]
+[2024-05-02 10:12:25] INFO root fetch - main [MainThread]: End processing [sifflet]: success
+[2024-05-02 10:12:26] INFO root fetch - processPackages [fin-maestro-kin]: Remove: archive file [/home/abi/fetcher/tmp/fin_maestro_kin-0.2.6.tar.gz]
+[2024-05-02 10:12:26] INFO root fetch - processPackages [fin-maestro-kin]: Remove: archive file [/home/abi/fetcher/tmp/fin_maestro_kin-0.3.0.tar.gz]
+[2024-05-02 10:12:26] INFO root fetch - main [MainThread]: End processing [fin-maestro-kin]: success
+[2024-05-02 10:12:26] INFO root fetch - processPackages [izihawa-textparser]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_textparser-0.1.98.tar.gz]
+[2024-05-02 10:12:26] INFO root fetch - processPackages [izihawa-textparser]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_textparser-0.1.99.tar.gz]
+[2024-05-02 10:12:26] INFO root fetch - main [MainThread]: End processing [izihawa-textparser]: success
+[2024-05-02 10:12:26] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.1.0.tar.gz]
+[2024-05-02 10:12:26] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.1.1.tar.gz]
+[2024-05-02 10:12:26] INFO root fetch - main [MainThread]: End processing [openlit]: success
+[2024-05-02 10:12:26] INFO root fetch - processPackages [frequenz-repo-config]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-repo-config-0.9.1.tar.gz]
+[2024-05-02 10:12:26] INFO root fetch - processPackages [frequenz-repo-config]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-repo-config-0.9.2.tar.gz]
+[2024-05-02 10:12:26] INFO root fetch - main [MainThread]: End processing [frequenz-repo-config]: success
+[2024-05-02 10:12:26] INFO root fetch - processPackages [google-cloud-spanner]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-spanner-3.8.0.tar.gz]
+[2024-05-02 10:12:26] INFO root fetch - processPackages [google-cloud-spanner]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-spanner-3.9.0.tar.gz]
+[2024-05-02 10:12:26] INFO root fetch - main [MainThread]: End processing [google-cloud-spanner]: success
+[2024-05-02 10:12:28] INFO root fetch - processPackages [sifflet-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sifflet_sdk-0.3.8.tar.gz]
+[2024-05-02 10:12:28] INFO root fetch - processPackages [sifflet-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sifflet_sdk-0.3.9.tar.gz]
+[2024-05-02 10:12:28] INFO root fetch - main [MainThread]: End processing [sifflet-sdk]: success
+[2024-05-02 10:12:28] INFO root fetch - main [MainThread]: Store serial: [23027940]
