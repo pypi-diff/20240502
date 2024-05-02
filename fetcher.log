@@ -15097,3 +15097,37 @@
 [2024-05-02 11:33:34] INFO root fetch - processPackages [graph-attention-student]: Remove: archive file [/home/abi/fetcher/tmp/graph_attention_student-0.9.0.tar.gz]
 [2024-05-02 11:33:34] INFO root fetch - main [MainThread]: End processing [graph-attention-student]: success
 [2024-05-02 11:33:34] INFO root fetch - main [MainThread]: Store serial: [23028850]
+[2024-05-02 11:35:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028850]
+[2024-05-02 11:35:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ReverseBox
+[2024-05-02 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pingparsing
+[2024-05-02 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: templated-setup
+[2024-05-02 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itwingstestsprojects
+[2024-05-02 11:35:43] INFO root fetch - processPackages [templated-setup]: New version: [0.959] Old Version: [0.958]
+[2024-05-02 11:35:43] INFO root fetch - processPackages [itwingstestsprojects]: New version: [0.3] Old Version: [0.2]
+[2024-05-02 11:35:43] INFO root fetch - processPackages [ReverseBox]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-02 11:35:43] INFO root fetch - processPackages [pingparsing]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-02 11:35:43] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/4c/a6/25769a31a6993f06d6d333b2f29bcc3c673cb42fd076095e380998e45e8f/templated_setup-0.958.tar.gz
+[2024-05-02 11:35:43] ERROR root fetch - processPackages [itwingstestsprojects]: Unable to fetch info: No such project/version 'itwingstestsprojects' 0.2
+[2024-05-02 11:35:43] INFO root fetch - main [MainThread]: End processing [itwingstestsprojects] error
+[2024-05-02 11:35:43] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/0d/ae/bb62846616532eba334d2638fb3dcdc0b56584d0ba899a48611a02e1d375/ReverseBox-0.7.0.tar.gz
+[2024-05-02 11:35:43] INFO root fetch - processPackages [pingparsing]: Downloading https://files.pythonhosted.org/packages/1c/9a/33f960a78bdb827060dd7df65da9d8fc8fdcfbdbe93ed4c2b0f85c4d9d29/pingparsing-1.4.1.tar.gz
+[2024-05-02 11:35:43] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/50/f1/07fcfa1d43e1066b5ab9e508b3ab3464abfeaa075f34a71b252903dc462b/templated_setup-0.959.tar.gz
+[2024-05-02 11:35:44] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 11:35:44] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.958.tar.gz tmp/templated_setup-0.959.tar.gz --markdown 20240502/t/templated-setup/0.958-0.959/README.md --exclude *.pyd
+[2024-05-02 11:35:44] INFO root fetch - processPackages [pingparsing]: Downloading https://files.pythonhosted.org/packages/4d/0c/fd057b5f0a79db49c6270dedff2035a3c49685cf61a258d655a0334e01b2/pingparsing-1.4.2.tar.gz
+[2024-05-02 11:35:44] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/d7/a6/4e9e8bdc1e7dcf1538947cb431fedd01763a1f0f9eac2b159dfd59195c94/ReverseBox-0.8.0.tar.gz
+[2024-05-02 11:35:44] INFO root fetch - processPackages [pingparsing]: executing diffoscope
+[2024-05-02 11:35:44] INFO root fetch - processPackages [pingparsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pingparsing-1.4.1.tar.gz tmp/pingparsing-1.4.2.tar.gz --markdown 20240502/p/pingparsing/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-02 11:35:44] INFO root fetch - processPackages [ReverseBox]: executing diffoscope
+[2024-05-02 11:35:44] INFO root fetch - processPackages [ReverseBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseBox-0.7.0.tar.gz tmp/ReverseBox-0.8.0.tar.gz --markdown 20240502/R/ReverseBox/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-02 11:35:44] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.958.tar.gz]
+[2024-05-02 11:35:44] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.959.tar.gz]
+[2024-05-02 11:35:44] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 11:35:45] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.7.0.tar.gz]
+[2024-05-02 11:35:45] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.8.0.tar.gz]
+[2024-05-02 11:35:45] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
+[2024-05-02 11:35:45] INFO root fetch - processPackages [pingparsing]: Remove: archive file [/home/abi/fetcher/tmp/pingparsing-1.4.1.tar.gz]
+[2024-05-02 11:35:45] INFO root fetch - processPackages [pingparsing]: Remove: archive file [/home/abi/fetcher/tmp/pingparsing-1.4.2.tar.gz]
+[2024-05-02 11:35:45] INFO root fetch - main [MainThread]: End processing [pingparsing]: success
+[2024-05-02 11:35:45] INFO root fetch - main [MainThread]: Store serial: [23028863]
