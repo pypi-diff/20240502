@@ -14980,3 +14980,69 @@
 [2024-05-02 11:26:44] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.79.tar.gz]
 [2024-05-02 11:26:44] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-05-02 11:26:44] INFO root fetch - main [MainThread]: Store serial: [23028813]
+[2024-05-02 11:28:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028813]
+[2024-05-02 11:28:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 11:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-sdk-preview
+[2024-05-02 11:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raga-llm-hub
+[2024-05-02 11:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: attribox
+[2024-05-02 11:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quark-engine
+[2024-05-02 11:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: templated-setup
+[2024-05-02 11:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: locust
+[2024-05-02 11:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: btc-embedded
+[2024-05-02 11:28:53] INFO root fetch - processPackages [attribox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 11:28:53] INFO root fetch - processPackages [templated-setup]: New version: [0.957] Old Version: [0.956]
+[2024-05-02 11:28:53] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.1.98] Old Version: [1.1.97]
+[2024-05-02 11:28:53] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-05-02 11:28:53] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.6] Old Version: [24.1.5]
+[2024-05-02 11:28:53] INFO root fetch - processPackages [quark-engine]: New version: [24.5.1] Old Version: [24.4.1]
+[2024-05-02 11:28:53] INFO root fetch - processPackages [raga-llm-hub]: New version: [1.0.0.9] Old Version: [1.0.0.11b1]
+[2024-05-02 11:28:53] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/7b/ba/a605a61a63b4b9df0bb4d5cb123271af13f53c72d5793b78aed3fcd5ab29/templated_setup-0.956.tar.gz
+[2024-05-02 11:28:53] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b0/1b/afc61ed4af69d170a0c4bd0272fdd2e586a48c0c1828c0cf9fb03718795b/attribox-0.1.8.tar.gz
+[2024-05-02 11:28:53] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-05-02 11:28:53] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f9/fb/fc53cb5d0455e9bbd1207566684f6f2cd700268ae435d3172e9489e357d8/lusid-sdk-preview-1.1.97.tar.gz
+[2024-05-02 11:28:53] INFO root fetch - processPackages [raga-llm-hub]: Downloading https://files.pythonhosted.org/packages/5b/b1/e6a3368ad2203a5530f5f87f43d6dfce4aea8839d051400dab62c71d6ba8/raga_llm_hub-1.0.0.11b1-py3-none-any.whl
+[2024-05-02 11:28:53] INFO root fetch - processPackages [quark-engine]: Downloading https://files.pythonhosted.org/packages/96/ef/41ef5a41c33f7c985102c8ae72f588ee4332cb8c182f39165e8bca014ef0/quark-engine-24.4.1.tar.gz
+[2024-05-02 11:28:53] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/8b/e8/9e00e79b018e905f39d99897ba81460a4b885356f929a725f6e9351948bc/btc_embedded-24.1.5.tar.gz
+[2024-05-02 11:28:54] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/69/b9/e78256d5e20225283f5a9da5953e2fa8765c3db5f7ca364e939ebd7c413d/templated_setup-0.957.tar.gz
+[2024-05-02 11:28:54] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b1/e6/a20bbaa9e0f051b656d86826235dcdfa648da889d34b564acef9329d3455/attribox-0.1.9.tar.gz
+[2024-05-02 11:28:54] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c5/34/68330ec346008829c8b0f483665ee7ae8ba394a18406fd563696f8ee59e8/lusid-sdk-preview-1.1.98.tar.gz
+[2024-05-02 11:28:54] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 11:28:54] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.956.tar.gz tmp/templated_setup-0.957.tar.gz --markdown 20240502/t/templated-setup/0.956-0.957/README.md --exclude *.pyd
+[2024-05-02 11:28:54] INFO root fetch - processPackages [attribox]: executing diffoscope
+[2024-05-02 11:28:54] INFO root fetch - processPackages [attribox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attribox-0.1.8.tar.gz tmp/attribox-0.1.9.tar.gz --markdown 20240502/a/attribox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 11:28:54] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/7d/f3/c09aeec981a27733f8eca6f0e54fe554a2f03f0611fc1a4bf8e0ddb889ac/btc_embedded-24.1.6.tar.gz
+[2024-05-02 11:28:54] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-05-02 11:28:54] INFO root fetch - processPackages [quark-engine]: Downloading https://files.pythonhosted.org/packages/f6/12/9dce453966947b0ccbeed151ae20b4a78bc6d12913c4bef6faafd606b3d3/quark_engine-24.5.1.tar.gz
+[2024-05-02 11:28:54] INFO root fetch - processPackages [raga-llm-hub]: Downloading https://files.pythonhosted.org/packages/38/ec/8f79c048be4ae2a4a6ed3d1e261e19352bc69cb495c71bfba682deeabab0/raga-llm-hub-1.0.0.9.tar.gz
+[2024-05-02 11:28:54] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2024-05-02 11:28:54] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.1.97.tar.gz tmp/lusid-sdk-preview-1.1.98.tar.gz --markdown 20240502/l/lusid-sdk-preview/1.1.97-1.1.98/README.md --exclude *.pyd
+[2024-05-02 11:28:54] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-05-02 11:28:54] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-24.1.5.tar.gz tmp/btc_embedded-24.1.6.tar.gz --markdown 20240502/b/btc-embedded/24.1.5-24.1.6/README.md --exclude *.pyd
+[2024-05-02 11:28:54] INFO root fetch - processPackages [quark-engine]: executing diffoscope
+[2024-05-02 11:28:54] INFO root fetch - processPackages [quark-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quark-engine-24.4.1.tar.gz tmp/quark_engine-24.5.1.tar.gz --markdown 20240502/q/quark-engine/24.4.1-24.5.1/README.md --exclude *.pyd
+[2024-05-02 11:28:54] INFO root fetch - processPackages [raga-llm-hub]: executing diffoscope
+[2024-05-02 11:28:54] INFO root fetch - processPackages [raga-llm-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga_llm_hub-1.0.0.11b1-py3-none-any.whl.zip tmp/raga-llm-hub-1.0.0.9.tar.gz --markdown 20240502/r/raga-llm-hub/1.0.0.11b1-1.0.0.9/README.md --exclude *.pyd
+[2024-05-02 11:28:54] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.956.tar.gz]
+[2024-05-02 11:28:54] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.957.tar.gz]
+[2024-05-02 11:28:54] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 11:28:55] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.8.tar.gz]
+[2024-05-02 11:28:55] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.9.tar.gz]
+[2024-05-02 11:28:55] INFO root fetch - main [MainThread]: End processing [attribox]: success
+[2024-05-02 11:28:55] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.5.tar.gz]
+[2024-05-02 11:28:55] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.6.tar.gz]
+[2024-05-02 11:28:55] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-05-02 11:28:55] INFO root fetch - processPackages [quark-engine]: Remove: archive file [/home/abi/fetcher/tmp/quark-engine-24.4.1.tar.gz]
+[2024-05-02 11:28:55] INFO root fetch - processPackages [quark-engine]: Remove: archive file [/home/abi/fetcher/tmp/quark_engine-24.5.1.tar.gz]
+[2024-05-02 11:28:55] INFO root fetch - main [MainThread]: End processing [quark-engine]: success
+[2024-05-02 11:28:56] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-05-02 11:28:56] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240502/l/locust/2.9.1.dev38-2.9.1.dev45/README.md --exclude *.pyd
+[2024-05-02 11:28:56] INFO root fetch - processPackages [raga-llm-hub]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_hub-1.0.0.11b1-py3-none-any.whl.zip]
+[2024-05-02 11:28:56] INFO root fetch - processPackages [raga-llm-hub]: Remove: archive file [/home/abi/fetcher/tmp/raga-llm-hub-1.0.0.9.tar.gz]
+[2024-05-02 11:28:56] INFO root fetch - main [MainThread]: End processing [raga-llm-hub]: success
+[2024-05-02 11:28:57] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-05-02 11:28:57] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-05-02 11:28:57] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-05-02 11:29:09] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.97.tar.gz]
+[2024-05-02 11:29:09] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
+[2024-05-02 11:29:09] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2024-05-02 11:29:09] INFO root fetch - main [MainThread]: Store serial: [23028833]
