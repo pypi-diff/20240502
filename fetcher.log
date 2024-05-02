@@ -18286,3 +18286,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 13:33:33] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.4.tar.gz]
 [2024-05-02 13:33:33] INFO root fetch - main [MainThread]: End processing [bec-server]: success
 [2024-05-02 13:33:33] INFO root fetch - main [MainThread]: Store serial: [23030068]
+[2024-05-02 13:35:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030068]
+[2024-05-02 13:35:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 13:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anipie
+[2024-05-02 13:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchserve-nightly
+[2024-05-02 13:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-model-archiver-nightly
+[2024-05-02 13:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-workflow-archiver-nightly
+[2024-05-02 13:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huffify
+[2024-05-02 13:35:43] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.1] Old Version: [2024.4.8]
+[2024-05-02 13:35:43] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.5.1] Old Version: [2024.4.8]
+[2024-05-02 13:35:43] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.5.1] Old Version: [2024.4.8]
+[2024-05-02 13:35:43] INFO root fetch - processPackages [huffify]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-02 13:35:43] INFO root fetch - processPackages [anipie]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 13:35:43] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/e8/ff/0ce380de2664199f9abdd89b526c40dd309e7ed1c3b6cbe5560dc0cd6a80/torchserve_nightly-2024.4.8-py3-none-any.whl
+[2024-05-02 13:35:43] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/d5/55/6c71d544e2fef7c773e7b994940d2019c84fd5eaa8f6db64fa9983595110/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-05-02 13:35:43] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/46/e6/cfb9b8e2b84779c413931c88816ff46e987f3bf841f1fb714e6b662e8296/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-05-02 13:35:43] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24332374>=10485760
+[2024-05-02 13:35:43] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-02 13:35:43] INFO root fetch - processPackages [anipie]: Downloading https://files.pythonhosted.org/packages/4d/68/2278c86e11369dc685aa40c65c6b87bc8a42657590fee504fb2eef3e28ea/anipie-0.0.8.tar.gz
+[2024-05-02 13:35:43] INFO root fetch - processPackages [huffify]: Downloading https://files.pythonhosted.org/packages/2b/00/0589eac9ae28b9fb65f7d61a5c04a3738cc3f4bf727f5c3c56c2aa1f2cc9/huffify-0.1.1.tar.gz
+[2024-05-02 13:35:43] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/67/92/056453f58e94323bf84707de48d232f038341f6fbd0b57b0ed28af228efc/torch_model_archiver_nightly-2024.5.1-py3-none-any.whl
+[2024-05-02 13:35:43] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/3e/07/23107402b7d0b53097552df46e172ea75e7348565ba33207130ea1b2c204/torch_workflow_archiver_nightly-2024.5.1-py3-none-any.whl
+[2024-05-02 13:35:44] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-05-02 13:35:44] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.5.1-py3-none-any.whl.zip --markdown 20240502/t/torch-workflow-archiver-nightly/2024.4.8-2024.5.1/README.md --exclude *.pyd
+[2024-05-02 13:35:44] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-05-02 13:35:44] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.5.1-py3-none-any.whl.zip --markdown 20240502/t/torch-model-archiver-nightly/2024.4.8-2024.5.1/README.md --exclude *.pyd
+[2024-05-02 13:35:44] INFO root fetch - processPackages [anipie]: Downloading https://files.pythonhosted.org/packages/d5/9d/964081b1645daa3a0c3fb84dc0c0c94dcf2d69e3d69b6cc44ccde87bbab7/anipie-0.0.9.tar.gz
+[2024-05-02 13:35:44] INFO root fetch - processPackages [huffify]: Downloading https://files.pythonhosted.org/packages/74/c5/16b38de829f1de1d8a44622bd1d0f90fa31cfcef57633f99198b9aa690bb/huffify-0.2.0.tar.gz
+[2024-05-02 13:35:44] INFO root fetch - processPackages [anipie]: executing diffoscope
+[2024-05-02 13:35:44] INFO root fetch - processPackages [anipie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anipie-0.0.8.tar.gz tmp/anipie-0.0.9.tar.gz --markdown 20240502/a/anipie/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 13:35:44] INFO root fetch - processPackages [huffify]: executing diffoscope
+[2024-05-02 13:35:44] INFO root fetch - processPackages [huffify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huffify-0.1.1.tar.gz tmp/huffify-0.2.0.tar.gz --markdown 20240502/h/huffify/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-02 13:35:44] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-05-02 13:35:44] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.1-py3-none-any.whl.zip]
+[2024-05-02 13:35:44] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-05-02 13:35:44] INFO root fetch - processPackages [anipie]: Remove: archive file [/home/abi/fetcher/tmp/anipie-0.0.8.tar.gz]
+[2024-05-02 13:35:44] INFO root fetch - processPackages [anipie]: Remove: archive file [/home/abi/fetcher/tmp/anipie-0.0.9.tar.gz]
+[2024-05-02 13:35:44] INFO root fetch - main [MainThread]: End processing [anipie]: success
+[2024-05-02 13:35:45] INFO root fetch - processPackages [huffify]: Remove: archive file [/home/abi/fetcher/tmp/huffify-0.1.1.tar.gz]
+[2024-05-02 13:35:45] INFO root fetch - processPackages [huffify]: Remove: archive file [/home/abi/fetcher/tmp/huffify-0.2.0.tar.gz]
+[2024-05-02 13:35:45] INFO root fetch - main [MainThread]: End processing [huffify]: success
+[2024-05-02 13:35:45] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-05-02 13:35:45] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.1-py3-none-any.whl.zip]
+[2024-05-02 13:35:45] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-05-02 13:35:45] INFO root fetch - main [MainThread]: Store serial: [23030085]
