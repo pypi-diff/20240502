@@ -7654,3 +7654,39 @@
 [2024-05-02 04:36:56] INFO root fetch - processPackages [munet]: Remove: archive file [/home/abi/fetcher/tmp/munet-0.9.9.tar.gz]
 [2024-05-02 04:36:56] INFO root fetch - main [MainThread]: End processing [munet]: success
 [2024-05-02 04:36:56] INFO root fetch - main [MainThread]: Store serial: [23025798]
+[2024-05-02 04:38:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025798]
+[2024-05-02 04:39:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 04:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cc521-evolution
+[2024-05-02 04:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docmaptools
+[2024-05-02 04:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rulebricks
+[2024-05-02 04:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-financial-report
+[2024-05-02 04:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dependentobjects
+[2024-05-02 04:39:05] WARNING root fetch - processPackages [cc521-evolution]: Skipping, unable to determine old version
+[2024-05-02 04:39:05] INFO root fetch - main [MainThread]: End processing [cc521-evolution] error
+[2024-05-02 04:39:05] INFO root fetch - processPackages [rulebricks]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-02 04:39:05] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.0.3] Old Version: [17.0.1.1.0.2]
+[2024-05-02 04:39:05] INFO root fetch - processPackages [rulebricks]: Downloading https://files.pythonhosted.org/packages/a7/a6/7c60ad70adbec4aaa82d1a11fd9c95b6aa5fb162c0ce20adb2a470110d15/rulebricks-0.0.5.tar.gz
+[2024-05-02 04:39:05] INFO root fetch - processPackages [docmaptools]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 04:39:05] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/f6/0a/7e9987fe2d37083d92ad3951de5ee653ef2b51dbc3f5e3f357d15b544f76/odoo_addon_account_financial_report-17.0.1.1.0.2-py3-none-any.whl
+[2024-05-02 04:39:05] WARNING root fetch - processPackages [dependentobjects]: Skipping, unable to determine old version
+[2024-05-02 04:39:05] INFO root fetch - main [MainThread]: End processing [dependentobjects] error
+[2024-05-02 04:39:05] INFO root fetch - processPackages [docmaptools]: Downloading https://files.pythonhosted.org/packages/31/6f/08daa72287f63cf60ffc7962a2e73be6ca6c57c778306e6d5506b073b2c6/docmaptools-0.8.0.tar.gz
+[2024-05-02 04:39:05] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/51/22/88113c37c6724f93deb5137bb034b688a10771965645b1c1c12ef7d6f5c0/odoo_addon_account_financial_report-17.0.1.1.0.3-py3-none-any.whl
+[2024-05-02 04:39:05] INFO root fetch - processPackages [rulebricks]: Downloading https://files.pythonhosted.org/packages/33/ef/eea818ca20abd7ccba19125ea0bcf1583cf99fd06e478c78c939e465dec3/rulebricks-0.0.6.tar.gz
+[2024-05-02 04:39:05] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-05-02 04:39:05] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.0.3-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-account-financial-report/17.0.1.1.0.2-17.0.1.1.0.3/README.md --exclude *.pyd
+[2024-05-02 04:39:05] INFO root fetch - processPackages [rulebricks]: executing diffoscope
+[2024-05-02 04:39:05] INFO root fetch - processPackages [rulebricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rulebricks-0.0.5.tar.gz tmp/rulebricks-0.0.6.tar.gz --markdown 20240502/r/rulebricks/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-02 04:39:05] INFO root fetch - processPackages [docmaptools]: Downloading https://files.pythonhosted.org/packages/de/00/2f57c47c8af057a6ed15db8c947d94ab89ddba218a4b81aecf669e4eae22/docmaptools-0.9.0.tar.gz
+[2024-05-02 04:39:05] INFO root fetch - processPackages [docmaptools]: executing diffoscope
+[2024-05-02 04:39:05] INFO root fetch - processPackages [docmaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmaptools-0.8.0.tar.gz tmp/docmaptools-0.9.0.tar.gz --markdown 20240502/d/docmaptools/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 04:39:06] INFO root fetch - processPackages [rulebricks]: Remove: archive file [/home/abi/fetcher/tmp/rulebricks-0.0.5.tar.gz]
+[2024-05-02 04:39:06] INFO root fetch - processPackages [rulebricks]: Remove: archive file [/home/abi/fetcher/tmp/rulebricks-0.0.6.tar.gz]
+[2024-05-02 04:39:06] INFO root fetch - main [MainThread]: End processing [rulebricks]: success
+[2024-05-02 04:39:06] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-02 04:39:06] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-05-02 04:39:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-05-02 04:39:06] INFO root fetch - processPackages [docmaptools]: Remove: archive file [/home/abi/fetcher/tmp/docmaptools-0.8.0.tar.gz]
+[2024-05-02 04:39:06] INFO root fetch - processPackages [docmaptools]: Remove: archive file [/home/abi/fetcher/tmp/docmaptools-0.9.0.tar.gz]
+[2024-05-02 04:39:06] INFO root fetch - main [MainThread]: End processing [docmaptools]: success
+[2024-05-02 04:39:06] INFO root fetch - main [MainThread]: Store serial: [23025816]
