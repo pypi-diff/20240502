@@ -8009,3 +8009,18 @@
 [2024-05-02 05:08:04] INFO root fetch - processPackages [qai-ai]: Remove: archive file [/home/abi/fetcher/tmp/qai_ai-0.5.2.1-py3-none-any.whl.zip]
 [2024-05-02 05:08:04] INFO root fetch - main [MainThread]: End processing [qai-ai]: success
 [2024-05-02 05:08:04] INFO root fetch - main [MainThread]: Store serial: [23025993]
+[2024-05-02 05:10:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025993]
+[2024-05-02 05:10:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 05:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medicafe
+[2024-05-02 05:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PokeCodePy-Library
+[2024-05-02 05:10:12] INFO root fetch - processPackages [medicafe]: New version: [0.240501.4] Old Version: [0.240501.3]
+[2024-05-02 05:10:12] WARNING root fetch - processPackages [PokeCodePy-Library]: Skipping, unable to determine old version
+[2024-05-02 05:10:12] INFO root fetch - main [MainThread]: End processing [PokeCodePy-Library] error
+[2024-05-02 05:10:13] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/91/72/dc8716b2fe4584cf3a8bd04b0bfb988ca9118b23478f5e99e2052526eb6b/medicafe-0.240501.3.tar.gz
+[2024-05-02 05:10:13] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/dc/36/8b9619e9f873018ab0c19153e133c16ca9b78bd5ad283261d98ecd8eaf16/medicafe-0.240501.4.tar.gz
+[2024-05-02 05:10:13] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-02 05:10:13] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240501.3.tar.gz tmp/medicafe-0.240501.4.tar.gz --markdown 20240502/m/medicafe/0.240501.3-0.240501.4/README.md --exclude *.pyd
+[2024-05-02 05:10:14] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240501.3.tar.gz]
+[2024-05-02 05:10:14] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240501.4.tar.gz]
+[2024-05-02 05:10:14] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-02 05:10:14] INFO root fetch - main [MainThread]: Store serial: [23025999]
