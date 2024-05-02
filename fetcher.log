@@ -2624,3 +2624,24 @@
 [2024-05-02 02:42:02] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.9.tar.gz]
 [2024-05-02 02:42:02] INFO root fetch - main [MainThread]: End processing [genomeshader]: success
 [2024-05-02 02:42:02] INFO root fetch - main [MainThread]: Store serial: [23023995]
+[2024-05-02 02:44:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023995]
+[2024-05-02 02:44:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 02:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: e2b
+[2024-05-02 02:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astx
+[2024-05-02 02:44:12] INFO root fetch - processPackages [e2b]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-02 02:44:12] INFO root fetch - processPackages [e2b]: Downloading https://files.pythonhosted.org/packages/1a/e1/7d8dabb6aec21fb6f0f2ba8d50e6b15954150f88b9165be6672e515b5743/e2b-0.9.6.tar.gz
+[2024-05-02 02:44:12] INFO root fetch - processPackages [astx]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-02 02:44:12] INFO root fetch - processPackages [astx]: Downloading https://files.pythonhosted.org/packages/31/0e/4804dbbc6714313cff3eb17ebe9c35dcaef7828f7f1f3c4331bf8e0a4f65/astx-0.9.0.tar.gz
+[2024-05-02 02:44:12] INFO root fetch - processPackages [e2b]: Downloading https://files.pythonhosted.org/packages/12/97/8baccc64ce0664cccbd82d6b4190193beb6b7513a26751e9019aa4339c95/e2b-0.9.7.tar.gz
+[2024-05-02 02:44:12] INFO root fetch - processPackages [e2b]: executing diffoscope
+[2024-05-02 02:44:12] INFO root fetch - processPackages [e2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2b-0.9.6.tar.gz tmp/e2b-0.9.7.tar.gz --markdown 20240502/e/e2b/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-02 02:44:12] INFO root fetch - processPackages [astx]: Downloading https://files.pythonhosted.org/packages/2f/78/69527dee0e3b550af8130d584921b500bd800460e0009cfb2352c6babcd3/astx-0.9.1.tar.gz
+[2024-05-02 02:44:12] INFO root fetch - processPackages [astx]: executing diffoscope
+[2024-05-02 02:44:12] INFO root fetch - processPackages [astx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astx-0.9.0.tar.gz tmp/astx-0.9.1.tar.gz --markdown 20240502/a/astx/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-02 02:44:13] INFO root fetch - processPackages [e2b]: Remove: archive file [/home/abi/fetcher/tmp/e2b-0.9.6.tar.gz]
+[2024-05-02 02:44:13] INFO root fetch - processPackages [e2b]: Remove: archive file [/home/abi/fetcher/tmp/e2b-0.9.7.tar.gz]
+[2024-05-02 02:44:13] INFO root fetch - main [MainThread]: End processing [e2b]: success
+[2024-05-02 02:44:13] INFO root fetch - processPackages [astx]: Remove: archive file [/home/abi/fetcher/tmp/astx-0.9.0.tar.gz]
+[2024-05-02 02:44:13] INFO root fetch - processPackages [astx]: Remove: archive file [/home/abi/fetcher/tmp/astx-0.9.1.tar.gz]
+[2024-05-02 02:44:13] INFO root fetch - main [MainThread]: End processing [astx]: success
+[2024-05-02 02:44:13] INFO root fetch - main [MainThread]: Store serial: [23024001]
