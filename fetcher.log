@@ -17888,3 +17888,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 13:20:04] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.4.tar.gz]
 [2024-05-02 13:20:04] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
 [2024-05-02 13:20:04] INFO root fetch - main [MainThread]: Store serial: [23029942]
+[2024-05-02 13:22:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029942]
+[2024-05-02 13:22:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 13:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2024-05-02 13:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: picked-group-fdr
+[2024-05-02 13:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe
+[2024-05-02 13:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: k8s
+[2024-05-02 13:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: recon-lw
+[2024-05-02 13:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bulletroulette
+[2024-05-02 13:22:13] INFO root fetch - processPackages [bulletroulette]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-02 13:22:13] INFO root fetch - processPackages [bulletroulette]: Downloading https://files.pythonhosted.org/packages/21/c5/5c18ba017ea902daa695391fbe7ac42e23ad3e0da3360393d0b786d4e3a0/bulletroulette-1.0.4.tar.gz
+[2024-05-02 13:22:13] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-02 13:22:13] INFO root fetch - processPackages [picked-group-fdr]: New version: [0.7.0] Old Version: [0.6.6]
+[2024-05-02 13:22:13] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240502] Old Version: [2.5.0b20240501]
+[2024-05-02 13:22:13] INFO root fetch - processPackages [k8s]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 13:22:13] INFO root fetch - processPackages [recon-lw]: New version: [3.0.0.dev8922996092] Old Version: [3.0.0.dev8910961296]
+[2024-05-02 13:22:14] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/88/07/1509be74cf47a29b012a6f7477139e57bee2a7d01634b6bd6a71d095ace8/checkov-3.2.8.tar.gz
+[2024-05-02 13:22:14] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/5b/e9/e2b5e1b64c77303713ce15a4dc519d7bff2910a704ef1889898066152a5c/recon_lw-3.0.0.dev8910961296.tar.gz
+[2024-05-02 13:22:14] INFO root fetch - processPackages [picked-group-fdr]: Downloading https://files.pythonhosted.org/packages/05/f8/4bc857ff9c95b7499bd5741db878b5ca3b81f89465a085f83cb5377410ad/picked_group_fdr-0.6.6-py3-none-any.whl
+[2024-05-02 13:22:14] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/eb/67/4ef87ab7bd375787a94b7d3691b89ed8f210dedd25a0c243b416d59a4f1e/bigdl_core_xe-2.5.0b20240501-cp39-cp39-manylinux2010_x86_64.whl
+[2024-05-02 13:22:14] INFO root fetch - processPackages [k8s]: Downloading https://files.pythonhosted.org/packages/f6/bd/7a14603192a3cb677b31da548f01036794698cfdd3d2209f719e0d23e138/k8s-0.8.0.tar.gz
+[2024-05-02 13:22:14] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105668124>=10485760
+[2024-05-02 13:22:14] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-05-02 13:22:14] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-05-02 13:22:14] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/3e/bf/d8b8e3165a0eeb6de1e518702c7b21776c12832c53c9508d9383f426a1ad/recon_lw-3.0.0.dev8922996092.tar.gz
+[2024-05-02 13:22:14] INFO root fetch - processPackages [picked-group-fdr]: Downloading https://files.pythonhosted.org/packages/8e/e5/71e0a0388a1ca4f5cb27ee4317bc461a149052eaff612e8b669af4563faa/picked_group_fdr-0.7.0-py3-none-any.whl
+[2024-05-02 13:22:14] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-02 13:22:14] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.8.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240502/c/checkov/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-02 13:22:14] INFO root fetch - processPackages [bulletroulette]: Downloading https://files.pythonhosted.org/packages/53/29/8ccfd951a6095b0c3f622bab62524542b776bfa6f6977a7d07ff9db5e058/bulletroulette-1.0.5.tar.gz
+[2024-05-02 13:22:14] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2024-05-02 13:22:14] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-3.0.0.dev8910961296.tar.gz tmp/recon_lw-3.0.0.dev8922996092.tar.gz --markdown 20240502/r/recon-lw/3.0.0.dev8910961296-3.0.0.dev8922996092/README.md --exclude *.pyd
+[2024-05-02 13:22:14] INFO root fetch - processPackages [picked-group-fdr]: executing diffoscope
+[2024-05-02 13:22:14] INFO root fetch - processPackages [picked-group-fdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picked_group_fdr-0.6.6-py3-none-any.whl.zip tmp/picked_group_fdr-0.7.0-py3-none-any.whl.zip --markdown 20240502/p/picked-group-fdr/0.6.6-0.7.0/README.md --exclude *.pyd
+[2024-05-02 13:22:14] INFO root fetch - processPackages [k8s]: Downloading https://files.pythonhosted.org/packages/22/6b/1fabdacf5dd8c7691b914a6e818c7f61af231545fe88942ba0ea5d42b2cc/k8s-0.9.0.tar.gz
+[2024-05-02 13:22:15] INFO root fetch - processPackages [bulletroulette]: executing diffoscope
+[2024-05-02 13:22:15] INFO root fetch - processPackages [bulletroulette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulletroulette-1.0.4.tar.gz tmp/bulletroulette-1.0.5.tar.gz --markdown 20240502/b/bulletroulette/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-02 13:22:15] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.0.0.dev8910961296.tar.gz]
+[2024-05-02 13:22:15] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.0.0.dev8922996092.tar.gz]
+[2024-05-02 13:22:15] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2024-05-02 13:22:15] INFO root fetch - processPackages [k8s]: executing diffoscope
+[2024-05-02 13:22:15] INFO root fetch - processPackages [k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8s-0.8.0.tar.gz tmp/k8s-0.9.0.tar.gz --markdown 20240502/k/k8s/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 13:22:15] INFO root fetch - processPackages [picked-group-fdr]: Remove: archive file [/home/abi/fetcher/tmp/picked_group_fdr-0.6.6-py3-none-any.whl.zip]
+[2024-05-02 13:22:15] INFO root fetch - processPackages [picked-group-fdr]: Remove: archive file [/home/abi/fetcher/tmp/picked_group_fdr-0.7.0-py3-none-any.whl.zip]
+[2024-05-02 13:22:15] INFO root fetch - main [MainThread]: End processing [picked-group-fdr]: success
+[2024-05-02 13:22:16] INFO root fetch - processPackages [k8s]: Remove: archive file [/home/abi/fetcher/tmp/k8s-0.8.0.tar.gz]
+[2024-05-02 13:22:16] INFO root fetch - processPackages [k8s]: Remove: archive file [/home/abi/fetcher/tmp/k8s-0.9.0.tar.gz]
+[2024-05-02 13:22:16] INFO root fetch - main [MainThread]: End processing [k8s]: success
+[2024-05-02 13:22:16] INFO root fetch - processPackages [bulletroulette]: Remove: archive file [/home/abi/fetcher/tmp/bulletroulette-1.0.4.tar.gz]
+[2024-05-02 13:22:16] INFO root fetch - processPackages [bulletroulette]: Remove: archive file [/home/abi/fetcher/tmp/bulletroulette-1.0.5.tar.gz]
+[2024-05-02 13:22:16] INFO root fetch - main [MainThread]: End processing [bulletroulette]: success
+[2024-05-02 13:22:23] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.8.tar.gz]
+[2024-05-02 13:22:23] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-05-02 13:22:23] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-02 13:22:23] INFO root fetch - main [MainThread]: Store serial: [23029957]
