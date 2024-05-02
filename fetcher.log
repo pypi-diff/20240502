@@ -2698,3 +2698,81 @@
 [2024-05-02 02:46:32] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405010044.tar.gz]
 [2024-05-02 02:46:32] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-02 02:46:32] INFO root fetch - main [MainThread]: Store serial: [23024018]
+[2024-05-02 02:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23024018]
+[2024-05-02 02:48:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 02:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-include-markdown-plugin
+[2024-05-02 02:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NMODL-nightly
+[2024-05-02 02:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wah
+[2024-05-02 02:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: umbrela
+[2024-05-02 02:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: musicnotes
+[2024-05-02 02:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-sns-notify
+[2024-05-02 02:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bioversions
+[2024-05-02 02:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: numalogic
+[2024-05-02 02:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CTDFjorder
+[2024-05-02 02:48:41] WARNING root fetch - processPackages [musicnotes]: Skipping, unable to determine old version
+[2024-05-02 02:48:41] INFO root fetch - main [MainThread]: End processing [musicnotes] error
+[2024-05-02 02:48:41] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 02:48:41] INFO root fetch - processPackages [CTDFjorder]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-02 02:48:41] INFO root fetch - processPackages [umbrela]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-02 02:48:41] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-02 02:48:41] INFO root fetch - processPackages [mkdocs-include-markdown-plugin]: New version: [6.0.6] Old Version: [6.0.5]
+[2024-05-02 02:48:41] INFO root fetch - processPackages [CTDFjorder]: Downloading https://files.pythonhosted.org/packages/26/94/f07c60bf1af2e460df25d5a3f4c01722a35f9fdc9c11c9e4d8e703c4a771/ctdfjorder-0.0.5.tar.gz
+[2024-05-02 02:48:41] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-02 02:48:41] INFO root fetch - processPackages [umbrela]: Downloading https://files.pythonhosted.org/packages/8d/2b/e9f7cd6b337864d277af2563f7af96e7fc284daa8089f7f6dbb66e3c06ea/umbrela-0.0.3-py3-none-any.whl
+[2024-05-02 02:48:41] INFO root fetch - processPackages [numalogic]: New version: [0.9.1a8] Old Version: [0.9.1a7]
+[2024-05-02 02:48:41] INFO root fetch - processPackages [NMODL-nightly]: New version: [0.6.98] Old Version: [0.6.93]
+[2024-05-02 02:48:41] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-05-02 02:48:41] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-02 02:48:41] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-02 02:48:41] INFO root fetch - processPackages [mkdocs-include-markdown-plugin]: Downloading https://files.pythonhosted.org/packages/d7/0b/2c88605d3118ad85a184a4382d181a27f49c8e3641bc1e2a2d572b8b8116/mkdocs_include_markdown_plugin-6.0.5.tar.gz
+[2024-05-02 02:48:41] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-05-02 02:48:41] INFO root fetch - processPackages [numalogic]: Downloading https://files.pythonhosted.org/packages/09/07/73571a628e2bdc793e69611cda82ba90a83bd9c5be6fa32193e20affaf22/numalogic-0.9.1a7.tar.gz
+[2024-05-02 02:48:41] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-02 02:48:41] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/94/bf/65d51cf0f3bd818482bc6d015444c6fa5effd03ea78ae4a494c1f1a2d189/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-02 02:48:41] INFO root fetch - processPackages [umbrela]: Downloading https://files.pythonhosted.org/packages/09/15/582b912cac8faec9849b8757ef26e6a3176e5df2c885229f5029d724d6d9/umbrela-0.0.4-py3-none-any.whl
+[2024-05-02 02:48:41] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-05-02 02:48:41] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240502/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-02 02:48:41] INFO root fetch - processPackages [CTDFjorder]: Downloading https://files.pythonhosted.org/packages/9b/88/ed11737bba85f4c8a1723aafb5050838bf65bf248eeee6419fbaac655aac/ctdfjorder-0.0.6.tar.gz
+[2024-05-02 02:48:41] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-02 02:48:41] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240502/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 02:48:41] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-02 02:48:41] INFO root fetch - processPackages [umbrela]: executing diffoscope
+[2024-05-02 02:48:41] INFO root fetch - processPackages [umbrela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umbrela-0.0.3-py3-none-any.whl.zip tmp/umbrela-0.0.4-py3-none-any.whl.zip --markdown 20240502/u/umbrela/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-02 02:48:41] INFO root fetch - processPackages [CTDFjorder]: executing diffoscope
+[2024-05-02 02:48:41] INFO root fetch - processPackages [CTDFjorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctdfjorder-0.0.5.tar.gz tmp/ctdfjorder-0.0.6.tar.gz --markdown 20240502/C/CTDFjorder/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-02 02:48:41] INFO root fetch - processPackages [numalogic]: Downloading https://files.pythonhosted.org/packages/80/b5/9e80f614ead87736460e66d0049276b9fc0dfd67ae49851f3adf69902835/numalogic-0.9.1a8.tar.gz
+[2024-05-02 02:48:41] INFO root fetch - processPackages [mkdocs-include-markdown-plugin]: Downloading https://files.pythonhosted.org/packages/17/ca/1a5c0fb22557e806b6d54672aab5a256af49e305705bb10354da4f0fcd85/mkdocs_include_markdown_plugin-6.0.6.tar.gz
+[2024-05-02 02:48:42] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-02 02:48:42] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240502/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-02 02:48:42] INFO root fetch - processPackages [mkdocs-include-markdown-plugin]: executing diffoscope
+[2024-05-02 02:48:42] INFO root fetch - processPackages [mkdocs-include-markdown-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_include_markdown_plugin-6.0.5.tar.gz tmp/mkdocs_include_markdown_plugin-6.0.6.tar.gz --markdown 20240502/m/mkdocs-include-markdown-plugin/6.0.5-6.0.6/README.md --exclude *.pyd
+[2024-05-02 02:48:42] INFO root fetch - processPackages [numalogic]: executing diffoscope
+[2024-05-02 02:48:42] INFO root fetch - processPackages [numalogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numalogic-0.9.1a7.tar.gz tmp/numalogic-0.9.1a8.tar.gz --markdown 20240502/n/numalogic/0.9.1a7-0.9.1a8/README.md --exclude *.pyd
+[2024-05-02 02:48:42] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-05-02 02:48:42] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-05-02 02:48:42] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-05-02 02:48:42] INFO root fetch - processPackages [umbrela]: Remove: archive file [/home/abi/fetcher/tmp/umbrela-0.0.3-py3-none-any.whl.zip]
+[2024-05-02 02:48:42] INFO root fetch - processPackages [umbrela]: Remove: archive file [/home/abi/fetcher/tmp/umbrela-0.0.4-py3-none-any.whl.zip]
+[2024-05-02 02:48:42] INFO root fetch - main [MainThread]: End processing [umbrela]: success
+[2024-05-02 02:48:42] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-02 02:48:42] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-02 02:48:42] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-02 02:48:42] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.5.tar.gz]
+[2024-05-02 02:48:42] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.6.tar.gz]
+[2024-05-02 02:48:42] INFO root fetch - main [MainThread]: End processing [CTDFjorder]: success
+[2024-05-02 02:48:42] INFO root fetch - processPackages [mkdocs-include-markdown-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_include_markdown_plugin-6.0.5.tar.gz]
+[2024-05-02 02:48:42] INFO root fetch - processPackages [mkdocs-include-markdown-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_include_markdown_plugin-6.0.6.tar.gz]
+[2024-05-02 02:48:42] INFO root fetch - main [MainThread]: End processing [mkdocs-include-markdown-plugin]: success
+[2024-05-02 02:48:43] INFO root fetch - processPackages [numalogic]: Remove: archive file [/home/abi/fetcher/tmp/numalogic-0.9.1a7.tar.gz]
+[2024-05-02 02:48:43] INFO root fetch - processPackages [numalogic]: Remove: archive file [/home/abi/fetcher/tmp/numalogic-0.9.1a8.tar.gz]
+[2024-05-02 02:48:43] INFO root fetch - main [MainThread]: End processing [numalogic]: success
+[2024-05-02 02:48:43] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/e7/74/0082eac701e2e33195753774345536580724cd74e073c135ec8f5e9fd1a9/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-02 02:48:44] INFO root fetch - processPackages [NMODL-nightly]: executing diffoscope
+[2024-05-02 02:48:44] INFO root fetch - processPackages [NMODL-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240502/N/NMODL-nightly/0.6.93-0.6.98/README.md --exclude *.pyd
+[2024-05-02 02:49:01] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-02 02:49:01] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-02 02:49:01] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-02 02:50:35] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-02 02:50:35] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-02 02:50:35] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
+[2024-05-02 02:50:35] INFO root fetch - main [MainThread]: Store serial: [23024049]
