@@ -16767,3 +16767,24 @@
 [2024-05-02 12:33:20] INFO root fetch - processPackages [ecosystem-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/ecosystem-notebooks-0.1.9.tar.gz]
 [2024-05-02 12:33:20] INFO root fetch - main [MainThread]: End processing [ecosystem-notebooks]: success
 [2024-05-02 12:33:20] INFO root fetch - main [MainThread]: Store serial: [23029576]
+[2024-05-02 12:35:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029576]
+[2024-05-02 12:35:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 12:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-neat
+[2024-05-02 12:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlrun
+[2024-05-02 12:35:29] INFO root fetch - processPackages [cognite-neat]: New version: [0.75.7] Old Version: [0.75.6]
+[2024-05-02 12:35:29] INFO root fetch - processPackages [mlrun]: New version: [1.7.0rc9] Old Version: [1.7.0rc8]
+[2024-05-02 12:35:30] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/71/f1/891bbd1089830da32dfa79049f7c88fb670df436394ece548178a4493171/cognite_neat-0.75.6.tar.gz
+[2024-05-02 12:35:30] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/3e/de/bbc90293e3757cb8179dc320aa3df99845445ecfbc16972510c5e80415c3/mlrun-1.7.0rc8-py3-none-any.whl
+[2024-05-02 12:35:30] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/3d/d8/a21a364b78551cc1edde90cd3060d28b5b99a5372c86a467eb78422387d1/cognite_neat-0.75.7.tar.gz
+[2024-05-02 12:35:30] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/05/f2/d80ba0edb70be9434bf5fb1badcfad0aef24823e8363d78fc935429023ad/mlrun-1.7.0rc9-py3-none-any.whl
+[2024-05-02 12:35:30] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2024-05-02 12:35:30] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip --markdown 20240502/m/mlrun/1.7.0rc8-1.7.0rc9/README.md --exclude *.pyd
+[2024-05-02 12:35:31] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-05-02 12:35:31] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.75.6.tar.gz tmp/cognite_neat-0.75.7.tar.gz --markdown 20240502/c/cognite-neat/0.75.6-0.75.7/README.md --exclude *.pyd
+[2024-05-02 12:35:32] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip]
+[2024-05-02 12:35:32] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
+[2024-05-02 12:35:32] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2024-05-02 12:35:35] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.6.tar.gz]
+[2024-05-02 12:35:35] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.7.tar.gz]
+[2024-05-02 12:35:35] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-05-02 12:35:35] INFO root fetch - main [MainThread]: Store serial: [23029582]
