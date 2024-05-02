@@ -9898,3 +9898,42 @@
 [2024-05-02 07:39:19] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
 [2024-05-02 07:39:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
 [2024-05-02 07:39:19] INFO root fetch - main [MainThread]: Store serial: [23026723]
+[2024-05-02 07:41:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026723]
+[2024-05-02 07:41:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 07:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-pms-l10n-es
+[2024-05-02 07:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chickenstats
+[2024-05-02 07:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: es-wait
+[2024-05-02 07:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tflite-runtime-nightly
+[2024-05-02 07:41:28] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: New version: [14.0.2.6.8.dev9] Old Version: [14.0.2.6.8.dev8]
+[2024-05-02 07:41:28] INFO root fetch - processPackages [es-wait]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-02 07:41:28] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Downloading https://files.pythonhosted.org/packages/fc/ed/525349fd2a15ad0a00e765e046e196b42732fa88715451518fb87a6f635d/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl
+[2024-05-02 07:41:28] INFO root fetch - processPackages [es-wait]: Downloading https://files.pythonhosted.org/packages/00/e9/e1a3e38b1e0968fd0e1b64ea0c591b31048ae5ad589c23460cce6c4d8899/es_wait-0.5.0.tar.gz
+[2024-05-02 07:41:28] INFO root fetch - processPackages [chickenstats]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-02 07:41:28] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Downloading https://files.pythonhosted.org/packages/f9/46/01f03598bf302f5e6faa906abf772582d6fcfb66609c83995ac64259bd11/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl
+[2024-05-02 07:41:28] INFO root fetch - processPackages [chickenstats]: Downloading https://files.pythonhosted.org/packages/c2/de/2be5d8328ee8b663ebeeffa56c9916c9023732ecb3754f62ada6e39ddcdf/chickenstats-1.7.8.tar.gz
+[2024-05-02 07:41:28] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240501] Old Version: [2.17.0.dev20240429]
+[2024-05-02 07:41:29] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: executing diffoscope
+[2024-05-02 07:41:29] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl.zip tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl.zip --markdown 20240502/o/odoo14-addon-pms-l10n-es/14.0.2.6.8.dev8-14.0.2.6.8.dev9/README.md --exclude *.pyd
+[2024-05-02 07:41:29] INFO root fetch - processPackages [es-wait]: Downloading https://files.pythonhosted.org/packages/67/3b/56620464b135e7242eb6f7412e052ad766cda08128e8dc5c8d3258ede181/es_wait-0.5.1.tar.gz
+[2024-05-02 07:41:29] INFO root fetch - processPackages [es-wait]: executing diffoscope
+[2024-05-02 07:41:29] INFO root fetch - processPackages [es-wait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_wait-0.5.0.tar.gz tmp/es_wait-0.5.1.tar.gz --markdown 20240502/e/es-wait/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-02 07:41:29] INFO root fetch - processPackages [chickenstats]: Downloading https://files.pythonhosted.org/packages/28/1c/e243de38359e5eca1087f5b772174744318f0341dff8990f9d4547f7a00e/chickenstats-1.7.9.tar.gz
+[2024-05-02 07:41:29] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/16/d7/d101f167da02d99377e62b65115e0fd1c0ffafdcc453bc4b403ee5a04a76/tflite_runtime_nightly-2.17.0.dev20240429-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-02 07:41:29] INFO root fetch - processPackages [chickenstats]: executing diffoscope
+[2024-05-02 07:41:29] INFO root fetch - processPackages [chickenstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chickenstats-1.7.8.tar.gz tmp/chickenstats-1.7.9.tar.gz --markdown 20240502/c/chickenstats/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-02 07:41:29] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/fa/a6/a09cf06119244891cac020661c575cb37769ee800960da4969f794034d44/tflite_runtime_nightly-2.17.0.dev20240501-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-02 07:41:29] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl.zip]
+[2024-05-02 07:41:29] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl.zip]
+[2024-05-02 07:41:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms-l10n-es]: success
+[2024-05-02 07:41:29] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.5.0.tar.gz]
+[2024-05-02 07:41:29] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.5.1.tar.gz]
+[2024-05-02 07:41:29] INFO root fetch - main [MainThread]: End processing [es-wait]: success
+[2024-05-02 07:41:30] INFO root fetch - processPackages [chickenstats]: Remove: archive file [/home/abi/fetcher/tmp/chickenstats-1.7.8.tar.gz]
+[2024-05-02 07:41:30] INFO root fetch - processPackages [chickenstats]: Remove: archive file [/home/abi/fetcher/tmp/chickenstats-1.7.9.tar.gz]
+[2024-05-02 07:41:30] INFO root fetch - main [MainThread]: End processing [chickenstats]: success
+[2024-05-02 07:41:30] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-05-02 07:41:30] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240429-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240501-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240502/t/tflite-runtime-nightly/2.17.0.dev20240429-2.17.0.dev20240501/README.md --exclude *.pyd
+[2024-05-02 07:41:30] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240429-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-02 07:41:30] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240501-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-02 07:41:30] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-05-02 07:41:30] INFO root fetch - main [MainThread]: Store serial: [23026741]
