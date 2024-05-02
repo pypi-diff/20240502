@@ -8024,3 +8024,24 @@
 [2024-05-02 05:10:14] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240501.4.tar.gz]
 [2024-05-02 05:10:14] INFO root fetch - main [MainThread]: End processing [medicafe]: success
 [2024-05-02 05:10:14] INFO root fetch - main [MainThread]: Store serial: [23025999]
+[2024-05-02 05:12:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025999]
+[2024-05-02 05:12:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 05:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glitter-sdk
+[2024-05-02 05:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sosap
+[2024-05-02 05:12:22] INFO root fetch - processPackages [sosap]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 05:12:22] INFO root fetch - processPackages [sosap]: Downloading https://files.pythonhosted.org/packages/dd/77/28c4a9b9a0cf3d57c2f87ee49dbe3775b9e4167bd95d95f9dda798030abf/sosap-0.1.1.tar.gz
+[2024-05-02 05:12:22] INFO root fetch - processPackages [glitter-sdk]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-02 05:12:23] INFO root fetch - processPackages [glitter-sdk]: Downloading https://files.pythonhosted.org/packages/51/63/5777b6c460e01920c47c5a11f52d8a757a1dc2f69e7137d438760c339087/glitter_sdk-1.0.3.tar.gz
+[2024-05-02 05:12:23] INFO root fetch - processPackages [sosap]: Downloading https://files.pythonhosted.org/packages/f9/1e/b44b17ae87f397bcc9ca1f94e952b157d09694bf2c4adf5625872e056bd5/sosap-0.1.2.tar.gz
+[2024-05-02 05:12:23] INFO root fetch - processPackages [sosap]: executing diffoscope
+[2024-05-02 05:12:23] INFO root fetch - processPackages [sosap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosap-0.1.1.tar.gz tmp/sosap-0.1.2.tar.gz --markdown 20240502/s/sosap/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 05:12:23] INFO root fetch - processPackages [glitter-sdk]: Downloading https://files.pythonhosted.org/packages/a4/c6/74104c2c41aaf8d00ccf52f5ad1f1bafec3664dbcdba8488760809bb6c68/glitter_sdk-1.0.4.tar.gz
+[2024-05-02 05:12:23] INFO root fetch - processPackages [glitter-sdk]: executing diffoscope
+[2024-05-02 05:12:23] INFO root fetch - processPackages [glitter-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glitter_sdk-1.0.3.tar.gz tmp/glitter_sdk-1.0.4.tar.gz --markdown 20240502/g/glitter-sdk/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-02 05:12:24] INFO root fetch - processPackages [sosap]: Remove: archive file [/home/abi/fetcher/tmp/sosap-0.1.1.tar.gz]
+[2024-05-02 05:12:24] INFO root fetch - processPackages [sosap]: Remove: archive file [/home/abi/fetcher/tmp/sosap-0.1.2.tar.gz]
+[2024-05-02 05:12:24] INFO root fetch - main [MainThread]: End processing [sosap]: success
+[2024-05-02 05:12:24] INFO root fetch - processPackages [glitter-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glitter_sdk-1.0.3.tar.gz]
+[2024-05-02 05:12:24] INFO root fetch - processPackages [glitter-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glitter_sdk-1.0.4.tar.gz]
+[2024-05-02 05:12:24] INFO root fetch - main [MainThread]: End processing [glitter-sdk]: success
+[2024-05-02 05:12:24] INFO root fetch - main [MainThread]: Store serial: [23026005]
