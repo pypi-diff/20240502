@@ -11371,3 +11371,24 @@
 [2024-05-02 09:10:57] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-4.0-py3-none-any.whl.zip]
 [2024-05-02 09:10:57] INFO root fetch - main [MainThread]: End processing [pre5g]: success
 [2024-05-02 09:10:57] INFO root fetch - main [MainThread]: Store serial: [23027317]
+[2024-05-02 09:13:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027317]
+[2024-05-02 09:13:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 09:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2024-05-02 09:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gcp-sphinx-docfx-yaml
+[2024-05-02 09:13:07] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-02 09:13:07] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-05-02 09:13:07] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-02 09:13:07] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: Downloading https://files.pythonhosted.org/packages/c4/f6/7d5bb16115e2ae8ab5fe3b8b0e68dab4a5e30f2dcd2e46213a61a82b99e4/gcp-sphinx-docfx-yaml-3.1.0.tar.gz
+[2024-05-02 09:13:07] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-02 09:13:07] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-02 09:13:07] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240502/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-02 09:13:07] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: Downloading https://files.pythonhosted.org/packages/e4/2e/d6552f22f59e4c18196468bcfc58e9d43874379e49d8280b17484e4abe98/gcp-sphinx-docfx-yaml-3.2.0.tar.gz
+[2024-05-02 09:13:07] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: executing diffoscope
+[2024-05-02 09:13:07] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp-sphinx-docfx-yaml-3.1.0.tar.gz tmp/gcp-sphinx-docfx-yaml-3.2.0.tar.gz --markdown 20240502/g/gcp-sphinx-docfx-yaml/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-05-02 09:13:08] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-02 09:13:08] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-02 09:13:08] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-02 09:13:08] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: Remove: archive file [/home/abi/fetcher/tmp/gcp-sphinx-docfx-yaml-3.1.0.tar.gz]
+[2024-05-02 09:13:08] INFO root fetch - processPackages [gcp-sphinx-docfx-yaml]: Remove: archive file [/home/abi/fetcher/tmp/gcp-sphinx-docfx-yaml-3.2.0.tar.gz]
+[2024-05-02 09:13:08] INFO root fetch - main [MainThread]: End processing [gcp-sphinx-docfx-yaml]: success
+[2024-05-02 09:13:08] INFO root fetch - main [MainThread]: Store serial: [23027322]
