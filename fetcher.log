@@ -7412,3 +7412,24 @@
 [2024-05-02 04:13:02] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.9.tar.gz]
 [2024-05-02 04:13:02] INFO root fetch - main [MainThread]: End processing [np-aind-metadata]: success
 [2024-05-02 04:13:02] INFO root fetch - main [MainThread]: Store serial: [23025640]
+[2024-05-02 04:15:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025640]
+[2024-05-02 04:15:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 04:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: replit-river
+[2024-05-02 04:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musicnotes
+[2024-05-02 04:15:10] INFO root fetch - processPackages [replit-river]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 04:15:10] INFO root fetch - processPackages [musicnotes]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-02 04:15:10] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/a3/60/d3406253d300f18664bf91712096240dd839c49b54c397c7d87c30c92ca3/replit_river-0.1.8.tar.gz
+[2024-05-02 04:15:10] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/3d/14/b82e792915314745759686ce08c8cb01223b15047ca092ed6b0df4ae0564/musicnotes-1.0.4.tar.gz
+[2024-05-02 04:15:11] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/63/d0/cf3e1765cd7b168b65aab1449b4829714a8999032e46f8c202867d284f77/replit_river-0.1.9.tar.gz
+[2024-05-02 04:15:11] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-05-02 04:15:11] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.8.tar.gz tmp/replit_river-0.1.9.tar.gz --markdown 20240502/r/replit-river/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 04:15:11] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/4e/2c/a86357f9189f98b98b770d63adbbc7d2bc4e35c7b53869f64d6ea06dba5c/musicnotes-1.0.5.tar.gz
+[2024-05-02 04:15:11] INFO root fetch - processPackages [musicnotes]: executing diffoscope
+[2024-05-02 04:15:11] INFO root fetch - processPackages [musicnotes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicnotes-1.0.4.tar.gz tmp/musicnotes-1.0.5.tar.gz --markdown 20240502/m/musicnotes/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-02 04:15:11] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.8.tar.gz]
+[2024-05-02 04:15:11] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.9.tar.gz]
+[2024-05-02 04:15:11] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-05-02 04:15:11] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.4.tar.gz]
+[2024-05-02 04:15:11] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.5.tar.gz]
+[2024-05-02 04:15:11] INFO root fetch - main [MainThread]: End processing [musicnotes]: success
+[2024-05-02 04:15:11] INFO root fetch - main [MainThread]: Store serial: [23025646]
