@@ -17680,3 +17680,160 @@
 [2024-05-02 13:13:28] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2024-05-02 13:13:28] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2024-05-02 13:13:28] INFO root fetch - main [MainThread]: Store serial: [23029895]
+[2024-05-02 13:15:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029895]
+[2024-05-02 13:15:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 13:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bulletroulette
+[2024-05-02 13:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tb-nightly
+[2024-05-02 13:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lakeapi
+[2024-05-02 13:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-cpp
+[2024-05-02 13:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-core-xe-esimd-21
+[2024-05-02 13:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kilm-aiplatform
+[2024-05-02 13:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-xroad-soap
+[2024-05-02 13:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-check-seo
+[2024-05-02 13:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pypwing
+[2024-05-02 13:15:37] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-05-02 13:15:37] WARNING root fetch - processPackages [kilm-aiplatform]: Skipping, unable to determine old version
+[2024-05-02 13:15:37] INFO root fetch - main [MainThread]: End processing [kilm-aiplatform] error
+[2024-05-02 13:15:37] WARNING root fetch - processPackages [pypwing]: Skipping, unable to determine old version
+[2024-05-02 13:15:37] INFO root fetch - main [MainThread]: End processing [pypwing] error
+[2024-05-02 13:15:37] INFO root fetch - processPackages [fastapi-xroad-soap]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-02 13:15:37] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240502] Old Version: [2.5.0b20240501]
+[2024-05-02 13:15:37] INFO root fetch - processPackages [lakeapi]: New version: [0.9.1] Old Version: [0.8.0]
+[2024-05-02 13:15:37] INFO root fetch - processPackages [django-check-seo]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-02 13:15:37] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240502] Old Version: [2.5.0b20240501]
+[2024-05-02 13:15:37] INFO root fetch - processPackages [bulletroulette]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-02 13:15:37] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-05-02 13:15:37] INFO root fetch - processPackages [bulletroulette]: Downloading https://files.pythonhosted.org/packages/21/c5/5c18ba017ea902daa695391fbe7ac42e23ad3e0da3360393d0b786d4e3a0/bulletroulette-1.0.4.tar.gz
+[2024-05-02 13:15:37] INFO root fetch - processPackages [lakeapi]: Downloading https://files.pythonhosted.org/packages/d4/5b/56016d83ac5561eadd76f1ff37c3b949722a29b3a56a5eb8cdf6810d5363/lakeapi-0.8.0.tar.gz
+[2024-05-02 13:15:38] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/a3/d0/7a915b5b3e961ec6c38763b18aa3508a79d2342d8491d05985c80181e9fc/bigdl_core_xe_esimd_21-2.5.0b20240501-cp39-cp39-win_amd64.whl
+[2024-05-02 13:15:38] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/ce/5f/35befa3b32f6778dab31694eb5f59cc007f33fb1ef8e3c2a02c2529603ec/bigdl_core_cpp-2.5.0b20240501-py3-none-win_amd64.whl
+[2024-05-02 13:15:38] INFO root fetch - processPackages [django-check-seo]: Downloading https://files.pythonhosted.org/packages/33/41/a825d1ac1483556080cb7a572f64d035ca82dd46684d780b7642c4507c9e/django-check-seo-1.0.0.tar.gz
+[2024-05-02 13:15:38] INFO root fetch - processPackages [fastapi-xroad-soap]: Downloading https://files.pythonhosted.org/packages/eb/e6/9c0a544ed07cf1547f5ec6369b8c3caefbbfe51d402c063f5b79d8119e00/fastapi_xroad_soap-0.4.2.tar.gz
+[2024-05-02 13:15:38] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 28078005>=10485760
+[2024-05-02 13:15:38] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-05-02 13:15:38] INFO root fetch - processPackages [fastapi-xroad-soap]: Downloading https://files.pythonhosted.org/packages/28/09/ddde815397c13394667d2aca09ae9a6e6fae58533b23d515bb0064ac711e/fastapi_xroad_soap-0.4.3.tar.gz
+[2024-05-02 13:15:38] INFO root fetch - processPackages [lakeapi]: Downloading https://files.pythonhosted.org/packages/4f/6f/4921e82faf910e61406eae2fae217296db161a512087ce5e48d610cb965d/lakeapi-0.9.1.tar.gz
+[2024-05-02 13:15:38] INFO root fetch - processPackages [django-check-seo]: Downloading https://files.pythonhosted.org/packages/17/3a/a153ec8a1e3a537cde71c2393320ba8cced3e50745838f14d9fb8925aa5c/django_check_seo-1.0.1.tar.gz
+[2024-05-02 13:15:38] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-05-02 13:15:38] INFO root fetch - processPackages [fastapi-xroad-soap]: executing diffoscope
+[2024-05-02 13:15:38] INFO root fetch - processPackages [lakeapi]: executing diffoscope
+[2024-05-02 13:15:38] INFO root fetch - processPackages [fastapi-xroad-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_xroad_soap-0.4.2.tar.gz tmp/fastapi_xroad_soap-0.4.3.tar.gz --markdown 20240502/f/fastapi-xroad-soap/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-02 13:15:38] INFO root fetch - processPackages [lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakeapi-0.8.0.tar.gz tmp/lakeapi-0.9.1.tar.gz --markdown 20240502/l/lakeapi/0.8.0-0.9.1/README.md --exclude *.pyd
+[2024-05-02 13:15:38] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/f3/72/87e14ce388bffc20ba2171df1044d31c41c40e318e3a2e2cba12bc4a54bb/bigdl_core_xe_esimd_21-2.5.0b20240502-cp310-cp310-win_amd64.whl
+[2024-05-02 13:15:38] INFO root fetch - processPackages [django-check-seo]: executing diffoscope
+[2024-05-02 13:15:38] INFO root fetch - processPackages [django-check-seo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-check-seo-1.0.0.tar.gz tmp/django_check_seo-1.0.1.tar.gz --markdown 20240502/d/django-check-seo/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-02 13:15:38] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-05-02 13:15:38] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240501-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240502-cp310-cp310-win_amd64.whl.zip --markdown 20240502/b/bigdl-core-xe-esimd-21/2.5.0b20240501-2.5.0b20240502/README.md --exclude *.pyd
+[2024-05-02 13:15:38] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-05-02 13:15:38] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240502/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-05-02 13:15:39] INFO root fetch - processPackages [lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi-0.8.0.tar.gz]
+[2024-05-02 13:15:39] INFO root fetch - processPackages [lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi-0.9.1.tar.gz]
+[2024-05-02 13:15:39] INFO root fetch - main [MainThread]: End processing [lakeapi]: success
+[2024-05-02 13:15:39] INFO root fetch - processPackages [fastapi-xroad-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xroad_soap-0.4.2.tar.gz]
+[2024-05-02 13:15:39] INFO root fetch - processPackages [fastapi-xroad-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xroad_soap-0.4.3.tar.gz]
+[2024-05-02 13:15:39] INFO root fetch - main [MainThread]: End processing [fastapi-xroad-soap]: success
+[2024-05-02 13:15:39] INFO root fetch - processPackages [bulletroulette]: Downloading https://files.pythonhosted.org/packages/53/29/8ccfd951a6095b0c3f622bab62524542b776bfa6f6977a7d07ff9db5e058/bulletroulette-1.0.5.tar.gz
+[2024-05-02 13:15:39] INFO root fetch - processPackages [django-check-seo]: Remove: archive file [/home/abi/fetcher/tmp/django-check-seo-1.0.0.tar.gz]
+[2024-05-02 13:15:39] INFO root fetch - processPackages [django-check-seo]: Remove: archive file [/home/abi/fetcher/tmp/django_check_seo-1.0.1.tar.gz]
+[2024-05-02 13:15:39] INFO root fetch - main [MainThread]: End processing [django-check-seo]: success
+[2024-05-02 13:15:39] ERROR root fetch - processPackages [bigdl-core-xe-esimd-21]: Diffoscope failed: time="2024-05-02T13:15:38+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140312353709456)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140312487927296)
+
+[2024-05-02 13:15:39] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-05-02 13:15:40] INFO root fetch - processPackages [bulletroulette]: executing diffoscope
+[2024-05-02 13:15:40] INFO root fetch - processPackages [bulletroulette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulletroulette-1.0.4.tar.gz tmp/bulletroulette-1.0.5.tar.gz --markdown 20240502/b/bulletroulette/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-02 13:15:40] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-05-02 13:15:40] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-05-02 13:15:40] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-05-02 13:15:41] INFO root fetch - processPackages [bulletroulette]: Remove: archive file [/home/abi/fetcher/tmp/bulletroulette-1.0.4.tar.gz]
+[2024-05-02 13:15:41] INFO root fetch - processPackages [bulletroulette]: Remove: archive file [/home/abi/fetcher/tmp/bulletroulette-1.0.5.tar.gz]
+[2024-05-02 13:15:41] INFO root fetch - main [MainThread]: End processing [bulletroulette]: success
+[2024-05-02 13:15:41] INFO root fetch - main [MainThread]: Store serial: [23029925]
