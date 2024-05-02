@@ -8713,3 +8713,42 @@
 [2024-05-02 06:09:24] INFO root fetch - processPackages [compasspy]: Remove: archive file [/home/abi/fetcher/tmp/compasspy-3.0.tar.gz]
 [2024-05-02 06:09:24] INFO root fetch - main [MainThread]: End processing [compasspy]: success
 [2024-05-02 06:09:24] INFO root fetch - main [MainThread]: Store serial: [23026235]
+[2024-05-02 06:11:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026235]
+[2024-05-02 06:11:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 06:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: okahu-observability
+[2024-05-02 06:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: es-wait
+[2024-05-02 06:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decipher-sdk
+[2024-05-02 06:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mylocale
+[2024-05-02 06:11:34] INFO root fetch - processPackages [es-wait]: New version: [0.5.0] Old Version: [0.3.5]
+[2024-05-02 06:11:34] INFO root fetch - processPackages [mylocale]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 06:11:34] INFO root fetch - processPackages [okahu-observability]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-02 06:11:34] INFO root fetch - processPackages [decipher-sdk]: New version: [0.0.2] Old Version: [0.0.15]
+[2024-05-02 06:11:34] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/2f/5b/5f942678cf7b6312828c8c42d0ad634e3a78f330e639d0aec633281923a9/mylocale-0.8.0.tar.gz
+[2024-05-02 06:11:34] INFO root fetch - processPackages [es-wait]: Downloading https://files.pythonhosted.org/packages/96/29/cf8ee97bf8a41c0da6d0027eb67b857817bbc9af62581d00f7fe996ad242/es_wait-0.3.5.tar.gz
+[2024-05-02 06:11:34] INFO root fetch - processPackages [okahu-observability]: Downloading https://files.pythonhosted.org/packages/c9/36/d76a6bdc145e0444d022204d1042d57466b2ee1162c25cd3ed36aab5c3d7/okahu_observability-0.0.1.tar.gz
+[2024-05-02 06:11:34] INFO root fetch - processPackages [decipher-sdk]: Downloading https://files.pythonhosted.org/packages/c6/3d/2d8beb3bbf380a48b0c785028f21be810fbd6d026558db248a9af2724b9e/decipher-sdk-0.0.15.tar.gz
+[2024-05-02 06:11:34] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/cf/31/7eaef23f3354fae298c96e7453c8c73b0605787b351c7010185d89124bb0/mylocale-0.9.0.tar.gz
+[2024-05-02 06:11:34] INFO root fetch - processPackages [es-wait]: Downloading https://files.pythonhosted.org/packages/00/e9/e1a3e38b1e0968fd0e1b64ea0c591b31048ae5ad589c23460cce6c4d8899/es_wait-0.5.0.tar.gz
+[2024-05-02 06:11:34] INFO root fetch - processPackages [mylocale]: executing diffoscope
+[2024-05-02 06:11:34] INFO root fetch - processPackages [mylocale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mylocale-0.8.0.tar.gz tmp/mylocale-0.9.0.tar.gz --markdown 20240502/m/mylocale/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 06:11:34] INFO root fetch - processPackages [es-wait]: executing diffoscope
+[2024-05-02 06:11:34] INFO root fetch - processPackages [es-wait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_wait-0.3.5.tar.gz tmp/es_wait-0.5.0.tar.gz --markdown 20240502/e/es-wait/0.3.5-0.5.0/README.md --exclude *.pyd
+[2024-05-02 06:11:35] INFO root fetch - processPackages [okahu-observability]: Downloading https://files.pythonhosted.org/packages/db/c0/a252807b1d32507c2c70ea4d9e127767e75e8a220f4e088a4793042af7e4/okahu_observability-0.0.2.tar.gz
+[2024-05-02 06:11:35] INFO root fetch - processPackages [decipher-sdk]: Downloading https://files.pythonhosted.org/packages/b6/76/488a3b60f46131f5344a85aded6198e0d9501cfc6e60fe54c0bc0387468b/decipher-sdk-0.0.2.tar.gz
+[2024-05-02 06:11:35] INFO root fetch - processPackages [okahu-observability]: executing diffoscope
+[2024-05-02 06:11:35] INFO root fetch - processPackages [okahu-observability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okahu_observability-0.0.1.tar.gz tmp/okahu_observability-0.0.2.tar.gz --markdown 20240502/o/okahu-observability/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-02 06:11:35] INFO root fetch - processPackages [decipher-sdk]: executing diffoscope
+[2024-05-02 06:11:35] INFO root fetch - processPackages [decipher-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decipher-sdk-0.0.15.tar.gz tmp/decipher-sdk-0.0.2.tar.gz --markdown 20240502/d/decipher-sdk/0.0.15-0.0.2/README.md --exclude *.pyd
+[2024-05-02 06:11:35] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.8.0.tar.gz]
+[2024-05-02 06:11:35] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.9.0.tar.gz]
+[2024-05-02 06:11:35] INFO root fetch - main [MainThread]: End processing [mylocale]: success
+[2024-05-02 06:11:35] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.3.5.tar.gz]
+[2024-05-02 06:11:35] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.5.0.tar.gz]
+[2024-05-02 06:11:35] INFO root fetch - main [MainThread]: End processing [es-wait]: success
+[2024-05-02 06:11:35] INFO root fetch - processPackages [okahu-observability]: Remove: archive file [/home/abi/fetcher/tmp/okahu_observability-0.0.1.tar.gz]
+[2024-05-02 06:11:35] INFO root fetch - processPackages [okahu-observability]: Remove: archive file [/home/abi/fetcher/tmp/okahu_observability-0.0.2.tar.gz]
+[2024-05-02 06:11:35] INFO root fetch - main [MainThread]: End processing [okahu-observability]: success
+[2024-05-02 06:11:35] INFO root fetch - processPackages [decipher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decipher-sdk-0.0.15.tar.gz]
+[2024-05-02 06:11:35] INFO root fetch - processPackages [decipher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decipher-sdk-0.0.2.tar.gz]
+[2024-05-02 06:11:35] INFO root fetch - main [MainThread]: End processing [decipher-sdk]: success
+[2024-05-02 06:11:35] INFO root fetch - main [MainThread]: Store serial: [23026247]
