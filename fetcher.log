@@ -16695,3 +16695,75 @@
 [2024-05-02 12:31:08] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-05-02 12:31:08] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-05-02 12:31:08] INFO root fetch - main [MainThread]: Store serial: [23029551]
+[2024-05-02 12:33:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029551]
+[2024-05-02 12:33:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 12:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fftrack
+[2024-05-02 12:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edea-tmc
+[2024-05-02 12:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tdta
+[2024-05-02 12:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-view-inheritance-extension
+[2024-05-02 12:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-base-exception
+[2024-05-02 12:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-module-change-auto-install
+[2024-05-02 12:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-database-cleanup
+[2024-05-02 12:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ecosystem-notebooks
+[2024-05-02 12:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: itwingstestsprojectnn
+[2024-05-02 12:33:18] WARNING root fetch - processPackages [fftrack]: Skipping, unable to determine old version
+[2024-05-02 12:33:18] INFO root fetch - main [MainThread]: End processing [fftrack] error
+[2024-05-02 12:33:18] INFO root fetch - processPackages [odoo-addon-database-cleanup]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-02 12:33:18] INFO root fetch - processPackages [edea-tmc]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-02 12:33:18] INFO root fetch - processPackages [odoo-addon-base-exception]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.6]
+[2024-05-02 12:33:18] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/39/9b/f51448a6e5f70895cf29d4cbfb897f60fb82eca5fb3c4c0593f890a68319/odoo_addon_database_cleanup-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-02 12:33:19] INFO root fetch - processPackages [tdta]: New version: [0.1.0.dev6] Old Version: [0.1.0.dev5]
+[2024-05-02 12:33:19] INFO root fetch - processPackages [ecosystem-notebooks]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.3]
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-module-change-auto-install]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.4]
+[2024-05-02 12:33:19] WARNING root fetch - processPackages [itwingstestsprojectnn]: Skipping, unable to determine old version
+[2024-05-02 12:33:19] INFO root fetch - main [MainThread]: End processing [itwingstestsprojectnn] error
+[2024-05-02 12:33:19] INFO root fetch - processPackages [edea-tmc]: Downloading https://files.pythonhosted.org/packages/9f/0c/fc5fad83ace612a4845c44281989b26cad036a1f41419e4832c27c7cd7e5/edea_tmc-0.2.0.tar.gz
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-base-exception]: Downloading https://files.pythonhosted.org/packages/a9/ed/4bc169cb089bebd874787f907e05c6589959bfc70f7983d7119b3baafff0/odoo_addon_base_exception-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-02 12:33:19] INFO root fetch - processPackages [tdta]: Downloading https://files.pythonhosted.org/packages/ec/40/5ec579c01a14a7054a046c764147d2aab5ebf55042f65577a9e2fd7547f8/tdta-0.1.0.dev5.tar.gz
+[2024-05-02 12:33:19] INFO root fetch - processPackages [ecosystem-notebooks]: Downloading https://files.pythonhosted.org/packages/dc/f4/15d40f4fab809fb02ae42b41428bef990398469edbd0eb4e113ff9d32c3d/ecosystem-notebooks-0.1.8.tar.gz
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/cf/2b/6a8f4cb5945d7c47f709c1a9c9ea772811c5765a7608dfd2ee236ae7dbe4/odoo_addon_base_view_inheritance_extension-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-module-change-auto-install]: Downloading https://files.pythonhosted.org/packages/ed/9e/c3a51cfd600c2304f88bd1eb5fc29a591bd1c889c83c8e1f0b79b0b2dc43/odoo_addon_module_change_auto_install-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/ab/2c/0c58d54b1107c8b72c37faf27f82cccfdbd5f8024537d0709f5886045156/odoo_addon_database_cleanup-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-database-cleanup]: executing diffoscope
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-database-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_database_cleanup-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_database_cleanup-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-database-cleanup/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-02 12:33:19] INFO root fetch - processPackages [edea-tmc]: Downloading https://files.pythonhosted.org/packages/cc/ce/ee1d443bd53b9a5f8ad23e0030915d9d5899f8b25566ad9e80f52ebc5e12/edea_tmc-0.2.1.tar.gz
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/d7/46/9ba89fdde14d1123b3c47c319a0a2a7e2902a00aae885e1a2dafbf1a3caf/odoo_addon_base_view_inheritance_extension-17.0.1.0.1-py3-none-any.whl
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-module-change-auto-install]: Downloading https://files.pythonhosted.org/packages/3a/74/5b9f7ce03afb83c5ee430303c894b8827b4e4f077c29e2da5421ddd6ff77/odoo_addon_module_change_auto_install-17.0.1.0.1-py3-none-any.whl
+[2024-05-02 12:33:19] INFO root fetch - processPackages [ecosystem-notebooks]: Downloading https://files.pythonhosted.org/packages/65/4e/cea87ee654a715c444b56f178f9c2f0b4d037ff06d0c84c8ab056ef2c4d0/ecosystem-notebooks-0.1.9.tar.gz
+[2024-05-02 12:33:19] INFO root fetch - processPackages [tdta]: Downloading https://files.pythonhosted.org/packages/4a/92/2a930b270f4edc124f5c5671772f63f09f70322b7b04f42b08881ef5caa0/tdta-0.1.0.dev6.tar.gz
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-base-exception]: Downloading https://files.pythonhosted.org/packages/42/20/7e8828b31ef8e4956b6f42a9e7aad5ce077a700e36ac29ec577bb4e29c9d/odoo_addon_base_exception-17.0.1.0.1-py3-none-any.whl
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: executing diffoscope
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_view_inheritance_extension-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_view_inheritance_extension-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-base-view-inheritance-extension/17.0.1.0.0.3-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-02 12:33:19] INFO root fetch - processPackages [edea-tmc]: executing diffoscope
+[2024-05-02 12:33:19] INFO root fetch - processPackages [edea-tmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edea_tmc-0.2.0.tar.gz tmp/edea_tmc-0.2.1.tar.gz --markdown 20240502/e/edea-tmc/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-module-change-auto-install]: executing diffoscope
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-module-change-auto-install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_module_change_auto_install-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_module_change_auto_install-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-module-change-auto-install/17.0.1.0.0.4-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-base-exception]: executing diffoscope
+[2024-05-02 12:33:19] INFO root fetch - processPackages [odoo-addon-base-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_exception-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_base_exception-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-base-exception/17.0.1.0.0.6-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-02 12:33:19] INFO root fetch - processPackages [tdta]: executing diffoscope
+[2024-05-02 12:33:19] INFO root fetch - processPackages [tdta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdta-0.1.0.dev5.tar.gz tmp/tdta-0.1.0.dev6.tar.gz --markdown 20240502/t/tdta/0.1.0.dev5-0.1.0.dev6/README.md --exclude *.pyd
+[2024-05-02 12:33:19] INFO root fetch - processPackages [ecosystem-notebooks]: executing diffoscope
+[2024-05-02 12:33:19] INFO root fetch - processPackages [ecosystem-notebooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecosystem-notebooks-0.1.8.tar.gz tmp/ecosystem-notebooks-0.1.9.tar.gz --markdown 20240502/e/ecosystem-notebooks/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 12:33:20] INFO root fetch - processPackages [edea-tmc]: Remove: archive file [/home/abi/fetcher/tmp/edea_tmc-0.2.0.tar.gz]
+[2024-05-02 12:33:20] INFO root fetch - processPackages [edea-tmc]: Remove: archive file [/home/abi/fetcher/tmp/edea_tmc-0.2.1.tar.gz]
+[2024-05-02 12:33:20] INFO root fetch - main [MainThread]: End processing [edea-tmc]: success
+[2024-05-02 12:33:20] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-02 12:33:20] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-02 12:33:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-database-cleanup]: success
+[2024-05-02 12:33:20] INFO root fetch - processPackages [odoo-addon-module-change-auto-install]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_module_change_auto_install-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-02 12:33:20] INFO root fetch - processPackages [odoo-addon-module-change-auto-install]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_module_change_auto_install-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-02 12:33:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-module-change-auto-install]: success
+[2024-05-02 12:33:20] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_view_inheritance_extension-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-02 12:33:20] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_view_inheritance_extension-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-02 12:33:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-view-inheritance-extension]: success
+[2024-05-02 12:33:20] INFO root fetch - processPackages [tdta]: Remove: archive file [/home/abi/fetcher/tmp/tdta-0.1.0.dev5.tar.gz]
+[2024-05-02 12:33:20] INFO root fetch - processPackages [tdta]: Remove: archive file [/home/abi/fetcher/tmp/tdta-0.1.0.dev6.tar.gz]
+[2024-05-02 12:33:20] INFO root fetch - main [MainThread]: End processing [tdta]: success
+[2024-05-02 12:33:20] INFO root fetch - processPackages [odoo-addon-base-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_exception-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-02 12:33:20] INFO root fetch - processPackages [odoo-addon-base-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_exception-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-02 12:33:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-exception]: success
+[2024-05-02 12:33:20] INFO root fetch - processPackages [ecosystem-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/ecosystem-notebooks-0.1.8.tar.gz]
+[2024-05-02 12:33:20] INFO root fetch - processPackages [ecosystem-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/ecosystem-notebooks-0.1.9.tar.gz]
+[2024-05-02 12:33:20] INFO root fetch - main [MainThread]: End processing [ecosystem-notebooks]: success
+[2024-05-02 12:33:20] INFO root fetch - main [MainThread]: Store serial: [23029576]
