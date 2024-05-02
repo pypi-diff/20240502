@@ -21160,3 +21160,60 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:04:10] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl.zip]
 [2024-05-02 15:04:10] INFO root fetch - main [MainThread]: End processing [cosmian-kms]: success
 [2024-05-02 15:04:10] INFO root fetch - main [MainThread]: Store serial: [23031251]
+[2024-05-02 15:06:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031251]
+[2024-05-02 15:06:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 15:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itwingstestsprojectnn
+[2024-05-02 15:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bioimageio.core
+[2024-05-02 15:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scCellFie
+[2024-05-02 15:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: velosaurus-sum
+[2024-05-02 15:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: innertube-de
+[2024-05-02 15:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ironic-python-agent
+[2024-05-02 15:06:20] INFO root fetch - processPackages [velosaurus-sum]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-02 15:06:20] INFO root fetch - processPackages [scCellFie]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-02 15:06:20] INFO root fetch - processPackages [innertube-de]: New version: [1.0.0.post1] Old Version: [1.0.0.post0]
+[2024-05-02 15:06:20] INFO root fetch - processPackages [itwingstestsprojectnn]: New version: [0.3] Old Version: [0.2]
+[2024-05-02 15:06:20] INFO root fetch - processPackages [velosaurus-sum]: Downloading https://files.pythonhosted.org/packages/ad/25/3f906928df803614f699fb3836bdaae4ffe70b86ac8a40833f5ce846bc69/velosaurus_sum-1.0.5.tar.gz
+[2024-05-02 15:06:20] INFO root fetch - processPackages [itwingstestsprojectnn]: Downloading https://files.pythonhosted.org/packages/9f/60/2d1c8e422a85b58790db85d927b8626f98d50fcd2bf201012bd3d86e1dd6/itwingstestsprojectnn-0.2.tar.gz
+[2024-05-02 15:06:20] INFO root fetch - processPackages [bioimageio.core]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-02 15:06:20] INFO root fetch - processPackages [ironic-python-agent]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-05-02 15:06:20] INFO root fetch - processPackages [innertube-de]: Downloading https://files.pythonhosted.org/packages/e6/eb/8ef2e08a537e50cc9c2007c5d8eaea21a9b7710b194b98980e33bf2b380a/innertube_de-1.0.0.post0.tar.gz
+[2024-05-02 15:06:20] INFO root fetch - processPackages [scCellFie]: Downloading https://files.pythonhosted.org/packages/c7/2b/e303eed2448ac8f35bb5a5e7a1a623c3e55dc32ef2a66a60ba841aab7a2a/scCellFie-0.1.7.tar.gz
+[2024-05-02 15:06:20] INFO root fetch - processPackages [bioimageio.core]: Downloading https://files.pythonhosted.org/packages/3e/ac/f6bbe4d580e0580f53549260d0c26e1e055dd59acf071a3bdacafcd07f47/bioimageio.core-0.6.2.tar.gz
+[2024-05-02 15:06:20] INFO root fetch - processPackages [velosaurus-sum]: Downloading https://files.pythonhosted.org/packages/ec/a9/c014a12b91ed6e553f0cd448b270fee2facf3ca8723aa92b0ddde3d47a6d/velosaurus_sum-1.0.6.tar.gz
+[2024-05-02 15:06:20] INFO root fetch - processPackages [ironic-python-agent]: Downloading https://files.pythonhosted.org/packages/be/ee/480b9d18bb27c8d849abc2e770705e70a04d24266a61316df35a245f597b/ironic-python-agent-9.8.0.tar.gz
+[2024-05-02 15:06:20] INFO root fetch - processPackages [innertube-de]: Downloading https://files.pythonhosted.org/packages/44/f8/dddee1c2e8048604c7c8e328e24b5fbb943bfcf755f626557640d2820a54/innertube-de-1.0.0.post1.tar.gz
+[2024-05-02 15:06:20] INFO root fetch - processPackages [itwingstestsprojectnn]: Downloading https://files.pythonhosted.org/packages/fc/e3/e6e5335a165eb5ac3dc8e5944851108fb3609a6c916ebb8b57e17ad68cba/itwingstestsprojectnn-0.3.tar.gz
+[2024-05-02 15:06:20] INFO root fetch - processPackages [scCellFie]: Downloading https://files.pythonhosted.org/packages/cf/39/e4dc4b44b23dfbae895c6c3e095ecdc83f1274cef1819df89aa565c45d45/sccellfie-0.1.8.tar.gz
+[2024-05-02 15:06:20] INFO root fetch - processPackages [velosaurus-sum]: executing diffoscope
+[2024-05-02 15:06:20] INFO root fetch - processPackages [velosaurus-sum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velosaurus_sum-1.0.5.tar.gz tmp/velosaurus_sum-1.0.6.tar.gz --markdown 20240502/v/velosaurus-sum/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-02 15:06:20] INFO root fetch - processPackages [itwingstestsprojectnn]: executing diffoscope
+[2024-05-02 15:06:20] INFO root fetch - processPackages [itwingstestsprojectnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itwingstestsprojectnn-0.2.tar.gz tmp/itwingstestsprojectnn-0.3.tar.gz --markdown 20240502/i/itwingstestsprojectnn/0.2-0.3/README.md --exclude *.pyd
+[2024-05-02 15:06:20] INFO root fetch - processPackages [innertube-de]: executing diffoscope
+[2024-05-02 15:06:20] INFO root fetch - processPackages [innertube-de]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innertube_de-1.0.0.post0.tar.gz tmp/innertube-de-1.0.0.post1.tar.gz --markdown 20240502/i/innertube-de/1.0.0.post0-1.0.0.post1/README.md --exclude *.pyd
+[2024-05-02 15:06:20] INFO root fetch - processPackages [scCellFie]: executing diffoscope
+[2024-05-02 15:06:20] INFO root fetch - processPackages [scCellFie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scCellFie-0.1.7.tar.gz tmp/sccellfie-0.1.8.tar.gz --markdown 20240502/s/scCellFie/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-02 15:06:20] INFO root fetch - processPackages [bioimageio.core]: Downloading https://files.pythonhosted.org/packages/94/b6/3dcf632e5467eda06444937ece0b79ef01148843580b1dd69cbfad7f979d/bioimageio.core-0.6.3.tar.gz
+[2024-05-02 15:06:21] INFO root fetch - processPackages [ironic-python-agent]: Downloading https://files.pythonhosted.org/packages/4b/11/b578939683242a16f640fdaa2ea8dfb4107e58b9b7ff5750d6ac5d2eccc5/ironic-python-agent-9.9.0.tar.gz
+[2024-05-02 15:06:21] INFO root fetch - processPackages [bioimageio.core]: executing diffoscope
+[2024-05-02 15:06:21] INFO root fetch - processPackages [bioimageio.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioimageio.core-0.6.2.tar.gz tmp/bioimageio.core-0.6.3.tar.gz --markdown 20240502/b/bioimageio.core/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-02 15:06:21] INFO root fetch - processPackages [ironic-python-agent]: executing diffoscope
+[2024-05-02 15:06:21] INFO root fetch - processPackages [ironic-python-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ironic-python-agent-9.8.0.tar.gz tmp/ironic-python-agent-9.9.0.tar.gz --markdown 20240502/i/ironic-python-agent/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-05-02 15:06:21] INFO root fetch - processPackages [itwingstestsprojectnn]: Remove: archive file [/home/abi/fetcher/tmp/itwingstestsprojectnn-0.2.tar.gz]
+[2024-05-02 15:06:21] INFO root fetch - processPackages [itwingstestsprojectnn]: Remove: archive file [/home/abi/fetcher/tmp/itwingstestsprojectnn-0.3.tar.gz]
+[2024-05-02 15:06:21] INFO root fetch - main [MainThread]: End processing [itwingstestsprojectnn]: success
+[2024-05-02 15:06:21] INFO root fetch - processPackages [velosaurus-sum]: Remove: archive file [/home/abi/fetcher/tmp/velosaurus_sum-1.0.5.tar.gz]
+[2024-05-02 15:06:21] INFO root fetch - processPackages [velosaurus-sum]: Remove: archive file [/home/abi/fetcher/tmp/velosaurus_sum-1.0.6.tar.gz]
+[2024-05-02 15:06:21] INFO root fetch - main [MainThread]: End processing [velosaurus-sum]: success
+[2024-05-02 15:06:21] INFO root fetch - processPackages [innertube-de]: Remove: archive file [/home/abi/fetcher/tmp/innertube_de-1.0.0.post0.tar.gz]
+[2024-05-02 15:06:21] INFO root fetch - processPackages [innertube-de]: Remove: archive file [/home/abi/fetcher/tmp/innertube-de-1.0.0.post1.tar.gz]
+[2024-05-02 15:06:21] INFO root fetch - main [MainThread]: End processing [innertube-de]: success
+[2024-05-02 15:06:21] INFO root fetch - processPackages [scCellFie]: Remove: archive file [/home/abi/fetcher/tmp/scCellFie-0.1.7.tar.gz]
+[2024-05-02 15:06:21] INFO root fetch - processPackages [scCellFie]: Remove: archive file [/home/abi/fetcher/tmp/sccellfie-0.1.8.tar.gz]
+[2024-05-02 15:06:21] INFO root fetch - main [MainThread]: End processing [scCellFie]: success
+[2024-05-02 15:06:22] INFO root fetch - processPackages [bioimageio.core]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.core-0.6.2.tar.gz]
+[2024-05-02 15:06:22] INFO root fetch - processPackages [bioimageio.core]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.core-0.6.3.tar.gz]
+[2024-05-02 15:06:22] INFO root fetch - main [MainThread]: End processing [bioimageio.core]: success
+[2024-05-02 15:06:23] INFO root fetch - processPackages [ironic-python-agent]: Remove: archive file [/home/abi/fetcher/tmp/ironic-python-agent-9.8.0.tar.gz]
+[2024-05-02 15:06:23] INFO root fetch - processPackages [ironic-python-agent]: Remove: archive file [/home/abi/fetcher/tmp/ironic-python-agent-9.9.0.tar.gz]
+[2024-05-02 15:06:23] INFO root fetch - main [MainThread]: End processing [ironic-python-agent]: success
+[2024-05-02 15:06:23] INFO root fetch - main [MainThread]: Store serial: [23031271]
