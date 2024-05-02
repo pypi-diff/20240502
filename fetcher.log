@@ -6810,3 +6810,33 @@
 [2024-05-02 03:26:14] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
 [2024-05-02 03:26:14] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2024-05-02 03:26:14] INFO root fetch - main [MainThread]: Store serial: [23025167]
+[2024-05-02 03:28:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025167]
+[2024-05-02 03:28:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 03:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onediff
+[2024-05-02 03:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onediffx
+[2024-05-02 03:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: replit-river
+[2024-05-02 03:28:23] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202405010129] Old Version: [1.0.0.dev202404300125]
+[2024-05-02 03:28:23] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202405010129] Old Version: [1.0.0.dev202404300125]
+[2024-05-02 03:28:23] INFO root fetch - processPackages [replit-river]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 03:28:23] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/69/0a/0701c65a7e2b9f66512b87bafb7b6d1f45b468b1170904325bb7e620cddf/onediffx-1.0.0.dev202404300125.tar.gz
+[2024-05-02 03:28:23] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/64/b1/ba9adfd5823f8ace19d0416cc5dc673d2a327f725d390ef3789ccb8fcff0/onediff-1.0.0.dev202404300125.tar.gz
+[2024-05-02 03:28:23] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/a3/60/d3406253d300f18664bf91712096240dd839c49b54c397c7d87c30c92ca3/replit_river-0.1.8.tar.gz
+[2024-05-02 03:28:24] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/42/5a/209696b647a27b0a70fc7d17e72423ece815078625b8cc53510265ed19dc/onediffx-1.0.0.dev202405010129.tar.gz
+[2024-05-02 03:28:24] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/72/82/80518a0d7a9ad2279004d5bb4d1daf17f5a4fb1c9b6229c8b9a161dbeab7/onediff-1.0.0.dev202405010129.tar.gz
+[2024-05-02 03:28:24] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-05-02 03:28:24] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202404300125.tar.gz tmp/onediffx-1.0.0.dev202405010129.tar.gz --markdown 20240502/o/onediffx/1.0.0.dev202404300125-1.0.0.dev202405010129/README.md --exclude *.pyd
+[2024-05-02 03:28:24] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-02 03:28:24] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202404300125.tar.gz tmp/onediff-1.0.0.dev202405010129.tar.gz --markdown 20240502/o/onediff/1.0.0.dev202404300125-1.0.0.dev202405010129/README.md --exclude *.pyd
+[2024-05-02 03:28:24] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/63/d0/cf3e1765cd7b168b65aab1449b4829714a8999032e46f8c202867d284f77/replit_river-0.1.9.tar.gz
+[2024-05-02 03:28:24] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-05-02 03:28:24] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.8.tar.gz tmp/replit_river-0.1.9.tar.gz --markdown 20240502/r/replit-river/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 03:28:24] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404300125.tar.gz]
+[2024-05-02 03:28:24] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405010129.tar.gz]
+[2024-05-02 03:28:24] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-05-02 03:28:25] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404300125.tar.gz]
+[2024-05-02 03:28:25] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405010129.tar.gz]
+[2024-05-02 03:28:25] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-02 03:28:25] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.8.tar.gz]
+[2024-05-02 03:28:25] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.9.tar.gz]
+[2024-05-02 03:28:25] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-05-02 03:28:25] INFO root fetch - main [MainThread]: Store serial: [23025232]
