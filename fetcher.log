@@ -2522,3 +2522,24 @@
 [2024-05-02 02:33:16] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.1.0.tar.gz]
 [2024-05-02 02:33:16] INFO root fetch - main [MainThread]: End processing [fisspy]: success
 [2024-05-02 02:33:16] INFO root fetch - main [MainThread]: Store serial: [23023948]
+[2024-05-02 02:35:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023948]
+[2024-05-02 02:35:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 02:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbook-maker
+[2024-05-02 02:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes
+[2024-05-02 02:35:26] INFO root fetch - processPackages [bbook-maker]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-02 02:35:26] INFO root fetch - processPackages [bbook-maker]: Downloading https://files.pythonhosted.org/packages/93/ff/83857bcf0470b45d2c7fc6e99dadc6f72cffbbf415f34bf86fa0a5469b8c/bbook_maker-0.8.0.tar.gz
+[2024-05-02 02:35:26] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.9.1] Old Version: [4.9.0a1709600505]
+[2024-05-02 02:35:26] INFO root fetch - processPackages [bbook-maker]: Downloading https://files.pythonhosted.org/packages/cc/55/3ecfc9aefe4d30e95dcc7f7542585f6a18d97395da10e3480dcd590d2868/bbook_maker-0.8.1.tar.gz
+[2024-05-02 02:35:27] INFO root fetch - processPackages [bbook-maker]: executing diffoscope
+[2024-05-02 02:35:27] INFO root fetch - processPackages [bbook-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbook_maker-0.8.0.tar.gz tmp/bbook_maker-0.8.1.tar.gz --markdown 20240502/b/bbook-maker/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-02 02:35:27] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/f5/70/02e4a8984b201b842988e123d98828a8b1023a0fe6f592c98fdebdca7506/pulumi_kubernetes-4.9.0a1709600505.tar.gz
+[2024-05-02 02:35:27] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/ae/8c/e58bd57f74c8cbc29a99be666c50a014e5a311981c62ce715186a4c80d41/pulumi_kubernetes-4.9.1.tar.gz
+[2024-05-02 02:35:27] INFO root fetch - processPackages [bbook-maker]: Remove: archive file [/home/abi/fetcher/tmp/bbook_maker-0.8.0.tar.gz]
+[2024-05-02 02:35:27] INFO root fetch - processPackages [bbook-maker]: Remove: archive file [/home/abi/fetcher/tmp/bbook_maker-0.8.1.tar.gz]
+[2024-05-02 02:35:27] INFO root fetch - main [MainThread]: End processing [bbook-maker]: success
+[2024-05-02 02:35:27] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2024-05-02 02:35:27] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-4.9.0a1709600505.tar.gz tmp/pulumi_kubernetes-4.9.1.tar.gz --markdown 20240502/p/pulumi-kubernetes/4.9.0a1709600505-4.9.1/README.md --exclude *.pyd
+[2024-05-02 02:35:30] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.0a1709600505.tar.gz]
+[2024-05-02 02:35:30] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.1.tar.gz]
+[2024-05-02 02:35:30] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2024-05-02 02:35:30] INFO root fetch - main [MainThread]: Store serial: [23023958]
