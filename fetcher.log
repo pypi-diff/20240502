@@ -19536,3 +19536,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 14:34:50] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-02 14:34:50] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-02 14:34:50] INFO root fetch - main [MainThread]: Store serial: [23030774]
+[2024-05-02 14:36:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030774]
+[2024-05-02 14:36:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 14:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hume
+[2024-05-02 14:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytubefix
+[2024-05-02 14:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goproxy-bingai
+[2024-05-02 14:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spacyex
+[2024-05-02 14:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-messages-token-helper
+[2024-05-02 14:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mke-sculib
+[2024-05-02 14:36:59] INFO root fetch - processPackages [pytubefix]: New version: [5.4rc2] Old Version: [5.4rc1]
+[2024-05-02 14:36:59] INFO root fetch - processPackages [openai-messages-token-helper]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 14:36:59] WARNING root fetch - processPackages [goproxy-bingai]: Skipping, unable to determine old version
+[2024-05-02 14:36:59] INFO root fetch - main [MainThread]: End processing [goproxy-bingai] error
+[2024-05-02 14:36:59] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/6f/15/9afbde7c97f257affe132edcb4ad5f0423b082ef42c32ae5818ac65ee5a6/pytubefix-5.4rc1.tar.gz
+[2024-05-02 14:36:59] INFO root fetch - processPackages [openai-messages-token-helper]: Downloading https://files.pythonhosted.org/packages/bc/be/301d578661a21fd78a09ab4473e8de47b782c017820b03493f3e170cc0c7/openai_messages_token_helper-0.1.1.tar.gz
+[2024-05-02 14:36:59] WARNING root fetch - processPackages [spacyex]: Skipping, unable to determine old version
+[2024-05-02 14:36:59] INFO root fetch - main [MainThread]: End processing [spacyex] error
+[2024-05-02 14:36:59] INFO root fetch - processPackages [mke-sculib]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-05-02 14:36:59] INFO root fetch - processPackages [hume]: New version: [0.5.1rc1] Old Version: [0.5.0rc4]
+[2024-05-02 14:36:59] INFO root fetch - processPackages [hume]: Downloading https://files.pythonhosted.org/packages/fe/59/244409e7fa8f8c47dab37e3582d5faf7da7c01053cc6c080dadb93d4b36c/hume-0.5.0rc4.tar.gz
+[2024-05-02 14:36:59] INFO root fetch - processPackages [mke-sculib]: Downloading https://files.pythonhosted.org/packages/03/f7/a317444d9102304ed1e6e2b5d3d6a57b49eeb787ac001af200705aa5abbc/mke_sculib-2.4.0.tar.gz
+[2024-05-02 14:36:59] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/94/73/2733f06f1ced517e93207ff717afb9c4f6da08686b6bd2206f7743d8c1bd/pytubefix-5.4rc2.tar.gz
+[2024-05-02 14:36:59] INFO root fetch - processPackages [openai-messages-token-helper]: Downloading https://files.pythonhosted.org/packages/a5/2c/c2dbd924dd46ecb7582c7fa2afc5c953915eb39ddfaf044ef07bb7b678e0/openai_messages_token_helper-0.1.2.tar.gz
+[2024-05-02 14:37:00] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-05-02 14:37:00] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-5.4rc1.tar.gz tmp/pytubefix-5.4rc2.tar.gz --markdown 20240502/p/pytubefix/5.4rc1-5.4rc2/README.md --exclude *.pyd
+[2024-05-02 14:37:00] INFO root fetch - processPackages [hume]: Downloading https://files.pythonhosted.org/packages/74/e3/b40dcefb55a84ab64167f15ea644a645122edd8606490754080125606949/hume-0.5.1rc1.tar.gz
+[2024-05-02 14:37:00] INFO root fetch - processPackages [openai-messages-token-helper]: executing diffoscope
+[2024-05-02 14:37:00] INFO root fetch - processPackages [openai-messages-token-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_messages_token_helper-0.1.1.tar.gz tmp/openai_messages_token_helper-0.1.2.tar.gz --markdown 20240502/o/openai-messages-token-helper/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 14:37:00] INFO root fetch - processPackages [mke-sculib]: Downloading https://files.pythonhosted.org/packages/c4/c9/dd8c6ca5e858cd6c7b4d298188ce2cff90fe902248ee55d81ddc3c239e51/mke_sculib-2.4.1.tar.gz
+[2024-05-02 14:37:00] INFO root fetch - processPackages [hume]: executing diffoscope
+[2024-05-02 14:37:00] INFO root fetch - processPackages [hume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hume-0.5.0rc4.tar.gz tmp/hume-0.5.1rc1.tar.gz --markdown 20240502/h/hume/0.5.0rc4-0.5.1rc1/README.md --exclude *.pyd
+[2024-05-02 14:37:00] INFO root fetch - processPackages [mke-sculib]: executing diffoscope
+[2024-05-02 14:37:00] INFO root fetch - processPackages [mke-sculib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mke_sculib-2.4.0.tar.gz tmp/mke_sculib-2.4.1.tar.gz --markdown 20240502/m/mke-sculib/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-05-02 14:37:00] INFO root fetch - processPackages [openai-messages-token-helper]: Remove: archive file [/home/abi/fetcher/tmp/openai_messages_token_helper-0.1.1.tar.gz]
+[2024-05-02 14:37:00] INFO root fetch - processPackages [openai-messages-token-helper]: Remove: archive file [/home/abi/fetcher/tmp/openai_messages_token_helper-0.1.2.tar.gz]
+[2024-05-02 14:37:00] INFO root fetch - main [MainThread]: End processing [openai-messages-token-helper]: success
+[2024-05-02 14:37:01] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.4rc1.tar.gz]
+[2024-05-02 14:37:01] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.4rc2.tar.gz]
+[2024-05-02 14:37:01] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-05-02 14:37:01] INFO root fetch - processPackages [mke-sculib]: Remove: archive file [/home/abi/fetcher/tmp/mke_sculib-2.4.0.tar.gz]
+[2024-05-02 14:37:01] INFO root fetch - processPackages [mke-sculib]: Remove: archive file [/home/abi/fetcher/tmp/mke_sculib-2.4.1.tar.gz]
+[2024-05-02 14:37:01] INFO root fetch - main [MainThread]: End processing [mke-sculib]: success
+[2024-05-02 14:37:01] INFO root fetch - processPackages [hume]: Remove: archive file [/home/abi/fetcher/tmp/hume-0.5.0rc4.tar.gz]
+[2024-05-02 14:37:01] INFO root fetch - processPackages [hume]: Remove: archive file [/home/abi/fetcher/tmp/hume-0.5.1rc1.tar.gz]
+[2024-05-02 14:37:01] INFO root fetch - main [MainThread]: End processing [hume]: success
+[2024-05-02 14:37:01] INFO root fetch - main [MainThread]: Store serial: [23030795]
