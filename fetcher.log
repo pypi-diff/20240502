@@ -20742,3 +20742,79 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 14:48:42] INFO root fetch - processPackages [discopop]: Remove: archive file [/home/abi/fetcher/tmp/discopop-3.2.0.tar.gz]
 [2024-05-02 14:48:42] INFO root fetch - main [MainThread]: End processing [discopop]: success
 [2024-05-02 14:48:42] INFO root fetch - main [MainThread]: Store serial: [23031097]
+[2024-05-02 14:50:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031097]
+[2024-05-02 14:50:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-02 14:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: satsure-core-test
+[2024-05-02 14:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ChemInterface-ppchem
+[2024-05-02 14:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suskabot
+[2024-05-02 14:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: labeled-contrastive-framework
+[2024-05-02 14:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyudc
+[2024-05-02 14:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Fragmenstein
+[2024-05-02 14:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-multifactor
+[2024-05-02 14:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pkscreener
+[2024-05-02 14:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-storage-swift
+[2024-05-02 14:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: labeled-contrastive-framework
+[2024-05-02 14:50:51] INFO root fetch - processPackages [labeled-contrastive-framework]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-02 14:50:51] INFO root fetch - processPackages [labeled-contrastive-framework]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-02 14:50:51] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240502.317] Old Version: [0.44.20240430.316]
+[2024-05-02 14:50:51] INFO root fetch - processPackages [ChemInterface-ppchem]: New version: [2.0] Old Version: [1.0]
+[2024-05-02 14:50:51] INFO root fetch - processPackages [labeled-contrastive-framework]: Downloading https://files.pythonhosted.org/packages/6f/cb/f6b154913c9d43e956e3939ae3991c9eaff728eeb2fea956a373b19e28d0/labeled_contrastive_framework-0.2.5.tar.gz
+[2024-05-02 14:50:51] WARNING root fetch - processPackages [satsure-core-test]: Skipping, unable to determine old version
+[2024-05-02 14:50:51] INFO root fetch - processPackages [satsure-core-test]: Start processing: multimodelclassify
+[2024-05-02 14:50:51] INFO root fetch - main [MainThread]: End processing [satsure-core-test] error
+[2024-05-02 14:50:51] WARNING root fetch - processPackages [pyudc]: Skipping, unable to determine old version
+[2024-05-02 14:50:51] INFO root fetch - main [MainThread]: End processing [pyudc] error
+[2024-05-02 14:50:51] WARNING root fetch - processPackages [suskabot]: Skipping, unable to determine old version
+[2024-05-02 14:50:51] INFO root fetch - main [MainThread]: End processing [suskabot] error
+[2024-05-02 14:50:51] INFO root fetch - processPackages [django-storage-swift]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-02 14:50:51] INFO root fetch - processPackages [Fragmenstein]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-02 14:50:51] INFO root fetch - processPackages [labeled-contrastive-framework]: Downloading https://files.pythonhosted.org/packages/6f/cb/f6b154913c9d43e956e3939ae3991c9eaff728eeb2fea956a373b19e28d0/labeled_contrastive_framework-0.2.5.tar.gz
+[2024-05-02 14:50:51] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/57/41/54b6c5ece521383d9fd07c142fd32898f391fb74bd3b3a9bfc2abc8164fd/pkscreener-0.44.20240430.316.tar.gz
+[2024-05-02 14:50:51] INFO root fetch - processPackages [django-multifactor]: New version: [0.6.3rc2] Old Version: [0.6.3rc1]
+[2024-05-02 14:50:51] ERROR root fetch - processPackages [multimodelclassify]: Unable to get metadata: No such project 'multimodelclassify'
+[2024-05-02 14:50:51] INFO root fetch - main [MainThread]: End processing [multimodelclassify] error
+[2024-05-02 14:50:51] INFO root fetch - processPackages [ChemInterface-ppchem]: Downloading https://files.pythonhosted.org/packages/4d/8c/4dbe98ac1c4bf3ee4878d44caeb2a9a42fc3376b6adbe7af370648b73bf7/cheminterface_ppchem-1.0.tar.gz
+[2024-05-02 14:50:51] INFO root fetch - processPackages [labeled-contrastive-framework]: Downloading https://files.pythonhosted.org/packages/2b/c6/8eb433cb62f4baef1d641f5bda7105b33fc43c3fda6f59bdd9e1c16a0455/labeled_contrastive_framework-0.2.6.tar.gz
+[2024-05-02 14:50:51] INFO root fetch - processPackages [Fragmenstein]: Downloading https://files.pythonhosted.org/packages/ed/12/77ad88c259e022b059a53fd7e2e8b98ab836057fd1ab8087bb377309fed4/Fragmenstein-1.0.3.tar.gz
+[2024-05-02 14:50:51] INFO root fetch - processPackages [django-multifactor]: Downloading https://files.pythonhosted.org/packages/b6/af/f9e58d91e270201aa8e855a05e4f28c05ae57a36bb642fa57f5b8b0b8719/django_multifactor-0.6.3rc1.tar.gz
+[2024-05-02 14:50:51] INFO root fetch - processPackages [django-storage-swift]: Downloading https://files.pythonhosted.org/packages/8d/b5/a77303c13a38bfa93c2f86e5d8301de63f1fe9335138d1c19a04918aced2/django-storage-swift-1.3.0.tar.gz
+[2024-05-02 14:50:51] INFO root fetch - processPackages [labeled-contrastive-framework]: Downloading https://files.pythonhosted.org/packages/2b/c6/8eb433cb62f4baef1d641f5bda7105b33fc43c3fda6f59bdd9e1c16a0455/labeled_contrastive_framework-0.2.6.tar.gz
+[2024-05-02 14:50:51] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/0f/d9/4f2d124dbaec7bf69abe9556a24bbab5a7f3ea63fbb8224ea619edd34edf/pkscreener-0.44.20240502.317.tar.gz
+[2024-05-02 14:50:52] INFO root fetch - processPackages [labeled-contrastive-framework]: executing diffoscope
+[2024-05-02 14:50:52] INFO root fetch - processPackages [labeled-contrastive-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labeled_contrastive_framework-0.2.5.tar.gz tmp/labeled_contrastive_framework-0.2.6.tar.gz --markdown 20240502/l/labeled-contrastive-framework/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-02 14:50:52] INFO root fetch - processPackages [labeled-contrastive-framework]: executing diffoscope
+[2024-05-02 14:50:52] INFO root fetch - processPackages [labeled-contrastive-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labeled_contrastive_framework-0.2.5.tar.gz tmp/labeled_contrastive_framework-0.2.6.tar.gz --markdown 20240502/l/labeled-contrastive-framework/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-02 14:50:52] INFO root fetch - processPackages [ChemInterface-ppchem]: Downloading https://files.pythonhosted.org/packages/b6/c7/ee76acefaec073f7f90267fbc4103e9223531f152eb31334f8692ae3e3a5/cheminterface_ppchem-2.0.tar.gz
+[2024-05-02 14:50:52] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-02 14:50:52] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240430.316.tar.gz tmp/pkscreener-0.44.20240502.317.tar.gz --markdown 20240502/p/pkscreener/0.44.20240430.316-0.44.20240502.317/README.md --exclude *.pyd
+[2024-05-02 14:50:52] INFO root fetch - processPackages [django-multifactor]: Downloading https://files.pythonhosted.org/packages/4d/5a/9b65d8adcae48611991993c6869581d26258d66ab351a1bc14e4bf1f6836/django_multifactor-0.6.3rc2.tar.gz
+[2024-05-02 14:50:52] INFO root fetch - processPackages [ChemInterface-ppchem]: executing diffoscope
+[2024-05-02 14:50:52] INFO root fetch - processPackages [ChemInterface-ppchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheminterface_ppchem-1.0.tar.gz tmp/cheminterface_ppchem-2.0.tar.gz --markdown 20240502/C/ChemInterface-ppchem/1.0-2.0/README.md --exclude *.pyd
+[2024-05-02 14:50:52] INFO root fetch - processPackages [django-storage-swift]: Downloading https://files.pythonhosted.org/packages/48/03/f9d75885684b05de9479191c8ee7119ea94bb29fb5ea680d5d9160793911/django_storage_swift-1.4.0.tar.gz
+[2024-05-02 14:50:52] INFO root fetch - processPackages [Fragmenstein]: Downloading https://files.pythonhosted.org/packages/e4/59/4e2a67840119444659984b1f7a1078fe9181f013c4b29d54e270a6c718fb/Fragmenstein-1.0.4.tar.gz
+[2024-05-02 14:50:52] INFO root fetch - processPackages [django-storage-swift]: executing diffoscope
+[2024-05-02 14:50:52] INFO root fetch - processPackages [django-storage-swift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-storage-swift-1.3.0.tar.gz tmp/django_storage_swift-1.4.0.tar.gz --markdown 20240502/d/django-storage-swift/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-02 14:50:52] INFO root fetch - processPackages [django-multifactor]: executing diffoscope
+[2024-05-02 14:50:52] INFO root fetch - processPackages [django-multifactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_multifactor-0.6.3rc1.tar.gz tmp/django_multifactor-0.6.3rc2.tar.gz --markdown 20240502/d/django-multifactor/0.6.3rc1-0.6.3rc2/README.md --exclude *.pyd
+[2024-05-02 14:50:52] INFO root fetch - processPackages [Fragmenstein]: executing diffoscope
+[2024-05-02 14:50:52] INFO root fetch - processPackages [Fragmenstein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fragmenstein-1.0.3.tar.gz tmp/Fragmenstein-1.0.4.tar.gz --markdown 20240502/F/Fragmenstein/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-02 14:50:53] INFO root fetch - processPackages [labeled-contrastive-framework]: Remove: archive file [/home/abi/fetcher/tmp/labeled_contrastive_framework-0.2.5.tar.gz]
+[2024-05-02 14:50:53] INFO root fetch - processPackages [labeled-contrastive-framework]: Remove: archive file [/home/abi/fetcher/tmp/labeled_contrastive_framework-0.2.6.tar.gz]
+[2024-05-02 14:50:53] INFO root fetch - main [MainThread]: End processing [labeled-contrastive-framework]: success
+[2024-05-02 14:50:53] INFO root fetch - main [MainThread]: End processing [labeled-contrastive-framework]: success
+[2024-05-02 14:50:53] INFO root fetch - processPackages [ChemInterface-ppchem]: Remove: archive file [/home/abi/fetcher/tmp/cheminterface_ppchem-1.0.tar.gz]
+[2024-05-02 14:50:53] INFO root fetch - processPackages [ChemInterface-ppchem]: Remove: archive file [/home/abi/fetcher/tmp/cheminterface_ppchem-2.0.tar.gz]
+[2024-05-02 14:50:53] INFO root fetch - main [MainThread]: End processing [ChemInterface-ppchem]: success
+[2024-05-02 14:50:53] INFO root fetch - processPackages [django-storage-swift]: Remove: archive file [/home/abi/fetcher/tmp/django-storage-swift-1.3.0.tar.gz]
+[2024-05-02 14:50:53] INFO root fetch - processPackages [django-storage-swift]: Remove: archive file [/home/abi/fetcher/tmp/django_storage_swift-1.4.0.tar.gz]
+[2024-05-02 14:50:53] INFO root fetch - main [MainThread]: End processing [django-storage-swift]: success
+[2024-05-02 14:50:53] INFO root fetch - processPackages [django-multifactor]: Remove: archive file [/home/abi/fetcher/tmp/django_multifactor-0.6.3rc1.tar.gz]
+[2024-05-02 14:50:53] INFO root fetch - processPackages [django-multifactor]: Remove: archive file [/home/abi/fetcher/tmp/django_multifactor-0.6.3rc2.tar.gz]
+[2024-05-02 14:50:53] INFO root fetch - main [MainThread]: End processing [django-multifactor]: success
+[2024-05-02 14:50:53] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240430.316.tar.gz]
+[2024-05-02 14:50:53] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240502.317.tar.gz]
+[2024-05-02 14:50:53] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-02 14:50:56] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-1.0.3.tar.gz]
+[2024-05-02 14:50:56] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-1.0.4.tar.gz]
+[2024-05-02 14:50:56] INFO root fetch - main [MainThread]: End processing [Fragmenstein]: success
+[2024-05-02 14:50:56] INFO root fetch - main [MainThread]: Store serial: [23031133]
