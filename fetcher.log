@@ -13667,3 +13667,72 @@
 [2024-05-02 10:39:03] INFO root fetch - processPackages [lstosa]: Remove: archive file [/home/abi/fetcher/tmp/lstosa-0.9.5.tar.gz]
 [2024-05-02 10:39:03] INFO root fetch - main [MainThread]: End processing [lstosa]: success
 [2024-05-02 10:39:03] INFO root fetch - main [MainThread]: Store serial: [23028221]
+[2024-05-02 10:41:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028221]
+[2024-05-02 10:41:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 10:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-sdk
+[2024-05-02 10:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: teams-ai-azml-model
+[2024-05-02 10:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-insights-sdk
+[2024-05-02 10:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nerpii
+[2024-05-02 10:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: enigmapython
+[2024-05-02 10:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: import-01
+[2024-05-02 10:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: templated-setup
+[2024-05-02 10:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: izihawa-textparser
+[2024-05-02 10:41:12] INFO root fetch - processPackages [nerpii]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-05-02 10:41:12] INFO root fetch - processPackages [templated-setup]: New version: [0.954] Old Version: [0.953]
+[2024-05-02 10:41:12] INFO root fetch - processPackages [enigmapython]: New version: [0.1.4] Old Version: [0.1.1]
+[2024-05-02 10:41:12] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.77] Old Version: [2.1.76]
+[2024-05-02 10:41:12] INFO root fetch - processPackages [izihawa-textparser]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-02 10:41:12] INFO root fetch - processPackages [nerpii]: Downloading https://files.pythonhosted.org/packages/96/7d/34c35b29c10400538791fd150ace858bf1282ab7dd4a736e2801e27e7ae1/nerpii-0.2.0.tar.gz
+[2024-05-02 10:41:12] INFO root fetch - processPackages [import-01]: New version: [1.2] Old Version: [1.1]
+[2024-05-02 10:41:12] INFO root fetch - processPackages [finbourne-insights-sdk]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-02 10:41:12] WARNING root fetch - processPackages [teams-ai-azml-model]: Skipping, unable to determine old version
+[2024-05-02 10:41:12] INFO root fetch - main [MainThread]: End processing [teams-ai-azml-model] error
+[2024-05-02 10:41:12] INFO root fetch - processPackages [enigmapython]: Downloading https://files.pythonhosted.org/packages/bc/82/05adef6b4d998471dd1d23e6c6c723a8db766d4126101ef9d238466d232e/enigmapython-0.1.1.tar.gz
+[2024-05-02 10:41:12] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/55/77/8e787c1c42411622488912e0e716846f6060c9f007ed0b0c44fbbb304ef4/templated_setup-0.953.tar.gz
+[2024-05-02 10:41:12] INFO root fetch - processPackages [izihawa-textparser]: Downloading https://files.pythonhosted.org/packages/35/86/992655e63799238532d03dd8b42dcd77753a22fdf22b27b893be713093e2/izihawa_textparser-0.1.98.tar.gz
+[2024-05-02 10:41:12] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/68/7e/c5a986ad5690faff3bdde6c65f79940dfdb4c244fde302e4bef319ac8b26/lusid_sdk-2.1.76.tar.gz
+[2024-05-02 10:41:13] INFO root fetch - processPackages [finbourne-insights-sdk]: Downloading https://files.pythonhosted.org/packages/ce/dd/f6ac4c8b038987b9ea0c90bb38067b0b317c9ec517d949c880e3e145aa4f/finbourne_insights_sdk-2.1.4.tar.gz
+[2024-05-02 10:41:13] INFO root fetch - processPackages [import-01]: Downloading https://files.pythonhosted.org/packages/36/df/96562b9bfe33964f13171aa4859f02d9678597d26c6fe4da93ee3f7ad66c/import_01-1.1.tar.gz
+[2024-05-02 10:41:13] INFO root fetch - processPackages [nerpii]: Downloading https://files.pythonhosted.org/packages/0a/7c/2b83a6b5a3249494d38c65116f001b1ee3c889615d1e1d257936a9c78657/nerpii-0.2.2.tar.gz
+[2024-05-02 10:41:13] INFO root fetch - processPackages [izihawa-textparser]: Downloading https://files.pythonhosted.org/packages/65/50/86f091e47fe0a6c2f3484f1f8b741be2e544f2e48405158d5baf7afc92ea/izihawa_textparser-0.1.99.tar.gz
+[2024-05-02 10:41:13] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/e8/0c/55d677bb75ba01165dd27531a6a764e617ff1b22b9511bbd4f346b9b2b44/templated_setup-0.954.tar.gz
+[2024-05-02 10:41:13] INFO root fetch - processPackages [nerpii]: executing diffoscope
+[2024-05-02 10:41:13] INFO root fetch - processPackages [nerpii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerpii-0.2.0.tar.gz tmp/nerpii-0.2.2.tar.gz --markdown 20240502/n/nerpii/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-05-02 10:41:13] INFO root fetch - processPackages [izihawa-textparser]: executing diffoscope
+[2024-05-02 10:41:13] INFO root fetch - processPackages [izihawa-textparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izihawa_textparser-0.1.98.tar.gz tmp/izihawa_textparser-0.1.99.tar.gz --markdown 20240502/i/izihawa-textparser/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-02 10:41:13] INFO root fetch - processPackages [enigmapython]: Downloading https://files.pythonhosted.org/packages/04/49/3935bbb6518b8e6a79e2f182e01905387e26a806638447f5908877de51d2/enigmapython-0.1.4.tar.gz
+[2024-05-02 10:41:13] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 10:41:13] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.953.tar.gz tmp/templated_setup-0.954.tar.gz --markdown 20240502/t/templated-setup/0.953-0.954/README.md --exclude *.pyd
+[2024-05-02 10:41:13] INFO root fetch - processPackages [enigmapython]: executing diffoscope
+[2024-05-02 10:41:13] INFO root fetch - processPackages [enigmapython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enigmapython-0.1.1.tar.gz tmp/enigmapython-0.1.4.tar.gz --markdown 20240502/e/enigmapython/0.1.1-0.1.4/README.md --exclude *.pyd
+[2024-05-02 10:41:13] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/13/18/08f302c0fe5a2ec9360b8d33c659337521c762fd785151054be17f571650/lusid_sdk-2.1.77.tar.gz
+[2024-05-02 10:41:13] INFO root fetch - processPackages [finbourne-insights-sdk]: Downloading https://files.pythonhosted.org/packages/5c/56/fe61922c48b45a5b2e32bb2876791670ecdcf7709eef796c5a074fadaa50/finbourne_insights_sdk-2.1.5.tar.gz
+[2024-05-02 10:41:13] INFO root fetch - processPackages [import-01]: Downloading https://files.pythonhosted.org/packages/81/90/88317f8e6298f94468fb31df8492507806cafa3eacfa820f0167934563ee/import_01-1.2.tar.gz
+[2024-05-02 10:41:13] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-02 10:41:13] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.76.tar.gz tmp/lusid_sdk-2.1.77.tar.gz --markdown 20240502/l/lusid-sdk/2.1.76-2.1.77/README.md --exclude *.pyd
+[2024-05-02 10:41:13] INFO root fetch - processPackages [finbourne-insights-sdk]: executing diffoscope
+[2024-05-02 10:41:13] INFO root fetch - processPackages [finbourne-insights-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_insights_sdk-2.1.4.tar.gz tmp/finbourne_insights_sdk-2.1.5.tar.gz --markdown 20240502/f/finbourne-insights-sdk/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-02 10:41:13] INFO root fetch - processPackages [import-01]: executing diffoscope
+[2024-05-02 10:41:13] INFO root fetch - processPackages [import-01]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/import_01-1.1.tar.gz tmp/import_01-1.2.tar.gz --markdown 20240502/i/import-01/1.1-1.2/README.md --exclude *.pyd
+[2024-05-02 10:41:14] INFO root fetch - processPackages [izihawa-textparser]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_textparser-0.1.98.tar.gz]
+[2024-05-02 10:41:14] INFO root fetch - processPackages [izihawa-textparser]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_textparser-0.1.99.tar.gz]
+[2024-05-02 10:41:14] INFO root fetch - main [MainThread]: End processing [izihawa-textparser]: success
+[2024-05-02 10:41:14] INFO root fetch - processPackages [nerpii]: Remove: archive file [/home/abi/fetcher/tmp/nerpii-0.2.0.tar.gz]
+[2024-05-02 10:41:14] INFO root fetch - processPackages [nerpii]: Remove: archive file [/home/abi/fetcher/tmp/nerpii-0.2.2.tar.gz]
+[2024-05-02 10:41:14] INFO root fetch - main [MainThread]: End processing [nerpii]: success
+[2024-05-02 10:41:14] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.953.tar.gz]
+[2024-05-02 10:41:14] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.954.tar.gz]
+[2024-05-02 10:41:14] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 10:41:14] INFO root fetch - processPackages [enigmapython]: Remove: archive file [/home/abi/fetcher/tmp/enigmapython-0.1.1.tar.gz]
+[2024-05-02 10:41:14] INFO root fetch - processPackages [enigmapython]: Remove: archive file [/home/abi/fetcher/tmp/enigmapython-0.1.4.tar.gz]
+[2024-05-02 10:41:14] INFO root fetch - main [MainThread]: End processing [enigmapython]: success
+[2024-05-02 10:41:14] INFO root fetch - processPackages [import-01]: Remove: archive file [/home/abi/fetcher/tmp/import_01-1.1.tar.gz]
+[2024-05-02 10:41:14] INFO root fetch - processPackages [import-01]: Remove: archive file [/home/abi/fetcher/tmp/import_01-1.2.tar.gz]
+[2024-05-02 10:41:14] INFO root fetch - main [MainThread]: End processing [import-01]: success
+[2024-05-02 10:41:14] INFO root fetch - processPackages [finbourne-insights-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_insights_sdk-2.1.4.tar.gz]
+[2024-05-02 10:41:14] INFO root fetch - processPackages [finbourne-insights-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_insights_sdk-2.1.5.tar.gz]
+[2024-05-02 10:41:14] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk]: success
+[2024-05-02 10:41:18] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.76.tar.gz]
+[2024-05-02 10:41:18] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.77.tar.gz]
+[2024-05-02 10:41:18] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-02 10:41:18] INFO root fetch - main [MainThread]: Store serial: [23028246]
