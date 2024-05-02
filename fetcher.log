@@ -15292,3 +15292,45 @@
 [2024-05-02 11:42:23] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev60-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-02 11:42:23] INFO root fetch - main [MainThread]: End processing [composabl-api-dev]: success
 [2024-05-02 11:42:23] INFO root fetch - main [MainThread]: Store serial: [23028952]
+[2024-05-02 11:44:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028952]
+[2024-05-02 11:44:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-05-02 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dwdparse
+[2024-05-02 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: templated-setup
+[2024-05-02 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cim-11-CERTIC
+[2024-05-02 11:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: senseiv2-test2
+[2024-05-02 11:44:39] INFO root fetch - processPackages [cim-11-CERTIC]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-02 11:44:39] INFO root fetch - processPackages [templated-setup]: New version: [0.960] Old Version: [0.959]
+[2024-05-02 11:44:39] INFO root fetch - processPackages [cim-11-CERTIC]: Downloading https://files.pythonhosted.org/packages/ef/59/9745c0dcd0617cf6d63b73fb9bc8cd327f4ea0452d04b43d03618d60576a/cim_11_certic-0.6.0.tar.gz
+[2024-05-02 11:44:39] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/50/f1/07fcfa1d43e1066b5ab9e508b3ab3464abfeaa075f34a71b252903dc462b/templated_setup-0.959.tar.gz
+[2024-05-02 11:44:39] WARNING root fetch - processPackages [senseiv2-test2]: Skipping, unable to determine old version
+[2024-05-02 11:44:39] INFO root fetch - main [MainThread]: End processing [senseiv2-test2] error
+[2024-05-02 11:44:39] INFO root fetch - processPackages [dwdparse]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 11:44:39] INFO root fetch - processPackages [cg]: New version: [60.5.0] Old Version: [60.4.9]
+[2024-05-02 11:44:39] INFO root fetch - processPackages [dwdparse]: Downloading https://files.pythonhosted.org/packages/00/fd/3640a9de342bb73348d99b4be16c994fcee6948504c6ed5abc9c571d8b0c/dwdparse-0.9.8.tar.gz
+[2024-05-02 11:44:39] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/b3/ab/26825e53155724bbc3f90a3d62ae0d257e27bb52728714568e7229a50c63/cg-60.4.9.tar.gz
+[2024-05-02 11:44:39] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/4c/23/56c1f2404cc4b1f51b5720374afb92b4017c13bce9496c014dff3cbea24d/templated_setup-0.960.tar.gz
+[2024-05-02 11:44:40] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 11:44:40] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.959.tar.gz tmp/templated_setup-0.960.tar.gz --markdown 20240502/t/templated-setup/0.959-0.960/README.md --exclude *.pyd
+[2024-05-02 11:44:40] INFO root fetch - processPackages [dwdparse]: Downloading https://files.pythonhosted.org/packages/8c/90/d694126173642444e869e17fb3ccdd9dc70d38c04e24e2d5a1b54b13bd38/dwdparse-0.9.9.tar.gz
+[2024-05-02 11:44:40] INFO root fetch - processPackages [cim-11-CERTIC]: Downloading https://files.pythonhosted.org/packages/06/84/e148775a30386ba7f1f419dd33547c810d3af02c378ce1050cd9155e8d4c/cim_11_certic-0.6.1.tar.gz
+[2024-05-02 11:44:40] INFO root fetch - processPackages [dwdparse]: executing diffoscope
+[2024-05-02 11:44:40] INFO root fetch - processPackages [dwdparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwdparse-0.9.8.tar.gz tmp/dwdparse-0.9.9.tar.gz --markdown 20240502/d/dwdparse/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 11:44:40] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/7c/d0/a4c82bdaa989bab775d8ea5ce4ad813d96bd97672a97432a140df18a41ca/cg-60.5.0.tar.gz
+[2024-05-02 11:44:40] INFO root fetch - processPackages [cim-11-CERTIC]: executing diffoscope
+[2024-05-02 11:44:40] INFO root fetch - processPackages [cim-11-CERTIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cim_11_certic-0.6.0.tar.gz tmp/cim_11_certic-0.6.1.tar.gz --markdown 20240502/c/cim-11-CERTIC/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-02 11:44:40] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.959.tar.gz]
+[2024-05-02 11:44:40] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.960.tar.gz]
+[2024-05-02 11:44:40] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 11:44:40] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-02 11:44:40] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.4.9.tar.gz tmp/cg-60.5.0.tar.gz --markdown 20240502/c/cg/60.4.9-60.5.0/README.md --exclude *.pyd
+[2024-05-02 11:44:40] INFO root fetch - processPackages [dwdparse]: Remove: archive file [/home/abi/fetcher/tmp/dwdparse-0.9.8.tar.gz]
+[2024-05-02 11:44:40] INFO root fetch - processPackages [dwdparse]: Remove: archive file [/home/abi/fetcher/tmp/dwdparse-0.9.9.tar.gz]
+[2024-05-02 11:44:40] INFO root fetch - main [MainThread]: End processing [dwdparse]: success
+[2024-05-02 11:44:41] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.6.0.tar.gz]
+[2024-05-02 11:44:41] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.6.1.tar.gz]
+[2024-05-02 11:44:41] INFO root fetch - main [MainThread]: End processing [cim-11-CERTIC]: success
+[2024-05-02 11:44:45] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.9.tar.gz]
+[2024-05-02 11:44:45] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.5.0.tar.gz]
+[2024-05-02 11:44:45] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-02 11:44:45] INFO root fetch - main [MainThread]: Store serial: [23028972]
