@@ -8342,3 +8342,24 @@
 [2024-05-02 05:36:19] INFO root fetch - processPackages [rinch-sql]: Remove: archive file [/home/abi/fetcher/tmp/rinch_sql-9.0.0.tar.gz]
 [2024-05-02 05:36:19] INFO root fetch - main [MainThread]: End processing [rinch-sql]: success
 [2024-05-02 05:36:19] INFO root fetch - main [MainThread]: Store serial: [23026122]
+[2024-05-02 05:38:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026122]
+[2024-05-02 05:38:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 05:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cleanvid
+[2024-05-02 05:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioxdl
+[2024-05-02 05:38:28] INFO root fetch - processPackages [cleanvid]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-05-02 05:38:28] INFO root fetch - processPackages [aioxdl]: New version: [0.0.19] Old Version: [0.0.18]
+[2024-05-02 05:38:29] INFO root fetch - processPackages [cleanvid]: Downloading https://files.pythonhosted.org/packages/2a/88/419dbde9dedc5404393d16915fd66ebc85bb412083e477f4cf946f30df25/cleanvid-1.5.6.tar.gz
+[2024-05-02 05:38:29] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/e5/00/c10fb83a5257f6fb304fc2da61f85d7cab4112d477531f022c4b939046f6/aioxdl-0.0.18.tar.gz
+[2024-05-02 05:38:29] INFO root fetch - processPackages [cleanvid]: Downloading https://files.pythonhosted.org/packages/26/2c/e34fc340dea1558a5488dfa7141c7be1fee6c5a4a824ce8baa752baf0949/cleanvid-1.5.7.tar.gz
+[2024-05-02 05:38:29] INFO root fetch - processPackages [cleanvid]: executing diffoscope
+[2024-05-02 05:38:29] INFO root fetch - processPackages [cleanvid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanvid-1.5.6.tar.gz tmp/cleanvid-1.5.7.tar.gz --markdown 20240502/c/cleanvid/1.5.6-1.5.7/README.md --exclude *.pyd
+[2024-05-02 05:38:29] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/f0/5f/f82249de63f90dd20813322b85ae3ca7d2b4d25c658641111a5c6765212b/aioxdl-0.0.19.tar.gz
+[2024-05-02 05:38:29] INFO root fetch - processPackages [aioxdl]: executing diffoscope
+[2024-05-02 05:38:29] INFO root fetch - processPackages [aioxdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioxdl-0.0.18.tar.gz tmp/aioxdl-0.0.19.tar.gz --markdown 20240502/a/aioxdl/0.0.18-0.0.19/README.md --exclude *.pyd
+[2024-05-02 05:38:30] INFO root fetch - processPackages [cleanvid]: Remove: archive file [/home/abi/fetcher/tmp/cleanvid-1.5.6.tar.gz]
+[2024-05-02 05:38:30] INFO root fetch - processPackages [cleanvid]: Remove: archive file [/home/abi/fetcher/tmp/cleanvid-1.5.7.tar.gz]
+[2024-05-02 05:38:30] INFO root fetch - main [MainThread]: End processing [cleanvid]: success
+[2024-05-02 05:38:30] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.18.tar.gz]
+[2024-05-02 05:38:30] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.19.tar.gz]
+[2024-05-02 05:38:30] INFO root fetch - main [MainThread]: End processing [aioxdl]: success
+[2024-05-02 05:38:30] INFO root fetch - main [MainThread]: Store serial: [23026128]
