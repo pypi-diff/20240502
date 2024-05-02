@@ -7124,3 +7124,38 @@
 [2024-05-02 03:46:22] INFO root fetch - processPackages [ufmt]: Remove: archive file [/home/abi/fetcher/tmp/ufmt-2.6.0.tar.gz]
 [2024-05-02 03:46:22] INFO root fetch - main [MainThread]: End processing [ufmt]: success
 [2024-05-02 03:46:22] INFO root fetch - main [MainThread]: Store serial: [23025545]
+[2024-05-02 03:48:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025545]
+[2024-05-02 03:48:31] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-02 03:50:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025546]
+[2024-05-02 03:50:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 03:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comfy-cli
+[2024-05-02 03:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musicnotes
+[2024-05-02 03:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cc512-evolution
+[2024-05-02 03:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nextcloud-status
+[2024-05-02 03:50:37] INFO root fetch - processPackages [musicnotes]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-02 03:50:37] WARNING root fetch - processPackages [cc512-evolution]: Skipping, unable to determine old version
+[2024-05-02 03:50:37] INFO root fetch - main [MainThread]: End processing [cc512-evolution] error
+[2024-05-02 03:50:37] INFO root fetch - processPackages [comfy-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 03:50:37] INFO root fetch - processPackages [nextcloud-status]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-02 03:50:37] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/0a/b6/153c52ef887567e8db5668235b735ead435c3b21d9a2299e1d1dc2c2fafd/musicnotes-1.0.1.tar.gz
+[2024-05-02 03:50:37] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/be/4d/ed5f7c3399cb056c16b657ae3d716971e1ca59dde362b950f13d4e85bbe2/comfy_cli-0.0.8.tar.gz
+[2024-05-02 03:50:37] INFO root fetch - processPackages [nextcloud-status]: Downloading https://files.pythonhosted.org/packages/60/e3/923cd8992ab00d39ac13bb5b9fbddb9f66af5f44e0e3814020f480455914/nextcloud_status-0.1.0-py3-none-any.whl
+[2024-05-02 03:50:37] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/e0/64/bda74e2826240c0c779e679f675d7adb8fe53c0f89fac01c26065422006c/comfy_cli-0.0.9.tar.gz
+[2024-05-02 03:50:37] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/7b/12/a2289eeb68a085ce1be1716e5fa253e3116ff9d4bb376b931a2ba9c77449/musicnotes-1.0.2.tar.gz
+[2024-05-02 03:50:37] INFO root fetch - processPackages [comfy-cli]: executing diffoscope
+[2024-05-02 03:50:37] INFO root fetch - processPackages [comfy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfy_cli-0.0.8.tar.gz tmp/comfy_cli-0.0.9.tar.gz --markdown 20240502/c/comfy-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 03:50:37] INFO root fetch - processPackages [musicnotes]: executing diffoscope
+[2024-05-02 03:50:37] INFO root fetch - processPackages [musicnotes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicnotes-1.0.1.tar.gz tmp/musicnotes-1.0.2.tar.gz --markdown 20240502/m/musicnotes/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-02 03:50:37] INFO root fetch - processPackages [nextcloud-status]: Downloading https://files.pythonhosted.org/packages/cf/20/d01d73294f85f9d8ac74c16e4dd2c551b2ffd85aca1d164cccadcfb5b36d/nextcloud_status-0.2.0.tar.gz
+[2024-05-02 03:50:38] INFO root fetch - processPackages [nextcloud-status]: executing diffoscope
+[2024-05-02 03:50:38] INFO root fetch - processPackages [nextcloud-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextcloud_status-0.1.0-py3-none-any.whl.zip tmp/nextcloud_status-0.2.0.tar.gz --markdown 20240502/n/nextcloud-status/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-02 03:50:38] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.1.tar.gz]
+[2024-05-02 03:50:38] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.2.tar.gz]
+[2024-05-02 03:50:38] INFO root fetch - main [MainThread]: End processing [musicnotes]: success
+[2024-05-02 03:50:38] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.8.tar.gz]
+[2024-05-02 03:50:38] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.9.tar.gz]
+[2024-05-02 03:50:38] INFO root fetch - main [MainThread]: End processing [comfy-cli]: success
+[2024-05-02 03:50:38] INFO root fetch - processPackages [nextcloud-status]: Remove: archive file [/home/abi/fetcher/tmp/nextcloud_status-0.1.0-py3-none-any.whl.zip]
+[2024-05-02 03:50:38] INFO root fetch - processPackages [nextcloud-status]: Remove: archive file [/home/abi/fetcher/tmp/nextcloud_status-0.2.0.tar.gz]
+[2024-05-02 03:50:38] INFO root fetch - main [MainThread]: End processing [nextcloud-status]: success
+[2024-05-02 03:50:38] INFO root fetch - main [MainThread]: Store serial: [23025558]
