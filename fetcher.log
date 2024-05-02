@@ -16154,3 +16154,92 @@
 [2024-05-02 12:15:42] INFO root fetch - processPackages [catasta]: Remove: archive file [/home/abi/fetcher/tmp/catasta-0.2.1.tar.gz]
 [2024-05-02 12:15:42] INFO root fetch - main [MainThread]: End processing [catasta]: success
 [2024-05-02 12:15:42] INFO root fetch - main [MainThread]: Store serial: [23029306]
+[2024-05-02 12:17:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029306]
+[2024-05-02 12:17:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-02 12:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: templated-setup
+[2024-05-02 12:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-daf-butler
+[2024-05-02 12:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decentriq-dcr-compiler
+[2024-05-02 12:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trafilatura
+[2024-05-02 12:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: viewser
+[2024-05-02 12:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MPSPEnv
+[2024-05-02 12:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: queue-api
+[2024-05-02 12:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rastless-cli
+[2024-05-02 12:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: queue-kv
+[2024-05-02 12:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mani-skill
+[2024-05-02 12:17:52] INFO root fetch - processPackages [templated-setup]: New version: [0.965] Old Version: [0.964]
+[2024-05-02 12:17:52] INFO root fetch - processPackages [trafilatura]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-05-02 12:17:52] INFO root fetch - processPackages [lsst-daf-butler]: New version: [27.0.0rc1] Old Version: [26.2024.900]
+[2024-05-02 12:17:52] INFO root fetch - processPackages [decentriq-dcr-compiler]: New version: [0.7.0.dev3] Old Version: [0.7.0.dev2]
+[2024-05-02 12:17:52] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/8e/7f/2d460d25ff8f8300fbebe360aef9e97ab055c129424a06666cce5ac7b7d8/templated_setup-0.964.tar.gz
+[2024-05-02 12:17:52] INFO root fetch - processPackages [rastless-cli]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-02 12:17:52] INFO root fetch - processPackages [queue-api]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-02 12:17:52] INFO root fetch - processPackages [queue-kv]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-02 12:17:52] INFO root fetch - processPackages [MPSPEnv]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 12:17:52] INFO root fetch - processPackages [viewser]: New version: [6.5.1] Old Version: [6.5.0]
+[2024-05-02 12:17:52] INFO root fetch - processPackages [mani-skill]: New version: [3.0.0b0] Old Version: [3.0.0.dev9]
+[2024-05-02 12:17:52] INFO root fetch - processPackages [decentriq-dcr-compiler]: Downloading https://files.pythonhosted.org/packages/25/db/38fc3effbb44d53f76c66258746dd42a95c57fccfc16402e575015f2a8a4/decentriq_dcr_compiler-0.7.0.dev2-cp39-none-win_amd64.whl
+[2024-05-02 12:17:52] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/35/da/8bce0d98726fbd70ab7e6e2fc0fb1baf812e62f538b08df5ad5f8eda4411/lsst-daf-butler-26.2024.900.tar.gz
+[2024-05-02 12:17:52] INFO root fetch - processPackages [trafilatura]: Downloading https://files.pythonhosted.org/packages/61/7a/559522339003dbb49e495ac840bcc6906960230654bf4ae0f0c59ffc76c7/trafilatura-1.8.0.tar.gz
+[2024-05-02 12:17:52] INFO root fetch - processPackages [rastless-cli]: Downloading https://files.pythonhosted.org/packages/d6/cd/cb98fee0288879cdc40f822a5ef368914216971d4e8002dc4e9c3ed8f8ef/rastless_cli-1.8.0.tar.gz
+[2024-05-02 12:17:52] INFO root fetch - processPackages [queue-kv]: Downloading https://files.pythonhosted.org/packages/86/0c/b185fd9326535693d247b0a52c32b02c4c4f329443a16bcb17651a4d60d4/queue_kv-0.1.3.tar.gz
+[2024-05-02 12:17:52] INFO root fetch - processPackages [queue-api]: Downloading https://files.pythonhosted.org/packages/7c/ab/c3228bde7a0dc33c38daeb27351045047095fe349792fd3ce28bc1cddee3/queue_api-0.1.5.tar.gz
+[2024-05-02 12:17:52] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/9e/be/f91fa76e471a0dd7260d37c9e6499277a10610790a3e5f7831d659956074/MPSPEnv-0.0.8.tar.gz
+[2024-05-02 12:17:53] INFO root fetch - processPackages [viewser]: Downloading https://files.pythonhosted.org/packages/3c/68/2646629563221e993c3e330bcb6b49004f04eab4a8b2766ecf9ef1f8bbfb/viewser-6.5.0.tar.gz
+[2024-05-02 12:17:53] INFO root fetch - processPackages [mani-skill]: Downloading https://files.pythonhosted.org/packages/c5/b7/1257ad870276bca0fc97da7354a0eddcbbcf981e54e31589f1fdc094477b/mani_skill-3.0.0.dev9.tar.gz
+[2024-05-02 12:17:53] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/ea/6d/3c836b42a26e0108bfef858534d79cd916ab6e96b51cca17ffbfde9c62ef/templated_setup-0.965.tar.gz
+[2024-05-02 12:17:53] WARNING root fetch - processPackages [mani-skill]: Skipping package: exceeds size limit 71787019>=10485760
+[2024-05-02 12:17:53] INFO root fetch - main [MainThread]: End processing [mani-skill] error
+[2024-05-02 12:17:53] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 12:17:53] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.964.tar.gz tmp/templated_setup-0.965.tar.gz --markdown 20240502/t/templated-setup/0.964-0.965/README.md --exclude *.pyd
+[2024-05-02 12:17:53] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/b8/69/d542d4db315d0b21ea2080cffd4380a888f960f114f25f2e516a1537a667/lsst_daf_butler-27.0.0rc1.tar.gz
+[2024-05-02 12:17:53] INFO root fetch - processPackages [queue-api]: Downloading https://files.pythonhosted.org/packages/5f/90/7b49b0f0d283f26f2021ba6663b017ae5086d4570e5647869811c90f5e4a/queue_api-0.1.6.tar.gz
+[2024-05-02 12:17:53] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/49/f7/3d0031c911e5d69c9e8536e156ebae2cf1453167270f34f5b3ba240b8672/MPSPEnv-0.0.9.tar.gz
+[2024-05-02 12:17:53] INFO root fetch - processPackages [queue-kv]: Downloading https://files.pythonhosted.org/packages/ea/d9/1980522501630d5e54810cce50113568b971385ede14d01dc5ec30ad3b88/queue_kv-0.1.4.tar.gz
+[2024-05-02 12:17:53] INFO root fetch - processPackages [rastless-cli]: Downloading https://files.pythonhosted.org/packages/6b/92/9f6e1c3e9055b66315a95545b3e2356db2201af56f8fa37c60b8c9bf91cb/rastless_cli-1.9.0.tar.gz
+[2024-05-02 12:17:53] INFO root fetch - processPackages [queue-api]: executing diffoscope
+[2024-05-02 12:17:53] INFO root fetch - processPackages [queue-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queue_api-0.1.5.tar.gz tmp/queue_api-0.1.6.tar.gz --markdown 20240502/q/queue-api/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-02 12:17:53] INFO root fetch - processPackages [MPSPEnv]: executing diffoscope
+[2024-05-02 12:17:53] INFO root fetch - processPackages [MPSPEnv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSPEnv-0.0.8.tar.gz tmp/MPSPEnv-0.0.9.tar.gz --markdown 20240502/M/MPSPEnv/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 12:17:53] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2024-05-02 12:17:53] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.2024.900.tar.gz tmp/lsst_daf_butler-27.0.0rc1.tar.gz --markdown 20240502/l/lsst-daf-butler/26.2024.900-27.0.0rc1/README.md --exclude *.pyd
+[2024-05-02 12:17:53] INFO root fetch - processPackages [queue-kv]: executing diffoscope
+[2024-05-02 12:17:53] INFO root fetch - processPackages [queue-kv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queue_kv-0.1.3.tar.gz tmp/queue_kv-0.1.4.tar.gz --markdown 20240502/q/queue-kv/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-02 12:17:53] INFO root fetch - processPackages [rastless-cli]: executing diffoscope
+[2024-05-02 12:17:53] INFO root fetch - processPackages [rastless-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rastless_cli-1.8.0.tar.gz tmp/rastless_cli-1.9.0.tar.gz --markdown 20240502/r/rastless-cli/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-02 12:17:53] INFO root fetch - processPackages [decentriq-dcr-compiler]: Downloading https://files.pythonhosted.org/packages/f0/f8/037dc288c0f0e74a186dd49d1db5468c054a3dd210ee8e1f19d456b51fd1/decentriq_dcr_compiler-0.7.0.dev3-cp39-none-win_amd64.whl
+[2024-05-02 12:17:54] INFO root fetch - processPackages [decentriq-dcr-compiler]: executing diffoscope
+[2024-05-02 12:17:54] INFO root fetch - processPackages [decentriq-dcr-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq_dcr_compiler-0.7.0.dev2-cp39-none-win_amd64.whl.zip tmp/decentriq_dcr_compiler-0.7.0.dev3-cp39-none-win_amd64.whl.zip --markdown 20240502/d/decentriq-dcr-compiler/0.7.0.dev2-0.7.0.dev3/README.md --exclude *.pyd
+[2024-05-02 12:17:54] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.964.tar.gz]
+[2024-05-02 12:17:54] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.965.tar.gz]
+[2024-05-02 12:17:54] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 12:17:54] INFO root fetch - processPackages [viewser]: Downloading https://files.pythonhosted.org/packages/32/80/cf24ee37d7d332eb1b5c003103f04115c8847da1096299deed90b82b1177/viewser-6.5.1.tar.gz
+[2024-05-02 12:17:54] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/MPSPEnv-0.0.8.tar.gz]
+[2024-05-02 12:17:54] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/MPSPEnv-0.0.9.tar.gz]
+[2024-05-02 12:17:54] INFO root fetch - main [MainThread]: End processing [MPSPEnv]: success
+[2024-05-02 12:17:54] INFO root fetch - processPackages [viewser]: executing diffoscope
+[2024-05-02 12:17:54] INFO root fetch - processPackages [viewser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viewser-6.5.0.tar.gz tmp/viewser-6.5.1.tar.gz --markdown 20240502/v/viewser/6.5.0-6.5.1/README.md --exclude *.pyd
+[2024-05-02 12:17:54] INFO root fetch - processPackages [queue-kv]: Remove: archive file [/home/abi/fetcher/tmp/queue_kv-0.1.3.tar.gz]
+[2024-05-02 12:17:54] INFO root fetch - processPackages [queue-kv]: Remove: archive file [/home/abi/fetcher/tmp/queue_kv-0.1.4.tar.gz]
+[2024-05-02 12:17:54] INFO root fetch - main [MainThread]: End processing [queue-kv]: success
+[2024-05-02 12:17:54] INFO root fetch - processPackages [queue-api]: Remove: archive file [/home/abi/fetcher/tmp/queue_api-0.1.5.tar.gz]
+[2024-05-02 12:17:54] INFO root fetch - processPackages [queue-api]: Remove: archive file [/home/abi/fetcher/tmp/queue_api-0.1.6.tar.gz]
+[2024-05-02 12:17:54] INFO root fetch - main [MainThread]: End processing [queue-api]: success
+[2024-05-02 12:17:54] INFO root fetch - processPackages [rastless-cli]: Remove: archive file [/home/abi/fetcher/tmp/rastless_cli-1.8.0.tar.gz]
+[2024-05-02 12:17:54] INFO root fetch - processPackages [rastless-cli]: Remove: archive file [/home/abi/fetcher/tmp/rastless_cli-1.9.0.tar.gz]
+[2024-05-02 12:17:54] INFO root fetch - main [MainThread]: End processing [rastless-cli]: success
+[2024-05-02 12:17:54] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.7.0.dev2-cp39-none-win_amd64.whl.zip]
+[2024-05-02 12:17:54] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.7.0.dev3-cp39-none-win_amd64.whl.zip]
+[2024-05-02 12:17:54] INFO root fetch - main [MainThread]: End processing [decentriq-dcr-compiler]: success
+[2024-05-02 12:17:55] INFO root fetch - processPackages [trafilatura]: Downloading https://files.pythonhosted.org/packages/9d/2f/89e53764a5ac7da412b0ca09646c3cfd1e1be5631bd8ca4810b92b571227/trafilatura-1.8.1.tar.gz
+[2024-05-02 12:17:55] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.5.0.tar.gz]
+[2024-05-02 12:17:55] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.5.1.tar.gz]
+[2024-05-02 12:17:55] INFO root fetch - main [MainThread]: End processing [viewser]: success
+[2024-05-02 12:17:55] INFO root fetch - processPackages [trafilatura]: executing diffoscope
+[2024-05-02 12:17:55] INFO root fetch - processPackages [trafilatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trafilatura-1.8.0.tar.gz tmp/trafilatura-1.8.1.tar.gz --markdown 20240502/t/trafilatura/1.8.0-1.8.1/README.md --exclude *.pyd
+[2024-05-02 12:17:57] INFO root fetch - processPackages [trafilatura]: Remove: archive file [/home/abi/fetcher/tmp/trafilatura-1.8.0.tar.gz]
+[2024-05-02 12:17:57] INFO root fetch - processPackages [trafilatura]: Remove: archive file [/home/abi/fetcher/tmp/trafilatura-1.8.1.tar.gz]
+[2024-05-02 12:17:57] INFO root fetch - main [MainThread]: End processing [trafilatura]: success
+[2024-05-02 12:17:57] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.2024.900.tar.gz]
+[2024-05-02 12:17:57] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.0.0rc1.tar.gz]
+[2024-05-02 12:17:57] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2024-05-02 12:17:57] INFO root fetch - main [MainThread]: Store serial: [23029374]
