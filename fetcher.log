@@ -7205,3 +7205,39 @@
 [2024-05-02 03:57:24] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-02 03:57:24] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-02 03:57:24] INFO root fetch - main [MainThread]: Store serial: [23025577]
+[2024-05-02 03:59:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025577]
+[2024-05-02 03:59:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 03:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scorecard-ai
+[2024-05-02 03:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crossword-puzzle
+[2024-05-02 03:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pretext
+[2024-05-02 03:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-hr-expense-sequence-option
+[2024-05-02 03:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pkg-inspect
+[2024-05-02 03:59:33] WARNING root fetch - processPackages [pkg-inspect]: Skipping, unable to determine old version
+[2024-05-02 03:59:33] INFO root fetch - main [MainThread]: End processing [pkg-inspect] error
+[2024-05-02 03:59:33] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.57] Old Version: [1.2.56]
+[2024-05-02 03:59:33] INFO root fetch - processPackages [scorecard-ai]: New version: [1.0.0b0] Old Version: [0.2.1]
+[2024-05-02 03:59:33] WARNING root fetch - processPackages [odoo-addon-hr-expense-sequence-option]: Skipping, unable to determine old version
+[2024-05-02 03:59:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-expense-sequence-option] error
+[2024-05-02 03:59:33] INFO root fetch - processPackages [pretext]: New version: [2.4.0] Old Version: [2.3.9.dev20240302]
+[2024-05-02 03:59:34] INFO root fetch - processPackages [scorecard-ai]: Downloading https://files.pythonhosted.org/packages/69/44/dd4b0c5c783d00d105a0df7c29c5254c59ee672fe3cbe50c9b1e75a08bdf/scorecard_ai-0.2.1.tar.gz
+[2024-05-02 03:59:34] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/dd/33/7acb3b27107eddd82c838e7d616dcdedf1a7a1f77abb0083185860ca3d97/crossword_puzzle-1.2.56.tar.gz
+[2024-05-02 03:59:34] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/3f/2d/22e687f1fb945aeb16176a4f9c25da1aab63664c88cd2966d7ad79f1b144/pretext-2.3.9.dev20240302.tar.gz
+[2024-05-02 03:59:34] INFO root fetch - processPackages [scorecard-ai]: Downloading https://files.pythonhosted.org/packages/c2/5d/d1d719b64ded6af0f2b0fcbc902bcd38d8317c0929c2d2e580b59934371a/scorecard_ai-1.0.0b0.tar.gz
+[2024-05-02 03:59:34] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/bd/c0/42d8b4f768e370a66ab4c9a3dc314bcfcb243c9fb6508a327b43c93e4b48/crossword_puzzle-1.2.57.tar.gz
+[2024-05-02 03:59:34] INFO root fetch - processPackages [scorecard-ai]: executing diffoscope
+[2024-05-02 03:59:34] INFO root fetch - processPackages [scorecard-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scorecard_ai-0.2.1.tar.gz tmp/scorecard_ai-1.0.0b0.tar.gz --markdown 20240502/s/scorecard-ai/0.2.1-1.0.0b0/README.md --exclude *.pyd
+[2024-05-02 03:59:35] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/26/18/4b4b0abc4962058cf961ce578563f25d524beb29086e5d4b685137a0d195/pretext-2.4.0.tar.gz
+[2024-05-02 03:59:35] INFO root fetch - processPackages [scorecard-ai]: Remove: archive file [/home/abi/fetcher/tmp/scorecard_ai-0.2.1.tar.gz]
+[2024-05-02 03:59:35] INFO root fetch - processPackages [scorecard-ai]: Remove: archive file [/home/abi/fetcher/tmp/scorecard_ai-1.0.0b0.tar.gz]
+[2024-05-02 03:59:35] INFO root fetch - main [MainThread]: End processing [scorecard-ai]: success
+[2024-05-02 03:59:35] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-05-02 03:59:35] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.56.tar.gz tmp/crossword_puzzle-1.2.57.tar.gz --markdown 20240502/c/crossword-puzzle/1.2.56-1.2.57/README.md --exclude *.pyd
+[2024-05-02 03:59:35] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2024-05-02 03:59:35] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-2.3.9.dev20240302.tar.gz tmp/pretext-2.4.0.tar.gz --markdown 20240502/p/pretext/2.3.9.dev20240302-2.4.0/README.md --exclude *.pyd
+[2024-05-02 03:59:39] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240302.tar.gz]
+[2024-05-02 03:59:39] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.4.0.tar.gz]
+[2024-05-02 03:59:39] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2024-05-02 03:59:55] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.56.tar.gz]
+[2024-05-02 03:59:55] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.57.tar.gz]
+[2024-05-02 03:59:55] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-05-02 03:59:55] INFO root fetch - main [MainThread]: Store serial: [23025592]
