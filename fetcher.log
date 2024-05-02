@@ -18369,3 +18369,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 13:37:57] WARNING root fetch - processPackages [autoai-libs]: Skipping package: exceeds size limit 11544830>=10485760
 [2024-05-02 13:37:57] INFO root fetch - main [MainThread]: End processing [autoai-libs] error
 [2024-05-02 13:37:57] INFO root fetch - main [MainThread]: Store serial: [23030099]
+[2024-05-02 13:40:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030099]
+[2024-05-02 13:40:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoai-libs
+[2024-05-02 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shexer
+[2024-05-02 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aimDIAS
+[2024-05-02 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peewee-async
+[2024-05-02 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: packg
+[2024-05-02 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-core-xe-21
+[2024-05-02 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: supvisors
+[2024-05-02 13:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: progres
+[2024-05-02 13:40:05] INFO root fetch - processPackages [autoai-libs]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-02 13:40:05] INFO root fetch - processPackages [supvisors]: New version: [0.9] Old Version: [0.8]
+[2024-05-02 13:40:05] INFO root fetch - processPackages [progres]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-02 13:40:05] INFO root fetch - processPackages [shexer]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-05-02 13:40:05] WARNING root fetch - processPackages [aimDIAS]: Skipping, unable to determine old version
+[2024-05-02 13:40:05] INFO root fetch - main [MainThread]: End processing [aimDIAS] error
+[2024-05-02 13:40:05] INFO root fetch - processPackages [packg]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-02 13:40:05] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240502] Old Version: [2.5.0b20240501]
+[2024-05-02 13:40:06] INFO root fetch - processPackages [autoai-libs]: Downloading https://files.pythonhosted.org/packages/45/ff/326b0b54448db7f991629ab8443c448989cabfbf6c04de431a2f5371910d/autoai_libs-2.0.1-3-cp310-cp310-manylinux1_x86_64.whl
+[2024-05-02 13:40:06] INFO root fetch - processPackages [peewee-async]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-02 13:40:06] WARNING root fetch - processPackages [autoai-libs]: Skipping package: exceeds size limit 11544830>=10485760
+[2024-05-02 13:40:06] INFO root fetch - main [MainThread]: End processing [autoai-libs] error
+[2024-05-02 13:40:06] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/c2/80/4e93694ae2e6d3c521b8ee442d7cb2b9597be276e702b395ceab939f31c1/bigdl_core_xe_21-2.5.0b20240501-cp39-cp39-win_amd64.whl
+[2024-05-02 13:40:06] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/35/f5/de411f4b1201d757eb0aab94b26e1480689d8322ab6621ed887351575c73/packg-0.9.2.tar.gz
+[2024-05-02 13:40:06] INFO root fetch - processPackages [shexer]: Downloading https://files.pythonhosted.org/packages/06/c5/44bdcb7032125c7e2995f4c6cf82c387fc5e5d7451db445da6fa08322871/shexer-2.4.0.tar.gz
+[2024-05-02 13:40:06] INFO root fetch - processPackages [supvisors]: Downloading https://files.pythonhosted.org/packages/10/82/23906643dd2190b851fb9de25c77f345f2d2145ae98d19c08504af3a39a1/supvisors-0.8.tar.gz
+[2024-05-02 13:40:06] INFO root fetch - processPackages [progres]: Downloading https://files.pythonhosted.org/packages/33/62/97f638743a9c33fec54f501da4144e94e6d20ef4250ef2fea4bb42b51d45/progres-0.2.2.tar.gz
+[2024-05-02 13:40:06] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 28998867>=10485760
+[2024-05-02 13:40:06] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-02 13:40:06] INFO root fetch - processPackages [peewee-async]: Downloading https://files.pythonhosted.org/packages/0a/8b/18d4cb4bb1fbadac0b7a8bde96bf5d0eaf52b3aee828b42e54d0684a83d6/peewee_async-0.9.0.tar.gz
+[2024-05-02 13:40:06] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/9a/d2/c8c96c46c7352d8d450cd3603781f17a1c2fb55e67cb7758cfe016ed7bad/packg-0.9.3.tar.gz
+[2024-05-02 13:40:06] INFO root fetch - processPackages [shexer]: Downloading https://files.pythonhosted.org/packages/ef/4a/14801e502f0eed37843d7af4867e0778a090510bb1ede088fccba23ba940/shexer-2.4.1.tar.gz
+[2024-05-02 13:40:06] INFO root fetch - processPackages [progres]: Downloading https://files.pythonhosted.org/packages/42/8a/b21e95583735f309a5542a6c80d772f306ec3857393cd4d86b78b06bb650/progres-0.2.3.tar.gz
+[2024-05-02 13:40:06] INFO root fetch - processPackages [packg]: executing diffoscope
+[2024-05-02 13:40:06] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.9.2.tar.gz tmp/packg-0.9.3.tar.gz --markdown 20240502/p/packg/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-02 13:40:06] INFO root fetch - processPackages [shexer]: executing diffoscope
+[2024-05-02 13:40:06] INFO root fetch - processPackages [shexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shexer-2.4.0.tar.gz tmp/shexer-2.4.1.tar.gz --markdown 20240502/s/shexer/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-05-02 13:40:06] INFO root fetch - processPackages [peewee-async]: Downloading https://files.pythonhosted.org/packages/65/09/be9465e8509770e7df870ada8e665d9e7cce56743c3c6edd1f2b163c9d56/peewee_async-0.9.1.tar.gz
+[2024-05-02 13:40:06] INFO root fetch - processPackages [supvisors]: Downloading https://files.pythonhosted.org/packages/6f/45/f1c06724db50b9a6b488d1e2f64c0b5c56ef8a3ab66b892e5306d7150980/supvisors-0.9.tar.gz
+[2024-05-02 13:40:06] INFO root fetch - processPackages [progres]: executing diffoscope
+[2024-05-02 13:40:06] INFO root fetch - processPackages [progres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/progres-0.2.2.tar.gz tmp/progres-0.2.3.tar.gz --markdown 20240502/p/progres/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-02 13:40:06] INFO root fetch - processPackages [peewee-async]: executing diffoscope
+[2024-05-02 13:40:06] INFO root fetch - processPackages [peewee-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee_async-0.9.0.tar.gz tmp/peewee_async-0.9.1.tar.gz --markdown 20240502/p/peewee-async/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-02 13:40:07] INFO root fetch - processPackages [progres]: Remove: archive file [/home/abi/fetcher/tmp/progres-0.2.2.tar.gz]
+[2024-05-02 13:40:07] INFO root fetch - processPackages [progres]: Remove: archive file [/home/abi/fetcher/tmp/progres-0.2.3.tar.gz]
+[2024-05-02 13:40:07] INFO root fetch - main [MainThread]: End processing [progres]: success
+[2024-05-02 13:40:07] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.9.2.tar.gz]
+[2024-05-02 13:40:07] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.9.3.tar.gz]
+[2024-05-02 13:40:07] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2024-05-02 13:40:07] INFO root fetch - processPackages [peewee-async]: Remove: archive file [/home/abi/fetcher/tmp/peewee_async-0.9.0.tar.gz]
+[2024-05-02 13:40:07] INFO root fetch - processPackages [peewee-async]: Remove: archive file [/home/abi/fetcher/tmp/peewee_async-0.9.1.tar.gz]
+[2024-05-02 13:40:07] INFO root fetch - main [MainThread]: End processing [peewee-async]: success
+[2024-05-02 13:40:07] INFO root fetch - processPackages [shexer]: Remove: archive file [/home/abi/fetcher/tmp/shexer-2.4.0.tar.gz]
+[2024-05-02 13:40:07] INFO root fetch - processPackages [shexer]: Remove: archive file [/home/abi/fetcher/tmp/shexer-2.4.1.tar.gz]
+[2024-05-02 13:40:07] INFO root fetch - main [MainThread]: End processing [shexer]: success
+[2024-05-02 13:40:08] INFO root fetch - processPackages [supvisors]: executing diffoscope
+[2024-05-02 13:40:08] INFO root fetch - processPackages [supvisors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supvisors-0.8.tar.gz tmp/supvisors-0.9.tar.gz --markdown 20240502/s/supvisors/0.8-0.9/README.md --exclude *.pyd
+[2024-05-02 13:40:09] INFO root fetch - processPackages [supvisors]: Remove: archive file [/home/abi/fetcher/tmp/supvisors-0.8.tar.gz]
+[2024-05-02 13:40:09] INFO root fetch - processPackages [supvisors]: Remove: archive file [/home/abi/fetcher/tmp/supvisors-0.9.tar.gz]
+[2024-05-02 13:40:09] INFO root fetch - main [MainThread]: End processing [supvisors]: success
+[2024-05-02 13:40:09] INFO root fetch - main [MainThread]: Store serial: [23030132]
