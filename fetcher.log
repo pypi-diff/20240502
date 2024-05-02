@@ -10479,3 +10479,33 @@
 [2024-05-02 08:20:14] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
 [2024-05-02 08:20:14] INFO root fetch - main [MainThread]: End processing [dependentobjects]: success
 [2024-05-02 08:20:14] INFO root fetch - main [MainThread]: Store serial: [23026921]
+[2024-05-02 08:22:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026921]
+[2024-05-02 08:22:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 08:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: generate-tools
+[2024-05-02 08:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dependentobjects
+[2024-05-02 08:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: celestical
+[2024-05-02 08:22:23] INFO root fetch - processPackages [generate-tools]: New version: [0.1.1.dev2] Old Version: [0.1.1.dev1]
+[2024-05-02 08:22:23] INFO root fetch - processPackages [dependentobjects]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-05-02 08:22:23] INFO root fetch - processPackages [celestical]: New version: [0.9.2] Old Version: [0.14.3]
+[2024-05-02 08:22:23] INFO root fetch - processPackages [generate-tools]: Downloading https://files.pythonhosted.org/packages/89/a6/ffcea2cea791fbdf2ea6bebabf8175248334f670419e05a83218552f57fb/generate_tools-0.1.1.dev1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-02 08:22:23] INFO root fetch - processPackages [dependentobjects]: Downloading https://files.pythonhosted.org/packages/59/80/a5f97191559bc78dd3c2a372c65f1ea1b9278fff0ec0a1552c9d40bc6943/dependentobjects-0.0.12.tar.gz
+[2024-05-02 08:22:23] INFO root fetch - processPackages [celestical]: Downloading https://files.pythonhosted.org/packages/d0/3f/1e563155fc4516a523f0735df2c6aba99f0c644e5f98836aef9250ea82ef/celestical-0.14.3-py3-none-any.whl
+[2024-05-02 08:22:23] INFO root fetch - processPackages [dependentobjects]: Downloading https://files.pythonhosted.org/packages/b8/21/18ff569c59c432d309c119bb6b419f6a6979116892d473fd0a097c14d895/dependentobjects-0.0.13.tar.gz
+[2024-05-02 08:22:23] INFO root fetch - processPackages [dependentobjects]: executing diffoscope
+[2024-05-02 08:22:23] INFO root fetch - processPackages [dependentobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dependentobjects-0.0.12.tar.gz tmp/dependentobjects-0.0.13.tar.gz --markdown 20240502/d/dependentobjects/0.0.12-0.0.13/README.md --exclude *.pyd
+[2024-05-02 08:22:24] INFO root fetch - processPackages [generate-tools]: Downloading https://files.pythonhosted.org/packages/34/d9/a19cf0db000465d413d553564a7e46f12a4c2f67c955e9b2a472a30e8e6f/generate_tools-0.1.1.dev2-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-02 08:22:24] INFO root fetch - processPackages [celestical]: Downloading https://files.pythonhosted.org/packages/6a/53/1f6d4d225fde6a9acc4875ce60fa934dc2af21d85e3dcbe4d276484785e6/celestical-0.9.2-py3-none-any.whl
+[2024-05-02 08:22:24] INFO root fetch - processPackages [generate-tools]: executing diffoscope
+[2024-05-02 08:22:24] INFO root fetch - processPackages [generate-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generate_tools-0.1.1.dev1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/generate_tools-0.1.1.dev2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240502/g/generate-tools/0.1.1.dev1-0.1.1.dev2/README.md --exclude *.pyd
+[2024-05-02 08:22:24] INFO root fetch - processPackages [celestical]: executing diffoscope
+[2024-05-02 08:22:24] INFO root fetch - processPackages [celestical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celestical-0.14.3-py3-none-any.whl.zip tmp/celestical-0.9.2-py3-none-any.whl.zip --markdown 20240502/c/celestical/0.14.3-0.9.2/README.md --exclude *.pyd
+[2024-05-02 08:22:24] INFO root fetch - processPackages [dependentobjects]: Remove: archive file [/home/abi/fetcher/tmp/dependentobjects-0.0.12.tar.gz]
+[2024-05-02 08:22:24] INFO root fetch - processPackages [dependentobjects]: Remove: archive file [/home/abi/fetcher/tmp/dependentobjects-0.0.13.tar.gz]
+[2024-05-02 08:22:24] INFO root fetch - main [MainThread]: End processing [dependentobjects]: success
+[2024-05-02 08:22:25] INFO root fetch - processPackages [celestical]: Remove: archive file [/home/abi/fetcher/tmp/celestical-0.14.3-py3-none-any.whl.zip]
+[2024-05-02 08:22:25] INFO root fetch - processPackages [celestical]: Remove: archive file [/home/abi/fetcher/tmp/celestical-0.9.2-py3-none-any.whl.zip]
+[2024-05-02 08:22:25] INFO root fetch - main [MainThread]: End processing [celestical]: success
+[2024-05-02 08:22:26] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.1.dev1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-02 08:22:26] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.1.dev2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-02 08:22:26] INFO root fetch - main [MainThread]: End processing [generate-tools]: success
+[2024-05-02 08:22:26] INFO root fetch - main [MainThread]: Store serial: [23026932]
