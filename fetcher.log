@@ -12577,3 +12577,123 @@
 [2024-05-02 10:01:56] INFO root fetch - processPackages [django-oscar]: Remove: archive file [/home/abi/fetcher/tmp/django-oscar-3.2b1.tar.gz]
 [2024-05-02 10:01:56] INFO root fetch - main [MainThread]: End processing [django-oscar]: success
 [2024-05-02 10:01:56] INFO root fetch - main [MainThread]: Store serial: [23027824]
+[2024-05-02 10:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027824]
+[2024-05-02 10:04:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-02 10:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: powershap
+[2024-05-02 10:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fz-td-recipe
+[2024-05-02 10:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composio-core
+[2024-05-02 10:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composio-autogen
+[2024-05-02 10:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-crewai
+[2024-05-02 10:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-julep
+[2024-05-02 10:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-langchain
+[2024-05-02 10:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-lyzr
+[2024-05-02 10:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composio-openai
+[2024-05-02 10:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: waylay-sdk
+[2024-05-02 10:04:06] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-02 10:04:06] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-02 10:04:06] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-02 10:04:06] INFO root fetch - processPackages [composio-openai]: New version: [0.2.46] Old Version: [0.2.44]
+[2024-05-02 10:04:06] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-02 10:04:06] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-02 10:04:06] INFO root fetch - processPackages [composio-julep]: New version: [0.2.46] Old Version: [0.2.44]
+[2024-05-02 10:04:06] INFO root fetch - processPackages [fz-td-recipe]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-02 10:04:06] INFO root fetch - processPackages [waylay-sdk]: New version: [2024.4.30] Old Version: [2024.4.23]
+[2024-05-02 10:04:06] INFO root fetch - processPackages [powershap]: New version: [0.0.9] Old Version: [0.0.8rc2]
+[2024-05-02 10:04:06] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-05-02 10:04:06] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-05-02 10:04:06] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-05-02 10:04:06] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-05-02 10:04:06] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/37/69/164ec40db4e3ad845e6fa990d125cb69a7da612383090011884e3d5f2232/composio_lyzr-0.2.8.tar.gz
+[2024-05-02 10:04:06] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/c4/dd/0a5ef1a81c79edcda099777795faabf6675375fcc1eb7b41fdffed292c58/composio_openai-0.2.44.tar.gz
+[2024-05-02 10:04:06] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/40/b6/5d962ff876efc5e7260538a4b135e39811a4ec7848737697f1681ce421bb/composio_julep-0.2.44.tar.gz
+[2024-05-02 10:04:06] INFO root fetch - processPackages [fz-td-recipe]: Downloading https://files.pythonhosted.org/packages/81/c2/76696db28ad8e6e52d4138578e3b78a9caaeed70cf7f0d0e90e0a77febf7/fz_td_recipe-0.2.2.tar.gz
+[2024-05-02 10:04:06] INFO root fetch - processPackages [waylay-sdk]: Downloading https://files.pythonhosted.org/packages/87/82/02c7924d98b05337803e5eae6790a9b07dd91ad41d3f2baea5bf745935a3/waylay_sdk-2024.4.23.tar.gz
+[2024-05-02 10:04:06] INFO root fetch - processPackages [powershap]: Downloading https://files.pythonhosted.org/packages/27/23/d2eb094e476e9b762d209b5bc8ca08a060fd13528993bf28d0b70a55f910/powershap-0.0.8rc2.tar.gz
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240502/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240502/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/b3/8c/e6d1de455020d92a75c39dc34306146eb399b6d8fcc8182cd66b0762ce45/composio_openai-0.2.46.tar.gz
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240502/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240502/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/d7/6e/a7ac8fb9334a5f7df0dd49be24e2ac3a6d7ad5077b5d0774324a544fd5c7/composio_julep-0.2.46.tar.gz
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.8.tar.gz tmp/composio_lyzr-0.2.9.tar.gz --markdown 20240502/c/composio-lyzr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-02 10:04:07] INFO root fetch - processPackages [fz-td-recipe]: Downloading https://files.pythonhosted.org/packages/78/0e/6cd107c55dc253b552c8d1f110a7e845095af9e11898bc7097db598fcf1f/fz_td_recipe-0.2.3.tar.gz
+[2024-05-02 10:04:07] INFO root fetch - processPackages [waylay-sdk]: Downloading https://files.pythonhosted.org/packages/70/18/b3a67ed4e18aeafc83c29d61fbc9a5a5fe6e7e77b1baff630dd18c72c809/waylay_sdk-2024.4.30.tar.gz
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-openai]: executing diffoscope
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_openai-0.2.44.tar.gz tmp/composio_openai-0.2.46.tar.gz --markdown 20240502/c/composio-openai/0.2.44-0.2.46/README.md --exclude *.pyd
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-julep]: executing diffoscope
+[2024-05-02 10:04:07] INFO root fetch - processPackages [composio-julep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_julep-0.2.44.tar.gz tmp/composio_julep-0.2.46.tar.gz --markdown 20240502/c/composio-julep/0.2.44-0.2.46/README.md --exclude *.pyd
+[2024-05-02 10:04:07] INFO root fetch - processPackages [powershap]: Downloading https://files.pythonhosted.org/packages/bd/6c/79b55eb6dbbf708277e487155abc3712d66dc94ba46e545539b01ad93471/powershap-0.0.9.tar.gz
+[2024-05-02 10:04:07] INFO root fetch - processPackages [fz-td-recipe]: executing diffoscope
+[2024-05-02 10:04:07] INFO root fetch - processPackages [fz-td-recipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fz_td_recipe-0.2.2.tar.gz tmp/fz_td_recipe-0.2.3.tar.gz --markdown 20240502/f/fz-td-recipe/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-02 10:04:07] INFO root fetch - processPackages [waylay-sdk]: executing diffoscope
+[2024-05-02 10:04:07] INFO root fetch - processPackages [waylay-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk-2024.4.23.tar.gz tmp/waylay_sdk-2024.4.30.tar.gz --markdown 20240502/w/waylay-sdk/2024.4.23-2024.4.30/README.md --exclude *.pyd
+[2024-05-02 10:04:07] INFO root fetch - processPackages [powershap]: executing diffoscope
+[2024-05-02 10:04:07] INFO root fetch - processPackages [powershap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powershap-0.0.8rc2.tar.gz tmp/powershap-0.0.9.tar.gz --markdown 20240502/p/powershap/0.0.8rc2-0.0.9/README.md --exclude *.pyd
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-langchain]: Start processing: langfun
+[2024-05-02 10:04:08] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-core]: Start processing: lpcML
+[2024-05-02 10:04:08] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-05-02 10:04:08] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240501] Old Version: [0.0.2.dev20240430]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-autogen]: Start processing: odoo14-addon-delivery-gls-asm
+[2024-05-02 10:04:08] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-05-02 10:04:08] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/cd/ef/a10dca9f20430cf1d445e00ca3fe5afcad7900e011907fd2af90c906174b/langfun-0.0.2.dev20240430.tar.gz
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-05-02 10:04:08] INFO root fetch - processPackages [lpcML]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [powershap]: Remove: archive file [/home/abi/fetcher/tmp/powershap-0.0.8rc2.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [powershap]: Remove: archive file [/home/abi/fetcher/tmp/powershap-0.0.9.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - main [MainThread]: End processing [powershap]: success
+[2024-05-02 10:04:08] INFO root fetch - processPackages [odoo14-addon-delivery-gls-asm]: New version: [14.0.1.7.1.dev1] Old Version: [14.0.1.7.1]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.44.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.46.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - main [MainThread]: End processing [composio-openai]: success
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.8.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.44.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.46.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - main [MainThread]: End processing [composio-julep]: success
+[2024-05-02 10:04:08] INFO root fetch - processPackages [lpcML]: Downloading https://files.pythonhosted.org/packages/e3/16/f870b5eadb23636ea7501b02b63b20ff6f1b68cf2de66a23da3c7a1b74d6/lpcML-0.0.8.tar.gz
+[2024-05-02 10:04:08] INFO root fetch - processPackages [waylay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk-2024.4.23.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [waylay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk-2024.4.30.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - main [MainThread]: End processing [waylay-sdk]: success
+[2024-05-02 10:04:08] INFO root fetch - processPackages [odoo14-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/88/2c/20372afda4edecdd1057f9dbda151ab1ec9857c2aa5c651ec0306a678813/odoo14_addon_delivery_gls_asm-14.0.1.7.1-py3-none-any.whl
+[2024-05-02 10:04:08] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/82/f9/ea7322cb44f859e88a1e53b26c0717099b0e230c961038cbc01a5e257cc8/langfun-0.0.2.dev20240501.tar.gz
+[2024-05-02 10:04:08] INFO root fetch - processPackages [fz-td-recipe]: Remove: archive file [/home/abi/fetcher/tmp/fz_td_recipe-0.2.2.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - processPackages [fz-td-recipe]: Remove: archive file [/home/abi/fetcher/tmp/fz_td_recipe-0.2.3.tar.gz]
+[2024-05-02 10:04:08] INFO root fetch - main [MainThread]: End processing [fz-td-recipe]: success
+[2024-05-02 10:04:08] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-02 10:04:08] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240430.tar.gz tmp/langfun-0.0.2.dev20240501.tar.gz --markdown 20240502/l/langfun/0.0.2.dev20240430-0.0.2.dev20240501/README.md --exclude *.pyd
+[2024-05-02 10:04:09] INFO root fetch - processPackages [lpcML]: Downloading https://files.pythonhosted.org/packages/3e/4e/b08f5f142001ff119f4f1ad25a6749057df98e48fa1cd2484cc9e01163e7/lpcML-0.0.9.tar.gz
+[2024-05-02 10:04:09] INFO root fetch - processPackages [odoo14-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/c2/18/2bdb529d7bf790784295e564606bcca64c41e9df01df304894f197505520/odoo14_addon_delivery_gls_asm-14.0.1.7.1.dev1-py3-none-any.whl
+[2024-05-02 10:04:09] INFO root fetch - processPackages [lpcML]: executing diffoscope
+[2024-05-02 10:04:09] INFO root fetch - processPackages [lpcML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpcML-0.0.8.tar.gz tmp/lpcML-0.0.9.tar.gz --markdown 20240502/l/lpcML/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 10:04:09] INFO root fetch - processPackages [odoo14-addon-delivery-gls-asm]: executing diffoscope
+[2024-05-02 10:04:09] INFO root fetch - processPackages [odoo14-addon-delivery-gls-asm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_delivery_gls_asm-14.0.1.7.1-py3-none-any.whl.zip tmp/odoo14_addon_delivery_gls_asm-14.0.1.7.1.dev1-py3-none-any.whl.zip --markdown 20240502/o/odoo14-addon-delivery-gls-asm/14.0.1.7.1-14.0.1.7.1.dev1/README.md --exclude *.pyd
+[2024-05-02 10:04:09] INFO root fetch - processPackages [lpcML]: Remove: archive file [/home/abi/fetcher/tmp/lpcML-0.0.8.tar.gz]
+[2024-05-02 10:04:09] INFO root fetch - processPackages [lpcML]: Remove: archive file [/home/abi/fetcher/tmp/lpcML-0.0.9.tar.gz]
+[2024-05-02 10:04:09] INFO root fetch - main [MainThread]: End processing [lpcML]: success
+[2024-05-02 10:04:09] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240430.tar.gz]
+[2024-05-02 10:04:09] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240501.tar.gz]
+[2024-05-02 10:04:09] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-02 10:04:10] INFO root fetch - processPackages [odoo14-addon-delivery-gls-asm]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_gls_asm-14.0.1.7.1-py3-none-any.whl.zip]
+[2024-05-02 10:04:10] INFO root fetch - processPackages [odoo14-addon-delivery-gls-asm]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_gls_asm-14.0.1.7.1.dev1-py3-none-any.whl.zip]
+[2024-05-02 10:04:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-gls-asm]: success
+[2024-05-02 10:04:10] INFO root fetch - main [MainThread]: Store serial: [23027871]
