@@ -9937,3 +9937,24 @@
 [2024-05-02 07:41:30] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240501-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2024-05-02 07:41:30] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2024-05-02 07:41:30] INFO root fetch - main [MainThread]: Store serial: [23026741]
+[2024-05-02 07:43:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026741]
+[2024-05-02 07:43:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 07:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: il-supermarket-scraper
+[2024-05-02 07:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ts3l
+[2024-05-02 07:43:40] INFO root fetch - processPackages [il-supermarket-scraper]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 07:43:40] INFO root fetch - processPackages [ts3l]: New version: [0.40] Old Version: [0.30]
+[2024-05-02 07:43:40] INFO root fetch - processPackages [il-supermarket-scraper]: Downloading https://files.pythonhosted.org/packages/f6/45/1fe79624b37d74f2924d2e48492fb4b04a439423318b21a874466d2cf382/il_supermarket_scraper-0.3.8.tar.gz
+[2024-05-02 07:43:40] INFO root fetch - processPackages [ts3l]: Downloading https://files.pythonhosted.org/packages/fb/e5/424adae1e53afb61e6431157728678650c4a20ef7e0fa0bcfda48424ac79/ts3l-0.30.tar.gz
+[2024-05-02 07:43:40] INFO root fetch - processPackages [il-supermarket-scraper]: Downloading https://files.pythonhosted.org/packages/7a/1e/416acaf0344b1c2bcf6eb9a12919190b3eabb555b54991b7c397bea24655/il_supermarket_scraper-0.3.9.tar.gz
+[2024-05-02 07:43:40] INFO root fetch - processPackages [ts3l]: Downloading https://files.pythonhosted.org/packages/db/97/021f2ccc1e8a5993e568f54fcef293c7632c6f42cfabc6ea3711dbe3f46d/ts3l-0.40.tar.gz
+[2024-05-02 07:43:40] INFO root fetch - processPackages [il-supermarket-scraper]: executing diffoscope
+[2024-05-02 07:43:40] INFO root fetch - processPackages [il-supermarket-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/il_supermarket_scraper-0.3.8.tar.gz tmp/il_supermarket_scraper-0.3.9.tar.gz --markdown 20240502/i/il-supermarket-scraper/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 07:43:41] INFO root fetch - processPackages [ts3l]: executing diffoscope
+[2024-05-02 07:43:41] INFO root fetch - processPackages [ts3l]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts3l-0.30.tar.gz tmp/ts3l-0.40.tar.gz --markdown 20240502/t/ts3l/0.30-0.40/README.md --exclude *.pyd
+[2024-05-02 07:43:41] INFO root fetch - processPackages [il-supermarket-scraper]: Remove: archive file [/home/abi/fetcher/tmp/il_supermarket_scraper-0.3.8.tar.gz]
+[2024-05-02 07:43:41] INFO root fetch - processPackages [il-supermarket-scraper]: Remove: archive file [/home/abi/fetcher/tmp/il_supermarket_scraper-0.3.9.tar.gz]
+[2024-05-02 07:43:41] INFO root fetch - main [MainThread]: End processing [il-supermarket-scraper]: success
+[2024-05-02 07:43:41] INFO root fetch - processPackages [ts3l]: Remove: archive file [/home/abi/fetcher/tmp/ts3l-0.30.tar.gz]
+[2024-05-02 07:43:41] INFO root fetch - processPackages [ts3l]: Remove: archive file [/home/abi/fetcher/tmp/ts3l-0.40.tar.gz]
+[2024-05-02 07:43:41] INFO root fetch - main [MainThread]: End processing [ts3l]: success
+[2024-05-02 07:43:41] INFO root fetch - main [MainThread]: Store serial: [23026748]
