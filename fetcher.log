@@ -15884,3 +15884,87 @@
 [2024-05-02 12:06:52] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.9.0.tar.gz]
 [2024-05-02 12:06:52] INFO root fetch - main [MainThread]: End processing [recce]: success
 [2024-05-02 12:06:52] INFO root fetch - main [MainThread]: Store serial: [23029208]
+[2024-05-02 12:08:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029208]
+[2024-05-02 12:09:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 12:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langfuse
+[2024-05-02 12:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-05-02 12:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flatpack
+[2024-05-02 12:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client
+[2024-05-02 12:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: panoptica-genai-protection
+[2024-05-02 12:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stigg-api-client-v2
+[2024-05-02 12:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thingsvision
+[2024-05-02 12:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brightsky
+[2024-05-02 12:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-keras-nightly
+[2024-05-02 12:09:01] INFO root fetch - processPackages [langfuse]: New version: [2.9.2] Old Version: [2.9.1a0]
+[2024-05-02 12:09:01] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-02 12:09:01] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-02 12:09:01] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-02 12:09:01] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024050109] Old Version: [2.17.0.dev2024043009]
+[2024-05-02 12:09:01] INFO root fetch - processPackages [flatpack]: New version: [3.4.5] Old Version: [3.4.4]
+[2024-05-02 12:09:01] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/43/38/4a1023711cee549cb5f62c09965d08724e93f5cac8e7dcd2becd75f7b302/langfuse-2.9.1a0.tar.gz
+[2024-05-02 12:09:01] INFO root fetch - processPackages [brightsky]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-02 12:09:01] INFO root fetch - processPackages [panoptica-genai-protection]: New version: [0.1.3] Old Version: [0.1.0]
+[2024-05-02 12:09:01] INFO root fetch - processPackages [thingsvision]: New version: [2.6.4] Old Version: [2.6.3]
+[2024-05-02 12:09:01] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-05-02 12:09:01] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-05-02 12:09:01] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-05-02 12:09:01] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/da/f1/d0d073f52f61b0f9238cc257b5e3ac327b5a337b3c2a76336573a70a07a9/flatpack-3.4.4.tar.gz
+[2024-05-02 12:09:01] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/27/9f/c590ad3256d33a91259da0deb69d4915574c880aab4b54484ae0cd9f2044/tf_keras_nightly-2.17.0.dev2024043009.tar.gz
+[2024-05-02 12:09:01] INFO root fetch - processPackages [panoptica-genai-protection]: Downloading https://files.pythonhosted.org/packages/79/e5/5cfcd92cdf68e50170aad0479fd9a86c3f1bffd725d5d27f7a728a88b1e8/panoptica_genai_protection-0.1.0.tar.gz
+[2024-05-02 12:09:01] INFO root fetch - processPackages [brightsky]: Downloading https://files.pythonhosted.org/packages/78/40/7a25d4d1a18630c0a9c6cbb2807f1d110a21ed782bf01e70b28e565d10a1/brightsky-2.1.8.tar.gz
+[2024-05-02 12:09:02] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/58/ae/bf3cf7d72c9189cc7ff86088f4bfb4c4b5e17338e5e8b52494dfa46afca4/thingsvision-2.6.3.tar.gz
+[2024-05-02 12:09:02] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/71/c4/6571f0f3c2539390fbd49ca27636f5611971c2b1f9f15fae183b3c67838c/langfuse-2.9.2.tar.gz
+[2024-05-02 12:09:02] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-05-02 12:09:02] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-05-02 12:09:02] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-05-02 12:09:02] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/6f/b8/f5dc73269ba2cb3e2de81c9132878adf54aa5b30f2694c0c09e29635c5db/flatpack-3.4.5.tar.gz
+[2024-05-02 12:09:02] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2024-05-02 12:09:02] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-2.9.1a0.tar.gz tmp/langfuse-2.9.2.tar.gz --markdown 20240502/l/langfuse/2.9.1a0-2.9.2/README.md --exclude *.pyd
+[2024-05-02 12:09:02] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-05-02 12:09:02] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240502/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-02 12:09:02] INFO root fetch - processPackages [panoptica-genai-protection]: Downloading https://files.pythonhosted.org/packages/f9/95/fbf8661e1b29f0fb1064eb7610afd514f94053c77861075904ec31e735c6/panoptica_genai_protection-0.1.3.tar.gz
+[2024-05-02 12:09:02] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-02 12:09:02] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240502/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-02 12:09:02] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-02 12:09:02] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.4.tar.gz tmp/flatpack-3.4.5.tar.gz --markdown 20240502/f/flatpack/3.4.4-3.4.5/README.md --exclude *.pyd
+[2024-05-02 12:09:02] INFO root fetch - processPackages [brightsky]: Downloading https://files.pythonhosted.org/packages/9e/d6/5bac986bda59503505bc68c74ad131caeb706ba36a5bbb7cc0318fa65a04/brightsky-2.1.9.tar.gz
+[2024-05-02 12:09:02] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-05-02 12:09:02] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240502/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-02 12:09:02] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/15/6e/884523e12ebc9e39bd69d0e1935ef0e299402e18204a6d0ad7bcd739de0f/tf_keras_nightly-2.17.0.dev2024050109.tar.gz
+[2024-05-02 12:09:02] INFO root fetch - processPackages [panoptica-genai-protection]: executing diffoscope
+[2024-05-02 12:09:02] INFO root fetch - processPackages [panoptica-genai-protection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptica_genai_protection-0.1.0.tar.gz tmp/panoptica_genai_protection-0.1.3.tar.gz --markdown 20240502/p/panoptica-genai-protection/0.1.0-0.1.3/README.md --exclude *.pyd
+[2024-05-02 12:09:02] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/d3/22/4ce1ad9bb1f51368312cc580cc1dcbf4cee99db2cf6b0f63e053dd6a569a/thingsvision-2.6.4.tar.gz
+[2024-05-02 12:09:02] INFO root fetch - processPackages [brightsky]: executing diffoscope
+[2024-05-02 12:09:02] INFO root fetch - processPackages [brightsky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brightsky-2.1.8.tar.gz tmp/brightsky-2.1.9.tar.gz --markdown 20240502/b/brightsky/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-02 12:09:02] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-02 12:09:02] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024043009.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024050109.tar.gz --markdown 20240502/t/tf-keras-nightly/2.17.0.dev2024043009-2.17.0.dev2024050109/README.md --exclude *.pyd
+[2024-05-02 12:09:02] INFO root fetch - processPackages [thingsvision]: executing diffoscope
+[2024-05-02 12:09:02] INFO root fetch - processPackages [thingsvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thingsvision-2.6.3.tar.gz tmp/thingsvision-2.6.4.tar.gz --markdown 20240502/t/thingsvision/2.6.3-2.6.4/README.md --exclude *.pyd
+[2024-05-02 12:09:03] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-05-02 12:09:03] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-05-02 12:09:03] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-05-02 12:09:03] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.4.tar.gz]
+[2024-05-02 12:09:03] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.5.tar.gz]
+[2024-05-02 12:09:03] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-02 12:09:03] INFO root fetch - processPackages [brightsky]: Remove: archive file [/home/abi/fetcher/tmp/brightsky-2.1.8.tar.gz]
+[2024-05-02 12:09:03] INFO root fetch - processPackages [brightsky]: Remove: archive file [/home/abi/fetcher/tmp/brightsky-2.1.9.tar.gz]
+[2024-05-02 12:09:03] INFO root fetch - main [MainThread]: End processing [brightsky]: success
+[2024-05-02 12:09:03] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.1a0.tar.gz]
+[2024-05-02 12:09:03] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.2.tar.gz]
+[2024-05-02 12:09:03] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2024-05-02 12:09:03] INFO root fetch - processPackages [panoptica-genai-protection]: Remove: archive file [/home/abi/fetcher/tmp/panoptica_genai_protection-0.1.0.tar.gz]
+[2024-05-02 12:09:03] INFO root fetch - processPackages [panoptica-genai-protection]: Remove: archive file [/home/abi/fetcher/tmp/panoptica_genai_protection-0.1.3.tar.gz]
+[2024-05-02 12:09:03] INFO root fetch - main [MainThread]: End processing [panoptica-genai-protection]: success
+[2024-05-02 12:09:03] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.6.3.tar.gz]
+[2024-05-02 12:09:03] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.6.4.tar.gz]
+[2024-05-02 12:09:03] INFO root fetch - main [MainThread]: End processing [thingsvision]: success
+[2024-05-02 12:09:04] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-05-02 12:09:04] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-05-02 12:09:04] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-05-02 12:09:04] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-05-02 12:09:04] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-05-02 12:09:04] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-02 12:09:05] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024043009.tar.gz]
+[2024-05-02 12:09:05] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050109.tar.gz]
+[2024-05-02 12:09:05] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-02 12:09:05] INFO root fetch - main [MainThread]: Store serial: [23029235]
