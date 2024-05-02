@@ -7992,3 +7992,20 @@
 [2024-05-02 05:05:54] INFO root fetch - processPackages [linkml-map]: Remove: archive file [/home/abi/fetcher/tmp/linkml_map-0.3.5.tar.gz]
 [2024-05-02 05:05:54] INFO root fetch - main [MainThread]: End processing [linkml-map]: success
 [2024-05-02 05:05:54] INFO root fetch - main [MainThread]: Store serial: [23025986]
+[2024-05-02 05:07:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025986]
+[2024-05-02 05:08:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 05:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qai-ai
+[2024-05-02 05:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-axe
+[2024-05-02 05:08:03] INFO root fetch - processPackages [qai-ai]: New version: [0.5.2.1] Old Version: [0.5.2]
+[2024-05-02 05:08:03] INFO root fetch - processPackages [llm-axe]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-05-02 05:08:03] INFO root fetch - processPackages [llm-axe]: Downloading https://files.pythonhosted.org/packages/d3/13/8ed660110c84af614541b3175cd0bee7be6a4f1c646f9752a0284e228974/llm_axe-1.0.2.tar.gz
+[2024-05-02 05:08:03] INFO root fetch - processPackages [qai-ai]: Downloading https://files.pythonhosted.org/packages/d6/b7/9439b8b6ad68ea44e0e0829342cb6738ebe6742e1a86ac2795b1c379c457/qai_ai-0.5.2.tar.gz
+[2024-05-02 05:08:03] ERROR root fetch - processPackages [llm-axe]: Unable to fetch info: No such project/version 'llm-axe' 1.0.4
+[2024-05-02 05:08:03] INFO root fetch - main [MainThread]: End processing [llm-axe] error
+[2024-05-02 05:08:03] INFO root fetch - processPackages [qai-ai]: Downloading https://files.pythonhosted.org/packages/c3/9e/6236e8f996c64460e7bb75c97581da65209c9d4885ca792711d507daff0f/qai_ai-0.5.2.1-py3-none-any.whl
+[2024-05-02 05:08:03] INFO root fetch - processPackages [qai-ai]: executing diffoscope
+[2024-05-02 05:08:03] INFO root fetch - processPackages [qai-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_ai-0.5.2.tar.gz tmp/qai_ai-0.5.2.1-py3-none-any.whl.zip --markdown 20240502/q/qai-ai/0.5.2-0.5.2.1/README.md --exclude *.pyd
+[2024-05-02 05:08:04] INFO root fetch - processPackages [qai-ai]: Remove: archive file [/home/abi/fetcher/tmp/qai_ai-0.5.2.tar.gz]
+[2024-05-02 05:08:04] INFO root fetch - processPackages [qai-ai]: Remove: archive file [/home/abi/fetcher/tmp/qai_ai-0.5.2.1-py3-none-any.whl.zip]
+[2024-05-02 05:08:04] INFO root fetch - main [MainThread]: End processing [qai-ai]: success
+[2024-05-02 05:08:04] INFO root fetch - main [MainThread]: Store serial: [23025993]
