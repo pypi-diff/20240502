@@ -10433,3 +10433,49 @@
 [2024-05-02 08:17:54] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a96-py3-none-win_amd64.whl.zip]
 [2024-05-02 08:17:54] INFO root fetch - main [MainThread]: End processing [bauplan]: success
 [2024-05-02 08:17:54] INFO root fetch - main [MainThread]: Store serial: [23026905]
+[2024-05-02 08:20:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026905]
+[2024-05-02 08:20:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dependentobjects
+[2024-05-02 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qai-server
+[2024-05-02 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RBFMeshGen
+[2024-05-02 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-inventory
+[2024-05-02 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dependentobjects
+[2024-05-02 08:20:12] INFO root fetch - processPackages [qai-server]: New version: [0.5.1.1] Old Version: [0.5.1]
+[2024-05-02 08:20:12] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/98/60/88ff2e384027ab3868b690b0a37c2bcff541188c64e070b467eb88112e05/qai_server-0.5.1.tar.gz
+[2024-05-02 08:20:12] INFO root fetch - processPackages [dependentobjects]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-05-02 08:20:12] INFO root fetch - processPackages [dependentobjects]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-05-02 08:20:12] INFO root fetch - processPackages [RBFMeshGen]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-02 08:20:12] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-02 08:20:13] INFO root fetch - processPackages [dependentobjects]: Downloading https://files.pythonhosted.org/packages/59/80/a5f97191559bc78dd3c2a372c65f1ea1b9278fff0ec0a1552c9d40bc6943/dependentobjects-0.0.12.tar.gz
+[2024-05-02 08:20:13] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-02 08:20:13] INFO root fetch - processPackages [dependentobjects]: Downloading https://files.pythonhosted.org/packages/59/80/a5f97191559bc78dd3c2a372c65f1ea1b9278fff0ec0a1552c9d40bc6943/dependentobjects-0.0.12.tar.gz
+[2024-05-02 08:20:13] INFO root fetch - processPackages [RBFMeshGen]: Downloading https://files.pythonhosted.org/packages/c2/b0/56eb00998e64eaa786ca89ecd8ca43c8e756e7b75171cdcf3293b237552b/rbfmeshgen-1.0.3.tar.gz
+[2024-05-02 08:20:13] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/18/db/bf83f7ba04782986c47272218898d7792e920fd73efa187af366b56da95f/qai_server-0.5.1.1.tar.gz
+[2024-05-02 08:20:13] INFO root fetch - processPackages [qai-server]: executing diffoscope
+[2024-05-02 08:20:13] INFO root fetch - processPackages [qai-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_server-0.5.1.tar.gz tmp/qai_server-0.5.1.1.tar.gz --markdown 20240502/q/qai-server/0.5.1-0.5.1.1/README.md --exclude *.pyd
+[2024-05-02 08:20:13] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-02 08:20:13] INFO root fetch - processPackages [RBFMeshGen]: Downloading https://files.pythonhosted.org/packages/11/b7/6031ee88684159f02851a6ba1b78881782831d6fc9700bc8f180168e686c/rbfmeshgen-1.0.4.tar.gz
+[2024-05-02 08:20:13] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-02 08:20:13] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240502/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-02 08:20:13] INFO root fetch - processPackages [dependentobjects]: Downloading https://files.pythonhosted.org/packages/b8/21/18ff569c59c432d309c119bb6b419f6a6979116892d473fd0a097c14d895/dependentobjects-0.0.13.tar.gz
+[2024-05-02 08:20:13] INFO root fetch - processPackages [dependentobjects]: Downloading https://files.pythonhosted.org/packages/b8/21/18ff569c59c432d309c119bb6b419f6a6979116892d473fd0a097c14d895/dependentobjects-0.0.13.tar.gz
+[2024-05-02 08:20:13] INFO root fetch - processPackages [RBFMeshGen]: executing diffoscope
+[2024-05-02 08:20:13] INFO root fetch - processPackages [RBFMeshGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbfmeshgen-1.0.3.tar.gz tmp/rbfmeshgen-1.0.4.tar.gz --markdown 20240502/R/RBFMeshGen/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-02 08:20:13] INFO root fetch - processPackages [dependentobjects]: executing diffoscope
+[2024-05-02 08:20:13] INFO root fetch - processPackages [dependentobjects]: executing diffoscope
+[2024-05-02 08:20:13] INFO root fetch - processPackages [dependentobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dependentobjects-0.0.12.tar.gz tmp/dependentobjects-0.0.13.tar.gz --markdown 20240502/d/dependentobjects/0.0.12-0.0.13/README.md --exclude *.pyd
+[2024-05-02 08:20:13] INFO root fetch - processPackages [dependentobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dependentobjects-0.0.12.tar.gz tmp/dependentobjects-0.0.13.tar.gz --markdown 20240502/d/dependentobjects/0.0.12-0.0.13/README.md --exclude *.pyd
+[2024-05-02 08:20:13] INFO root fetch - processPackages [qai-server]: Remove: archive file [/home/abi/fetcher/tmp/qai_server-0.5.1.tar.gz]
+[2024-05-02 08:20:13] INFO root fetch - processPackages [qai-server]: Remove: archive file [/home/abi/fetcher/tmp/qai_server-0.5.1.1.tar.gz]
+[2024-05-02 08:20:13] INFO root fetch - main [MainThread]: End processing [qai-server]: success
+[2024-05-02 08:20:14] INFO root fetch - processPackages [RBFMeshGen]: Remove: archive file [/home/abi/fetcher/tmp/rbfmeshgen-1.0.3.tar.gz]
+[2024-05-02 08:20:14] INFO root fetch - processPackages [RBFMeshGen]: Remove: archive file [/home/abi/fetcher/tmp/rbfmeshgen-1.0.4.tar.gz]
+[2024-05-02 08:20:14] INFO root fetch - main [MainThread]: End processing [RBFMeshGen]: success
+[2024-05-02 08:20:14] INFO root fetch - processPackages [dependentobjects]: Remove: archive file [/home/abi/fetcher/tmp/dependentobjects-0.0.12.tar.gz]
+[2024-05-02 08:20:14] INFO root fetch - processPackages [dependentobjects]: Remove: archive file [/home/abi/fetcher/tmp/dependentobjects-0.0.13.tar.gz]
+[2024-05-02 08:20:14] INFO root fetch - main [MainThread]: End processing [dependentobjects]: success
+[2024-05-02 08:20:14] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-02 08:20:14] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-02 08:20:14] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-02 08:20:14] INFO root fetch - main [MainThread]: End processing [dependentobjects]: success
+[2024-05-02 08:20:14] INFO root fetch - main [MainThread]: Store serial: [23026921]
