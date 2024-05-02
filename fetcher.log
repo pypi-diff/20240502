@@ -8400,3 +8400,29 @@
 [2024-05-02 05:41:09] INFO root fetch - processPackages [insideopt-demo]: Remove: archive file [/home/abi/fetcher/tmp/insideopt-demo-0.1.9.tar.gz]
 [2024-05-02 05:41:09] INFO root fetch - main [MainThread]: End processing [insideopt-demo]: success
 [2024-05-02 05:41:09] INFO root fetch - main [MainThread]: Store serial: [23026138]
+[2024-05-02 05:43:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026138]
+[2024-05-02 05:43:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 05:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kywy
+[2024-05-02 05:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatch
+[2024-05-02 05:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-dms
+[2024-05-02 05:43:22] INFO root fetch - processPackages [kywy]: New version: [0.18.0b9] Old Version: [0.18.0b8]
+[2024-05-02 05:43:22] INFO root fetch - processPackages [hatch]: New version: [1rc6] Old Version: [1rc5]
+[2024-05-02 05:43:22] INFO root fetch - processPackages [odoo-addon-dms]: New version: [16.0.1.6.0.6] Old Version: [16.0.1.6.0.2]
+[2024-05-02 05:43:23] INFO root fetch - processPackages [kywy]: Downloading https://files.pythonhosted.org/packages/5a/35/d09681ca4dba675cb340afcda2294f700aa776e80bb79d04f8b902d66c14/kywy-0.18.0b8-py3-none-any.whl
+[2024-05-02 05:43:23] INFO root fetch - processPackages [hatch]: Downloading https://files.pythonhosted.org/packages/d3/16/5ffea665c4fb7585bdaa3ccb13ab625fc24a3389557bfb5836f9b6ed3bef/hatch-1rc5.tar.gz
+[2024-05-02 05:43:23] INFO root fetch - processPackages [odoo-addon-dms]: Downloading https://files.pythonhosted.org/packages/1f/a9/87fd5fa0ace846cf3e0fe989e3c7a924702cbfb0ac79b4cc0f2b4cafe176/odoo_addon_dms-16.0.1.6.0.2-py3-none-any.whl
+[2024-05-02 05:43:23] WARNING root fetch - processPackages [odoo-addon-dms]: Skipping package: exceeds size limit 15664706>=10485760
+[2024-05-02 05:43:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms] error
+[2024-05-02 05:43:23] INFO root fetch - processPackages [kywy]: Downloading https://files.pythonhosted.org/packages/9a/f8/24411333415c7d5a41eb0b9f0ad87d2cd2123835ebc09f94853b04aca91c/kywy-0.18.0b9-py3-none-any.whl
+[2024-05-02 05:43:23] INFO root fetch - processPackages [hatch]: Downloading https://files.pythonhosted.org/packages/bb/4f/0675ad9166256fdc3bf37af73068c11aed9af7855fbde4f6399ec1a687f9/hatch-1rc6.tar.gz
+[2024-05-02 05:43:23] INFO root fetch - processPackages [hatch]: executing diffoscope
+[2024-05-02 05:43:23] INFO root fetch - processPackages [hatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch-1rc5.tar.gz tmp/hatch-1rc6.tar.gz --markdown 20240502/h/hatch/1rc5-1rc6/README.md --exclude *.pyd
+[2024-05-02 05:43:23] INFO root fetch - processPackages [kywy]: executing diffoscope
+[2024-05-02 05:43:23] INFO root fetch - processPackages [kywy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kywy-0.18.0b8-py3-none-any.whl.zip tmp/kywy-0.18.0b9-py3-none-any.whl.zip --markdown 20240502/k/kywy/0.18.0b8-0.18.0b9/README.md --exclude *.pyd
+[2024-05-02 05:43:24] INFO root fetch - processPackages [kywy]: Remove: archive file [/home/abi/fetcher/tmp/kywy-0.18.0b8-py3-none-any.whl.zip]
+[2024-05-02 05:43:24] INFO root fetch - processPackages [kywy]: Remove: archive file [/home/abi/fetcher/tmp/kywy-0.18.0b9-py3-none-any.whl.zip]
+[2024-05-02 05:43:24] INFO root fetch - main [MainThread]: End processing [kywy]: success
+[2024-05-02 05:43:24] INFO root fetch - processPackages [hatch]: Remove: archive file [/home/abi/fetcher/tmp/hatch-1rc5.tar.gz]
+[2024-05-02 05:43:24] INFO root fetch - processPackages [hatch]: Remove: archive file [/home/abi/fetcher/tmp/hatch-1rc6.tar.gz]
+[2024-05-02 05:43:24] INFO root fetch - main [MainThread]: End processing [hatch]: success
+[2024-05-02 05:43:24] INFO root fetch - main [MainThread]: Store serial: [23026145]
