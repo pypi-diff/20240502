@@ -2600,3 +2600,27 @@
 [2024-05-02 02:39:52] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.43.tar.gz]
 [2024-05-02 02:39:52] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
 [2024-05-02 02:39:52] INFO root fetch - main [MainThread]: Store serial: [23023982]
+[2024-05-02 02:41:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023982]
+[2024-05-02 02:42:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 02:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wah
+[2024-05-02 02:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genomeshader
+[2024-05-02 02:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pingintel-api
+[2024-05-02 02:42:01] INFO root fetch - processPackages [genomeshader]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 02:42:01] WARNING root fetch - processPackages [pingintel-api]: Skipping, unable to determine old version
+[2024-05-02 02:42:01] INFO root fetch - main [MainThread]: End processing [pingintel-api] error
+[2024-05-02 02:42:01] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 02:42:01] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/1c/84/39f1662d319381705e811acf6c7854194d08e68e45c79d57c5a763bdc863/genomeshader-0.1.8.tar.gz
+[2024-05-02 02:42:01] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-02 02:42:01] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-02 02:42:01] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/99/48/90c7c052b1a65bbffd3e20c6f11964c9fc1a3dc182ef8de7c3611b26d473/genomeshader-0.1.9.tar.gz
+[2024-05-02 02:42:01] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-02 02:42:01] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240502/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 02:42:01] INFO root fetch - processPackages [genomeshader]: executing diffoscope
+[2024-05-02 02:42:01] INFO root fetch - processPackages [genomeshader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomeshader-0.1.8.tar.gz tmp/genomeshader-0.1.9.tar.gz --markdown 20240502/g/genomeshader/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 02:42:02] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-02 02:42:02] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-02 02:42:02] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-02 02:42:02] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.8.tar.gz]
+[2024-05-02 02:42:02] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.9.tar.gz]
+[2024-05-02 02:42:02] INFO root fetch - main [MainThread]: End processing [genomeshader]: success
+[2024-05-02 02:42:02] INFO root fetch - main [MainThread]: Store serial: [23023995]
