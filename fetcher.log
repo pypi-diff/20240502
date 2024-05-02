@@ -19043,3 +19043,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 14:10:12] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
 [2024-05-02 14:10:12] INFO root fetch - main [MainThread]: End processing [Mosek]: success
 [2024-05-02 14:10:12] INFO root fetch - main [MainThread]: Store serial: [23030540]
+[2024-05-02 14:12:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030540]
+[2024-05-02 14:12:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 14:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synch2jira
+[2024-05-02 14:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-inventory
+[2024-05-02 14:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dl2050utils
+[2024-05-02 14:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gmqtt
+[2024-05-02 14:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mip2
+[2024-05-02 14:12:23] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-02 14:12:23] INFO root fetch - processPackages [gmqtt]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-02 14:12:23] WARNING root fetch - processPackages [mip2]: Skipping, unable to determine old version
+[2024-05-02 14:12:23] INFO root fetch - main [MainThread]: End processing [mip2] error
+[2024-05-02 14:12:23] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-02 14:12:23] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-05-02 14:12:23] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-02 14:12:23] INFO root fetch - processPackages [gmqtt]: Downloading https://files.pythonhosted.org/packages/f6/78/f8cea82650658257fd732755e9b79fd536f1d00cc34cb4701acfee94d92a/gmqtt-0.6.8.tar.gz
+[2024-05-02 14:12:23] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-05-02 14:12:23] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-02 14:12:23] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2024-05-02 14:12:23] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-02 14:12:23] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240502/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-02 14:12:23] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-05-02 14:12:24] INFO root fetch - processPackages [gmqtt]: Downloading https://files.pythonhosted.org/packages/43/be/174d9e59993f76e1a9e142701be2d3cf10ea369a33492d4571873971cdf1/gmqtt-0.6.9.tar.gz
+[2024-05-02 14:12:24] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2024-05-02 14:12:24] INFO root fetch - processPackages [gmqtt]: executing diffoscope
+[2024-05-02 14:12:24] INFO root fetch - processPackages [gmqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmqtt-0.6.8.tar.gz tmp/gmqtt-0.6.9.tar.gz --markdown 20240502/g/gmqtt/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-02 14:12:24] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2024-05-02 14:12:24] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20240502/d/dl2050utils/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-02 14:12:24] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-05-02 14:12:24] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240502/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-05-02 14:12:24] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-02 14:12:24] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-02 14:12:24] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-02 14:12:24] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2024-05-02 14:12:24] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2024-05-02 14:12:24] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2024-05-02 14:12:24] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-05-02 14:12:24] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-05-02 14:12:24] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-05-02 14:12:25] INFO root fetch - processPackages [gmqtt]: Remove: archive file [/home/abi/fetcher/tmp/gmqtt-0.6.8.tar.gz]
+[2024-05-02 14:12:25] INFO root fetch - processPackages [gmqtt]: Remove: archive file [/home/abi/fetcher/tmp/gmqtt-0.6.9.tar.gz]
+[2024-05-02 14:12:25] INFO root fetch - main [MainThread]: End processing [gmqtt]: success
+[2024-05-02 14:12:25] INFO root fetch - main [MainThread]: Store serial: [23030558]
