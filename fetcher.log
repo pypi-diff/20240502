@@ -14920,3 +14920,63 @@
 [2024-05-02 11:24:28] INFO root fetch - processPackages [ohmyadmin]: Remove: archive file [/home/abi/fetcher/tmp/ohmyadmin-0.5.4.tar.gz]
 [2024-05-02 11:24:28] INFO root fetch - main [MainThread]: End processing [ohmyadmin]: success
 [2024-05-02 11:24:28] INFO root fetch - main [MainThread]: Store serial: [23028751]
+[2024-05-02 11:26:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028751]
+[2024-05-02 11:26:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decentriq-dcr-compiler
+[2024-05-02 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrappi
+[2024-05-02 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domeneshop
+[2024-05-02 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: git-cola
+[2024-05-02 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aissemble-extensions-model-training-api-sagemaker
+[2024-05-02 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tbp-nightly
+[2024-05-02 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-sdk
+[2024-05-02 11:26:38] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: New version: [1.7.0.dev1714641537] Old Version: [1.7.0.dev1714554917]
+[2024-05-02 11:26:38] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.79] Old Version: [2.1.77]
+[2024-05-02 11:26:38] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Downloading https://files.pythonhosted.org/packages/e6/82/5d795d65b5216f09ec285096763f6b882d2566d2c0d9589fe5a6887e53a8/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714554917.tar.gz
+[2024-05-02 11:26:38] WARNING root fetch - processPackages [scrappi]: Skipping, unable to determine old version
+[2024-05-02 11:26:38] INFO root fetch - main [MainThread]: End processing [scrappi] error
+[2024-05-02 11:26:38] INFO root fetch - processPackages [domeneshop]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-02 11:26:38] INFO root fetch - processPackages [decentriq-dcr-compiler]: New version: [0.7.0.dev3] Old Version: [0.7.0.dev2]
+[2024-05-02 11:26:38] INFO root fetch - processPackages [git-cola]: New version: [4.7.0] Old Version: [4.6.1]
+[2024-05-02 11:26:38] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-05-02 11:26:38] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/13/18/08f302c0fe5a2ec9360b8d33c659337521c762fd785151054be17f571650/lusid_sdk-2.1.77.tar.gz
+[2024-05-02 11:26:38] INFO root fetch - processPackages [domeneshop]: Downloading https://files.pythonhosted.org/packages/88/cf/0aa1a297a8aa7dab73c0237abc2eded350cccbf4a5857de904cceb408b00/domeneshop-0.4.3.tar.gz
+[2024-05-02 11:26:39] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Downloading https://files.pythonhosted.org/packages/35/2d/98412c343d72ffa1d41ee7670605c8dd4e2641ec6601761a6d37fde47975/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641537.tar.gz
+[2024-05-02 11:26:39] INFO root fetch - processPackages [git-cola]: Downloading https://files.pythonhosted.org/packages/21/13/24757dd737e347c4a528ee467568ad32b7afbca704e6e55945d2f7b9ddd6/git-cola-4.6.1.tar.gz
+[2024-05-02 11:26:39] INFO root fetch - processPackages [decentriq-dcr-compiler]: Downloading https://files.pythonhosted.org/packages/25/db/38fc3effbb44d53f76c66258746dd42a95c57fccfc16402e575015f2a8a4/decentriq_dcr_compiler-0.7.0.dev2-cp39-none-win_amd64.whl
+[2024-05-02 11:26:39] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-05-02 11:26:39] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: executing diffoscope
+[2024-05-02 11:26:39] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714554917.tar.gz tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641537.tar.gz --markdown 20240502/a/aissemble-extensions-model-training-api-sagemaker/1.7.0.dev1714554917-1.7.0.dev1714641537/README.md --exclude *.pyd
+[2024-05-02 11:26:39] INFO root fetch - processPackages [domeneshop]: Downloading https://files.pythonhosted.org/packages/30/e3/950aaa3a01b863ae72933afc0856a88484a01e9023dfaf07986b3b2bb867/domeneshop-0.4.4.tar.gz
+[2024-05-02 11:26:39] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/01/63/7b63e800db116bfdb6b4a667b3d8dc03d1a6d8f73d64f22b9cefaef514b7/lusid_sdk-2.1.79.tar.gz
+[2024-05-02 11:26:39] INFO root fetch - processPackages [domeneshop]: executing diffoscope
+[2024-05-02 11:26:39] INFO root fetch - processPackages [domeneshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domeneshop-0.4.3.tar.gz tmp/domeneshop-0.4.4.tar.gz --markdown 20240502/d/domeneshop/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-02 11:26:39] INFO root fetch - processPackages [git-cola]: Downloading https://files.pythonhosted.org/packages/28/af/8738ca984d5d5ec18a72fc7d950936d01ca3c186482bf05f11800e178bc0/git-cola-4.7.0.tar.gz
+[2024-05-02 11:26:39] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-02 11:26:39] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.77.tar.gz tmp/lusid_sdk-2.1.79.tar.gz --markdown 20240502/l/lusid-sdk/2.1.77-2.1.79/README.md --exclude *.pyd
+[2024-05-02 11:26:39] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714554917.tar.gz]
+[2024-05-02 11:26:39] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714641537.tar.gz]
+[2024-05-02 11:26:39] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-model-training-api-sagemaker]: success
+[2024-05-02 11:26:39] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-05-02 11:26:39] INFO root fetch - processPackages [git-cola]: executing diffoscope
+[2024-05-02 11:26:39] INFO root fetch - processPackages [git-cola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-cola-4.6.1.tar.gz tmp/git-cola-4.7.0.tar.gz --markdown 20240502/g/git-cola/4.6.1-4.7.0/README.md --exclude *.pyd
+[2024-05-02 11:26:39] INFO root fetch - processPackages [decentriq-dcr-compiler]: Downloading https://files.pythonhosted.org/packages/f0/f8/037dc288c0f0e74a186dd49d1db5468c054a3dd210ee8e1f19d456b51fd1/decentriq_dcr_compiler-0.7.0.dev3-cp39-none-win_amd64.whl
+[2024-05-02 11:26:40] INFO root fetch - processPackages [domeneshop]: Remove: archive file [/home/abi/fetcher/tmp/domeneshop-0.4.3.tar.gz]
+[2024-05-02 11:26:40] INFO root fetch - processPackages [domeneshop]: Remove: archive file [/home/abi/fetcher/tmp/domeneshop-0.4.4.tar.gz]
+[2024-05-02 11:26:40] INFO root fetch - main [MainThread]: End processing [domeneshop]: success
+[2024-05-02 11:26:40] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-05-02 11:26:40] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240502/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-05-02 11:26:40] INFO root fetch - processPackages [decentriq-dcr-compiler]: executing diffoscope
+[2024-05-02 11:26:40] INFO root fetch - processPackages [decentriq-dcr-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq_dcr_compiler-0.7.0.dev2-cp39-none-win_amd64.whl.zip tmp/decentriq_dcr_compiler-0.7.0.dev3-cp39-none-win_amd64.whl.zip --markdown 20240502/d/decentriq-dcr-compiler/0.7.0.dev2-0.7.0.dev3/README.md --exclude *.pyd
+[2024-05-02 11:26:41] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.7.0.dev2-cp39-none-win_amd64.whl.zip]
+[2024-05-02 11:26:41] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.7.0.dev3-cp39-none-win_amd64.whl.zip]
+[2024-05-02 11:26:41] INFO root fetch - main [MainThread]: End processing [decentriq-dcr-compiler]: success
+[2024-05-02 11:26:42] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-05-02 11:26:42] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-05-02 11:26:42] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-05-02 11:26:42] INFO root fetch - processPackages [git-cola]: Remove: archive file [/home/abi/fetcher/tmp/git-cola-4.6.1.tar.gz]
+[2024-05-02 11:26:42] INFO root fetch - processPackages [git-cola]: Remove: archive file [/home/abi/fetcher/tmp/git-cola-4.7.0.tar.gz]
+[2024-05-02 11:26:42] INFO root fetch - main [MainThread]: End processing [git-cola]: success
+[2024-05-02 11:26:44] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.77.tar.gz]
+[2024-05-02 11:26:44] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.79.tar.gz]
+[2024-05-02 11:26:44] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-02 11:26:44] INFO root fetch - main [MainThread]: Store serial: [23028813]
