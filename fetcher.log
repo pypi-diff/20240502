@@ -11971,3 +11971,60 @@
 [2024-05-02 09:41:45] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.1.26.tar.gz]
 [2024-05-02 09:41:45] INFO root fetch - main [MainThread]: End processing [VisionCraft]: success
 [2024-05-02 09:41:45] INFO root fetch - main [MainThread]: Store serial: [23027592]
+[2024-05-02 09:43:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027592]
+[2024-05-02 09:43:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agxclick
+[2024-05-02 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inuits-python-logging-loki
+[2024-05-02 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-ddmrp
+[2024-05-02 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openmetadata-ingestion
+[2024-05-02 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flightanalysis
+[2024-05-02 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ddmrp
+[2024-05-02 09:43:54] INFO root fetch - processPackages [flightanalysis]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-02 09:43:54] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [16.0.1.7.4] Old Version: [16.0.1.7.3.1]
+[2024-05-02 09:43:54] INFO root fetch - processPackages [agxclick]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-02 09:43:54] INFO root fetch - processPackages [inuits-python-logging-loki]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-02 09:43:54] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2024-05-02 09:43:54] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.4.0.0rc1] Old Version: [1.3.3.0rc2]
+[2024-05-02 09:43:54] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/29/cd/cd1ba1b1629554ff5edf6cdff5041191e5a12d331cb69a44edce4d4aa9b7/flightanalysis-0.2.6.tar.gz
+[2024-05-02 09:43:54] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/44/e1/17ba8a023b98004a2546d608d41148ae8d7e4842aebdbab90ffe71c70db5/odoo_addon_ddmrp-16.0.1.7.3.1-py3-none-any.whl
+[2024-05-02 09:43:54] INFO root fetch - processPackages [agxclick]: Downloading https://files.pythonhosted.org/packages/ae/7d/4c932996e4f508b24f06106ae951889cfc49acd15081b77aeb11dfc8d4e8/agxclick-0.3.1.tar.gz
+[2024-05-02 09:43:54] INFO root fetch - processPackages [inuits-python-logging-loki]: Downloading https://files.pythonhosted.org/packages/de/0c/d8ee32dd979271f109449af31c3cb1a1a051826e6af2f0b123eb93a5b569/inuits_python_logging_loki-1.2.0.tar.gz
+[2024-05-02 09:43:54] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/c0/0c/3fd3ea1757b54a2ebc201a633c1009fbdf52f784049c997845d6cce2c6f6/openmetadata-ingestion-1.3.3.0rc2.tar.gz
+[2024-05-02 09:43:54] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/92/c5/5cc91e541a0dfd7e1a564e2754c43b3bf8dad8a3f510617e8a7c737dd29e/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl
+[2024-05-02 09:43:54] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/77/c5/aa927b60c3757f72fbe136076d6a301fb6277a37800f3ba858e211e5391b/flightanalysis-0.2.7.tar.gz
+[2024-05-02 09:43:54] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/01/8f/143bac4eb140429277c3555f56a07dd24578f82d0c19c78610a3c6abcd19/odoo_addon_ddmrp-16.0.1.7.4-py3-none-any.whl
+[2024-05-02 09:43:55] INFO root fetch - processPackages [agxclick]: Downloading https://files.pythonhosted.org/packages/58/f4/f9aced2b0e24ec01af9b5dde9f313eec406a9464b021ff1655c445d0d450/agxclick-0.3.2.tar.gz
+[2024-05-02 09:43:55] INFO root fetch - processPackages [inuits-python-logging-loki]: Downloading https://files.pythonhosted.org/packages/db/f2/be7f325c17f55655c279ed0d6c376f5058b755c84b8665a8b2c5aa1a5914/inuits_python_logging_loki-1.2.1.tar.gz
+[2024-05-02 09:43:55] INFO root fetch - processPackages [flightanalysis]: executing diffoscope
+[2024-05-02 09:43:55] INFO root fetch - processPackages [flightanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightanalysis-0.2.6.tar.gz tmp/flightanalysis-0.2.7.tar.gz --markdown 20240502/f/flightanalysis/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-02 09:43:55] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/a7/d1/22ef0740726dfbca4de6bfa2934e55f2aebed812cd7c53d8beaf59db6304/openmetadata-ingestion-1.4.0.0rc1.tar.gz
+[2024-05-02 09:43:55] INFO root fetch - processPackages [agxclick]: executing diffoscope
+[2024-05-02 09:43:55] INFO root fetch - processPackages [agxclick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agxclick-0.3.1.tar.gz tmp/agxclick-0.3.2.tar.gz --markdown 20240502/a/agxclick/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-02 09:43:55] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2024-05-02 09:43:55] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-16.0.1.7.3.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-16.0.1.7.4-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-ddmrp/16.0.1.7.3.1-16.0.1.7.4/README.md --exclude *.pyd
+[2024-05-02 09:43:55] INFO root fetch - processPackages [inuits-python-logging-loki]: executing diffoscope
+[2024-05-02 09:43:55] INFO root fetch - processPackages [inuits-python-logging-loki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inuits_python_logging_loki-1.2.0.tar.gz tmp/inuits_python_logging_loki-1.2.1.tar.gz --markdown 20240502/i/inuits-python-logging-loki/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-02 09:43:55] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/47/ef/92f082c955236c0b4ec84ba6f9e93d400901d2b87e31d1399f2d4e310029/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl
+[2024-05-02 09:43:55] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2024-05-02 09:43:55] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.3.3.0rc2.tar.gz tmp/openmetadata-ingestion-1.4.0.0rc1.tar.gz --markdown 20240502/o/openmetadata-ingestion/1.3.3.0rc2-1.4.0.0rc1/README.md --exclude *.pyd
+[2024-05-02 09:43:55] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2024-05-02 09:43:55] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20240502/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-02 09:43:55] INFO root fetch - processPackages [inuits-python-logging-loki]: Remove: archive file [/home/abi/fetcher/tmp/inuits_python_logging_loki-1.2.0.tar.gz]
+[2024-05-02 09:43:55] INFO root fetch - processPackages [inuits-python-logging-loki]: Remove: archive file [/home/abi/fetcher/tmp/inuits_python_logging_loki-1.2.1.tar.gz]
+[2024-05-02 09:43:55] INFO root fetch - main [MainThread]: End processing [inuits-python-logging-loki]: success
+[2024-05-02 09:43:56] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.2.6.tar.gz]
+[2024-05-02 09:43:56] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.2.7.tar.gz]
+[2024-05-02 09:43:56] INFO root fetch - main [MainThread]: End processing [flightanalysis]: success
+[2024-05-02 09:43:56] INFO root fetch - processPackages [agxclick]: Remove: archive file [/home/abi/fetcher/tmp/agxclick-0.3.1.tar.gz]
+[2024-05-02 09:43:56] INFO root fetch - processPackages [agxclick]: Remove: archive file [/home/abi/fetcher/tmp/agxclick-0.3.2.tar.gz]
+[2024-05-02 09:43:56] INFO root fetch - main [MainThread]: End processing [agxclick]: success
+[2024-05-02 09:43:56] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.7.3.1-py3-none-any.whl.zip]
+[2024-05-02 09:43:56] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.7.4-py3-none-any.whl.zip]
+[2024-05-02 09:43:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2024-05-02 09:43:56] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-05-02 09:43:56] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2024-05-02 09:43:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2024-05-02 09:44:04] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.3.3.0rc2.tar.gz]
+[2024-05-02 09:44:04] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.4.0.0rc1.tar.gz]
+[2024-05-02 09:44:04] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2024-05-02 09:44:04] INFO root fetch - main [MainThread]: Store serial: [23027608]
