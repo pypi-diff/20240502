@@ -11559,3 +11559,60 @@
 [2024-05-02 09:24:05] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.4.5rc0.tar.gz]
 [2024-05-02 09:24:05] INFO root fetch - main [MainThread]: End processing [dalpha]: success
 [2024-05-02 09:24:05] INFO root fetch - main [MainThread]: Store serial: [23027386]
+[2024-05-02 09:26:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027386]
+[2024-05-02 09:26:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agent-bdi
+[2024-05-02 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-manager
+[2024-05-02 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrapegraphai
+[2024-05-02 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nginx-set-conf-equitania
+[2024-05-02 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gddoc2yml
+[2024-05-02 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sage-lib
+[2024-05-02 09:26:15] INFO root fetch - processPackages [torch-model-manager]: New version: [0.2.0] Old Version: [0.1.0.dev9]
+[2024-05-02 09:26:15] INFO root fetch - processPackages [scrapegraphai]: New version: [0.5.1] Old Version: [0.5.0b7]
+[2024-05-02 09:26:15] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/f9/03/543213763197d03caf2e7fb8eca97561e33afefba35bce06d52ce6aa8232/torch_model_manager-0.1.0.dev9.tar.gz
+[2024-05-02 09:26:15] INFO root fetch - processPackages [agent-bdi]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-05-02 09:26:15] INFO root fetch - processPackages [gddoc2yml]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-02 09:26:15] INFO root fetch - processPackages [nginx-set-conf-equitania]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-02 09:26:15] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/05/f8/4fcfbdee56331fc2b6908da72122da110a5d935e67f0481b55fa72bf8d89/scrapegraphai-0.5.0b7.tar.gz
+[2024-05-02 09:26:15] INFO root fetch - processPackages [sage-lib]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2024-05-02 09:26:15] INFO root fetch - processPackages [agent-bdi]: Downloading https://files.pythonhosted.org/packages/f7/35/82c652ba860bc346a6711b1058bc3f4aa29a32664c74d3c24bcb289b1c8d/agent-bdi-2.4.1.tar.gz
+[2024-05-02 09:26:15] INFO root fetch - processPackages [gddoc2yml]: Downloading https://files.pythonhosted.org/packages/af/d9/b4824aeb4ae47f46f779389809384ab0965708dfe4f5407af07da26e5446/gddoc2yml-0.0.1.tar.gz
+[2024-05-02 09:26:15] INFO root fetch - processPackages [nginx-set-conf-equitania]: Downloading https://files.pythonhosted.org/packages/7c/cf/be6f0470d98ea565fe53c15ffdd65b03df8c3ac7b429c3cde44f5d84a8ff/nginx-set-conf-equitania-0.9.7.tar.gz
+[2024-05-02 09:26:16] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/d8/36/8336c07cf05cc134b5135cb7218b6d083d68321e82b592ca5d53497f236f/torch_model_manager-0.2.0.tar.gz
+[2024-05-02 09:26:16] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/0c/1f/00eb35df49893269d3a67a24076f2fa665c50056f0ab1d92180c8fe0f343/sage_lib-0.1.4.8.tar.gz
+[2024-05-02 09:26:16] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/83/d2/05dc58256ed1fe2adb9c3b1742705486c21f667771f4c9fdfc89a2b2fad9/scrapegraphai-0.5.1.tar.gz
+[2024-05-02 09:26:16] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-02 09:26:16] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.1.0.dev9.tar.gz tmp/torch_model_manager-0.2.0.tar.gz --markdown 20240502/t/torch-model-manager/0.1.0.dev9-0.2.0/README.md --exclude *.pyd
+[2024-05-02 09:26:16] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-02 09:26:16] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.5.0b7.tar.gz tmp/scrapegraphai-0.5.1.tar.gz --markdown 20240502/s/scrapegraphai/0.5.0b7-0.5.1/README.md --exclude *.pyd
+[2024-05-02 09:26:16] INFO root fetch - processPackages [agent-bdi]: Downloading https://files.pythonhosted.org/packages/8c/fc/cab05961bf749953c2c1f0b6c08ff3ede661494c57f5500f66aa45473d0a/agent-bdi-2.4.2.tar.gz
+[2024-05-02 09:26:16] INFO root fetch - processPackages [nginx-set-conf-equitania]: Downloading https://files.pythonhosted.org/packages/fe/e5/a757d99ebc4c3bfd2b9409032fa4b65d99bb2a418278314acc32e43e5c05/nginx-set-conf-equitania-0.9.8.tar.gz
+[2024-05-02 09:26:16] INFO root fetch - processPackages [agent-bdi]: executing diffoscope
+[2024-05-02 09:26:16] INFO root fetch - processPackages [agent-bdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent-bdi-2.4.1.tar.gz tmp/agent-bdi-2.4.2.tar.gz --markdown 20240502/a/agent-bdi/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-05-02 09:26:16] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/47/e4/6aefb4d16c81a0b7b546cadb557484d6d521dc93ce41bd491e80060443d4/sage_lib-0.1.4.9.tar.gz
+[2024-05-02 09:26:16] INFO root fetch - processPackages [gddoc2yml]: Downloading https://files.pythonhosted.org/packages/f1/ea/af41aecbf82d52da476e0e4abfa0a96a606437e4839d167b70519514dbf5/gddoc2yml-0.1.0.tar.gz
+[2024-05-02 09:26:16] INFO root fetch - processPackages [nginx-set-conf-equitania]: executing diffoscope
+[2024-05-02 09:26:16] INFO root fetch - processPackages [nginx-set-conf-equitania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nginx-set-conf-equitania-0.9.7.tar.gz tmp/nginx-set-conf-equitania-0.9.8.tar.gz --markdown 20240502/n/nginx-set-conf-equitania/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-02 09:26:16] INFO root fetch - processPackages [gddoc2yml]: executing diffoscope
+[2024-05-02 09:26:16] INFO root fetch - processPackages [gddoc2yml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gddoc2yml-0.0.1.tar.gz tmp/gddoc2yml-0.1.0.tar.gz --markdown 20240502/g/gddoc2yml/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-02 09:26:16] INFO root fetch - processPackages [sage-lib]: executing diffoscope
+[2024-05-02 09:26:16] INFO root fetch - processPackages [sage-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage_lib-0.1.4.8.tar.gz tmp/sage_lib-0.1.4.9.tar.gz --markdown 20240502/s/sage-lib/0.1.4.8-0.1.4.9/README.md --exclude *.pyd
+[2024-05-02 09:26:16] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev9.tar.gz]
+[2024-05-02 09:26:16] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.tar.gz]
+[2024-05-02 09:26:16] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-02 09:26:17] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.5.0b7.tar.gz]
+[2024-05-02 09:26:17] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.5.1.tar.gz]
+[2024-05-02 09:26:17] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-02 09:26:17] INFO root fetch - processPackages [agent-bdi]: Remove: archive file [/home/abi/fetcher/tmp/agent-bdi-2.4.1.tar.gz]
+[2024-05-02 09:26:17] INFO root fetch - processPackages [agent-bdi]: Remove: archive file [/home/abi/fetcher/tmp/agent-bdi-2.4.2.tar.gz]
+[2024-05-02 09:26:17] INFO root fetch - main [MainThread]: End processing [agent-bdi]: success
+[2024-05-02 09:26:17] INFO root fetch - processPackages [nginx-set-conf-equitania]: Remove: archive file [/home/abi/fetcher/tmp/nginx-set-conf-equitania-0.9.7.tar.gz]
+[2024-05-02 09:26:17] INFO root fetch - processPackages [nginx-set-conf-equitania]: Remove: archive file [/home/abi/fetcher/tmp/nginx-set-conf-equitania-0.9.8.tar.gz]
+[2024-05-02 09:26:17] INFO root fetch - main [MainThread]: End processing [nginx-set-conf-equitania]: success
+[2024-05-02 09:26:17] INFO root fetch - processPackages [gddoc2yml]: Remove: archive file [/home/abi/fetcher/tmp/gddoc2yml-0.0.1.tar.gz]
+[2024-05-02 09:26:17] INFO root fetch - processPackages [gddoc2yml]: Remove: archive file [/home/abi/fetcher/tmp/gddoc2yml-0.1.0.tar.gz]
+[2024-05-02 09:26:17] INFO root fetch - main [MainThread]: End processing [gddoc2yml]: success
+[2024-05-02 09:26:17] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.4.8.tar.gz]
+[2024-05-02 09:26:17] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.4.9.tar.gz]
+[2024-05-02 09:26:17] INFO root fetch - main [MainThread]: End processing [sage-lib]: success
+[2024-05-02 09:26:17] INFO root fetch - main [MainThread]: Store serial: [23027401]
