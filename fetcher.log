@@ -13362,3 +13362,45 @@
 [2024-05-02 10:28:00] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
 [2024-05-02 10:28:00] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-05-02 10:28:00] INFO root fetch - main [MainThread]: Store serial: [23028121]
+[2024-05-02 10:30:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028121]
+[2024-05-02 10:30:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 10:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pelage
+[2024-05-02 10:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-labtest
+[2024-05-02 10:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytabtex
+[2024-05-02 10:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: justai
+[2024-05-02 10:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumiverse-doppler
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pytabtex]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pulumiverse-doppler]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-02 10:30:10] WARNING root fetch - processPackages [flask-labtest]: Skipping, unable to determine old version
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pulumiverse-doppler]: Downloading https://files.pythonhosted.org/packages/fc/e7/38957687ea0c8e669606c3d700cf26160e176ecfba3c82359ad4a9e02e52/pulumiverse_doppler-0.5.0.tar.gz
+[2024-05-02 10:30:10] INFO root fetch - main [MainThread]: End processing [flask-labtest] error
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pelage]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 10:30:10] INFO root fetch - processPackages [justai]: New version: [3.3.1] Old Version: [3.2.9]
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pelage]: Downloading https://files.pythonhosted.org/packages/f2/27/cfeed6049056fe8a773ce321d2c6e214c242e49e2252b40e217d4e7a0e28/pelage-0.1.8.tar.gz
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pytabtex]: Downloading https://files.pythonhosted.org/packages/d4/33/f964ab15d401c996ddabb4813930c1e4211fe7d10d713a671488a9e27edb/pytabtex-0.1.tar.gz
+[2024-05-02 10:30:10] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/39/22/673498b888a84e317dfd091c347ab6c4ed0eecac5458d8d414d695860d93/justai-3.2.9.tar.gz
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pulumiverse-doppler]: Downloading https://files.pythonhosted.org/packages/74/11/82177dfbc274d9fd794ce51f970846fd56299c6874e405adcc621611391d/pulumiverse_doppler-0.6.0.tar.gz
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pelage]: Downloading https://files.pythonhosted.org/packages/6c/9f/d33c7fb321675d5eab921ab5499a5289de7228871df29b30813372786d04/pelage-0.1.9.tar.gz
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pytabtex]: Downloading https://files.pythonhosted.org/packages/e5/c5/892b93c7ca51800ee2ea6f34a3e009628d7c3fdc14c62bf315832d3f1270/pytabtex-0.1.1.tar.gz
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pulumiverse-doppler]: executing diffoscope
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pulumiverse-doppler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_doppler-0.5.0.tar.gz tmp/pulumiverse_doppler-0.6.0.tar.gz --markdown 20240502/p/pulumiverse-doppler/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pelage]: executing diffoscope
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pelage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelage-0.1.8.tar.gz tmp/pelage-0.1.9.tar.gz --markdown 20240502/p/pelage/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 10:30:10] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/9e/ff/c3e630c7cddc3fadd7162d7b4c9f7c3fac0d1ea0c91f9631be1acbfd2db7/justai-3.3.1.tar.gz
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pytabtex]: executing diffoscope
+[2024-05-02 10:30:10] INFO root fetch - processPackages [pytabtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytabtex-0.1.tar.gz tmp/pytabtex-0.1.1.tar.gz --markdown 20240502/p/pytabtex/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-02 10:30:11] INFO root fetch - processPackages [justai]: executing diffoscope
+[2024-05-02 10:30:11] INFO root fetch - processPackages [justai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justai-3.2.9.tar.gz tmp/justai-3.3.1.tar.gz --markdown 20240502/j/justai/3.2.9-3.3.1/README.md --exclude *.pyd
+[2024-05-02 10:30:11] INFO root fetch - processPackages [pelage]: Remove: archive file [/home/abi/fetcher/tmp/pelage-0.1.8.tar.gz]
+[2024-05-02 10:30:11] INFO root fetch - processPackages [pelage]: Remove: archive file [/home/abi/fetcher/tmp/pelage-0.1.9.tar.gz]
+[2024-05-02 10:30:11] INFO root fetch - main [MainThread]: End processing [pelage]: success
+[2024-05-02 10:30:11] INFO root fetch - processPackages [pytabtex]: Remove: archive file [/home/abi/fetcher/tmp/pytabtex-0.1.tar.gz]
+[2024-05-02 10:30:11] INFO root fetch - processPackages [pytabtex]: Remove: archive file [/home/abi/fetcher/tmp/pytabtex-0.1.1.tar.gz]
+[2024-05-02 10:30:11] INFO root fetch - main [MainThread]: End processing [pytabtex]: success
+[2024-05-02 10:30:11] INFO root fetch - processPackages [pulumiverse-doppler]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_doppler-0.5.0.tar.gz]
+[2024-05-02 10:30:11] INFO root fetch - processPackages [pulumiverse-doppler]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_doppler-0.6.0.tar.gz]
+[2024-05-02 10:30:11] INFO root fetch - main [MainThread]: End processing [pulumiverse-doppler]: success
+[2024-05-02 10:30:11] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.2.9.tar.gz]
+[2024-05-02 10:30:11] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.3.1.tar.gz]
+[2024-05-02 10:30:11] INFO root fetch - main [MainThread]: End processing [justai]: success
+[2024-05-02 10:30:11] INFO root fetch - main [MainThread]: Store serial: [23028137]
