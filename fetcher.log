@@ -8525,3 +8525,60 @@
 [2024-05-02 05:54:10] INFO root fetch - processPackages [unix-perms]: Remove: archive file [/home/abi/fetcher/tmp/unix_perms-0.2.0.tar.gz]
 [2024-05-02 05:54:10] INFO root fetch - main [MainThread]: End processing [unix-perms]: success
 [2024-05-02 05:54:10] INFO root fetch - main [MainThread]: Store serial: [23026169]
+[2024-05-02 05:56:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026169]
+[2024-05-02 05:56:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 05:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-somfy
+[2024-05-02 05:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gable
+[2024-05-02 05:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: daffodil
+[2024-05-02 05:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: surfkit
+[2024-05-02 05:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: khoj-assistant
+[2024-05-02 05:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-event-mail
+[2024-05-02 05:56:19] INFO root fetch - processPackages [python-somfy]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-02 05:56:19] INFO root fetch - processPackages [gable]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2024-05-02 05:56:19] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-02 05:56:19] INFO root fetch - processPackages [surfkit]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-02 05:56:19] INFO root fetch - processPackages [odoo14-addon-event-mail]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2024-05-02 05:56:19] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-02 05:56:19] INFO root fetch - processPackages [daffodil]: New version: [0.4.2] Old Version: [0.3.0]
+[2024-05-02 05:56:19] INFO root fetch - processPackages [python-somfy]: Downloading https://files.pythonhosted.org/packages/bd/98/46ac876a42ef089463e2c0a5db4651ce20abd26c606fb2ba30b20b7b97b5/python_somfy-1.1.0.tar.gz
+[2024-05-02 05:56:19] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/3c/25/205ee4d565d0bf0f974e4b429be2eb6f978c964647c940357bfa9601db85/gable-0.9.0a2.tar.gz
+[2024-05-02 05:56:19] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c2/e4/d9d6efb4013a22047e07b2174dc8716a86fe2b3fe0652e6e1edddbde177b/surfkit-0.1.98.tar.gz
+[2024-05-02 05:56:20] INFO root fetch - processPackages [odoo14-addon-event-mail]: Downloading https://files.pythonhosted.org/packages/99/a4/05e8ef7512d2567b89560789fa3b50db24655005b0adf9f447ec7812b6ec/odoo14_addon_event_mail-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-05-02 05:56:20] INFO root fetch - processPackages [daffodil]: Downloading https://files.pythonhosted.org/packages/64/00/807ff56e4c9b96d3fe3b339eca8eeb11b87cf7f4222ab317fce7de5bfe7b/daffodil-0.3.0.tar.gz
+[2024-05-02 05:56:20] INFO root fetch - processPackages [python-somfy]: Downloading https://files.pythonhosted.org/packages/4c/66/cc098d13ad62ab07acfeeaeafe053821d416779f18bac013077119928841/python_somfy-1.1.1.tar.gz
+[2024-05-02 05:56:20] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/df/19/7ed3e403c062cfa539ddfa26caecd22d3365e387d62ab3f2a6db2e30ac8a/gable-0.9.0a3.tar.gz
+[2024-05-02 05:56:20] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/65/a8/bfc822b58240522d18c4cf24a25a6f2476da037058406af11377393fa476/surfkit-0.1.99.tar.gz
+[2024-05-02 05:56:20] INFO root fetch - processPackages [python-somfy]: executing diffoscope
+[2024-05-02 05:56:20] INFO root fetch - processPackages [python-somfy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_somfy-1.1.0.tar.gz tmp/python_somfy-1.1.1.tar.gz --markdown 20240502/p/python-somfy/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-02 05:56:20] INFO root fetch - processPackages [gable]: executing diffoscope
+[2024-05-02 05:56:20] INFO root fetch - processPackages [gable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gable-0.9.0a2.tar.gz tmp/gable-0.9.0a3.tar.gz --markdown 20240502/g/gable/0.9.0a2-0.9.0a3/README.md --exclude *.pyd
+[2024-05-02 05:56:20] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-02 05:56:20] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.98.tar.gz tmp/surfkit-0.1.99.tar.gz --markdown 20240502/s/surfkit/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-02 05:56:20] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-02 05:56:20] INFO root fetch - processPackages [odoo14-addon-event-mail]: Downloading https://files.pythonhosted.org/packages/99/f4/2c00fe5da141bbc1462e78d41ff5ea90966875f7b92ab9d8970717b8d87e/odoo14_addon_event_mail-14.0.1.0.1.dev9-py3-none-any.whl
+[2024-05-02 05:56:20] INFO root fetch - processPackages [daffodil]: Downloading https://files.pythonhosted.org/packages/ee/30/9e2b527795a3a4d3fbb0e1ddcf1d24c7ded6f801cd4b7107625153bda639/daffodil-0.4.2.tar.gz
+[2024-05-02 05:56:20] INFO root fetch - processPackages [daffodil]: executing diffoscope
+[2024-05-02 05:56:20] INFO root fetch - processPackages [daffodil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daffodil-0.3.0.tar.gz tmp/daffodil-0.4.2.tar.gz --markdown 20240502/d/daffodil/0.3.0-0.4.2/README.md --exclude *.pyd
+[2024-05-02 05:56:20] INFO root fetch - processPackages [odoo14-addon-event-mail]: executing diffoscope
+[2024-05-02 05:56:20] INFO root fetch - processPackages [odoo14-addon-event-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_event_mail-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_event_mail-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240502/o/odoo14-addon-event-mail/14.0.1.0.1.dev8-14.0.1.0.1.dev9/README.md --exclude *.pyd
+[2024-05-02 05:56:20] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-02 05:56:20] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240502/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-02 05:56:20] INFO root fetch - processPackages [python-somfy]: Remove: archive file [/home/abi/fetcher/tmp/python_somfy-1.1.0.tar.gz]
+[2024-05-02 05:56:20] INFO root fetch - processPackages [python-somfy]: Remove: archive file [/home/abi/fetcher/tmp/python_somfy-1.1.1.tar.gz]
+[2024-05-02 05:56:20] INFO root fetch - main [MainThread]: End processing [python-somfy]: success
+[2024-05-02 05:56:21] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a2.tar.gz]
+[2024-05-02 05:56:21] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a3.tar.gz]
+[2024-05-02 05:56:21] INFO root fetch - main [MainThread]: End processing [gable]: success
+[2024-05-02 05:56:21] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.98.tar.gz]
+[2024-05-02 05:56:21] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
+[2024-05-02 05:56:21] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-02 05:56:21] INFO root fetch - processPackages [odoo14-addon-event-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_event_mail-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-05-02 05:56:21] INFO root fetch - processPackages [odoo14-addon-event-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_event_mail-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-05-02 05:56:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-event-mail]: success
+[2024-05-02 05:56:21] INFO root fetch - processPackages [daffodil]: Remove: archive file [/home/abi/fetcher/tmp/daffodil-0.3.0.tar.gz]
+[2024-05-02 05:56:21] INFO root fetch - processPackages [daffodil]: Remove: archive file [/home/abi/fetcher/tmp/daffodil-0.4.2.tar.gz]
+[2024-05-02 05:56:21] INFO root fetch - main [MainThread]: End processing [daffodil]: success
+[2024-05-02 05:56:22] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-02 05:56:22] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-02 05:56:22] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-02 05:56:22] INFO root fetch - main [MainThread]: Store serial: [23026186]
