@@ -11932,3 +11932,42 @@
 [2024-05-02 09:39:34] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.0.3-py3-none-any.whl.zip]
 [2024-05-02 09:39:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
 [2024-05-02 09:39:34] INFO root fetch - main [MainThread]: Store serial: [23027581]
+[2024-05-02 09:41:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027581]
+[2024-05-02 09:41:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 09:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiproxy-python
+[2024-05-02 09:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PREN-flawas
+[2024-05-02 09:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VisionCraft
+[2024-05-02 09:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pclick
+[2024-05-02 09:41:43] INFO root fetch - processPackages [aiproxy-python]: New version: [0.4.0] Old Version: [0.3.6]
+[2024-05-02 09:41:43] INFO root fetch - processPackages [VisionCraft]: New version: [0.1.26] Old Version: [0.1.25]
+[2024-05-02 09:41:43] INFO root fetch - processPackages [pclick]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-02 09:41:43] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 09:41:43] INFO root fetch - processPackages [aiproxy-python]: Downloading https://files.pythonhosted.org/packages/41/1e/c5092a5cb8d3a23464c5c4eaab1c7cc20252e82151af32dff8224b2e26a7/aiproxy_python-0.3.6-py3-none-any.whl
+[2024-05-02 09:41:43] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/2d/3c/c472ebf23e1f526dc138a2fc8a3aefe96c93a4c1a6f8b778efe6601fde06/VisionCraft-0.1.25.tar.gz
+[2024-05-02 09:41:43] INFO root fetch - processPackages [pclick]: Downloading https://files.pythonhosted.org/packages/66/a9/22f8476f1249de77bbb713a15854fece62d1779c39e12def14f9a751eb48/pclick-0.3.1.tar.gz
+[2024-05-02 09:41:43] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-02 09:41:43] INFO root fetch - processPackages [aiproxy-python]: Downloading https://files.pythonhosted.org/packages/65/ee/ab29b3ed99513f10477cbf3576e94422cd8c9103edadeba5f8e3eb2c108b/aiproxy_python-0.4.0-py3-none-any.whl
+[2024-05-02 09:41:43] INFO root fetch - processPackages [aiproxy-python]: executing diffoscope
+[2024-05-02 09:41:43] INFO root fetch - processPackages [aiproxy-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiproxy_python-0.3.6-py3-none-any.whl.zip tmp/aiproxy_python-0.4.0-py3-none-any.whl.zip --markdown 20240502/a/aiproxy-python/0.3.6-0.4.0/README.md --exclude *.pyd
+[2024-05-02 09:41:43] INFO root fetch - processPackages [pclick]: Downloading https://files.pythonhosted.org/packages/bc/e0/8e5152e5f05531e0013e2ba36decb0cb3b278f08c404975f044cbb027767/pclick-0.3.2.tar.gz
+[2024-05-02 09:41:43] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/41/32/d26ce58c9e17b77a211700769d41ffe1d3f1cc89ee42f471dd50215c37c7/VisionCraft-0.1.26.tar.gz
+[2024-05-02 09:41:43] INFO root fetch - processPackages [pclick]: executing diffoscope
+[2024-05-02 09:41:43] INFO root fetch - processPackages [pclick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pclick-0.3.1.tar.gz tmp/pclick-0.3.2.tar.gz --markdown 20240502/p/pclick/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-02 09:41:44] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-02 09:41:44] INFO root fetch - processPackages [aiproxy-python]: Remove: archive file [/home/abi/fetcher/tmp/aiproxy_python-0.3.6-py3-none-any.whl.zip]
+[2024-05-02 09:41:44] INFO root fetch - processPackages [aiproxy-python]: Remove: archive file [/home/abi/fetcher/tmp/aiproxy_python-0.4.0-py3-none-any.whl.zip]
+[2024-05-02 09:41:44] INFO root fetch - main [MainThread]: End processing [aiproxy-python]: success
+[2024-05-02 09:41:44] INFO root fetch - processPackages [VisionCraft]: executing diffoscope
+[2024-05-02 09:41:44] INFO root fetch - processPackages [VisionCraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionCraft-0.1.25.tar.gz tmp/VisionCraft-0.1.26.tar.gz --markdown 20240502/V/VisionCraft/0.1.25-0.1.26/README.md --exclude *.pyd
+[2024-05-02 09:41:44] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-02 09:41:44] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240502/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 09:41:44] INFO root fetch - processPackages [pclick]: Remove: archive file [/home/abi/fetcher/tmp/pclick-0.3.1.tar.gz]
+[2024-05-02 09:41:44] INFO root fetch - processPackages [pclick]: Remove: archive file [/home/abi/fetcher/tmp/pclick-0.3.2.tar.gz]
+[2024-05-02 09:41:44] INFO root fetch - main [MainThread]: End processing [pclick]: success
+[2024-05-02 09:41:45] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-02 09:41:45] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-02 09:41:45] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-02 09:41:45] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.1.25.tar.gz]
+[2024-05-02 09:41:45] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.1.26.tar.gz]
+[2024-05-02 09:41:45] INFO root fetch - main [MainThread]: End processing [VisionCraft]: success
+[2024-05-02 09:41:45] INFO root fetch - main [MainThread]: Store serial: [23027592]
