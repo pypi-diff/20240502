@@ -2273,3 +2273,38 @@
 [2024-05-02 02:20:12] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
 [2024-05-02 02:20:12] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
 [2024-05-02 02:20:12] INFO root fetch - main [MainThread]: Store serial: [23023823]
+[2024-05-02 02:22:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023823]
+[2024-05-02 02:22:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 02:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.cdk-ethereum-node
+[2024-05-02 02:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-cr-constructs
+[2024-05-02 02:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odhpy
+[2024-05-02 02:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amaazetools
+[2024-05-02 02:22:21] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.442] Old Version: [2.1.441]
+[2024-05-02 02:22:21] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-02 02:22:21] INFO root fetch - processPackages [odhpy]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-02 02:22:21] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/17/a0/c5e488c99afb9af724085c096f45bfd30fd0d055eb934a1b2340a632f870/cdk-cr-constructs-2.1.441.tar.gz
+[2024-05-02 02:22:21] INFO root fetch - processPackages [amaazetools]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 02:22:21] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15165380>=10485760
+[2024-05-02 02:22:21] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-05-02 02:22:21] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-05-02 02:22:22] INFO root fetch - processPackages [odhpy]: Downloading https://files.pythonhosted.org/packages/c5/0c/6066e70ab8c722cab00a3208b45cb82ef4b2603ca6d17108723346df27c8/odhpy-0.1.0.tar.gz
+[2024-05-02 02:22:22] INFO root fetch - processPackages [amaazetools]: Downloading https://files.pythonhosted.org/packages/14/14/8ebc4557e97539b296a478f854a0d99cbb7694e5a07d4d422a603d76f246/amaazetools-0.1.1.tar.gz
+[2024-05-02 02:22:22] INFO root fetch - processPackages [odhpy]: Downloading https://files.pythonhosted.org/packages/72/80/1666095cc416fc713a8537483389c474a57dc3945ed6ec17062118c1286f/odhpy-0.2.0.tar.gz
+[2024-05-02 02:22:22] INFO root fetch - processPackages [amaazetools]: Downloading https://files.pythonhosted.org/packages/fa/e7/14cb8b7759e92a04712ad17f7290dd775bf9f3e5f3da59d09915fc12af2a/amaazetools-0.1.2.tar.gz
+[2024-05-02 02:22:22] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-05-02 02:22:22] INFO root fetch - processPackages [odhpy]: executing diffoscope
+[2024-05-02 02:22:22] INFO root fetch - processPackages [odhpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odhpy-0.1.0.tar.gz tmp/odhpy-0.2.0.tar.gz --markdown 20240502/o/odhpy/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-02 02:22:22] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-05-02 02:22:22] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240502/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-02 02:22:22] INFO root fetch - processPackages [amaazetools]: executing diffoscope
+[2024-05-02 02:22:22] INFO root fetch - processPackages [amaazetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amaazetools-0.1.1.tar.gz tmp/amaazetools-0.1.2.tar.gz --markdown 20240502/a/amaazetools/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 02:22:23] INFO root fetch - processPackages [odhpy]: Remove: archive file [/home/abi/fetcher/tmp/odhpy-0.1.0.tar.gz]
+[2024-05-02 02:22:23] INFO root fetch - processPackages [odhpy]: Remove: archive file [/home/abi/fetcher/tmp/odhpy-0.2.0.tar.gz]
+[2024-05-02 02:22:23] INFO root fetch - main [MainThread]: End processing [odhpy]: success
+[2024-05-02 02:22:23] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-05-02 02:22:23] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-05-02 02:22:23] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-05-02 02:22:23] INFO root fetch - processPackages [amaazetools]: Remove: archive file [/home/abi/fetcher/tmp/amaazetools-0.1.1.tar.gz]
+[2024-05-02 02:22:23] INFO root fetch - processPackages [amaazetools]: Remove: archive file [/home/abi/fetcher/tmp/amaazetools-0.1.2.tar.gz]
+[2024-05-02 02:22:23] INFO root fetch - main [MainThread]: End processing [amaazetools]: success
+[2024-05-02 02:22:23] INFO root fetch - main [MainThread]: Store serial: [23023839]
