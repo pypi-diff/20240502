@@ -12985,3 +12985,40 @@
 [2024-05-02 10:14:45] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.2.1.tar.gz]
 [2024-05-02 10:14:45] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
 [2024-05-02 10:14:45] INFO root fetch - main [MainThread]: Store serial: [23027973]
+[2024-05-02 10:16:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027973]
+[2024-05-02 10:16:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 10:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-declarative-manifest
+[2024-05-02 10:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python_dev_utils
+[2024-05-02 10:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aissemble-foundation-core-python
+[2024-05-02 10:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissemble-foundation-core-python
+[2024-05-02 10:16:55] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: New version: [0.86.1] Old Version: [0.86.0]
+[2024-05-02 10:16:55] INFO root fetch - processPackages [python_dev_utils]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-05-02 10:16:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: New version: [1.7.0.dev1714637767] Old Version: [1.7.0.dev1714637764]
+[2024-05-02 10:16:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: New version: [1.7.0.dev1714637767] Old Version: [1.7.0.dev1714637764]
+[2024-05-02 10:16:55] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/35/09/032bca3dc2a69e12d27e687e1e31bdb21bd698806e8a5b3cfc9f68d2d13d/python_dev_utils-1.6.0.tar.gz
+[2024-05-02 10:16:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/5a/64/7fb0bbaf01704b09ce6b8d308003dab7b6fe2c8e3084866767ad1ec1f673/aissemble_foundation_core_python-1.7.0.dev1714637764.tar.gz
+[2024-05-02 10:16:55] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Downloading https://files.pythonhosted.org/packages/29/d0/cb635ed6b0fc14325bc2ae3425fa95a14509210e9a3f768582385e72f9a7/airbyte_source_declarative_manifest-0.86.0.tar.gz
+[2024-05-02 10:16:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/5a/64/7fb0bbaf01704b09ce6b8d308003dab7b6fe2c8e3084866767ad1ec1f673/aissemble_foundation_core_python-1.7.0.dev1714637764.tar.gz
+[2024-05-02 10:16:55] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/7b/93/c10dcf31de3d7375b815edac671c5b4a69766abace77bbb7ab90c33a2edf/python_dev_utils-1.7.0.tar.gz
+[2024-05-02 10:16:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/22/56/89f54df1247ff6bf7dab7091ba54df39eb3de2836e66fbc2c65688f2367c/aissemble_foundation_core_python-1.7.0.dev1714637767.tar.gz
+[2024-05-02 10:16:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/22/56/89f54df1247ff6bf7dab7091ba54df39eb3de2836e66fbc2c65688f2367c/aissemble_foundation_core_python-1.7.0.dev1714637767.tar.gz
+[2024-05-02 10:16:55] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Downloading https://files.pythonhosted.org/packages/c3/ca/e203aaada195e776225c5c2b583693200668eb7ac3f15ac7b43b73a4d163/airbyte_source_declarative_manifest-0.86.1.tar.gz
+[2024-05-02 10:16:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: executing diffoscope
+[2024-05-02 10:16:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_core_python-1.7.0.dev1714637764.tar.gz tmp/aissemble_foundation_core_python-1.7.0.dev1714637767.tar.gz --markdown 20240502/a/aissemble-foundation-core-python/1.7.0.dev1714637764-1.7.0.dev1714637767/README.md --exclude *.pyd
+[2024-05-02 10:16:55] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-05-02 10:16:55] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-1.6.0.tar.gz tmp/python_dev_utils-1.7.0.tar.gz --markdown 20240502/p/python_dev_utils/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-05-02 10:16:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: executing diffoscope
+[2024-05-02 10:16:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_core_python-1.7.0.dev1714637764.tar.gz tmp/aissemble_foundation_core_python-1.7.0.dev1714637767.tar.gz --markdown 20240502/a/aissemble-foundation-core-python/1.7.0.dev1714637764-1.7.0.dev1714637767/README.md --exclude *.pyd
+[2024-05-02 10:16:56] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: executing diffoscope
+[2024-05-02 10:16:56] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_declarative_manifest-0.86.0.tar.gz tmp/airbyte_source_declarative_manifest-0.86.1.tar.gz --markdown 20240502/a/airbyte-source-declarative-manifest/0.86.0-0.86.1/README.md --exclude *.pyd
+[2024-05-02 10:16:56] INFO root fetch - processPackages [aissemble-foundation-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_core_python-1.7.0.dev1714637764.tar.gz]
+[2024-05-02 10:16:56] INFO root fetch - processPackages [aissemble-foundation-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_core_python-1.7.0.dev1714637767.tar.gz]
+[2024-05-02 10:16:56] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-core-python]: success
+[2024-05-02 10:16:56] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-core-python]: success
+[2024-05-02 10:16:56] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_declarative_manifest-0.86.0.tar.gz]
+[2024-05-02 10:16:56] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_declarative_manifest-0.86.1.tar.gz]
+[2024-05-02 10:16:56] INFO root fetch - main [MainThread]: End processing [airbyte-source-declarative-manifest]: success
+[2024-05-02 10:16:56] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.6.0.tar.gz]
+[2024-05-02 10:16:56] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.7.0.tar.gz]
+[2024-05-02 10:16:56] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-05-02 10:16:56] INFO root fetch - main [MainThread]: Store serial: [23027985]
