@@ -8582,3 +8582,24 @@
 [2024-05-02 05:56:22] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-05-02 05:56:22] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-05-02 05:56:22] INFO root fetch - main [MainThread]: Store serial: [23026186]
+[2024-05-02 05:58:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026186]
+[2024-05-02 05:58:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 05:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-event-registration-qr-code
+[2024-05-02 05:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-event
+[2024-05-02 05:58:31] INFO root fetch - processPackages [odoo-addon-event-registration-qr-code]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.7]
+[2024-05-02 05:58:31] INFO root fetch - processPackages [odoo-addon-event-registration-qr-code]: Downloading https://files.pythonhosted.org/packages/6f/2f/3ee8a9d6adb09e1d1f983226f3383191a3c6c66b59780453a8df07bfa728/odoo_addon_event_registration_qr_code-15.0.1.0.0.7-py3-none-any.whl
+[2024-05-02 05:58:31] INFO root fetch - processPackages [odoo-addons-oca-event]: New version: [16.0.20240501.0] Old Version: [16.0.20240308.0]
+[2024-05-02 05:58:31] INFO root fetch - processPackages [odoo-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/70/4d/6e4c898057e83ea212237fbb1ba950f2bd2caedeefe504679c533089978b/odoo_addons_oca_event-16.0.20240308.0-py3-none-any.whl
+[2024-05-02 05:58:31] INFO root fetch - processPackages [odoo-addon-event-registration-qr-code]: Downloading https://files.pythonhosted.org/packages/fd/3e/2ee7068e0fa4e244f8b88c9110b40b16980d51c510dae0f05ddb5723efe0/odoo_addon_event_registration_qr_code-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-02 05:58:31] INFO root fetch - processPackages [odoo-addon-event-registration-qr-code]: executing diffoscope
+[2024-05-02 05:58:31] INFO root fetch - processPackages [odoo-addon-event-registration-qr-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_event_registration_qr_code-15.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_event_registration_qr_code-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-event-registration-qr-code/15.0.1.0.0.7-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-02 05:58:31] INFO root fetch - processPackages [odoo-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/ac/88/687b9260006a815568d0007244fd31f99724607a074f6cf98337d8522482/odoo_addons_oca_event-16.0.20240501.0-py3-none-any.whl
+[2024-05-02 05:58:31] INFO root fetch - processPackages [odoo-addons-oca-event]: executing diffoscope
+[2024-05-02 05:58:31] INFO root fetch - processPackages [odoo-addons-oca-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_event-16.0.20240308.0-py3-none-any.whl.zip tmp/odoo_addons_oca_event-16.0.20240501.0-py3-none-any.whl.zip --markdown 20240502/o/odoo-addons-oca-event/16.0.20240308.0-16.0.20240501.0/README.md --exclude *.pyd
+[2024-05-02 05:58:32] INFO root fetch - processPackages [odoo-addon-event-registration-qr-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_registration_qr_code-15.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-02 05:58:32] INFO root fetch - processPackages [odoo-addon-event-registration-qr-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_registration_qr_code-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-02 05:58:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-registration-qr-code]: success
+[2024-05-02 05:58:32] INFO root fetch - processPackages [odoo-addons-oca-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_event-16.0.20240308.0-py3-none-any.whl.zip]
+[2024-05-02 05:58:32] INFO root fetch - processPackages [odoo-addons-oca-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_event-16.0.20240501.0-py3-none-any.whl.zip]
+[2024-05-02 05:58:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-event]: success
+[2024-05-02 05:58:32] INFO root fetch - main [MainThread]: Store serial: [23026190]
