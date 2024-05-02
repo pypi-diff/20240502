@@ -8179,3 +8179,33 @@
 [2024-05-02 05:21:07] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara-skunk-client-0.4.9.tar.gz]
 [2024-05-02 05:21:07] INFO root fetch - main [MainThread]: End processing [vectara-skunk-client]: success
 [2024-05-02 05:21:07] INFO root fetch - main [MainThread]: Store serial: [23026051]
+[2024-05-02 05:23:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026051]
+[2024-05-02 05:23:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 05:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2024-05-02 05:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: publicsuffixlist
+[2024-05-02 05:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-llms-huggingface
+[2024-05-02 05:23:15] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024050103] Old Version: [3.3.3.dev2024043003]
+[2024-05-02 05:23:15] INFO root fetch - processPackages [llama-index-llms-huggingface]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-02 05:23:15] INFO root fetch - processPackages [publicsuffixlist]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-02 05:23:15] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/42/73/4053e6c6b8db7a506bbf6f36f640d552a5b166b06c0b2396dc24e0b244c9/keras_nightly-3.3.3.dev2024043003.tar.gz
+[2024-05-02 05:23:15] INFO root fetch - processPackages [llama-index-llms-huggingface]: Downloading https://files.pythonhosted.org/packages/bf/26/4b5352c3e056b42c442a592f40ff9f2a90f9145a8e70afa4ec0f7aff3a8a/llama_index_llms_huggingface-0.1.4.tar.gz
+[2024-05-02 05:23:15] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/e9/d3/789ccc7b502183c3ca52f463a65a341194fd8caf884d33f4eedf4ae8f390/publicsuffixlist-0.9.3.tar.gz
+[2024-05-02 05:23:16] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9f/27/a31672d0b5af31f7cc241a0eb1f0a86dd4f4cd5d664acf3a575d51bbd8bf/keras_nightly-3.3.3.dev2024050103.tar.gz
+[2024-05-02 05:23:16] INFO root fetch - processPackages [llama-index-llms-huggingface]: Downloading https://files.pythonhosted.org/packages/4d/e3/63173a7ea1aa7ff2455c5ccf385916df2531308402718750626f603828f2/llama_index_llms_huggingface-0.1.5.tar.gz
+[2024-05-02 05:23:16] INFO root fetch - processPackages [llama-index-llms-huggingface]: executing diffoscope
+[2024-05-02 05:23:16] INFO root fetch - processPackages [llama-index-llms-huggingface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_llms_huggingface-0.1.4.tar.gz tmp/llama_index_llms_huggingface-0.1.5.tar.gz --markdown 20240502/l/llama-index-llms-huggingface/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-02 05:23:16] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-02 05:23:16] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024043003.tar.gz tmp/keras_nightly-3.3.3.dev2024050103.tar.gz --markdown 20240502/k/keras-nightly/3.3.3.dev2024043003-3.3.3.dev2024050103/README.md --exclude *.pyd
+[2024-05-02 05:23:16] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/3c/09/9dc48e18dc8c917eb66fe2caef48273e4f55dea0f8d56f9f6a427373c08b/publicsuffixlist-0.9.4.tar.gz
+[2024-05-02 05:23:16] INFO root fetch - processPackages [publicsuffixlist]: executing diffoscope
+[2024-05-02 05:23:16] INFO root fetch - processPackages [publicsuffixlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publicsuffixlist-0.9.3.tar.gz tmp/publicsuffixlist-0.9.4.tar.gz --markdown 20240502/p/publicsuffixlist/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-02 05:23:16] INFO root fetch - processPackages [llama-index-llms-huggingface]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_huggingface-0.1.4.tar.gz]
+[2024-05-02 05:23:16] INFO root fetch - processPackages [llama-index-llms-huggingface]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_huggingface-0.1.5.tar.gz]
+[2024-05-02 05:23:16] INFO root fetch - main [MainThread]: End processing [llama-index-llms-huggingface]: success
+[2024-05-02 05:23:17] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.3.tar.gz]
+[2024-05-02 05:23:17] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.4.tar.gz]
+[2024-05-02 05:23:17] INFO root fetch - main [MainThread]: End processing [publicsuffixlist]: success
+[2024-05-02 05:23:18] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024043003.tar.gz]
+[2024-05-02 05:23:18] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050103.tar.gz]
+[2024-05-02 05:23:18] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-02 05:23:18] INFO root fetch - main [MainThread]: Store serial: [23026061]
