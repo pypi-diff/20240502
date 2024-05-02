@@ -22824,3 +22824,35 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:56:29] INFO root fetch - processPackages [eotdl]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-2024.5.2.tar.gz]
 [2024-05-02 15:56:29] INFO root fetch - main [MainThread]: End processing [eotdl]: success
 [2024-05-02 15:56:29] INFO root fetch - main [MainThread]: Store serial: [23031912]
+[2024-05-02 15:58:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031912]
+[2024-05-02 15:58:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 15:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyshrimp
+[2024-05-02 15:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ardupilot-log-reader
+[2024-05-02 15:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-auth0
+[2024-05-02 15:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-gov-notify
+[2024-05-02 15:58:39] INFO root fetch - processPackages [airbyte-source-auth0]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 15:58:39] INFO root fetch - processPackages [django-gov-notify]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-02 15:58:39] INFO root fetch - processPackages [ardupilot-log-reader]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-02 15:58:39] INFO root fetch - processPackages [pyshrimp]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-02 15:58:39] INFO root fetch - processPackages [pyshrimp]: Downloading https://files.pythonhosted.org/packages/1d/55/0fc98c5f950b0dd21c9ceddac927369eaae26a54f5fba6d72c5d5f860fa2/pyshrimp-0.7.0.tar.gz
+[2024-05-02 15:58:39] INFO root fetch - processPackages [django-gov-notify]: Downloading https://files.pythonhosted.org/packages/78/00/9464333cd980ca181d283b7f14f0c4f91ea932126c8a1de6a106aaffb84a/django_gov_notify-0.4.0.tar.gz
+[2024-05-02 15:58:39] INFO root fetch - processPackages [airbyte-source-auth0]: Downloading https://files.pythonhosted.org/packages/6b/90/559e4e47d675117558b13b1af01dc017e1913e4ac743d5fd8e854ba802b9/airbyte-source-auth0-0.5.1.tar.gz
+[2024-05-02 15:58:39] INFO root fetch - processPackages [ardupilot-log-reader]: Downloading https://files.pythonhosted.org/packages/ee/b2/4ae5c671e2f3e50baa8c9d8236113072e12a3b49d00183f32ddf6c3af79b/ardupilot_log_reader-0.3.1.tar.gz
+[2024-05-02 15:58:40] ERROR root fetch - processPackages [airbyte-source-auth0]: Unable to fetch info: No such project/version 'airbyte-source-auth0' 0.5.2
+[2024-05-02 15:58:40] INFO root fetch - main [MainThread]: End processing [airbyte-source-auth0] error
+[2024-05-02 15:58:40] INFO root fetch - processPackages [ardupilot-log-reader]: Downloading https://files.pythonhosted.org/packages/fc/11/f74b6fbc15781f80887733df33760a0eea1101e4db0432b010e673d99c3e/ardupilot_log_reader-0.3.2.tar.gz
+[2024-05-02 15:58:40] INFO root fetch - processPackages [pyshrimp]: Downloading https://files.pythonhosted.org/packages/e4/85/1bb769da6a442fc2aba549016ca0ae4a49aadd4f303e45f1f25b37d0ce36/pyshrimp-0.8.0.tar.gz
+[2024-05-02 15:58:40] WARNING root fetch - processPackages [ardupilot-log-reader]: Skipping package: exceeds size limit 76664206>=10485760
+[2024-05-02 15:58:40] INFO root fetch - main [MainThread]: End processing [ardupilot-log-reader] error
+[2024-05-02 15:58:40] INFO root fetch - processPackages [django-gov-notify]: Downloading https://files.pythonhosted.org/packages/b2/e2/9b22737688d8a446fb4e6320473720fda3520c66e1dfee206df7590451fb/django_gov_notify-0.5.0.tar.gz
+[2024-05-02 15:58:40] INFO root fetch - processPackages [pyshrimp]: executing diffoscope
+[2024-05-02 15:58:40] INFO root fetch - processPackages [pyshrimp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyshrimp-0.7.0.tar.gz tmp/pyshrimp-0.8.0.tar.gz --markdown 20240502/p/pyshrimp/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-02 15:58:40] INFO root fetch - processPackages [django-gov-notify]: executing diffoscope
+[2024-05-02 15:58:40] INFO root fetch - processPackages [django-gov-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_gov_notify-0.4.0.tar.gz tmp/django_gov_notify-0.5.0.tar.gz --markdown 20240502/d/django-gov-notify/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-02 15:58:40] INFO root fetch - processPackages [django-gov-notify]: Remove: archive file [/home/abi/fetcher/tmp/django_gov_notify-0.4.0.tar.gz]
+[2024-05-02 15:58:40] INFO root fetch - processPackages [django-gov-notify]: Remove: archive file [/home/abi/fetcher/tmp/django_gov_notify-0.5.0.tar.gz]
+[2024-05-02 15:58:40] INFO root fetch - main [MainThread]: End processing [django-gov-notify]: success
+[2024-05-02 15:58:41] INFO root fetch - processPackages [pyshrimp]: Remove: archive file [/home/abi/fetcher/tmp/pyshrimp-0.7.0.tar.gz]
+[2024-05-02 15:58:41] INFO root fetch - processPackages [pyshrimp]: Remove: archive file [/home/abi/fetcher/tmp/pyshrimp-0.8.0.tar.gz]
+[2024-05-02 15:58:41] INFO root fetch - main [MainThread]: End processing [pyshrimp]: success
+[2024-05-02 15:58:41] INFO root fetch - main [MainThread]: Store serial: [23031930]
