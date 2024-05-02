@@ -7241,3 +7241,24 @@
 [2024-05-02 03:59:55] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.57.tar.gz]
 [2024-05-02 03:59:55] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
 [2024-05-02 03:59:55] INFO root fetch - main [MainThread]: Store serial: [23025592]
+[2024-05-02 04:01:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025592]
+[2024-05-02 04:02:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 04:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qai-ai
+[2024-05-02 04:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: replit-river
+[2024-05-02 04:02:04] INFO root fetch - processPackages [qai-ai]: New version: [0.5.1] Old Version: [0.5]
+[2024-05-02 04:02:04] INFO root fetch - processPackages [replit-river]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 04:02:04] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/a3/60/d3406253d300f18664bf91712096240dd839c49b54c397c7d87c30c92ca3/replit_river-0.1.8.tar.gz
+[2024-05-02 04:02:05] INFO root fetch - processPackages [qai-ai]: Downloading https://files.pythonhosted.org/packages/af/7b/18d23adeea9ded886ef79c6a16a5c519622a6fe6fe5a79522c0d9ffb4eec/qai_ai-0.5.tar.gz
+[2024-05-02 04:02:05] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/63/d0/cf3e1765cd7b168b65aab1449b4829714a8999032e46f8c202867d284f77/replit_river-0.1.9.tar.gz
+[2024-05-02 04:02:05] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-05-02 04:02:05] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.8.tar.gz tmp/replit_river-0.1.9.tar.gz --markdown 20240502/r/replit-river/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 04:02:05] INFO root fetch - processPackages [qai-ai]: Downloading https://files.pythonhosted.org/packages/ea/e3/b3c586ddeae18f6fa0cb3be65adda5c95d6002bff49ebb48e360fec66996/qai_ai-0.5.1.tar.gz
+[2024-05-02 04:02:05] INFO root fetch - processPackages [qai-ai]: executing diffoscope
+[2024-05-02 04:02:05] INFO root fetch - processPackages [qai-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_ai-0.5.tar.gz tmp/qai_ai-0.5.1.tar.gz --markdown 20240502/q/qai-ai/0.5-0.5.1/README.md --exclude *.pyd
+[2024-05-02 04:02:05] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.8.tar.gz]
+[2024-05-02 04:02:05] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.9.tar.gz]
+[2024-05-02 04:02:05] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-05-02 04:02:06] INFO root fetch - processPackages [qai-ai]: Remove: archive file [/home/abi/fetcher/tmp/qai_ai-0.5.tar.gz]
+[2024-05-02 04:02:06] INFO root fetch - processPackages [qai-ai]: Remove: archive file [/home/abi/fetcher/tmp/qai_ai-0.5.1.tar.gz]
+[2024-05-02 04:02:06] INFO root fetch - main [MainThread]: End processing [qai-ai]: success
+[2024-05-02 04:02:06] INFO root fetch - main [MainThread]: Store serial: [23025598]
