@@ -9526,3 +9526,45 @@
 [2024-05-02 07:11:00] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.953.tar.gz]
 [2024-05-02 07:11:00] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
 [2024-05-02 07:11:00] INFO root fetch - main [MainThread]: Store serial: [23026565]
+[2024-05-02 07:13:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026565]
+[2024-05-02 07:13:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 07:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zoltraak
+[2024-05-02 07:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mylocale
+[2024-05-02 07:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-ndev-blizzardapi
+[2024-05-02 07:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graph-validation-tests
+[2024-05-02 07:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: szkGraph
+[2024-05-02 07:13:10] WARNING root fetch - processPackages [szkGraph]: Skipping, unable to determine old version
+[2024-05-02 07:13:10] INFO root fetch - main [MainThread]: End processing [szkGraph] error
+[2024-05-02 07:13:10] INFO root fetch - processPackages [zoltraak]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 07:13:10] INFO root fetch - processPackages [mylocale]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 07:13:10] INFO root fetch - processPackages [graph-validation-tests]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 07:13:10] INFO root fetch - processPackages [python-ndev-blizzardapi]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-02 07:13:10] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/06/9c/d65d421bf6b430d7ac28d3088f268c0039d2b66b6d35800b7531b8f54fbb/zoltraak-0.1.8.tar.gz
+[2024-05-02 07:13:10] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/2f/5b/5f942678cf7b6312828c8c42d0ad634e3a78f330e639d0aec633281923a9/mylocale-0.8.0.tar.gz
+[2024-05-02 07:13:11] INFO root fetch - processPackages [python-ndev-blizzardapi]: Downloading https://files.pythonhosted.org/packages/6a/49/484d41cfafbc4a496c97af65cb8755fa16d08cee12fd2e63e4bf43e36401/python_ndev_blizzardapi-0.2.1.tar.gz
+[2024-05-02 07:13:11] INFO root fetch - processPackages [graph-validation-tests]: Downloading https://files.pythonhosted.org/packages/f8/00/9491edbeb1892f4c32a01fe1d93a19fdade5e9abaf982609d39666eaa7c5/graph_validation_tests-0.0.8.tar.gz
+[2024-05-02 07:13:11] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/cf/31/7eaef23f3354fae298c96e7453c8c73b0605787b351c7010185d89124bb0/mylocale-0.9.0.tar.gz
+[2024-05-02 07:13:11] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/1f/93/85a56a179b7ebc679c5ad02b221b5954c726a55fc3b490b8ce90a6919ccb/zoltraak-0.1.9.tar.gz
+[2024-05-02 07:13:11] INFO root fetch - processPackages [mylocale]: executing diffoscope
+[2024-05-02 07:13:11] INFO root fetch - processPackages [mylocale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mylocale-0.8.0.tar.gz tmp/mylocale-0.9.0.tar.gz --markdown 20240502/m/mylocale/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 07:13:11] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-05-02 07:13:11] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.8.tar.gz tmp/zoltraak-0.1.9.tar.gz --markdown 20240502/z/zoltraak/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 07:13:11] INFO root fetch - processPackages [python-ndev-blizzardapi]: Downloading https://files.pythonhosted.org/packages/9a/de/cf378e9d06c7054c2703e8bd9e8c45e8cec8a9fa538b46965a7f24194c27/python_ndev_blizzardapi-0.2.2.tar.gz
+[2024-05-02 07:13:11] INFO root fetch - processPackages [graph-validation-tests]: Downloading https://files.pythonhosted.org/packages/7a/01/5896fe0bbe6bc36503de93e875ccb998f7a3f35842385067695620d7e38c/graph_validation_tests-0.0.9.tar.gz
+[2024-05-02 07:13:11] INFO root fetch - processPackages [python-ndev-blizzardapi]: executing diffoscope
+[2024-05-02 07:13:11] INFO root fetch - processPackages [python-ndev-blizzardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_ndev_blizzardapi-0.2.1.tar.gz tmp/python_ndev_blizzardapi-0.2.2.tar.gz --markdown 20240502/p/python-ndev-blizzardapi/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-02 07:13:11] INFO root fetch - processPackages [graph-validation-tests]: executing diffoscope
+[2024-05-02 07:13:11] INFO root fetch - processPackages [graph-validation-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_validation_tests-0.0.8.tar.gz tmp/graph_validation_tests-0.0.9.tar.gz --markdown 20240502/g/graph-validation-tests/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 07:13:11] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.8.0.tar.gz]
+[2024-05-02 07:13:11] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.9.0.tar.gz]
+[2024-05-02 07:13:11] INFO root fetch - main [MainThread]: End processing [mylocale]: success
+[2024-05-02 07:13:11] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.8.tar.gz]
+[2024-05-02 07:13:11] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.9.tar.gz]
+[2024-05-02 07:13:11] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-05-02 07:13:12] INFO root fetch - processPackages [python-ndev-blizzardapi]: Remove: archive file [/home/abi/fetcher/tmp/python_ndev_blizzardapi-0.2.1.tar.gz]
+[2024-05-02 07:13:12] INFO root fetch - processPackages [python-ndev-blizzardapi]: Remove: archive file [/home/abi/fetcher/tmp/python_ndev_blizzardapi-0.2.2.tar.gz]
+[2024-05-02 07:13:12] INFO root fetch - main [MainThread]: End processing [python-ndev-blizzardapi]: success
+[2024-05-02 07:13:12] INFO root fetch - processPackages [graph-validation-tests]: Remove: archive file [/home/abi/fetcher/tmp/graph_validation_tests-0.0.8.tar.gz]
+[2024-05-02 07:13:12] INFO root fetch - processPackages [graph-validation-tests]: Remove: archive file [/home/abi/fetcher/tmp/graph_validation_tests-0.0.9.tar.gz]
+[2024-05-02 07:13:12] INFO root fetch - main [MainThread]: End processing [graph-validation-tests]: success
+[2024-05-02 07:13:12] INFO root fetch - main [MainThread]: Store serial: [23026610]
