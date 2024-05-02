@@ -13986,3 +13986,24 @@
 [2024-05-02 10:50:25] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
 [2024-05-02 10:50:25] INFO root fetch - main [MainThread]: End processing [kayalab]: success
 [2024-05-02 10:50:25] INFO root fetch - main [MainThread]: Store serial: [23028365]
+[2024-05-02 10:52:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028365]
+[2024-05-02 10:52:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: probe-design
+[2024-05-02 10:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LuBanPy
+[2024-05-02 10:52:36] INFO root fetch - processPackages [LuBanPy]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-02 10:52:36] INFO root fetch - processPackages [LuBanPy]: Downloading https://files.pythonhosted.org/packages/56/da/c1a104d4b834f04c0441a2021da07a0d2fa21d41fa076d73f5d3cd36a231/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl
+[2024-05-02 10:52:36] INFO root fetch - processPackages [probe-design]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-02 10:52:36] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/e4/de/217073b59e430d72d25a28f92c27d4dcfed602224c5db64977da9995539e/probe_design-0.2.8.tar.gz
+[2024-05-02 10:52:36] INFO root fetch - processPackages [LuBanPy]: Downloading https://files.pythonhosted.org/packages/d8/80/6ec38830c73dc214a34d0bcdfc9eac19ee0a5ff2f7e661427b5f1b926500/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl
+[2024-05-02 10:52:36] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/56/10/4d2bc3f41506a6a5373b6d321509f939ebc56944086733654075c23adbba/probe_design-0.2.9.tar.gz
+[2024-05-02 10:52:36] INFO root fetch - processPackages [LuBanPy]: executing diffoscope
+[2024-05-02 10:52:36] INFO root fetch - processPackages [LuBanPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl.zip tmp/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl.zip --markdown 20240502/L/LuBanPy/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-02 10:52:37] INFO root fetch - processPackages [probe-design]: executing diffoscope
+[2024-05-02 10:52:37] INFO root fetch - processPackages [probe-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probe_design-0.2.8.tar.gz tmp/probe_design-0.2.9.tar.gz --markdown 20240502/p/probe-design/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-02 10:52:37] INFO root fetch - processPackages [LuBanPy]: Remove: archive file [/home/abi/fetcher/tmp/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl.zip]
+[2024-05-02 10:52:37] INFO root fetch - processPackages [LuBanPy]: Remove: archive file [/home/abi/fetcher/tmp/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl.zip]
+[2024-05-02 10:52:37] INFO root fetch - main [MainThread]: End processing [LuBanPy]: success
+[2024-05-02 10:52:37] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.8.tar.gz]
+[2024-05-02 10:52:37] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.9.tar.gz]
+[2024-05-02 10:52:37] INFO root fetch - main [MainThread]: End processing [probe-design]: success
+[2024-05-02 10:52:37] INFO root fetch - main [MainThread]: Store serial: [23028370]
