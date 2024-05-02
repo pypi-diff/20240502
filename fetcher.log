@@ -19348,3 +19348,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 14:25:40] INFO root fetch - processPackages [fedot-ind]: Remove: archive file [/home/abi/fetcher/tmp/fedot_ind-0.4.2.tar.gz]
 [2024-05-02 14:25:40] INFO root fetch - main [MainThread]: End processing [fedot-ind]: success
 [2024-05-02 14:25:40] INFO root fetch - main [MainThread]: Store serial: [23030698]
+[2024-05-02 14:27:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030698]
+[2024-05-02 14:27:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 14:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-notifications-sdk-preview
+[2024-05-02 14:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pychoacoustics
+[2024-05-02 14:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aepsych
+[2024-05-02 14:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytubefix
+[2024-05-02 14:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hatch-odoo
+[2024-05-02 14:27:49] INFO root fetch - processPackages [pytubefix]: New version: [5.4rc1] Old Version: [5.3rc3]
+[2024-05-02 14:27:49] INFO root fetch - processPackages [pychoacoustics]: New version: [0.6.8] Old Version: [0.6.3]
+[2024-05-02 14:27:49] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.930] Old Version: [0.1.929]
+[2024-05-02 14:27:50] INFO root fetch - processPackages [aepsych]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-02 14:27:50] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/b8/f8/29c11f1ffe36c2d5974e35102276f5900cd3a406993541af93bbabe829c2/pytubefix-5.3rc3.tar.gz
+[2024-05-02 14:27:50] INFO root fetch - processPackages [hatch-odoo]: New version: [1.0] Old Version: [0.1]
+[2024-05-02 14:27:50] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/0e/99/559b39426d2442f9b2d6f9d4e960834789eb39b07f9ea8cdee6ebb582c69/lusid-notifications-sdk-preview-0.1.929.tar.gz
+[2024-05-02 14:27:50] INFO root fetch - processPackages [pychoacoustics]: Downloading https://files.pythonhosted.org/packages/b5/cc/93d8ce439215da296abea973b251bd4975653b3b185fde13d218c8b29243/pychoacoustics-0.6.3.tar.gz
+[2024-05-02 14:27:50] INFO root fetch - processPackages [aepsych]: Downloading https://files.pythonhosted.org/packages/fc/3e/260ba52b0c1a06979eaf843ae8117d8b15e7cac4465d8ec7bd34e7e64a20/aepsych-0.4.0.tar.gz
+[2024-05-02 14:27:50] INFO root fetch - processPackages [hatch-odoo]: Downloading https://files.pythonhosted.org/packages/52/24/f1aa0ab28da53bbece35793f8cc67aa22cb7e812a16ff07c00c7db3e4dcc/hatch_odoo-0.1.tar.gz
+[2024-05-02 14:27:50] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/fa/af/d0bb96e80a09d4d40fd49403c3f267c590ff2dd5bad531a7c94c12be6d53/lusid-notifications-sdk-preview-0.1.930.tar.gz
+[2024-05-02 14:27:50] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/6f/15/9afbde7c97f257affe132edcb4ad5f0423b082ef42c32ae5818ac65ee5a6/pytubefix-5.4rc1.tar.gz
+[2024-05-02 14:27:50] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2024-05-02 14:27:50] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.929.tar.gz tmp/lusid-notifications-sdk-preview-0.1.930.tar.gz --markdown 20240502/l/lusid-notifications-sdk-preview/0.1.929-0.1.930/README.md --exclude *.pyd
+[2024-05-02 14:27:50] INFO root fetch - processPackages [pychoacoustics]: Downloading https://files.pythonhosted.org/packages/32/74/542d1652260119f8d898b6bbe3c311c88ea738e5426e8d228dabe3901841/pychoacoustics-0.6.8.tar.gz
+[2024-05-02 14:27:50] INFO root fetch - processPackages [aepsych]: Downloading https://files.pythonhosted.org/packages/f3/8a/9016957d1781a06ff9fa6b062a58901b57b204115bc80cdb736e0532acf5/aepsych-0.4.1.tar.gz
+[2024-05-02 14:27:50] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-05-02 14:27:50] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-5.3rc3.tar.gz tmp/pytubefix-5.4rc1.tar.gz --markdown 20240502/p/pytubefix/5.3rc3-5.4rc1/README.md --exclude *.pyd
+[2024-05-02 14:27:50] INFO root fetch - processPackages [hatch-odoo]: Downloading https://files.pythonhosted.org/packages/75/5c/25ea5f8ce7df237a74a9680605e14eb4cb4beab5d01b5374ca91b3353801/hatch_odoo-1.0.tar.gz
+[2024-05-02 14:27:50] INFO root fetch - processPackages [aepsych]: executing diffoscope
+[2024-05-02 14:27:50] INFO root fetch - processPackages [aepsych]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aepsych-0.4.0.tar.gz tmp/aepsych-0.4.1.tar.gz --markdown 20240502/a/aepsych/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-02 14:27:51] INFO root fetch - processPackages [pychoacoustics]: executing diffoscope
+[2024-05-02 14:27:51] INFO root fetch - processPackages [pychoacoustics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychoacoustics-0.6.3.tar.gz tmp/pychoacoustics-0.6.8.tar.gz --markdown 20240502/p/pychoacoustics/0.6.3-0.6.8/README.md --exclude *.pyd
+[2024-05-02 14:27:51] INFO root fetch - processPackages [hatch-odoo]: executing diffoscope
+[2024-05-02 14:27:51] INFO root fetch - processPackages [hatch-odoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_odoo-0.1.tar.gz tmp/hatch_odoo-1.0.tar.gz --markdown 20240502/h/hatch-odoo/0.1-1.0/README.md --exclude *.pyd
+[2024-05-02 14:27:51] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.3rc3.tar.gz]
+[2024-05-02 14:27:51] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.4rc1.tar.gz]
+[2024-05-02 14:27:51] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-05-02 14:27:51] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.929.tar.gz]
+[2024-05-02 14:27:51] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.930.tar.gz]
+[2024-05-02 14:27:51] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2024-05-02 14:27:52] INFO root fetch - processPackages [hatch-odoo]: Remove: archive file [/home/abi/fetcher/tmp/hatch_odoo-0.1.tar.gz]
+[2024-05-02 14:27:52] INFO root fetch - processPackages [hatch-odoo]: Remove: archive file [/home/abi/fetcher/tmp/hatch_odoo-1.0.tar.gz]
+[2024-05-02 14:27:52] INFO root fetch - main [MainThread]: End processing [hatch-odoo]: success
+[2024-05-02 14:27:52] INFO root fetch - processPackages [aepsych]: Remove: archive file [/home/abi/fetcher/tmp/aepsych-0.4.0.tar.gz]
+[2024-05-02 14:27:52] INFO root fetch - processPackages [aepsych]: Remove: archive file [/home/abi/fetcher/tmp/aepsych-0.4.1.tar.gz]
+[2024-05-02 14:27:52] INFO root fetch - main [MainThread]: End processing [aepsych]: success
+[2024-05-02 14:28:00] INFO root fetch - processPackages [pychoacoustics]: Remove: archive file [/home/abi/fetcher/tmp/pychoacoustics-0.6.3.tar.gz]
+[2024-05-02 14:28:00] INFO root fetch - processPackages [pychoacoustics]: Remove: archive file [/home/abi/fetcher/tmp/pychoacoustics-0.6.8.tar.gz]
+[2024-05-02 14:28:00] INFO root fetch - main [MainThread]: End processing [pychoacoustics]: success
+[2024-05-02 14:28:00] INFO root fetch - main [MainThread]: Store serial: [23030715]
