@@ -9697,3 +9697,24 @@
 [2024-05-02 07:26:14] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-02 07:26:14] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2024-05-02 07:26:14] INFO root fetch - main [MainThread]: Store serial: [23026666]
+[2024-05-02 07:28:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026666]
+[2024-05-02 07:28:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 07:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stoobly-agent
+[2024-05-02 07:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: embedchain
+[2024-05-02 07:28:23] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-02 07:28:23] INFO root fetch - processPackages [embedchain]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-02 07:28:23] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2024-05-02 07:28:23] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/f2/0a/0533e02b852a707aa8322566681194dc15d055019eefb6c0f35cedc99a94/embedchain-0.1.98.tar.gz
+[2024-05-02 07:28:23] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2024-05-02 07:28:24] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2024-05-02 07:28:24] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20240502/s/stoobly-agent/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-02 07:28:24] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/0d/2d/2739eceecbbc32ad3687e1c8993737657b4cafa08f9b6712546852a21c74/embedchain-0.1.99.tar.gz
+[2024-05-02 07:28:24] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2024-05-02 07:28:24] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.1.98.tar.gz tmp/embedchain-0.1.99.tar.gz --markdown 20240502/e/embedchain/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-02 07:28:24] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2024-05-02 07:28:24] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2024-05-02 07:28:24] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2024-05-02 07:28:25] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.1.98.tar.gz]
+[2024-05-02 07:28:25] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.1.99.tar.gz]
+[2024-05-02 07:28:25] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2024-05-02 07:28:25] INFO root fetch - main [MainThread]: Store serial: [23026672]
