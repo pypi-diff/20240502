@@ -15170,3 +15170,42 @@
 [2024-05-02 11:37:56] INFO root fetch - processPackages [mapchete]: Remove: archive file [/home/abi/fetcher/tmp/mapchete-2024.5.0.tar.gz]
 [2024-05-02 11:37:56] INFO root fetch - main [MainThread]: End processing [mapchete]: success
 [2024-05-02 11:37:56] INFO root fetch - main [MainThread]: Store serial: [23028875]
+[2024-05-02 11:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028875]
+[2024-05-02 11:40:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 11:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-wrike
+[2024-05-02 11:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wodoo
+[2024-05-02 11:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stepup-reprep
+[2024-05-02 11:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyslth
+[2024-05-02 11:40:05] INFO root fetch - processPackages [pyslth]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-02 11:40:06] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/51/d0/afe74e6ab2c12d4fbbe14ab928cfdea0de2caf18f5ddfe1690b3e5a6d191/pyslth-0.2.5.tar.gz
+[2024-05-02 11:40:06] INFO root fetch - processPackages [airbyte-source-wrike]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-02 11:40:06] INFO root fetch - processPackages [stepup-reprep]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-02 11:40:06] INFO root fetch - processPackages [wodoo]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-02 11:40:06] INFO root fetch - processPackages [airbyte-source-wrike]: Downloading https://files.pythonhosted.org/packages/d9/10/629cbb862c07337fba8b03e7dc403de1921d65313fa74914b34c33bbcbd0/airbyte-source-wrike-0.2.0.tar.gz
+[2024-05-02 11:40:06] INFO root fetch - processPackages [stepup-reprep]: Downloading https://files.pythonhosted.org/packages/4d/1d/0d42d67e2e2366fa069e74b7929929a6f61ec13ea664811a20b507e4ca30/stepup_reprep-1.0.0.tar.gz
+[2024-05-02 11:40:06] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/53/68/7b6f7e95cfdfbd466ca0193157764107728485da639a0b0d073256be29a3/wodoo-0.5.8.tar.gz
+[2024-05-02 11:40:06] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/4f/bb/0076e123e0f825858af1138ed2b382375e16f619aa70acfbb270837406d0/pyslth-0.2.6.tar.gz
+[2024-05-02 11:40:06] INFO root fetch - processPackages [airbyte-source-wrike]: Downloading https://files.pythonhosted.org/packages/a5/4b/3167b0bb0de8248930e6aa23003373ea48d2dde841b5eaa0e86d5da42261/airbyte_source_wrike-0.2.1.tar.gz
+[2024-05-02 11:40:06] INFO root fetch - processPackages [stepup-reprep]: Downloading https://files.pythonhosted.org/packages/49/a1/b3b8d619a65a3654e50987774128f3213a012b303db7e073f423cc959cb7/stepup_reprep-1.1.0.tar.gz
+[2024-05-02 11:40:06] INFO root fetch - processPackages [airbyte-source-wrike]: executing diffoscope
+[2024-05-02 11:40:06] INFO root fetch - processPackages [airbyte-source-wrike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-wrike-0.2.0.tar.gz tmp/airbyte_source_wrike-0.2.1.tar.gz --markdown 20240502/a/airbyte-source-wrike/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-02 11:40:06] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/b7/a1/0b22b9a96e05c35661083fcac67ec4c2f1d13c9c0ac55214e82b196d393b/wodoo-0.5.9.tar.gz
+[2024-05-02 11:40:06] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-05-02 11:40:06] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.2.5.tar.gz tmp/pyslth-0.2.6.tar.gz --markdown 20240502/p/pyslth/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-02 11:40:06] INFO root fetch - processPackages [stepup-reprep]: executing diffoscope
+[2024-05-02 11:40:06] INFO root fetch - processPackages [stepup-reprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stepup_reprep-1.0.0.tar.gz tmp/stepup_reprep-1.1.0.tar.gz --markdown 20240502/s/stepup-reprep/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-02 11:40:06] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2024-05-02 11:40:06] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.5.8.tar.gz tmp/wodoo-0.5.9.tar.gz --markdown 20240502/w/wodoo/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-02 11:40:07] INFO root fetch - processPackages [airbyte-source-wrike]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-wrike-0.2.0.tar.gz]
+[2024-05-02 11:40:07] INFO root fetch - processPackages [airbyte-source-wrike]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_wrike-0.2.1.tar.gz]
+[2024-05-02 11:40:07] INFO root fetch - main [MainThread]: End processing [airbyte-source-wrike]: success
+[2024-05-02 11:40:07] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.5.8.tar.gz]
+[2024-05-02 11:40:07] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.5.9.tar.gz]
+[2024-05-02 11:40:07] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2024-05-02 11:40:08] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.2.5.tar.gz]
+[2024-05-02 11:40:08] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.2.6.tar.gz]
+[2024-05-02 11:40:08] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-05-02 11:40:08] INFO root fetch - processPackages [stepup-reprep]: Remove: archive file [/home/abi/fetcher/tmp/stepup_reprep-1.0.0.tar.gz]
+[2024-05-02 11:40:08] INFO root fetch - processPackages [stepup-reprep]: Remove: archive file [/home/abi/fetcher/tmp/stepup_reprep-1.1.0.tar.gz]
+[2024-05-02 11:40:08] INFO root fetch - main [MainThread]: End processing [stepup-reprep]: success
+[2024-05-02 11:40:08] INFO root fetch - main [MainThread]: Store serial: [23028885]
