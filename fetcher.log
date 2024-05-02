@@ -18733,3 +18733,53 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 13:55:36] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.9.tar.gz]
 [2024-05-02 13:55:36] INFO root fetch - main [MainThread]: End processing [bent]: success
 [2024-05-02 13:55:36] INFO root fetch - main [MainThread]: Store serial: [23030245]
+[2024-05-02 13:57:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030245]
+[2024-05-02 13:57:45] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-02 13:59:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030255]
+[2024-05-02 13:59:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 13:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clii
+[2024-05-02 13:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2024-05-02 13:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openadapt
+[2024-05-02 13:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libsegmenter
+[2024-05-02 13:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dapla-statbank-client
+[2024-05-02 13:59:51] INFO root fetch - processPackages [dapla-statbank-client]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-02 13:59:51] INFO root fetch - processPackages [clii]: New version: [1.0.3] Old Version: [1.0.1]
+[2024-05-02 13:59:51] INFO root fetch - processPackages [openadapt]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-02 13:59:51] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 13:59:51] INFO root fetch - processPackages [libsegmenter]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-02 13:59:51] INFO root fetch - processPackages [clii]: Downloading https://files.pythonhosted.org/packages/ff/d5/5cbb2d9e3d006508699a47b5b79e5a893dbaafccbfab2a8f3642b50c3919/clii-1.0.1.tar.gz
+[2024-05-02 13:59:51] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-02 13:59:51] INFO root fetch - processPackages [openadapt]: Downloading https://files.pythonhosted.org/packages/79/02/9909659ccbba301efcb1ca065eb1d9413e5e760d2cefd4a01ba5e723511b/openadapt-0.8.1.tar.gz
+[2024-05-02 13:59:51] INFO root fetch - processPackages [dapla-statbank-client]: Downloading https://files.pythonhosted.org/packages/38/40/b9e95f08574ef9cace6b5113a994a558a7ab43210547542dc19d1b5f978c/dapla_statbank_client-1.2.1.tar.gz
+[2024-05-02 13:59:51] INFO root fetch - processPackages [libsegmenter]: Downloading https://files.pythonhosted.org/packages/ad/87/20a287344574cf4a45087350738c9547800b3f519d5d864e16e763e8f51b/libsegmenter-0.9.1-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-02 13:59:51] INFO root fetch - processPackages [clii]: Downloading https://files.pythonhosted.org/packages/cd/3c/eddeb83b13848d25cb7e6e29f68667232cdae303759c7c332a8d0687a25f/clii-1.0.3.tar.gz
+[2024-05-02 13:59:51] INFO root fetch - processPackages [openadapt]: Downloading https://files.pythonhosted.org/packages/b7/9c/6198cbb491bbd32347e3741b41ee70e6ad1916e573ef76ae3aeb9e0fc8ef/openadapt-0.9.0.tar.gz
+[2024-05-02 13:59:51] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-02 13:59:51] INFO root fetch - processPackages [dapla-statbank-client]: Downloading https://files.pythonhosted.org/packages/82/0b/a7e844827e7feb822d76f08d09a0ab97cba661679bce56938158e4c0a3de/dapla_statbank_client-1.2.2.tar.gz
+[2024-05-02 13:59:51] INFO root fetch - processPackages [clii]: executing diffoscope
+[2024-05-02 13:59:51] INFO root fetch - processPackages [clii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clii-1.0.1.tar.gz tmp/clii-1.0.3.tar.gz --markdown 20240502/c/clii/1.0.1-1.0.3/README.md --exclude *.pyd
+[2024-05-02 13:59:51] INFO root fetch - processPackages [openadapt]: executing diffoscope
+[2024-05-02 13:59:51] INFO root fetch - processPackages [openadapt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openadapt-0.8.1.tar.gz tmp/openadapt-0.9.0.tar.gz --markdown 20240502/o/openadapt/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-02 13:59:51] INFO root fetch - processPackages [libsegmenter]: Downloading https://files.pythonhosted.org/packages/e9/33/c65b418df16fdb04e0f75d21343549a0f4f089278aa153c17c2f814952aa/libsegmenter-0.9.2-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-02 13:59:51] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-02 13:59:51] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240502/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 13:59:51] INFO root fetch - processPackages [dapla-statbank-client]: executing diffoscope
+[2024-05-02 13:59:51] INFO root fetch - processPackages [dapla-statbank-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_statbank_client-1.2.1.tar.gz tmp/dapla_statbank_client-1.2.2.tar.gz --markdown 20240502/d/dapla-statbank-client/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-02 13:59:52] INFO root fetch - processPackages [libsegmenter]: executing diffoscope
+[2024-05-02 13:59:52] INFO root fetch - processPackages [libsegmenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsegmenter-0.9.1-pp39-pypy39_pp73-win_amd64.whl.zip tmp/libsegmenter-0.9.2-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20240502/l/libsegmenter/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-02 13:59:52] INFO root fetch - processPackages [clii]: Remove: archive file [/home/abi/fetcher/tmp/clii-1.0.1.tar.gz]
+[2024-05-02 13:59:52] INFO root fetch - processPackages [clii]: Remove: archive file [/home/abi/fetcher/tmp/clii-1.0.3.tar.gz]
+[2024-05-02 13:59:52] INFO root fetch - main [MainThread]: End processing [clii]: success
+[2024-05-02 13:59:52] INFO root fetch - processPackages [libsegmenter]: Remove: archive file [/home/abi/fetcher/tmp/libsegmenter-0.9.1-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-02 13:59:52] INFO root fetch - processPackages [libsegmenter]: Remove: archive file [/home/abi/fetcher/tmp/libsegmenter-0.9.2-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-02 13:59:52] INFO root fetch - main [MainThread]: End processing [libsegmenter]: success
+[2024-05-02 13:59:52] INFO root fetch - processPackages [dapla-statbank-client]: Remove: archive file [/home/abi/fetcher/tmp/dapla_statbank_client-1.2.1.tar.gz]
+[2024-05-02 13:59:52] INFO root fetch - processPackages [dapla-statbank-client]: Remove: archive file [/home/abi/fetcher/tmp/dapla_statbank_client-1.2.2.tar.gz]
+[2024-05-02 13:59:52] INFO root fetch - main [MainThread]: End processing [dapla-statbank-client]: success
+[2024-05-02 13:59:52] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-02 13:59:52] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-02 13:59:52] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-02 13:59:52] INFO root fetch - processPackages [openadapt]: Remove: archive file [/home/abi/fetcher/tmp/openadapt-0.8.1.tar.gz]
+[2024-05-02 13:59:52] INFO root fetch - processPackages [openadapt]: Remove: archive file [/home/abi/fetcher/tmp/openadapt-0.9.0.tar.gz]
+[2024-05-02 13:59:52] INFO root fetch - main [MainThread]: End processing [openadapt]: success
+[2024-05-02 13:59:52] INFO root fetch - main [MainThread]: Store serial: [23030325]
