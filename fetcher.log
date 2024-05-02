@@ -15513,3 +15513,69 @@
 [2024-05-02 11:51:17] INFO root fetch - processPackages [edgeimpulse]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse-1.0.9.tar.gz]
 [2024-05-02 11:51:17] INFO root fetch - main [MainThread]: End processing [edgeimpulse]: success
 [2024-05-02 11:51:17] INFO root fetch - main [MainThread]: Store serial: [23029043]
+[2024-05-02 11:53:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029043]
+[2024-05-02 11:53:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 11:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cas-tools
+[2024-05-02 11:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iparapheur-internal
+[2024-05-02 11:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ts-mock-api
+[2024-05-02 11:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iparapheur-provisioning
+[2024-05-02 11:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: templated-setup
+[2024-05-02 11:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quasi-utils
+[2024-05-02 11:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: carmen-cloud-client
+[2024-05-02 11:53:27] INFO root fetch - processPackages [templated-setup]: New version: [0.962] Old Version: [0.961]
+[2024-05-02 11:53:27] INFO root fetch - processPackages [iparapheur-internal]: New version: [1.12.3] Old Version: [1.11.5]
+[2024-05-02 11:53:27] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/09/a7/33868f06478de7023d4376fdb2dbc8e633ac86dba10e06f8e74b819e601c/templated_setup-0.961.tar.gz
+[2024-05-02 11:53:27] INFO root fetch - processPackages [ts-mock-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 11:53:27] INFO root fetch - processPackages [carmen-cloud-client]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-02 11:53:27] INFO root fetch - processPackages [iparapheur-provisioning]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-05-02 11:53:27] INFO root fetch - processPackages [quasi-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 11:53:27] INFO root fetch - processPackages [cas-tools]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2024-05-02 11:53:27] INFO root fetch - processPackages [iparapheur-internal]: Downloading https://files.pythonhosted.org/packages/8a/5d/919f2d83b66d0c1687c210abc06437b1250174333449d1d39ebfc9e330d7/iparapheur-internal-1.11.5.tar.gz
+[2024-05-02 11:53:27] INFO root fetch - processPackages [ts-mock-api]: Downloading https://files.pythonhosted.org/packages/c0/16/ed2a095f6d242f69b4ef99e365a1890cb00051234445687f82b819146d6f/ts_mock_api-0.1.1.tar.gz
+[2024-05-02 11:53:27] INFO root fetch - processPackages [cas-tools]: Downloading https://files.pythonhosted.org/packages/b9/5e/39f97fb29d99b0ef2f2ffcffe6cab596041f77151661c1a2ce8808c686da/cas-tools-0.0.1.dev8.tar.gz
+[2024-05-02 11:53:27] INFO root fetch - processPackages [carmen-cloud-client]: Downloading https://files.pythonhosted.org/packages/fb/17/686e1a27cb86b373bbb72890d94ceab22b4afb0735b28c6cb8b1aeef538c/carmen_cloud_client-1.0.2.tar.gz
+[2024-05-02 11:53:27] INFO root fetch - processPackages [iparapheur-provisioning]: Downloading https://files.pythonhosted.org/packages/f7/48/0417c0315c24b6274228cdb84b1df50a6a5560674991afbba22239653b69/iparapheur-provisioning-1.9.3.tar.gz
+[2024-05-02 11:53:27] INFO root fetch - processPackages [quasi-utils]: Downloading https://files.pythonhosted.org/packages/9e/e5/9f95eabc27ba8a43e68f1d1d6a638b133173b1ac6e2ef58d76dd754b9d60/quasi_utils-0.1.8.tar.gz
+[2024-05-02 11:53:27] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/ed/aa/5e24ea7cfede8a7ff9c008729631025f3959c88c94346d86cefa5753856b/templated_setup-0.962.tar.gz
+[2024-05-02 11:53:27] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 11:53:27] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.961.tar.gz tmp/templated_setup-0.962.tar.gz --markdown 20240502/t/templated-setup/0.961-0.962/README.md --exclude *.pyd
+[2024-05-02 11:53:27] INFO root fetch - processPackages [iparapheur-internal]: Downloading https://files.pythonhosted.org/packages/1f/c1/1fb2834ef34ebca3a4ef583f21cc76d5d0406e4f07d4672fd96e9b2d8f98/iparapheur-internal-1.12.3.tar.gz
+[2024-05-02 11:53:28] INFO root fetch - processPackages [iparapheur-internal]: executing diffoscope
+[2024-05-02 11:53:28] INFO root fetch - processPackages [iparapheur-internal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iparapheur-internal-1.11.5.tar.gz tmp/iparapheur-internal-1.12.3.tar.gz --markdown 20240502/i/iparapheur-internal/1.11.5-1.12.3/README.md --exclude *.pyd
+[2024-05-02 11:53:28] INFO root fetch - processPackages [ts-mock-api]: Downloading https://files.pythonhosted.org/packages/41/9e/e211e34c0e32683aa5f20340bee689649d63ad9b5b3542b6e3dbaff2a31f/ts_mock_api-0.1.2.tar.gz
+[2024-05-02 11:53:28] INFO root fetch - processPackages [cas-tools]: Downloading https://files.pythonhosted.org/packages/28/ec/5317b3525f1d8446524985a0eafd9be6ebd8d7ada90d82fef5a5830a585f/cas-tools-0.0.1.dev9.tar.gz
+[2024-05-02 11:53:28] INFO root fetch - processPackages [quasi-utils]: Downloading https://files.pythonhosted.org/packages/83/a9/29917aa3429c6c45fe10c486e529150e543d167462c617b427e6babe0efe/quasi_utils-0.1.9.tar.gz
+[2024-05-02 11:53:28] INFO root fetch - processPackages [iparapheur-provisioning]: Downloading https://files.pythonhosted.org/packages/7b/80/5844b351853c41a83493c5922dbf3a70ab42155a315681863cd94c5862bb/iparapheur-provisioning-1.9.4.tar.gz
+[2024-05-02 11:53:28] INFO root fetch - processPackages [ts-mock-api]: executing diffoscope
+[2024-05-02 11:53:28] INFO root fetch - processPackages [ts-mock-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts_mock_api-0.1.1.tar.gz tmp/ts_mock_api-0.1.2.tar.gz --markdown 20240502/t/ts-mock-api/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 11:53:28] INFO root fetch - processPackages [cas-tools]: executing diffoscope
+[2024-05-02 11:53:28] INFO root fetch - processPackages [cas-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cas-tools-0.0.1.dev8.tar.gz tmp/cas-tools-0.0.1.dev9.tar.gz --markdown 20240502/c/cas-tools/0.0.1.dev8-0.0.1.dev9/README.md --exclude *.pyd
+[2024-05-02 11:53:28] INFO root fetch - processPackages [quasi-utils]: executing diffoscope
+[2024-05-02 11:53:28] INFO root fetch - processPackages [quasi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quasi_utils-0.1.8.tar.gz tmp/quasi_utils-0.1.9.tar.gz --markdown 20240502/q/quasi-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 11:53:28] INFO root fetch - processPackages [iparapheur-provisioning]: executing diffoscope
+[2024-05-02 11:53:28] INFO root fetch - processPackages [iparapheur-provisioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iparapheur-provisioning-1.9.3.tar.gz tmp/iparapheur-provisioning-1.9.4.tar.gz --markdown 20240502/i/iparapheur-provisioning/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-05-02 11:53:28] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.961.tar.gz]
+[2024-05-02 11:53:28] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.962.tar.gz]
+[2024-05-02 11:53:28] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 11:53:28] INFO root fetch - processPackages [carmen-cloud-client]: Downloading https://files.pythonhosted.org/packages/c5/13/29cb0e256deea79297353ea57a328a509f4ccaf30a40756e531ac13db1b7/carmen_cloud_client-1.0.3.tar.gz
+[2024-05-02 11:53:29] INFO root fetch - processPackages [ts-mock-api]: Remove: archive file [/home/abi/fetcher/tmp/ts_mock_api-0.1.1.tar.gz]
+[2024-05-02 11:53:29] INFO root fetch - processPackages [ts-mock-api]: Remove: archive file [/home/abi/fetcher/tmp/ts_mock_api-0.1.2.tar.gz]
+[2024-05-02 11:53:29] INFO root fetch - main [MainThread]: End processing [ts-mock-api]: success
+[2024-05-02 11:53:29] INFO root fetch - processPackages [quasi-utils]: Remove: archive file [/home/abi/fetcher/tmp/quasi_utils-0.1.8.tar.gz]
+[2024-05-02 11:53:29] INFO root fetch - processPackages [quasi-utils]: Remove: archive file [/home/abi/fetcher/tmp/quasi_utils-0.1.9.tar.gz]
+[2024-05-02 11:53:29] INFO root fetch - main [MainThread]: End processing [quasi-utils]: success
+[2024-05-02 11:53:29] INFO root fetch - processPackages [cas-tools]: Remove: archive file [/home/abi/fetcher/tmp/cas-tools-0.0.1.dev8.tar.gz]
+[2024-05-02 11:53:29] INFO root fetch - processPackages [cas-tools]: Remove: archive file [/home/abi/fetcher/tmp/cas-tools-0.0.1.dev9.tar.gz]
+[2024-05-02 11:53:29] INFO root fetch - main [MainThread]: End processing [cas-tools]: success
+[2024-05-02 11:53:30] INFO root fetch - processPackages [iparapheur-internal]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-internal-1.11.5.tar.gz]
+[2024-05-02 11:53:30] INFO root fetch - processPackages [iparapheur-internal]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-internal-1.12.3.tar.gz]
+[2024-05-02 11:53:30] INFO root fetch - main [MainThread]: End processing [iparapheur-internal]: success
+[2024-05-02 11:53:30] INFO root fetch - processPackages [iparapheur-provisioning]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-provisioning-1.9.3.tar.gz]
+[2024-05-02 11:53:30] INFO root fetch - processPackages [iparapheur-provisioning]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-provisioning-1.9.4.tar.gz]
+[2024-05-02 11:53:30] INFO root fetch - main [MainThread]: End processing [iparapheur-provisioning]: success
+[2024-05-02 11:53:30] INFO root fetch - processPackages [carmen-cloud-client]: executing diffoscope
+[2024-05-02 11:53:30] INFO root fetch - processPackages [carmen-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carmen_cloud_client-1.0.2.tar.gz tmp/carmen_cloud_client-1.0.3.tar.gz --markdown 20240502/c/carmen-cloud-client/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-02 11:53:31] INFO root fetch - processPackages [carmen-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/carmen_cloud_client-1.0.2.tar.gz]
+[2024-05-02 11:53:31] INFO root fetch - processPackages [carmen-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/carmen_cloud_client-1.0.3.tar.gz]
+[2024-05-02 11:53:31] INFO root fetch - main [MainThread]: End processing [carmen-cloud-client]: success
+[2024-05-02 11:53:31] INFO root fetch - main [MainThread]: Store serial: [23029061]
