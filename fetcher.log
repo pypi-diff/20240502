@@ -11029,3 +11029,45 @@
 [2024-05-02 08:51:02] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.91.tar.gz]
 [2024-05-02 08:51:02] INFO root fetch - main [MainThread]: End processing [dektools]: success
 [2024-05-02 08:51:02] INFO root fetch - main [MainThread]: Store serial: [23027141]
+[2024-05-02 08:53:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027141]
+[2024-05-02 08:53:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 08:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adcl
+[2024-05-02 08:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catfish-sim
+[2024-05-02 08:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mongospecs
+[2024-05-02 08:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ast-grep-py
+[2024-05-02 08:53:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cryolo
+[2024-05-02 08:53:12] INFO root fetch - processPackages [adcl]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-02 08:53:12] WARNING root fetch - processPackages [mongospecs]: Skipping, unable to determine old version
+[2024-05-02 08:53:12] INFO root fetch - main [MainThread]: End processing [mongospecs] error
+[2024-05-02 08:53:12] INFO root fetch - processPackages [catfish-sim]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 08:53:12] INFO root fetch - processPackages [cryolo]: New version: [1.9.9] Old Version: [1.9.8b2]
+[2024-05-02 08:53:12] INFO root fetch - processPackages [ast-grep-py]: New version: [0.21.2] Old Version: [0.21.1]
+[2024-05-02 08:53:13] INFO root fetch - processPackages [catfish-sim]: Downloading https://files.pythonhosted.org/packages/b0/31/19f9f06079c5ac38f34a9da15afe2da57dea832bf97f70af9ca3dadbc854/catfish_sim-0.1.0.tar.gz
+[2024-05-02 08:53:13] INFO root fetch - processPackages [adcl]: Downloading https://files.pythonhosted.org/packages/d0/07/0ed8ad0a583ee2d5180696d198618d3ded69ae5e38ed7cb86a7e4cba5621/adcl-0.1.2.tar.gz
+[2024-05-02 08:53:13] INFO root fetch - processPackages [cryolo]: Downloading https://files.pythonhosted.org/packages/d1/ca/62471003436a79119944a64f269d746b664737225216ee10db2c7ac2a4a4/cryolo-1.9.8b2.tar.gz
+[2024-05-02 08:53:13] INFO root fetch - processPackages [ast-grep-py]: Downloading https://files.pythonhosted.org/packages/21/1d/642473b8312c9cce412738537657a493e20a7025d1de110e2302b2fa485c/ast_grep_py-0.21.1.tar.gz
+[2024-05-02 08:53:13] INFO root fetch - processPackages [adcl]: Downloading https://files.pythonhosted.org/packages/be/e0/b350c320f9d39e2efd2b02352efb74426d14805d619cadd484549ef5f030/adcl-0.1.3.tar.gz
+[2024-05-02 08:53:13] INFO root fetch - processPackages [catfish-sim]: Downloading https://files.pythonhosted.org/packages/72/5e/29a9f21d1bec26f123f6a6c9640aa3f906b99f73d75be79f9cf5339803cd/catfish_sim-0.1.1.tar.gz
+[2024-05-02 08:53:13] INFO root fetch - processPackages [adcl]: executing diffoscope
+[2024-05-02 08:53:13] INFO root fetch - processPackages [adcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adcl-0.1.2.tar.gz tmp/adcl-0.1.3.tar.gz --markdown 20240502/a/adcl/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-02 08:53:13] INFO root fetch - processPackages [ast-grep-py]: Downloading https://files.pythonhosted.org/packages/1c/34/2ae1c34f6b60ae1bff52cc882920eb43ffb74591419105dfe578f723bf72/ast_grep_py-0.21.2-cp39-none-win32.whl
+[2024-05-02 08:53:13] INFO root fetch - processPackages [cryolo]: Downloading https://files.pythonhosted.org/packages/ec/46/47723715cbb40416796042314e56a466db963d1c8b044edc50d3ccc0ef32/cryolo-1.9.9.tar.gz
+[2024-05-02 08:53:13] INFO root fetch - processPackages [catfish-sim]: executing diffoscope
+[2024-05-02 08:53:13] INFO root fetch - processPackages [catfish-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catfish_sim-0.1.0.tar.gz tmp/catfish_sim-0.1.1.tar.gz --markdown 20240502/c/catfish-sim/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 08:53:13] INFO root fetch - processPackages [cryolo]: executing diffoscope
+[2024-05-02 08:53:13] INFO root fetch - processPackages [cryolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryolo-1.9.8b2.tar.gz tmp/cryolo-1.9.9.tar.gz --markdown 20240502/c/cryolo/1.9.8b2-1.9.9/README.md --exclude *.pyd
+[2024-05-02 08:53:14] INFO root fetch - processPackages [adcl]: Remove: archive file [/home/abi/fetcher/tmp/adcl-0.1.2.tar.gz]
+[2024-05-02 08:53:14] INFO root fetch - processPackages [adcl]: Remove: archive file [/home/abi/fetcher/tmp/adcl-0.1.3.tar.gz]
+[2024-05-02 08:53:14] INFO root fetch - main [MainThread]: End processing [adcl]: success
+[2024-05-02 08:53:14] INFO root fetch - processPackages [cryolo]: Remove: archive file [/home/abi/fetcher/tmp/cryolo-1.9.8b2.tar.gz]
+[2024-05-02 08:53:14] INFO root fetch - processPackages [cryolo]: Remove: archive file [/home/abi/fetcher/tmp/cryolo-1.9.9.tar.gz]
+[2024-05-02 08:53:14] INFO root fetch - main [MainThread]: End processing [cryolo]: success
+[2024-05-02 08:53:14] INFO root fetch - processPackages [catfish-sim]: Remove: archive file [/home/abi/fetcher/tmp/catfish_sim-0.1.0.tar.gz]
+[2024-05-02 08:53:14] INFO root fetch - processPackages [catfish-sim]: Remove: archive file [/home/abi/fetcher/tmp/catfish_sim-0.1.1.tar.gz]
+[2024-05-02 08:53:14] INFO root fetch - main [MainThread]: End processing [catfish-sim]: success
+[2024-05-02 08:53:16] INFO root fetch - processPackages [ast-grep-py]: executing diffoscope
+[2024-05-02 08:53:16] INFO root fetch - processPackages [ast-grep-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_py-0.21.1.tar.gz tmp/ast_grep_py-0.21.2-cp39-none-win32.whl.zip --markdown 20240502/a/ast-grep-py/0.21.1-0.21.2/README.md --exclude *.pyd
+[2024-05-02 08:53:16] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.21.1.tar.gz]
+[2024-05-02 08:53:16] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.21.2-cp39-none-win32.whl.zip]
+[2024-05-02 08:53:16] INFO root fetch - main [MainThread]: End processing [ast-grep-py]: success
+[2024-05-02 08:53:16] INFO root fetch - main [MainThread]: Store serial: [23027182]
