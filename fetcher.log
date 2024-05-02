@@ -11311,3 +11311,24 @@
 [2024-05-02 09:06:35] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.9.tar.gz]
 [2024-05-02 09:06:35] INFO root fetch - main [MainThread]: End processing [gpt-all-star]: success
 [2024-05-02 09:06:35] INFO root fetch - main [MainThread]: Store serial: [23027301]
+[2024-05-02 09:08:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027301]
+[2024-05-02 09:08:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gouge
+[2024-05-02 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-hr-timesheet-sheet
+[2024-05-02 09:08:44] INFO root fetch - processPackages [gouge]: New version: [2.2.2.post1] Old Version: [2.2.2]
+[2024-05-02 09:08:44] INFO root fetch - processPackages [gouge]: Downloading https://files.pythonhosted.org/packages/53/ff/3aed91a2a7eaa55720a5ba4ab6dc0ba6bb56c86a547b49524e01a0651181/gouge-2.2.2.tar.gz
+[2024-05-02 09:08:44] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: New version: [16.0.1.1.1.4] Old Version: [16.0.1.1.1.2]
+[2024-05-02 09:08:44] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/a2/73/c16956533ad6cfa0490fb44c38283f9b1d2ce3cde13caa8fd21bc249aef1/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.2-py3-none-any.whl
+[2024-05-02 09:08:44] INFO root fetch - processPackages [gouge]: Downloading https://files.pythonhosted.org/packages/51/51/f3d1d4027bbc158dce203350bee36c4a1ca9f81180d9cf3bc10657ea3379/gouge-2.2.2.post1.tar.gz
+[2024-05-02 09:08:44] INFO root fetch - processPackages [gouge]: executing diffoscope
+[2024-05-02 09:08:44] INFO root fetch - processPackages [gouge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gouge-2.2.2.tar.gz tmp/gouge-2.2.2.post1.tar.gz --markdown 20240502/g/gouge/2.2.2-2.2.2.post1/README.md --exclude *.pyd
+[2024-05-02 09:08:44] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/f0/7f/f7038ceff85f31bcc45b6659aad462a67dcc4273d3a77ac2ed106899369c/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.4-py3-none-any.whl
+[2024-05-02 09:08:44] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: executing diffoscope
+[2024-05-02 09:08:44] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.4-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-hr-timesheet-sheet/16.0.1.1.1.2-16.0.1.1.1.4/README.md --exclude *.pyd
+[2024-05-02 09:08:45] INFO root fetch - processPackages [gouge]: Remove: archive file [/home/abi/fetcher/tmp/gouge-2.2.2.tar.gz]
+[2024-05-02 09:08:45] INFO root fetch - processPackages [gouge]: Remove: archive file [/home/abi/fetcher/tmp/gouge-2.2.2.post1.tar.gz]
+[2024-05-02 09:08:45] INFO root fetch - main [MainThread]: End processing [gouge]: success
+[2024-05-02 09:08:45] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.2-py3-none-any.whl.zip]
+[2024-05-02 09:08:45] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.4-py3-none-any.whl.zip]
+[2024-05-02 09:08:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-sheet]: success
+[2024-05-02 09:08:45] INFO root fetch - main [MainThread]: Store serial: [23027306]
