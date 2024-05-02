@@ -16618,3 +16618,38 @@
 [2024-05-02 12:26:44] INFO root fetch - processPackages [ya360]: Remove: archive file [/home/abi/fetcher/tmp/ya360-3.6.1.tar.gz]
 [2024-05-02 12:26:44] INFO root fetch - main [MainThread]: End processing [ya360]: success
 [2024-05-02 12:26:44] INFO root fetch - main [MainThread]: Store serial: [23029507]
+[2024-05-02 12:28:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029507]
+[2024-05-02 12:28:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 12:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libgunshotmatch
+[2024-05-02 12:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: radix-engine-toolkit
+[2024-05-02 12:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: templated-setup
+[2024-05-02 12:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bio2zarr
+[2024-05-02 12:28:54] INFO root fetch - processPackages [templated-setup]: New version: [0.968] Old Version: [0.967]
+[2024-05-02 12:28:54] INFO root fetch - processPackages [radix-engine-toolkit]: New version: [2.1.0.dev3] Old Version: [2.1.0.dev2]
+[2024-05-02 12:28:54] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/a0/2b/44522f2f92177724edf987d1b33c31b23397edc60262486363d95a790f7e/templated_setup-0.967.tar.gz
+[2024-05-02 12:28:54] INFO root fetch - processPackages [bio2zarr]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 12:28:54] INFO root fetch - processPackages [libgunshotmatch]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-02 12:28:55] INFO root fetch - processPackages [radix-engine-toolkit]: Downloading https://files.pythonhosted.org/packages/c6/18/71445f3896c4050574253fe71de34d9a56c5906b8a5e27c242e3a18bc27c/radix_engine_toolkit-2.1.0.dev2-py3-none-any.whl
+[2024-05-02 12:28:55] WARNING root fetch - processPackages [radix-engine-toolkit]: Skipping package: exceeds size limit 28781175>=10485760
+[2024-05-02 12:28:55] INFO root fetch - main [MainThread]: End processing [radix-engine-toolkit] error
+[2024-05-02 12:28:55] INFO root fetch - processPackages [libgunshotmatch]: Downloading https://files.pythonhosted.org/packages/a1/b2/0597153d4acdaa544aaa81c69b9d915d6f5929d38afddc8c65fa47b22190/libgunshotmatch-0.9.0.tar.gz
+[2024-05-02 12:28:55] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/2f/49/fd936db94dd16c2a221d38aa1cef53bb94444c1d7d3b08fb43819f89eaf9/templated_setup-0.968.tar.gz
+[2024-05-02 12:28:55] INFO root fetch - processPackages [bio2zarr]: Downloading https://files.pythonhosted.org/packages/dd/31/7442344ead34c0254577b1112e77c4791a34eca3b5f306008eb741e29149/bio2zarr-0.0.8.tar.gz
+[2024-05-02 12:28:55] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 12:28:55] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.967.tar.gz tmp/templated_setup-0.968.tar.gz --markdown 20240502/t/templated-setup/0.967-0.968/README.md --exclude *.pyd
+[2024-05-02 12:28:55] INFO root fetch - processPackages [bio2zarr]: Downloading https://files.pythonhosted.org/packages/6e/c9/e0918f8b72d9e88ac86e68e7106aa27d4dc6fc72116f1080e0a91b4070a7/bio2zarr-0.0.9.tar.gz
+[2024-05-02 12:28:55] INFO root fetch - processPackages [libgunshotmatch]: Downloading https://files.pythonhosted.org/packages/1d/9d/c33a8aaf4ca83a1447cb350ebf6d910b2205bd108237ee3a82ecc426b96f/libgunshotmatch-0.9.1.tar.gz
+[2024-05-02 12:28:55] INFO root fetch - processPackages [bio2zarr]: executing diffoscope
+[2024-05-02 12:28:55] INFO root fetch - processPackages [bio2zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio2zarr-0.0.8.tar.gz tmp/bio2zarr-0.0.9.tar.gz --markdown 20240502/b/bio2zarr/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 12:28:55] INFO root fetch - processPackages [libgunshotmatch]: executing diffoscope
+[2024-05-02 12:28:55] INFO root fetch - processPackages [libgunshotmatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libgunshotmatch-0.9.0.tar.gz tmp/libgunshotmatch-0.9.1.tar.gz --markdown 20240502/l/libgunshotmatch/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-02 12:28:55] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.967.tar.gz]
+[2024-05-02 12:28:55] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.968.tar.gz]
+[2024-05-02 12:28:55] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 12:28:56] INFO root fetch - processPackages [libgunshotmatch]: Remove: archive file [/home/abi/fetcher/tmp/libgunshotmatch-0.9.0.tar.gz]
+[2024-05-02 12:28:56] INFO root fetch - processPackages [libgunshotmatch]: Remove: archive file [/home/abi/fetcher/tmp/libgunshotmatch-0.9.1.tar.gz]
+[2024-05-02 12:28:56] INFO root fetch - main [MainThread]: End processing [libgunshotmatch]: success
+[2024-05-02 12:28:56] INFO root fetch - processPackages [bio2zarr]: Remove: archive file [/home/abi/fetcher/tmp/bio2zarr-0.0.8.tar.gz]
+[2024-05-02 12:28:56] INFO root fetch - processPackages [bio2zarr]: Remove: archive file [/home/abi/fetcher/tmp/bio2zarr-0.0.9.tar.gz]
+[2024-05-02 12:28:56] INFO root fetch - main [MainThread]: End processing [bio2zarr]: success
+[2024-05-02 12:28:56] INFO root fetch - main [MainThread]: Store serial: [23029519]
