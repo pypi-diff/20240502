@@ -11750,3 +11750,60 @@
 [2024-05-02 09:32:50] INFO root fetch - processPackages [openkongqi]: Remove: archive file [/home/abi/fetcher/tmp/openkongqi-0.2.9.tar.gz]
 [2024-05-02 09:32:50] INFO root fetch - main [MainThread]: End processing [openkongqi]: success
 [2024-05-02 09:32:50] INFO root fetch - main [MainThread]: Store serial: [23027444]
+[2024-05-02 09:34:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027444]
+[2024-05-02 09:34:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 09:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: massmarket-hash-event
+[2024-05-02 09:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genet
+[2024-05-02 09:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-replay-bg
+[2024-05-02 09:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django_forms_plus
+[2024-05-02 09:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kilmlogger
+[2024-05-02 09:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-hr-expense-payment-widget-amount
+[2024-05-02 09:34:59] INFO root fetch - processPackages [massmarket-hash-event]: New version: [0.1.5] Old Version: [0.1.2]
+[2024-05-02 09:34:59] INFO root fetch - processPackages [django_forms_plus]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 09:34:59] INFO root fetch - processPackages [django_forms_plus]: Downloading https://files.pythonhosted.org/packages/17/0e/f79e56cbbdc79f927f3c0a84be419ffe6da4dae45bde17f62e4a9620af0f/django_forms_plus-0.8.0.tar.gz
+[2024-05-02 09:34:59] INFO root fetch - processPackages [py-replay-bg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 09:34:59] INFO root fetch - processPackages [kilmlogger]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 09:34:59] INFO root fetch - processPackages [odoo-addon-hr-expense-payment-widget-amount]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.5]
+[2024-05-02 09:34:59] INFO root fetch - processPackages [genet]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 09:34:59] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/ba/68/6128b3ae32c834080dd95acc83aed6c902357888b73749e0a4fb9e39fd4e/massmarket_hash_event-0.1.2.tar.gz
+[2024-05-02 09:34:59] INFO root fetch - processPackages [kilmlogger]: Downloading https://files.pythonhosted.org/packages/c2/d3/02d583711bd244538f5576dc61859e71ff9ba4faa947cdf90fbd3f69d8ec/kilmlogger-0.0.8.tar.gz
+[2024-05-02 09:34:59] INFO root fetch - processPackages [py-replay-bg]: Downloading https://files.pythonhosted.org/packages/e4/3e/02f71b339f68be3efd9a08ed1894bf5a5f956232b63ed7206d77af4c4266/py_replay_bg-0.0.8.tar.gz
+[2024-05-02 09:34:59] INFO root fetch - processPackages [genet]: Downloading https://files.pythonhosted.org/packages/d1/0e/090eaceebeebb6734a6b9872ae17931df0f8f73220a6684f9ab19350b8c5/genet-0.8.0-py3-none-any.whl
+[2024-05-02 09:34:59] INFO root fetch - processPackages [odoo-addon-hr-expense-payment-widget-amount]: Downloading https://files.pythonhosted.org/packages/bd/6c/51b1da6fbeb097ce80a44251027820e5deffd8d6b626e6b55fc0ba2a74ec/odoo_addon_hr_expense_payment_widget_amount-15.0.1.0.0.5-py3-none-any.whl
+[2024-05-02 09:35:00] INFO root fetch - processPackages [django_forms_plus]: Downloading https://files.pythonhosted.org/packages/54/f3/c85ac8ce94145bb3872c12320f60f50e48053a66266349c0d4cbf452a9dd/django_forms_plus-0.9.0.tar.gz
+[2024-05-02 09:35:00] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/bb/20/abe29d1a7090a27942d561a017cb03bc54c866fbfa013b3b78b0298d9f38/massmarket_hash_event-0.1.5.tar.gz
+[2024-05-02 09:35:00] INFO root fetch - processPackages [massmarket-hash-event]: executing diffoscope
+[2024-05-02 09:35:00] INFO root fetch - processPackages [massmarket-hash-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massmarket_hash_event-0.1.2.tar.gz tmp/massmarket_hash_event-0.1.5.tar.gz --markdown 20240502/m/massmarket-hash-event/0.1.2-0.1.5/README.md --exclude *.pyd
+[2024-05-02 09:35:00] INFO root fetch - processPackages [django_forms_plus]: executing diffoscope
+[2024-05-02 09:35:00] INFO root fetch - processPackages [django_forms_plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_forms_plus-0.8.0.tar.gz tmp/django_forms_plus-0.9.0.tar.gz --markdown 20240502/d/django_forms_plus/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 09:35:00] INFO root fetch - processPackages [odoo-addon-hr-expense-payment-widget-amount]: Downloading https://files.pythonhosted.org/packages/75/d4/48f931a854d4771c20438eb10605078c7e764e34ae3a633b7544da12807b/odoo_addon_hr_expense_payment_widget_amount-15.0.1.0.1-py3-none-any.whl
+[2024-05-02 09:35:00] INFO root fetch - processPackages [kilmlogger]: Downloading https://files.pythonhosted.org/packages/81/61/c6e2ccb23089fad8ec80bbd9e825578f4726f3dd9244183ce10dc6e224a1/kilmlogger-0.0.9.tar.gz
+[2024-05-02 09:35:00] INFO root fetch - processPackages [py-replay-bg]: Downloading https://files.pythonhosted.org/packages/c0/4a/f360f7185879746c5febb0a3dd1434f82863ec39a6fe0bf087aa548634d2/py_replay_bg-0.0.9.tar.gz
+[2024-05-02 09:35:00] INFO root fetch - processPackages [genet]: Downloading https://files.pythonhosted.org/packages/28/31/f466174de49f7b1c65707bd0f86b97b949a90b492045b4ee91212039a51e/genet-0.9.0-py3-none-any.whl
+[2024-05-02 09:35:00] INFO root fetch - processPackages [genet]: executing diffoscope
+[2024-05-02 09:35:00] INFO root fetch - processPackages [genet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genet-0.8.0-py3-none-any.whl.zip tmp/genet-0.9.0-py3-none-any.whl.zip --markdown 20240502/g/genet/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 09:35:00] INFO root fetch - processPackages [odoo-addon-hr-expense-payment-widget-amount]: executing diffoscope
+[2024-05-02 09:35:00] INFO root fetch - processPackages [odoo-addon-hr-expense-payment-widget-amount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_expense_payment_widget_amount-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_hr_expense_payment_widget_amount-15.0.1.0.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-hr-expense-payment-widget-amount/15.0.1.0.0.5-15.0.1.0.1/README.md --exclude *.pyd
+[2024-05-02 09:35:00] INFO root fetch - processPackages [kilmlogger]: executing diffoscope
+[2024-05-02 09:35:00] INFO root fetch - processPackages [kilmlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kilmlogger-0.0.8.tar.gz tmp/kilmlogger-0.0.9.tar.gz --markdown 20240502/k/kilmlogger/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 09:35:00] INFO root fetch - processPackages [py-replay-bg]: executing diffoscope
+[2024-05-02 09:35:00] INFO root fetch - processPackages [py-replay-bg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_replay_bg-0.0.8.tar.gz tmp/py_replay_bg-0.0.9.tar.gz --markdown 20240502/p/py-replay-bg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 09:35:00] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.1.2.tar.gz]
+[2024-05-02 09:35:00] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.1.5.tar.gz]
+[2024-05-02 09:35:00] INFO root fetch - main [MainThread]: End processing [massmarket-hash-event]: success
+[2024-05-02 09:35:01] INFO root fetch - processPackages [kilmlogger]: Remove: archive file [/home/abi/fetcher/tmp/kilmlogger-0.0.8.tar.gz]
+[2024-05-02 09:35:01] INFO root fetch - processPackages [kilmlogger]: Remove: archive file [/home/abi/fetcher/tmp/kilmlogger-0.0.9.tar.gz]
+[2024-05-02 09:35:01] INFO root fetch - main [MainThread]: End processing [kilmlogger]: success
+[2024-05-02 09:35:01] INFO root fetch - processPackages [odoo-addon-hr-expense-payment-widget-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_expense_payment_widget_amount-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-02 09:35:01] INFO root fetch - processPackages [odoo-addon-hr-expense-payment-widget-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_expense_payment_widget_amount-15.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-02 09:35:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-expense-payment-widget-amount]: success
+[2024-05-02 09:35:01] INFO root fetch - processPackages [genet]: Remove: archive file [/home/abi/fetcher/tmp/genet-0.8.0-py3-none-any.whl.zip]
+[2024-05-02 09:35:01] INFO root fetch - processPackages [genet]: Remove: archive file [/home/abi/fetcher/tmp/genet-0.9.0-py3-none-any.whl.zip]
+[2024-05-02 09:35:01] INFO root fetch - main [MainThread]: End processing [genet]: success
+[2024-05-02 09:35:01] INFO root fetch - processPackages [py-replay-bg]: Remove: archive file [/home/abi/fetcher/tmp/py_replay_bg-0.0.8.tar.gz]
+[2024-05-02 09:35:01] INFO root fetch - processPackages [py-replay-bg]: Remove: archive file [/home/abi/fetcher/tmp/py_replay_bg-0.0.9.tar.gz]
+[2024-05-02 09:35:01] INFO root fetch - main [MainThread]: End processing [py-replay-bg]: success
+[2024-05-02 09:35:11] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.8.0.tar.gz]
+[2024-05-02 09:35:11] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.9.0.tar.gz]
+[2024-05-02 09:35:11] INFO root fetch - main [MainThread]: End processing [django_forms_plus]: success
+[2024-05-02 09:35:11] INFO root fetch - main [MainThread]: Store serial: [23027460]
