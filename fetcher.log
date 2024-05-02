@@ -21217,3 +21217,74 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:06:23] INFO root fetch - processPackages [ironic-python-agent]: Remove: archive file [/home/abi/fetcher/tmp/ironic-python-agent-9.9.0.tar.gz]
 [2024-05-02 15:06:23] INFO root fetch - main [MainThread]: End processing [ironic-python-agent]: success
 [2024-05-02 15:06:23] INFO root fetch - main [MainThread]: Store serial: [23031271]
+[2024-05-02 15:08:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031271]
+[2024-05-02 15:08:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datamazing
+[2024-05-02 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onion-clustering
+[2024-05-02 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bifrost
+[2024-05-02 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vfo
+[2024-05-02 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ironic-python-agent-builder
+[2024-05-02 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bridgecrew
+[2024-05-02 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ironic-inspector
+[2024-05-02 15:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: biaspeech
+[2024-05-02 15:08:33] INFO root fetch - processPackages [biaspeech]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-02 15:08:33] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-02 15:08:33] INFO root fetch - processPackages [ironic-python-agent-builder]: New version: [5.3.0] Old Version: [5.2.1]
+[2024-05-02 15:08:33] INFO root fetch - processPackages [ironic-inspector]: New version: [9.2.4] Old Version: [9.2.3]
+[2024-05-02 15:08:33] INFO root fetch - processPackages [bifrost]: New version: [9.1.0] Old Version: [9.0.1]
+[2024-05-02 15:08:33] INFO root fetch - processPackages [onion-clustering]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-02 15:08:33] INFO root fetch - processPackages [vfo]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 15:08:33] INFO root fetch - processPackages [datamazing]: New version: [4.3.3] Old Version: [4.3.1]
+[2024-05-02 15:08:34] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/10/ba/dce7980ff0b7c11c6b0d4933f275f376eb8a4c997f0527cc483ac2310c8b/bridgecrew-3.2.8.tar.gz
+[2024-05-02 15:08:34] INFO root fetch - processPackages [biaspeech]: Downloading https://files.pythonhosted.org/packages/55/cf/78e273f5dd276f9817ff152b7027b9e503cde9844ea6e1510ad11cc1cf1e/biaspeech-0.2.2.tar.gz
+[2024-05-02 15:08:34] WARNING root fetch - processPackages [biaspeech]: Skipping package: exceeds size limit 16678843>=10485760
+[2024-05-02 15:08:34] INFO root fetch - main [MainThread]: End processing [biaspeech] error
+[2024-05-02 15:08:34] INFO root fetch - processPackages [ironic-python-agent-builder]: Downloading https://files.pythonhosted.org/packages/80/8a/8bc5578b21e07e1ff75075e0885dd866cf6d75d32ec81fab628c3634ef6b/ironic-python-agent-builder-5.2.1.tar.gz
+[2024-05-02 15:08:34] INFO root fetch - processPackages [bifrost]: Downloading https://files.pythonhosted.org/packages/42/86/e2c354fa70edcda72eeab1fb109833e7d10268a25aed53dbf30dbc589724/bifrost-9.0.1.tar.gz
+[2024-05-02 15:08:34] INFO root fetch - processPackages [onion-clustering]: Downloading https://files.pythonhosted.org/packages/41/4b/877e707989193bfd80970de65a5ac3756f344146e7d9d19b01daea23a2a8/onion_clustering-0.1.5.tar.gz
+[2024-05-02 15:08:34] INFO root fetch - processPackages [vfo]: Downloading https://files.pythonhosted.org/packages/22/89/bc9450ed228e298cefbb3e75740d646e77f0535eb47910ce0ea09ad60ef8/vfo-0.0.8.tar.gz
+[2024-05-02 15:08:34] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/57/c9/0f4c889ed905184b387da6885365c5e10bc5c16e3acae14e6b91ecd185a1/datamazing-4.3.1.tar.gz
+[2024-05-02 15:08:34] INFO root fetch - processPackages [ironic-inspector]: Downloading https://files.pythonhosted.org/packages/84/b8/3980ea25f687d172d8ff2998d684d67bf1c4d16d7794b8b39e5b92fec10d/ironic-inspector-9.2.3.tar.gz
+[2024-05-02 15:08:34] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-05-02 15:08:34] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-02 15:08:34] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.8.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240502/b/bridgecrew/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-02 15:08:34] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/84/66/db9f8a448859c4885d18f3de672063e5662e1bc6f261e0a162c820ef2bab/datamazing-4.3.3.tar.gz
+[2024-05-02 15:08:34] INFO root fetch - processPackages [onion-clustering]: Downloading https://files.pythonhosted.org/packages/6a/0e/a103267f85947ac2644d29411875be35bc829fb1a53338ca33e0483e7917/onion_clustering-0.2.0.tar.gz
+[2024-05-02 15:08:34] INFO root fetch - processPackages [bifrost]: Downloading https://files.pythonhosted.org/packages/8e/89/c4dd00db0f1522246906d43a5d1f1bed7fe424ad967c8a82a8c5f0fd452e/bifrost-9.1.0.tar.gz
+[2024-05-02 15:08:34] INFO root fetch - processPackages [ironic-python-agent-builder]: Downloading https://files.pythonhosted.org/packages/61/ad/b722d1808a3ed72635a8b739a94c9b58be99db44fa9b2a60d6f3a8de1250/ironic-python-agent-builder-5.3.0.tar.gz
+[2024-05-02 15:08:34] INFO root fetch - processPackages [vfo]: Downloading https://files.pythonhosted.org/packages/27/94/f2e9323879b346faf68af1b8520aad47fe826f65e0b80797cc4e533d7654/vfo-0.0.9.tar.gz
+[2024-05-02 15:08:34] INFO root fetch - processPackages [onion-clustering]: executing diffoscope
+[2024-05-02 15:08:34] INFO root fetch - processPackages [onion-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onion_clustering-0.1.5.tar.gz tmp/onion_clustering-0.2.0.tar.gz --markdown 20240502/o/onion-clustering/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-02 15:08:34] INFO root fetch - processPackages [datamazing]: executing diffoscope
+[2024-05-02 15:08:34] INFO root fetch - processPackages [datamazing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamazing-4.3.1.tar.gz tmp/datamazing-4.3.3.tar.gz --markdown 20240502/d/datamazing/4.3.1-4.3.3/README.md --exclude *.pyd
+[2024-05-02 15:08:34] INFO root fetch - processPackages [ironic-inspector]: Downloading https://files.pythonhosted.org/packages/5f/c1/69792c2300e336ee18dc4acb5955bc4a0598d8b8cf3c9756e6bf8dd89104/ironic-inspector-9.2.4.tar.gz
+[2024-05-02 15:08:34] INFO root fetch - processPackages [bifrost]: executing diffoscope
+[2024-05-02 15:08:34] INFO root fetch - processPackages [ironic-python-agent-builder]: executing diffoscope
+[2024-05-02 15:08:34] INFO root fetch - processPackages [bifrost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bifrost-9.0.1.tar.gz tmp/bifrost-9.1.0.tar.gz --markdown 20240502/b/bifrost/9.0.1-9.1.0/README.md --exclude *.pyd
+[2024-05-02 15:08:34] INFO root fetch - processPackages [ironic-python-agent-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ironic-python-agent-builder-5.2.1.tar.gz tmp/ironic-python-agent-builder-5.3.0.tar.gz --markdown 20240502/i/ironic-python-agent-builder/5.2.1-5.3.0/README.md --exclude *.pyd
+[2024-05-02 15:08:34] INFO root fetch - processPackages [vfo]: executing diffoscope
+[2024-05-02 15:08:34] INFO root fetch - processPackages [vfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vfo-0.0.8.tar.gz tmp/vfo-0.0.9.tar.gz --markdown 20240502/v/vfo/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 15:08:35] INFO root fetch - processPackages [ironic-inspector]: executing diffoscope
+[2024-05-02 15:08:35] INFO root fetch - processPackages [ironic-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ironic-inspector-9.2.3.tar.gz tmp/ironic-inspector-9.2.4.tar.gz --markdown 20240502/i/ironic-inspector/9.2.3-9.2.4/README.md --exclude *.pyd
+[2024-05-02 15:08:35] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.8.tar.gz]
+[2024-05-02 15:08:35] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-05-02 15:08:35] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-02 15:08:35] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-4.3.1.tar.gz]
+[2024-05-02 15:08:35] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-4.3.3.tar.gz]
+[2024-05-02 15:08:35] INFO root fetch - main [MainThread]: End processing [datamazing]: success
+[2024-05-02 15:08:35] INFO root fetch - processPackages [onion-clustering]: Remove: archive file [/home/abi/fetcher/tmp/onion_clustering-0.1.5.tar.gz]
+[2024-05-02 15:08:35] INFO root fetch - processPackages [onion-clustering]: Remove: archive file [/home/abi/fetcher/tmp/onion_clustering-0.2.0.tar.gz]
+[2024-05-02 15:08:35] INFO root fetch - main [MainThread]: End processing [onion-clustering]: success
+[2024-05-02 15:08:36] INFO root fetch - processPackages [vfo]: Remove: archive file [/home/abi/fetcher/tmp/vfo-0.0.8.tar.gz]
+[2024-05-02 15:08:36] INFO root fetch - processPackages [vfo]: Remove: archive file [/home/abi/fetcher/tmp/vfo-0.0.9.tar.gz]
+[2024-05-02 15:08:36] INFO root fetch - main [MainThread]: End processing [vfo]: success
+[2024-05-02 15:08:36] INFO root fetch - processPackages [ironic-python-agent-builder]: Remove: archive file [/home/abi/fetcher/tmp/ironic-python-agent-builder-5.2.1.tar.gz]
+[2024-05-02 15:08:36] INFO root fetch - processPackages [ironic-python-agent-builder]: Remove: archive file [/home/abi/fetcher/tmp/ironic-python-agent-builder-5.3.0.tar.gz]
+[2024-05-02 15:08:36] INFO root fetch - main [MainThread]: End processing [ironic-python-agent-builder]: success
+[2024-05-02 15:08:36] INFO root fetch - processPackages [ironic-inspector]: Remove: archive file [/home/abi/fetcher/tmp/ironic-inspector-9.2.3.tar.gz]
+[2024-05-02 15:08:36] INFO root fetch - processPackages [ironic-inspector]: Remove: archive file [/home/abi/fetcher/tmp/ironic-inspector-9.2.4.tar.gz]
+[2024-05-02 15:08:36] INFO root fetch - main [MainThread]: End processing [ironic-inspector]: success
+[2024-05-02 15:08:37] INFO root fetch - processPackages [bifrost]: Remove: archive file [/home/abi/fetcher/tmp/bifrost-9.0.1.tar.gz]
+[2024-05-02 15:08:37] INFO root fetch - processPackages [bifrost]: Remove: archive file [/home/abi/fetcher/tmp/bifrost-9.1.0.tar.gz]
+[2024-05-02 15:08:37] INFO root fetch - main [MainThread]: End processing [bifrost]: success
+[2024-05-02 15:08:37] INFO root fetch - main [MainThread]: Store serial: [23031300]
