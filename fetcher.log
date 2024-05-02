@@ -23104,3 +23104,86 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 16:05:58] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-2.1.8.tar.gz]
 [2024-05-02 16:05:58] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
 [2024-05-02 16:05:58] INFO root fetch - main [MainThread]: Store serial: [23032052]
+[2024-05-02 16:08:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23032052]
+[2024-05-02 16:08:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-02 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-journal-lock-date
+[2024-05-02 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-warn-message
+[2024-05-02 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docker-stubs
+[2024-05-02 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scaneo
+[2024-05-02 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-partner-stage-only-confirmed
+[2024-05-02 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-json-schema-editor
+[2024-05-02 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: macrosynergy
+[2024-05-02 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: defijn-integrations
+[2024-05-02 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: infini-transformer-pytorch
+[2024-05-02 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: docker-shaper
+[2024-05-02 16:08:08] INFO root fetch - processPackages [scaneo]: New version: [2024.5.2] Old Version: [2023.9.18.post7]
+[2024-05-02 16:08:08] INFO root fetch - processPackages [infini-transformer-pytorch]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-02 16:08:08] INFO root fetch - processPackages [defijn-integrations]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 16:08:08] WARNING root fetch - processPackages [odoo-addon-partner-stage-only-confirmed]: Skipping, unable to determine old version
+[2024-05-02 16:08:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-stage-only-confirmed] error
+[2024-05-02 16:08:08] INFO root fetch - processPackages [odoo-addon-account-invoice-warn-message]: New version: [17.0.1.0.0.2] Old Version: [15.0.1.0.0.4]
+[2024-05-02 16:08:08] INFO root fetch - processPackages [docker-stubs]: New version: [0.1.1a0] Old Version: [0.1.0]
+[2024-05-02 16:08:08] INFO root fetch - processPackages [django-json-schema-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 16:08:08] INFO root fetch - processPackages [macrosynergy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 16:08:08] INFO root fetch - processPackages [infini-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/d6/ae2340275ccd82dba893f410b54f57f591fbcf7423cc8c0ffc665bc611cd/infini_transformer_pytorch-0.0.4.tar.gz
+[2024-05-02 16:08:08] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.9]
+[2024-05-02 16:08:08] INFO root fetch - processPackages [docker-shaper]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-02 16:08:08] INFO root fetch - processPackages [scaneo]: Downloading https://files.pythonhosted.org/packages/90/32/7b2a4c6bfa2e2abba2c5c893987fd3cd20f611cf7d6a87a0050e720cdf4f/scaneo-2024.5.2.tar.gz
+[2024-05-02 16:08:08] INFO root fetch - processPackages [defijn-integrations]: Downloading https://files.pythonhosted.org/packages/3f/5e/de78320a42673d8e1130ebd2f5632d526a2b43e7a3c5134c8b0f6ca4bf0c/defijn_integrations-0.1.0.tar.gz
+[2024-05-02 16:08:08] WARNING root fetch - processPackages [scaneo]: Skipping package: exceeds size limit 20606125>=10485760
+[2024-05-02 16:08:08] INFO root fetch - main [MainThread]: End processing [scaneo] error
+[2024-05-02 16:08:08] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Downloading https://files.pythonhosted.org/packages/7c/1e/aea039a84b3ecce3ebf4ae84cdf1fb52bee9e694b3fa0e007a7c44fcb87a/odoo_addon_account_journal_lock_date-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-02 16:08:08] INFO root fetch - processPackages [odoo-addon-account-invoice-warn-message]: Downloading https://files.pythonhosted.org/packages/10/ca/dac87e26736bf95b79d20ad65ca6e9c23e9c33c941e50b36a567c7020041/odoo_addon_account_invoice_warn_message-15.0.1.0.0.4-py3-none-any.whl
+[2024-05-02 16:08:08] INFO root fetch - processPackages [django-json-schema-editor]: Downloading https://files.pythonhosted.org/packages/f1/7a/644b94f8e30f02521c773ac2294d8d33f4bf5be42ec5bce78f2fea7273e6/django_json_schema_editor-0.0.8.tar.gz
+[2024-05-02 16:08:08] INFO root fetch - processPackages [docker-stubs]: Downloading https://files.pythonhosted.org/packages/e8/80/3137a1c5ebc9d1b2c4791e53a362f8bb6b678190b4530eedffcf0be296dc/docker_stubs-0.1.0.tar.gz
+[2024-05-02 16:08:08] INFO root fetch - processPackages [docker-shaper]: Downloading https://files.pythonhosted.org/packages/2a/fa/61f8b19ae20701ebfe7b5b61f9dc9323096ae5c7ef5f85e108bd9bfc5d00/docker_shaper-2.0.0.tar.gz
+[2024-05-02 16:08:08] INFO root fetch - processPackages [macrosynergy]: Downloading https://files.pythonhosted.org/packages/2d/ab/00749ace09d1854c70731845ceab79cb8e63ff8cb5dda26054274155e1cb/macrosynergy-0.1.8.tar.gz
+[2024-05-02 16:08:08] INFO root fetch - processPackages [infini-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/1d/5c/4c4e6c0e5211cab7cd8c5b1264b3b76e43f63b760f38f3f5331fbb883d73/infini_transformer_pytorch-0.0.5.tar.gz
+[2024-05-02 16:08:08] INFO root fetch - processPackages [infini-transformer-pytorch]: executing diffoscope
+[2024-05-02 16:08:08] INFO root fetch - processPackages [infini-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infini_transformer_pytorch-0.0.4.tar.gz tmp/infini_transformer_pytorch-0.0.5.tar.gz --markdown 20240502/i/infini-transformer-pytorch/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-02 16:08:08] INFO root fetch - processPackages [odoo-addon-account-invoice-warn-message]: Downloading https://files.pythonhosted.org/packages/71/8d/532c8aa5be298a008e94883cea50d5ec5acf40f4180572480993c33d344f/odoo_addon_account_invoice_warn_message-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-02 16:08:08] INFO root fetch - processPackages [defijn-integrations]: Downloading https://files.pythonhosted.org/packages/c4/6c/1495fc987edd8eb01bc6f054397dd4c2f9e6c212a81c90c6e835d3c82ef2/defijn_integrations-0.1.1.tar.gz
+[2024-05-02 16:08:08] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Downloading https://files.pythonhosted.org/packages/b1/91/366cefe53e02e5171eeadb94ac04c8038ef69d80c1e0242bc68313624b65/odoo_addon_account_journal_lock_date-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-02 16:08:08] INFO root fetch - processPackages [macrosynergy]: Downloading https://files.pythonhosted.org/packages/b9/b8/29dfcdf47d06d49a91811e245dd464a5d67077fc4a0523781818255e1443/macrosynergy-0.1.9.tar.gz
+[2024-05-02 16:08:08] INFO root fetch - processPackages [docker-stubs]: Downloading https://files.pythonhosted.org/packages/21/2a/577293c2799352eed2d52cd638d9f7444fed3951d7826f6c49d579eb87c0/docker_stubs-0.1.1a0.tar.gz
+[2024-05-02 16:08:08] INFO root fetch - processPackages [docker-shaper]: Downloading https://files.pythonhosted.org/packages/c5/ab/719e48a5942af38c8c18364ad2b62d6817b2f6f38d89259fbf28ae6e5a05/docker_shaper-2.0.1.tar.gz
+[2024-05-02 16:08:08] INFO root fetch - processPackages [django-json-schema-editor]: Downloading https://files.pythonhosted.org/packages/fe/33/fbc31371354b97194681d08db6bec40cb469672204617fbf4ef66b3bc6f4/django_json_schema_editor-0.0.9.tar.gz
+[2024-05-02 16:08:08] INFO root fetch - processPackages [odoo-addon-account-invoice-warn-message]: executing diffoscope
+[2024-05-02 16:08:08] INFO root fetch - processPackages [odoo-addon-account-invoice-warn-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_warn_message-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_warn_message-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-account-invoice-warn-message/15.0.1.0.0.4-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-02 16:08:09] INFO root fetch - processPackages [defijn-integrations]: executing diffoscope
+[2024-05-02 16:08:09] INFO root fetch - processPackages [defijn-integrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defijn_integrations-0.1.0.tar.gz tmp/defijn_integrations-0.1.1.tar.gz --markdown 20240502/d/defijn-integrations/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 16:08:09] INFO root fetch - processPackages [docker-stubs]: executing diffoscope
+[2024-05-02 16:08:09] INFO root fetch - processPackages [docker-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_stubs-0.1.0.tar.gz tmp/docker_stubs-0.1.1a0.tar.gz --markdown 20240502/d/docker-stubs/0.1.0-0.1.1a0/README.md --exclude *.pyd
+[2024-05-02 16:08:09] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: executing diffoscope
+[2024-05-02 16:08:09] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_journal_lock_date-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_account_journal_lock_date-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-account-journal-lock-date/16.0.1.0.0.9-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-02 16:08:09] INFO root fetch - processPackages [macrosynergy]: executing diffoscope
+[2024-05-02 16:08:09] INFO root fetch - processPackages [macrosynergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrosynergy-0.1.8.tar.gz tmp/macrosynergy-0.1.9.tar.gz --markdown 20240502/m/macrosynergy/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 16:08:09] INFO root fetch - processPackages [django-json-schema-editor]: executing diffoscope
+[2024-05-02 16:08:09] INFO root fetch - processPackages [django-json-schema-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_json_schema_editor-0.0.8.tar.gz tmp/django_json_schema_editor-0.0.9.tar.gz --markdown 20240502/d/django-json-schema-editor/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 16:08:09] INFO root fetch - processPackages [infini-transformer-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/infini_transformer_pytorch-0.0.4.tar.gz]
+[2024-05-02 16:08:09] INFO root fetch - processPackages [infini-transformer-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/infini_transformer_pytorch-0.0.5.tar.gz]
+[2024-05-02 16:08:09] INFO root fetch - main [MainThread]: End processing [infini-transformer-pytorch]: success
+[2024-05-02 16:08:09] INFO root fetch - processPackages [docker-shaper]: executing diffoscope
+[2024-05-02 16:08:09] INFO root fetch - processPackages [docker-shaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_shaper-2.0.0.tar.gz tmp/docker_shaper-2.0.1.tar.gz --markdown 20240502/d/docker-shaper/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-02 16:08:09] INFO root fetch - processPackages [defijn-integrations]: Remove: archive file [/home/abi/fetcher/tmp/defijn_integrations-0.1.0.tar.gz]
+[2024-05-02 16:08:09] INFO root fetch - processPackages [defijn-integrations]: Remove: archive file [/home/abi/fetcher/tmp/defijn_integrations-0.1.1.tar.gz]
+[2024-05-02 16:08:09] INFO root fetch - main [MainThread]: End processing [defijn-integrations]: success
+[2024-05-02 16:08:09] INFO root fetch - processPackages [odoo-addon-account-invoice-warn-message]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_warn_message-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-02 16:08:09] INFO root fetch - processPackages [odoo-addon-account-invoice-warn-message]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_warn_message-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-02 16:08:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-warn-message]: success
+[2024-05-02 16:08:09] INFO root fetch - processPackages [docker-stubs]: Remove: archive file [/home/abi/fetcher/tmp/docker_stubs-0.1.0.tar.gz]
+[2024-05-02 16:08:09] INFO root fetch - processPackages [docker-stubs]: Remove: archive file [/home/abi/fetcher/tmp/docker_stubs-0.1.1a0.tar.gz]
+[2024-05-02 16:08:09] INFO root fetch - main [MainThread]: End processing [docker-stubs]: success
+[2024-05-02 16:08:10] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_lock_date-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-02 16:08:10] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_lock_date-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-02 16:08:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-journal-lock-date]: success
+[2024-05-02 16:08:10] INFO root fetch - processPackages [macrosynergy]: Remove: archive file [/home/abi/fetcher/tmp/macrosynergy-0.1.8.tar.gz]
+[2024-05-02 16:08:10] INFO root fetch - processPackages [macrosynergy]: Remove: archive file [/home/abi/fetcher/tmp/macrosynergy-0.1.9.tar.gz]
+[2024-05-02 16:08:10] INFO root fetch - main [MainThread]: End processing [macrosynergy]: success
+[2024-05-02 16:08:10] INFO root fetch - processPackages [docker-shaper]: Remove: archive file [/home/abi/fetcher/tmp/docker_shaper-2.0.0.tar.gz]
+[2024-05-02 16:08:10] INFO root fetch - processPackages [docker-shaper]: Remove: archive file [/home/abi/fetcher/tmp/docker_shaper-2.0.1.tar.gz]
+[2024-05-02 16:08:10] INFO root fetch - main [MainThread]: End processing [docker-shaper]: success
+[2024-05-02 16:08:13] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.8.tar.gz]
+[2024-05-02 16:08:13] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.9.tar.gz]
+[2024-05-02 16:08:13] INFO root fetch - main [MainThread]: End processing [django-json-schema-editor]: success
+[2024-05-02 16:08:13] INFO root fetch - main [MainThread]: Store serial: [23032079]
