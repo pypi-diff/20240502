@@ -22225,3 +22225,123 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:43:09] ERROR root fetch - processPackages [sqlvana]: Timeout during execution of pkgdiff
 [2024-05-02 15:43:09] INFO root fetch - main [MainThread]: End processing [sqlvana] error
 [2024-05-02 15:43:09] INFO root fetch - main [MainThread]: Store serial: [23031686]
+[2024-05-02 15:45:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031686]
+[2024-05-02 15:45:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-02 15:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-ro-stock
+[2024-05-02 15:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-ro-stock-account
+[2024-05-02 15:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logs-py
+[2024-05-02 15:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conviso-cli
+[2024-05-02 15:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dicomthings
+[2024-05-02 15:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vector-quantize-pytorch
+[2024-05-02 15:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pfc-geometry
+[2024-05-02 15:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dve-lumipy-testing
+[2024-05-02 15:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yeedu-cli
+[2024-05-02 15:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: laser-mind-client
+[2024-05-02 15:45:17] INFO root fetch - processPackages [conviso-cli]: New version: [2.1.5.dev2] Old Version: [2.1.5.dev1]
+[2024-05-02 15:45:17] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 15:45:17] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: New version: [17.0.0.5.0] Old Version: [17.0.0.4.0]
+[2024-05-02 15:45:17] INFO root fetch - processPackages [logs-py]: New version: [2.9] Old Version: [2.8.2]
+[2024-05-02 15:45:17] INFO root fetch - processPackages [dicomthings]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-05-02 15:45:17] INFO root fetch - processPackages [pfc-geometry]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-02 15:45:17] INFO root fetch - processPackages [yeedu-cli]: New version: [4.5.4] Old Version: [1.0.0rc5]
+[2024-05-02 15:45:17] INFO root fetch - processPackages [laser-mind-client]: New version: [0.18.0] Old Version: [0.17.0]
+[2024-05-02 15:45:17] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [17.0.1.2.0] Old Version: [17.0.1.1.1]
+[2024-05-02 15:45:17] INFO root fetch - processPackages [conviso-cli]: Downloading https://files.pythonhosted.org/packages/88/da/d2e0ba38c3e883c4e25e24fd0f3016ff64cde7518d087d61b18551ce96e8/conviso-cli-2.1.5.dev1.tar.gz
+[2024-05-02 15:45:17] INFO root fetch - processPackages [vector-quantize-pytorch]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-02 15:45:17] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-02 15:45:17] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: Downloading https://files.pythonhosted.org/packages/e7/2a/e7a9b30049ba9defef651a193e86951aac33658affcf3b6a4ce924b1a8ff/odoo_addon_l10n_ro_stock-17.0.0.4.0-py3-none-any.whl
+[2024-05-02 15:45:17] INFO root fetch - processPackages [pfc-geometry]: Downloading https://files.pythonhosted.org/packages/fb/05/fbdd787641d25c1f5dfcfb09ba727683db6f2d2fad808627f8ddcd63fc70/pfc_geometry-0.2.5.tar.gz
+[2024-05-02 15:45:18] INFO root fetch - processPackages [logs-py]: Downloading https://files.pythonhosted.org/packages/2d/aa/487c23516f844825fd32777d3b4f65c79363f57950a45014cf2cc225326b/logs_py-2.8.2-py3-none-any.whl
+[2024-05-02 15:45:18] INFO root fetch - processPackages [dicomthings]: Downloading https://files.pythonhosted.org/packages/51/cc/2460b4a4b96986ef0870f8950cd7ce89201ed3166a111fbf444c6be729f7/dicomthings-0.7.1.tar.gz
+[2024-05-02 15:45:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/62/75/3910729c940330f37a123dbcaf18f1390d5b54569df8f4ca44202396c855/odoo_addon_l10n_ro_stock_account-17.0.1.1.1-py3-none-any.whl
+[2024-05-02 15:45:18] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/45/76/97e8130fc79375eb08a692959dc48753e5a368719d459e90a73871a3ce0a/vector_quantize_pytorch-1.9.8.tar.gz
+[2024-05-02 15:45:18] INFO root fetch - processPackages [yeedu-cli]: Downloading https://files.pythonhosted.org/packages/90/69/2cf88e17d39a95554e1b8f87e72a2eb365f2fdfc14ad6730d429623785ee/yeedu_cli-1.0.0rc5-py3-none-any.whl
+[2024-05-02 15:45:18] INFO root fetch - processPackages [laser-mind-client]: Downloading https://files.pythonhosted.org/packages/26/bb/9ba84c834888adf64140f66e9710af3ec6f57fd41908d1c3c5e7ebedf428/laser_mind_client-0.17.0.tar.gz
+[2024-05-02 15:45:18] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-02 15:45:18] INFO root fetch - processPackages [conviso-cli]: Downloading https://files.pythonhosted.org/packages/7d/d8/ebb4c49b4a1bdf02a073a1b957251a8d4d4651185326cf3c0ff2c835c81a/conviso-cli-2.1.5.dev2.tar.gz
+[2024-05-02 15:45:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: Downloading https://files.pythonhosted.org/packages/89/b6/4bf6a5f97acca4adbba130abb641451de425a217a378c4064e79d223bfbb/odoo_addon_l10n_ro_stock-17.0.0.5.0-py3-none-any.whl
+[2024-05-02 15:45:18] INFO root fetch - processPackages [pfc-geometry]: Downloading https://files.pythonhosted.org/packages/ef/10/e440c3721382f1a02411b9734a1efacd5161820480d686678447af4cce2c/pfc_geometry-0.2.6.tar.gz
+[2024-05-02 15:45:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/a0/ec/816b89a3a4fda6738c9770bda6643ba5fe30bc285855ae4a9ebeeb27c513/odoo_addon_l10n_ro_stock_account-17.0.1.2.0-py3-none-any.whl
+[2024-05-02 15:45:18] INFO root fetch - processPackages [logs-py]: Downloading https://files.pythonhosted.org/packages/1c/41/f61b27829332c09541bb69a4d285778ee206cf687df8b570be457c8be074/logs_py-2.9-py3-none-any.whl
+[2024-05-02 15:45:18] INFO root fetch - processPackages [dicomthings]: Downloading https://files.pythonhosted.org/packages/27/c1/bef9651d81e24b3d99597580050c4d964a371abfdd91c795a605e61fc91b/dicomthings-0.8.0.tar.gz
+[2024-05-02 15:45:18] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-02 15:45:18] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240502/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 15:45:18] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/34/b1/750271936b6c48315424aaafb75d4e54614b3ea12a0e5ba5c3868bd576ef/vector_quantize_pytorch-1.9.9.tar.gz
+[2024-05-02 15:45:18] INFO root fetch - processPackages [laser-mind-client]: Downloading https://files.pythonhosted.org/packages/42/d5/7f18488433bf28e110bb468fee346725ec2f0c82f54a961e5a2301fbb42c/laser_mind_client-0.18.0.tar.gz
+[2024-05-02 15:45:18] INFO root fetch - processPackages [conviso-cli]: executing diffoscope
+[2024-05-02 15:45:18] INFO root fetch - processPackages [conviso-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conviso-cli-2.1.5.dev1.tar.gz tmp/conviso-cli-2.1.5.dev2.tar.gz --markdown 20240502/c/conviso-cli/2.1.5.dev1-2.1.5.dev2/README.md --exclude *.pyd
+[2024-05-02 15:45:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: executing diffoscope
+[2024-05-02 15:45:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock-17.0.0.4.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock-17.0.0.5.0-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-ro-stock/17.0.0.4.0-17.0.0.5.0/README.md --exclude *.pyd
+[2024-05-02 15:45:18] INFO root fetch - processPackages [pfc-geometry]: executing diffoscope
+[2024-05-02 15:45:18] INFO root fetch - processPackages [pfc-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfc_geometry-0.2.5.tar.gz tmp/pfc_geometry-0.2.6.tar.gz --markdown 20240502/p/pfc-geometry/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-02 15:45:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2024-05-02 15:45:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-17.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-17.0.1.2.0-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-ro-stock-account/17.0.1.1.1-17.0.1.2.0/README.md --exclude *.pyd
+[2024-05-02 15:45:18] INFO root fetch - processPackages [yeedu-cli]: Downloading https://files.pythonhosted.org/packages/e3/aa/da4fe5c54aac3b3bd31767f2ae4ee10c22271b46e1941af4c15bdc4bd8eb/yeedu_cli-4.5.4-py3-none-any.whl
+[2024-05-02 15:45:18] INFO root fetch - processPackages [dicomthings]: executing diffoscope
+[2024-05-02 15:45:18] INFO root fetch - processPackages [dicomthings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomthings-0.7.1.tar.gz tmp/dicomthings-0.8.0.tar.gz --markdown 20240502/d/dicomthings/0.7.1-0.8.0/README.md --exclude *.pyd
+[2024-05-02 15:45:18] INFO root fetch - processPackages [vector-quantize-pytorch]: executing diffoscope
+[2024-05-02 15:45:18] INFO root fetch - processPackages [vector-quantize-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_quantize_pytorch-1.9.8.tar.gz tmp/vector_quantize_pytorch-1.9.9.tar.gz --markdown 20240502/v/vector-quantize-pytorch/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-02 15:45:18] INFO root fetch - processPackages [logs-py]: executing diffoscope
+[2024-05-02 15:45:18] INFO root fetch - processPackages [logs-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logs_py-2.8.2-py3-none-any.whl.zip tmp/logs_py-2.9-py3-none-any.whl.zip --markdown 20240502/l/logs-py/2.8.2-2.9/README.md --exclude *.pyd
+[2024-05-02 15:45:18] INFO root fetch - processPackages [laser-mind-client]: executing diffoscope
+[2024-05-02 15:45:18] INFO root fetch - processPackages [laser-mind-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laser_mind_client-0.17.0.tar.gz tmp/laser_mind_client-0.18.0.tar.gz --markdown 20240502/l/laser-mind-client/0.17.0-0.18.0/README.md --exclude *.pyd
+[2024-05-02 15:45:18] INFO root fetch - processPackages [yeedu-cli]: executing diffoscope
+[2024-05-02 15:45:18] INFO root fetch - processPackages [yeedu-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeedu_cli-1.0.0rc5-py3-none-any.whl.zip tmp/yeedu_cli-4.5.4-py3-none-any.whl.zip --markdown 20240502/y/yeedu-cli/1.0.0rc5-4.5.4/README.md --exclude *.pyd
+[2024-05-02 15:45:20] INFO root fetch - processPackages [pfc-geometry]: Remove: archive file [/home/abi/fetcher/tmp/pfc_geometry-0.2.5.tar.gz]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [pfc-geometry]: Remove: archive file [/home/abi/fetcher/tmp/pfc_geometry-0.2.6.tar.gz]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [pfc-geometry]: Start processing: pytket_pecos
+[2024-05-02 15:45:20] INFO root fetch - main [MainThread]: End processing [pfc-geometry]: success
+[2024-05-02 15:45:20] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock-17.0.0.4.0-py3-none-any.whl.zip]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock-17.0.0.5.0-py3-none-any.whl.zip]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: Start processing: ember-mivia
+[2024-05-02 15:45:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock]: success
+[2024-05-02 15:45:20] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.9.8.tar.gz]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.9.9.tar.gz]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [vector-quantize-pytorch]: Start processing: tsbot
+[2024-05-02 15:45:20] INFO root fetch - main [MainThread]: End processing [vector-quantize-pytorch]: success
+[2024-05-02 15:45:20] INFO root fetch - processPackages [laser-mind-client]: Remove: archive file [/home/abi/fetcher/tmp/laser_mind_client-0.17.0.tar.gz]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [laser-mind-client]: Remove: archive file [/home/abi/fetcher/tmp/laser_mind_client-0.18.0.tar.gz]
+[2024-05-02 15:45:20] INFO root fetch - main [MainThread]: End processing [laser-mind-client]: success
+[2024-05-02 15:45:20] INFO root fetch - processPackages [dicomthings]: Remove: archive file [/home/abi/fetcher/tmp/dicomthings-0.7.1.tar.gz]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [dicomthings]: Remove: archive file [/home/abi/fetcher/tmp/dicomthings-0.8.0.tar.gz]
+[2024-05-02 15:45:20] INFO root fetch - main [MainThread]: End processing [dicomthings]: success
+[2024-05-02 15:45:20] INFO root fetch - processPackages [pytket_pecos]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [conviso-cli]: Remove: archive file [/home/abi/fetcher/tmp/conviso-cli-2.1.5.dev1.tar.gz]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [conviso-cli]: Remove: archive file [/home/abi/fetcher/tmp/conviso-cli-2.1.5.dev2.tar.gz]
+[2024-05-02 15:45:20] INFO root fetch - main [MainThread]: End processing [conviso-cli]: success
+[2024-05-02 15:45:20] INFO root fetch - processPackages [ember-mivia]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-17.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-17.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-02 15:45:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2024-05-02 15:45:20] INFO root fetch - processPackages [tsbot]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [yeedu-cli]: Remove: archive file [/home/abi/fetcher/tmp/yeedu_cli-1.0.0rc5-py3-none-any.whl.zip]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [yeedu-cli]: Remove: archive file [/home/abi/fetcher/tmp/yeedu_cli-4.5.4-py3-none-any.whl.zip]
+[2024-05-02 15:45:20] INFO root fetch - main [MainThread]: End processing [yeedu-cli]: success
+[2024-05-02 15:45:20] INFO root fetch - processPackages [pytket_pecos]: Downloading https://files.pythonhosted.org/packages/fa/0e/6ac1b847bd504391e7d9118169ac1dfdaf8d1689e9c60b599c98f06b3085/pytket_pecos-0.1.8.tar.gz
+[2024-05-02 15:45:20] INFO root fetch - processPackages [ember-mivia]: Downloading https://files.pythonhosted.org/packages/00/ff/da6bcf55eeb4de6c2b807ba790d07466461d5679a59992a71c6c92d7ee08/ember-mivia-0.0.4.tar.gz
+[2024-05-02 15:45:20] INFO root fetch - processPackages [tsbot]: Downloading https://files.pythonhosted.org/packages/f1/17/5174c8d6211c90956ddbaaf7d55520dc70c2c8d7b4cbec096e42d7b016d4/tsbot-1.1.1.tar.gz
+[2024-05-02 15:45:20] INFO root fetch - processPackages [logs-py]: Remove: archive file [/home/abi/fetcher/tmp/logs_py-2.8.2-py3-none-any.whl.zip]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [logs-py]: Remove: archive file [/home/abi/fetcher/tmp/logs_py-2.9-py3-none-any.whl.zip]
+[2024-05-02 15:45:20] INFO root fetch - main [MainThread]: End processing [logs-py]: success
+[2024-05-02 15:45:20] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-02 15:45:20] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-02 15:45:20] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-02 15:45:20] INFO root fetch - processPackages [tsbot]: Downloading https://files.pythonhosted.org/packages/29/37/3983500f079b81a3bfcac4493a0a5f94e8834e8cf4d4c54cc1befe620d5f/tsbot-1.1.2.tar.gz
+[2024-05-02 15:45:21] INFO root fetch - processPackages [tsbot]: executing diffoscope
+[2024-05-02 15:45:21] INFO root fetch - processPackages [tsbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsbot-1.1.1.tar.gz tmp/tsbot-1.1.2.tar.gz --markdown 20240502/t/tsbot/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-02 15:45:21] INFO root fetch - processPackages [ember-mivia]: Downloading https://files.pythonhosted.org/packages/0e/45/ad5194014364102d183515bc485db3873513792c8492a7584fffc7dd2354/ember-mivia-0.0.5.tar.gz
+[2024-05-02 15:45:21] INFO root fetch - processPackages [pytket_pecos]: Downloading https://files.pythonhosted.org/packages/da/c3/6e2c06ee36159d55a1439e85f6d0e88332ee9c86f37967c8b5a31e6c9b6c/pytket_pecos-0.1.9.tar.gz
+[2024-05-02 15:45:21] INFO root fetch - processPackages [ember-mivia]: executing diffoscope
+[2024-05-02 15:45:21] INFO root fetch - processPackages [ember-mivia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ember-mivia-0.0.4.tar.gz tmp/ember-mivia-0.0.5.tar.gz --markdown 20240502/e/ember-mivia/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-02 15:45:21] INFO root fetch - processPackages [pytket_pecos]: executing diffoscope
+[2024-05-02 15:45:21] INFO root fetch - processPackages [pytket_pecos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket_pecos-0.1.8.tar.gz tmp/pytket_pecos-0.1.9.tar.gz --markdown 20240502/p/pytket_pecos/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 15:45:21] INFO root fetch - processPackages [pytket_pecos]: Remove: archive file [/home/abi/fetcher/tmp/pytket_pecos-0.1.8.tar.gz]
+[2024-05-02 15:45:21] INFO root fetch - processPackages [pytket_pecos]: Remove: archive file [/home/abi/fetcher/tmp/pytket_pecos-0.1.9.tar.gz]
+[2024-05-02 15:45:21] INFO root fetch - main [MainThread]: End processing [pytket_pecos]: success
+[2024-05-02 15:45:21] INFO root fetch - processPackages [ember-mivia]: Remove: archive file [/home/abi/fetcher/tmp/ember-mivia-0.0.4.tar.gz]
+[2024-05-02 15:45:21] INFO root fetch - processPackages [ember-mivia]: Remove: archive file [/home/abi/fetcher/tmp/ember-mivia-0.0.5.tar.gz]
+[2024-05-02 15:45:21] INFO root fetch - main [MainThread]: End processing [ember-mivia]: success
+[2024-05-02 15:45:21] INFO root fetch - processPackages [tsbot]: Remove: archive file [/home/abi/fetcher/tmp/tsbot-1.1.1.tar.gz]
+[2024-05-02 15:45:21] INFO root fetch - processPackages [tsbot]: Remove: archive file [/home/abi/fetcher/tmp/tsbot-1.1.2.tar.gz]
+[2024-05-02 15:45:21] INFO root fetch - main [MainThread]: End processing [tsbot]: success
+[2024-05-02 15:45:21] INFO root fetch - main [MainThread]: Store serial: [23031734]
