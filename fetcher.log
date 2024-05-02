@@ -12449,3 +12449,60 @@
 [2024-05-02 09:57:23] INFO root fetch - processPackages [waylay-sdk-registry-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-types-2.13.0rc0.tar.gz]
 [2024-05-02 09:57:23] INFO root fetch - main [MainThread]: End processing [waylay-sdk-registry-types]: success
 [2024-05-02 09:57:23] INFO root fetch - main [MainThread]: Store serial: [23027776]
+[2024-05-02 09:59:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027776]
+[2024-05-02 09:59:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: waylay-sdk-storage
+[2024-05-02 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: waylay-sdk-storage-types
+[2024-05-02 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: check-patroni
+[2024-05-02 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: virgo-modules
+[2024-05-02 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crewai
+[2024-05-02 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syntaxlight
+[2024-05-02 09:59:33] INFO root fetch - processPackages [crewai]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-05-02 09:59:33] INFO root fetch - processPackages [waylay-sdk-storage-types]: New version: [0.4.2b20240423] Old Version: [0.4.2.20240430]
+[2024-05-02 09:59:33] INFO root fetch - processPackages [virgo-modules]: New version: [0.0.84] Old Version: [0.0.83]
+[2024-05-02 09:59:33] INFO root fetch - processPackages [waylay-sdk-storage]: New version: [0.4.2b20240423] Old Version: [0.4.2.20240430]
+[2024-05-02 09:59:33] INFO root fetch - processPackages [check-patroni]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-05-02 09:59:33] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/e9/e3/15cbe7ed14b2b805613edd70fe8d16de0f00ad49e45f0496db0d34c3274c/crewai-0.5.3.tar.gz
+[2024-05-02 09:59:33] INFO root fetch - processPackages [syntaxlight]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 09:59:34] INFO root fetch - processPackages [waylay-sdk-storage-types]: Downloading https://files.pythonhosted.org/packages/5c/96/1d2a9abf21e5594c99cc0dccfc7f77898660945f0c80c5a4fe86157ed11c/waylay_sdk_storage_types-0.4.2.20240430.tar.gz
+[2024-05-02 09:59:34] INFO root fetch - processPackages [virgo-modules]: Downloading https://files.pythonhosted.org/packages/53/f2/f85e4db75c13359d38fa09e0ce6bfc71955c39b07285a4ec202c38a2eeaa/virgo_modules-0.0.83.tar.gz
+[2024-05-02 09:59:34] INFO root fetch - processPackages [check-patroni]: Downloading https://files.pythonhosted.org/packages/d5/43/f990e0f78e1a4d4ed5948776673191e121cac8c731f1ad569b0514205008/check_patroni-1.0.0.tar.gz
+[2024-05-02 09:59:34] INFO root fetch - processPackages [waylay-sdk-storage]: Downloading https://files.pythonhosted.org/packages/14/65/18f0f874f2e081bd0432696f1b3c842ca39d50b9a23fa1e36cf9496e54ed/waylay_sdk_storage-0.4.2.20240430.tar.gz
+[2024-05-02 09:59:34] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/7a/79/2301ec8f55a293537267c3551e3399e12935dda72420a72467f0c6bdc555/syntaxlight-0.1.8.tar.gz
+[2024-05-02 09:59:34] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/4e/2d/131d296cf0495637bfea59b11af0767de8fa11466880e3d702ab43a360d0/crewai-0.5.5.tar.gz
+[2024-05-02 09:59:34] INFO root fetch - processPackages [crewai]: executing diffoscope
+[2024-05-02 09:59:34] INFO root fetch - processPackages [crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai-0.5.3.tar.gz tmp/crewai-0.5.5.tar.gz --markdown 20240502/c/crewai/0.5.3-0.5.5/README.md --exclude *.pyd
+[2024-05-02 09:59:34] INFO root fetch - processPackages [waylay-sdk-storage-types]: Downloading https://files.pythonhosted.org/packages/e8/ea/6ee423055f2756798139d69887d8051f7d9e895e4fce31750d8db34bd230/waylay_sdk_storage_types-0.4.2b20240423.tar.gz
+[2024-05-02 09:59:34] INFO root fetch - processPackages [virgo-modules]: Downloading https://files.pythonhosted.org/packages/26/00/d5492b62f855eb7685b978c4a83dac09786ae39b0f4e3e2dc090aeca27c7/virgo_modules-0.0.84.tar.gz
+[2024-05-02 09:59:34] INFO root fetch - processPackages [waylay-sdk-storage]: Downloading https://files.pythonhosted.org/packages/b3/48/093ffb9729ca2a8c35a5f118c9b2cae95bd76aec051b40b5965b42a1c019/waylay_sdk_storage-0.4.2b20240423.tar.gz
+[2024-05-02 09:59:34] INFO root fetch - processPackages [check-patroni]: Downloading https://files.pythonhosted.org/packages/ac/d1/95f9e707c555fba9b1d38e8cd90dd0e358b103bd62d9496d1b05c24711ee/check_patroni-2.0.0.tar.gz
+[2024-05-02 09:59:34] INFO root fetch - processPackages [virgo-modules]: executing diffoscope
+[2024-05-02 09:59:34] INFO root fetch - processPackages [virgo-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virgo_modules-0.0.83.tar.gz tmp/virgo_modules-0.0.84.tar.gz --markdown 20240502/v/virgo-modules/0.0.83-0.0.84/README.md --exclude *.pyd
+[2024-05-02 09:59:34] INFO root fetch - processPackages [check-patroni]: executing diffoscope
+[2024-05-02 09:59:34] INFO root fetch - processPackages [check-patroni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check_patroni-1.0.0.tar.gz tmp/check_patroni-2.0.0.tar.gz --markdown 20240502/c/check-patroni/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-05-02 09:59:34] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/5d/5d/baa11c92a42514efc11f867983e51bcf5c2a036044e6117d6a4e629d267f/syntaxlight-0.1.9.tar.gz
+[2024-05-02 09:59:34] INFO root fetch - processPackages [waylay-sdk-storage-types]: executing diffoscope
+[2024-05-02 09:59:34] INFO root fetch - processPackages [waylay-sdk-storage-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_storage_types-0.4.2.20240430.tar.gz tmp/waylay_sdk_storage_types-0.4.2b20240423.tar.gz --markdown 20240502/w/waylay-sdk-storage-types/0.4.2.20240430-0.4.2b20240423/README.md --exclude *.pyd
+[2024-05-02 09:59:34] INFO root fetch - processPackages [waylay-sdk-storage]: executing diffoscope
+[2024-05-02 09:59:34] INFO root fetch - processPackages [waylay-sdk-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_storage-0.4.2.20240430.tar.gz tmp/waylay_sdk_storage-0.4.2b20240423.tar.gz --markdown 20240502/w/waylay-sdk-storage/0.4.2.20240430-0.4.2b20240423/README.md --exclude *.pyd
+[2024-05-02 09:59:34] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2024-05-02 09:59:34] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.1.8.tar.gz tmp/syntaxlight-0.1.9.tar.gz --markdown 20240502/s/syntaxlight/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 09:59:34] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.3.tar.gz]
+[2024-05-02 09:59:34] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.5.tar.gz]
+[2024-05-02 09:59:35] INFO root fetch - main [MainThread]: End processing [crewai]: success
+[2024-05-02 09:59:35] INFO root fetch - processPackages [virgo-modules]: Remove: archive file [/home/abi/fetcher/tmp/virgo_modules-0.0.83.tar.gz]
+[2024-05-02 09:59:35] INFO root fetch - processPackages [virgo-modules]: Remove: archive file [/home/abi/fetcher/tmp/virgo_modules-0.0.84.tar.gz]
+[2024-05-02 09:59:35] INFO root fetch - main [MainThread]: End processing [virgo-modules]: success
+[2024-05-02 09:59:35] INFO root fetch - processPackages [waylay-sdk-storage]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_storage-0.4.2.20240430.tar.gz]
+[2024-05-02 09:59:35] INFO root fetch - processPackages [waylay-sdk-storage]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_storage-0.4.2b20240423.tar.gz]
+[2024-05-02 09:59:35] INFO root fetch - main [MainThread]: End processing [waylay-sdk-storage]: success
+[2024-05-02 09:59:35] INFO root fetch - processPackages [waylay-sdk-storage-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_storage_types-0.4.2.20240430.tar.gz]
+[2024-05-02 09:59:35] INFO root fetch - processPackages [waylay-sdk-storage-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_storage_types-0.4.2b20240423.tar.gz]
+[2024-05-02 09:59:35] INFO root fetch - main [MainThread]: End processing [waylay-sdk-storage-types]: success
+[2024-05-02 09:59:35] INFO root fetch - processPackages [check-patroni]: Remove: archive file [/home/abi/fetcher/tmp/check_patroni-1.0.0.tar.gz]
+[2024-05-02 09:59:35] INFO root fetch - processPackages [check-patroni]: Remove: archive file [/home/abi/fetcher/tmp/check_patroni-2.0.0.tar.gz]
+[2024-05-02 09:59:35] INFO root fetch - main [MainThread]: End processing [check-patroni]: success
+[2024-05-02 09:59:35] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.8.tar.gz]
+[2024-05-02 09:59:35] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.9.tar.gz]
+[2024-05-02 09:59:35] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2024-05-02 09:59:35] INFO root fetch - main [MainThread]: Store serial: [23027798]
