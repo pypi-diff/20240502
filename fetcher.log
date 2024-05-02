@@ -2038,3 +2038,85 @@
 [2024-05-02 02:11:24] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405010010.tar.gz]
 [2024-05-02 02:11:24] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-05-02 02:11:24] INFO root fetch - main [MainThread]: Store serial: [23023718]
+[2024-05-02 02:13:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023718]
+[2024-05-02 02:13:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 02:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-events-notify
+[2024-05-02 02:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cookiecutter-python-vscode-github
+[2024-05-02 02:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cesped
+[2024-05-02 02:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genomeshader
+[2024-05-02 02:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: carbon-python-sdk
+[2024-05-02 02:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-nag
+[2024-05-02 02:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lunapi
+[2024-05-02 02:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-gitlab-runner
+[2024-05-02 02:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-events-notify
+[2024-05-02 02:13:33] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-05-02 02:13:33] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-02 02:13:33] INFO root fetch - processPackages [cookiecutter-python-vscode-github]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-02 02:13:33] INFO root fetch - processPackages [genomeshader]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 02:13:33] INFO root fetch - processPackages [cesped]: New version: [24.5.0] Old Version: [24.4.3]
+[2024-05-02 02:13:33] INFO root fetch - processPackages [carbon-python-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 02:13:33] INFO root fetch - processPackages [lunapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-02 02:13:33] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cookiecutter-python-vscode-github]: Downloading https://files.pythonhosted.org/packages/4b/f5/82550d0f354ab3503e713c57bceecadb8bb1867c087aac43c3ca95c118fa/cookiecutter-python-vscode-github-0.6.0.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/1c/84/39f1662d319381705e811acf6c7854194d08e68e45c79d57c5a763bdc863/genomeshader-0.1.8.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cesped]: Downloading https://files.pythonhosted.org/packages/57/45/6a669b28f9731d43456d16b4238ff53d6d10a849cc813228773fd328be55/cesped-24.4.3.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [lunapi]: Downloading https://files.pythonhosted.org/packages/23/ff/b04ba9dabae15b5bbd05fe4d23bcf8ad206ca11a69d30b99ede9ed3ba781/lunapi-0.0.6-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-02 02:13:34] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/26/57/15366437f225c4db33f10eefc2dcaaeb5785566711f4dad3fdfdad41d1c5/carbon_python_sdk-0.1.8.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cookiecutter-python-vscode-github]: Downloading https://files.pythonhosted.org/packages/70/e5/a765dc52b82f5bbb74db2293d4462230ddee94d74f83bd526e159c284c5a/cookiecutter_python_vscode_github-0.7.0.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cesped]: Downloading https://files.pythonhosted.org/packages/5b/cf/f7c068d8743c4a5337d3a28ed6bef675603b3ed211dcc99e04c4fcf42d5e/cesped-24.5.0.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240502/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240502/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-02 02:13:34] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/99/48/90c7c052b1a65bbffd3e20c6f11964c9fc1a3dc182ef8de7c3611b26d473/genomeshader-0.1.9.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cookiecutter-python-vscode-github]: executing diffoscope
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cookiecutter-python-vscode-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookiecutter-python-vscode-github-0.6.0.tar.gz tmp/cookiecutter_python_vscode_github-0.7.0.tar.gz --markdown 20240502/c/cookiecutter-python-vscode-github/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240502/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240502/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cesped]: executing diffoscope
+[2024-05-02 02:13:34] INFO root fetch - processPackages [cesped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cesped-24.4.3.tar.gz tmp/cesped-24.5.0.tar.gz --markdown 20240502/c/cesped/24.4.3-24.5.0/README.md --exclude *.pyd
+[2024-05-02 02:13:34] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/e1/f5/2a5b19b30b427b767c9d7c7a83eccb5295f3370ba53da57b38913bff315c/carbon_python_sdk-0.1.9.tar.gz
+[2024-05-02 02:13:34] INFO root fetch - processPackages [genomeshader]: executing diffoscope
+[2024-05-02 02:13:34] INFO root fetch - processPackages [genomeshader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomeshader-0.1.8.tar.gz tmp/genomeshader-0.1.9.tar.gz --markdown 20240502/g/genomeshader/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 02:13:35] INFO root fetch - processPackages [carbon-python-sdk]: executing diffoscope
+[2024-05-02 02:13:35] INFO root fetch - processPackages [carbon-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon_python_sdk-0.1.8.tar.gz tmp/carbon_python_sdk-0.1.9.tar.gz --markdown 20240502/c/carbon-python-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 02:13:35] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-05-02 02:13:35] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-05-02 02:13:35] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-05-02 02:13:35] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-05-02 02:13:35] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-05-02 02:13:35] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-05-02 02:13:35] INFO root fetch - processPackages [cookiecutter-python-vscode-github]: Remove: archive file [/home/abi/fetcher/tmp/cookiecutter-python-vscode-github-0.6.0.tar.gz]
+[2024-05-02 02:13:35] INFO root fetch - processPackages [cookiecutter-python-vscode-github]: Remove: archive file [/home/abi/fetcher/tmp/cookiecutter_python_vscode_github-0.7.0.tar.gz]
+[2024-05-02 02:13:35] INFO root fetch - main [MainThread]: End processing [cookiecutter-python-vscode-github]: success
+[2024-05-02 02:13:35] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-02 02:13:35] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-02 02:13:35] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-02 02:13:35] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.8.tar.gz]
+[2024-05-02 02:13:35] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.9.tar.gz]
+[2024-05-02 02:13:35] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-02 02:13:35] INFO root fetch - main [MainThread]: End processing [genomeshader]: success
+[2024-05-02 02:13:35] INFO root fetch - processPackages [cesped]: Remove: archive file [/home/abi/fetcher/tmp/cesped-24.4.3.tar.gz]
+[2024-05-02 02:13:35] INFO root fetch - processPackages [cesped]: Remove: archive file [/home/abi/fetcher/tmp/cesped-24.5.0.tar.gz]
+[2024-05-02 02:13:35] INFO root fetch - main [MainThread]: End processing [cesped]: success
+[2024-05-02 02:13:36] INFO root fetch - processPackages [lunapi]: Downloading https://files.pythonhosted.org/packages/13/4a/0bf6262efaea221e6d89c5493304be083292b136d5f560010087904e0c41/lunapi-0.0.7-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2024-05-02 02:13:37] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.8.tar.gz]
+[2024-05-02 02:13:37] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.9.tar.gz]
+[2024-05-02 02:13:37] INFO root fetch - main [MainThread]: End processing [carbon-python-sdk]: success
+[2024-05-02 02:13:38] INFO root fetch - processPackages [lunapi]: executing diffoscope
+[2024-05-02 02:13:38] INFO root fetch - processPackages [lunapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunapi-0.0.6-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/lunapi-0.0.7-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip --markdown 20240502/l/lunapi/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-02 02:13:39] INFO root fetch - processPackages [lunapi]: Remove: archive file [/home/abi/fetcher/tmp/lunapi-0.0.6-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-02 02:13:39] INFO root fetch - processPackages [lunapi]: Remove: archive file [/home/abi/fetcher/tmp/lunapi-0.0.7-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip]
+[2024-05-02 02:13:39] INFO root fetch - main [MainThread]: End processing [lunapi]: success
+[2024-05-02 02:13:39] INFO root fetch - main [MainThread]: Store serial: [23023752]
