@@ -8837,3 +8837,31 @@
 [2024-05-02 06:20:21] INFO root fetch - processPackages [odoo14-addon-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_intrastat_product-14.0.2.1.6.dev4-py3-none-any.whl.zip]
 [2024-05-02 06:20:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-intrastat-product]: success
 [2024-05-02 06:20:21] INFO root fetch - main [MainThread]: Store serial: [23026275]
+[2024-05-02 06:22:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026275]
+[2024-05-02 06:22:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 06:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mylocale
+[2024-05-02 06:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-iot-template-oca
+[2024-05-02 06:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-iot-template-oca
+[2024-05-02 06:22:29] INFO root fetch - processPackages [mylocale]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 06:22:29] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/2f/5b/5f942678cf7b6312828c8c42d0ad634e3a78f330e639d0aec633281923a9/mylocale-0.8.0.tar.gz
+[2024-05-02 06:22:29] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-05-02 06:22:29] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-05-02 06:22:29] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/cf/31/7eaef23f3354fae298c96e7453c8c73b0605787b351c7010185d89124bb0/mylocale-0.9.0.tar.gz
+[2024-05-02 06:22:30] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: Downloading https://files.pythonhosted.org/packages/31/41/ea29b8628d72d495d019ab1a39113d66da56c2fe607c6771648c3716c07b/odoo_addon_iot_template_oca-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-02 06:22:30] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: Downloading https://files.pythonhosted.org/packages/31/41/ea29b8628d72d495d019ab1a39113d66da56c2fe607c6771648c3716c07b/odoo_addon_iot_template_oca-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-02 06:22:30] INFO root fetch - processPackages [mylocale]: executing diffoscope
+[2024-05-02 06:22:30] INFO root fetch - processPackages [mylocale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mylocale-0.8.0.tar.gz tmp/mylocale-0.9.0.tar.gz --markdown 20240502/m/mylocale/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 06:22:30] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: Downloading https://files.pythonhosted.org/packages/ad/fe/fd6f803b441cd87184c70cbe54d9f54e6dcb44973f329364559c16229427/odoo_addon_iot_template_oca-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-02 06:22:30] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: Downloading https://files.pythonhosted.org/packages/ad/fe/fd6f803b441cd87184c70cbe54d9f54e6dcb44973f329364559c16229427/odoo_addon_iot_template_oca-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-02 06:22:30] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: executing diffoscope
+[2024-05-02 06:22:30] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_iot_template_oca-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_iot_template_oca-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-iot-template-oca/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-02 06:22:30] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: executing diffoscope
+[2024-05-02 06:22:30] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_iot_template_oca-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_iot_template_oca-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-iot-template-oca/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-02 06:22:30] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.8.0.tar.gz]
+[2024-05-02 06:22:30] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.9.0.tar.gz]
+[2024-05-02 06:22:30] INFO root fetch - main [MainThread]: End processing [mylocale]: success
+[2024-05-02 06:22:31] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_template_oca-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-02 06:22:31] INFO root fetch - processPackages [odoo-addon-iot-template-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_template_oca-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-02 06:22:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-iot-template-oca]: success
+[2024-05-02 06:22:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-iot-template-oca]: success
+[2024-05-02 06:22:31] INFO root fetch - main [MainThread]: Store serial: [23026282]
