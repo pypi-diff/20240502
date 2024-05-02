@@ -10829,3 +10829,47 @@
 [2024-05-02 08:40:07] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.84.tar.gz]
 [2024-05-02 08:40:07] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
 [2024-05-02 08:40:07] INFO root fetch - main [MainThread]: Store serial: [23027052]
+[2024-05-02 08:42:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027052]
+[2024-05-02 08:42:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 08:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomic-bomb-engine
+[2024-05-02 08:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guanin
+[2024-05-02 08:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-results
+[2024-05-02 08:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cltrier_nlp
+[2024-05-02 08:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wkutils
+[2024-05-02 08:42:18] INFO root fetch - processPackages [wkutils]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-02 08:42:18] INFO root fetch - processPackages [wkutils]: Downloading https://files.pythonhosted.org/packages/8a/14/82047658243d892ca55cf950f9dab4f43438d3516569fed73fa8a8953ff7/wkutils-0.0.3.tar.gz
+[2024-05-02 08:42:18] INFO root fetch - processPackages [cltrier_nlp]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-02 08:42:18] INFO root fetch - processPackages [mojo-results]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-02 08:42:18] INFO root fetch - processPackages [guanin]: New version: [1.2.9.3] Old Version: [1.2.9.2]
+[2024-05-02 08:42:18] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-02 08:42:18] INFO root fetch - processPackages [cltrier_nlp]: Downloading https://files.pythonhosted.org/packages/7c/2c/cd02aaa6d0c87a179c16c6e2c58dfe63bfb5374c7fa0b534542b630876c6/cltrier_nlp-0.1.2.tar.gz
+[2024-05-02 08:42:18] INFO root fetch - processPackages [mojo-results]: Downloading https://files.pythonhosted.org/packages/8e/c3/6e39bafa19ff0477a30ebe3ed9775b10ab5a189ea60414ff60bbe0df470d/mojo_results-1.3.8.tar.gz
+[2024-05-02 08:42:18] INFO root fetch - processPackages [guanin]: Downloading https://files.pythonhosted.org/packages/14/38/d12a3a18d8ccbf137ecf5304c2f1805e10c91446113725e93415a6f6c0ff/guanin-1.2.9.2.tar.gz
+[2024-05-02 08:42:18] WARNING root fetch - processPackages [guanin]: Skipping package: exceeds size limit 11010614>=10485760
+[2024-05-02 08:42:18] INFO root fetch - main [MainThread]: End processing [guanin] error
+[2024-05-02 08:42:18] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-05-02 08:42:18] INFO root fetch - processPackages [wkutils]: Downloading https://files.pythonhosted.org/packages/0f/35/4ad4ceb0a12b2b9f247061052e4e56ac3121b1df357e20f64274c3835864/wkutils-0.0.4.tar.gz
+[2024-05-02 08:42:18] INFO root fetch - processPackages [wkutils]: executing diffoscope
+[2024-05-02 08:42:18] INFO root fetch - processPackages [wkutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wkutils-0.0.3.tar.gz tmp/wkutils-0.0.4.tar.gz --markdown 20240502/w/wkutils/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-02 08:42:18] INFO root fetch - processPackages [cltrier_nlp]: Downloading https://files.pythonhosted.org/packages/4d/f4/4302882b724ec1fbe52b62480ddd1df2221f963c58d6fa05eabf0bfdc351/cltrier_nlp-0.1.3.tar.gz
+[2024-05-02 08:42:18] INFO root fetch - processPackages [mojo-results]: Downloading https://files.pythonhosted.org/packages/62/0e/adb07ad0d5ef4069cd714f7d94382b07f9bb484ab47b2482fd75ab7a020b/mojo_results-1.3.9.tar.gz
+[2024-05-02 08:42:18] INFO root fetch - processPackages [cltrier_nlp]: executing diffoscope
+[2024-05-02 08:42:18] INFO root fetch - processPackages [cltrier_nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cltrier_nlp-0.1.2.tar.gz tmp/cltrier_nlp-0.1.3.tar.gz --markdown 20240502/c/cltrier_nlp/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-02 08:42:19] INFO root fetch - processPackages [mojo-results]: executing diffoscope
+[2024-05-02 08:42:19] INFO root fetch - processPackages [mojo-results]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_results-1.3.8.tar.gz tmp/mojo_results-1.3.9.tar.gz --markdown 20240502/m/mojo-results/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-02 08:42:19] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-05-02 08:42:19] INFO root fetch - processPackages [wkutils]: Remove: archive file [/home/abi/fetcher/tmp/wkutils-0.0.3.tar.gz]
+[2024-05-02 08:42:19] INFO root fetch - processPackages [wkutils]: Remove: archive file [/home/abi/fetcher/tmp/wkutils-0.0.4.tar.gz]
+[2024-05-02 08:42:19] INFO root fetch - main [MainThread]: End processing [wkutils]: success
+[2024-05-02 08:42:19] INFO root fetch - processPackages [cltrier_nlp]: Remove: archive file [/home/abi/fetcher/tmp/cltrier_nlp-0.1.2.tar.gz]
+[2024-05-02 08:42:19] INFO root fetch - processPackages [cltrier_nlp]: Remove: archive file [/home/abi/fetcher/tmp/cltrier_nlp-0.1.3.tar.gz]
+[2024-05-02 08:42:19] INFO root fetch - main [MainThread]: End processing [cltrier_nlp]: success
+[2024-05-02 08:42:19] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-05-02 08:42:19] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240502/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-02 08:42:19] INFO root fetch - processPackages [mojo-results]: Remove: archive file [/home/abi/fetcher/tmp/mojo_results-1.3.8.tar.gz]
+[2024-05-02 08:42:19] INFO root fetch - processPackages [mojo-results]: Remove: archive file [/home/abi/fetcher/tmp/mojo_results-1.3.9.tar.gz]
+[2024-05-02 08:42:19] INFO root fetch - main [MainThread]: End processing [mojo-results]: success
+[2024-05-02 08:42:20] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-05-02 08:42:20] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-05-02 08:42:20] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-05-02 08:42:20] INFO root fetch - main [MainThread]: Store serial: [23027070]
