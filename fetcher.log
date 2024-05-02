@@ -9175,3 +9175,51 @@
 [2024-05-02 06:49:05] INFO root fetch - processPackages [jh2]: Remove: archive file [/home/abi/fetcher/tmp/jh2-5.0.3-pp37-pypy37_pp73-manylinux_2_17_ppc64.manylinux2014_ppc64.whl.zip]
 [2024-05-02 06:49:05] INFO root fetch - main [MainThread]: End processing [jh2]: success
 [2024-05-02 06:49:05] INFO root fetch - main [MainThread]: Store serial: [23026398]
+[2024-05-02 06:51:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026398]
+[2024-05-02 06:51:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mylocale
+[2024-05-02 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: templated-setup
+[2024-05-02 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2024-05-02 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django_herobiz_dental
+[2024-05-02 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libbde-python
+[2024-05-02 06:51:15] INFO root fetch - processPackages [templated-setup]: New version: [0.93] Old Version: [0.92]
+[2024-05-02 06:51:15] INFO root fetch - processPackages [mylocale]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 06:51:15] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-02 06:51:15] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/08/41/8bd41012693314d750a197ab0e376b5fae0a5efbf3327c3fe3ef45e91195/templated_setup-0.92.tar.gz
+[2024-05-02 06:51:15] INFO root fetch - processPackages [django_herobiz_dental]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-02 06:51:15] INFO root fetch - processPackages [libbde-python]: New version: [20240502] Old Version: [20240223]
+[2024-05-02 06:51:15] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/2f/5b/5f942678cf7b6312828c8c42d0ad634e3a78f330e639d0aec633281923a9/mylocale-0.8.0.tar.gz
+[2024-05-02 06:51:15] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-02 06:51:15] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/38/f2/6940d53943256779517fd454da804c00bba5dd60b7d2a9f4f89fab7caabf/django_herobiz_dental-1.0.2.tar.gz
+[2024-05-02 06:51:15] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/cf/31/7eaef23f3354fae298c96e7453c8c73b0605787b351c7010185d89124bb0/mylocale-0.9.0.tar.gz
+[2024-05-02 06:51:15] INFO root fetch - processPackages [libbde-python]: Downloading https://files.pythonhosted.org/packages/0e/ba/67fc815c6e59bd4605e62bfcc062bfd1acb3bda13bceab8e4db96a2093e1/libbde-python-20240223.tar.gz
+[2024-05-02 06:51:15] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/7e/01/827005dccd15c3c96d997ed9965d96f8f4358e8ccccedb70197b0dfa42b5/templated_setup-0.93.tar.gz
+[2024-05-02 06:51:15] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-02 06:51:15] INFO root fetch - processPackages [mylocale]: executing diffoscope
+[2024-05-02 06:51:15] INFO root fetch - processPackages [mylocale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mylocale-0.8.0.tar.gz tmp/mylocale-0.9.0.tar.gz --markdown 20240502/m/mylocale/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 06:51:15] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 06:51:15] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.92.tar.gz tmp/templated_setup-0.93.tar.gz --markdown 20240502/t/templated-setup/0.92-0.93/README.md --exclude *.pyd
+[2024-05-02 06:51:15] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-02 06:51:15] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240502/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-02 06:51:16] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/41/84/84d64b90ccaac83ba4628aafe63046118a3761168f7624327e1a404f944b/django_herobiz_dental-1.0.3.tar.gz
+[2024-05-02 06:51:16] INFO root fetch - processPackages [libbde-python]: Downloading https://files.pythonhosted.org/packages/cc/be/cc9406867444128c9910960762b1592bf2409ed17fa63c65c4e2c84d46f7/libbde-python-20240502.tar.gz
+[2024-05-02 06:51:16] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.8.0.tar.gz]
+[2024-05-02 06:51:16] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.9.0.tar.gz]
+[2024-05-02 06:51:16] INFO root fetch - main [MainThread]: End processing [mylocale]: success
+[2024-05-02 06:51:16] INFO root fetch - processPackages [libbde-python]: executing diffoscope
+[2024-05-02 06:51:16] INFO root fetch - processPackages [libbde-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libbde-python-20240223.tar.gz tmp/libbde-python-20240502.tar.gz --markdown 20240502/l/libbde-python/20240223-20240502/README.md --exclude *.pyd
+[2024-05-02 06:51:16] INFO root fetch - processPackages [django_herobiz_dental]: executing diffoscope
+[2024-05-02 06:51:16] INFO root fetch - processPackages [django_herobiz_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_dental-1.0.2.tar.gz tmp/django_herobiz_dental-1.0.3.tar.gz --markdown 20240502/d/django_herobiz_dental/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-02 06:51:16] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.92.tar.gz]
+[2024-05-02 06:51:16] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.93.tar.gz]
+[2024-05-02 06:51:16] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 06:51:16] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-02 06:51:16] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-02 06:51:16] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-02 06:51:17] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.0.2.tar.gz]
+[2024-05-02 06:51:17] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.0.3.tar.gz]
+[2024-05-02 06:51:17] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
+[2024-05-02 06:51:22] INFO root fetch - processPackages [libbde-python]: Remove: archive file [/home/abi/fetcher/tmp/libbde-python-20240223.tar.gz]
+[2024-05-02 06:51:22] INFO root fetch - processPackages [libbde-python]: Remove: archive file [/home/abi/fetcher/tmp/libbde-python-20240502.tar.gz]
+[2024-05-02 06:51:22] INFO root fetch - main [MainThread]: End processing [libbde-python]: success
+[2024-05-02 06:51:22] INFO root fetch - main [MainThread]: Store serial: [23026447]
