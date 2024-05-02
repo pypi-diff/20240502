@@ -21815,3 +21815,55 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:24:13] INFO root fetch - processPackages [ResSimpy]: Remove: archive file [/home/abi/fetcher/tmp/ressimpy-2.1.1.tar.gz]
 [2024-05-02 15:24:13] INFO root fetch - main [MainThread]: End processing [ResSimpy]: success
 [2024-05-02 15:24:13] INFO root fetch - main [MainThread]: Store serial: [23031528]
+[2024-05-02 15:26:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031528]
+[2024-05-02 15:26:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 15:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optihood
+[2024-05-02 15:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqttoolkit
+[2024-05-02 15:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azure
+[2024-05-02 15:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OperationBattleshipCommonUtilities
+[2024-05-02 15:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vss-tools
+[2024-05-02 15:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kiwi
+[2024-05-02 15:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reflex-wrapper
+[2024-05-02 15:26:23] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-02 15:26:23] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/c4/b4/1d3b7bc296f65353f92fb11f3dd0cadc5305d6261f95031131c8bd1d2401/operationbattleshipcommonutilities-0.4.5.tar.gz
+[2024-05-02 15:26:23] INFO root fetch - processPackages [pyqttoolkit]: New version: [0.8.0.dev1] Old Version: [0.8.0.dev0]
+[2024-05-02 15:26:23] WARNING root fetch - processPackages [optihood]: Skipping, unable to determine old version
+[2024-05-02 15:26:23] INFO root fetch - main [MainThread]: End processing [optihood] error
+[2024-05-02 15:26:23] INFO root fetch - processPackages [vss-tools]: New version: [5.0.0.dev0] Old Version: [4.1rc0]
+[2024-05-02 15:26:23] INFO root fetch - processPackages [kiwi]: New version: [9.8.0] Old Version: [9.7.4]
+[2024-05-02 15:26:23] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-05-02 15:26:23] WARNING root fetch - processPackages [reflex-wrapper]: Skipping, unable to determine old version
+[2024-05-02 15:26:23] INFO root fetch - main [MainThread]: End processing [reflex-wrapper] error
+[2024-05-02 15:26:23] INFO root fetch - processPackages [pyqttoolkit]: Downloading https://files.pythonhosted.org/packages/5e/14/dc418fa190c4f5a818063053a8b4bd39d8de68fb25c2e0e5455489995d03/pyqttoolkit-0.8.0.dev0.tar.gz
+[2024-05-02 15:26:23] INFO root fetch - processPackages [vss-tools]: Downloading https://files.pythonhosted.org/packages/61/c4/6c8c7c8f46ac1b419439e660d7ec0d439deb26ffe57ae32a2b993e022b41/vss-tools-4.1rc0.tar.gz
+[2024-05-02 15:26:23] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/1a/c3/f1e7689e69ebfcddc8fb99ef9f57395aedc6902b572dba7cad9836f48857/operationbattleshipcommonutilities-0.4.6.tar.gz
+[2024-05-02 15:26:23] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-05-02 15:26:23] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: executing diffoscope
+[2024-05-02 15:26:23] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/operationbattleshipcommonutilities-0.4.5.tar.gz tmp/operationbattleshipcommonutilities-0.4.6.tar.gz --markdown 20240502/O/OperationBattleshipCommonUtilities/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-02 15:26:23] INFO root fetch - processPackages [kiwi]: executing diffoscope
+[2024-05-02 15:26:23] INFO root fetch - processPackages [kiwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwi-9.7.4.tar.gz tmp/kiwi-9.8.0.tar.gz --markdown 20240502/k/kiwi/9.7.4-9.8.0/README.md --exclude *.pyd
+[2024-05-02 15:26:23] INFO root fetch - processPackages [vss-tools]: Downloading https://files.pythonhosted.org/packages/12/b1/f48179bd133c371248d12208562f637f7c7f596376fa4bcc86a9b081d11b/vss_tools-5.0.0.dev0.tar.gz
+[2024-05-02 15:26:24] INFO root fetch - processPackages [pyqttoolkit]: Downloading https://files.pythonhosted.org/packages/e7/c6/ae4cef48b723319f410b172ecb23796ca98ba146cb2d72650e3c82fea59c/pyqttoolkit-0.8.0.dev1.tar.gz
+[2024-05-02 15:26:24] INFO root fetch - processPackages [vss-tools]: executing diffoscope
+[2024-05-02 15:26:24] INFO root fetch - processPackages [vss-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vss-tools-4.1rc0.tar.gz tmp/vss_tools-5.0.0.dev0.tar.gz --markdown 20240502/v/vss-tools/4.1rc0-5.0.0.dev0/README.md --exclude *.pyd
+[2024-05-02 15:26:24] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-05-02 15:26:24] INFO root fetch - processPackages [pyqttoolkit]: executing diffoscope
+[2024-05-02 15:26:24] INFO root fetch - processPackages [pyqttoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqttoolkit-0.8.0.dev0.tar.gz tmp/pyqttoolkit-0.8.0.dev1.tar.gz --markdown 20240502/p/pyqttoolkit/0.8.0.dev0-0.8.0.dev1/README.md --exclude *.pyd
+[2024-05-02 15:26:24] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/operationbattleshipcommonutilities-0.4.5.tar.gz]
+[2024-05-02 15:26:24] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/operationbattleshipcommonutilities-0.4.6.tar.gz]
+[2024-05-02 15:26:24] INFO root fetch - main [MainThread]: End processing [OperationBattleshipCommonUtilities]: success
+[2024-05-02 15:26:24] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-05-02 15:26:24] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240502/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-05-02 15:26:24] INFO root fetch - processPackages [vss-tools]: Remove: archive file [/home/abi/fetcher/tmp/vss-tools-4.1rc0.tar.gz]
+[2024-05-02 15:26:24] INFO root fetch - processPackages [vss-tools]: Remove: archive file [/home/abi/fetcher/tmp/vss_tools-5.0.0.dev0.tar.gz]
+[2024-05-02 15:26:24] INFO root fetch - main [MainThread]: End processing [vss-tools]: success
+[2024-05-02 15:26:25] INFO root fetch - processPackages [pyqttoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pyqttoolkit-0.8.0.dev0.tar.gz]
+[2024-05-02 15:26:25] INFO root fetch - processPackages [pyqttoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pyqttoolkit-0.8.0.dev1.tar.gz]
+[2024-05-02 15:26:25] INFO root fetch - main [MainThread]: End processing [pyqttoolkit]: success
+[2024-05-02 15:26:34] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-05-02 15:26:34] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-05-02 15:26:34] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-05-02 15:29:02] INFO root fetch - processPackages [kiwi]: Remove: archive file [/home/abi/fetcher/tmp/kiwi-9.7.4.tar.gz]
+[2024-05-02 15:29:02] INFO root fetch - processPackages [kiwi]: Remove: archive file [/home/abi/fetcher/tmp/kiwi-9.8.0.tar.gz]
+[2024-05-02 15:29:02] INFO root fetch - main [MainThread]: End processing [kiwi]: success
+[2024-05-02 15:29:02] INFO root fetch - main [MainThread]: Store serial: [23031554]
