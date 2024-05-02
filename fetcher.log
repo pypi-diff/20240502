@@ -18893,3 +18893,153 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 14:07:13] ERROR root fetch - processPackages [instawow]: Timeout during execution of pkgdiff
 [2024-05-02 14:07:13] INFO root fetch - main [MainThread]: End processing [instawow] error
 [2024-05-02 14:07:13] INFO root fetch - main [MainThread]: Store serial: [23030451]
+[2024-05-02 14:09:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030451]
+[2024-05-02 14:09:22] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-05-02 14:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongoz
+[2024-05-02 14:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vaultUts
+[2024-05-02 14:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brianmechanisms
+[2024-05-02 14:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: envzy
+[2024-05-02 14:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: santimPay
+[2024-05-02 14:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynpdc
+[2024-05-02 14:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gfloat
+[2024-05-02 14:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: matrix-commander
+[2024-05-02 14:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fmtutil
+[2024-05-02 14:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte-source-linkedin-ads
+[2024-05-02 14:09:22] WARNING root fetch - processPackages [brianmechanisms]: Skipping, unable to determine old version
+[2024-05-02 14:09:22] INFO root fetch - processPackages [brianmechanisms]: Start processing: fastapi-user-limiter
+[2024-05-02 14:09:22] INFO root fetch - main [MainThread]: End processing [brianmechanisms] error
+[2024-05-02 14:09:22] INFO root fetch - processPackages [fmtutil]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-02 14:09:22] INFO root fetch - processPackages [mongoz]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-02 14:09:22] INFO root fetch - processPackages [fastapi-user-limiter]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-02 14:09:22] INFO root fetch - processPackages [envzy]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-02 14:09:22] WARNING root fetch - processPackages [santimPay]: Skipping, unable to determine old version
+[2024-05-02 14:09:22] INFO root fetch - processPackages [santimPay]: Start processing: aws-cdk-constructs
+[2024-05-02 14:09:22] INFO root fetch - main [MainThread]: End processing [santimPay] error
+[2024-05-02 14:09:23] INFO root fetch - processPackages [gfloat]: New version: [0.1] Old Version: [0.0.5]
+[2024-05-02 14:09:23] WARNING root fetch - processPackages [vaultUts]: Skipping, unable to determine old version
+[2024-05-02 14:09:23] INFO root fetch - processPackages [pynpdc]: New version: [0.13.2] Old Version: [0.13.1]
+[2024-05-02 14:09:23] INFO root fetch - processPackages [vaultUts]: Start processing: Mosek
+[2024-05-02 14:09:23] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-02 14:09:23] INFO root fetch - main [MainThread]: End processing [vaultUts] error
+[2024-05-02 14:09:23] INFO root fetch - processPackages [fmtutil]: Downloading https://files.pythonhosted.org/packages/ab/82/6ea373e2890d1977f08ecac12a7daf5f29ce6b8461ffdf30579637e8913e/fmtutil-1.0.3.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [matrix-commander]: New version: [7.6.1] Old Version: [7.6.0]
+[2024-05-02 14:09:23] INFO root fetch - processPackages [fastapi-user-limiter]: Downloading https://files.pythonhosted.org/packages/b7/36/ae976f4730a27301619717b4aee5158b52144bb1ff80a491d65eeb09a628/fastapi_user_limiter-0.5.0.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [mongoz]: Downloading https://files.pythonhosted.org/packages/20/df/8bd7ecd6c75f9497d8cee9e45355d0d26c0f03da226105200ff45e9b2fd4/mongoz-0.7.0.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [aws-cdk-constructs]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-02 14:09:23] INFO root fetch - processPackages [envzy]: Downloading https://files.pythonhosted.org/packages/65/fb/609bca0bd624b296219b6d918733050bcbedee49dbe7780173f15453146d/envzy-0.3.0.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [Mosek]: New version: [9.3.9] Old Version: [9.3.8]
+[2024-05-02 14:09:23] INFO root fetch - processPackages [pynpdc]: Downloading https://files.pythonhosted.org/packages/f9/7e/4ed223a34428c8f42ffd33050668c8eb327c2f09ccda449ed47f726c926e/pynpdc-0.13.1.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [gfloat]: Downloading https://files.pythonhosted.org/packages/c4/2c/72ba38cb6ba98072718880f0124215a8c08337ac628638236c951c9c6e94/gfloat-0.0.5.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: Downloading https://files.pythonhosted.org/packages/37/0e/8d92f3ca945c0263b1c045576ade1e228eed4076bb9276aa81283ea0be14/airbyte_source_linkedin_ads-2.0.0.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [matrix-commander]: Downloading https://files.pythonhosted.org/packages/13/ce/f4c0bcdf45f0b62800a3a3eacbefee376b3324dbd1ceb39a82f12140e09c/matrix-commander-7.6.0.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [fmtutil]: Downloading https://files.pythonhosted.org/packages/46/fc/ec259ec4c2163e67a0368eb49b28b0a1f766cfdb0d172d2b147b220c48d4/fmtutil-1.0.4.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/e6/37/d91f15ad3ff666b7db55fc300424baecc14de758543e3ada24b95f4ff718/aws_cdk_constructs-2.9.1.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/4c/32/630b9e420bad8d8d1d1ac6ec6b3e5097f8b1b4783e16b3991153044fad86/Mosek-9.3.8-cp39-cp39-win_amd64.whl
+[2024-05-02 14:09:23] INFO root fetch - processPackages [fastapi-user-limiter]: Downloading https://files.pythonhosted.org/packages/8a/b8/d13d6eab230376627264267f62b88ca460f17ade1248717ece436b3dcefc/fastapi_user_limiter-0.6.0.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [fmtutil]: executing diffoscope
+[2024-05-02 14:09:23] INFO root fetch - processPackages [fmtutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmtutil-1.0.3.tar.gz tmp/fmtutil-1.0.4.tar.gz --markdown 20240502/f/fmtutil/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-02 14:09:23] INFO root fetch - processPackages [mongoz]: Downloading https://files.pythonhosted.org/packages/c4/25/bc797f0c30620d1fc0ac6f204555266f86bcec345da1895a823af874c4c7/mongoz-0.8.0.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [envzy]: Downloading https://files.pythonhosted.org/packages/c9/ea/4dcc893685507eb30609d43b615bcae06b38cc3ea428a89f2c00e546be51/envzy-0.3.1.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [fastapi-user-limiter]: executing diffoscope
+[2024-05-02 14:09:23] INFO root fetch - processPackages [fastapi-user-limiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_user_limiter-0.5.0.tar.gz tmp/fastapi_user_limiter-0.6.0.tar.gz --markdown 20240502/f/fastapi-user-limiter/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-02 14:09:23] INFO root fetch - processPackages [gfloat]: Downloading https://files.pythonhosted.org/packages/d2/56/b286d4faf25b0503f025df8e5e51c67c34d6d9a1359cf49a73d41467aeac/gfloat-0.1.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [pynpdc]: Downloading https://files.pythonhosted.org/packages/9b/33/b6349c68aeb977174c81ee93ad39cf8ea144569dee8f4f690d7b0c98abc7/pynpdc-0.13.2.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: Downloading https://files.pythonhosted.org/packages/c5/38/81712327b9ab423c36ba6e6e3bddb0169082020d51849436953a879b5edd/airbyte_source_linkedin_ads-2.1.0.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [matrix-commander]: Downloading https://files.pythonhosted.org/packages/a2/90/cd44784796e84172c52734ea01735fd3d5b346fbf5b7ff04f8fd6fd31ddb/matrix_commander-7.6.1.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [envzy]: executing diffoscope
+[2024-05-02 14:09:23] INFO root fetch - processPackages [envzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envzy-0.3.0.tar.gz tmp/envzy-0.3.1.tar.gz --markdown 20240502/e/envzy/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-02 14:09:23] INFO root fetch - processPackages [gfloat]: executing diffoscope
+[2024-05-02 14:09:23] INFO root fetch - processPackages [gfloat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfloat-0.0.5.tar.gz tmp/gfloat-0.1.tar.gz --markdown 20240502/g/gfloat/0.0.5-0.1/README.md --exclude *.pyd
+[2024-05-02 14:09:23] INFO root fetch - processPackages [mongoz]: executing diffoscope
+[2024-05-02 14:09:23] INFO root fetch - processPackages [mongoz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongoz-0.7.0.tar.gz tmp/mongoz-0.8.0.tar.gz --markdown 20240502/m/mongoz/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-02 14:09:23] INFO root fetch - processPackages [pynpdc]: executing diffoscope
+[2024-05-02 14:09:23] INFO root fetch - processPackages [pynpdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynpdc-0.13.1.tar.gz tmp/pynpdc-0.13.2.tar.gz --markdown 20240502/p/pynpdc/0.13.1-0.13.2/README.md --exclude *.pyd
+[2024-05-02 14:09:23] INFO root fetch - processPackages [aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/35/f4/09f600eaed6a0720c0130482f53b61f86271746b2385735edef0f6e0c731/aws_cdk_constructs-2.9.2.tar.gz
+[2024-05-02 14:09:23] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: executing diffoscope
+[2024-05-02 14:09:23] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_linkedin_ads-2.0.0.tar.gz tmp/airbyte_source_linkedin_ads-2.1.0.tar.gz --markdown 20240502/a/airbyte-source-linkedin-ads/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-02 14:09:23] INFO root fetch - processPackages [matrix-commander]: executing diffoscope
+[2024-05-02 14:09:23] INFO root fetch - processPackages [matrix-commander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix-commander-7.6.0.tar.gz tmp/matrix_commander-7.6.1.tar.gz --markdown 20240502/m/matrix-commander/7.6.0-7.6.1/README.md --exclude *.pyd
+[2024-05-02 14:09:24] INFO root fetch - processPackages [aws-cdk-constructs]: executing diffoscope
+[2024-05-02 14:09:24] INFO root fetch - processPackages [aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_cdk_constructs-2.9.1.tar.gz tmp/aws_cdk_constructs-2.9.2.tar.gz --markdown 20240502/a/aws-cdk-constructs/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-02 14:09:24] INFO root fetch - processPackages [fmtutil]: Remove: archive file [/home/abi/fetcher/tmp/fmtutil-1.0.3.tar.gz]
+[2024-05-02 14:09:24] INFO root fetch - processPackages [fmtutil]: Remove: archive file [/home/abi/fetcher/tmp/fmtutil-1.0.4.tar.gz]
+[2024-05-02 14:09:24] INFO root fetch - processPackages [fmtutil]: Start processing: od-labeler
+[2024-05-02 14:09:24] INFO root fetch - main [MainThread]: End processing [fmtutil]: success
+[2024-05-02 14:09:24] INFO root fetch - processPackages [fastapi-user-limiter]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_user_limiter-0.5.0.tar.gz]
+[2024-05-02 14:09:24] INFO root fetch - processPackages [fastapi-user-limiter]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_user_limiter-0.6.0.tar.gz]
+[2024-05-02 14:09:24] INFO root fetch - processPackages [fastapi-user-limiter]: Start processing: p4cmd
+[2024-05-02 14:09:24] INFO root fetch - main [MainThread]: End processing [fastapi-user-limiter]: success
+[2024-05-02 14:09:24] WARNING root fetch - processPackages [od-labeler]: Skipping, unable to determine old version
+[2024-05-02 14:09:24] INFO root fetch - processPackages [od-labeler]: Start processing: opentrons-shared-data
+[2024-05-02 14:09:24] INFO root fetch - main [MainThread]: End processing [od-labeler] error
+[2024-05-02 14:09:24] INFO root fetch - processPackages [pynpdc]: Remove: archive file [/home/abi/fetcher/tmp/pynpdc-0.13.1.tar.gz]
+[2024-05-02 14:09:24] INFO root fetch - processPackages [pynpdc]: Remove: archive file [/home/abi/fetcher/tmp/pynpdc-0.13.2.tar.gz]
+[2024-05-02 14:09:24] INFO root fetch - processPackages [pynpdc]: Start processing: yeref
+[2024-05-02 14:09:24] INFO root fetch - main [MainThread]: End processing [pynpdc]: success
+[2024-05-02 14:09:24] INFO root fetch - processPackages [p4cmd]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-05-02 14:09:25] INFO root fetch - processPackages [gfloat]: Remove: archive file [/home/abi/fetcher/tmp/gfloat-0.0.5.tar.gz]
+[2024-05-02 14:09:25] INFO root fetch - processPackages [gfloat]: Remove: archive file [/home/abi/fetcher/tmp/gfloat-0.1.tar.gz]
+[2024-05-02 14:09:25] INFO root fetch - processPackages [gfloat]: Start processing: h5rdmtoolbox
+[2024-05-02 14:09:25] INFO root fetch - main [MainThread]: End processing [gfloat]: success
+[2024-05-02 14:09:25] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 14:09:25] INFO root fetch - processPackages [opentrons-shared-data]: New version: [7.3.0a0] Old Version: [7.2.2a3]
+[2024-05-02 14:09:25] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_linkedin_ads-2.0.0.tar.gz]
+[2024-05-02 14:09:25] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_linkedin_ads-2.1.0.tar.gz]
+[2024-05-02 14:09:25] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: Start processing: torcheval-nightly
+[2024-05-02 14:09:25] INFO root fetch - main [MainThread]: End processing [airbyte-source-linkedin-ads]: success
+[2024-05-02 14:09:25] INFO root fetch - processPackages [envzy]: Remove: archive file [/home/abi/fetcher/tmp/envzy-0.3.0.tar.gz]
+[2024-05-02 14:09:25] INFO root fetch - processPackages [envzy]: Remove: archive file [/home/abi/fetcher/tmp/envzy-0.3.1.tar.gz]
+[2024-05-02 14:09:25] INFO root fetch - main [MainThread]: End processing [envzy]: success
+[2024-05-02 14:09:25] INFO root fetch - processPackages [h5rdmtoolbox]: New version: [1.3.0a1] Old Version: [1.2.2]
+[2024-05-02 14:09:25] INFO root fetch - processPackages [p4cmd]: Downloading https://files.pythonhosted.org/packages/7d/41/614443cd20317cd3a9216334cdf2bca132d51ac63282edde4a769344eece/p4cmd-2.4.8.tar.gz
+[2024-05-02 14:09:25] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-02 14:09:25] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.5.1] Old Version: [2024.4.9]
+[2024-05-02 14:09:25] INFO root fetch - processPackages [mongoz]: Remove: archive file [/home/abi/fetcher/tmp/mongoz-0.7.0.tar.gz]
+[2024-05-02 14:09:25] INFO root fetch - processPackages [mongoz]: Remove: archive file [/home/abi/fetcher/tmp/mongoz-0.8.0.tar.gz]
+[2024-05-02 14:09:25] INFO root fetch - main [MainThread]: End processing [mongoz]: success
+[2024-05-02 14:09:25] INFO root fetch - processPackages [opentrons-shared-data]: Downloading https://files.pythonhosted.org/packages/cb/85/57326bb6d982986f4793ef6496fbbbb71595ebc88e401d033852a4e8369a/opentrons_shared_data-7.2.2a3.tar.gz
+[2024-05-02 14:09:25] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/01/5f/5d3ae8fee972a25478395600694aa6da7aecdf0fdc15b5bb79b52a372737/torcheval-nightly-2024.4.9.tar.gz
+[2024-05-02 14:09:25] INFO root fetch - processPackages [aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/aws_cdk_constructs-2.9.1.tar.gz]
+[2024-05-02 14:09:25] INFO root fetch - processPackages [aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/aws_cdk_constructs-2.9.2.tar.gz]
+[2024-05-02 14:09:25] INFO root fetch - main [MainThread]: End processing [aws-cdk-constructs]: success
+[2024-05-02 14:09:25] INFO root fetch - processPackages [h5rdmtoolbox]: Downloading https://files.pythonhosted.org/packages/47/64/638f467a37e1c21f01feae31634e4cd059465b2b141dd481129a1a0793e7/h5rdmtoolbox-1.2.2.tar.gz
+[2024-05-02 14:09:25] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-02 14:09:25] INFO root fetch - processPackages [matrix-commander]: Remove: archive file [/home/abi/fetcher/tmp/matrix-commander-7.6.0.tar.gz]
+[2024-05-02 14:09:25] INFO root fetch - processPackages [matrix-commander]: Remove: archive file [/home/abi/fetcher/tmp/matrix_commander-7.6.1.tar.gz]
+[2024-05-02 14:09:25] INFO root fetch - main [MainThread]: End processing [matrix-commander]: success
+[2024-05-02 14:09:25] INFO root fetch - processPackages [p4cmd]: Downloading https://files.pythonhosted.org/packages/a2/50/c5031bc073112224f4d0af292c9589b3f51874a588e1a61cd946331bdeaa/p4cmd-2.4.9.tar.gz
+[2024-05-02 14:09:25] INFO root fetch - processPackages [opentrons-shared-data]: Downloading https://files.pythonhosted.org/packages/47/c1/5e20740a13192160a6114486cec839c8ee388f0ee577bc7450fd6232f4a9/opentrons_shared_data-7.3.0a0.tar.gz
+[2024-05-02 14:09:25] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-02 14:09:25] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240502/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 14:09:25] INFO root fetch - processPackages [p4cmd]: executing diffoscope
+[2024-05-02 14:09:25] INFO root fetch - processPackages [p4cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p4cmd-2.4.8.tar.gz tmp/p4cmd-2.4.9.tar.gz --markdown 20240502/p/p4cmd/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-05-02 14:09:25] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/0a/6d/d4c24c4c4e1199c964368bda5c49c372cf65fea03edfaeab0d85aed7c15f/torcheval-nightly-2024.5.1.tar.gz
+[2024-05-02 14:09:25] INFO root fetch - processPackages [opentrons-shared-data]: executing diffoscope
+[2024-05-02 14:09:25] INFO root fetch - processPackages [opentrons-shared-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentrons_shared_data-7.2.2a3.tar.gz tmp/opentrons_shared_data-7.3.0a0.tar.gz --markdown 20240502/o/opentrons-shared-data/7.2.2a3-7.3.0a0/README.md --exclude *.pyd
+[2024-05-02 14:09:25] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-05-02 14:09:25] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.4.9.tar.gz tmp/torcheval-nightly-2024.5.1.tar.gz --markdown 20240502/t/torcheval-nightly/2024.4.9-2024.5.1/README.md --exclude *.pyd
+[2024-05-02 14:09:25] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/f5/78/ea902908d2878b83f8e37f551e0f59478b1840a9f5f031e123c393c88b0e/Mosek-9.3.9-cp39-cp39-win_amd64.whl
+[2024-05-02 14:09:26] INFO root fetch - processPackages [h5rdmtoolbox]: Downloading https://files.pythonhosted.org/packages/6e/c6/e46ebb37fc41025cb03b4d5259f9ae5f920ac790481335403b430508c61d/h5rdmtoolbox-1.3.0a1.tar.gz
+[2024-05-02 14:09:26] INFO root fetch - processPackages [h5rdmtoolbox]: executing diffoscope
+[2024-05-02 14:09:26] INFO root fetch - processPackages [h5rdmtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5rdmtoolbox-1.2.2.tar.gz tmp/h5rdmtoolbox-1.3.0a1.tar.gz --markdown 20240502/h/h5rdmtoolbox/1.2.2-1.3.0a1/README.md --exclude *.pyd
+[2024-05-02 14:09:26] INFO root fetch - processPackages [p4cmd]: Remove: archive file [/home/abi/fetcher/tmp/p4cmd-2.4.8.tar.gz]
+[2024-05-02 14:09:26] INFO root fetch - processPackages [p4cmd]: Remove: archive file [/home/abi/fetcher/tmp/p4cmd-2.4.9.tar.gz]
+[2024-05-02 14:09:26] INFO root fetch - main [MainThread]: End processing [p4cmd]: success
+[2024-05-02 14:09:26] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-02 14:09:26] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-02 14:09:26] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-02 14:09:27] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.9.tar.gz]
+[2024-05-02 14:09:27] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.5.1.tar.gz]
+[2024-05-02 14:09:27] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-05-02 14:09:27] INFO root fetch - processPackages [h5rdmtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/h5rdmtoolbox-1.2.2.tar.gz]
+[2024-05-02 14:09:27] INFO root fetch - processPackages [h5rdmtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/h5rdmtoolbox-1.3.0a1.tar.gz]
+[2024-05-02 14:09:27] INFO root fetch - main [MainThread]: End processing [h5rdmtoolbox]: success
+[2024-05-02 14:09:28] INFO root fetch - processPackages [Mosek]: executing diffoscope
+[2024-05-02 14:09:28] INFO root fetch - processPackages [Mosek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip --markdown 20240502/M/Mosek/9.3.8-9.3.9/README.md --exclude *.pyd
+[2024-05-02 14:09:33] INFO root fetch - processPackages [opentrons-shared-data]: Remove: archive file [/home/abi/fetcher/tmp/opentrons_shared_data-7.2.2a3.tar.gz]
+[2024-05-02 14:09:33] INFO root fetch - processPackages [opentrons-shared-data]: Remove: archive file [/home/abi/fetcher/tmp/opentrons_shared_data-7.3.0a0.tar.gz]
+[2024-05-02 14:09:33] INFO root fetch - main [MainThread]: End processing [opentrons-shared-data]: success
+[2024-05-02 14:10:12] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 14:10:12] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 14:10:12] INFO root fetch - main [MainThread]: End processing [Mosek]: success
+[2024-05-02 14:10:12] INFO root fetch - main [MainThread]: Store serial: [23030540]
