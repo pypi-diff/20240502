@@ -22678,3 +22678,72 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:52:05] INFO root fetch - processPackages [galaxy-app]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_app-24.0.1.tar.gz]
 [2024-05-02 15:52:05] INFO root fetch - main [MainThread]: End processing [galaxy-app]: success
 [2024-05-02 15:52:05] INFO root fetch - main [MainThread]: Store serial: [23031852]
+[2024-05-02 15:54:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031852]
+[2024-05-02 15:54:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 15:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybiolib
+[2024-05-02 15:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poly-crop
+[2024-05-02 15:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylammpstrj
+[2024-05-02 15:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nci-cidc-api-modules
+[2024-05-02 15:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scaneo
+[2024-05-02 15:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensordict-nightly
+[2024-05-02 15:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fftrack
+[2024-05-02 15:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GoldenX
+[2024-05-02 15:54:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: intake-esgf
+[2024-05-02 15:54:15] INFO root fetch - processPackages [fftrack]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-02 15:54:15] INFO root fetch - processPackages [pylammpstrj]: New version: [1.0.4a0] Old Version: [1.0.3rc0]
+[2024-05-02 15:54:15] INFO root fetch - processPackages [scaneo]: New version: [2024.5.2] Old Version: [2023.9.18.post7]
+[2024-05-02 15:54:15] WARNING root fetch - processPackages [poly-crop]: Skipping, unable to determine old version
+[2024-05-02 15:54:15] INFO root fetch - main [MainThread]: End processing [poly-crop] error
+[2024-05-02 15:54:15] INFO root fetch - processPackages [nci-cidc-api-modules]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-02 15:54:15] INFO root fetch - processPackages [fftrack]: Downloading https://files.pythonhosted.org/packages/19/ce/2d7eb84b35903609f7ec9f0882703c38170512c497ae318441677ffc1a7d/fftrack-0.1.3.tar.gz
+[2024-05-02 15:54:15] INFO root fetch - processPackages [intake-esgf]: New version: [2024.5.2] Old Version: [2024.4.23]
+[2024-05-02 15:54:15] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-05-02 15:54:15] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-02 15:54:15] WARNING root fetch - processPackages [GoldenX]: Skipping, unable to determine old version
+[2024-05-02 15:54:15] INFO root fetch - main [MainThread]: End processing [GoldenX] error
+[2024-05-02 15:54:15] INFO root fetch - processPackages [pylammpstrj]: Downloading https://files.pythonhosted.org/packages/72/91/08fc31b752a3f42529fb6507a628237dac2262fff7d495f2d69bb925d040/pylammpstrj-1.0.3rc0.tar.gz
+[2024-05-02 15:54:15] INFO root fetch - processPackages [scaneo]: Downloading https://files.pythonhosted.org/packages/d2/ec/4b52f25222ca0ea25121759c0cabe95e19760af90e0dcf6a8eeb48b02535/scaneo-2023.9.18.post7.tar.gz
+[2024-05-02 15:54:15] INFO root fetch - processPackages [intake-esgf]: Downloading https://files.pythonhosted.org/packages/70/60/8a3c62e27b9e772143b9aabb18c21ca5a7024af9349c74e24e5a4d0f512f/intake_esgf-2024.4.23.tar.gz
+[2024-05-02 15:54:15] INFO root fetch - processPackages [nci-cidc-api-modules]: Downloading https://files.pythonhosted.org/packages/44/4c/4ec121eb9a4e09c4330bebefa3417c5e29168a0e3624abc023525d4fe8f9/nci_cidc_api_modules-1.0.7.tar.gz
+[2024-05-02 15:54:16] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-05-02 15:54:16] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/93/66/12019bf4a5f2c4f693fd29ecece1f8536603ca19d0d42c05680cadc93e24/tensordict_nightly-2024.5.1-cp39-cp39-win_amd64.whl
+[2024-05-02 15:54:16] INFO root fetch - processPackages [fftrack]: Downloading https://files.pythonhosted.org/packages/f1/8f/e0272ba557bb4b7a66ae9fb689cff8b7b89c699b3cfc1d3d02c3b258ef22/fftrack-0.1.4.tar.gz
+[2024-05-02 15:54:16] INFO root fetch - processPackages [fftrack]: executing diffoscope
+[2024-05-02 15:54:16] INFO root fetch - processPackages [fftrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fftrack-0.1.3.tar.gz tmp/fftrack-0.1.4.tar.gz --markdown 20240502/f/fftrack/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-02 15:54:16] INFO root fetch - processPackages [nci-cidc-api-modules]: Downloading https://files.pythonhosted.org/packages/ea/1a/b540cd8d8cd24896406b1c5e0abfefd16cb3f96ea58867acb42ed3d212cb/nci_cidc_api_modules-1.0.8.tar.gz
+[2024-05-02 15:54:16] INFO root fetch - processPackages [pylammpstrj]: Downloading https://files.pythonhosted.org/packages/75/ec/bb84c77e2d7d18a32d027b31febb7c58907f31ab593f5b7da799682cfaab/pylammpstrj-1.0.4a0.tar.gz
+[2024-05-02 15:54:16] INFO root fetch - processPackages [intake-esgf]: Downloading https://files.pythonhosted.org/packages/81/2a/2d5ce05ee7f7f5fe7ee67f88da9993663ffad718cdce93d664b7fc0bc088/intake_esgf-2024.5.2-py3-none-any.whl
+[2024-05-02 15:54:16] INFO root fetch - processPackages [scaneo]: Downloading https://files.pythonhosted.org/packages/90/32/7b2a4c6bfa2e2abba2c5c893987fd3cd20f611cf7d6a87a0050e720cdf4f/scaneo-2024.5.2.tar.gz
+[2024-05-02 15:54:16] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-05-02 15:54:16] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/40/fb/b32b26e1b463a76ff8eba454ffe3332039a2e8cc6460e40c2232dcb17243/tensordict_nightly-2024.5.2-cp39-cp39-manylinux1_x86_64.whl
+[2024-05-02 15:54:16] INFO root fetch - processPackages [nci-cidc-api-modules]: executing diffoscope
+[2024-05-02 15:54:16] INFO root fetch - processPackages [nci-cidc-api-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nci_cidc_api_modules-1.0.7.tar.gz tmp/nci_cidc_api_modules-1.0.8.tar.gz --markdown 20240502/n/nci-cidc-api-modules/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-02 15:54:16] INFO root fetch - processPackages [pylammpstrj]: executing diffoscope
+[2024-05-02 15:54:16] INFO root fetch - processPackages [pylammpstrj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylammpstrj-1.0.3rc0.tar.gz tmp/pylammpstrj-1.0.4a0.tar.gz --markdown 20240502/p/pylammpstrj/1.0.3rc0-1.0.4a0/README.md --exclude *.pyd
+[2024-05-02 15:54:16] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-05-02 15:54:16] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240502/p/pybiolib/1.1.997-1.1.999/README.md --exclude *.pyd
+[2024-05-02 15:54:16] WARNING root fetch - processPackages [scaneo]: Skipping package: exceeds size limit 20606125>=10485760
+[2024-05-02 15:54:16] INFO root fetch - main [MainThread]: End processing [scaneo] error
+[2024-05-02 15:54:16] INFO root fetch - processPackages [intake-esgf]: executing diffoscope
+[2024-05-02 15:54:16] INFO root fetch - processPackages [intake-esgf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intake_esgf-2024.4.23.tar.gz tmp/intake_esgf-2024.5.2-py3-none-any.whl.zip --markdown 20240502/i/intake-esgf/2024.4.23-2024.5.2/README.md --exclude *.pyd
+[2024-05-02 15:54:16] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-05-02 15:54:16] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.5.1-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.5.2-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20240502/t/tensordict-nightly/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-02 15:54:17] INFO root fetch - processPackages [fftrack]: Remove: archive file [/home/abi/fetcher/tmp/fftrack-0.1.3.tar.gz]
+[2024-05-02 15:54:17] INFO root fetch - processPackages [fftrack]: Remove: archive file [/home/abi/fetcher/tmp/fftrack-0.1.4.tar.gz]
+[2024-05-02 15:54:17] INFO root fetch - main [MainThread]: End processing [fftrack]: success
+[2024-05-02 15:54:17] INFO root fetch - processPackages [intake-esgf]: Remove: archive file [/home/abi/fetcher/tmp/intake_esgf-2024.4.23.tar.gz]
+[2024-05-02 15:54:17] INFO root fetch - processPackages [intake-esgf]: Remove: archive file [/home/abi/fetcher/tmp/intake_esgf-2024.5.2-py3-none-any.whl.zip]
+[2024-05-02 15:54:17] INFO root fetch - main [MainThread]: End processing [intake-esgf]: success
+[2024-05-02 15:54:17] INFO root fetch - processPackages [pylammpstrj]: Remove: archive file [/home/abi/fetcher/tmp/pylammpstrj-1.0.3rc0.tar.gz]
+[2024-05-02 15:54:17] INFO root fetch - processPackages [pylammpstrj]: Remove: archive file [/home/abi/fetcher/tmp/pylammpstrj-1.0.4a0.tar.gz]
+[2024-05-02 15:54:17] INFO root fetch - main [MainThread]: End processing [pylammpstrj]: success
+[2024-05-02 15:54:17] INFO root fetch - processPackages [nci-cidc-api-modules]: Remove: archive file [/home/abi/fetcher/tmp/nci_cidc_api_modules-1.0.7.tar.gz]
+[2024-05-02 15:54:17] INFO root fetch - processPackages [nci-cidc-api-modules]: Remove: archive file [/home/abi/fetcher/tmp/nci_cidc_api_modules-1.0.8.tar.gz]
+[2024-05-02 15:54:17] INFO root fetch - main [MainThread]: End processing [nci-cidc-api-modules]: success
+[2024-05-02 15:54:17] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-05-02 15:54:17] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-05-02 15:54:17] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-05-02 15:54:18] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 15:54:18] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.2-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-05-02 15:54:18] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-05-02 15:54:18] INFO root fetch - main [MainThread]: Store serial: [23031881]
