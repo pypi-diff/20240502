@@ -20673,3 +20673,72 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 14:46:30] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
 [2024-05-02 14:46:30] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
 [2024-05-02 14:46:30] INFO root fetch - main [MainThread]: Store serial: [23031073]
+[2024-05-02 14:48:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031073]
+[2024-05-02 14:48:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 14:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swibots
+[2024-05-02 14:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discopop
+[2024-05-02 14:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huggingface-hub
+[2024-05-02 14:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-chromepdf
+[2024-05-02 14:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hostsd
+[2024-05-02 14:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nowcast-lstm
+[2024-05-02 14:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: refers
+[2024-05-02 14:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: copier_template_tester
+[2024-05-02 14:48:39] INFO root fetch - processPackages [swibots]: New version: [1.4.9b0] Old Version: [1.4.9]
+[2024-05-02 14:48:39] INFO root fetch - processPackages [huggingface-hub]: New version: [0.9.1] Old Version: [0.9.0rc3]
+[2024-05-02 14:48:39] INFO root fetch - processPackages [nowcast-lstm]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-02 14:48:39] INFO root fetch - processPackages [discopop]: New version: [3.2.0] Old Version: [3.1.1]
+[2024-05-02 14:48:39] INFO root fetch - processPackages [refers]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-02 14:48:39] WARNING root fetch - processPackages [hostsd]: Skipping, unable to determine old version
+[2024-05-02 14:48:39] INFO root fetch - main [MainThread]: End processing [hostsd] error
+[2024-05-02 14:48:39] INFO root fetch - processPackages [django-chromepdf]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-05-02 14:48:39] INFO root fetch - processPackages [copier_template_tester]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-02 14:48:39] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/ab/ad/e9fb4e6104646710bdb7ad640c25bec37453f90d223979930a44f7c8f72e/swibots-1.4.9-py3-none-any.whl
+[2024-05-02 14:48:39] INFO root fetch - processPackages [huggingface-hub]: Downloading https://files.pythonhosted.org/packages/18/22/396f7b9147571df8656841321b502255d5c918c485460fb0f61bd9bc4c10/huggingface_hub-0.9.0rc3.tar.gz
+[2024-05-02 14:48:39] INFO root fetch - processPackages [discopop]: Downloading https://files.pythonhosted.org/packages/f2/09/599181f2089dfe5474c0fa9f6a0009d608b55b916198c477f31e211d7856/discopop-3.1.1.tar.gz
+[2024-05-02 14:48:39] INFO root fetch - processPackages [refers]: Downloading https://files.pythonhosted.org/packages/38/67/efc56bbc6355b314c64ef5c29fc6fdf87abbd68a0320c1408477eabde587/refers-0.0.3.tar.gz
+[2024-05-02 14:48:39] INFO root fetch - processPackages [django-chromepdf]: Downloading https://files.pythonhosted.org/packages/46/ea/e92c61e1ed8a3b040b99b3805ca00adc5eec0d5d61b0732d0b4507b34816/django-chromepdf-1.7.1.tar.gz
+[2024-05-02 14:48:39] INFO root fetch - processPackages [nowcast-lstm]: Downloading https://files.pythonhosted.org/packages/de/22/622219a459304715b473c4cc441d835ba404c575795c41a2b979f6a8854d/nowcast_lstm-0.2.6.tar.gz
+[2024-05-02 14:48:39] INFO root fetch - processPackages [copier_template_tester]: Downloading https://files.pythonhosted.org/packages/4f/71/3b68cd91874ced209c34f66fc5cdb9fa63fd270b8c2697cf46212b5e4a1c/copier_template_tester-2.1.1.tar.gz
+[2024-05-02 14:48:39] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/1a/29/9d4e43dad7e195938372caf1ec2d82ce234bb157328ce98870071d36f923/swibots-1.4.9b0-py3-none-any.whl
+[2024-05-02 14:48:39] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2024-05-02 14:48:39] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.4.9-py3-none-any.whl.zip tmp/swibots-1.4.9b0-py3-none-any.whl.zip --markdown 20240502/s/swibots/1.4.9-1.4.9b0/README.md --exclude *.pyd
+[2024-05-02 14:48:39] INFO root fetch - processPackages [huggingface-hub]: Downloading https://files.pythonhosted.org/packages/f2/ba/09da7dd3a60abdba0bdab4391adf26bf74ee3d13ee431cd6edd9c842da05/huggingface_hub-0.9.1.tar.gz
+[2024-05-02 14:48:39] INFO root fetch - processPackages [discopop]: Downloading https://files.pythonhosted.org/packages/75/14/9af91fd2251cb9f2c02b165d40f79855cf1914b51cef7a13f597c5278dd5/discopop-3.2.0.tar.gz
+[2024-05-02 14:48:39] INFO root fetch - processPackages [refers]: Downloading https://files.pythonhosted.org/packages/de/6b/6c410d806f1334e37a96fa896522f9975b025ac3db3a50291a8bbd3ce9af/refers-0.0.4.tar.gz
+[2024-05-02 14:48:39] INFO root fetch - processPackages [django-chromepdf]: Downloading https://files.pythonhosted.org/packages/34/fa/09b62762e9ef0c2e654465fcac820d80b4d06acb832fe436940677d79a71/django-chromepdf-1.7.2.tar.gz
+[2024-05-02 14:48:40] INFO root fetch - processPackages [nowcast-lstm]: Downloading https://files.pythonhosted.org/packages/29/b5/a05e071c7b98f791685afeb8be809612826edb13fe512ca75dff511ce45f/nowcast_lstm-0.2.7.tar.gz
+[2024-05-02 14:48:40] INFO root fetch - processPackages [copier_template_tester]: Downloading https://files.pythonhosted.org/packages/83/80/f8ac937e0f0767fe5897a339df3ad0d5ada7f8a9c9550958c8859dc27864/copier_template_tester-2.1.2.tar.gz
+[2024-05-02 14:48:40] INFO root fetch - processPackages [huggingface-hub]: executing diffoscope
+[2024-05-02 14:48:40] INFO root fetch - processPackages [huggingface-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huggingface_hub-0.9.0rc3.tar.gz tmp/huggingface_hub-0.9.1.tar.gz --markdown 20240502/h/huggingface-hub/0.9.0rc3-0.9.1/README.md --exclude *.pyd
+[2024-05-02 14:48:40] INFO root fetch - processPackages [refers]: executing diffoscope
+[2024-05-02 14:48:40] INFO root fetch - processPackages [refers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refers-0.0.3.tar.gz tmp/refers-0.0.4.tar.gz --markdown 20240502/r/refers/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-02 14:48:40] INFO root fetch - processPackages [django-chromepdf]: executing diffoscope
+[2024-05-02 14:48:40] INFO root fetch - processPackages [django-chromepdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-chromepdf-1.7.1.tar.gz tmp/django-chromepdf-1.7.2.tar.gz --markdown 20240502/d/django-chromepdf/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-05-02 14:48:40] INFO root fetch - processPackages [discopop]: executing diffoscope
+[2024-05-02 14:48:40] INFO root fetch - processPackages [discopop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discopop-3.1.1.tar.gz tmp/discopop-3.2.0.tar.gz --markdown 20240502/d/discopop/3.1.1-3.2.0/README.md --exclude *.pyd
+[2024-05-02 14:48:40] INFO root fetch - processPackages [nowcast-lstm]: executing diffoscope
+[2024-05-02 14:48:40] INFO root fetch - processPackages [nowcast-lstm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcast_lstm-0.2.6.tar.gz tmp/nowcast_lstm-0.2.7.tar.gz --markdown 20240502/n/nowcast-lstm/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-02 14:48:40] INFO root fetch - processPackages [copier_template_tester]: executing diffoscope
+[2024-05-02 14:48:40] INFO root fetch - processPackages [copier_template_tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copier_template_tester-2.1.1.tar.gz tmp/copier_template_tester-2.1.2.tar.gz --markdown 20240502/c/copier_template_tester/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-02 14:48:41] INFO root fetch - processPackages [refers]: Remove: archive file [/home/abi/fetcher/tmp/refers-0.0.3.tar.gz]
+[2024-05-02 14:48:41] INFO root fetch - processPackages [refers]: Remove: archive file [/home/abi/fetcher/tmp/refers-0.0.4.tar.gz]
+[2024-05-02 14:48:41] INFO root fetch - main [MainThread]: End processing [refers]: success
+[2024-05-02 14:48:41] INFO root fetch - processPackages [django-chromepdf]: Remove: archive file [/home/abi/fetcher/tmp/django-chromepdf-1.7.1.tar.gz]
+[2024-05-02 14:48:41] INFO root fetch - processPackages [django-chromepdf]: Remove: archive file [/home/abi/fetcher/tmp/django-chromepdf-1.7.2.tar.gz]
+[2024-05-02 14:48:41] INFO root fetch - main [MainThread]: End processing [django-chromepdf]: success
+[2024-05-02 14:48:41] INFO root fetch - processPackages [nowcast-lstm]: Remove: archive file [/home/abi/fetcher/tmp/nowcast_lstm-0.2.6.tar.gz]
+[2024-05-02 14:48:41] INFO root fetch - processPackages [nowcast-lstm]: Remove: archive file [/home/abi/fetcher/tmp/nowcast_lstm-0.2.7.tar.gz]
+[2024-05-02 14:48:41] INFO root fetch - main [MainThread]: End processing [nowcast-lstm]: success
+[2024-05-02 14:48:41] INFO root fetch - processPackages [copier_template_tester]: Remove: archive file [/home/abi/fetcher/tmp/copier_template_tester-2.1.1.tar.gz]
+[2024-05-02 14:48:41] INFO root fetch - processPackages [copier_template_tester]: Remove: archive file [/home/abi/fetcher/tmp/copier_template_tester-2.1.2.tar.gz]
+[2024-05-02 14:48:41] INFO root fetch - main [MainThread]: End processing [copier_template_tester]: success
+[2024-05-02 14:48:41] INFO root fetch - processPackages [huggingface-hub]: Remove: archive file [/home/abi/fetcher/tmp/huggingface_hub-0.9.0rc3.tar.gz]
+[2024-05-02 14:48:41] INFO root fetch - processPackages [huggingface-hub]: Remove: archive file [/home/abi/fetcher/tmp/huggingface_hub-0.9.1.tar.gz]
+[2024-05-02 14:48:41] INFO root fetch - main [MainThread]: End processing [huggingface-hub]: success
+[2024-05-02 14:48:41] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.4.9-py3-none-any.whl.zip]
+[2024-05-02 14:48:41] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.4.9b0-py3-none-any.whl.zip]
+[2024-05-02 14:48:41] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2024-05-02 14:48:42] INFO root fetch - processPackages [discopop]: Remove: archive file [/home/abi/fetcher/tmp/discopop-3.1.1.tar.gz]
+[2024-05-02 14:48:42] INFO root fetch - processPackages [discopop]: Remove: archive file [/home/abi/fetcher/tmp/discopop-3.2.0.tar.gz]
+[2024-05-02 14:48:42] INFO root fetch - main [MainThread]: End processing [discopop]: success
+[2024-05-02 14:48:42] INFO root fetch - main [MainThread]: Store serial: [23031097]
