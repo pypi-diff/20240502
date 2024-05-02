@@ -15394,3 +15394,72 @@
 [2024-05-02 11:46:56] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.6.2.tar.gz]
 [2024-05-02 11:46:56] INFO root fetch - main [MainThread]: End processing [cim-11-CERTIC]: success
 [2024-05-02 11:46:56] INFO root fetch - main [MainThread]: Store serial: [23028995]
+[2024-05-02 11:49:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028995]
+[2024-05-02 11:49:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 11:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: templated-setup
+[2024-05-02 11:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lilya
+[2024-05-02 11:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: custom-db-connector
+[2024-05-02 11:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moonss
+[2024-05-02 11:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bayes_mef
+[2024-05-02 11:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flatpack
+[2024-05-02 11:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gunshotmatch-reports
+[2024-05-02 11:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymdownx-logic-superfence
+[2024-05-02 11:49:05] INFO root fetch - processPackages [templated-setup]: New version: [0.961] Old Version: [0.960]
+[2024-05-02 11:49:05] INFO root fetch - processPackages [lilya]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-02 11:49:05] INFO root fetch - processPackages [pymdownx-logic-superfence]: New version: [0.3] Old Version: [0.2]
+[2024-05-02 11:49:05] INFO root fetch - processPackages [flatpack]: New version: [3.4.4] Old Version: [3.4.3]
+[2024-05-02 11:49:05] INFO root fetch - processPackages [bayes_mef]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-02 11:49:05] INFO root fetch - processPackages [gunshotmatch-reports]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-02 11:49:05] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/4c/23/56c1f2404cc4b1f51b5720374afb92b4017c13bce9496c014dff3cbea24d/templated_setup-0.960.tar.gz
+[2024-05-02 11:49:05] INFO root fetch - processPackages [moonss]: New version: [0.97] Old Version: [0.96]
+[2024-05-02 11:49:05] WARNING root fetch - processPackages [custom-db-connector]: Skipping, unable to determine old version
+[2024-05-02 11:49:05] INFO root fetch - main [MainThread]: End processing [custom-db-connector] error
+[2024-05-02 11:49:05] INFO root fetch - processPackages [lilya]: Downloading https://files.pythonhosted.org/packages/dd/39/ccf5dd5ec1d42e9c0b9d868e162a00ebc224909f1badedcd47b94fa2c468/lilya-0.5.0.tar.gz
+[2024-05-02 11:49:05] INFO root fetch - processPackages [pymdownx-logic-superfence]: Downloading https://files.pythonhosted.org/packages/70/2f/49261705ac6d22969e09b2048d80b2a65dd534bf1ddd1f7e3fdc9ab9c8ed/pymdownx-logic-superfence-0.2.tar.gz
+[2024-05-02 11:49:05] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/ec/77/7790ddc689839e1e1304976c73eb03e1b8412f239004f0c0576bed1c9caf/flatpack-3.4.3.tar.gz
+[2024-05-02 11:49:05] INFO root fetch - processPackages [bayes_mef]: Downloading https://files.pythonhosted.org/packages/05/7c/001458c481c84961308d41a57d003dd57a70d8c149635271f8df95fc60ae/bayes_mef-0.1.6.tar.gz
+[2024-05-02 11:49:05] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/fd/e5/c6ad9a4f1e9d072cfd35d44926abdf0d264f5b9dbe1e6f4fe372d4125501/moonss-0.96.tar.gz
+[2024-05-02 11:49:05] INFO root fetch - processPackages [gunshotmatch-reports]: Downloading https://files.pythonhosted.org/packages/9f/2d/51bd2780bd038f76befa1d141534775401075494a5bf145f5d2731f80484/gunshotmatch_reports-0.5.0.tar.gz
+[2024-05-02 11:49:05] INFO root fetch - processPackages [lilya]: Downloading https://files.pythonhosted.org/packages/18/bc/65eef2dd249359d8a1cfa75f42c9a326972b9e26356c5574c5fe119a447e/lilya-0.6.0.tar.gz
+[2024-05-02 11:49:05] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/09/a7/33868f06478de7023d4376fdb2dbc8e633ac86dba10e06f8e74b819e601c/templated_setup-0.961.tar.gz
+[2024-05-02 11:49:05] INFO root fetch - processPackages [pymdownx-logic-superfence]: Downloading https://files.pythonhosted.org/packages/ae/31/74722d98415f18e7eda82c33b93dcb1c38fdba91bac527bf3d90ca87c49b/pymdownx-logic-superfence-0.3.tar.gz
+[2024-05-02 11:49:05] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/da/f1/d0d073f52f61b0f9238cc257b5e3ac327b5a337b3c2a76336573a70a07a9/flatpack-3.4.4.tar.gz
+[2024-05-02 11:49:05] INFO root fetch - processPackages [lilya]: executing diffoscope
+[2024-05-02 11:49:05] INFO root fetch - processPackages [lilya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lilya-0.5.0.tar.gz tmp/lilya-0.6.0.tar.gz --markdown 20240502/l/lilya/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-02 11:49:05] INFO root fetch - processPackages [bayes_mef]: Downloading https://files.pythonhosted.org/packages/6a/04/99d3ee2c8adbd026ed6a68fc6cbe59d1be842a40ae50d0263ff898453c7b/bayes_mef-0.1.7.tar.gz
+[2024-05-02 11:49:05] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 11:49:05] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.960.tar.gz tmp/templated_setup-0.961.tar.gz --markdown 20240502/t/templated-setup/0.960-0.961/README.md --exclude *.pyd
+[2024-05-02 11:49:05] INFO root fetch - processPackages [pymdownx-logic-superfence]: executing diffoscope
+[2024-05-02 11:49:05] INFO root fetch - processPackages [pymdownx-logic-superfence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymdownx-logic-superfence-0.2.tar.gz tmp/pymdownx-logic-superfence-0.3.tar.gz --markdown 20240502/p/pymdownx-logic-superfence/0.2-0.3/README.md --exclude *.pyd
+[2024-05-02 11:49:05] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/46/a4/d77a2170c8a1cc8ba470e0e784d8dce0eeaf5fbea7f38200c176be801c98/moonss-0.97.tar.gz
+[2024-05-02 11:49:05] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-02 11:49:05] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.3.tar.gz tmp/flatpack-3.4.4.tar.gz --markdown 20240502/f/flatpack/3.4.3-3.4.4/README.md --exclude *.pyd
+[2024-05-02 11:49:05] INFO root fetch - processPackages [gunshotmatch-reports]: Downloading https://files.pythonhosted.org/packages/62/a8/1828f5c871f3ace7dc886bef0d3bc75db410a9cd54cf1f1c67be60068da1/gunshotmatch_reports-0.6.0.tar.gz
+[2024-05-02 11:49:05] INFO root fetch - processPackages [bayes_mef]: executing diffoscope
+[2024-05-02 11:49:05] INFO root fetch - processPackages [bayes_mef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayes_mef-0.1.6.tar.gz tmp/bayes_mef-0.1.7.tar.gz --markdown 20240502/b/bayes_mef/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-02 11:49:06] INFO root fetch - processPackages [moonss]: executing diffoscope
+[2024-05-02 11:49:06] INFO root fetch - processPackages [moonss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonss-0.96.tar.gz tmp/moonss-0.97.tar.gz --markdown 20240502/m/moonss/0.96-0.97/README.md --exclude *.pyd
+[2024-05-02 11:49:06] INFO root fetch - processPackages [gunshotmatch-reports]: executing diffoscope
+[2024-05-02 11:49:06] INFO root fetch - processPackages [gunshotmatch-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gunshotmatch_reports-0.5.0.tar.gz tmp/gunshotmatch_reports-0.6.0.tar.gz --markdown 20240502/g/gunshotmatch-reports/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-02 11:49:07] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.960.tar.gz]
+[2024-05-02 11:49:07] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.961.tar.gz]
+[2024-05-02 11:49:07] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 11:49:07] INFO root fetch - processPackages [pymdownx-logic-superfence]: Remove: archive file [/home/abi/fetcher/tmp/pymdownx-logic-superfence-0.2.tar.gz]
+[2024-05-02 11:49:07] INFO root fetch - processPackages [pymdownx-logic-superfence]: Remove: archive file [/home/abi/fetcher/tmp/pymdownx-logic-superfence-0.3.tar.gz]
+[2024-05-02 11:49:07] INFO root fetch - main [MainThread]: End processing [pymdownx-logic-superfence]: success
+[2024-05-02 11:49:07] INFO root fetch - processPackages [bayes_mef]: Remove: archive file [/home/abi/fetcher/tmp/bayes_mef-0.1.6.tar.gz]
+[2024-05-02 11:49:07] INFO root fetch - processPackages [bayes_mef]: Remove: archive file [/home/abi/fetcher/tmp/bayes_mef-0.1.7.tar.gz]
+[2024-05-02 11:49:07] INFO root fetch - main [MainThread]: End processing [bayes_mef]: success
+[2024-05-02 11:49:07] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.3.tar.gz]
+[2024-05-02 11:49:07] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.4.tar.gz]
+[2024-05-02 11:49:07] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-02 11:49:07] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.96.tar.gz]
+[2024-05-02 11:49:07] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.97.tar.gz]
+[2024-05-02 11:49:07] INFO root fetch - main [MainThread]: End processing [moonss]: success
+[2024-05-02 11:49:07] INFO root fetch - processPackages [lilya]: Remove: archive file [/home/abi/fetcher/tmp/lilya-0.5.0.tar.gz]
+[2024-05-02 11:49:07] INFO root fetch - processPackages [lilya]: Remove: archive file [/home/abi/fetcher/tmp/lilya-0.6.0.tar.gz]
+[2024-05-02 11:49:07] INFO root fetch - main [MainThread]: End processing [lilya]: success
+[2024-05-02 11:49:07] INFO root fetch - processPackages [gunshotmatch-reports]: Remove: archive file [/home/abi/fetcher/tmp/gunshotmatch_reports-0.5.0.tar.gz]
+[2024-05-02 11:49:07] INFO root fetch - processPackages [gunshotmatch-reports]: Remove: archive file [/home/abi/fetcher/tmp/gunshotmatch_reports-0.6.0.tar.gz]
+[2024-05-02 11:49:07] INFO root fetch - main [MainThread]: End processing [gunshotmatch-reports]: success
+[2024-05-02 11:49:07] INFO root fetch - main [MainThread]: Store serial: [23029020]
