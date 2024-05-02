@@ -15635,3 +15635,60 @@
 [2024-05-02 11:57:52] INFO root fetch - processPackages [izihawa-textparser]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_textparser-0.1.99.tar.gz]
 [2024-05-02 11:57:52] INFO root fetch - main [MainThread]: End processing [izihawa-textparser]: success
 [2024-05-02 11:57:52] INFO root fetch - main [MainThread]: Store serial: [23029092]
+[2024-05-02 11:59:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029092]
+[2024-05-02 12:00:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 12:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudcix
+[2024-05-02 12:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arion-library
+[2024-05-02 12:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysui
+[2024-05-02 12:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: locust
+[2024-05-02 12:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qoqo-calculator-pyo3
+[2024-05-02 12:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qg_toolkit
+[2024-05-02 12:00:01] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-05-02 12:00:01] INFO root fetch - processPackages [arion-library]: New version: [1.1rc97.dev97] Old Version: [1.1rc96.dev96]
+[2024-05-02 12:00:01] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-05-02 12:00:01] INFO root fetch - processPackages [pysui]: New version: [0.59.0] Old Version: [0.58.0]
+[2024-05-02 12:00:01] INFO root fetch - processPackages [qg_toolkit]: New version: [1.0.19] Old Version: [1.0.18]
+[2024-05-02 12:00:01] INFO root fetch - processPackages [qoqo-calculator-pyo3]: New version: [1.2.0] Old Version: [1.1.5]
+[2024-05-02 12:00:01] INFO root fetch - processPackages [cloudcix]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-02 12:00:02] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/47/c6/a95d32ff7a6bff3918c4bd84c1341e2383982f206eb443009e14a7f74d51/arion_library-1.1rc96.dev96.tar.gz
+[2024-05-02 12:00:02] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/cc/cc/13d28a5efdd4e496bafa1fd6d1a99c8d16600cc337a964e77d0a23ecac9d/cloudcix-0.9.6.tar.gz
+[2024-05-02 12:00:02] INFO root fetch - processPackages [qg_toolkit]: Downloading https://files.pythonhosted.org/packages/bc/2e/e94a47f1ece7acb10c05ac379353b1e858ea21286381a74397ba747abc2a/qg_toolkit-1.0.18.tar.gz
+[2024-05-02 12:00:02] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Downloading https://files.pythonhosted.org/packages/8b/86/5b2c212f5904efc372bcd42c9d55fe5b20e4605117a7da2a069445effa40/qoqo_calculator_pyo3-1.1.5.tar.gz
+[2024-05-02 12:00:02] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/f1/73/e8c7c63f898fa737b0f767af41a20d34c690b19c5ce26b50abae39b77326/pysui-0.58.0-py3-none-any.whl
+[2024-05-02 12:00:02] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-05-02 12:00:02] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/25/17/5717be908ed9d21ee6240007e1f51f957f0148589c543e0d5ba749bb33bc/arion_library-1.1rc97.dev97.tar.gz
+[2024-05-02 12:00:02] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-05-02 12:00:02] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240502/l/locust/2.9.1.dev38-2.9.1.dev45/README.md --exclude *.pyd
+[2024-05-02 12:00:02] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/23/91/e2a19ba7fccf414f054cc4ff387b792fe6a964e617de11b0af3707683850/cloudcix-0.9.7.tar.gz
+[2024-05-02 12:00:02] INFO root fetch - processPackages [qg_toolkit]: Downloading https://files.pythonhosted.org/packages/34/7f/17e5e5dfabc260ff4303338748458e765bd3620d4ce746fd1664b405297b/qg_toolkit-1.0.19.tar.gz
+[2024-05-02 12:00:02] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Downloading https://files.pythonhosted.org/packages/b4/c3/fbd364261f1c7f17d7d0b446d2a0130f5e93f3906d9bfa0e779eddddff1c/qoqo_calculator_pyo3-1.2.0.tar.gz
+[2024-05-02 12:00:02] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/eb/1f/2170fafca62f929c3a38969feb1059f6767c8ca75d27efe6a91c20a5792c/pysui-0.59.0-py3-none-any.whl
+[2024-05-02 12:00:02] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-05-02 12:00:02] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc96.dev96.tar.gz tmp/arion_library-1.1rc97.dev97.tar.gz --markdown 20240502/a/arion-library/1.1rc96.dev96-1.1rc97.dev97/README.md --exclude *.pyd
+[2024-05-02 12:00:02] INFO root fetch - processPackages [cloudcix]: executing diffoscope
+[2024-05-02 12:00:02] INFO root fetch - processPackages [cloudcix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudcix-0.9.6.tar.gz tmp/cloudcix-0.9.7.tar.gz --markdown 20240502/c/cloudcix/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-02 12:00:02] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2024-05-02 12:00:02] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.58.0-py3-none-any.whl.zip tmp/pysui-0.59.0-py3-none-any.whl.zip --markdown 20240502/p/pysui/0.58.0-0.59.0/README.md --exclude *.pyd
+[2024-05-02 12:00:02] INFO root fetch - processPackages [qoqo-calculator-pyo3]: executing diffoscope
+[2024-05-02 12:00:02] INFO root fetch - processPackages [qoqo-calculator-pyo3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_calculator_pyo3-1.1.5.tar.gz tmp/qoqo_calculator_pyo3-1.2.0.tar.gz --markdown 20240502/q/qoqo-calculator-pyo3/1.1.5-1.2.0/README.md --exclude *.pyd
+[2024-05-02 12:00:03] INFO root fetch - processPackages [qg_toolkit]: executing diffoscope
+[2024-05-02 12:00:03] INFO root fetch - processPackages [qg_toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qg_toolkit-1.0.18.tar.gz tmp/qg_toolkit-1.0.19.tar.gz --markdown 20240502/q/qg_toolkit/1.0.18-1.0.19/README.md --exclude *.pyd
+[2024-05-02 12:00:03] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc96.dev96.tar.gz]
+[2024-05-02 12:00:03] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc97.dev97.tar.gz]
+[2024-05-02 12:00:03] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-05-02 12:00:03] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.6.tar.gz]
+[2024-05-02 12:00:03] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.7.tar.gz]
+[2024-05-02 12:00:03] INFO root fetch - main [MainThread]: End processing [cloudcix]: success
+[2024-05-02 12:00:04] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.58.0-py3-none-any.whl.zip]
+[2024-05-02 12:00:04] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.59.0-py3-none-any.whl.zip]
+[2024-05-02 12:00:04] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2024-05-02 12:00:04] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.18.tar.gz]
+[2024-05-02 12:00:04] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.19.tar.gz]
+[2024-05-02 12:00:04] INFO root fetch - main [MainThread]: End processing [qg_toolkit]: success
+[2024-05-02 12:00:04] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-05-02 12:00:04] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-05-02 12:00:04] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-05-02 12:00:04] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_calculator_pyo3-1.1.5.tar.gz]
+[2024-05-02 12:00:04] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_calculator_pyo3-1.2.0.tar.gz]
+[2024-05-02 12:00:04] INFO root fetch - main [MainThread]: End processing [qoqo-calculator-pyo3]: success
+[2024-05-02 12:00:04] INFO root fetch - main [MainThread]: Store serial: [23029115]
