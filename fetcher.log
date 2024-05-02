@@ -8239,3 +8239,38 @@
 [2024-05-02 05:25:29] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev9-py3-none-any.whl.zip]
 [2024-05-02 05:25:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-prestashop]: success
 [2024-05-02 05:25:29] INFO root fetch - main [MainThread]: Store serial: [23026069]
+[2024-05-02 05:27:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026069]
+[2024-05-02 05:27:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 05:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptdown
+[2024-05-02 05:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jax-ifnt
+[2024-05-02 05:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quasinet
+[2024-05-02 05:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: surfkit
+[2024-05-02 05:27:39] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-02 05:27:39] INFO root fetch - processPackages [jax-ifnt]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 05:27:39] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2024-05-02 05:27:39] INFO root fetch - processPackages [surfkit]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-02 05:27:39] INFO root fetch - processPackages [promptdown]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-02 05:27:39] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2024-05-02 05:27:39] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2024-05-02 05:27:39] INFO root fetch - processPackages [jax-ifnt]: Downloading https://files.pythonhosted.org/packages/36/0e/5fae572ee13bd20bf305063f3e3cccff13d2b3a2d1eaaa676ed80484b519/jax_ifnt-0.1.0.tar.gz
+[2024-05-02 05:27:39] INFO root fetch - processPackages [promptdown]: Downloading https://files.pythonhosted.org/packages/4f/24/55172a70f24e6c2bfc4508ad9528ec38b2206ab01b523cd5c5be5d5351b7/promptdown-0.3.0.tar.gz
+[2024-05-02 05:27:39] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c2/e4/d9d6efb4013a22047e07b2174dc8716a86fe2b3fe0652e6e1edddbde177b/surfkit-0.1.98.tar.gz
+[2024-05-02 05:27:39] INFO root fetch - processPackages [jax-ifnt]: Downloading https://files.pythonhosted.org/packages/77/ed/5fef89fc1bcd1a925ec21d4dc2df67a9b1f17a31fdae0141765b14b3696f/jax_ifnt-0.1.1.tar.gz
+[2024-05-02 05:27:39] INFO root fetch - processPackages [promptdown]: Downloading https://files.pythonhosted.org/packages/71/41/7196a78aafdb6c0ede3693fe5f3c13506df7bf857c78ac60f946e8da80ef/promptdown-0.4.0.tar.gz
+[2024-05-02 05:27:39] INFO root fetch - processPackages [jax-ifnt]: executing diffoscope
+[2024-05-02 05:27:39] INFO root fetch - processPackages [jax-ifnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax_ifnt-0.1.0.tar.gz tmp/jax_ifnt-0.1.1.tar.gz --markdown 20240502/j/jax-ifnt/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 05:27:39] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/65/a8/bfc822b58240522d18c4cf24a25a6f2476da037058406af11377393fa476/surfkit-0.1.99.tar.gz
+[2024-05-02 05:27:39] INFO root fetch - processPackages [promptdown]: executing diffoscope
+[2024-05-02 05:27:39] INFO root fetch - processPackages [promptdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptdown-0.3.0.tar.gz tmp/promptdown-0.4.0.tar.gz --markdown 20240502/p/promptdown/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-02 05:27:39] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-02 05:27:39] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.98.tar.gz tmp/surfkit-0.1.99.tar.gz --markdown 20240502/s/surfkit/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-02 05:27:40] INFO root fetch - processPackages [jax-ifnt]: Remove: archive file [/home/abi/fetcher/tmp/jax_ifnt-0.1.0.tar.gz]
+[2024-05-02 05:27:40] INFO root fetch - processPackages [jax-ifnt]: Remove: archive file [/home/abi/fetcher/tmp/jax_ifnt-0.1.1.tar.gz]
+[2024-05-02 05:27:40] INFO root fetch - main [MainThread]: End processing [jax-ifnt]: success
+[2024-05-02 05:27:40] INFO root fetch - processPackages [promptdown]: Remove: archive file [/home/abi/fetcher/tmp/promptdown-0.3.0.tar.gz]
+[2024-05-02 05:27:40] INFO root fetch - processPackages [promptdown]: Remove: archive file [/home/abi/fetcher/tmp/promptdown-0.4.0.tar.gz]
+[2024-05-02 05:27:40] INFO root fetch - main [MainThread]: End processing [promptdown]: success
+[2024-05-02 05:27:40] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.98.tar.gz]
+[2024-05-02 05:27:40] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
+[2024-05-02 05:27:40] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-02 05:27:40] INFO root fetch - main [MainThread]: Store serial: [23026081]
