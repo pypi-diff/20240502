@@ -10096,3 +10096,42 @@
 [2024-05-02 07:57:03] INFO root fetch - processPackages [qfpy]: Remove: archive file [/home/abi/fetcher/tmp/qfpy-8.0.1.tar.gz]
 [2024-05-02 07:57:03] INFO root fetch - main [MainThread]: End processing [qfpy]: success
 [2024-05-02 07:57:03] INFO root fetch - main [MainThread]: Store serial: [23026796]
+[2024-05-02 07:59:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026796]
+[2024-05-02 07:59:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 07:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowmachine
+[2024-05-02 07:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowkit-jwt-generator
+[2024-05-02 07:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowetl
+[2024-05-02 07:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowclient
+[2024-05-02 07:59:12] INFO root fetch - processPackages [flowkit-jwt-generator]: New version: [1.25.0.post0.dev7] Old Version: [1.25.0.post0.dev67]
+[2024-05-02 07:59:12] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-02 07:59:12] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-02 07:59:12] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-02 07:59:12] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-02 07:59:12] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-02 07:59:12] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-02 07:59:12] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/80/ee/b836cd561fde3b6feb8d62a06f31c41270ce3e7673f2f83d9c3625f06c39/flowkit_jwt_generator-1.25.0.post0.dev67-py3-none-any.whl
+[2024-05-02 07:59:12] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-02 07:59:12] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-02 07:59:12] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/16/5d/7b2f3634ff98dbdedb13d57a8e191d602af6eece9e82d2f1aba2cb09a4f4/flowkit_jwt_generator-1.25.0.post0.dev7-py3-none-any.whl
+[2024-05-02 07:59:12] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-02 07:59:12] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2024-05-02 07:59:12] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240502/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-02 07:59:13] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2024-05-02 07:59:13] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240502/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-02 07:59:13] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2024-05-02 07:59:13] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240502/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-02 07:59:13] INFO root fetch - processPackages [flowkit-jwt-generator]: executing diffoscope
+[2024-05-02 07:59:13] INFO root fetch - processPackages [flowkit-jwt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkit_jwt_generator-1.25.0.post0.dev67-py3-none-any.whl.zip tmp/flowkit_jwt_generator-1.25.0.post0.dev7-py3-none-any.whl.zip --markdown 20240502/f/flowkit-jwt-generator/1.25.0.post0.dev67-1.25.0.post0.dev7/README.md --exclude *.pyd
+[2024-05-02 07:59:13] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-02 07:59:13] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-02 07:59:13] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2024-05-02 07:59:13] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-02 07:59:13] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-02 07:59:13] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2024-05-02 07:59:13] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev67-py3-none-any.whl.zip]
+[2024-05-02 07:59:13] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev7-py3-none-any.whl.zip]
+[2024-05-02 07:59:13] INFO root fetch - main [MainThread]: End processing [flowkit-jwt-generator]: success
+[2024-05-02 07:59:14] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-02 07:59:14] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-02 07:59:14] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2024-05-02 07:59:14] INFO root fetch - main [MainThread]: Store serial: [23026804]
