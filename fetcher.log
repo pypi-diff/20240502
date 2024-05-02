@@ -17584,3 +17584,24 @@
 [2024-05-02 13:08:50] INFO root fetch - processPackages [pychoacoustics]: Remove: archive file [/home/abi/fetcher/tmp/pychoacoustics-0.6.8.tar.gz]
 [2024-05-02 13:08:50] INFO root fetch - main [MainThread]: End processing [pychoacoustics]: success
 [2024-05-02 13:08:50] INFO root fetch - main [MainThread]: Store serial: [23029869]
+[2024-05-02 13:11:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029869]
+[2024-05-02 13:11:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 13:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akeyless
+[2024-05-02 13:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytract
+[2024-05-02 13:11:06] INFO root fetch - processPackages [akeyless]: New version: [4.0.0] Old Version: [3.6.3]
+[2024-05-02 13:11:06] INFO root fetch - processPackages [pytract]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-02 13:11:06] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/5c/ec/8440676bdef6645cd04c5913a3e31b4a8311a6a9a9cfa156f730c60035f8/akeyless-3.6.3.tar.gz
+[2024-05-02 13:11:06] INFO root fetch - processPackages [pytract]: Downloading https://files.pythonhosted.org/packages/4d/83/630f6ade7186447e94feb5141d723b0617de9bfc61c20882373a57fa0e92/pytract-0.0.3.tar.gz
+[2024-05-02 13:11:06] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/cf/7f/8648059aed3d58644374b390a145d52e63e8082d0c7c5d415b1e228f1327/akeyless-4.0.0.tar.gz
+[2024-05-02 13:11:07] INFO root fetch - processPackages [pytract]: Downloading https://files.pythonhosted.org/packages/99/fe/c63524b3548c135ec3d3c3bb953b4616d67dbbfbf1be3c110464d85a8f6b/pytract-0.0.4.tar.gz
+[2024-05-02 13:11:07] INFO root fetch - processPackages [akeyless]: executing diffoscope
+[2024-05-02 13:11:07] INFO root fetch - processPackages [akeyless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeyless-3.6.3.tar.gz tmp/akeyless-4.0.0.tar.gz --markdown 20240502/a/akeyless/3.6.3-4.0.0/README.md --exclude *.pyd
+[2024-05-02 13:11:07] INFO root fetch - processPackages [pytract]: executing diffoscope
+[2024-05-02 13:11:07] INFO root fetch - processPackages [pytract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytract-0.0.3.tar.gz tmp/pytract-0.0.4.tar.gz --markdown 20240502/p/pytract/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-02 13:11:07] INFO root fetch - processPackages [pytract]: Remove: archive file [/home/abi/fetcher/tmp/pytract-0.0.3.tar.gz]
+[2024-05-02 13:11:07] INFO root fetch - processPackages [pytract]: Remove: archive file [/home/abi/fetcher/tmp/pytract-0.0.4.tar.gz]
+[2024-05-02 13:11:07] INFO root fetch - main [MainThread]: End processing [pytract]: success
+[2024-05-02 13:11:17] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.6.3.tar.gz]
+[2024-05-02 13:11:17] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-4.0.0.tar.gz]
+[2024-05-02 13:11:17] INFO root fetch - main [MainThread]: End processing [akeyless]: success
+[2024-05-02 13:11:17] INFO root fetch - main [MainThread]: Store serial: [23029874]
