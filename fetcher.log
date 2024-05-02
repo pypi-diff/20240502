@@ -10509,3 +10509,51 @@
 [2024-05-02 08:22:26] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.1.dev2-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-02 08:22:26] INFO root fetch - main [MainThread]: End processing [generate-tools]: success
 [2024-05-02 08:22:26] INFO root fetch - main [MainThread]: Store serial: [23026932]
+[2024-05-02 08:24:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026932]
+[2024-05-02 08:24:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 08:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: climetlab
+[2024-05-02 08:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: urllib3-future
+[2024-05-02 08:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kvm-db
+[2024-05-02 08:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-vertex
+[2024-05-02 08:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trimnami
+[2024-05-02 08:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mujoco-sysid
+[2024-05-02 08:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wkutils
+[2024-05-02 08:24:35] WARNING root fetch - processPackages [llm-vertex]: Skipping, unable to determine old version
+[2024-05-02 08:24:35] INFO root fetch - main [MainThread]: End processing [llm-vertex] error
+[2024-05-02 08:24:35] INFO root fetch - processPackages [trimnami]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-02 08:24:35] WARNING root fetch - processPackages [wkutils]: Skipping, unable to determine old version
+[2024-05-02 08:24:35] INFO root fetch - main [MainThread]: End processing [wkutils] error
+[2024-05-02 08:24:35] INFO root fetch - processPackages [kvm-db]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 08:24:35] WARNING root fetch - processPackages [mujoco-sysid]: Skipping, unable to determine old version
+[2024-05-02 08:24:35] INFO root fetch - main [MainThread]: End processing [mujoco-sysid] error
+[2024-05-02 08:24:35] INFO root fetch - processPackages [climetlab]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 08:24:35] INFO root fetch - processPackages [urllib3-future]: New version: [2.7.906] Old Version: [2.7.905]
+[2024-05-02 08:24:35] INFO root fetch - processPackages [trimnami]: Downloading https://files.pythonhosted.org/packages/12/ca/ffa2a35f97d1f6f4d8c077c64591f320b659ad07c94a9035daf58db1bc0d/trimnami-0.1.3.tar.gz
+[2024-05-02 08:24:35] INFO root fetch - processPackages [kvm-db]: Downloading https://files.pythonhosted.org/packages/00/a5/5a8332231731764b9afcaaac6bd4a87f8cc194297e44ed81ca2ee7d834f1/kvm_db-0.1.1.tar.gz
+[2024-05-02 08:24:35] INFO root fetch - processPackages [climetlab]: Downloading https://files.pythonhosted.org/packages/db/6d/a65baa433c96d08ee4c6d1cfbe1c0a5763bc35da5ded747d4a8eddebb428/climetlab-0.9.8.tar.gz
+[2024-05-02 08:24:35] INFO root fetch - processPackages [urllib3-future]: Downloading https://files.pythonhosted.org/packages/93/20/0ac2501b34fffabe3ea44241299b498d8807d2ef0f4d4cfff8e0156aab64/urllib3_future-2.7.905.tar.gz
+[2024-05-02 08:24:36] INFO root fetch - processPackages [kvm-db]: Downloading https://files.pythonhosted.org/packages/f0/1f/894d015fdf483f3cf2762978c85fb4a4a1dd308d6ab6477731fad746d905/kvm_db-0.1.2.tar.gz
+[2024-05-02 08:24:36] INFO root fetch - processPackages [climetlab]: Downloading https://files.pythonhosted.org/packages/83/c3/c4d839d84ba4b462b80d34c1f967286e0291e6a2bf10ae84af528abaff6f/climetlab-0.9.9.tar.gz
+[2024-05-02 08:24:36] INFO root fetch - processPackages [kvm-db]: executing diffoscope
+[2024-05-02 08:24:36] INFO root fetch - processPackages [kvm-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kvm_db-0.1.1.tar.gz tmp/kvm_db-0.1.2.tar.gz --markdown 20240502/k/kvm-db/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 08:24:36] INFO root fetch - processPackages [urllib3-future]: Downloading https://files.pythonhosted.org/packages/15/99/f40eead0d7dce735ebc388897d309c7b6edce5ef0f37f88a1547f8a6f468/urllib3_future-2.7.906.tar.gz
+[2024-05-02 08:24:36] INFO root fetch - processPackages [climetlab]: executing diffoscope
+[2024-05-02 08:24:36] INFO root fetch - processPackages [climetlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climetlab-0.9.8.tar.gz tmp/climetlab-0.9.9.tar.gz --markdown 20240502/c/climetlab/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 08:24:36] INFO root fetch - processPackages [urllib3-future]: executing diffoscope
+[2024-05-02 08:24:36] INFO root fetch - processPackages [urllib3-future]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3_future-2.7.905.tar.gz tmp/urllib3_future-2.7.906.tar.gz --markdown 20240502/u/urllib3-future/2.7.905-2.7.906/README.md --exclude *.pyd
+[2024-05-02 08:24:36] INFO root fetch - processPackages [kvm-db]: Remove: archive file [/home/abi/fetcher/tmp/kvm_db-0.1.1.tar.gz]
+[2024-05-02 08:24:36] INFO root fetch - processPackages [kvm-db]: Remove: archive file [/home/abi/fetcher/tmp/kvm_db-0.1.2.tar.gz]
+[2024-05-02 08:24:36] INFO root fetch - main [MainThread]: End processing [kvm-db]: success
+[2024-05-02 08:24:36] INFO root fetch - processPackages [trimnami]: Downloading https://files.pythonhosted.org/packages/8c/40/ada26a1ef6bcb1dab7cf45aa5894e9eac7117e2ffab03800c2d15aeb96e2/trimnami-0.1.4.tar.gz
+[2024-05-02 08:24:37] INFO root fetch - processPackages [climetlab]: Remove: archive file [/home/abi/fetcher/tmp/climetlab-0.9.8.tar.gz]
+[2024-05-02 08:24:37] INFO root fetch - processPackages [climetlab]: Remove: archive file [/home/abi/fetcher/tmp/climetlab-0.9.9.tar.gz]
+[2024-05-02 08:24:37] INFO root fetch - main [MainThread]: End processing [climetlab]: success
+[2024-05-02 08:24:37] INFO root fetch - processPackages [trimnami]: executing diffoscope
+[2024-05-02 08:24:37] INFO root fetch - processPackages [trimnami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trimnami-0.1.3.tar.gz tmp/trimnami-0.1.4.tar.gz --markdown 20240502/t/trimnami/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-02 08:24:38] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.905.tar.gz]
+[2024-05-02 08:24:38] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.906.tar.gz]
+[2024-05-02 08:24:38] INFO root fetch - main [MainThread]: End processing [urllib3-future]: success
+[2024-05-02 08:24:38] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.1.3.tar.gz]
+[2024-05-02 08:24:38] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.1.4.tar.gz]
+[2024-05-02 08:24:38] INFO root fetch - main [MainThread]: End processing [trimnami]: success
+[2024-05-02 08:24:38] INFO root fetch - main [MainThread]: Store serial: [23026959]
