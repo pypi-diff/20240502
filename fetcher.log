@@ -8321,3 +8321,24 @@
 [2024-05-02 05:34:09] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-2.2.1.tar.gz]
 [2024-05-02 05:34:09] INFO root fetch - main [MainThread]: End processing [django_bocor_ds]: success
 [2024-05-02 05:34:09] INFO root fetch - main [MainThread]: Store serial: [23026117]
+[2024-05-02 05:36:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026117]
+[2024-05-02 05:36:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 05:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-currency-rate-update
+[2024-05-02 05:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rinch-sql
+[2024-05-02 05:36:18] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-02 05:36:18] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/a4/a1/ce5f3f961c68906d513981ffe9f387092aeb5a7b5612844e35543ec7f9f9/odoo_addon_currency_rate_update-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-02 05:36:18] INFO root fetch - processPackages [rinch-sql]: New version: [9.0.0] Old Version: [8.5.0]
+[2024-05-02 05:36:18] INFO root fetch - processPackages [rinch-sql]: Downloading https://files.pythonhosted.org/packages/99/53/757095f9305fc70076329406f242a06850f38a65333a753fb8c63135e6ca/rinch_sql-8.5.0.tar.gz
+[2024-05-02 05:36:18] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/12/f2/2a5674398ca109d0ca816ae051e1ace99bda9c7278eff1f12fb49da5dec5/odoo_addon_currency_rate_update-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-02 05:36:18] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: executing diffoscope
+[2024-05-02 05:36:18] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-currency-rate-update/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-02 05:36:19] INFO root fetch - processPackages [rinch-sql]: Downloading https://files.pythonhosted.org/packages/ed/bb/4cb9467779b692eafd5bc2ba0ebf29e0f7bf8c720e291f63c5780573c934/rinch_sql-9.0.0.tar.gz
+[2024-05-02 05:36:19] INFO root fetch - processPackages [rinch-sql]: executing diffoscope
+[2024-05-02 05:36:19] INFO root fetch - processPackages [rinch-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rinch_sql-8.5.0.tar.gz tmp/rinch_sql-9.0.0.tar.gz --markdown 20240502/r/rinch-sql/8.5.0-9.0.0/README.md --exclude *.pyd
+[2024-05-02 05:36:19] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-02 05:36:19] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-02 05:36:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update]: success
+[2024-05-02 05:36:19] INFO root fetch - processPackages [rinch-sql]: Remove: archive file [/home/abi/fetcher/tmp/rinch_sql-8.5.0.tar.gz]
+[2024-05-02 05:36:19] INFO root fetch - processPackages [rinch-sql]: Remove: archive file [/home/abi/fetcher/tmp/rinch_sql-9.0.0.tar.gz]
+[2024-05-02 05:36:19] INFO root fetch - main [MainThread]: End processing [rinch-sql]: success
+[2024-05-02 05:36:19] INFO root fetch - main [MainThread]: Store serial: [23026122]
