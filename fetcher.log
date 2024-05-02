@@ -10259,3 +10259,24 @@
 [2024-05-02 08:08:01] INFO root fetch - processPackages [ydb]: Remove: archive file [/home/abi/fetcher/tmp/ydb-3.9.1.tar.gz]
 [2024-05-02 08:08:01] INFO root fetch - main [MainThread]: End processing [ydb]: success
 [2024-05-02 08:08:01] INFO root fetch - main [MainThread]: Store serial: [23026846]
+[2024-05-02 08:10:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026846]
+[2024-05-02 08:10:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 08:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qai-server
+[2024-05-02 08:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AnimatedWordCloudTimelapse
+[2024-05-02 08:10:09] INFO root fetch - processPackages [qai-server]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-02 08:10:09] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/60/59/25a10a7cf31cbb534d6908359cd6b7e5a29ee3bff71e3bd76a61eeffd0e6/qai_server-0.5.0.tar.gz
+[2024-05-02 08:10:10] INFO root fetch - processPackages [AnimatedWordCloudTimelapse]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 08:10:10] INFO root fetch - processPackages [AnimatedWordCloudTimelapse]: Downloading https://files.pythonhosted.org/packages/28/33/78c43fa5fb64a8f34bd63b7ce6f5b3b409c5f0a10ea87cbdb5c65a885b01/AnimatedWordCloudTimelapse-1.0.8.tar.gz
+[2024-05-02 08:10:10] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/22/e6/502e16ab4b99458c01741accd352f44f1d8a71311a49330593a825abe268/qai_server-0.5.1-py3-none-any.whl
+[2024-05-02 08:10:10] INFO root fetch - processPackages [qai-server]: executing diffoscope
+[2024-05-02 08:10:10] INFO root fetch - processPackages [qai-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_server-0.5.0.tar.gz tmp/qai_server-0.5.1-py3-none-any.whl.zip --markdown 20240502/q/qai-server/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-02 08:10:10] INFO root fetch - processPackages [AnimatedWordCloudTimelapse]: Downloading https://files.pythonhosted.org/packages/6e/cc/6e3305a0d95256697cf355660716ef60c156aa7a932c1f53125dd7a91e4e/animatedwordcloudtimelapse-1.0.9.tar.gz
+[2024-05-02 08:10:10] INFO root fetch - processPackages [AnimatedWordCloudTimelapse]: executing diffoscope
+[2024-05-02 08:10:10] INFO root fetch - processPackages [AnimatedWordCloudTimelapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AnimatedWordCloudTimelapse-1.0.8.tar.gz tmp/animatedwordcloudtimelapse-1.0.9.tar.gz --markdown 20240502/A/AnimatedWordCloudTimelapse/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 08:10:10] INFO root fetch - processPackages [qai-server]: Remove: archive file [/home/abi/fetcher/tmp/qai_server-0.5.0.tar.gz]
+[2024-05-02 08:10:10] INFO root fetch - processPackages [qai-server]: Remove: archive file [/home/abi/fetcher/tmp/qai_server-0.5.1-py3-none-any.whl.zip]
+[2024-05-02 08:10:10] INFO root fetch - main [MainThread]: End processing [qai-server]: success
+[2024-05-02 08:10:11] INFO root fetch - processPackages [AnimatedWordCloudTimelapse]: Remove: archive file [/home/abi/fetcher/tmp/AnimatedWordCloudTimelapse-1.0.8.tar.gz]
+[2024-05-02 08:10:11] INFO root fetch - processPackages [AnimatedWordCloudTimelapse]: Remove: archive file [/home/abi/fetcher/tmp/animatedwordcloudtimelapse-1.0.9.tar.gz]
+[2024-05-02 08:10:11] INFO root fetch - main [MainThread]: End processing [AnimatedWordCloudTimelapse]: success
+[2024-05-02 08:10:11] INFO root fetch - main [MainThread]: Store serial: [23026852]
