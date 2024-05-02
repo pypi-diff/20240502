@@ -19193,3 +19193,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 14:16:57] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
 [2024-05-02 14:16:57] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-05-02 14:16:57] INFO root fetch - main [MainThread]: Store serial: [23030616]
+[2024-05-02 14:19:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030616]
+[2024-05-02 14:19:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ernie
+[2024-05-02 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: automizor
+[2024-05-02 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sts-lib
+[2024-05-02 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-inventory
+[2024-05-02 14:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soar-sml
+[2024-05-02 14:19:05] INFO root fetch - processPackages [sts-lib]: New version: [0.30.1] Old Version: [0.30.0]
+[2024-05-02 14:19:05] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-02 14:19:06] WARNING root fetch - processPackages [soar-sml]: Skipping, unable to determine old version
+[2024-05-02 14:19:06] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/33/86/e6091ec3e41cdc901f6f1045ddbc19770cbdc2a9e5fe37717243021a772e/sts_lib-0.30.0.tar.gz
+[2024-05-02 14:19:06] INFO root fetch - main [MainThread]: End processing [soar-sml] error
+[2024-05-02 14:19:06] INFO root fetch - processPackages [automizor]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-02 14:19:06] INFO root fetch - processPackages [ernie]: New version: [1.2405.2] Old Version: [1.2405.1]
+[2024-05-02 14:19:06] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-02 14:19:06] INFO root fetch - processPackages [automizor]: Downloading https://files.pythonhosted.org/packages/a0/40/83c6bbd72d577722c1c8bb0c269ab123c1b67070fbbe71574f9062a651e2/automizor-0.4.0.tar.gz
+[2024-05-02 14:19:06] INFO root fetch - processPackages [ernie]: Downloading https://files.pythonhosted.org/packages/0b/f8/bbd3c2c75371677989f52bf7be95e809614044e4b3d51e728abd99fb04a4/ernie-1.2405.1-py3-none-any.whl
+[2024-05-02 14:19:06] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-02 14:19:06] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/9f/8a/d6e204585cc85bd79f9c68175975004ad2590307932587bd180935f5fa8b/sts_lib-0.30.1.tar.gz
+[2024-05-02 14:19:06] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-02 14:19:06] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240502/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-02 14:19:06] INFO root fetch - processPackages [sts-lib]: executing diffoscope
+[2024-05-02 14:19:06] INFO root fetch - processPackages [sts-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts_lib-0.30.0.tar.gz tmp/sts_lib-0.30.1.tar.gz --markdown 20240502/s/sts-lib/0.30.0-0.30.1/README.md --exclude *.pyd
+[2024-05-02 14:19:06] INFO root fetch - processPackages [automizor]: Downloading https://files.pythonhosted.org/packages/2d/4b/42b4938a1ecd69d0b81c52ea33bb20cdd5ca6db2869f99d7c285c55d0e92/automizor-0.4.1.tar.gz
+[2024-05-02 14:19:06] INFO root fetch - processPackages [ernie]: Downloading https://files.pythonhosted.org/packages/19/30/3b0747e64efe83e50ff57bf1840eacc00d0004880becb9eb39230110468d/ernie-1.2405.2-py3-none-any.whl
+[2024-05-02 14:19:06] INFO root fetch - processPackages [automizor]: executing diffoscope
+[2024-05-02 14:19:06] INFO root fetch - processPackages [automizor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automizor-0.4.0.tar.gz tmp/automizor-0.4.1.tar.gz --markdown 20240502/a/automizor/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-02 14:19:06] INFO root fetch - processPackages [ernie]: executing diffoscope
+[2024-05-02 14:19:06] INFO root fetch - processPackages [ernie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ernie-1.2405.1-py3-none-any.whl.zip tmp/ernie-1.2405.2-py3-none-any.whl.zip --markdown 20240502/e/ernie/1.2405.1-1.2405.2/README.md --exclude *.pyd
+[2024-05-02 14:19:07] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.30.0.tar.gz]
+[2024-05-02 14:19:07] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.30.1.tar.gz]
+[2024-05-02 14:19:07] INFO root fetch - main [MainThread]: End processing [sts-lib]: success
+[2024-05-02 14:19:07] INFO root fetch - processPackages [ernie]: Remove: archive file [/home/abi/fetcher/tmp/ernie-1.2405.1-py3-none-any.whl.zip]
+[2024-05-02 14:19:07] INFO root fetch - processPackages [ernie]: Remove: archive file [/home/abi/fetcher/tmp/ernie-1.2405.2-py3-none-any.whl.zip]
+[2024-05-02 14:19:07] INFO root fetch - main [MainThread]: End processing [ernie]: success
+[2024-05-02 14:19:07] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-02 14:19:07] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-02 14:19:07] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-02 14:19:07] INFO root fetch - processPackages [automizor]: Remove: archive file [/home/abi/fetcher/tmp/automizor-0.4.0.tar.gz]
+[2024-05-02 14:19:07] INFO root fetch - processPackages [automizor]: Remove: archive file [/home/abi/fetcher/tmp/automizor-0.4.1.tar.gz]
+[2024-05-02 14:19:07] INFO root fetch - main [MainThread]: End processing [automizor]: success
+[2024-05-02 14:19:07] INFO root fetch - main [MainThread]: Store serial: [23030637]
