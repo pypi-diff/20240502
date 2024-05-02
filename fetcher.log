@@ -19396,3 +19396,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 14:28:00] INFO root fetch - processPackages [pychoacoustics]: Remove: archive file [/home/abi/fetcher/tmp/pychoacoustics-0.6.8.tar.gz]
 [2024-05-02 14:28:00] INFO root fetch - main [MainThread]: End processing [pychoacoustics]: success
 [2024-05-02 14:28:00] INFO root fetch - main [MainThread]: Store serial: [23030715]
+[2024-05-02 14:30:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030715]
+[2024-05-02 14:30:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 14:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hatch-odoo
+[2024-05-02 14:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cosmoglobe
+[2024-05-02 14:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-notification-sdk-preview
+[2024-05-02 14:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ts-interface
+[2024-05-02 14:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: t-bug-catcher
+[2024-05-02 14:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anemoi-utils
+[2024-05-02 14:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: matrix-commander
+[2024-05-02 14:30:10] INFO root fetch - processPackages [t-bug-catcher]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-02 14:30:10] WARNING root fetch - processPackages [ts-interface]: Skipping, unable to determine old version
+[2024-05-02 14:30:10] INFO root fetch - main [MainThread]: End processing [ts-interface] error
+[2024-05-02 14:30:10] INFO root fetch - processPackages [hatch-odoo]: New version: [1.0] Old Version: [0.1]
+[2024-05-02 14:30:10] INFO root fetch - processPackages [matrix-commander]: New version: [7.6.1] Old Version: [7.6.0]
+[2024-05-02 14:30:10] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/47/9e/7b4e8aef82a1ec88081446a927750a98b8100987b38cdda4a2b2fe7b1880/t_bug_catcher-0.4.8.tar.gz
+[2024-05-02 14:30:10] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.934] Old Version: [0.1.929]
+[2024-05-02 14:30:10] INFO root fetch - processPackages [anemoi-utils]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-02 14:30:10] INFO root fetch - processPackages [hatch-odoo]: Downloading https://files.pythonhosted.org/packages/52/24/f1aa0ab28da53bbece35793f8cc67aa22cb7e812a16ff07c00c7db3e4dcc/hatch_odoo-0.1.tar.gz
+[2024-05-02 14:30:10] INFO root fetch - processPackages [cosmoglobe]: New version: [0.9.85] Old Version: [0.9.84]
+[2024-05-02 14:30:10] INFO root fetch - processPackages [matrix-commander]: Downloading https://files.pythonhosted.org/packages/13/ce/f4c0bcdf45f0b62800a3a3eacbefee376b3324dbd1ceb39a82f12140e09c/matrix-commander-7.6.0.tar.gz
+[2024-05-02 14:30:10] INFO root fetch - processPackages [anemoi-utils]: Downloading https://files.pythonhosted.org/packages/b7/af/f3978d6d3a06aa96cc3c4f7fb2b492b184a1ffb33d40ea0cd3919a5386ac/anemoi_utils-0.1.6.tar.gz
+[2024-05-02 14:30:10] INFO root fetch - processPackages [cosmoglobe]: Downloading https://files.pythonhosted.org/packages/a0/c5/9a9f05d96f0d2e99611ce3564cec1c1c549cf771d94cc9c010b3dd4d13d1/cosmoglobe-0.9.84.tar.gz
+[2024-05-02 14:30:10] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/89/8f/f5d464d4ae7d107744f8f814193f380c40f7b77eb8e113433f2f1841ecb2/lusid-notification-sdk-preview-0.1.929.tar.gz
+[2024-05-02 14:30:10] INFO root fetch - processPackages [hatch-odoo]: Downloading https://files.pythonhosted.org/packages/75/5c/25ea5f8ce7df237a74a9680605e14eb4cb4beab5d01b5374ca91b3353801/hatch_odoo-1.0.tar.gz
+[2024-05-02 14:30:10] WARNING root fetch - processPackages [cosmoglobe]: Skipping package: exceeds size limit 18547830>=10485760
+[2024-05-02 14:30:10] INFO root fetch - main [MainThread]: End processing [cosmoglobe] error
+[2024-05-02 14:30:10] INFO root fetch - processPackages [matrix-commander]: Downloading https://files.pythonhosted.org/packages/a2/90/cd44784796e84172c52734ea01735fd3d5b346fbf5b7ff04f8fd6fd31ddb/matrix_commander-7.6.1.tar.gz
+[2024-05-02 14:30:10] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/ce/9d/3feabe19f239523964c0f0ccce3b82825b3fd5d264d919dff30f334cde28/t_bug_catcher-0.4.9.tar.gz
+[2024-05-02 14:30:10] INFO root fetch - processPackages [hatch-odoo]: executing diffoscope
+[2024-05-02 14:30:10] INFO root fetch - processPackages [hatch-odoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_odoo-0.1.tar.gz tmp/hatch_odoo-1.0.tar.gz --markdown 20240502/h/hatch-odoo/0.1-1.0/README.md --exclude *.pyd
+[2024-05-02 14:30:10] INFO root fetch - processPackages [anemoi-utils]: Downloading https://files.pythonhosted.org/packages/2c/85/4de45f8f2e7c2b113b3f7b79002b13e8ba985f30e5111aebfd4c2a667e8d/anemoi_utils-0.1.7.tar.gz
+[2024-05-02 14:30:10] INFO root fetch - processPackages [t-bug-catcher]: executing diffoscope
+[2024-05-02 14:30:10] INFO root fetch - processPackages [t-bug-catcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t_bug_catcher-0.4.8.tar.gz tmp/t_bug_catcher-0.4.9.tar.gz --markdown 20240502/t/t-bug-catcher/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-02 14:30:10] INFO root fetch - processPackages [matrix-commander]: executing diffoscope
+[2024-05-02 14:30:10] INFO root fetch - processPackages [matrix-commander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix-commander-7.6.0.tar.gz tmp/matrix_commander-7.6.1.tar.gz --markdown 20240502/m/matrix-commander/7.6.0-7.6.1/README.md --exclude *.pyd
+[2024-05-02 14:30:10] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/4e/73/15b7a75310123a199006abbc878ae757f41e52a3c8a5fac9a06de68d66bf/lusid-notification-sdk-preview-0.1.934.tar.gz
+[2024-05-02 14:30:10] INFO root fetch - processPackages [anemoi-utils]: executing diffoscope
+[2024-05-02 14:30:10] INFO root fetch - processPackages [anemoi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemoi_utils-0.1.6.tar.gz tmp/anemoi_utils-0.1.7.tar.gz --markdown 20240502/a/anemoi-utils/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-02 14:30:10] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2024-05-02 14:30:10] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.929.tar.gz tmp/lusid-notification-sdk-preview-0.1.934.tar.gz --markdown 20240502/l/lusid-notification-sdk-preview/0.1.929-0.1.934/README.md --exclude *.pyd
+[2024-05-02 14:30:11] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.8.tar.gz]
+[2024-05-02 14:30:11] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.9.tar.gz]
+[2024-05-02 14:30:11] INFO root fetch - main [MainThread]: End processing [t-bug-catcher]: success
+[2024-05-02 14:30:11] INFO root fetch - processPackages [hatch-odoo]: Remove: archive file [/home/abi/fetcher/tmp/hatch_odoo-0.1.tar.gz]
+[2024-05-02 14:30:11] INFO root fetch - processPackages [hatch-odoo]: Remove: archive file [/home/abi/fetcher/tmp/hatch_odoo-1.0.tar.gz]
+[2024-05-02 14:30:11] INFO root fetch - main [MainThread]: End processing [hatch-odoo]: success
+[2024-05-02 14:30:11] INFO root fetch - processPackages [anemoi-utils]: Remove: archive file [/home/abi/fetcher/tmp/anemoi_utils-0.1.6.tar.gz]
+[2024-05-02 14:30:11] INFO root fetch - processPackages [anemoi-utils]: Remove: archive file [/home/abi/fetcher/tmp/anemoi_utils-0.1.7.tar.gz]
+[2024-05-02 14:30:11] INFO root fetch - main [MainThread]: End processing [anemoi-utils]: success
+[2024-05-02 14:30:11] INFO root fetch - processPackages [matrix-commander]: Remove: archive file [/home/abi/fetcher/tmp/matrix-commander-7.6.0.tar.gz]
+[2024-05-02 14:30:11] INFO root fetch - processPackages [matrix-commander]: Remove: archive file [/home/abi/fetcher/tmp/matrix_commander-7.6.1.tar.gz]
+[2024-05-02 14:30:11] INFO root fetch - main [MainThread]: End processing [matrix-commander]: success
+[2024-05-02 14:30:12] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.929.tar.gz]
+[2024-05-02 14:30:12] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.934.tar.gz]
+[2024-05-02 14:30:12] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2024-05-02 14:30:12] INFO root fetch - main [MainThread]: Store serial: [23030739]
