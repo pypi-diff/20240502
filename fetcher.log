@@ -11443,3 +11443,29 @@
 [2024-05-02 09:17:30] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.2.tar.gz]
 [2024-05-02 09:17:30] INFO root fetch - main [MainThread]: End processing [xursparks]: success
 [2024-05-02 09:17:30] INFO root fetch - main [MainThread]: Store serial: [23027344]
+[2024-05-02 09:19:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027344]
+[2024-05-02 09:19:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 09:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fmu-dataio
+[2024-05-02 09:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pseudovisium
+[2024-05-02 09:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CurrencyConverter
+[2024-05-02 09:19:39] INFO root fetch - processPackages [Pseudovisium]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 09:19:39] INFO root fetch - processPackages [fmu-dataio]: New version: [2.2.0b2] Old Version: [2.2.0b1]
+[2024-05-02 09:19:39] INFO root fetch - processPackages [CurrencyConverter]: New version: [0.8.1] Old Version: [0.8]
+[2024-05-02 09:19:39] INFO root fetch - processPackages [fmu-dataio]: Downloading https://files.pythonhosted.org/packages/99/0d/b8af20ac86cdfaaf264dbb2a81fe0fcc08f16e799df66df60dc54327a21a/fmu_dataio-2.2.0b1.tar.gz
+[2024-05-02 09:19:39] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/ec/02/4f0ff6ebfecb2857195a25c3ca342a7a1af99e21acd71f8a0f89061491f0/Pseudovisium-0.0.8.tar.gz
+[2024-05-02 09:19:39] INFO root fetch - processPackages [CurrencyConverter]: Downloading https://files.pythonhosted.org/packages/5e/35/27a75584061a306b667745d40c3fd563c48adeff2a40d861a8681d789037/CurrencyConverter-0.8.tar.gz
+[2024-05-02 09:19:40] WARNING root fetch - processPackages [fmu-dataio]: Skipping package: exceeds size limit 14378456>=10485760
+[2024-05-02 09:19:40] INFO root fetch - main [MainThread]: End processing [fmu-dataio] error
+[2024-05-02 09:19:40] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/6a/7f/032756880a4d5dbead5465d90e6d9ef1046690f858021036f62dfcda246a/Pseudovisium-0.0.9.tar.gz
+[2024-05-02 09:19:40] INFO root fetch - processPackages [Pseudovisium]: executing diffoscope
+[2024-05-02 09:19:40] INFO root fetch - processPackages [Pseudovisium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pseudovisium-0.0.8.tar.gz tmp/Pseudovisium-0.0.9.tar.gz --markdown 20240502/P/Pseudovisium/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 09:19:40] INFO root fetch - processPackages [CurrencyConverter]: Downloading https://files.pythonhosted.org/packages/36/b4/05f3a72c2d767d2c59859c5a8b23d26fed36b34113c28cf49e4857093a79/CurrencyConverter-0.8.1.tar.gz
+[2024-05-02 09:19:40] INFO root fetch - processPackages [CurrencyConverter]: executing diffoscope
+[2024-05-02 09:19:40] INFO root fetch - processPackages [CurrencyConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CurrencyConverter-0.8.tar.gz tmp/CurrencyConverter-0.8.1.tar.gz --markdown 20240502/C/CurrencyConverter/0.8-0.8.1/README.md --exclude *.pyd
+[2024-05-02 09:19:40] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.8.tar.gz]
+[2024-05-02 09:19:40] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.9.tar.gz]
+[2024-05-02 09:19:40] INFO root fetch - main [MainThread]: End processing [Pseudovisium]: success
+[2024-05-02 09:19:41] INFO root fetch - processPackages [CurrencyConverter]: Remove: archive file [/home/abi/fetcher/tmp/CurrencyConverter-0.8.tar.gz]
+[2024-05-02 09:19:41] INFO root fetch - processPackages [CurrencyConverter]: Remove: archive file [/home/abi/fetcher/tmp/CurrencyConverter-0.8.1.tar.gz]
+[2024-05-02 09:19:41] INFO root fetch - main [MainThread]: End processing [CurrencyConverter]: success
+[2024-05-02 09:19:41] INFO root fetch - main [MainThread]: Store serial: [23027355]
