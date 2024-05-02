@@ -15067,3 +15067,33 @@
 [2024-05-02 11:31:22] INFO root fetch - processPackages [zato-apitest]: Remove: archive file [/home/abi/fetcher/tmp/zato_apitest-24.1.34.tar.gz]
 [2024-05-02 11:31:22] INFO root fetch - main [MainThread]: End processing [zato-apitest]: success
 [2024-05-02 11:31:22] INFO root fetch - main [MainThread]: Store serial: [23028839]
+[2024-05-02 11:33:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028839]
+[2024-05-02 11:33:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 11:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq
+[2024-05-02 11:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graph-attention-student
+[2024-05-02 11:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: attribox
+[2024-05-02 11:33:31] INFO root fetch - processPackages [attribox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 11:33:32] INFO root fetch - processPackages [graph-attention-student]: New version: [0.9.0] Old Version: [0.7.2]
+[2024-05-02 11:33:32] INFO root fetch - processPackages [pyqqq]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-02 11:33:32] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b0/1b/afc61ed4af69d170a0c4bd0272fdd2e586a48c0c1828c0cf9fb03718795b/attribox-0.1.8.tar.gz
+[2024-05-02 11:33:32] INFO root fetch - processPackages [graph-attention-student]: Downloading https://files.pythonhosted.org/packages/82/08/65e22c56ee2fb243d98aa8bb8717340eae962b1a44b165cfe7fb7d1f1287/graph_attention_student-0.7.2.tar.gz
+[2024-05-02 11:33:32] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/d1/83/cece11e7637608e9c3007404bac5bf23fc42f44ae89d81badd1fd48aa99e/pyqqq-0.8.9.tar.gz
+[2024-05-02 11:33:32] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b1/e6/a20bbaa9e0f051b656d86826235dcdfa648da889d34b564acef9329d3455/attribox-0.1.9.tar.gz
+[2024-05-02 11:33:32] INFO root fetch - processPackages [attribox]: executing diffoscope
+[2024-05-02 11:33:32] INFO root fetch - processPackages [attribox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attribox-0.1.8.tar.gz tmp/attribox-0.1.9.tar.gz --markdown 20240502/a/attribox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 11:33:32] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/53/b9/323b7c1a39c021b4e8c1a4f8f682d4f1a89498bfc149772f8ace20886502/pyqqq-0.9.0.tar.gz
+[2024-05-02 11:33:32] INFO root fetch - processPackages [graph-attention-student]: Downloading https://files.pythonhosted.org/packages/f6/af/03d655f11e0bb93ad8111eafae9bc42e3da6529c716a97511dd8ff1fd673/graph_attention_student-0.9.0.tar.gz
+[2024-05-02 11:33:33] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-05-02 11:33:33] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.8.9.tar.gz tmp/pyqqq-0.9.0.tar.gz --markdown 20240502/p/pyqqq/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-02 11:33:33] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.8.tar.gz]
+[2024-05-02 11:33:33] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.9.tar.gz]
+[2024-05-02 11:33:33] INFO root fetch - main [MainThread]: End processing [attribox]: success
+[2024-05-02 11:33:33] INFO root fetch - processPackages [graph-attention-student]: executing diffoscope
+[2024-05-02 11:33:33] INFO root fetch - processPackages [graph-attention-student]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_attention_student-0.7.2.tar.gz tmp/graph_attention_student-0.9.0.tar.gz --markdown 20240502/g/graph-attention-student/0.7.2-0.9.0/README.md --exclude *.pyd
+[2024-05-02 11:33:33] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.8.9.tar.gz]
+[2024-05-02 11:33:33] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.0.tar.gz]
+[2024-05-02 11:33:33] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-05-02 11:33:34] INFO root fetch - processPackages [graph-attention-student]: Remove: archive file [/home/abi/fetcher/tmp/graph_attention_student-0.7.2.tar.gz]
+[2024-05-02 11:33:34] INFO root fetch - processPackages [graph-attention-student]: Remove: archive file [/home/abi/fetcher/tmp/graph_attention_student-0.9.0.tar.gz]
+[2024-05-02 11:33:34] INFO root fetch - main [MainThread]: End processing [graph-attention-student]: success
+[2024-05-02 11:33:34] INFO root fetch - main [MainThread]: Store serial: [23028850]
