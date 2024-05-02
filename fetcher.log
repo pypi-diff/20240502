@@ -22169,3 +22169,59 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:37:58] INFO root fetch - processPackages [marxs]: Remove: archive file [/home/abi/fetcher/tmp/marxs-2.0.tar.gz]
 [2024-05-02 15:37:58] INFO root fetch - main [MainThread]: End processing [marxs]: success
 [2024-05-02 15:37:58] INFO root fetch - main [MainThread]: Store serial: [23031669]
+[2024-05-02 15:40:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031669]
+[2024-05-02 15:40:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 15:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-zendesk-support
+[2024-05-02 15:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digitalhub-data
+[2024-05-02 15:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalhub-ml
+[2024-05-02 15:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dve-lumipy-testing
+[2024-05-02 15:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wodoo
+[2024-05-02 15:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlvana
+[2024-05-02 15:40:08] INFO root fetch - processPackages [sqlvana]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 15:40:08] INFO root fetch - processPackages [wodoo]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-02 15:40:08] INFO root fetch - processPackages [sqlvana]: Downloading https://files.pythonhosted.org/packages/54/80/dd7ac680829e33e09ba8f38dea88c36a093d33fb4efe6af2ab33fad0ef4b/sqlvana-0.1.1.tar.gz
+[2024-05-02 15:40:08] INFO root fetch - processPackages [digitalhub-data]: New version: [0.4.0b3] Old Version: [0.4.0b2]
+[2024-05-02 15:40:08] INFO root fetch - processPackages [airbyte-source-zendesk-support]: New version: [2.6.2] Old Version: [2.6.1]
+[2024-05-02 15:40:08] INFO root fetch - processPackages [digitalhub-ml]: New version: [0.4.0b3] Old Version: [0.4.0b2]
+[2024-05-02 15:40:08] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 15:40:08] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/53/68/7b6f7e95cfdfbd466ca0193157764107728485da639a0b0d073256be29a3/wodoo-0.5.8.tar.gz
+[2024-05-02 15:40:08] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/a4/b6/d2b20ab3c150b182637df29743656d27a234a2bb954171fd185929384e80/digitalhub_data-0.4.0b2.tar.gz
+[2024-05-02 15:40:08] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/11/5f/ca213e3b240b50d7df89e5f20af652407b8a230f774a93f5f96623045754/digitalhub_ml-0.4.0b2.tar.gz
+[2024-05-02 15:40:08] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-02 15:40:08] INFO root fetch - processPackages [airbyte-source-zendesk-support]: Downloading https://files.pythonhosted.org/packages/d2/48/fb7171ad6666d50b009c863a2ba022be072f67b3b812ad8d077899c5bb37/airbyte_source_zendesk_support-2.6.1.tar.gz
+[2024-05-02 15:40:08] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/b7/a1/0b22b9a96e05c35661083fcac67ec4c2f1d13c9c0ac55214e82b196d393b/wodoo-0.5.9.tar.gz
+[2024-05-02 15:40:08] INFO root fetch - processPackages [sqlvana]: Downloading https://files.pythonhosted.org/packages/c6/fc/bcc5853f4aabfd3d30714f536f7d5fe4870f313c3a545aaa5a1822ff4b26/sqlvana-0.1.2.tar.gz
+[2024-05-02 15:40:08] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2024-05-02 15:40:08] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.5.8.tar.gz tmp/wodoo-0.5.9.tar.gz --markdown 20240502/w/wodoo/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-02 15:40:08] INFO root fetch - processPackages [sqlvana]: executing diffoscope
+[2024-05-02 15:40:08] INFO root fetch - processPackages [sqlvana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlvana-0.1.1.tar.gz tmp/sqlvana-0.1.2.tar.gz --markdown 20240502/s/sqlvana/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 15:40:09] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/13/03/6915a3c633470c22dba4a7685251875db11ed69e963c9af3904f4c5eca93/digitalhub_data-0.4.0b3.tar.gz
+[2024-05-02 15:40:09] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/e6/d9/9a3e08b0683390fc7c1aa6d2d6b2ac69817d3ae493df9a43d1f2ca47eb0e/digitalhub_ml-0.4.0b3.tar.gz
+[2024-05-02 15:40:09] INFO root fetch - processPackages [airbyte-source-zendesk-support]: Downloading https://files.pythonhosted.org/packages/8a/24/1214c913d877a0facf8ba23488221fa19816afa980b1667333ef28340d64/airbyte_source_zendesk_support-2.6.2.tar.gz
+[2024-05-02 15:40:09] INFO root fetch - processPackages [digitalhub-data]: executing diffoscope
+[2024-05-02 15:40:09] INFO root fetch - processPackages [digitalhub-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_data-0.4.0b2.tar.gz tmp/digitalhub_data-0.4.0b3.tar.gz --markdown 20240502/d/digitalhub-data/0.4.0b2-0.4.0b3/README.md --exclude *.pyd
+[2024-05-02 15:40:09] INFO root fetch - processPackages [digitalhub-ml]: executing diffoscope
+[2024-05-02 15:40:09] INFO root fetch - processPackages [digitalhub-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_ml-0.4.0b2.tar.gz tmp/digitalhub_ml-0.4.0b3.tar.gz --markdown 20240502/d/digitalhub-ml/0.4.0b2-0.4.0b3/README.md --exclude *.pyd
+[2024-05-02 15:40:09] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-02 15:40:09] INFO root fetch - processPackages [airbyte-source-zendesk-support]: executing diffoscope
+[2024-05-02 15:40:09] INFO root fetch - processPackages [airbyte-source-zendesk-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_zendesk_support-2.6.1.tar.gz tmp/airbyte_source_zendesk_support-2.6.2.tar.gz --markdown 20240502/a/airbyte-source-zendesk-support/2.6.1-2.6.2/README.md --exclude *.pyd
+[2024-05-02 15:40:09] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-02 15:40:09] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240502/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 15:40:09] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.5.8.tar.gz]
+[2024-05-02 15:40:09] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.5.9.tar.gz]
+[2024-05-02 15:40:09] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2024-05-02 15:40:09] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.4.0b2.tar.gz]
+[2024-05-02 15:40:09] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.4.0b3.tar.gz]
+[2024-05-02 15:40:09] INFO root fetch - main [MainThread]: End processing [digitalhub-ml]: success
+[2024-05-02 15:40:10] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.4.0b2.tar.gz]
+[2024-05-02 15:40:10] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.4.0b3.tar.gz]
+[2024-05-02 15:40:10] INFO root fetch - main [MainThread]: End processing [digitalhub-data]: success
+[2024-05-02 15:40:10] INFO root fetch - processPackages [airbyte-source-zendesk-support]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_zendesk_support-2.6.1.tar.gz]
+[2024-05-02 15:40:10] INFO root fetch - processPackages [airbyte-source-zendesk-support]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_zendesk_support-2.6.2.tar.gz]
+[2024-05-02 15:40:10] INFO root fetch - main [MainThread]: End processing [airbyte-source-zendesk-support]: success
+[2024-05-02 15:40:10] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-02 15:40:10] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-02 15:40:10] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-02 15:43:09] ERROR root fetch - processPackages [sqlvana]: Timeout during execution of pkgdiff
+[2024-05-02 15:43:09] INFO root fetch - main [MainThread]: End processing [sqlvana] error
+[2024-05-02 15:43:09] INFO root fetch - main [MainThread]: Store serial: [23031686]
