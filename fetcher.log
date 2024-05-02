@@ -16983,3 +16983,41 @@
 [2024-05-02 12:42:09] INFO root fetch - main [MainThread]: End processing [easyland]: success
 [2024-05-02 12:42:09] INFO root fetch - main [MainThread]: End processing [easyland]: success
 [2024-05-02 12:42:09] INFO root fetch - main [MainThread]: Store serial: [23029646]
+[2024-05-02 12:44:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029646]
+[2024-05-02 12:44:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 12:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-mailgun
+[2024-05-02 12:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: image-tools-stackabletech
+[2024-05-02 12:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-toml-settings
+[2024-05-02 12:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: warpzone-sdk
+[2024-05-02 12:44:19] INFO root fetch - processPackages [airbyte-source-mailgun]: New version: [0.2.5] Old Version: [0.2.1]
+[2024-05-02 12:44:19] INFO root fetch - processPackages [simple-toml-settings]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-02 12:44:19] INFO root fetch - processPackages [image-tools-stackabletech]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-02 12:44:19] INFO root fetch - processPackages [warpzone-sdk]: New version: [9.1.9] Old Version: [9.1.8]
+[2024-05-02 12:44:19] INFO root fetch - processPackages [airbyte-source-mailgun]: Downloading https://files.pythonhosted.org/packages/fd/fa/574758e8605295935b97d0d8d868a0bd250429bb58bd6a02d02a4bf95ed9/airbyte_source_mailgun-0.2.5.tar.gz
+[2024-05-02 12:44:19] INFO root fetch - processPackages [simple-toml-settings]: Downloading https://files.pythonhosted.org/packages/bc/81/5b0bf6b5472edfd7b125770150c73a868c8a3db17a4b5b3918931af53721/simple_toml_settings-0.6.0.tar.gz
+[2024-05-02 12:44:19] INFO root fetch - processPackages [image-tools-stackabletech]: Downloading https://files.pythonhosted.org/packages/af/8f/6b15930b73c956bd3511ace7ce80550ed1f42755bb721c415d801e4ca4b1/image_tools_stackabletech-0.0.6.tar.gz
+[2024-05-02 12:44:19] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/30/c5/2385104102242b4b2796d6fcd2d927d857e92c09234689b6b3f81754a9b8/warpzone_sdk-9.1.8.tar.gz
+[2024-05-02 12:44:19] INFO root fetch - processPackages [airbyte-source-mailgun]: executing diffoscope
+[2024-05-02 12:44:19] INFO root fetch - processPackages [airbyte-source-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-mailgun-0.2.1.tar.gz tmp/airbyte_source_mailgun-0.2.5.tar.gz --markdown 20240502/a/airbyte-source-mailgun/0.2.1-0.2.5/README.md --exclude *.pyd
+[2024-05-02 12:44:19] INFO root fetch - processPackages [image-tools-stackabletech]: Downloading https://files.pythonhosted.org/packages/98/4c/d0df08dd53eca85cc0539b74c22b9be8bf1a2d669460a411506fbacb2e43/image_tools_stackabletech-0.0.7.tar.gz
+[2024-05-02 12:44:19] INFO root fetch - processPackages [simple-toml-settings]: Downloading https://files.pythonhosted.org/packages/5c/b2/a1dbd3670893603f900bf5d901a14cf30b0da5a3980d3b9497acbd0c6cd2/simple_toml_settings-0.6.1.tar.gz
+[2024-05-02 12:44:19] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/41/7d/cb14d7ee4be30f331412fbf42f28b30dca3df8ad102961c612ff2a1dd661/warpzone_sdk-9.1.9.tar.gz
+[2024-05-02 12:44:19] INFO root fetch - processPackages [simple-toml-settings]: executing diffoscope
+[2024-05-02 12:44:19] INFO root fetch - processPackages [simple-toml-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_toml_settings-0.6.0.tar.gz tmp/simple_toml_settings-0.6.1.tar.gz --markdown 20240502/s/simple-toml-settings/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-02 12:44:19] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2024-05-02 12:44:19] INFO root fetch - processPackages [image-tools-stackabletech]: executing diffoscope
+[2024-05-02 12:44:19] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-9.1.8.tar.gz tmp/warpzone_sdk-9.1.9.tar.gz --markdown 20240502/w/warpzone-sdk/9.1.8-9.1.9/README.md --exclude *.pyd
+[2024-05-02 12:44:19] INFO root fetch - processPackages [image-tools-stackabletech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_tools_stackabletech-0.0.6.tar.gz tmp/image_tools_stackabletech-0.0.7.tar.gz --markdown 20240502/i/image-tools-stackabletech/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-02 12:44:19] INFO root fetch - processPackages [airbyte-source-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-mailgun-0.2.1.tar.gz]
+[2024-05-02 12:44:19] INFO root fetch - processPackages [airbyte-source-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_mailgun-0.2.5.tar.gz]
+[2024-05-02 12:44:19] INFO root fetch - main [MainThread]: End processing [airbyte-source-mailgun]: success
+[2024-05-02 12:44:20] INFO root fetch - processPackages [simple-toml-settings]: Remove: archive file [/home/abi/fetcher/tmp/simple_toml_settings-0.6.0.tar.gz]
+[2024-05-02 12:44:20] INFO root fetch - processPackages [simple-toml-settings]: Remove: archive file [/home/abi/fetcher/tmp/simple_toml_settings-0.6.1.tar.gz]
+[2024-05-02 12:44:20] INFO root fetch - main [MainThread]: End processing [simple-toml-settings]: success
+[2024-05-02 12:44:20] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.8.tar.gz]
+[2024-05-02 12:44:20] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.9.tar.gz]
+[2024-05-02 12:44:20] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2024-05-02 12:44:20] INFO root fetch - processPackages [image-tools-stackabletech]: Remove: archive file [/home/abi/fetcher/tmp/image_tools_stackabletech-0.0.6.tar.gz]
+[2024-05-02 12:44:20] INFO root fetch - processPackages [image-tools-stackabletech]: Remove: archive file [/home/abi/fetcher/tmp/image_tools_stackabletech-0.0.7.tar.gz]
+[2024-05-02 12:44:20] INFO root fetch - main [MainThread]: End processing [image-tools-stackabletech]: success
+[2024-05-02 12:44:20] INFO root fetch - main [MainThread]: Store serial: [23029659]
