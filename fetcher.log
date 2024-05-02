@@ -2462,3 +2462,42 @@
 [2024-05-02 02:28:56] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
 [2024-05-02 02:28:56] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
 [2024-05-02 02:28:56] INFO root fetch - main [MainThread]: Store serial: [23023917]
+[2024-05-02 02:31:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023917]
+[2024-05-02 02:31:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 02:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbook-maker
+[2024-05-02 02:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psyke
+[2024-05-02 02:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aeppl-nightly
+[2024-05-02 02:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coba
+[2024-05-02 02:31:04] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240501] Old Version: [0.1.5.dev20240430]
+[2024-05-02 02:31:04] INFO root fetch - processPackages [bbook-maker]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-02 02:31:04] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/1c/ab/0af7f5c8e6558e3f79798bd9e2ad90dfb333cc83df56c88248af2670555f/aeppl_nightly-0.1.5.dev20240430.tar.gz
+[2024-05-02 02:31:04] INFO root fetch - processPackages [coba]: New version: [8.0.5] Old Version: [8.0.4]
+[2024-05-02 02:31:04] INFO root fetch - processPackages [psyke]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-05-02 02:31:05] INFO root fetch - processPackages [bbook-maker]: Downloading https://files.pythonhosted.org/packages/93/ff/83857bcf0470b45d2c7fc6e99dadc6f72cffbbf415f34bf86fa0a5469b8c/bbook_maker-0.8.0.tar.gz
+[2024-05-02 02:31:05] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/8e/bb/0d88cb85d21059358e595b1b1709916e40b98882fb75fa8c187f9e12d7f7/aeppl_nightly-0.1.5.dev20240501.tar.gz
+[2024-05-02 02:31:05] INFO root fetch - processPackages [coba]: Downloading https://files.pythonhosted.org/packages/6e/02/492cc0b424b2ab6dcb63e5677e03b27ace5554534778a1c8075ad2396d43/coba-8.0.4.tar.gz
+[2024-05-02 02:31:05] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/d2/4c/5e61cbe8610c784f3f446dcb991e4ca9361b221b46aa6f5c8e4ebcf0b3bf/psyke-0.8.4.tar.gz
+[2024-05-02 02:31:05] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-02 02:31:05] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240430.tar.gz tmp/aeppl_nightly-0.1.5.dev20240501.tar.gz --markdown 20240502/a/aeppl-nightly/0.1.5.dev20240430-0.1.5.dev20240501/README.md --exclude *.pyd
+[2024-05-02 02:31:05] INFO root fetch - processPackages [bbook-maker]: Downloading https://files.pythonhosted.org/packages/cc/55/3ecfc9aefe4d30e95dcc7f7542585f6a18d97395da10e3480dcd590d2868/bbook_maker-0.8.1.tar.gz
+[2024-05-02 02:31:05] INFO root fetch - processPackages [bbook-maker]: executing diffoscope
+[2024-05-02 02:31:05] INFO root fetch - processPackages [bbook-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbook_maker-0.8.0.tar.gz tmp/bbook_maker-0.8.1.tar.gz --markdown 20240502/b/bbook-maker/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-02 02:31:05] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/a6/a7/d42f9c36e5945eb1d6c2e668d7c4075ece2c79c1a67c946bb3926d69b2c7/psyke-0.8.5.tar.gz
+[2024-05-02 02:31:05] INFO root fetch - processPackages [coba]: Downloading https://files.pythonhosted.org/packages/35/2b/e69c78d737aed7efac51fd295b583eeecef4db21432ab8000006380c09dd/coba-8.0.5.tar.gz
+[2024-05-02 02:31:05] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2024-05-02 02:31:05] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.8.4.tar.gz tmp/psyke-0.8.5.tar.gz --markdown 20240502/p/psyke/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-05-02 02:31:05] INFO root fetch - processPackages [coba]: executing diffoscope
+[2024-05-02 02:31:05] INFO root fetch - processPackages [coba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coba-8.0.4.tar.gz tmp/coba-8.0.5.tar.gz --markdown 20240502/c/coba/8.0.4-8.0.5/README.md --exclude *.pyd
+[2024-05-02 02:31:05] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240430.tar.gz]
+[2024-05-02 02:31:05] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240501.tar.gz]
+[2024-05-02 02:31:05] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-02 02:31:06] INFO root fetch - processPackages [bbook-maker]: Remove: archive file [/home/abi/fetcher/tmp/bbook_maker-0.8.0.tar.gz]
+[2024-05-02 02:31:06] INFO root fetch - processPackages [bbook-maker]: Remove: archive file [/home/abi/fetcher/tmp/bbook_maker-0.8.1.tar.gz]
+[2024-05-02 02:31:06] INFO root fetch - main [MainThread]: End processing [bbook-maker]: success
+[2024-05-02 02:31:06] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.4.tar.gz]
+[2024-05-02 02:31:06] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.5.tar.gz]
+[2024-05-02 02:31:06] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2024-05-02 02:31:06] INFO root fetch - processPackages [coba]: Remove: archive file [/home/abi/fetcher/tmp/coba-8.0.4.tar.gz]
+[2024-05-02 02:31:06] INFO root fetch - processPackages [coba]: Remove: archive file [/home/abi/fetcher/tmp/coba-8.0.5.tar.gz]
+[2024-05-02 02:31:06] INFO root fetch - main [MainThread]: End processing [coba]: success
+[2024-05-02 02:31:06] INFO root fetch - main [MainThread]: Store serial: [23023935]
