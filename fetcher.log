@@ -2776,3 +2776,42 @@
 [2024-05-02 02:50:35] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-02 02:50:35] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
 [2024-05-02 02:50:35] INFO root fetch - main [MainThread]: Store serial: [23024049]
+[2024-05-02 02:52:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23024049]
+[2024-05-02 02:52:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 02:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xlextract
+[2024-05-02 02:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osu.py
+[2024-05-02 02:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DynamicRoutingTask
+[2024-05-02 02:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poetry-aws-plugin
+[2024-05-02 02:52:45] INFO root fetch - processPackages [xlextract]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-02 02:52:45] INFO root fetch - processPackages [xlextract]: Downloading https://files.pythonhosted.org/packages/80/68/855ca56c2edc8a0bfae24389413629d539fd719b5f112bfcb0415e031b91/xlextract-0.1.3.tar.gz
+[2024-05-02 02:52:45] INFO root fetch - processPackages [poetry-aws-plugin]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 02:52:45] INFO root fetch - processPackages [osu.py]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-02 02:52:45] INFO root fetch - processPackages [DynamicRoutingTask]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-02 02:52:46] INFO root fetch - processPackages [osu.py]: Downloading https://files.pythonhosted.org/packages/82/13/93020695fc2cbe8220cd8bb1d1d297e5bbf9f222c0806550d5725c7a7cc6/osu_py-2.0.1.tar.gz
+[2024-05-02 02:52:46] INFO root fetch - processPackages [poetry-aws-plugin]: Downloading https://files.pythonhosted.org/packages/83/57/18c2bc9e9f5e0b08c29571de408a649776a37f404bd88bfe7ce61e6b539a/poetry_aws_plugin-0.1.8.tar.gz
+[2024-05-02 02:52:46] INFO root fetch - processPackages [DynamicRoutingTask]: Downloading https://files.pythonhosted.org/packages/d5/f6/71e77a694d644630e0a29c35bef674ba3cbb88e6a4ed475ca4ae174d6988/dynamicroutingtask-0.1.98.tar.gz
+[2024-05-02 02:52:46] INFO root fetch - processPackages [xlextract]: Downloading https://files.pythonhosted.org/packages/5b/c8/e2295188d8fa797673e149196769f11c57ec441658ad1e1522f5626600bd/xlextract-0.1.4.tar.gz
+[2024-05-02 02:52:46] INFO root fetch - processPackages [xlextract]: executing diffoscope
+[2024-05-02 02:52:46] INFO root fetch - processPackages [xlextract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlextract-0.1.3.tar.gz tmp/xlextract-0.1.4.tar.gz --markdown 20240502/x/xlextract/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-02 02:52:46] INFO root fetch - processPackages [osu.py]: Downloading https://files.pythonhosted.org/packages/3b/84/dc14c020c67d3976b64f66c786254c65cb1b24d848789d0b1c303aa3fefc/osu_py-2.0.2.tar.gz
+[2024-05-02 02:52:46] INFO root fetch - processPackages [poetry-aws-plugin]: Downloading https://files.pythonhosted.org/packages/95/fb/e4d9f05efe8f4dd58bdaa77a3ca17ff18b76bfcf34d646dcc2f51363344d/poetry_aws_plugin-0.1.9.tar.gz
+[2024-05-02 02:52:46] INFO root fetch - processPackages [DynamicRoutingTask]: Downloading https://files.pythonhosted.org/packages/41/cd/af17adf23abd1aaa5446c3635b69255049ec1317e69e2916acdc5a77e99e/dynamicroutingtask-0.1.99.tar.gz
+[2024-05-02 02:52:46] INFO root fetch - processPackages [osu.py]: executing diffoscope
+[2024-05-02 02:52:46] INFO root fetch - processPackages [osu.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osu_py-2.0.1.tar.gz tmp/osu_py-2.0.2.tar.gz --markdown 20240502/o/osu.py/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-02 02:52:46] INFO root fetch - processPackages [DynamicRoutingTask]: executing diffoscope
+[2024-05-02 02:52:46] INFO root fetch - processPackages [DynamicRoutingTask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicroutingtask-0.1.98.tar.gz tmp/dynamicroutingtask-0.1.99.tar.gz --markdown 20240502/D/DynamicRoutingTask/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-02 02:52:46] INFO root fetch - processPackages [poetry-aws-plugin]: executing diffoscope
+[2024-05-02 02:52:46] INFO root fetch - processPackages [poetry-aws-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_aws_plugin-0.1.8.tar.gz tmp/poetry_aws_plugin-0.1.9.tar.gz --markdown 20240502/p/poetry-aws-plugin/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 02:52:47] INFO root fetch - processPackages [osu.py]: Remove: archive file [/home/abi/fetcher/tmp/osu_py-2.0.1.tar.gz]
+[2024-05-02 02:52:47] INFO root fetch - processPackages [osu.py]: Remove: archive file [/home/abi/fetcher/tmp/osu_py-2.0.2.tar.gz]
+[2024-05-02 02:52:47] INFO root fetch - main [MainThread]: End processing [osu.py]: success
+[2024-05-02 02:52:47] INFO root fetch - processPackages [poetry-aws-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_aws_plugin-0.1.8.tar.gz]
+[2024-05-02 02:52:47] INFO root fetch - processPackages [poetry-aws-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_aws_plugin-0.1.9.tar.gz]
+[2024-05-02 02:52:47] INFO root fetch - main [MainThread]: End processing [poetry-aws-plugin]: success
+[2024-05-02 02:52:47] INFO root fetch - processPackages [DynamicRoutingTask]: Remove: archive file [/home/abi/fetcher/tmp/dynamicroutingtask-0.1.98.tar.gz]
+[2024-05-02 02:52:47] INFO root fetch - processPackages [DynamicRoutingTask]: Remove: archive file [/home/abi/fetcher/tmp/dynamicroutingtask-0.1.99.tar.gz]
+[2024-05-02 02:52:47] INFO root fetch - main [MainThread]: End processing [DynamicRoutingTask]: success
+[2024-05-02 02:52:47] INFO root fetch - processPackages [xlextract]: Remove: archive file [/home/abi/fetcher/tmp/xlextract-0.1.3.tar.gz]
+[2024-05-02 02:52:47] INFO root fetch - processPackages [xlextract]: Remove: archive file [/home/abi/fetcher/tmp/xlextract-0.1.4.tar.gz]
+[2024-05-02 02:52:47] INFO root fetch - main [MainThread]: End processing [xlextract]: success
+[2024-05-02 02:52:47] INFO root fetch - main [MainThread]: Store serial: [23024062]
