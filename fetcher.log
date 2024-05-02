@@ -14471,3 +14471,93 @@
 [2024-05-02 11:08:10] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-05-02 11:08:10] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-05-02 11:08:10] INFO root fetch - main [MainThread]: Store serial: [23028527]
+[2024-05-02 11:10:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028527]
+[2024-05-02 11:10:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-02 11:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systemathics.apis
+[2024-05-02 11:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: itwingstestsprojects
+[2024-05-02 11:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remotemanager
+[2024-05-02 11:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airflowx
+[2024-05-02 11:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: policyengine-us
+[2024-05-02 11:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fractalistic
+[2024-05-02 11:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-platform-helper
+[2024-05-02 11:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2024-05-02 11:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: osw-confidence-metric
+[2024-05-02 11:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-ssm-juggle
+[2024-05-02 11:10:19] INFO root fetch - processPackages [systemathics.apis]: New version: [2.39.1] Old Version: [2.39.0]
+[2024-05-02 11:10:19] WARNING root fetch - processPackages [airflowx]: Skipping, unable to determine old version
+[2024-05-02 11:10:19] INFO root fetch - processPackages [airflowx]: Start processing: templated-setup
+[2024-05-02 11:10:19] INFO root fetch - main [MainThread]: End processing [airflowx] error
+[2024-05-02 11:10:19] INFO root fetch - processPackages [systemathics.apis]: Downloading https://files.pythonhosted.org/packages/47/05/940f3e24e0c2480a2aed1389c4b26ee40e722841188e07bcdccd55fdf3c9/systemathics_apis-2.39.0.tar.gz
+[2024-05-02 11:10:19] INFO root fetch - processPackages [fractalistic]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-02 11:10:19] INFO root fetch - processPackages [osw-confidence-metric]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-02 11:10:19] INFO root fetch - processPackages [dbt-platform-helper]: New version: [8.1.0] Old Version: [8.0.0]
+[2024-05-02 11:10:19] WARNING root fetch - processPackages [itwingstestsprojects]: Skipping, unable to determine old version
+[2024-05-02 11:10:19] INFO root fetch - main [MainThread]: End processing [itwingstestsprojects] error
+[2024-05-02 11:10:19] INFO root fetch - processPackages [aws-ssm-juggle]: New version: [24.5.0] Old Version: [24.4.5]
+[2024-05-02 11:10:19] INFO root fetch - processPackages [policyengine-us]: New version: [0.756.0] Old Version: [0.755.0]
+[2024-05-02 11:10:19] INFO root fetch - processPackages [remotemanager]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 11:10:19] INFO root fetch - processPackages [templated-setup]: New version: [0.955] Old Version: [0.954]
+[2024-05-02 11:10:19] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-02 11:10:19] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/e8/0c/55d677bb75ba01165dd27531a6a764e617ff1b22b9511bbd4f346b9b2b44/templated_setup-0.954.tar.gz
+[2024-05-02 11:10:19] INFO root fetch - processPackages [fractalistic]: Downloading https://files.pythonhosted.org/packages/f2/9b/4c219be008d38055f26f594619cc0f7d52e3348549110fe9e56198765cfd/fractalistic-2.0.0.tar.gz
+[2024-05-02 11:10:19] INFO root fetch - processPackages [osw-confidence-metric]: Downloading https://files.pythonhosted.org/packages/af/91/6143021b3b563b8a1a7dc18109ce43dfe6f8d1a76aba8dce5dd3f3943bcd/osw_confidence_metric-0.0.4-py3-none-any.whl
+[2024-05-02 11:10:20] INFO root fetch - processPackages [aws-ssm-juggle]: Downloading https://files.pythonhosted.org/packages/66/2b/b2045943ab75f9614e1a3431d2054fdda0cd2daa621711b72088623e1a15/aws_ssm_juggle-24.4.5.tar.gz
+[2024-05-02 11:10:20] INFO root fetch - processPackages [dbt-platform-helper]: Downloading https://files.pythonhosted.org/packages/81/62/e7bf234607290fc6d5a2d923efa4ad46ef35062de83f9ca22fae3ca78b8a/dbt_platform_helper-8.0.0.tar.gz
+[2024-05-02 11:10:20] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/16/cc/a6d620d5b648220ca557e823ed795b1192bcefcbab6f04a48868c6a5a687/policyengine-us-0.755.0.tar.gz
+[2024-05-02 11:10:20] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/3a/50/528a08969afb90065e86c917ad0bd8c483a312df046908703699cd798a92/remotemanager-0.9.8.tar.gz
+[2024-05-02 11:10:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-02 11:10:20] INFO root fetch - processPackages [systemathics.apis]: Downloading https://files.pythonhosted.org/packages/fb/be/0b07ca79f16bb55715118a9e941e0cab0f4cc862f27be8cab004b3586d63/systemathics_apis-2.39.1.tar.gz
+[2024-05-02 11:10:20] INFO root fetch - processPackages [systemathics.apis]: executing diffoscope
+[2024-05-02 11:10:20] INFO root fetch - processPackages [systemathics.apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemathics_apis-2.39.0.tar.gz tmp/systemathics_apis-2.39.1.tar.gz --markdown 20240502/s/systemathics.apis/2.39.0-2.39.1/README.md --exclude *.pyd
+[2024-05-02 11:10:20] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/a3/10/fa601adf5f5a3eb775f3ba4c79390620ada843cc8c88adb89c234add2647/templated_setup-0.955.tar.gz
+[2024-05-02 11:10:20] INFO root fetch - processPackages [osw-confidence-metric]: Downloading https://files.pythonhosted.org/packages/00/ed/ca3e8e8e154ccf2f85a1dd3587ffc7987b50045370b256439bb6ef0abee6/osw_confidence_metric-0.0.5-py3-none-any.whl
+[2024-05-02 11:10:20] INFO root fetch - processPackages [aws-ssm-juggle]: Downloading https://files.pythonhosted.org/packages/38/e9/ba8c3edc5d44349312e51a0f579339bdd71a13f0db76f197c522a5520e4c/aws_ssm_juggle-24.5.0.tar.gz
+[2024-05-02 11:10:20] INFO root fetch - processPackages [dbt-platform-helper]: Downloading https://files.pythonhosted.org/packages/41/aa/9618874406471ac2cbade37c666bcdc80374c50a35da87847283a14056e3/dbt_platform_helper-8.1.0.tar.gz
+[2024-05-02 11:10:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-02 11:10:20] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/6c/ad/4dc56a0e10097173d3641ee71fb03814440f99f7f8e09d6b4646fc06a8c1/remotemanager-0.9.9.tar.gz
+[2024-05-02 11:10:20] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/18/9d/dbc0856a54d330c9dc82987ac366dfaa41c913c652df81e020e0dedda246/policyengine-us-0.756.0.tar.gz
+[2024-05-02 11:10:20] INFO root fetch - processPackages [osw-confidence-metric]: executing diffoscope
+[2024-05-02 11:10:20] INFO root fetch - processPackages [osw-confidence-metric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osw_confidence_metric-0.0.4-py3-none-any.whl.zip tmp/osw_confidence_metric-0.0.5-py3-none-any.whl.zip --markdown 20240502/o/osw-confidence-metric/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-02 11:10:20] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 11:10:20] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.954.tar.gz tmp/templated_setup-0.955.tar.gz --markdown 20240502/t/templated-setup/0.954-0.955/README.md --exclude *.pyd
+[2024-05-02 11:10:20] INFO root fetch - processPackages [aws-ssm-juggle]: executing diffoscope
+[2024-05-02 11:10:20] INFO root fetch - processPackages [aws-ssm-juggle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_ssm_juggle-24.4.5.tar.gz tmp/aws_ssm_juggle-24.5.0.tar.gz --markdown 20240502/a/aws-ssm-juggle/24.4.5-24.5.0/README.md --exclude *.pyd
+[2024-05-02 11:10:20] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-02 11:10:20] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240502/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-02 11:10:20] INFO root fetch - processPackages [dbt-platform-helper]: executing diffoscope
+[2024-05-02 11:10:20] INFO root fetch - processPackages [dbt-platform-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_platform_helper-8.0.0.tar.gz tmp/dbt_platform_helper-8.1.0.tar.gz --markdown 20240502/d/dbt-platform-helper/8.0.0-8.1.0/README.md --exclude *.pyd
+[2024-05-02 11:10:20] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2024-05-02 11:10:20] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.9.8.tar.gz tmp/remotemanager-0.9.9.tar.gz --markdown 20240502/r/remotemanager/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 11:10:21] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-05-02 11:10:21] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.755.0.tar.gz tmp/policyengine-us-0.756.0.tar.gz --markdown 20240502/p/policyengine-us/0.755.0-0.756.0/README.md --exclude *.pyd
+[2024-05-02 11:10:21] INFO root fetch - processPackages [fractalistic]: Downloading https://files.pythonhosted.org/packages/19/b1/d96e4e783f1b0848321a4f16f371682a667e523d4f70692ba98b3b73d5bb/fractalistic-2.1.0.tar.gz
+[2024-05-02 11:10:21] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.954.tar.gz]
+[2024-05-02 11:10:21] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.955.tar.gz]
+[2024-05-02 11:10:21] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 11:10:21] INFO root fetch - processPackages [osw-confidence-metric]: Remove: archive file [/home/abi/fetcher/tmp/osw_confidence_metric-0.0.4-py3-none-any.whl.zip]
+[2024-05-02 11:10:21] INFO root fetch - processPackages [osw-confidence-metric]: Remove: archive file [/home/abi/fetcher/tmp/osw_confidence_metric-0.0.5-py3-none-any.whl.zip]
+[2024-05-02 11:10:21] INFO root fetch - main [MainThread]: End processing [osw-confidence-metric]: success
+[2024-05-02 11:10:21] INFO root fetch - processPackages [aws-ssm-juggle]: Remove: archive file [/home/abi/fetcher/tmp/aws_ssm_juggle-24.4.5.tar.gz]
+[2024-05-02 11:10:21] INFO root fetch - processPackages [aws-ssm-juggle]: Remove: archive file [/home/abi/fetcher/tmp/aws_ssm_juggle-24.5.0.tar.gz]
+[2024-05-02 11:10:21] INFO root fetch - main [MainThread]: End processing [aws-ssm-juggle]: success
+[2024-05-02 11:10:21] INFO root fetch - processPackages [systemathics.apis]: Remove: archive file [/home/abi/fetcher/tmp/systemathics_apis-2.39.0.tar.gz]
+[2024-05-02 11:10:21] INFO root fetch - processPackages [systemathics.apis]: Remove: archive file [/home/abi/fetcher/tmp/systemathics_apis-2.39.1.tar.gz]
+[2024-05-02 11:10:21] INFO root fetch - main [MainThread]: End processing [systemathics.apis]: success
+[2024-05-02 11:10:21] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.8.tar.gz]
+[2024-05-02 11:10:21] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.9.tar.gz]
+[2024-05-02 11:10:21] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2024-05-02 11:10:22] INFO root fetch - processPackages [dbt-platform-helper]: Remove: archive file [/home/abi/fetcher/tmp/dbt_platform_helper-8.0.0.tar.gz]
+[2024-05-02 11:10:22] INFO root fetch - processPackages [dbt-platform-helper]: Remove: archive file [/home/abi/fetcher/tmp/dbt_platform_helper-8.1.0.tar.gz]
+[2024-05-02 11:10:22] INFO root fetch - main [MainThread]: End processing [dbt-platform-helper]: success
+[2024-05-02 11:10:22] INFO root fetch - processPackages [fractalistic]: executing diffoscope
+[2024-05-02 11:10:22] INFO root fetch - processPackages [fractalistic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractalistic-2.0.0.tar.gz tmp/fractalistic-2.1.0.tar.gz --markdown 20240502/f/fractalistic/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-02 11:10:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-02 11:10:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-02 11:10:23] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-02 11:10:23] INFO root fetch - processPackages [fractalistic]: Remove: archive file [/home/abi/fetcher/tmp/fractalistic-2.0.0.tar.gz]
+[2024-05-02 11:10:23] INFO root fetch - processPackages [fractalistic]: Remove: archive file [/home/abi/fetcher/tmp/fractalistic-2.1.0.tar.gz]
+[2024-05-02 11:10:23] INFO root fetch - main [MainThread]: End processing [fractalistic]: success
+[2024-05-02 11:10:54] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.755.0.tar.gz]
+[2024-05-02 11:10:54] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.756.0.tar.gz]
+[2024-05-02 11:10:54] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-05-02 11:10:54] INFO root fetch - main [MainThread]: Store serial: [23028561]
