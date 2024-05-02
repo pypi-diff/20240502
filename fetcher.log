@@ -15692,3 +15692,90 @@
 [2024-05-02 12:00:04] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_calculator_pyo3-1.2.0.tar.gz]
 [2024-05-02 12:00:04] INFO root fetch - main [MainThread]: End processing [qoqo-calculator-pyo3]: success
 [2024-05-02 12:00:04] INFO root fetch - main [MainThread]: Store serial: [23029115]
+[2024-05-02 12:02:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029115]
+[2024-05-02 12:02:15] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AlgoGrade
+[2024-05-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h-vialib
+[2024-05-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shepherd-core
+[2024-05-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-tools
+[2024-05-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shepherd-data
+[2024-05-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testplans
+[2024-05-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Pseudovisium
+[2024-05-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PySCIPOpt-ML
+[2024-05-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: satsure-core
+[2024-05-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lsst-felis
+[2024-05-02 12:02:15] INFO root fetch - processPackages [Pseudovisium]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 12:02:15] INFO root fetch - processPackages [AlgoGrade]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 12:02:15] INFO root fetch - processPackages [lsst-felis]: New version: [27.0.0rc1] Old Version: [26.2024.900]
+[2024-05-02 12:02:15] INFO root fetch - processPackages [testplans]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-02 12:02:15] INFO root fetch - processPackages [PySCIPOpt-ML]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-02 12:02:15] INFO root fetch - processPackages [AlgoGrade]: Downloading https://files.pythonhosted.org/packages/33/90/206b7f28a7e746ae76657cb69afe50035d6aff011258781e2ece9766581b/AlgoGrade-1.0.8.tar.gz
+[2024-05-02 12:02:15] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/ec/02/4f0ff6ebfecb2857195a25c3ca342a7a1af99e21acd71f8a0f89061491f0/Pseudovisium-0.0.8.tar.gz
+[2024-05-02 12:02:15] WARNING root fetch - processPackages [satsure-core]: Skipping, unable to determine old version
+[2024-05-02 12:02:15] INFO root fetch - main [MainThread]: End processing [satsure-core] error
+[2024-05-02 12:02:15] INFO root fetch - processPackages [langchain-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-02 12:02:15] INFO root fetch - processPackages [shepherd-core]: New version: [2024.5.1] Old Version: [2024.4.2]
+[2024-05-02 12:02:15] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/5b/71/252577ba2b2a9c5264c2b271dd8b9f1d294b47c89454815a32337590f647/lsst-felis-26.2024.900.tar.gz
+[2024-05-02 12:02:15] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/0e/5c/8cef53411f09a99bad4808f30ecc7f12125657841f806b8eb966155aa06f/testplans-0.2.4.tar.gz
+[2024-05-02 12:02:15] INFO root fetch - processPackages [h-vialib]: New version: [1.3.0] Old Version: [1.2.2]
+[2024-05-02 12:02:15] INFO root fetch - processPackages [shepherd-data]: New version: [2024.5.1] Old Version: [2024.4.2]
+[2024-05-02 12:02:15] INFO root fetch - processPackages [PySCIPOpt-ML]: Downloading https://files.pythonhosted.org/packages/df/4c/6db1d05651e1b2d09303f9c6739f3bea154bb0128df6df488129dc64ccd9/PySCIPOpt-ML-1.0.0.tar.gz
+[2024-05-02 12:02:15] INFO root fetch - processPackages [shepherd-data]: Downloading https://files.pythonhosted.org/packages/26/8d/50e8e58d76314ab7fda1b4f986557abc58b226a6995cd83f657122b6c3a6/shepherd_data-2024.4.2.tar.gz
+[2024-05-02 12:02:15] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/6b/00/163bdee32da39c08882b88ee6983de813905743f23581dbfb76b13a9fe9a/langchain-tools-0.1.5.tar.gz
+[2024-05-02 12:02:15] INFO root fetch - processPackages [shepherd-core]: Downloading https://files.pythonhosted.org/packages/42/bf/8fcfb4f256077d0e5e706a2d64dfd4cdc1bb03713511ba599c670efa0246/shepherd_core-2024.4.2.tar.gz
+[2024-05-02 12:02:15] INFO root fetch - processPackages [h-vialib]: Downloading https://files.pythonhosted.org/packages/d5/a6/85e5450488d12a22086f9b5f32a466643f0587bb969f866c7fc3c67aba25/h-vialib-1.2.2.tar.gz
+[2024-05-02 12:02:15] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/1b/c8/de2f88e2377c0e186391e1bffdd9f116daf8ac3634d979fde3406c045ed4/lsst_felis-27.0.0rc1.tar.gz
+[2024-05-02 12:02:15] INFO root fetch - processPackages [AlgoGrade]: Downloading https://files.pythonhosted.org/packages/f3/8c/50a21ccffcb9d6f18d7b27b3039f1e90a1b91fe9721d89295f083a8bf52c/AlgoGrade-1.0.9.tar.gz
+[2024-05-02 12:02:15] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/6a/7f/032756880a4d5dbead5465d90e6d9ef1046690f858021036f62dfcda246a/Pseudovisium-0.0.9.tar.gz
+[2024-05-02 12:02:15] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/cc/03/8ede55b6600915a2a20d3e6d1e75add7f85044b08540bc29d5771586024b/testplans-0.2.5.tar.gz
+[2024-05-02 12:02:15] INFO root fetch - processPackages [lsst-felis]: executing diffoscope
+[2024-05-02 12:02:15] INFO root fetch - processPackages [lsst-felis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-felis-26.2024.900.tar.gz tmp/lsst_felis-27.0.0rc1.tar.gz --markdown 20240502/l/lsst-felis/26.2024.900-27.0.0rc1/README.md --exclude *.pyd
+[2024-05-02 12:02:16] INFO root fetch - processPackages [AlgoGrade]: executing diffoscope
+[2024-05-02 12:02:16] INFO root fetch - processPackages [AlgoGrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlgoGrade-1.0.8.tar.gz tmp/AlgoGrade-1.0.9.tar.gz --markdown 20240502/A/AlgoGrade/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 12:02:16] INFO root fetch - processPackages [Pseudovisium]: executing diffoscope
+[2024-05-02 12:02:16] INFO root fetch - processPackages [Pseudovisium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pseudovisium-0.0.8.tar.gz tmp/Pseudovisium-0.0.9.tar.gz --markdown 20240502/P/Pseudovisium/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 12:02:16] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-05-02 12:02:16] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.4.tar.gz tmp/testplans-0.2.5.tar.gz --markdown 20240502/t/testplans/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-02 12:02:16] INFO root fetch - processPackages [PySCIPOpt-ML]: Downloading https://files.pythonhosted.org/packages/19/49/72a50aed5788b8868c839db38c7e25266b2e3ad23f96a0e39cabfee49850/pyscipopt_ml-1.1.0.tar.gz
+[2024-05-02 12:02:16] INFO root fetch - processPackages [shepherd-data]: Downloading https://files.pythonhosted.org/packages/0e/a4/2944fdaf733291660e11d002bdcfe21f158d38d2ee7faef506a2697013fc/shepherd_data-2024.5.1.tar.gz
+[2024-05-02 12:02:16] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/cf/25/9d47cc2c84391ec2938a90838e49ede3e160adac5120144d8052428e063a/langchain-tools-0.1.6.tar.gz
+[2024-05-02 12:02:16] INFO root fetch - processPackages [h-vialib]: Downloading https://files.pythonhosted.org/packages/b0/3e/7c12bfdb9f71e136167c9ad7da5a4b259894e2b46a55162f438891fe12bb/h_vialib-1.3.0.tar.gz
+[2024-05-02 12:02:16] INFO root fetch - processPackages [PySCIPOpt-ML]: executing diffoscope
+[2024-05-02 12:02:16] INFO root fetch - processPackages [PySCIPOpt-ML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySCIPOpt-ML-1.0.0.tar.gz tmp/pyscipopt_ml-1.1.0.tar.gz --markdown 20240502/P/PySCIPOpt-ML/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-02 12:02:16] INFO root fetch - processPackages [shepherd-data]: executing diffoscope
+[2024-05-02 12:02:16] INFO root fetch - processPackages [shepherd-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shepherd_data-2024.4.2.tar.gz tmp/shepherd_data-2024.5.1.tar.gz --markdown 20240502/s/shepherd-data/2024.4.2-2024.5.1/README.md --exclude *.pyd
+[2024-05-02 12:02:16] INFO root fetch - processPackages [shepherd-core]: Downloading https://files.pythonhosted.org/packages/12/6d/b7912cabaa9c4e51a7b6b53739aefd640a03dee5043b3ee3598b1807f582/shepherd_core-2024.5.1.tar.gz
+[2024-05-02 12:02:16] INFO root fetch - processPackages [langchain-tools]: executing diffoscope
+[2024-05-02 12:02:16] INFO root fetch - processPackages [langchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-tools-0.1.5.tar.gz tmp/langchain-tools-0.1.6.tar.gz --markdown 20240502/l/langchain-tools/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-02 12:02:16] INFO root fetch - processPackages [h-vialib]: executing diffoscope
+[2024-05-02 12:02:16] INFO root fetch - processPackages [h-vialib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h-vialib-1.2.2.tar.gz tmp/h_vialib-1.3.0.tar.gz --markdown 20240502/h/h-vialib/1.2.2-1.3.0/README.md --exclude *.pyd
+[2024-05-02 12:02:16] INFO root fetch - processPackages [shepherd-core]: executing diffoscope
+[2024-05-02 12:02:16] INFO root fetch - processPackages [shepherd-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shepherd_core-2024.4.2.tar.gz tmp/shepherd_core-2024.5.1.tar.gz --markdown 20240502/s/shepherd-core/2024.4.2-2024.5.1/README.md --exclude *.pyd
+[2024-05-02 12:02:17] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.4.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.5.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-05-02 12:02:17] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.8.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.9.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - main [MainThread]: End processing [Pseudovisium]: success
+[2024-05-02 12:02:17] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.5.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.6.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - main [MainThread]: End processing [langchain-tools]: success
+[2024-05-02 12:02:17] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst-felis-26.2024.900.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst_felis-27.0.0rc1.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - main [MainThread]: End processing [lsst-felis]: success
+[2024-05-02 12:02:17] INFO root fetch - processPackages [shepherd-data]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_data-2024.4.2.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - processPackages [shepherd-data]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_data-2024.5.1.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - main [MainThread]: End processing [shepherd-data]: success
+[2024-05-02 12:02:17] INFO root fetch - processPackages [AlgoGrade]: Remove: archive file [/home/abi/fetcher/tmp/AlgoGrade-1.0.8.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - processPackages [AlgoGrade]: Remove: archive file [/home/abi/fetcher/tmp/AlgoGrade-1.0.9.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - main [MainThread]: End processing [AlgoGrade]: success
+[2024-05-02 12:02:17] INFO root fetch - processPackages [h-vialib]: Remove: archive file [/home/abi/fetcher/tmp/h-vialib-1.2.2.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - processPackages [h-vialib]: Remove: archive file [/home/abi/fetcher/tmp/h_vialib-1.3.0.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - main [MainThread]: End processing [h-vialib]: success
+[2024-05-02 12:02:17] INFO root fetch - processPackages [PySCIPOpt-ML]: Remove: archive file [/home/abi/fetcher/tmp/PySCIPOpt-ML-1.0.0.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - processPackages [PySCIPOpt-ML]: Remove: archive file [/home/abi/fetcher/tmp/pyscipopt_ml-1.1.0.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - main [MainThread]: End processing [PySCIPOpt-ML]: success
+[2024-05-02 12:02:17] INFO root fetch - processPackages [shepherd-core]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_core-2024.4.2.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - processPackages [shepherd-core]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_core-2024.5.1.tar.gz]
+[2024-05-02 12:02:17] INFO root fetch - main [MainThread]: End processing [shepherd-core]: success
+[2024-05-02 12:02:17] INFO root fetch - main [MainThread]: Store serial: [23029166]
