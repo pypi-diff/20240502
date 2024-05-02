@@ -9379,3 +9379,29 @@
 [2024-05-02 07:00:06] INFO root fetch - processPackages [django_herobiz_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_ds-2.2.2.tar.gz]
 [2024-05-02 07:00:06] INFO root fetch - main [MainThread]: End processing [django_herobiz_ds]: success
 [2024-05-02 07:00:06] INFO root fetch - main [MainThread]: Store serial: [23026501]
+[2024-05-02 07:02:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026501]
+[2024-05-02 07:02:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 07:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kmisc
+[2024-05-02 07:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-inventory
+[2024-05-02 07:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django_zenblog_ds
+[2024-05-02 07:02:16] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-02 07:02:16] INFO root fetch - processPackages [django_zenblog_ds]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-05-02 07:02:16] INFO root fetch - processPackages [kmisc]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-02 07:02:16] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-02 07:02:16] INFO root fetch - processPackages [kmisc]: Downloading https://files.pythonhosted.org/packages/c6/05/03f0c5e0f02d96763e9820c3142b83796fcfd07d500caa565d12708c8a1d/kmisc-2.1.98.tar.gz
+[2024-05-02 07:02:16] INFO root fetch - processPackages [django_zenblog_ds]: Downloading https://files.pythonhosted.org/packages/8f/2b/e6ad8aaa369d5c276d8ed96aff6d976b1802c639e61739937dcc66aa6f5d/django_zenblog_ds-2.1.3.tar.gz
+[2024-05-02 07:02:16] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-02 07:02:16] WARNING root fetch - processPackages [django_zenblog_ds]: Skipping package: exceeds size limit 12660609>=10485760
+[2024-05-02 07:02:16] INFO root fetch - main [MainThread]: End processing [django_zenblog_ds] error
+[2024-05-02 07:02:16] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-02 07:02:16] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240502/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-02 07:02:16] INFO root fetch - processPackages [kmisc]: Downloading https://files.pythonhosted.org/packages/5a/0b/bcd559a50df4a22543c5eb44e4fd34bbc0a82ae753b6ce5584a5f77a9eff/kmisc-2.1.99.tar.gz
+[2024-05-02 07:02:16] INFO root fetch - processPackages [kmisc]: executing diffoscope
+[2024-05-02 07:02:16] INFO root fetch - processPackages [kmisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmisc-2.1.98.tar.gz tmp/kmisc-2.1.99.tar.gz --markdown 20240502/k/kmisc/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-02 07:02:17] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-02 07:02:17] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-02 07:02:17] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-02 07:02:17] INFO root fetch - processPackages [kmisc]: Remove: archive file [/home/abi/fetcher/tmp/kmisc-2.1.98.tar.gz]
+[2024-05-02 07:02:17] INFO root fetch - processPackages [kmisc]: Remove: archive file [/home/abi/fetcher/tmp/kmisc-2.1.99.tar.gz]
+[2024-05-02 07:02:17] INFO root fetch - main [MainThread]: End processing [kmisc]: success
+[2024-05-02 07:02:17] INFO root fetch - main [MainThread]: Store serial: [23026510]
