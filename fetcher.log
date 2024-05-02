@@ -7274,3 +7274,24 @@
 [2024-05-02 04:04:17] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.3.tar.gz]
 [2024-05-02 04:04:17] INFO root fetch - main [MainThread]: End processing [musicnotes]: success
 [2024-05-02 04:04:17] INFO root fetch - main [MainThread]: Store serial: [23025601]
+[2024-05-02 04:06:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025601]
+[2024-05-02 04:06:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 04:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roboto
+[2024-05-02 04:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyirx
+[2024-05-02 04:06:25] INFO root fetch - processPackages [roboto]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-02 04:06:25] INFO root fetch - processPackages [pyirx]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-02 04:06:26] INFO root fetch - processPackages [pyirx]: Downloading https://files.pythonhosted.org/packages/05/16/34478d7bf03421e925f2084474f897352bc511cc4d0dea26f8d26a25fd2c/pyirx-1.2.0.tar.gz
+[2024-05-02 04:06:26] INFO root fetch - processPackages [roboto]: Downloading https://files.pythonhosted.org/packages/51/07/8c05964c9179eee3deeba80b42cf23425e742090166e07a7a7bbc70ce20b/roboto-0.2.8.tar.gz
+[2024-05-02 04:06:26] INFO root fetch - processPackages [pyirx]: Downloading https://files.pythonhosted.org/packages/d3/cb/782572855be3e581cb84fca8ada86d44a64cbb934f358c3a84f9138a8831/pyirx-1.2.1.tar.gz
+[2024-05-02 04:06:26] INFO root fetch - processPackages [pyirx]: executing diffoscope
+[2024-05-02 04:06:26] INFO root fetch - processPackages [pyirx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyirx-1.2.0.tar.gz tmp/pyirx-1.2.1.tar.gz --markdown 20240502/p/pyirx/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-02 04:06:26] INFO root fetch - processPackages [roboto]: Downloading https://files.pythonhosted.org/packages/a7/16/871853863a8372d41b2cd46d1201726ff0344cb1df3aac85428d1a59d787/roboto-0.2.9.tar.gz
+[2024-05-02 04:06:26] INFO root fetch - processPackages [roboto]: executing diffoscope
+[2024-05-02 04:06:26] INFO root fetch - processPackages [roboto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto-0.2.8.tar.gz tmp/roboto-0.2.9.tar.gz --markdown 20240502/r/roboto/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-02 04:06:27] INFO root fetch - processPackages [pyirx]: Remove: archive file [/home/abi/fetcher/tmp/pyirx-1.2.0.tar.gz]
+[2024-05-02 04:06:27] INFO root fetch - processPackages [pyirx]: Remove: archive file [/home/abi/fetcher/tmp/pyirx-1.2.1.tar.gz]
+[2024-05-02 04:06:27] INFO root fetch - main [MainThread]: End processing [pyirx]: success
+[2024-05-02 04:06:28] INFO root fetch - processPackages [roboto]: Remove: archive file [/home/abi/fetcher/tmp/roboto-0.2.8.tar.gz]
+[2024-05-02 04:06:28] INFO root fetch - processPackages [roboto]: Remove: archive file [/home/abi/fetcher/tmp/roboto-0.2.9.tar.gz]
+[2024-05-02 04:06:28] INFO root fetch - main [MainThread]: End processing [roboto]: success
+[2024-05-02 04:06:28] INFO root fetch - main [MainThread]: Store serial: [23025608]
