@@ -7456,3 +7456,24 @@
 [2024-05-02 04:19:27] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.5.2.2.18.47.tar.gz]
 [2024-05-02 04:19:27] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
 [2024-05-02 04:19:27] INFO root fetch - main [MainThread]: Store serial: [23025705]
+[2024-05-02 04:21:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025705]
+[2024-05-02 04:21:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 04:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2024-05-02 04:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ofnodes
+[2024-05-02 04:21:38] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240501] Old Version: [1.2.20240430]
+[2024-05-02 04:21:38] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/16/3f/4a53d7671690b6ac0de6be84daa9689cd9d744365cf22aaf874c27d8bf21/iam_actions-1.2.20240430.tar.gz
+[2024-05-02 04:21:38] INFO root fetch - processPackages [ofnodes]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-02 04:21:38] INFO root fetch - processPackages [ofnodes]: Downloading https://files.pythonhosted.org/packages/46/cf/728be911b83e83933019ec8dcd2c3e3f0ff8a80860e0d048b4abd4957bf5/ofnodes-1.8.0.tar.gz
+[2024-05-02 04:21:38] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/bd/f9/70fa17f633e01078219460aeeeac6c507393f800a2a7b98ffe0e07dc5761/iam_actions-1.2.20240501.tar.gz
+[2024-05-02 04:21:38] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-02 04:21:38] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240430.tar.gz tmp/iam_actions-1.2.20240501.tar.gz --markdown 20240502/i/iam-actions/1.2.20240430-1.2.20240501/README.md --exclude *.pyd
+[2024-05-02 04:21:38] INFO root fetch - processPackages [ofnodes]: Downloading https://files.pythonhosted.org/packages/86/a1/c15dafb2ecbf588469c6cf4c084c2de049abb490817529d50889765125ea/ofnodes-1.9.0.tar.gz
+[2024-05-02 04:21:38] INFO root fetch - processPackages [ofnodes]: executing diffoscope
+[2024-05-02 04:21:38] INFO root fetch - processPackages [ofnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofnodes-1.8.0.tar.gz tmp/ofnodes-1.9.0.tar.gz --markdown 20240502/o/ofnodes/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-02 04:21:39] INFO root fetch - processPackages [ofnodes]: Remove: archive file [/home/abi/fetcher/tmp/ofnodes-1.8.0.tar.gz]
+[2024-05-02 04:21:39] INFO root fetch - processPackages [ofnodes]: Remove: archive file [/home/abi/fetcher/tmp/ofnodes-1.9.0.tar.gz]
+[2024-05-02 04:21:39] INFO root fetch - main [MainThread]: End processing [ofnodes]: success
+[2024-05-02 04:21:43] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240430.tar.gz]
+[2024-05-02 04:21:43] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240501.tar.gz]
+[2024-05-02 04:21:43] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-02 04:21:43] INFO root fetch - main [MainThread]: Store serial: [23025714]
