@@ -10280,3 +10280,42 @@
 [2024-05-02 08:10:11] INFO root fetch - processPackages [AnimatedWordCloudTimelapse]: Remove: archive file [/home/abi/fetcher/tmp/animatedwordcloudtimelapse-1.0.9.tar.gz]
 [2024-05-02 08:10:11] INFO root fetch - main [MainThread]: End processing [AnimatedWordCloudTimelapse]: success
 [2024-05-02 08:10:11] INFO root fetch - main [MainThread]: Store serial: [23026852]
+[2024-05-02 08:12:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026852]
+[2024-05-02 08:12:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 08:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2024-05-02 08:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paperman
+[2024-05-02 08:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laktory
+[2024-05-02 08:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: git_alert
+[2024-05-02 08:12:20] INFO root fetch - processPackages [git_alert]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-02 08:12:20] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240501] Old Version: [2.6.0.dev20240430]
+[2024-05-02 08:12:20] INFO root fetch - processPackages [git_alert]: Downloading https://files.pythonhosted.org/packages/33/36/e8d1fd446829bef0d54cf0d7f76c6bad4ef07f5373339ea6e719f4ac960e/git_alert-0.2.1.tar.gz
+[2024-05-02 08:12:20] INFO root fetch - processPackages [paperman]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-02 08:12:20] INFO root fetch - processPackages [laktory]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-02 08:12:20] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/5c/ea/d3868c80de42597addc5d27401f54d46068c09c2951ba183caf7e05bede0/pyg_nightly-2.6.0.dev20240430.tar.gz
+[2024-05-02 08:12:20] INFO root fetch - processPackages [git_alert]: Downloading https://files.pythonhosted.org/packages/72/1b/c593b0c58bcbe7a662ac8c76b691175444b674b513cc0748f14f4539962a/git_alert-0.3.0.tar.gz
+[2024-05-02 08:12:20] INFO root fetch - processPackages [paperman]: Downloading https://files.pythonhosted.org/packages/97/6d/903602aca53b1f3dfa539ac08281c46f9f70d91520cc4dd93eac6ff21d1a/paperman-1.0.4.tar.gz
+[2024-05-02 08:12:20] INFO root fetch - processPackages [laktory]: Downloading https://files.pythonhosted.org/packages/ae/22/2619234895906e23fba98e104e46f4c8eaccb6cd57d98c9bb7270f3720d6/laktory-0.1.9.tar.gz
+[2024-05-02 08:12:20] INFO root fetch - processPackages [git_alert]: executing diffoscope
+[2024-05-02 08:12:20] INFO root fetch - processPackages [git_alert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_alert-0.2.1.tar.gz tmp/git_alert-0.3.0.tar.gz --markdown 20240502/g/git_alert/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-02 08:12:20] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/71/35/ba587e7c3d19190b9dd88e9edd6cd7e719cfdbdf231ee6c101e8bc6e8a6b/pyg_nightly-2.6.0.dev20240501.tar.gz
+[2024-05-02 08:12:21] INFO root fetch - processPackages [paperman]: Downloading https://files.pythonhosted.org/packages/6f/67/fbcf8ad0557ed7dec90c00199984e09d91c489bf6c1275b80cb3e6afce01/paperman-1.0.5.tar.gz
+[2024-05-02 08:12:21] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-02 08:12:21] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240430.tar.gz tmp/pyg_nightly-2.6.0.dev20240501.tar.gz --markdown 20240502/p/pyg-nightly/2.6.0.dev20240430-2.6.0.dev20240501/README.md --exclude *.pyd
+[2024-05-02 08:12:21] INFO root fetch - processPackages [paperman]: executing diffoscope
+[2024-05-02 08:12:21] INFO root fetch - processPackages [paperman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paperman-1.0.4.tar.gz tmp/paperman-1.0.5.tar.gz --markdown 20240502/p/paperman/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-02 08:12:21] INFO root fetch - processPackages [git_alert]: Remove: archive file [/home/abi/fetcher/tmp/git_alert-0.2.1.tar.gz]
+[2024-05-02 08:12:21] INFO root fetch - processPackages [git_alert]: Remove: archive file [/home/abi/fetcher/tmp/git_alert-0.3.0.tar.gz]
+[2024-05-02 08:12:21] INFO root fetch - main [MainThread]: End processing [git_alert]: success
+[2024-05-02 08:12:21] INFO root fetch - processPackages [paperman]: Remove: archive file [/home/abi/fetcher/tmp/paperman-1.0.4.tar.gz]
+[2024-05-02 08:12:21] INFO root fetch - processPackages [paperman]: Remove: archive file [/home/abi/fetcher/tmp/paperman-1.0.5.tar.gz]
+[2024-05-02 08:12:21] INFO root fetch - main [MainThread]: End processing [paperman]: success
+[2024-05-02 08:12:21] INFO root fetch - processPackages [laktory]: Downloading https://files.pythonhosted.org/packages/b0/5e/d368c5c2645cdd9125a8316a39422efae71182178032861b330ac0c214f7/laktory-0.2.0.tar.gz
+[2024-05-02 08:12:22] INFO root fetch - processPackages [laktory]: executing diffoscope
+[2024-05-02 08:12:22] INFO root fetch - processPackages [laktory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laktory-0.1.9.tar.gz tmp/laktory-0.2.0.tar.gz --markdown 20240502/l/laktory/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-02 08:12:23] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240430.tar.gz]
+[2024-05-02 08:12:23] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240501.tar.gz]
+[2024-05-02 08:12:23] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-02 08:12:23] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.1.9.tar.gz]
+[2024-05-02 08:12:23] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.2.0.tar.gz]
+[2024-05-02 08:12:23] INFO root fetch - main [MainThread]: End processing [laktory]: success
+[2024-05-02 08:12:23] INFO root fetch - main [MainThread]: Store serial: [23026862]
