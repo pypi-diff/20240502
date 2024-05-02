@@ -7770,3 +7770,36 @@
 [2024-05-02 04:47:47] INFO root fetch - processPackages [pingintel-api]: Remove: archive file [/home/abi/fetcher/tmp/pingintel_api-0.2.0.tar.gz]
 [2024-05-02 04:47:47] INFO root fetch - main [MainThread]: End processing [pingintel-api]: success
 [2024-05-02 04:47:47] INFO root fetch - main [MainThread]: Store serial: [23025871]
+[2024-05-02 04:49:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025871]
+[2024-05-02 04:49:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 04:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: musicnotes
+[2024-05-02 04:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-dataset-converter
+[2024-05-02 04:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sprag
+[2024-05-02 04:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jericho
+[2024-05-02 04:49:55] INFO root fetch - processPackages [musicnotes]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 04:49:55] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/1a/55/a0bec7d3f70e7932bb08d38f33aa5a307362c1e1a8fb9888eb6c7f80f21b/musicnotes-1.0.8.tar.gz
+[2024-05-02 04:49:55] INFO root fetch - processPackages [jericho]: New version: [3.2.0] Old Version: [3.1.2]
+[2024-05-02 04:49:55] WARNING root fetch - processPackages [sprag]: Skipping, unable to determine old version
+[2024-05-02 04:49:55] INFO root fetch - processPackages [llm-dataset-converter]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-02 04:49:55] INFO root fetch - main [MainThread]: End processing [sprag] error
+[2024-05-02 04:49:55] INFO root fetch - processPackages [llm-dataset-converter]: Downloading https://files.pythonhosted.org/packages/c6/83/4979af553cae0e6d47e8196f12f285f9c347f70f176ad39e668da04e70f9/llm-dataset-converter-0.2.0.tar.gz
+[2024-05-02 04:49:55] INFO root fetch - processPackages [jericho]: Downloading https://files.pythonhosted.org/packages/16/b8/961f1e5d0e2e8f49f6b9c1c354cf7ae0aed2c5e06f821f7fb565f901173e/jericho-3.1.2.tar.gz
+[2024-05-02 04:49:56] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/38/2f/e335b95c786beb14cc53b620c47531ecf29eec3c369a03cb3db9f0728cc4/musicnotes-1.0.9.tar.gz
+[2024-05-02 04:49:56] INFO root fetch - processPackages [llm-dataset-converter]: Downloading https://files.pythonhosted.org/packages/38/f2/7b09f11d3a6e12832f68fee19a5932259921a0489a9824c2eec3c3bdb15d/llm-dataset-converter-0.2.1.tar.gz
+[2024-05-02 04:49:56] INFO root fetch - processPackages [musicnotes]: executing diffoscope
+[2024-05-02 04:49:56] INFO root fetch - processPackages [musicnotes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicnotes-1.0.8.tar.gz tmp/musicnotes-1.0.9.tar.gz --markdown 20240502/m/musicnotes/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 04:49:56] INFO root fetch - processPackages [llm-dataset-converter]: executing diffoscope
+[2024-05-02 04:49:56] INFO root fetch - processPackages [llm-dataset-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-dataset-converter-0.2.0.tar.gz tmp/llm-dataset-converter-0.2.1.tar.gz --markdown 20240502/l/llm-dataset-converter/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-02 04:49:56] INFO root fetch - processPackages [jericho]: Downloading https://files.pythonhosted.org/packages/e3/9e/0e156efbdcfe5af7c8af6d52226603d76be5e1a297f45057f7be78c727a9/jericho-3.2.0.tar.gz
+[2024-05-02 04:49:56] INFO root fetch - processPackages [jericho]: executing diffoscope
+[2024-05-02 04:49:56] INFO root fetch - processPackages [jericho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jericho-3.1.2.tar.gz tmp/jericho-3.2.0.tar.gz --markdown 20240502/j/jericho/3.1.2-3.2.0/README.md --exclude *.pyd
+[2024-05-02 04:49:56] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.8.tar.gz]
+[2024-05-02 04:49:56] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.9.tar.gz]
+[2024-05-02 04:49:56] INFO root fetch - main [MainThread]: End processing [musicnotes]: success
+[2024-05-02 04:49:57] INFO root fetch - processPackages [llm-dataset-converter]: Remove: archive file [/home/abi/fetcher/tmp/llm-dataset-converter-0.2.0.tar.gz]
+[2024-05-02 04:49:57] INFO root fetch - processPackages [llm-dataset-converter]: Remove: archive file [/home/abi/fetcher/tmp/llm-dataset-converter-0.2.1.tar.gz]
+[2024-05-02 04:49:57] INFO root fetch - main [MainThread]: End processing [llm-dataset-converter]: success
+[2024-05-02 04:50:21] INFO root fetch - processPackages [jericho]: Remove: archive file [/home/abi/fetcher/tmp/jericho-3.1.2.tar.gz]
+[2024-05-02 04:50:21] INFO root fetch - processPackages [jericho]: Remove: archive file [/home/abi/fetcher/tmp/jericho-3.2.0.tar.gz]
+[2024-05-02 04:50:21] INFO root fetch - main [MainThread]: End processing [jericho]: success
+[2024-05-02 04:50:21] INFO root fetch - main [MainThread]: Store serial: [23025885]
