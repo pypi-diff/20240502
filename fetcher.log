@@ -22031,3 +22031,141 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:35:40] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a9.tar.gz]
 [2024-05-02 15:35:40] INFO root fetch - main [MainThread]: End processing [systema]: success
 [2024-05-02 15:35:40] INFO root fetch - main [MainThread]: Store serial: [23031627]
+[2024-05-02 15:37:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031627]
+[2024-05-02 15:37:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-02 15:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-drive-sdk
+[2024-05-02 15:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-insights-sdk
+[2024-05-02 15:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-identity-sdk
+[2024-05-02 15:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-sparse-tensor
+[2024-05-02 15:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-configuration-sdk
+[2024-05-02 15:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-scheduler-sdk
+[2024-05-02 15:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-notifications-sdk
+[2024-05-02 15:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finbourne-access-sdk
+[2024-05-02 15:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digitalhub
+[2024-05-02 15:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: luminesce-sdk
+[2024-05-02 15:37:50] INFO root fetch - processPackages [finbourne-insights-sdk]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-02 15:37:50] INFO root fetch - processPackages [lusid-notifications-sdk]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-02 15:37:50] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-02 15:37:50] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-02 15:37:50] INFO root fetch - processPackages [digitalhub]: New version: [0.4.0b3] Old Version: [0.4.0b2]
+[2024-05-02 15:37:51] INFO root fetch - processPackages [torch-sparse-tensor]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-02 15:37:51] INFO root fetch - processPackages [lusid-scheduler-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-02 15:37:51] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-02 15:37:51] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-02 15:37:51] INFO root fetch - processPackages [lusid-notifications-sdk]: Downloading https://files.pythonhosted.org/packages/22/ab/8ecb210e9d9a31116032a3b53eca96df627f9f169b60f3cbfe50ddb00549/lusid_notifications_sdk-2.1.1.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [finbourne-insights-sdk]: Downloading https://files.pythonhosted.org/packages/ce/dd/f6ac4c8b038987b9ea0c90bb38067b0b317c9ec517d949c880e3e145aa4f/finbourne_insights_sdk-2.1.4.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/e3/65/3696ddb18aebc5d84165e3aad87e9f8ef387ad4f28960b5404833fc6eef5/luminesce_sdk-2.1.8.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [lusid-configuration-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-02 15:37:51] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [torch-sparse-tensor]: Downloading https://files.pythonhosted.org/packages/4e/4c/57522e9d136936a147a672733cc39ace41d98bacd284bf65f13b981a9cc9/torch_sparse_tensor-0.1.1.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/76/1b/4cd765ba11764f381ac18ff403976c898f97aac8ba5f26ba8a0a876e3f97/digitalhub-0.4.0b2.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/6b/ef/0e5e2bf8731f3152b7e4404e949e6b486640a148eb9f0dd3b5ed640498c7/lusid_scheduler_sdk-2.1.8.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/92/60/decf0711268db2bfcdb83725688627829c4ebd8a9e0266b5cdf26d8d314c/lusid_drive_sdk-2.1.8.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [lusid-notifications-sdk]: Downloading https://files.pythonhosted.org/packages/30/f4/4fe8dda2785a5de66073569f748d3c8113d769fe9f5b2ef94e1e22e929e6/lusid_notifications_sdk-2.1.2.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [finbourne-insights-sdk]: Downloading https://files.pythonhosted.org/packages/5c/56/fe61922c48b45a5b2e32bb2876791670ecdcf7709eef796c5a074fadaa50/finbourne_insights_sdk-2.1.5.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [lusid-configuration-sdk]: Downloading https://files.pythonhosted.org/packages/5b/5b/92ff9593317f48411450dfe5ddf59fa167dfe6db48fecc6abd8c35fb901a/lusid_configuration_sdk-2.1.8.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/a2/f8/60fd93602c8a8ca95dc7c40c70e8cd0227fcbe0dbb602c1f1f2c4d761b20/luminesce_sdk-2.1.9.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [lusid-notifications-sdk]: executing diffoscope
+[2024-05-02 15:37:51] INFO root fetch - processPackages [lusid-notifications-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_notifications_sdk-2.1.1.tar.gz tmp/lusid_notifications_sdk-2.1.2.tar.gz --markdown 20240502/l/lusid-notifications-sdk/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-02 15:37:51] INFO root fetch - processPackages [finbourne-insights-sdk]: executing diffoscope
+[2024-05-02 15:37:51] INFO root fetch - processPackages [finbourne-insights-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_insights_sdk-2.1.4.tar.gz tmp/finbourne_insights_sdk-2.1.5.tar.gz --markdown 20240502/f/finbourne-insights-sdk/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-02 15:37:51] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-05-02 15:37:51] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.1.8.tar.gz tmp/luminesce_sdk-2.1.9.tar.gz --markdown 20240502/l/luminesce-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-02 15:37:51] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/59/18/e16ff44bc8ad593baacf0cccaeabd9609b6e9093f0b3dee0b743f68523e8/digitalhub-0.4.0b3.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [torch-sparse-tensor]: Downloading https://files.pythonhosted.org/packages/c6/26/a5bb3db94ee4c19eb9229c550137383835cdbba6af661ddf1790b782729b/torch_sparse_tensor-0.2.0.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-02 15:37:51] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240502/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-02 15:37:51] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/a9/0e/72910a0879803eddcf20b66f36524a8440dc160f3c4f7397200de2d3e7a6/lusid_scheduler_sdk-2.1.9.tar.gz
+[2024-05-02 15:37:51] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/9c/21/2bc7c2f4a88ea4186d6bb581b0de48f5118c4c40406113d542273c930957/lusid_drive_sdk-2.1.9.tar.gz
+[2024-05-02 15:37:52] INFO root fetch - processPackages [torch-sparse-tensor]: executing diffoscope
+[2024-05-02 15:37:52] INFO root fetch - processPackages [torch-sparse-tensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_sparse_tensor-0.1.1.tar.gz tmp/torch_sparse_tensor-0.2.0.tar.gz --markdown 20240502/t/torch-sparse-tensor/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-02 15:37:52] INFO root fetch - processPackages [lusid-configuration-sdk]: Downloading https://files.pythonhosted.org/packages/f0/dd/405172d11d93dacc4884861c5b68b8c3e80517ed89ebdca3e4e5bc9cd685/lusid_configuration_sdk-2.1.9.tar.gz
+[2024-05-02 15:37:52] INFO root fetch - processPackages [digitalhub]: executing diffoscope
+[2024-05-02 15:37:52] INFO root fetch - processPackages [digitalhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-0.4.0b2.tar.gz tmp/digitalhub-0.4.0b3.tar.gz --markdown 20240502/d/digitalhub/0.4.0b2-0.4.0b3/README.md --exclude *.pyd
+[2024-05-02 15:37:52] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-02 15:37:52] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240502/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-02 15:37:52] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2024-05-02 15:37:52] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_drive_sdk-2.1.8.tar.gz tmp/lusid_drive_sdk-2.1.9.tar.gz --markdown 20240502/l/lusid-drive-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-02 15:37:52] INFO root fetch - processPackages [lusid-scheduler-sdk]: executing diffoscope
+[2024-05-02 15:37:52] INFO root fetch - processPackages [lusid-scheduler-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_scheduler_sdk-2.1.8.tar.gz tmp/lusid_scheduler_sdk-2.1.9.tar.gz --markdown 20240502/l/lusid-scheduler-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-02 15:37:52] INFO root fetch - processPackages [lusid-configuration-sdk]: executing diffoscope
+[2024-05-02 15:37:52] INFO root fetch - processPackages [lusid-configuration-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_configuration_sdk-2.1.8.tar.gz tmp/lusid_configuration_sdk-2.1.9.tar.gz --markdown 20240502/l/lusid-configuration-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-02 15:37:53] INFO root fetch - processPackages [finbourne-insights-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_insights_sdk-2.1.4.tar.gz]
+[2024-05-02 15:37:53] INFO root fetch - processPackages [finbourne-insights-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_insights_sdk-2.1.5.tar.gz]
+[2024-05-02 15:37:53] INFO root fetch - processPackages [finbourne-insights-sdk]: Start processing: finbourne-horizon-sdk
+[2024-05-02 15:37:53] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk]: success
+[2024-05-02 15:37:53] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-02 15:37:53] INFO root fetch - processPackages [torch-sparse-tensor]: Remove: archive file [/home/abi/fetcher/tmp/torch_sparse_tensor-0.1.1.tar.gz]
+[2024-05-02 15:37:53] INFO root fetch - processPackages [torch-sparse-tensor]: Remove: archive file [/home/abi/fetcher/tmp/torch_sparse_tensor-0.2.0.tar.gz]
+[2024-05-02 15:37:53] INFO root fetch - processPackages [torch-sparse-tensor]: Start processing: rats-pipelines
+[2024-05-02 15:37:53] INFO root fetch - main [MainThread]: End processing [torch-sparse-tensor]: success
+[2024-05-02 15:37:53] INFO root fetch - processPackages [lusid-notifications-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_notifications_sdk-2.1.1.tar.gz]
+[2024-05-02 15:37:53] INFO root fetch - processPackages [lusid-notifications-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_notifications_sdk-2.1.2.tar.gz]
+[2024-05-02 15:37:53] INFO root fetch - processPackages [lusid-notifications-sdk]: Start processing: rats-processors
+[2024-05-02 15:37:53] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk]: success
+[2024-05-02 15:37:54] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-05-02 15:37:54] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/67/4d/e1a8441c0793c287231aa24b799798d11cf616a132506eff04205a00f779/finbourne_horizon_sdk-2.1.8.tar.gz
+[2024-05-02 15:37:54] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-05-02 15:37:54] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.4.0b2.tar.gz]
+[2024-05-02 15:37:54] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.4.0b3.tar.gz]
+[2024-05-02 15:37:54] INFO root fetch - processPackages [digitalhub]: Start processing: marxs
+[2024-05-02 15:37:54] INFO root fetch - main [MainThread]: End processing [digitalhub]: success
+[2024-05-02 15:37:54] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.8.tar.gz]
+[2024-05-02 15:37:54] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.9.tar.gz]
+[2024-05-02 15:37:54] INFO root fetch - processPackages [lusid-drive-sdk]: Start processing: digitalhub-core
+[2024-05-02 15:37:54] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2024-05-02 15:37:54] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.8.tar.gz]
+[2024-05-02 15:37:54] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.9.tar.gz]
+[2024-05-02 15:37:54] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-05-02 15:37:54] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-05-02 15:37:54] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-02 15:37:54] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-02 15:37:54] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-02 15:37:54] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-05-02 15:37:54] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.1.8.tar.gz]
+[2024-05-02 15:37:54] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.1.9.tar.gz]
+[2024-05-02 15:37:54] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk]: success
+[2024-05-02 15:37:54] INFO root fetch - processPackages [marxs]: New version: [2.0] Old Version: [1.2]
+[2024-05-02 15:37:54] INFO root fetch - processPackages [lusid-configuration-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_configuration_sdk-2.1.8.tar.gz]
+[2024-05-02 15:37:54] INFO root fetch - processPackages [lusid-configuration-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_configuration_sdk-2.1.9.tar.gz]
+[2024-05-02 15:37:54] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk]: success
+[2024-05-02 15:37:54] INFO root fetch - processPackages [digitalhub-core]: New version: [0.4.0b3] Old Version: [0.4.0b2]
+[2024-05-02 15:37:54] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/df/fa/2361b9179baf6e0ef8aa5667c5bf5ef7c28a98660f52bb7a7c8671f43c8e/finbourne_horizon_sdk-2.1.9.tar.gz
+[2024-05-02 15:37:54] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-02 15:37:54] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-02 15:37:54] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-02 15:37:54] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-05-02 15:37:54] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-05-02 15:37:54] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.8.tar.gz tmp/finbourne_horizon_sdk-2.1.9.tar.gz --markdown 20240502/f/finbourne-horizon-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-02 15:37:54] INFO root fetch - processPackages [marxs]: Downloading https://files.pythonhosted.org/packages/b8/1b/95aaf77ac07482c0225bfd489fa6925a8c2e537f822703eb1d0f7b97a462/marxs-1.2.tar.gz
+[2024-05-02 15:37:54] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-05-02 15:37:54] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/24/b3/b8fed2df1e164e176f2f2475b4c7e5b78450a6cc1bcc054f3f202fd3bb5f/digitalhub_core-0.4.0b2.tar.gz
+[2024-05-02 15:37:54] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-05-02 15:37:54] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240502/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-05-02 15:37:54] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-05-02 15:37:54] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240502/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-05-02 15:37:54] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/3d/55/83d2fe210ed4162df3d3033df922f8f43296acfaa5a52bd9a0cca42c1ffb/digitalhub_core-0.4.0b3.tar.gz
+[2024-05-02 15:37:55] INFO root fetch - processPackages [marxs]: Downloading https://files.pythonhosted.org/packages/d8/2d/6fef85101df3af981561e757307c2866129a8812bc5c19d92b0e85fc3aa4/marxs-2.0.tar.gz
+[2024-05-02 15:37:55] INFO root fetch - processPackages [digitalhub-core]: executing diffoscope
+[2024-05-02 15:37:55] INFO root fetch - processPackages [digitalhub-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_core-0.4.0b2.tar.gz tmp/digitalhub_core-0.4.0b3.tar.gz --markdown 20240502/d/digitalhub-core/0.4.0b2-0.4.0b3/README.md --exclude *.pyd
+[2024-05-02 15:37:55] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.8.tar.gz]
+[2024-05-02 15:37:55] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.9.tar.gz]
+[2024-05-02 15:37:55] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-05-02 15:37:55] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-05-02 15:37:55] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-05-02 15:37:55] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-05-02 15:37:55] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-05-02 15:37:55] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-05-02 15:37:55] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-05-02 15:37:56] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.4.0b2.tar.gz]
+[2024-05-02 15:37:56] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.4.0b3.tar.gz]
+[2024-05-02 15:37:56] INFO root fetch - main [MainThread]: End processing [digitalhub-core]: success
+[2024-05-02 15:37:56] INFO root fetch - processPackages [marxs]: executing diffoscope
+[2024-05-02 15:37:56] INFO root fetch - processPackages [marxs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marxs-1.2.tar.gz tmp/marxs-2.0.tar.gz --markdown 20240502/m/marxs/1.2-2.0/README.md --exclude *.pyd
+[2024-05-02 15:37:58] INFO root fetch - processPackages [marxs]: Remove: archive file [/home/abi/fetcher/tmp/marxs-1.2.tar.gz]
+[2024-05-02 15:37:58] INFO root fetch - processPackages [marxs]: Remove: archive file [/home/abi/fetcher/tmp/marxs-2.0.tar.gz]
+[2024-05-02 15:37:58] INFO root fetch - main [MainThread]: End processing [marxs]: success
+[2024-05-02 15:37:58] INFO root fetch - main [MainThread]: Store serial: [23031669]
