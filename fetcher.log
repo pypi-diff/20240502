@@ -2308,3 +2308,20 @@
 [2024-05-02 02:22:23] INFO root fetch - processPackages [amaazetools]: Remove: archive file [/home/abi/fetcher/tmp/amaazetools-0.1.2.tar.gz]
 [2024-05-02 02:22:23] INFO root fetch - main [MainThread]: End processing [amaazetools]: success
 [2024-05-02 02:22:23] INFO root fetch - main [MainThread]: Store serial: [23023839]
+[2024-05-02 02:24:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23023839]
+[2024-05-02 02:24:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 02:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tcp-modbus-aio
+[2024-05-02 02:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NEURON-nightly
+[2024-05-02 02:24:31] INFO root fetch - processPackages [tcp-modbus-aio]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-02 02:24:31] INFO root fetch - processPackages [tcp-modbus-aio]: Downloading https://files.pythonhosted.org/packages/04/79/6ec181a84d9a646ec9e74f112e3053da42a2be4ba813f963ec4e439dc487/tcp_modbus_aio-0.2.5.tar.gz
+[2024-05-02 02:24:31] INFO root fetch - processPackages [NEURON-nightly]: New version: [9.0a1.dev233] Old Version: [9.0a1.dev232]
+[2024-05-02 02:24:31] INFO root fetch - processPackages [NEURON-nightly]: Downloading https://files.pythonhosted.org/packages/65/dd/36d8cf183b7ceb32e2570244e6ab4e886180612fb00a4be7ee888dfc84f5/NEURON_nightly-9.0a1.dev232-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-02 02:24:31] WARNING root fetch - processPackages [NEURON-nightly]: Skipping package: exceeds size limit 26078954>=10485760
+[2024-05-02 02:24:31] INFO root fetch - main [MainThread]: End processing [NEURON-nightly] error
+[2024-05-02 02:24:31] INFO root fetch - processPackages [tcp-modbus-aio]: Downloading https://files.pythonhosted.org/packages/8a/9c/a15a3529cf9533b814bb52b0afd787819a4c884e87fd6f8ac38d123acd23/tcp_modbus_aio-0.2.6.tar.gz
+[2024-05-02 02:24:32] INFO root fetch - processPackages [tcp-modbus-aio]: executing diffoscope
+[2024-05-02 02:24:32] INFO root fetch - processPackages [tcp-modbus-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcp_modbus_aio-0.2.5.tar.gz tmp/tcp_modbus_aio-0.2.6.tar.gz --markdown 20240502/t/tcp-modbus-aio/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-02 02:24:32] INFO root fetch - processPackages [tcp-modbus-aio]: Remove: archive file [/home/abi/fetcher/tmp/tcp_modbus_aio-0.2.5.tar.gz]
+[2024-05-02 02:24:32] INFO root fetch - processPackages [tcp-modbus-aio]: Remove: archive file [/home/abi/fetcher/tmp/tcp_modbus_aio-0.2.6.tar.gz]
+[2024-05-02 02:24:32] INFO root fetch - main [MainThread]: End processing [tcp-modbus-aio]: success
+[2024-05-02 02:24:32] INFO root fetch - main [MainThread]: Store serial: [23023856]
