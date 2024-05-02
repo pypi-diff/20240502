@@ -9038,3 +9038,45 @@
 [2024-05-02 06:36:04] INFO root fetch - processPackages [quasarpy]: Remove: archive file [/home/abi/fetcher/tmp/quasarpy-0.2.0.tar.gz]
 [2024-05-02 06:36:04] INFO root fetch - main [MainThread]: End processing [quasarpy]: success
 [2024-05-02 06:36:04] INFO root fetch - main [MainThread]: Store serial: [23026332]
+[2024-05-02 06:38:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026332]
+[2024-05-02 06:38:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 06:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-fr-intrastat-product
+[2024-05-02 06:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mylocale
+[2024-05-02 06:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quaero
+[2024-05-02 06:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wifi-direct-raspi
+[2024-05-02 06:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: templated-setup
+[2024-05-02 06:38:13] INFO root fetch - processPackages [templated-setup]: New version: [0.92] Old Version: [0.91]
+[2024-05-02 06:38:13] INFO root fetch - processPackages [mylocale]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 06:38:13] WARNING root fetch - processPackages [wifi-direct-raspi]: Skipping, unable to determine old version
+[2024-05-02 06:38:13] INFO root fetch - main [MainThread]: End processing [wifi-direct-raspi] error
+[2024-05-02 06:38:13] INFO root fetch - processPackages [quaero]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-02 06:38:13] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: New version: [16.0.2.0.0.2] Old Version: [16.0.2.0.0.1]
+[2024-05-02 06:38:13] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/2f/5b/5f942678cf7b6312828c8c42d0ad634e3a78f330e639d0aec633281923a9/mylocale-0.8.0.tar.gz
+[2024-05-02 06:38:13] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/77/4b/34a4b87e0d5e3c82570da678264ecbee58d58bca8dc25cc5402c48e176a3/templated_setup-0.91.tar.gz
+[2024-05-02 06:38:13] INFO root fetch - processPackages [quaero]: Downloading https://files.pythonhosted.org/packages/1c/d5/e21cdef30d7dae582e3faadd9f582e343ca6cd578064af1e60f78e9eff8d/quaero-1.1.4.tar.gz
+[2024-05-02 06:38:13] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: Downloading https://files.pythonhosted.org/packages/2c/fa/760463d297393bf3963834fa410ec2ff96f9742c634c2102177c40b4ea5f/odoo_addon_l10n_fr_intrastat_product-16.0.2.0.0.1-py3-none-any.whl
+[2024-05-02 06:38:13] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/cf/31/7eaef23f3354fae298c96e7453c8c73b0605787b351c7010185d89124bb0/mylocale-0.9.0.tar.gz
+[2024-05-02 06:38:14] INFO root fetch - processPackages [mylocale]: executing diffoscope
+[2024-05-02 06:38:14] INFO root fetch - processPackages [mylocale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mylocale-0.8.0.tar.gz tmp/mylocale-0.9.0.tar.gz --markdown 20240502/m/mylocale/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 06:38:14] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/08/41/8bd41012693314d750a197ab0e376b5fae0a5efbf3327c3fe3ef45e91195/templated_setup-0.92.tar.gz
+[2024-05-02 06:38:14] INFO root fetch - processPackages [quaero]: Downloading https://files.pythonhosted.org/packages/ea/64/1f6ab79ce646e48a75b26fdc991f7f09d1d6a701ec9f297fd765e9060dd3/quaero-1.1.5.tar.gz
+[2024-05-02 06:38:14] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 06:38:14] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.91.tar.gz tmp/templated_setup-0.92.tar.gz --markdown 20240502/t/templated-setup/0.91-0.92/README.md --exclude *.pyd
+[2024-05-02 06:38:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: Downloading https://files.pythonhosted.org/packages/d0/b9/282f73f883cdf6f04a7071980d4040bd0e76d689af861520aa0c616c1603/odoo_addon_l10n_fr_intrastat_product-16.0.2.0.0.2-py3-none-any.whl
+[2024-05-02 06:38:14] INFO root fetch - processPackages [quaero]: executing diffoscope
+[2024-05-02 06:38:14] INFO root fetch - processPackages [quaero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quaero-1.1.4.tar.gz tmp/quaero-1.1.5.tar.gz --markdown 20240502/q/quaero/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-02 06:38:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: executing diffoscope
+[2024-05-02 06:38:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_intrastat_product-16.0.2.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_intrastat_product-16.0.2.0.0.2-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-fr-intrastat-product/16.0.2.0.0.1-16.0.2.0.0.2/README.md --exclude *.pyd
+[2024-05-02 06:38:14] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.8.0.tar.gz]
+[2024-05-02 06:38:14] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.9.0.tar.gz]
+[2024-05-02 06:38:14] INFO root fetch - main [MainThread]: End processing [mylocale]: success
+[2024-05-02 06:38:14] INFO root fetch - processPackages [quaero]: Remove: archive file [/home/abi/fetcher/tmp/quaero-1.1.4.tar.gz]
+[2024-05-02 06:38:14] INFO root fetch - processPackages [quaero]: Remove: archive file [/home/abi/fetcher/tmp/quaero-1.1.5.tar.gz]
+[2024-05-02 06:38:14] INFO root fetch - main [MainThread]: End processing [quaero]: success
+[2024-05-02 06:38:14] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.91.tar.gz]
+[2024-05-02 06:38:14] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.92.tar.gz]
+[2024-05-02 06:38:14] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 06:38:15] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_intrastat_product-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2024-05-02 06:38:15] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_intrastat_product-16.0.2.0.0.2-py3-none-any.whl.zip]
+[2024-05-02 06:38:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-intrastat-product]: success
+[2024-05-02 06:38:15] INFO root fetch - main [MainThread]: Store serial: [23026347]
