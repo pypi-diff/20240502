@@ -21971,3 +21971,51 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:31:16] INFO root fetch - processPackages [mmcore]: Remove: archive file [/home/abi/fetcher/tmp/mmcore-0.25.6.tar.gz]
 [2024-05-02 15:31:16] INFO root fetch - main [MainThread]: End processing [mmcore]: success
 [2024-05-02 15:31:16] INFO root fetch - main [MainThread]: Store serial: [23031611]
+[2024-05-02 15:33:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031611]
+[2024-05-02 15:33:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 15:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hfutils
+[2024-05-02 15:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-ro-stock
+[2024-05-02 15:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-ro-stock-report
+[2024-05-02 15:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graph-attention-student
+[2024-05-02 15:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skillcorner
+[2024-05-02 15:33:28] INFO root fetch - processPackages [hfutils]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-02 15:33:28] INFO root fetch - processPackages [graph-attention-student]: New version: [0.9.0] Old Version: [0.7.2]
+[2024-05-02 15:33:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: New version: [17.0.1.1.0] Old Version: [16.0.6.13.0]
+[2024-05-02 15:33:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: New version: [17.0.0.4.0] Old Version: [17.0.0.3.0]
+[2024-05-02 15:33:28] INFO root fetch - processPackages [skillcorner]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-02 15:33:28] INFO root fetch - processPackages [hfutils]: Downloading https://files.pythonhosted.org/packages/d6/16/8253b70eb885b36a964e89e9a1191cffa7326a21177200470172aebf731b/hfutils-0.2.2.tar.gz
+[2024-05-02 15:33:28] INFO root fetch - processPackages [graph-attention-student]: Downloading https://files.pythonhosted.org/packages/82/08/65e22c56ee2fb243d98aa8bb8717340eae962b1a44b165cfe7fb7d1f1287/graph_attention_student-0.7.2.tar.gz
+[2024-05-02 15:33:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/e4/f7/ea3be7d43702fbb0fae8e93b5c70a43d7793b1c3ad3adb7a6a74ffb128be/odoo_addon_l10n_ro_stock_report-16.0.6.13.0-py3-none-any.whl
+[2024-05-02 15:33:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: Downloading https://files.pythonhosted.org/packages/c5/9d/a3f5ed410075ae3da0963d3eb625631920cbde2e8d87bb7df2dc2e6711ba/odoo_addon_l10n_ro_stock-17.0.0.3.0-py3-none-any.whl
+[2024-05-02 15:33:28] INFO root fetch - processPackages [skillcorner]: Downloading https://files.pythonhosted.org/packages/00/8c/d91547f652f7753ce2e281fa0c25d69611b458775f5b92c45b7158063c66/skillcorner-2.2.8.tar.gz
+[2024-05-02 15:33:28] INFO root fetch - processPackages [hfutils]: Downloading https://files.pythonhosted.org/packages/db/63/6bd93f6c38d2e8090efb82fd2be7957944c09aad44e2af42e6d10f663c20/hfutils-0.2.3.tar.gz
+[2024-05-02 15:33:28] INFO root fetch - processPackages [graph-attention-student]: Downloading https://files.pythonhosted.org/packages/f6/af/03d655f11e0bb93ad8111eafae9bc42e3da6529c716a97511dd8ff1fd673/graph_attention_student-0.9.0.tar.gz
+[2024-05-02 15:33:28] INFO root fetch - processPackages [hfutils]: executing diffoscope
+[2024-05-02 15:33:28] INFO root fetch - processPackages [hfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hfutils-0.2.2.tar.gz tmp/hfutils-0.2.3.tar.gz --markdown 20240502/h/hfutils/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-02 15:33:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/69/76/5ab2a2809a786a9d49987ae61b4a6b9f92544e2b4424df8d2f9dea34d73a/odoo_addon_l10n_ro_stock_report-17.0.1.1.0-py3-none-any.whl
+[2024-05-02 15:33:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: Downloading https://files.pythonhosted.org/packages/e7/2a/e7a9b30049ba9defef651a193e86951aac33658affcf3b6a4ce924b1a8ff/odoo_addon_l10n_ro_stock-17.0.0.4.0-py3-none-any.whl
+[2024-05-02 15:33:29] INFO root fetch - processPackages [skillcorner]: Downloading https://files.pythonhosted.org/packages/72/2d/13eb42ee2426c1d9b06200e91146c955a5aba9471fe4ecaec7d352261fb5/skillcorner-2.2.9.tar.gz
+[2024-05-02 15:33:29] INFO root fetch - processPackages [graph-attention-student]: executing diffoscope
+[2024-05-02 15:33:29] INFO root fetch - processPackages [graph-attention-student]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_attention_student-0.7.2.tar.gz tmp/graph_attention_student-0.9.0.tar.gz --markdown 20240502/g/graph-attention-student/0.7.2-0.9.0/README.md --exclude *.pyd
+[2024-05-02 15:33:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: executing diffoscope
+[2024-05-02 15:33:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_report-16.0.6.13.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_report-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-ro-stock-report/16.0.6.13.0-17.0.1.1.0/README.md --exclude *.pyd
+[2024-05-02 15:33:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: executing diffoscope
+[2024-05-02 15:33:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock-17.0.0.3.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock-17.0.0.4.0-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-l10n-ro-stock/17.0.0.3.0-17.0.0.4.0/README.md --exclude *.pyd
+[2024-05-02 15:33:29] INFO root fetch - processPackages [skillcorner]: executing diffoscope
+[2024-05-02 15:33:29] INFO root fetch - processPackages [skillcorner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillcorner-2.2.8.tar.gz tmp/skillcorner-2.2.9.tar.gz --markdown 20240502/s/skillcorner/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-02 15:33:29] INFO root fetch - processPackages [hfutils]: Remove: archive file [/home/abi/fetcher/tmp/hfutils-0.2.2.tar.gz]
+[2024-05-02 15:33:29] INFO root fetch - processPackages [hfutils]: Remove: archive file [/home/abi/fetcher/tmp/hfutils-0.2.3.tar.gz]
+[2024-05-02 15:33:29] INFO root fetch - main [MainThread]: End processing [hfutils]: success
+[2024-05-02 15:33:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_report-16.0.6.13.0-py3-none-any.whl.zip]
+[2024-05-02 15:33:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_report-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-02 15:33:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-report]: success
+[2024-05-02 15:33:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock-17.0.0.3.0-py3-none-any.whl.zip]
+[2024-05-02 15:33:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock-17.0.0.4.0-py3-none-any.whl.zip]
+[2024-05-02 15:33:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock]: success
+[2024-05-02 15:33:30] INFO root fetch - processPackages [skillcorner]: Remove: archive file [/home/abi/fetcher/tmp/skillcorner-2.2.8.tar.gz]
+[2024-05-02 15:33:30] INFO root fetch - processPackages [skillcorner]: Remove: archive file [/home/abi/fetcher/tmp/skillcorner-2.2.9.tar.gz]
+[2024-05-02 15:33:30] INFO root fetch - main [MainThread]: End processing [skillcorner]: success
+[2024-05-02 15:33:30] INFO root fetch - processPackages [graph-attention-student]: Remove: archive file [/home/abi/fetcher/tmp/graph_attention_student-0.7.2.tar.gz]
+[2024-05-02 15:33:30] INFO root fetch - processPackages [graph-attention-student]: Remove: archive file [/home/abi/fetcher/tmp/graph_attention_student-0.9.0.tar.gz]
+[2024-05-02 15:33:30] INFO root fetch - main [MainThread]: End processing [graph-attention-student]: success
+[2024-05-02 15:33:30] INFO root fetch - main [MainThread]: Store serial: [23031624]
