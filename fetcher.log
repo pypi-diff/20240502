@@ -13619,3 +13619,51 @@
 [2024-05-02 10:36:51] INFO root fetch - processPackages [autopeptideml]: Remove: archive file [/home/abi/fetcher/tmp/autopeptideml-0.2.9.tar.gz]
 [2024-05-02 10:36:51] INFO root fetch - main [MainThread]: End processing [autopeptideml]: success
 [2024-05-02 10:36:51] INFO root fetch - main [MainThread]: Store serial: [23028206]
+[2024-05-02 10:38:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028206]
+[2024-05-02 10:39:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 10:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bridgecrew
+[2024-05-02 10:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lstosa
+[2024-05-02 10:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enigmapython
+[2024-05-02 10:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyCompGeomAlgorithms
+[2024-05-02 10:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytabtex
+[2024-05-02 10:39:00] INFO root fetch - processPackages [enigmapython]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 10:39:00] INFO root fetch - processPackages [pytabtex]: New version: [0.1.2.1] Old Version: [0.1.2]
+[2024-05-02 10:39:00] INFO root fetch - processPackages [PyCompGeomAlgorithms]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 10:39:00] INFO root fetch - processPackages [lstosa]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-02 10:39:00] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Downloading https://files.pythonhosted.org/packages/30/8b/6e606d2d9e9edf6afe4106b9fc0602f260f70fefce85a767acd72ddd9ce0/PyCompGeomAlgorithms-1.0.8.tar.gz
+[2024-05-02 10:39:00] INFO root fetch - processPackages [pytabtex]: Downloading https://files.pythonhosted.org/packages/fb/4a/bc7cdd07532809c489a9274498dc218b556ebec15e8cbe7a181c44150f9d/pytabtex-0.1.2.tar.gz
+[2024-05-02 10:39:00] INFO root fetch - processPackages [enigmapython]: Downloading https://files.pythonhosted.org/packages/df/81/681fa2ca34b35c8943c631112bbdae84f7a2042496640d050701541067d9/enigmapython-0.1.0.tar.gz
+[2024-05-02 10:39:00] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-02 10:39:00] INFO root fetch - processPackages [lstosa]: Downloading https://files.pythonhosted.org/packages/31/fd/e4390bfdab9f6505a2ef038b7262f7fc9d593192eb3bba4afcd734e76ba4/lstosa-0.9.4.tar.gz
+[2024-05-02 10:39:00] INFO root fetch - processPackages [enigmapython]: Downloading https://files.pythonhosted.org/packages/bc/82/05adef6b4d998471dd1d23e6c6c723a8db766d4126101ef9d238466d232e/enigmapython-0.1.1.tar.gz
+[2024-05-02 10:39:00] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/10/ba/dce7980ff0b7c11c6b0d4933f275f376eb8a4c997f0527cc483ac2310c8b/bridgecrew-3.2.8.tar.gz
+[2024-05-02 10:39:00] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Downloading https://files.pythonhosted.org/packages/d0/1b/e234c6881824a409fad78e30a10c197a21e5e573aa247b66bbc6153e9ca0/PyCompGeomAlgorithms-1.0.9.tar.gz
+[2024-05-02 10:39:00] INFO root fetch - processPackages [pytabtex]: Downloading https://files.pythonhosted.org/packages/a4/81/02acf5ab8ded67cc4b01784ae3ed216b045fdf1bb9bcb6f9b139c63a600f/pytabtex-0.1.2.1.tar.gz
+[2024-05-02 10:39:01] INFO root fetch - processPackages [enigmapython]: executing diffoscope
+[2024-05-02 10:39:01] INFO root fetch - processPackages [enigmapython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enigmapython-0.1.0.tar.gz tmp/enigmapython-0.1.1.tar.gz --markdown 20240502/e/enigmapython/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 10:39:01] INFO root fetch - processPackages [pytabtex]: executing diffoscope
+[2024-05-02 10:39:01] INFO root fetch - processPackages [pytabtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytabtex-0.1.2.tar.gz tmp/pytabtex-0.1.2.1.tar.gz --markdown 20240502/p/pytabtex/0.1.2-0.1.2.1/README.md --exclude *.pyd
+[2024-05-02 10:39:01] INFO root fetch - processPackages [PyCompGeomAlgorithms]: executing diffoscope
+[2024-05-02 10:39:01] INFO root fetch - processPackages [PyCompGeomAlgorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCompGeomAlgorithms-1.0.8.tar.gz tmp/PyCompGeomAlgorithms-1.0.9.tar.gz --markdown 20240502/P/PyCompGeomAlgorithms/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 10:39:01] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-05-02 10:39:01] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-02 10:39:01] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.8.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240502/b/bridgecrew/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-02 10:39:01] INFO root fetch - processPackages [pytabtex]: Remove: archive file [/home/abi/fetcher/tmp/pytabtex-0.1.2.tar.gz]
+[2024-05-02 10:39:01] INFO root fetch - processPackages [pytabtex]: Remove: archive file [/home/abi/fetcher/tmp/pytabtex-0.1.2.1.tar.gz]
+[2024-05-02 10:39:01] INFO root fetch - main [MainThread]: End processing [pytabtex]: success
+[2024-05-02 10:39:01] INFO root fetch - processPackages [enigmapython]: Remove: archive file [/home/abi/fetcher/tmp/enigmapython-0.1.0.tar.gz]
+[2024-05-02 10:39:01] INFO root fetch - processPackages [enigmapython]: Remove: archive file [/home/abi/fetcher/tmp/enigmapython-0.1.1.tar.gz]
+[2024-05-02 10:39:01] INFO root fetch - main [MainThread]: End processing [enigmapython]: success
+[2024-05-02 10:39:01] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Remove: archive file [/home/abi/fetcher/tmp/PyCompGeomAlgorithms-1.0.8.tar.gz]
+[2024-05-02 10:39:01] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Remove: archive file [/home/abi/fetcher/tmp/PyCompGeomAlgorithms-1.0.9.tar.gz]
+[2024-05-02 10:39:01] INFO root fetch - main [MainThread]: End processing [PyCompGeomAlgorithms]: success
+[2024-05-02 10:39:01] INFO root fetch - processPackages [lstosa]: Downloading https://files.pythonhosted.org/packages/d9/dc/d8663f782ac68e662163f5bed97336cb6b768ac45060ea93fbf5278bec32/lstosa-0.9.5.tar.gz
+[2024-05-02 10:39:01] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.8.tar.gz]
+[2024-05-02 10:39:01] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-05-02 10:39:02] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-02 10:39:02] INFO root fetch - processPackages [lstosa]: executing diffoscope
+[2024-05-02 10:39:02] INFO root fetch - processPackages [lstosa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lstosa-0.9.4.tar.gz tmp/lstosa-0.9.5.tar.gz --markdown 20240502/l/lstosa/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-02 10:39:03] INFO root fetch - processPackages [lstosa]: Remove: archive file [/home/abi/fetcher/tmp/lstosa-0.9.4.tar.gz]
+[2024-05-02 10:39:03] INFO root fetch - processPackages [lstosa]: Remove: archive file [/home/abi/fetcher/tmp/lstosa-0.9.5.tar.gz]
+[2024-05-02 10:39:03] INFO root fetch - main [MainThread]: End processing [lstosa]: success
+[2024-05-02 10:39:03] INFO root fetch - main [MainThread]: Store serial: [23028221]
