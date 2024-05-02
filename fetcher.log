@@ -7334,3 +7334,69 @@
 [2024-05-02 04:08:40] INFO root fetch - processPackages [keri]: Remove: archive file [/home/abi/fetcher/tmp/keri-1.2.0.dev2.tar.gz]
 [2024-05-02 04:08:40] INFO root fetch - main [MainThread]: End processing [keri]: success
 [2024-05-02 04:08:40] INFO root fetch - main [MainThread]: Store serial: [23025619]
+[2024-05-02 04:10:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025619]
+[2024-05-02 04:10:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 04:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: report-creator
+[2024-05-02 04:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: templated-setup
+[2024-05-02 04:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spleenseg
+[2024-05-02 04:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkg-inspect
+[2024-05-02 04:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: musicnotes
+[2024-05-02 04:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepdog
+[2024-05-02 04:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seclook
+[2024-05-02 04:10:50] INFO root fetch - processPackages [spleenseg]: New version: [1.2.4] Old Version: [1.2.26]
+[2024-05-02 04:10:50] INFO root fetch - processPackages [pkg-inspect]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 04:10:50] INFO root fetch - processPackages [musicnotes]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-02 04:10:50] INFO root fetch - processPackages [deepdog]: New version: [1.0.0] Old Version: [0.8.1]
+[2024-05-02 04:10:50] INFO root fetch - processPackages [report-creator]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 04:10:50] INFO root fetch - processPackages [seclook]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-02 04:10:50] INFO root fetch - processPackages [spleenseg]: Downloading https://files.pythonhosted.org/packages/30/48/0e5a6de755a085919b9663047e972089212106bae38a99083100c6b128a5/spleenseg-1.2.26.tar.gz
+[2024-05-02 04:10:50] INFO root fetch - processPackages [templated-setup]: New version: [0.91] Old Version: [0.9]
+[2024-05-02 04:10:50] INFO root fetch - processPackages [deepdog]: Downloading https://files.pythonhosted.org/packages/a9/37/f84982658e4088a4c4e84484c59e0edb5b7154bde2705211bfad7677bb00/deepdog-0.8.1.tar.gz
+[2024-05-02 04:10:50] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/bf/40/c4f0dce97f431e9c4a87dac20679c002aee24c065b00c789a81546889d76/musicnotes-1.0.3.tar.gz
+[2024-05-02 04:10:50] INFO root fetch - processPackages [pkg-inspect]: Downloading https://files.pythonhosted.org/packages/b1/29/f7ef3e93397ad09afd90b07d73fdaa69b65777f28672adbb7e67762e4d9b/pkg_inspect-0.1.0.tar.gz
+[2024-05-02 04:10:50] INFO root fetch - processPackages [report-creator]: Downloading https://files.pythonhosted.org/packages/57/ef/80d0f362d1009648ca0ef0f2dadddabcae16222604617a8e3a951400fd86/report_creator-1.0.8.tar.gz
+[2024-05-02 04:10:50] INFO root fetch - processPackages [spleenseg]: Downloading https://files.pythonhosted.org/packages/79/0b/9db236873e673eb503ed1ba14cb184cd4517c10956c612ba3657409cf04f/spleenseg-1.2.4.tar.gz
+[2024-05-02 04:10:50] INFO root fetch - processPackages [deepdog]: Downloading https://files.pythonhosted.org/packages/b2/6a/aa89152624b9c8b4c5319ac22494168d07b40f6a76bbed8e011d9a1bbbe0/deepdog-1.0.0.tar.gz
+[2024-05-02 04:10:50] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/b2/11/fd0a3fde9b37635737412cf3660b7edf0e7e02d2cc02dcf162575f6499fe/templated_setup-0.9.tar.gz
+[2024-05-02 04:10:50] INFO root fetch - processPackages [seclook]: Downloading https://files.pythonhosted.org/packages/48/5f/d0e0aaefcd4120862be54bdfe96baaccbf7f4fef97fb3a546663cba265c4/seclook-0.7.0.tar.gz
+[2024-05-02 04:10:50] INFO root fetch - processPackages [spleenseg]: executing diffoscope
+[2024-05-02 04:10:50] INFO root fetch - processPackages [spleenseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spleenseg-1.2.26.tar.gz tmp/spleenseg-1.2.4.tar.gz --markdown 20240502/s/spleenseg/1.2.26-1.2.4/README.md --exclude *.pyd
+[2024-05-02 04:10:50] INFO root fetch - processPackages [deepdog]: executing diffoscope
+[2024-05-02 04:10:50] INFO root fetch - processPackages [deepdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdog-0.8.1.tar.gz tmp/deepdog-1.0.0.tar.gz --markdown 20240502/d/deepdog/0.8.1-1.0.0/README.md --exclude *.pyd
+[2024-05-02 04:10:50] INFO root fetch - processPackages [musicnotes]: Downloading https://files.pythonhosted.org/packages/3d/14/b82e792915314745759686ce08c8cb01223b15047ca092ed6b0df4ae0564/musicnotes-1.0.4.tar.gz
+[2024-05-02 04:10:50] INFO root fetch - processPackages [pkg-inspect]: Downloading https://files.pythonhosted.org/packages/1e/43/a2de0e2b778fd518af9e52e79c35a48bac4d2b5f9cd50214a9d715d8f346/pkg_inspect-0.1.1.tar.gz
+[2024-05-02 04:10:50] INFO root fetch - processPackages [musicnotes]: executing diffoscope
+[2024-05-02 04:10:50] INFO root fetch - processPackages [musicnotes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicnotes-1.0.3.tar.gz tmp/musicnotes-1.0.4.tar.gz --markdown 20240502/m/musicnotes/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-02 04:10:50] INFO root fetch - processPackages [report-creator]: Downloading https://files.pythonhosted.org/packages/9f/b7/f0e16193c83b532bc0e2222b47171e2feab21ebd4b7ffa9d962f816813bc/report_creator-1.0.9.tar.gz
+[2024-05-02 04:10:51] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/77/4b/34a4b87e0d5e3c82570da678264ecbee58d58bca8dc25cc5402c48e176a3/templated_setup-0.91.tar.gz
+[2024-05-02 04:10:51] INFO root fetch - processPackages [seclook]: Downloading https://files.pythonhosted.org/packages/ca/9f/6fdcd8caa5418e4c8a60d5d233cbc376d7fca7925b2eb4ed13b3fdac776c/seclook-0.7.1.tar.gz
+[2024-05-02 04:10:51] INFO root fetch - processPackages [pkg-inspect]: executing diffoscope
+[2024-05-02 04:10:51] INFO root fetch - processPackages [pkg-inspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkg_inspect-0.1.0.tar.gz tmp/pkg_inspect-0.1.1.tar.gz --markdown 20240502/p/pkg-inspect/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 04:10:51] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 04:10:51] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.9.tar.gz tmp/templated_setup-0.91.tar.gz --markdown 20240502/t/templated-setup/0.9-0.91/README.md --exclude *.pyd
+[2024-05-02 04:10:51] INFO root fetch - processPackages [report-creator]: executing diffoscope
+[2024-05-02 04:10:51] INFO root fetch - processPackages [report-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report_creator-1.0.8.tar.gz tmp/report_creator-1.0.9.tar.gz --markdown 20240502/r/report-creator/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 04:10:51] INFO root fetch - processPackages [seclook]: executing diffoscope
+[2024-05-02 04:10:51] INFO root fetch - processPackages [seclook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seclook-0.7.0.tar.gz tmp/seclook-0.7.1.tar.gz --markdown 20240502/s/seclook/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-02 04:10:51] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.2.26.tar.gz]
+[2024-05-02 04:10:51] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.2.4.tar.gz]
+[2024-05-02 04:10:51] INFO root fetch - main [MainThread]: End processing [spleenseg]: success
+[2024-05-02 04:10:51] INFO root fetch - processPackages [deepdog]: Remove: archive file [/home/abi/fetcher/tmp/deepdog-0.8.1.tar.gz]
+[2024-05-02 04:10:51] INFO root fetch - processPackages [deepdog]: Remove: archive file [/home/abi/fetcher/tmp/deepdog-1.0.0.tar.gz]
+[2024-05-02 04:10:51] INFO root fetch - main [MainThread]: End processing [deepdog]: success
+[2024-05-02 04:10:51] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.3.tar.gz]
+[2024-05-02 04:10:51] INFO root fetch - processPackages [musicnotes]: Remove: archive file [/home/abi/fetcher/tmp/musicnotes-1.0.4.tar.gz]
+[2024-05-02 04:10:51] INFO root fetch - main [MainThread]: End processing [musicnotes]: success
+[2024-05-02 04:10:51] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.9.tar.gz]
+[2024-05-02 04:10:51] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.91.tar.gz]
+[2024-05-02 04:10:51] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 04:10:51] INFO root fetch - processPackages [seclook]: Remove: archive file [/home/abi/fetcher/tmp/seclook-0.7.0.tar.gz]
+[2024-05-02 04:10:51] INFO root fetch - processPackages [seclook]: Remove: archive file [/home/abi/fetcher/tmp/seclook-0.7.1.tar.gz]
+[2024-05-02 04:10:51] INFO root fetch - main [MainThread]: End processing [seclook]: success
+[2024-05-02 04:10:51] INFO root fetch - processPackages [pkg-inspect]: Remove: archive file [/home/abi/fetcher/tmp/pkg_inspect-0.1.0.tar.gz]
+[2024-05-02 04:10:51] INFO root fetch - processPackages [pkg-inspect]: Remove: archive file [/home/abi/fetcher/tmp/pkg_inspect-0.1.1.tar.gz]
+[2024-05-02 04:10:51] INFO root fetch - main [MainThread]: End processing [pkg-inspect]: success
+[2024-05-02 04:10:52] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.8.tar.gz]
+[2024-05-02 04:10:52] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.9.tar.gz]
+[2024-05-02 04:10:52] INFO root fetch - main [MainThread]: End processing [report-creator]: success
+[2024-05-02 04:10:52] INFO root fetch - main [MainThread]: Store serial: [23025637]
