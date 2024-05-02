@@ -9243,3 +9243,31 @@
 [2024-05-02 06:53:33] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.94.tar.gz]
 [2024-05-02 06:53:33] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
 [2024-05-02 06:53:33] INFO root fetch - main [MainThread]: Store serial: [23026457]
+[2024-05-02 06:55:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026457]
+[2024-05-02 06:55:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 06:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mylocale
+[2024-05-02 06:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mylocale
+[2024-05-02 06:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django_herobiz_dental
+[2024-05-02 06:55:41] INFO root fetch - processPackages [django_herobiz_dental]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-02 06:55:41] INFO root fetch - processPackages [mylocale]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 06:55:41] INFO root fetch - processPackages [mylocale]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 06:55:41] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/38/f2/6940d53943256779517fd454da804c00bba5dd60b7d2a9f4f89fab7caabf/django_herobiz_dental-1.0.2.tar.gz
+[2024-05-02 06:55:41] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/2f/5b/5f942678cf7b6312828c8c42d0ad634e3a78f330e639d0aec633281923a9/mylocale-0.8.0.tar.gz
+[2024-05-02 06:55:41] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/2f/5b/5f942678cf7b6312828c8c42d0ad634e3a78f330e639d0aec633281923a9/mylocale-0.8.0.tar.gz
+[2024-05-02 06:55:42] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/cf/31/7eaef23f3354fae298c96e7453c8c73b0605787b351c7010185d89124bb0/mylocale-0.9.0.tar.gz
+[2024-05-02 06:55:42] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/cf/31/7eaef23f3354fae298c96e7453c8c73b0605787b351c7010185d89124bb0/mylocale-0.9.0.tar.gz
+[2024-05-02 06:55:42] INFO root fetch - processPackages [mylocale]: executing diffoscope
+[2024-05-02 06:55:42] INFO root fetch - processPackages [mylocale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mylocale-0.8.0.tar.gz tmp/mylocale-0.9.0.tar.gz --markdown 20240502/m/mylocale/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 06:55:42] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/41/84/84d64b90ccaac83ba4628aafe63046118a3761168f7624327e1a404f944b/django_herobiz_dental-1.0.3.tar.gz
+[2024-05-02 06:55:42] INFO root fetch - processPackages [mylocale]: executing diffoscope
+[2024-05-02 06:55:42] INFO root fetch - processPackages [mylocale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mylocale-0.8.0.tar.gz tmp/mylocale-0.9.0.tar.gz --markdown 20240502/m/mylocale/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 06:55:42] INFO root fetch - processPackages [django_herobiz_dental]: executing diffoscope
+[2024-05-02 06:55:42] INFO root fetch - processPackages [django_herobiz_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_dental-1.0.2.tar.gz tmp/django_herobiz_dental-1.0.3.tar.gz --markdown 20240502/d/django_herobiz_dental/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-02 06:55:42] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.8.0.tar.gz]
+[2024-05-02 06:55:42] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.9.0.tar.gz]
+[2024-05-02 06:55:42] INFO root fetch - main [MainThread]: End processing [mylocale]: success
+[2024-05-02 06:55:42] INFO root fetch - main [MainThread]: End processing [mylocale]: success
+[2024-05-02 06:55:44] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.0.2.tar.gz]
+[2024-05-02 06:55:44] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.0.3.tar.gz]
+[2024-05-02 06:55:44] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
+[2024-05-02 06:55:44] INFO root fetch - main [MainThread]: Store serial: [23026466]
