@@ -19623,3 +19623,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 14:39:26] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1523-py3-none-any.whl.zip]
 [2024-05-02 14:39:26] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-05-02 14:39:26] INFO root fetch - main [MainThread]: Store serial: [23030810]
+[2024-05-02 14:41:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030810]
+[2024-05-02 14:41:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 14:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vsensebox-ultralytics
+[2024-05-02 14:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pm2
+[2024-05-02 14:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codeforlife-portal
+[2024-05-02 14:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorcircuit-nightly
+[2024-05-02 14:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cfl-common
+[2024-05-02 14:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fiddler-client
+[2024-05-02 14:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MetaTrader5
+[2024-05-02 14:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: text-machina
+[2024-05-02 14:41:35] INFO root fetch - processPackages [pm2]: New version: [0.0.4.3] Old Version: [0.0.4.2]
+[2024-05-02 14:41:35] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-02 14:41:35] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-02 14:41:35] INFO root fetch - processPackages [MetaTrader5]: New version: [5.0.50] Old Version: [5.0.47]
+[2024-05-02 14:41:35] INFO root fetch - processPackages [text-machina]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-02 14:41:35] WARNING root fetch - processPackages [vsensebox-ultralytics]: Skipping, unable to determine old version
+[2024-05-02 14:41:35] INFO root fetch - main [MainThread]: End processing [vsensebox-ultralytics] error
+[2024-05-02 14:41:35] INFO root fetch - processPackages [pm2]: Downloading https://files.pythonhosted.org/packages/ce/29/e9dc793c813b340f0945a72a40e2ecd195892b36fa4a377d9c101abf5197/pm2-0.0.4.2.tar.gz
+[2024-05-02 14:41:35] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2024-05-02 14:41:35] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-05-02 14:41:35] INFO root fetch - processPackages [fiddler-client]: New version: [3.1.0.dev4] Old Version: [3.1.0.dev3]
+[2024-05-02 14:41:35] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2024-05-02 14:41:35] INFO root fetch - processPackages [MetaTrader5]: Downloading https://files.pythonhosted.org/packages/94/30/6d822819bcadfdc6c6eb1e997a3babacb28663afc2ec02113e6908a1cd40/MetaTrader5-5.0.47-cp39-cp39-win_amd64.whl
+[2024-05-02 14:41:35] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/43/fb/2a39b11c92c91266d6c6c5107acb317438cb839d0795d222d916476c4ce8/fiddler-client-3.1.0.dev3.tar.gz
+[2024-05-02 14:41:35] INFO root fetch - processPackages [text-machina]: Downloading https://files.pythonhosted.org/packages/20/39/a2270cfcb39fdcb497c8137e2cc0e9694f6ac4b8a346b5731d8a866c172c/text_machina-0.2.8.tar.gz
+[2024-05-02 14:41:35] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2024-05-02 14:41:35] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-05-02 14:41:35] INFO root fetch - processPackages [pm2]: Downloading https://files.pythonhosted.org/packages/6a/19/fb420bc2b753d2d0d8fa509419b5bc18a141216e5af192b23331758e4d6d/pm2-0.0.4.3.tar.gz
+[2024-05-02 14:41:35] INFO root fetch - processPackages [pm2]: executing diffoscope
+[2024-05-02 14:41:35] INFO root fetch - processPackages [pm2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm2-0.0.4.2.tar.gz tmp/pm2-0.0.4.3.tar.gz --markdown 20240502/p/pm2/0.0.4.2-0.0.4.3/README.md --exclude *.pyd
+[2024-05-02 14:41:35] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2024-05-02 14:41:35] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20240502/c/cfl-common/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-02 14:41:35] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2024-05-02 14:41:36] INFO root fetch - processPackages [MetaTrader5]: Downloading https://files.pythonhosted.org/packages/bc/c5/87ae13f01f4dc1b16d6aec52fae3f01f0ac3a29eb56c0f0714543cbecaeb/MetaTrader5-5.0.50-cp39-cp39-win_amd64.whl
+[2024-05-02 14:41:36] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/1b/92/05ec7172d30ff7c8af143a434de46b92b4fe525aaf8df5fb76c0a8ffc89c/fiddler_client-3.1.0.dev4.tar.gz
+[2024-05-02 14:41:36] INFO root fetch - processPackages [text-machina]: Downloading https://files.pythonhosted.org/packages/01/de/781f3011b70e23ee6e6872747eae7aba1b0d1a2b402bb3d06517be5ffbdc/text_machina-0.2.9.tar.gz
+[2024-05-02 14:41:36] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-05-02 14:41:36] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-05-02 14:41:36] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-3.1.0.dev3.tar.gz tmp/fiddler_client-3.1.0.dev4.tar.gz --markdown 20240502/f/fiddler-client/3.1.0.dev3-3.1.0.dev4/README.md --exclude *.pyd
+[2024-05-02 14:41:36] INFO root fetch - processPackages [MetaTrader5]: executing diffoscope
+[2024-05-02 14:41:36] INFO root fetch - processPackages [MetaTrader5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MetaTrader5-5.0.47-cp39-cp39-win_amd64.whl.zip tmp/MetaTrader5-5.0.50-cp39-cp39-win_amd64.whl.zip --markdown 20240502/M/MetaTrader5/5.0.47-5.0.50/README.md --exclude *.pyd
+[2024-05-02 14:41:36] INFO root fetch - processPackages [text-machina]: executing diffoscope
+[2024-05-02 14:41:36] INFO root fetch - processPackages [text-machina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_machina-0.2.8.tar.gz tmp/text_machina-0.2.9.tar.gz --markdown 20240502/t/text-machina/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-02 14:41:36] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-05-02 14:41:36] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240502/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-05-02 14:41:36] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2024-05-02 14:41:36] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20240502/c/codeforlife-portal/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-02 14:41:36] INFO root fetch - processPackages [pm2]: Remove: archive file [/home/abi/fetcher/tmp/pm2-0.0.4.2.tar.gz]
+[2024-05-02 14:41:36] INFO root fetch - processPackages [pm2]: Remove: archive file [/home/abi/fetcher/tmp/pm2-0.0.4.3.tar.gz]
+[2024-05-02 14:41:36] INFO root fetch - main [MainThread]: End processing [pm2]: success
+[2024-05-02 14:41:36] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2024-05-02 14:41:36] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2024-05-02 14:41:36] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2024-05-02 14:41:37] INFO root fetch - processPackages [MetaTrader5]: Remove: archive file [/home/abi/fetcher/tmp/MetaTrader5-5.0.47-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 14:41:37] INFO root fetch - processPackages [MetaTrader5]: Remove: archive file [/home/abi/fetcher/tmp/MetaTrader5-5.0.50-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 14:41:37] INFO root fetch - main [MainThread]: End processing [MetaTrader5]: success
+[2024-05-02 14:41:37] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev3.tar.gz]
+[2024-05-02 14:41:37] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler_client-3.1.0.dev4.tar.gz]
+[2024-05-02 14:41:37] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-05-02 14:41:37] INFO root fetch - processPackages [text-machina]: Remove: archive file [/home/abi/fetcher/tmp/text_machina-0.2.8.tar.gz]
+[2024-05-02 14:41:37] INFO root fetch - processPackages [text-machina]: Remove: archive file [/home/abi/fetcher/tmp/text_machina-0.2.9.tar.gz]
+[2024-05-02 14:41:37] INFO root fetch - main [MainThread]: End processing [text-machina]: success
+[2024-05-02 14:41:37] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-05-02 14:41:37] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-05-02 14:41:37] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-05-02 14:41:39] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.8.9.tar.gz]
+[2024-05-02 14:41:39] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
+[2024-05-02 14:41:39] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2024-05-02 14:41:39] INFO root fetch - main [MainThread]: Store serial: [23030841]
