@@ -7159,3 +7159,20 @@
 [2024-05-02 03:50:38] INFO root fetch - processPackages [nextcloud-status]: Remove: archive file [/home/abi/fetcher/tmp/nextcloud_status-0.2.0.tar.gz]
 [2024-05-02 03:50:38] INFO root fetch - main [MainThread]: End processing [nextcloud-status]: success
 [2024-05-02 03:50:38] INFO root fetch - main [MainThread]: Store serial: [23025558]
+[2024-05-02 03:52:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025558]
+[2024-05-02 03:52:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 03:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quasinet
+[2024-05-02 03:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cc512-evolution
+[2024-05-02 03:52:47] INFO root fetch - processPackages [cc512-evolution]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-05-02 03:52:47] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-02 03:52:47] INFO root fetch - processPackages [cc512-evolution]: Downloading https://files.pythonhosted.org/packages/16/50/0870e25ce42c4ed2218fc8ecd86689f772082deba3bcaa97398764f0b926/cc512_evolution-0.1.1.tar.gz
+[2024-05-02 03:52:47] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2024-05-02 03:52:47] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2024-05-02 03:52:47] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2024-05-02 03:52:47] INFO root fetch - processPackages [cc512-evolution]: Downloading https://files.pythonhosted.org/packages/0e/cc/6ac78c40ad25e03597a92d266f9692f31cf3bfbf4286cf5b575beb3deeec/cc512_evolution-1.0.0.tar.gz
+[2024-05-02 03:52:47] INFO root fetch - processPackages [cc512-evolution]: executing diffoscope
+[2024-05-02 03:52:47] INFO root fetch - processPackages [cc512-evolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc512_evolution-0.1.1.tar.gz tmp/cc512_evolution-1.0.0.tar.gz --markdown 20240502/c/cc512-evolution/0.1.1-1.0.0/README.md --exclude *.pyd
+[2024-05-02 03:52:48] INFO root fetch - processPackages [cc512-evolution]: Remove: archive file [/home/abi/fetcher/tmp/cc512_evolution-0.1.1.tar.gz]
+[2024-05-02 03:52:48] INFO root fetch - processPackages [cc512-evolution]: Remove: archive file [/home/abi/fetcher/tmp/cc512_evolution-1.0.0.tar.gz]
+[2024-05-02 03:52:48] INFO root fetch - main [MainThread]: End processing [cc512-evolution]: success
+[2024-05-02 03:52:48] INFO root fetch - main [MainThread]: Store serial: [23025564]
