@@ -7295,3 +7295,42 @@
 [2024-05-02 04:06:28] INFO root fetch - processPackages [roboto]: Remove: archive file [/home/abi/fetcher/tmp/roboto-0.2.9.tar.gz]
 [2024-05-02 04:06:28] INFO root fetch - main [MainThread]: End processing [roboto]: success
 [2024-05-02 04:06:28] INFO root fetch - main [MainThread]: Store serial: [23025608]
+[2024-05-02 04:08:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025608]
+[2024-05-02 04:08:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 04:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nextcloud-status
+[2024-05-02 04:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keri
+[2024-05-02 04:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OZI.build
+[2024-05-02 04:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bambooai
+[2024-05-02 04:08:37] INFO root fetch - processPackages [nextcloud-status]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-02 04:08:37] INFO root fetch - processPackages [OZI.build]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-02 04:08:37] INFO root fetch - processPackages [keri]: New version: [1.2.0.dev2] Old Version: [1.2.0.dev1]
+[2024-05-02 04:08:37] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 04:08:37] INFO root fetch - processPackages [OZI.build]: Downloading https://files.pythonhosted.org/packages/a1/d3/3ad57fe7d9b43e64700f1739deced629b9e327cb578fabea89d379d21266/OZI.build-0.0.5.tar.gz
+[2024-05-02 04:08:37] INFO root fetch - processPackages [nextcloud-status]: Downloading https://files.pythonhosted.org/packages/60/e3/923cd8992ab00d39ac13bb5b9fbddb9f66af5f44e0e3814020f480455914/nextcloud_status-0.1.0-py3-none-any.whl
+[2024-05-02 04:08:38] INFO root fetch - processPackages [keri]: Downloading https://files.pythonhosted.org/packages/6a/fa/2004991546602de8bbb6c43f972f60df96d7966d77767903def7c239ac3c/keri-1.2.0.dev1.tar.gz
+[2024-05-02 04:08:38] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-02 04:08:38] INFO root fetch - processPackages [nextcloud-status]: Downloading https://files.pythonhosted.org/packages/cf/20/d01d73294f85f9d8ac74c16e4dd2c551b2ffd85aca1d164cccadcfb5b36d/nextcloud_status-0.2.0.tar.gz
+[2024-05-02 04:08:38] INFO root fetch - processPackages [nextcloud-status]: executing diffoscope
+[2024-05-02 04:08:38] INFO root fetch - processPackages [nextcloud-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextcloud_status-0.1.0-py3-none-any.whl.zip tmp/nextcloud_status-0.2.0.tar.gz --markdown 20240502/n/nextcloud-status/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-02 04:08:38] INFO root fetch - processPackages [OZI.build]: Downloading https://files.pythonhosted.org/packages/e7/c8/ef9e0b8e33756479f6a89e2c99af812170c799eaf4ae238d74f476043f53/OZI.build-0.0.6.tar.gz
+[2024-05-02 04:08:38] INFO root fetch - processPackages [OZI.build]: executing diffoscope
+[2024-05-02 04:08:38] INFO root fetch - processPackages [OZI.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI.build-0.0.5.tar.gz tmp/OZI.build-0.0.6.tar.gz --markdown 20240502/O/OZI.build/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-02 04:08:38] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-02 04:08:38] INFO root fetch - processPackages [keri]: Downloading https://files.pythonhosted.org/packages/5c/f9/e0e1520e408d4e285f65aec5740c34dfc5761fec96c60c5a33b87226b992/keri-1.2.0.dev2.tar.gz
+[2024-05-02 04:08:38] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-02 04:08:38] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240502/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 04:08:38] INFO root fetch - processPackages [keri]: executing diffoscope
+[2024-05-02 04:08:38] INFO root fetch - processPackages [keri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keri-1.2.0.dev1.tar.gz tmp/keri-1.2.0.dev2.tar.gz --markdown 20240502/k/keri/1.2.0.dev1-1.2.0.dev2/README.md --exclude *.pyd
+[2024-05-02 04:08:39] INFO root fetch - processPackages [OZI.build]: Remove: archive file [/home/abi/fetcher/tmp/OZI.build-0.0.5.tar.gz]
+[2024-05-02 04:08:39] INFO root fetch - processPackages [OZI.build]: Remove: archive file [/home/abi/fetcher/tmp/OZI.build-0.0.6.tar.gz]
+[2024-05-02 04:08:39] INFO root fetch - main [MainThread]: End processing [OZI.build]: success
+[2024-05-02 04:08:39] INFO root fetch - processPackages [nextcloud-status]: Remove: archive file [/home/abi/fetcher/tmp/nextcloud_status-0.1.0-py3-none-any.whl.zip]
+[2024-05-02 04:08:39] INFO root fetch - processPackages [nextcloud-status]: Remove: archive file [/home/abi/fetcher/tmp/nextcloud_status-0.2.0.tar.gz]
+[2024-05-02 04:08:39] INFO root fetch - main [MainThread]: End processing [nextcloud-status]: success
+[2024-05-02 04:08:39] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-02 04:08:39] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-02 04:08:39] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-02 04:08:40] INFO root fetch - processPackages [keri]: Remove: archive file [/home/abi/fetcher/tmp/keri-1.2.0.dev1.tar.gz]
+[2024-05-02 04:08:40] INFO root fetch - processPackages [keri]: Remove: archive file [/home/abi/fetcher/tmp/keri-1.2.0.dev2.tar.gz]
+[2024-05-02 04:08:40] INFO root fetch - main [MainThread]: End processing [keri]: success
+[2024-05-02 04:08:40] INFO root fetch - main [MainThread]: Store serial: [23025619]
