@@ -8624,3 +8624,33 @@
 [2024-05-02 06:00:43] INFO root fetch - processPackages [embtechx]: Remove: archive file [/home/abi/fetcher/tmp/embtechx-1.0.7.tar.gz]
 [2024-05-02 06:00:43] INFO root fetch - main [MainThread]: End processing [embtechx]: success
 [2024-05-02 06:00:43] INFO root fetch - main [MainThread]: Store serial: [23026195]
+[2024-05-02 06:02:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026195]
+[2024-05-02 06:02:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 06:02:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mylocale
+[2024-05-02 06:02:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: email-address-local
+[2024-05-02 06:02:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rulebricks
+[2024-05-02 06:02:52] INFO root fetch - processPackages [rulebricks]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 06:02:52] INFO root fetch - processPackages [email-address-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 06:02:52] INFO root fetch - processPackages [rulebricks]: Downloading https://files.pythonhosted.org/packages/95/72/ffcbabd0a6c2628ddc8d80be1cc1668cf2bb4ed354580b9c591d69849b86/rulebricks-0.1.1.tar.gz
+[2024-05-02 06:02:52] INFO root fetch - processPackages [mylocale]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 06:02:52] INFO root fetch - processPackages [email-address-local]: Downloading https://files.pythonhosted.org/packages/a8/f2/75317f90ccacb6655c8fefd773dce9c2359b86e434bf4e98c3aa377dd835/email-address-local-0.0.8.tar.gz
+[2024-05-02 06:02:52] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/2f/5b/5f942678cf7b6312828c8c42d0ad634e3a78f330e639d0aec633281923a9/mylocale-0.8.0.tar.gz
+[2024-05-02 06:02:52] INFO root fetch - processPackages [rulebricks]: Downloading https://files.pythonhosted.org/packages/91/11/4918f8d40c2ae28bb049cfb8cf26bf694b85bb06592a69b9a03786a1d86e/rulebricks-0.1.2.tar.gz
+[2024-05-02 06:02:52] INFO root fetch - processPackages [email-address-local]: Downloading https://files.pythonhosted.org/packages/33/0b/4f49c0e576b54988a9115fa0e8fd17a049b0cfaffdd95e2b721055a03b07/email-address-local-0.0.9.tar.gz
+[2024-05-02 06:02:52] INFO root fetch - processPackages [rulebricks]: executing diffoscope
+[2024-05-02 06:02:52] INFO root fetch - processPackages [rulebricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rulebricks-0.1.1.tar.gz tmp/rulebricks-0.1.2.tar.gz --markdown 20240502/r/rulebricks/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 06:02:52] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/cf/31/7eaef23f3354fae298c96e7453c8c73b0605787b351c7010185d89124bb0/mylocale-0.9.0.tar.gz
+[2024-05-02 06:02:52] INFO root fetch - processPackages [email-address-local]: executing diffoscope
+[2024-05-02 06:02:52] INFO root fetch - processPackages [email-address-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email-address-local-0.0.8.tar.gz tmp/email-address-local-0.0.9.tar.gz --markdown 20240502/e/email-address-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 06:02:52] INFO root fetch - processPackages [mylocale]: executing diffoscope
+[2024-05-02 06:02:52] INFO root fetch - processPackages [mylocale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mylocale-0.8.0.tar.gz tmp/mylocale-0.9.0.tar.gz --markdown 20240502/m/mylocale/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 06:02:53] INFO root fetch - processPackages [rulebricks]: Remove: archive file [/home/abi/fetcher/tmp/rulebricks-0.1.1.tar.gz]
+[2024-05-02 06:02:53] INFO root fetch - processPackages [rulebricks]: Remove: archive file [/home/abi/fetcher/tmp/rulebricks-0.1.2.tar.gz]
+[2024-05-02 06:02:53] INFO root fetch - main [MainThread]: End processing [rulebricks]: success
+[2024-05-02 06:02:53] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.8.tar.gz]
+[2024-05-02 06:02:53] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.9.tar.gz]
+[2024-05-02 06:02:53] INFO root fetch - main [MainThread]: End processing [email-address-local]: success
+[2024-05-02 06:02:53] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.8.0.tar.gz]
+[2024-05-02 06:02:53] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.9.0.tar.gz]
+[2024-05-02 06:02:53] INFO root fetch - main [MainThread]: End processing [mylocale]: success
+[2024-05-02 06:02:53] INFO root fetch - main [MainThread]: Store serial: [23026204]
