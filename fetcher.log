@@ -21408,3 +21408,77 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:13:06] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
 [2024-05-02 15:13:06] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
 [2024-05-02 15:13:06] INFO root fetch - main [MainThread]: Store serial: [23031353]
+[2024-05-02 15:15:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031353]
+[2024-05-02 15:15:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 15:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-05-02 15:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hacktegic
+[2024-05-02 15:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ironic
+[2024-05-02 15:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conviso-cli
+[2024-05-02 15:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yandexcloud
+[2024-05-02 15:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libdeeplake
+[2024-05-02 15:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MoonshotAI-Api
+[2024-05-02 15:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: od-labeler
+[2024-05-02 15:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dti-conv
+[2024-05-02 15:15:16] INFO root fetch - processPackages [conviso-cli]: New version: [2.1.5.dev1] Old Version: [2.1.5.dev0]
+[2024-05-02 15:15:16] INFO root fetch - processPackages [ironic]: New version: [9.1.7] Old Version: [9.1.6]
+[2024-05-02 15:15:16] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-02 15:15:16] INFO root fetch - processPackages [hacktegic]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-02 15:15:16] INFO root fetch - processPackages [conviso-cli]: Downloading https://files.pythonhosted.org/packages/4c/a6/ba734a241fd5c67fe29a71a759f663433a31b661de5314938a9c3faefddb/conviso-cli-2.1.5.dev0.tar.gz
+[2024-05-02 15:15:16] INFO root fetch - processPackages [MoonshotAI-Api]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-02 15:15:16] INFO root fetch - processPackages [dti-conv]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 15:15:16] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-02 15:15:16] WARNING root fetch - processPackages [od-labeler]: Skipping, unable to determine old version
+[2024-05-02 15:15:16] INFO root fetch - main [MainThread]: End processing [od-labeler] error
+[2024-05-02 15:15:16] INFO root fetch - processPackages [libdeeplake]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-02 15:15:16] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2024-05-02 15:15:16] INFO root fetch - processPackages [ironic]: Downloading https://files.pythonhosted.org/packages/2f/88/2a3768b7c2b45ce67cc1f858f9600c72dac3a4abe7d2c3189c79c3059309/ironic-9.1.6.tar.gz
+[2024-05-02 15:15:16] INFO root fetch - processPackages [hacktegic]: Downloading https://files.pythonhosted.org/packages/29/ea/14f6d850fe75d9a86f03c4a8077ae1ac493770a0728a6d1d3beb2dfe0d24/hacktegic-0.1.9.tar.gz
+[2024-05-02 15:15:16] INFO root fetch - processPackages [MoonshotAI-Api]: Downloading https://files.pythonhosted.org/packages/a9/72/b4a06e0ba81d75c42397dc2c13720354b3a361c6823a1edc0a7c08d12488/MoonshotAI_Api-0.0.1.tar.gz
+[2024-05-02 15:15:16] INFO root fetch - processPackages [dti-conv]: Downloading https://files.pythonhosted.org/packages/ec/a5/9f18523ef04d729a8516538f5377dfb82e8016e87212b228a3542f9b43b7/dti_conv-0.1.1.tar.gz
+[2024-05-02 15:15:16] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/b2/c4/de2d807cf58f4ec636afa8e66fa4870703e9476645ad655fa2fb612c3f9e/fbgemm_gpu_nightly_cpu-2024.5.1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-02 15:15:16] INFO root fetch - processPackages [libdeeplake]: Downloading https://files.pythonhosted.org/packages/72/1b/98a4f343688cf918ba1e3f51f408a91cff754434b6e95d4e8090657449a3/libdeeplake-0.0.98-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-02 15:15:16] INFO root fetch - processPackages [conviso-cli]: Downloading https://files.pythonhosted.org/packages/88/da/d2e0ba38c3e883c4e25e24fd0f3016ff64cde7518d087d61b18551ce96e8/conviso-cli-2.1.5.dev1.tar.gz
+[2024-05-02 15:15:16] INFO root fetch - processPackages [ironic]: Downloading https://files.pythonhosted.org/packages/88/68/bd7861aad5bfd401f4424a760169d5ed3b6d54c05b9b3458ea48f5b274d9/ironic-9.1.7.tar.gz
+[2024-05-02 15:15:16] WARNING root fetch - processPackages [libdeeplake]: Skipping package: exceeds size limit 16175016>=10485760
+[2024-05-02 15:15:16] INFO root fetch - main [MainThread]: End processing [libdeeplake] error
+[2024-05-02 15:15:16] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2024-05-02 15:15:16] INFO root fetch - processPackages [conviso-cli]: executing diffoscope
+[2024-05-02 15:15:16] INFO root fetch - processPackages [conviso-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conviso-cli-2.1.5.dev0.tar.gz tmp/conviso-cli-2.1.5.dev1.tar.gz --markdown 20240502/c/conviso-cli/2.1.5.dev0-2.1.5.dev1/README.md --exclude *.pyd
+[2024-05-02 15:15:16] INFO root fetch - processPackages [MoonshotAI-Api]: Downloading https://files.pythonhosted.org/packages/0e/0b/18518b6e58ad3e18d8309b9beedeaf94225949f1f62ff27761fd510b0f2a/MoonshotAI_Api-0.0.2.tar.gz
+[2024-05-02 15:15:16] INFO root fetch - processPackages [hacktegic]: Downloading https://files.pythonhosted.org/packages/e6/d2/de9f0c24178096d02814ff1b9dcec29a6a1ffcfdd04fc20c51775ffc6c16/hacktegic-0.2.0.tar.gz
+[2024-05-02 15:15:16] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-05-02 15:15:16] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240502/y/yandexcloud/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-02 15:15:16] INFO root fetch - processPackages [MoonshotAI-Api]: executing diffoscope
+[2024-05-02 15:15:16] INFO root fetch - processPackages [MoonshotAI-Api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MoonshotAI_Api-0.0.1.tar.gz tmp/MoonshotAI_Api-0.0.2.tar.gz --markdown 20240502/M/MoonshotAI-Api/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-02 15:15:16] INFO root fetch - processPackages [ironic]: executing diffoscope
+[2024-05-02 15:15:16] INFO root fetch - processPackages [ironic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ironic-9.1.6.tar.gz tmp/ironic-9.1.7.tar.gz --markdown 20240502/i/ironic/9.1.6-9.1.7/README.md --exclude *.pyd
+[2024-05-02 15:15:17] INFO root fetch - processPackages [hacktegic]: executing diffoscope
+[2024-05-02 15:15:17] INFO root fetch - processPackages [hacktegic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hacktegic-0.1.9.tar.gz tmp/hacktegic-0.2.0.tar.gz --markdown 20240502/h/hacktegic/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-02 15:15:17] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/40/52/f701ed7e1be805a5de2987e4df273b56445d552ec730296779f78ace60d5/fbgemm_gpu_nightly_cpu-2024.5.2-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-02 15:15:17] INFO root fetch - processPackages [MoonshotAI-Api]: Remove: archive file [/home/abi/fetcher/tmp/MoonshotAI_Api-0.0.1.tar.gz]
+[2024-05-02 15:15:17] INFO root fetch - processPackages [MoonshotAI-Api]: Remove: archive file [/home/abi/fetcher/tmp/MoonshotAI_Api-0.0.2.tar.gz]
+[2024-05-02 15:15:17] INFO root fetch - main [MainThread]: End processing [MoonshotAI-Api]: success
+[2024-05-02 15:15:17] INFO root fetch - processPackages [conviso-cli]: Remove: archive file [/home/abi/fetcher/tmp/conviso-cli-2.1.5.dev0.tar.gz]
+[2024-05-02 15:15:17] INFO root fetch - processPackages [conviso-cli]: Remove: archive file [/home/abi/fetcher/tmp/conviso-cli-2.1.5.dev1.tar.gz]
+[2024-05-02 15:15:17] INFO root fetch - main [MainThread]: End processing [conviso-cli]: success
+[2024-05-02 15:15:17] INFO root fetch - processPackages [hacktegic]: Remove: archive file [/home/abi/fetcher/tmp/hacktegic-0.1.9.tar.gz]
+[2024-05-02 15:15:17] INFO root fetch - processPackages [hacktegic]: Remove: archive file [/home/abi/fetcher/tmp/hacktegic-0.2.0.tar.gz]
+[2024-05-02 15:15:17] INFO root fetch - main [MainThread]: End processing [hacktegic]: success
+[2024-05-02 15:15:17] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-05-02 15:15:17] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.5.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.5.2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240502/f/fbgemm-gpu-nightly-cpu/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-02 15:15:18] INFO root fetch - processPackages [dti-conv]: Downloading https://files.pythonhosted.org/packages/8b/1c/6571b9c4f910ebbda4c55c81c6ceac381ebf4927386df447ea4fbcb44905/dti_conv-0.1.2.tar.gz
+[2024-05-02 15:15:18] INFO root fetch - processPackages [dti-conv]: executing diffoscope
+[2024-05-02 15:15:18] INFO root fetch - processPackages [dti-conv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dti_conv-0.1.1.tar.gz tmp/dti_conv-0.1.2.tar.gz --markdown 20240502/d/dti-conv/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 15:15:18] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-02 15:15:18] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-02 15:15:18] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-05-02 15:15:19] INFO root fetch - processPackages [dti-conv]: Remove: archive file [/home/abi/fetcher/tmp/dti_conv-0.1.1.tar.gz]
+[2024-05-02 15:15:19] INFO root fetch - processPackages [dti-conv]: Remove: archive file [/home/abi/fetcher/tmp/dti_conv-0.1.2.tar.gz]
+[2024-05-02 15:15:19] INFO root fetch - main [MainThread]: End processing [dti-conv]: success
+[2024-05-02 15:15:19] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2024-05-02 15:15:19] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2024-05-02 15:15:19] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-05-02 15:15:21] INFO root fetch - processPackages [ironic]: Remove: archive file [/home/abi/fetcher/tmp/ironic-9.1.6.tar.gz]
+[2024-05-02 15:15:21] INFO root fetch - processPackages [ironic]: Remove: archive file [/home/abi/fetcher/tmp/ironic-9.1.7.tar.gz]
+[2024-05-02 15:15:21] INFO root fetch - main [MainThread]: End processing [ironic]: success
+[2024-05-02 15:15:21] INFO root fetch - main [MainThread]: Store serial: [23031392]
