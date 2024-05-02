@@ -13553,3 +13553,69 @@
 [2024-05-02 10:34:37] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.774.tar.gz]
 [2024-05-02 10:34:37] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
 [2024-05-02 10:34:37] INFO root fetch - main [MainThread]: Store serial: [23028186]
+[2024-05-02 10:36:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028186]
+[2024-05-02 10:36:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 10:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopeptideml
+[2024-05-02 10:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mama
+[2024-05-02 10:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fs-tools
+[2024-05-02 10:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sensorialytics
+[2024-05-02 10:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dials-data
+[2024-05-02 10:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytabtex
+[2024-05-02 10:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DataExtractorOEG
+[2024-05-02 10:36:46] INFO root fetch - processPackages [pytabtex]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 10:36:46] INFO root fetch - processPackages [mama]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-02 10:36:46] INFO root fetch - processPackages [pytabtex]: Downloading https://files.pythonhosted.org/packages/e5/c5/892b93c7ca51800ee2ea6f34a3e009628d7c3fdc14c62bf315832d3f1270/pytabtex-0.1.1.tar.gz
+[2024-05-02 10:36:46] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 10:36:46] INFO root fetch - processPackages [autopeptideml]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-02 10:36:46] INFO root fetch - processPackages [sensorialytics]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 10:36:46] INFO root fetch - processPackages [dials-data]: New version: [2.4.9] Old Version: [2.4.85]
+[2024-05-02 10:36:46] INFO root fetch - processPackages [fs-tools]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-02 10:36:46] INFO root fetch - processPackages [mama]: Downloading https://files.pythonhosted.org/packages/b1/90/87e353b48e35ec2ae7781c3321936c45470d0cc6db940aaf78ebff5be46c/mama-0.9.5.tar.gz
+[2024-05-02 10:36:47] INFO root fetch - processPackages [autopeptideml]: Downloading https://files.pythonhosted.org/packages/de/f5/a43257c0c58c0ff0d51c863448683725585b2f8b74c2b78e12d3cfa4dd87/autopeptideml-0.2.8.tar.gz
+[2024-05-02 10:36:47] INFO root fetch - processPackages [dials-data]: Downloading https://files.pythonhosted.org/packages/9b/52/e3e5c2c8e9feb57328861f71873876961ae212f70854852c72b67ad1cac2/dials_data-2.4.85.tar.gz
+[2024-05-02 10:36:47] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/19/71/ff833491696fa8f4d7bdeba56ab2dd1597f169857e778291d2475a0c04d8/dataextractoroeg-0.3.8.tar.gz
+[2024-05-02 10:36:47] INFO root fetch - processPackages [sensorialytics]: Downloading https://files.pythonhosted.org/packages/7b/b1/ad234c7048eac4b0f2e71ccacf7637ee4d641fc0644c9057b34239e103f4/sensorialytics-1.0.8.tar.gz
+[2024-05-02 10:36:47] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/cd/7d/60b5377d6e0c28706089218966fdda9c0adb2545f1788abc1f757801f8da/fs_tools-0.1.7.tar.gz
+[2024-05-02 10:36:47] INFO root fetch - processPackages [mama]: Downloading https://files.pythonhosted.org/packages/17/ef/32e312af6a802e24ea4eae1a80da0da0901f3506c2f07efc0263a0c916cf/mama-0.9.6.tar.gz
+[2024-05-02 10:36:47] INFO root fetch - processPackages [pytabtex]: Downloading https://files.pythonhosted.org/packages/fb/4a/bc7cdd07532809c489a9274498dc218b556ebec15e8cbe7a181c44150f9d/pytabtex-0.1.2.tar.gz
+[2024-05-02 10:36:47] INFO root fetch - processPackages [pytabtex]: executing diffoscope
+[2024-05-02 10:36:47] INFO root fetch - processPackages [pytabtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytabtex-0.1.1.tar.gz tmp/pytabtex-0.1.2.tar.gz --markdown 20240502/p/pytabtex/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 10:36:47] INFO root fetch - processPackages [mama]: executing diffoscope
+[2024-05-02 10:36:47] INFO root fetch - processPackages [mama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mama-0.9.5.tar.gz tmp/mama-0.9.6.tar.gz --markdown 20240502/m/mama/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-02 10:36:47] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/49/52/e5021f45b211823b931d5612b4aeff5943fb8ed95e19143beb6bad9d5620/dataextractoroeg-0.3.9.tar.gz
+[2024-05-02 10:36:47] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/28/68/2e927cedf3c9becd324384e9155b1b7daa05fdc2b3df96c1c8cad882c9a8/fs_tools-0.1.8.tar.gz
+[2024-05-02 10:36:47] INFO root fetch - processPackages [sensorialytics]: Downloading https://files.pythonhosted.org/packages/01/0b/fe9bd377ee2dc4d699439879437aba2d91f0d5aac5297cae21b751a7dc8c/sensorialytics-1.0.9.tar.gz
+[2024-05-02 10:36:47] INFO root fetch - processPackages [dials-data]: Downloading https://files.pythonhosted.org/packages/f3/b5/52b8b6c81fdcced6ca5a79f94efe98b30c6c7968ea6f0d12f520bb611e7d/dials_data-2.4.9.tar.gz
+[2024-05-02 10:36:47] INFO root fetch - processPackages [fs-tools]: executing diffoscope
+[2024-05-02 10:36:47] INFO root fetch - processPackages [fs-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fs_tools-0.1.7.tar.gz tmp/fs_tools-0.1.8.tar.gz --markdown 20240502/f/fs-tools/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-02 10:36:47] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-05-02 10:36:47] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.3.8.tar.gz tmp/dataextractoroeg-0.3.9.tar.gz --markdown 20240502/D/DataExtractorOEG/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 10:36:47] INFO root fetch - processPackages [sensorialytics]: executing diffoscope
+[2024-05-02 10:36:47] INFO root fetch - processPackages [autopeptideml]: Downloading https://files.pythonhosted.org/packages/33/7c/945959c6b7d79aabd3e3a838bce763f29a9daa97b104d9db353f1d9e43b9/autopeptideml-0.2.9.tar.gz
+[2024-05-02 10:36:47] INFO root fetch - processPackages [sensorialytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensorialytics-1.0.8.tar.gz tmp/sensorialytics-1.0.9.tar.gz --markdown 20240502/s/sensorialytics/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 10:36:47] INFO root fetch - processPackages [dials-data]: executing diffoscope
+[2024-05-02 10:36:47] INFO root fetch - processPackages [dials-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dials_data-2.4.85.tar.gz tmp/dials_data-2.4.9.tar.gz --markdown 20240502/d/dials-data/2.4.85-2.4.9/README.md --exclude *.pyd
+[2024-05-02 10:36:48] INFO root fetch - processPackages [pytabtex]: Remove: archive file [/home/abi/fetcher/tmp/pytabtex-0.1.1.tar.gz]
+[2024-05-02 10:36:48] INFO root fetch - processPackages [pytabtex]: Remove: archive file [/home/abi/fetcher/tmp/pytabtex-0.1.2.tar.gz]
+[2024-05-02 10:36:48] INFO root fetch - main [MainThread]: End processing [pytabtex]: success
+[2024-05-02 10:36:48] INFO root fetch - processPackages [mama]: Remove: archive file [/home/abi/fetcher/tmp/mama-0.9.5.tar.gz]
+[2024-05-02 10:36:48] INFO root fetch - processPackages [mama]: Remove: archive file [/home/abi/fetcher/tmp/mama-0.9.6.tar.gz]
+[2024-05-02 10:36:48] INFO root fetch - main [MainThread]: End processing [mama]: success
+[2024-05-02 10:36:48] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.7.tar.gz]
+[2024-05-02 10:36:48] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.8.tar.gz]
+[2024-05-02 10:36:48] INFO root fetch - main [MainThread]: End processing [fs-tools]: success
+[2024-05-02 10:36:48] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.3.8.tar.gz]
+[2024-05-02 10:36:48] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.3.9.tar.gz]
+[2024-05-02 10:36:48] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-05-02 10:36:48] INFO root fetch - processPackages [sensorialytics]: Remove: archive file [/home/abi/fetcher/tmp/sensorialytics-1.0.8.tar.gz]
+[2024-05-02 10:36:48] INFO root fetch - processPackages [sensorialytics]: Remove: archive file [/home/abi/fetcher/tmp/sensorialytics-1.0.9.tar.gz]
+[2024-05-02 10:36:48] INFO root fetch - main [MainThread]: End processing [sensorialytics]: success
+[2024-05-02 10:36:48] INFO root fetch - processPackages [autopeptideml]: executing diffoscope
+[2024-05-02 10:36:48] INFO root fetch - processPackages [autopeptideml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopeptideml-0.2.8.tar.gz tmp/autopeptideml-0.2.9.tar.gz --markdown 20240502/a/autopeptideml/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-02 10:36:48] INFO root fetch - processPackages [dials-data]: Remove: archive file [/home/abi/fetcher/tmp/dials_data-2.4.85.tar.gz]
+[2024-05-02 10:36:48] INFO root fetch - processPackages [dials-data]: Remove: archive file [/home/abi/fetcher/tmp/dials_data-2.4.9.tar.gz]
+[2024-05-02 10:36:48] INFO root fetch - main [MainThread]: End processing [dials-data]: success
+[2024-05-02 10:36:51] INFO root fetch - processPackages [autopeptideml]: Remove: archive file [/home/abi/fetcher/tmp/autopeptideml-0.2.8.tar.gz]
+[2024-05-02 10:36:51] INFO root fetch - processPackages [autopeptideml]: Remove: archive file [/home/abi/fetcher/tmp/autopeptideml-0.2.9.tar.gz]
+[2024-05-02 10:36:51] INFO root fetch - main [MainThread]: End processing [autopeptideml]: success
+[2024-05-02 10:36:51] INFO root fetch - main [MainThread]: Store serial: [23028206]
