@@ -17111,3 +17111,47 @@
 [2024-05-02 12:48:46] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.1.3.tar.gz]
 [2024-05-02 12:48:46] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2024-05-02 12:48:46] INFO root fetch - main [MainThread]: Store serial: [23029707]
+[2024-05-02 12:50:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029707]
+[2024-05-02 12:50:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 12:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-runtime
+[2024-05-02 12:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-user-limiter
+[2024-05-02 12:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-confluent-kafka
+[2024-05-02 12:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biaspeech
+[2024-05-02 12:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chargebee
+[2024-05-02 12:50:55] INFO root fetch - processPackages [fastapi-user-limiter]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-02 12:50:55] INFO root fetch - processPackages [fastapi-user-limiter]: Downloading https://files.pythonhosted.org/packages/5a/2f/348391bbcecc4a38e1d09357aa9465fe088ba43f7012845c559ba915f75c/fastapi_user_limiter-0.4.0.tar.gz
+[2024-05-02 12:50:55] INFO root fetch - processPackages [biaspeech]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-05-02 12:50:55] INFO root fetch - processPackages [types-confluent-kafka]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-02 12:50:55] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-05-02 12:50:55] INFO root fetch - processPackages [chargebee]: New version: [2.9.0] Old Version: [2.8.4]
+[2024-05-02 12:50:56] INFO root fetch - processPackages [types-confluent-kafka]: Downloading https://files.pythonhosted.org/packages/d3/79/c00fd782f9c72b77584fb2ea3f18d694fdf36522fcd778d6b917261958e3/types_confluent_kafka-1.2.0.tar.gz
+[2024-05-02 12:50:56] INFO root fetch - processPackages [biaspeech]: Downloading https://files.pythonhosted.org/packages/88/8c/dc92805259792b8d6424c7418a1189b5c40383e3aaeedeebe5eb7df53c3b/biaspeech-0.1.7.tar.gz
+[2024-05-02 12:50:56] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-05-02 12:50:56] INFO root fetch - processPackages [fastapi-user-limiter]: Downloading https://files.pythonhosted.org/packages/b7/36/ae976f4730a27301619717b4aee5158b52144bb1ff80a491d65eeb09a628/fastapi_user_limiter-0.5.0.tar.gz
+[2024-05-02 12:50:56] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/99/7c/ebaaca7d47a6de9353d082ff9eaca8d63b76e53a5ca5bf3f9c279642102c/chargebee-2.8.4.tar.gz
+[2024-05-02 12:50:56] WARNING root fetch - processPackages [biaspeech]: Skipping package: exceeds size limit 16677807>=10485760
+[2024-05-02 12:50:56] INFO root fetch - main [MainThread]: End processing [biaspeech] error
+[2024-05-02 12:50:56] INFO root fetch - processPackages [fastapi-user-limiter]: executing diffoscope
+[2024-05-02 12:50:56] INFO root fetch - processPackages [fastapi-user-limiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_user_limiter-0.4.0.tar.gz tmp/fastapi_user_limiter-0.5.0.tar.gz --markdown 20240502/f/fastapi-user-limiter/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-02 12:50:56] INFO root fetch - processPackages [types-confluent-kafka]: Downloading https://files.pythonhosted.org/packages/55/41/8c248d074daf30765e95219592ed77278bc391a52b376071e76ad8787436/types_confluent_kafka-1.2.1.tar.gz
+[2024-05-02 12:50:56] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-05-02 12:50:56] INFO root fetch - processPackages [types-confluent-kafka]: executing diffoscope
+[2024-05-02 12:50:56] INFO root fetch - processPackages [types-confluent-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types_confluent_kafka-1.2.0.tar.gz tmp/types_confluent_kafka-1.2.1.tar.gz --markdown 20240502/t/types-confluent-kafka/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-02 12:50:56] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-05-02 12:50:56] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240502/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-05-02 12:50:56] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/a6/9e/648a4d782f53ea14a4b6101e7cad249e6b53b97ada5f89bf1020b45db99f/chargebee-2.9.0.tar.gz
+[2024-05-02 12:50:56] INFO root fetch - processPackages [chargebee]: executing diffoscope
+[2024-05-02 12:50:56] INFO root fetch - processPackages [chargebee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chargebee-2.8.4.tar.gz tmp/chargebee-2.9.0.tar.gz --markdown 20240502/c/chargebee/2.8.4-2.9.0/README.md --exclude *.pyd
+[2024-05-02 12:50:57] INFO root fetch - processPackages [fastapi-user-limiter]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_user_limiter-0.4.0.tar.gz]
+[2024-05-02 12:50:57] INFO root fetch - processPackages [fastapi-user-limiter]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_user_limiter-0.5.0.tar.gz]
+[2024-05-02 12:50:57] INFO root fetch - main [MainThread]: End processing [fastapi-user-limiter]: success
+[2024-05-02 12:50:57] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-05-02 12:50:57] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-05-02 12:50:57] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-05-02 12:50:57] INFO root fetch - processPackages [types-confluent-kafka]: Remove: archive file [/home/abi/fetcher/tmp/types_confluent_kafka-1.2.0.tar.gz]
+[2024-05-02 12:50:57] INFO root fetch - processPackages [types-confluent-kafka]: Remove: archive file [/home/abi/fetcher/tmp/types_confluent_kafka-1.2.1.tar.gz]
+[2024-05-02 12:50:57] INFO root fetch - main [MainThread]: End processing [types-confluent-kafka]: success
+[2024-05-02 12:50:57] INFO root fetch - processPackages [chargebee]: Remove: archive file [/home/abi/fetcher/tmp/chargebee-2.8.4.tar.gz]
+[2024-05-02 12:50:57] INFO root fetch - processPackages [chargebee]: Remove: archive file [/home/abi/fetcher/tmp/chargebee-2.9.0.tar.gz]
+[2024-05-02 12:50:57] INFO root fetch - main [MainThread]: End processing [chargebee]: success
+[2024-05-02 12:50:57] INFO root fetch - main [MainThread]: Store serial: [23029720]
