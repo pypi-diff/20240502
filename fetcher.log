@@ -13080,3 +13080,68 @@
 [2024-05-02 10:19:07] INFO root fetch - processPackages [s6r-bitwarden-cli]: Remove: archive file [/home/abi/fetcher/tmp/s6r_bitwarden_cli-1.0.6.tar.gz]
 [2024-05-02 10:19:07] INFO root fetch - main [MainThread]: End processing [s6r-bitwarden-cli]: success
 [2024-05-02 10:19:07] INFO root fetch - main [MainThread]: Store serial: [23028005]
+[2024-05-02 10:21:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23028005]
+[2024-05-02 10:21:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-02 10:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drax-sdk
+[2024-05-02 10:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aissemble-foundation-data-lineage-python
+[2024-05-02 10:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aissemble-foundation-data-lineage-python
+[2024-05-02 10:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nerpii
+[2024-05-02 10:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-project-tracker
+[2024-05-02 10:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aissemble-foundation-model-lineage
+[2024-05-02 10:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aissemble-foundation-model-lineage
+[2024-05-02 10:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wkutils
+[2024-05-02 10:21:16] INFO root fetch - processPackages [wkutils]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-02 10:21:16] INFO root fetch - processPackages [drax-sdk]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-02 10:21:16] WARNING root fetch - processPackages [ml-project-tracker]: Skipping, unable to determine old version
+[2024-05-02 10:21:16] INFO root fetch - main [MainThread]: End processing [ml-project-tracker] error
+[2024-05-02 10:21:16] INFO root fetch - processPackages [wkutils]: Downloading https://files.pythonhosted.org/packages/a9/3b/bbe6a1b2af302cdc3a2a59bbb6cd7841a0c9d621d2d1cfe3f6808329c54f/wkutils-0.0.6.tar.gz
+[2024-05-02 10:21:16] INFO root fetch - processPackages [drax-sdk]: Downloading https://files.pythonhosted.org/packages/d9/91/54f05296bf67703d2a4352223f5574d06ddf501408e794c5e85fe2d012dd/drax_sdk-2.2.1.tar.gz
+[2024-05-02 10:21:16] INFO root fetch - processPackages [nerpii]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-05-02 10:21:16] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: New version: [1.7.0.dev1714638026] Old Version: [1.7.0.dev1714638025]
+[2024-05-02 10:21:16] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: New version: [1.7.0.dev1714638026] Old Version: [1.7.0.dev1714638025]
+[2024-05-02 10:21:16] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: New version: [1.7.0.dev1714637986] Old Version: [1.7.0.dev1714637982]
+[2024-05-02 10:21:16] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: New version: [1.7.0.dev1714637986] Old Version: [1.7.0.dev1714637982]
+[2024-05-02 10:21:16] INFO root fetch - processPackages [nerpii]: Downloading https://files.pythonhosted.org/packages/96/7d/34c35b29c10400538791fd150ace858bf1282ab7dd4a736e2801e27e7ae1/nerpii-0.2.0.tar.gz
+[2024-05-02 10:21:16] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/5a/3e/22458ec4a88d01c8c95272bfea8f2d86162c62bd2d47f931a06f80205569/aissemble_foundation_data_lineage_python-1.7.0.dev1714637982.tar.gz
+[2024-05-02 10:21:16] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/93/ba/cd56bb1e14ecc9510f18890822f8a438ebb3e5a9682953bf3b9f3cd96ca8/aissemble_foundation_model_lineage-1.7.0.dev1714638025.tar.gz
+[2024-05-02 10:21:16] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/5a/3e/22458ec4a88d01c8c95272bfea8f2d86162c62bd2d47f931a06f80205569/aissemble_foundation_data_lineage_python-1.7.0.dev1714637982.tar.gz
+[2024-05-02 10:21:16] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/93/ba/cd56bb1e14ecc9510f18890822f8a438ebb3e5a9682953bf3b9f3cd96ca8/aissemble_foundation_model_lineage-1.7.0.dev1714638025.tar.gz
+[2024-05-02 10:21:16] INFO root fetch - processPackages [drax-sdk]: Downloading https://files.pythonhosted.org/packages/b5/fc/8115f1cfe8a7809bf9414f8b5e045deadc1358d914cbe1d21eb0c4be7b17/drax_sdk-2.2.2.tar.gz
+[2024-05-02 10:21:16] INFO root fetch - processPackages [wkutils]: Downloading https://files.pythonhosted.org/packages/75/46/82158652d52baed17c17fa8dd6d65bb792e3549c0145f48a248949d5918a/wkutils-0.0.7.tar.gz
+[2024-05-02 10:21:17] INFO root fetch - processPackages [drax-sdk]: executing diffoscope
+[2024-05-02 10:21:17] INFO root fetch - processPackages [drax-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drax_sdk-2.2.1.tar.gz tmp/drax_sdk-2.2.2.tar.gz --markdown 20240502/d/drax-sdk/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-02 10:21:17] INFO root fetch - processPackages [wkutils]: executing diffoscope
+[2024-05-02 10:21:17] INFO root fetch - processPackages [wkutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wkutils-0.0.6.tar.gz tmp/wkutils-0.0.7.tar.gz --markdown 20240502/w/wkutils/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-02 10:21:17] INFO root fetch - processPackages [nerpii]: Downloading https://files.pythonhosted.org/packages/0a/7c/2b83a6b5a3249494d38c65116f001b1ee3c889615d1e1d257936a9c78657/nerpii-0.2.2.tar.gz
+[2024-05-02 10:21:17] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/99/ab/cd5ff3ecd7b9613f57a3978249035792d844a98bd411b9ad9d8fcbf02fb2/aissemble_foundation_data_lineage_python-1.7.0.dev1714637986.tar.gz
+[2024-05-02 10:21:17] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/99/ab/cd5ff3ecd7b9613f57a3978249035792d844a98bd411b9ad9d8fcbf02fb2/aissemble_foundation_data_lineage_python-1.7.0.dev1714637986.tar.gz
+[2024-05-02 10:21:17] INFO root fetch - processPackages [nerpii]: executing diffoscope
+[2024-05-02 10:21:17] INFO root fetch - processPackages [nerpii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerpii-0.2.0.tar.gz tmp/nerpii-0.2.2.tar.gz --markdown 20240502/n/nerpii/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-05-02 10:21:17] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/83/48/8d0c3198904b682fe589094ee05c0960f0e2c62616c53b2ff32eabd241c6/aissemble_foundation_model_lineage-1.7.0.dev1714638026.tar.gz
+[2024-05-02 10:21:17] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/83/48/8d0c3198904b682fe589094ee05c0960f0e2c62616c53b2ff32eabd241c6/aissemble_foundation_model_lineage-1.7.0.dev1714638026.tar.gz
+[2024-05-02 10:21:17] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: executing diffoscope
+[2024-05-02 10:21:17] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_model_lineage-1.7.0.dev1714638025.tar.gz tmp/aissemble_foundation_model_lineage-1.7.0.dev1714638026.tar.gz --markdown 20240502/a/aissemble-foundation-model-lineage/1.7.0.dev1714638025-1.7.0.dev1714638026/README.md --exclude *.pyd
+[2024-05-02 10:21:17] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: executing diffoscope
+[2024-05-02 10:21:17] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714637982.tar.gz tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714637986.tar.gz --markdown 20240502/a/aissemble-foundation-data-lineage-python/1.7.0.dev1714637982-1.7.0.dev1714637986/README.md --exclude *.pyd
+[2024-05-02 10:21:17] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: executing diffoscope
+[2024-05-02 10:21:17] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714637982.tar.gz tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714637986.tar.gz --markdown 20240502/a/aissemble-foundation-data-lineage-python/1.7.0.dev1714637982-1.7.0.dev1714637986/README.md --exclude *.pyd
+[2024-05-02 10:21:17] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: executing diffoscope
+[2024-05-02 10:21:17] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_model_lineage-1.7.0.dev1714638025.tar.gz tmp/aissemble_foundation_model_lineage-1.7.0.dev1714638026.tar.gz --markdown 20240502/a/aissemble-foundation-model-lineage/1.7.0.dev1714638025-1.7.0.dev1714638026/README.md --exclude *.pyd
+[2024-05-02 10:21:17] INFO root fetch - processPackages [wkutils]: Remove: archive file [/home/abi/fetcher/tmp/wkutils-0.0.6.tar.gz]
+[2024-05-02 10:21:17] INFO root fetch - processPackages [wkutils]: Remove: archive file [/home/abi/fetcher/tmp/wkutils-0.0.7.tar.gz]
+[2024-05-02 10:21:17] INFO root fetch - main [MainThread]: End processing [wkutils]: success
+[2024-05-02 10:21:17] INFO root fetch - processPackages [drax-sdk]: Remove: archive file [/home/abi/fetcher/tmp/drax_sdk-2.2.1.tar.gz]
+[2024-05-02 10:21:17] INFO root fetch - processPackages [drax-sdk]: Remove: archive file [/home/abi/fetcher/tmp/drax_sdk-2.2.2.tar.gz]
+[2024-05-02 10:21:17] INFO root fetch - main [MainThread]: End processing [drax-sdk]: success
+[2024-05-02 10:21:17] INFO root fetch - processPackages [nerpii]: Remove: archive file [/home/abi/fetcher/tmp/nerpii-0.2.0.tar.gz]
+[2024-05-02 10:21:17] INFO root fetch - processPackages [nerpii]: Remove: archive file [/home/abi/fetcher/tmp/nerpii-0.2.2.tar.gz]
+[2024-05-02 10:21:17] INFO root fetch - main [MainThread]: End processing [nerpii]: success
+[2024-05-02 10:21:18] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_lineage-1.7.0.dev1714638025.tar.gz]
+[2024-05-02 10:21:18] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_lineage-1.7.0.dev1714638026.tar.gz]
+[2024-05-02 10:21:18] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-model-lineage]: success
+[2024-05-02 10:21:18] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-model-lineage]: success
+[2024-05-02 10:21:18] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714637982.tar.gz]
+[2024-05-02 10:21:18] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714637986.tar.gz]
+[2024-05-02 10:21:18] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-data-lineage-python]: success
+[2024-05-02 10:21:18] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-data-lineage-python]: success
+[2024-05-02 10:21:18] INFO root fetch - main [MainThread]: Store serial: [23028033]
