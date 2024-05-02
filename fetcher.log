@@ -20884,3 +20884,54 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 14:53:08] INFO root fetch - processPackages [vss-tools]: Remove: archive file [/home/abi/fetcher/tmp/vss-tools-4.1rc0.tar.gz]
 [2024-05-02 14:53:08] INFO root fetch - main [MainThread]: End processing [vss-tools]: success
 [2024-05-02 14:53:08] INFO root fetch - main [MainThread]: Store serial: [23031165]
+[2024-05-02 14:55:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031165]
+[2024-05-02 14:55:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 14:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lyyguifunction
+[2024-05-02 14:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fds.sdk.utils
+[2024-05-02 14:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ltbfiles
+[2024-05-02 14:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: knoxnl
+[2024-05-02 14:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inoopa_utils
+[2024-05-02 14:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: labeled-contrastive-framework
+[2024-05-02 14:55:17] INFO root fetch - processPackages [labeled-contrastive-framework]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-02 14:55:17] INFO root fetch - processPackages [ltbfiles]: New version: [4.0.1rc283] Old Version: [4.0.0rc262]
+[2024-05-02 14:55:17] INFO root fetch - processPackages [knoxnl]: New version: [4.3] Old Version: [4.2]
+[2024-05-02 14:55:17] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-02 14:55:17] INFO root fetch - processPackages [fds.sdk.utils]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-02 14:55:17] WARNING root fetch - processPackages [lyyguifunction]: Skipping, unable to determine old version
+[2024-05-02 14:55:17] INFO root fetch - main [MainThread]: End processing [lyyguifunction] error
+[2024-05-02 14:55:17] INFO root fetch - processPackages [ltbfiles]: Downloading https://files.pythonhosted.org/packages/df/fb/6ff7d116478341553fb9ba0e1933092833af64a7c39f379912345f6c800c/ltbfiles-4.0.0rc262.tar.gz
+[2024-05-02 14:55:17] INFO root fetch - processPackages [knoxnl]: Downloading https://files.pythonhosted.org/packages/67/a3/2d774fc984d13a3e3097a3368776b76a3549bf4d36e642efb26383c7e08b/knoxnl-4.2.tar.gz
+[2024-05-02 14:55:17] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-02 14:55:17] INFO root fetch - processPackages [labeled-contrastive-framework]: Downloading https://files.pythonhosted.org/packages/07/4a/c1e57b8b755eac87998c375505fb78732dea5d7e586ecd97704189229389/labeled_contrastive_framework-0.2.7-py3-none-any.whl
+[2024-05-02 14:55:17] INFO root fetch - processPackages [fds.sdk.utils]: Downloading https://files.pythonhosted.org/packages/e2/27/5022e9aebd0ebcd7c7d4091efe40cff429d5bfadb8ef5090c16522f824ce/fds_sdk_utils-1.1.0.tar.gz
+[2024-05-02 14:55:17] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-02 14:55:17] INFO root fetch - processPackages [ltbfiles]: Downloading https://files.pythonhosted.org/packages/d9/1a/7b2098c52ed7e34d495ddc9e17f0ba337efadffc683cb92e860b176dfb9a/ltbfiles-4.0.1rc283.tar.gz
+[2024-05-02 14:55:17] INFO root fetch - processPackages [knoxnl]: Downloading https://files.pythonhosted.org/packages/00/c1/5e70bbe6f340f054562fb76f2a67553c78983fc7b207891bca2794b6caca/knoxnl-4.3.tar.gz
+[2024-05-02 14:55:18] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-02 14:55:18] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240502/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-02 14:55:18] INFO root fetch - processPackages [ltbfiles]: executing diffoscope
+[2024-05-02 14:55:18] INFO root fetch - processPackages [ltbfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltbfiles-4.0.0rc262.tar.gz tmp/ltbfiles-4.0.1rc283.tar.gz --markdown 20240502/l/ltbfiles/4.0.0rc262-4.0.1rc283/README.md --exclude *.pyd
+[2024-05-02 14:55:18] INFO root fetch - processPackages [knoxnl]: executing diffoscope
+[2024-05-02 14:55:18] INFO root fetch - processPackages [knoxnl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knoxnl-4.2.tar.gz tmp/knoxnl-4.3.tar.gz --markdown 20240502/k/knoxnl/4.2-4.3/README.md --exclude *.pyd
+[2024-05-02 14:55:18] INFO root fetch - processPackages [labeled-contrastive-framework]: Downloading https://files.pythonhosted.org/packages/c6/67/c0d8dda344256c6dac9a6c7b6959648995a9c27fcabb728834e59ed293f8/labeled_contrastive_framework-0.2.8.tar.gz
+[2024-05-02 14:55:18] INFO root fetch - processPackages [fds.sdk.utils]: Downloading https://files.pythonhosted.org/packages/7c/ab/e7b66073b1cb5c57f1ade539d0ce6ff9b0ae05c977d96b8fc27708ffddcd/fds_sdk_utils-1.1.1.tar.gz
+[2024-05-02 14:55:18] INFO root fetch - processPackages [labeled-contrastive-framework]: executing diffoscope
+[2024-05-02 14:55:18] INFO root fetch - processPackages [labeled-contrastive-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labeled_contrastive_framework-0.2.7-py3-none-any.whl.zip tmp/labeled_contrastive_framework-0.2.8.tar.gz --markdown 20240502/l/labeled-contrastive-framework/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-02 14:55:18] INFO root fetch - processPackages [fds.sdk.utils]: executing diffoscope
+[2024-05-02 14:55:18] INFO root fetch - processPackages [fds.sdk.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds_sdk_utils-1.1.0.tar.gz tmp/fds_sdk_utils-1.1.1.tar.gz --markdown 20240502/f/fds.sdk.utils/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-02 14:55:18] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-02 14:55:18] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-02 14:55:18] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-02 14:55:18] INFO root fetch - processPackages [ltbfiles]: Remove: archive file [/home/abi/fetcher/tmp/ltbfiles-4.0.0rc262.tar.gz]
+[2024-05-02 14:55:18] INFO root fetch - processPackages [ltbfiles]: Remove: archive file [/home/abi/fetcher/tmp/ltbfiles-4.0.1rc283.tar.gz]
+[2024-05-02 14:55:18] INFO root fetch - main [MainThread]: End processing [ltbfiles]: success
+[2024-05-02 14:55:18] INFO root fetch - processPackages [knoxnl]: Remove: archive file [/home/abi/fetcher/tmp/knoxnl-4.2.tar.gz]
+[2024-05-02 14:55:18] INFO root fetch - processPackages [knoxnl]: Remove: archive file [/home/abi/fetcher/tmp/knoxnl-4.3.tar.gz]
+[2024-05-02 14:55:18] INFO root fetch - main [MainThread]: End processing [knoxnl]: success
+[2024-05-02 14:55:18] INFO root fetch - processPackages [labeled-contrastive-framework]: Remove: archive file [/home/abi/fetcher/tmp/labeled_contrastive_framework-0.2.7-py3-none-any.whl.zip]
+[2024-05-02 14:55:18] INFO root fetch - processPackages [labeled-contrastive-framework]: Remove: archive file [/home/abi/fetcher/tmp/labeled_contrastive_framework-0.2.8.tar.gz]
+[2024-05-02 14:55:18] INFO root fetch - main [MainThread]: End processing [labeled-contrastive-framework]: success
+[2024-05-02 14:55:18] INFO root fetch - processPackages [fds.sdk.utils]: Remove: archive file [/home/abi/fetcher/tmp/fds_sdk_utils-1.1.0.tar.gz]
+[2024-05-02 14:55:18] INFO root fetch - processPackages [fds.sdk.utils]: Remove: archive file [/home/abi/fetcher/tmp/fds_sdk_utils-1.1.1.tar.gz]
+[2024-05-02 14:55:18] INFO root fetch - main [MainThread]: End processing [fds.sdk.utils]: success
+[2024-05-02 14:55:18] INFO root fetch - main [MainThread]: Store serial: [23031184]
