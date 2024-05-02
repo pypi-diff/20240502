@@ -17188,3 +17188,42 @@
 [2024-05-02 12:53:07] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.3.1.2-py3-none-any.whl.zip]
 [2024-05-02 12:53:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
 [2024-05-02 12:53:07] INFO root fetch - main [MainThread]: Store serial: [23029730]
+[2024-05-02 12:55:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029730]
+[2024-05-02 12:55:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 12:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2024-05-02 12:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agenta
+[2024-05-02 12:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: haystack-ai
+[2024-05-02 12:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitlab_evaluate
+[2024-05-02 12:55:17] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-02 12:55:17] INFO root fetch - processPackages [gitlab_evaluate]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 12:55:17] INFO root fetch - processPackages [haystack-ai]: New version: [2.1.0rc1] Old Version: [2.0.1rc2]
+[2024-05-02 12:55:17] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-05-02 12:55:17] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-02 12:55:17] INFO root fetch - processPackages [gitlab_evaluate]: Downloading https://files.pythonhosted.org/packages/bd/d7/db4b4f8988f849f796e7b91162d5236d6ea40a7d7689257e3e327d160c0a/gitlab_evaluate-0.8.0.tar.gz
+[2024-05-02 12:55:17] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-02 12:55:17] INFO root fetch - processPackages [haystack-ai]: Downloading https://files.pythonhosted.org/packages/42/97/761d3c77ac608a1f0892868342f7d80af5d0963a1eaa7a18b7e6e505effd/haystack_ai-2.0.1rc2.tar.gz
+[2024-05-02 12:55:17] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-05-02 12:55:17] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-05-02 12:55:17] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240502/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-02 12:55:17] INFO root fetch - processPackages [gitlab_evaluate]: Downloading https://files.pythonhosted.org/packages/f0/9c/30523f249e94535860ed877354ba37da530b7ec5a23c66ebccdcab142f54/gitlab_evaluate-0.9.0.tar.gz
+[2024-05-02 12:55:17] INFO root fetch - processPackages [haystack-ai]: Downloading https://files.pythonhosted.org/packages/a8/59/a42ca9d2ac50c51404313bd4a4868acd4c9b740fb017302e6e5cdc1aac75/haystack_ai-2.1.0rc1.tar.gz
+[2024-05-02 12:55:17] INFO root fetch - processPackages [gitlab_evaluate]: executing diffoscope
+[2024-05-02 12:55:17] INFO root fetch - processPackages [gitlab_evaluate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_evaluate-0.8.0.tar.gz tmp/gitlab_evaluate-0.9.0.tar.gz --markdown 20240502/g/gitlab_evaluate/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 12:55:18] INFO root fetch - processPackages [haystack-ai]: executing diffoscope
+[2024-05-02 12:55:18] INFO root fetch - processPackages [haystack-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haystack_ai-2.0.1rc2.tar.gz tmp/haystack_ai-2.1.0rc1.tar.gz --markdown 20240502/h/haystack-ai/2.0.1rc2-2.1.0rc1/README.md --exclude *.pyd
+[2024-05-02 12:55:18] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-05-02 12:55:18] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-05-02 12:55:18] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-05-02 12:55:18] INFO root fetch - processPackages [gitlab_evaluate]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_evaluate-0.8.0.tar.gz]
+[2024-05-02 12:55:18] INFO root fetch - processPackages [gitlab_evaluate]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_evaluate-0.9.0.tar.gz]
+[2024-05-02 12:55:18] INFO root fetch - main [MainThread]: End processing [gitlab_evaluate]: success
+[2024-05-02 12:55:18] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-02 12:55:18] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-02 12:55:18] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240502/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-02 12:55:19] INFO root fetch - processPackages [haystack-ai]: Remove: archive file [/home/abi/fetcher/tmp/haystack_ai-2.0.1rc2.tar.gz]
+[2024-05-02 12:55:19] INFO root fetch - processPackages [haystack-ai]: Remove: archive file [/home/abi/fetcher/tmp/haystack_ai-2.1.0rc1.tar.gz]
+[2024-05-02 12:55:19] INFO root fetch - main [MainThread]: End processing [haystack-ai]: success
+[2024-05-02 12:55:19] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-02 12:55:19] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-02 12:55:19] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-02 12:55:19] INFO root fetch - main [MainThread]: Store serial: [23029742]
