@@ -16932,3 +16932,54 @@
 [2024-05-02 12:39:57] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240501.tar.gz]
 [2024-05-02 12:39:57] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2024-05-02 12:39:57] INFO root fetch - main [MainThread]: Store serial: [23029628]
+[2024-05-02 12:42:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029628]
+[2024-05-02 12:42:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 12:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-user-limiter
+[2024-05-02 12:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zood
+[2024-05-02 12:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MPSPEnv
+[2024-05-02 12:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rp
+[2024-05-02 12:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easyland
+[2024-05-02 12:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easyland
+[2024-05-02 12:42:08] INFO root fetch - processPackages [fastapi-user-limiter]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-02 12:42:08] INFO root fetch - processPackages [MPSPEnv]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 12:42:08] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-05-02 12:42:08] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/9e/be/f91fa76e471a0dd7260d37c9e6499277a10610790a3e5f7831d659956074/MPSPEnv-0.0.8.tar.gz
+[2024-05-02 12:42:08] INFO root fetch - processPackages [fastapi-user-limiter]: Downloading https://files.pythonhosted.org/packages/be/e9/bcc6a84837968cea076178caef598a3d4992c904774c58b23ea5ed21ad1b/fastapi_user_limiter-0.3.0.tar.gz
+[2024-05-02 12:42:08] INFO root fetch - processPackages [zood]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 12:42:08] INFO root fetch - processPackages [easyland]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-02 12:42:08] INFO root fetch - processPackages [easyland]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-02 12:42:08] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-05-02 12:42:08] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-05-02 12:42:08] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-05-02 12:42:08] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/89/e1/2abadf4115e1c497b2e87231a9a0a251c0e44ed694e151e7f25bec80a101/zood-0.9.8.tar.gz
+[2024-05-02 12:42:08] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/49/f7/3d0031c911e5d69c9e8536e156ebae2cf1453167270f34f5b3ba240b8672/MPSPEnv-0.0.9.tar.gz
+[2024-05-02 12:42:08] INFO root fetch - processPackages [easyland]: Downloading https://files.pythonhosted.org/packages/86/28/d3dae59107141bd3240d6c38fd3c4cf3780c85f58acee458802fd68849f9/easyland-0.7.0.tar.gz
+[2024-05-02 12:42:08] INFO root fetch - processPackages [easyland]: Downloading https://files.pythonhosted.org/packages/86/28/d3dae59107141bd3240d6c38fd3c4cf3780c85f58acee458802fd68849f9/easyland-0.7.0.tar.gz
+[2024-05-02 12:42:08] INFO root fetch - processPackages [fastapi-user-limiter]: Downloading https://files.pythonhosted.org/packages/5a/2f/348391bbcecc4a38e1d09357aa9465fe088ba43f7012845c559ba915f75c/fastapi_user_limiter-0.4.0.tar.gz
+[2024-05-02 12:42:08] INFO root fetch - processPackages [MPSPEnv]: executing diffoscope
+[2024-05-02 12:42:08] INFO root fetch - processPackages [MPSPEnv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSPEnv-0.0.8.tar.gz tmp/MPSPEnv-0.0.9.tar.gz --markdown 20240502/M/MPSPEnv/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 12:42:08] INFO root fetch - processPackages [fastapi-user-limiter]: executing diffoscope
+[2024-05-02 12:42:08] INFO root fetch - processPackages [fastapi-user-limiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_user_limiter-0.3.0.tar.gz tmp/fastapi_user_limiter-0.4.0.tar.gz --markdown 20240502/f/fastapi-user-limiter/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-02 12:42:08] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/13/67/343c8b411342d4b9f36abe60fc2985c346b2e83ac8868ed88fac755fa3eb/zood-0.9.9.tar.gz
+[2024-05-02 12:42:09] INFO root fetch - processPackages [easyland]: Downloading https://files.pythonhosted.org/packages/29/44/d60281479ee026197e0fa1fdab65167d8d64009b030d72fdc609c2d44036/easyland-0.7.1.tar.gz
+[2024-05-02 12:42:09] INFO root fetch - processPackages [zood]: executing diffoscope
+[2024-05-02 12:42:09] INFO root fetch - processPackages [zood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zood-0.9.8.tar.gz tmp/zood-0.9.9.tar.gz --markdown 20240502/z/zood/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 12:42:09] INFO root fetch - processPackages [easyland]: Downloading https://files.pythonhosted.org/packages/29/44/d60281479ee026197e0fa1fdab65167d8d64009b030d72fdc609c2d44036/easyland-0.7.1.tar.gz
+[2024-05-02 12:42:09] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/MPSPEnv-0.0.8.tar.gz]
+[2024-05-02 12:42:09] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/MPSPEnv-0.0.9.tar.gz]
+[2024-05-02 12:42:09] INFO root fetch - main [MainThread]: End processing [MPSPEnv]: success
+[2024-05-02 12:42:09] INFO root fetch - processPackages [easyland]: executing diffoscope
+[2024-05-02 12:42:09] INFO root fetch - processPackages [easyland]: executing diffoscope
+[2024-05-02 12:42:09] INFO root fetch - processPackages [easyland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyland-0.7.0.tar.gz tmp/easyland-0.7.1.tar.gz --markdown 20240502/e/easyland/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-02 12:42:09] INFO root fetch - processPackages [easyland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyland-0.7.0.tar.gz tmp/easyland-0.7.1.tar.gz --markdown 20240502/e/easyland/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-02 12:42:09] INFO root fetch - processPackages [fastapi-user-limiter]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_user_limiter-0.3.0.tar.gz]
+[2024-05-02 12:42:09] INFO root fetch - processPackages [fastapi-user-limiter]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_user_limiter-0.4.0.tar.gz]
+[2024-05-02 12:42:09] INFO root fetch - main [MainThread]: End processing [fastapi-user-limiter]: success
+[2024-05-02 12:42:09] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.9.8.tar.gz]
+[2024-05-02 12:42:09] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.9.9.tar.gz]
+[2024-05-02 12:42:09] INFO root fetch - main [MainThread]: End processing [zood]: success
+[2024-05-02 12:42:09] INFO root fetch - processPackages [easyland]: Remove: archive file [/home/abi/fetcher/tmp/easyland-0.7.0.tar.gz]
+[2024-05-02 12:42:09] INFO root fetch - processPackages [easyland]: Remove: archive file [/home/abi/fetcher/tmp/easyland-0.7.1.tar.gz]
+[2024-05-02 12:42:09] INFO root fetch - main [MainThread]: End processing [easyland]: success
+[2024-05-02 12:42:09] INFO root fetch - main [MainThread]: End processing [easyland]: success
+[2024-05-02 12:42:09] INFO root fetch - main [MainThread]: Store serial: [23029646]
