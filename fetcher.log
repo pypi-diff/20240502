@@ -7582,3 +7582,24 @@
 [2024-05-02 04:32:35] INFO root fetch - processPackages [seppl]: Remove: archive file [/home/abi/fetcher/tmp/seppl-0.2.1.tar.gz]
 [2024-05-02 04:32:35] INFO root fetch - main [MainThread]: End processing [seppl]: success
 [2024-05-02 04:32:35] INFO root fetch - main [MainThread]: Store serial: [23025764]
+[2024-05-02 04:34:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025764]
+[2024-05-02 04:34:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 04:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sesql
+[2024-05-02 04:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyCourrier
+[2024-05-02 04:34:43] INFO root fetch - processPackages [sesql]: New version: [2024.5.0] Old Version: [2024.4.1rc1]
+[2024-05-02 04:34:43] INFO root fetch - processPackages [PyCourrier]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-02 04:34:44] INFO root fetch - processPackages [sesql]: Downloading https://files.pythonhosted.org/packages/ab/0c/786f8b5ecb4ba02bb4eda23bdeae2c5906191b076c820d6b923bf9a47eb0/sesql-2024.4.1rc1.tar.gz
+[2024-05-02 04:34:44] INFO root fetch - processPackages [PyCourrier]: Downloading https://files.pythonhosted.org/packages/b9/af/9884d0789a17463e35e988192fe392fa84e4453b32c9a38cc8671c90737c/PyCourrier-0.1.5.tar.gz
+[2024-05-02 04:34:44] INFO root fetch - processPackages [PyCourrier]: Downloading https://files.pythonhosted.org/packages/85/06/6739bfc19cf858c2d9da2a7fc1efb94dec027d3af198e630214b39a5171a/PyCourrier-0.1.6.tar.gz
+[2024-05-02 04:34:44] INFO root fetch - processPackages [PyCourrier]: executing diffoscope
+[2024-05-02 04:34:44] INFO root fetch - processPackages [PyCourrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCourrier-0.1.5.tar.gz tmp/PyCourrier-0.1.6.tar.gz --markdown 20240502/P/PyCourrier/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-02 04:34:44] INFO root fetch - processPackages [sesql]: Downloading https://files.pythonhosted.org/packages/d2/86/2f0fdeab6b3cc4f51d7c32d2c2f4e78730f953a13cf3829504eb5d406de9/sesql-2024.5.0.tar.gz
+[2024-05-02 04:34:44] INFO root fetch - processPackages [sesql]: executing diffoscope
+[2024-05-02 04:34:44] INFO root fetch - processPackages [sesql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesql-2024.4.1rc1.tar.gz tmp/sesql-2024.5.0.tar.gz --markdown 20240502/s/sesql/2024.4.1rc1-2024.5.0/README.md --exclude *.pyd
+[2024-05-02 04:34:45] INFO root fetch - processPackages [PyCourrier]: Remove: archive file [/home/abi/fetcher/tmp/PyCourrier-0.1.5.tar.gz]
+[2024-05-02 04:34:45] INFO root fetch - processPackages [PyCourrier]: Remove: archive file [/home/abi/fetcher/tmp/PyCourrier-0.1.6.tar.gz]
+[2024-05-02 04:34:45] INFO root fetch - main [MainThread]: End processing [PyCourrier]: success
+[2024-05-02 04:34:45] INFO root fetch - processPackages [sesql]: Remove: archive file [/home/abi/fetcher/tmp/sesql-2024.4.1rc1.tar.gz]
+[2024-05-02 04:34:45] INFO root fetch - processPackages [sesql]: Remove: archive file [/home/abi/fetcher/tmp/sesql-2024.5.0.tar.gz]
+[2024-05-02 04:34:45] INFO root fetch - main [MainThread]: End processing [sesql]: success
+[2024-05-02 04:34:45] INFO root fetch - main [MainThread]: Store serial: [23025774]
