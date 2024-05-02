@@ -10873,3 +10873,42 @@
 [2024-05-02 08:42:20] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
 [2024-05-02 08:42:20] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
 [2024-05-02 08:42:20] INFO root fetch - main [MainThread]: Store serial: [23027070]
+[2024-05-02 08:44:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027070]
+[2024-05-02 08:44:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 08:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: increff-runner
+[2024-05-02 08:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PepperPepper
+[2024-05-02 08:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crewai-tools
+[2024-05-02 08:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-alconna
+[2024-05-02 08:44:28] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.9.3] Old Version: [0.9.0]
+[2024-05-02 08:44:28] INFO root fetch - processPackages [increff-runner]: New version: [3.1.8] Old Version: [3.1.7]
+[2024-05-02 08:44:28] INFO root fetch - processPackages [crewai-tools]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-05-02 08:44:28] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.6] Old Version: [0.0.5.9]
+[2024-05-02 08:44:29] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/c8/67/1065373af14f845f6112a3d2cb8d6187d838b4c0d90d89282ccef9f5133d/nonebot-plugin-alconna-0.9.0.tar.gz
+[2024-05-02 08:44:29] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/06/bb/1980f46492a7d8b082e0a348eb0a5e0deb5c83d0d56b58f84f6bc428a07c/increff_runner-3.1.7-py3-none-any.whl
+[2024-05-02 08:44:29] INFO root fetch - processPackages [crewai-tools]: Downloading https://files.pythonhosted.org/packages/24/e9/5ae4cc8391d59174137e4a5a6dcb2c678f2dff00120e0a592811d8cfb368/crewai_tools-0.1.7.tar.gz
+[2024-05-02 08:44:29] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/2d/03/462d4a6d03c63103124ffe53cd7033f4914c3c636cccb827fc6b81a56d38/pepperpepper-0.0.5.9.tar.gz
+[2024-05-02 08:44:29] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/9c/90/f768bc9ea84bf9a4392d0384d01590a376d108b0241dbb859d931bff58e4/increff_runner-3.1.8-py3-none-any.whl
+[2024-05-02 08:44:29] INFO root fetch - processPackages [crewai-tools]: Downloading https://files.pythonhosted.org/packages/f9/59/ed1e9130f69473c495882622a280589a349cd0a95f18cd021643f788364f/crewai_tools-0.2.0.tar.gz
+[2024-05-02 08:44:29] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/f4/fd/830dd6604cd5dc44a467d959ff595e8da0a087d9b75368acaecfc83c3417/nonebot_plugin_alconna-0.9.3.tar.gz
+[2024-05-02 08:44:29] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/d7/c1/8a4b1af5327b4ebcc2768642e71d2d9f6f1a12c4cbb157ca19bb48fc31fc/pepperpepper-0.0.6.tar.gz
+[2024-05-02 08:44:29] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-05-02 08:44:29] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-3.1.7-py3-none-any.whl.zip tmp/increff_runner-3.1.8-py3-none-any.whl.zip --markdown 20240502/i/increff-runner/3.1.7-3.1.8/README.md --exclude *.pyd
+[2024-05-02 08:44:29] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2024-05-02 08:44:29] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.9.0.tar.gz tmp/nonebot_plugin_alconna-0.9.3.tar.gz --markdown 20240502/n/nonebot-plugin-alconna/0.9.0-0.9.3/README.md --exclude *.pyd
+[2024-05-02 08:44:29] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-02 08:44:29] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.5.9.tar.gz tmp/pepperpepper-0.0.6.tar.gz --markdown 20240502/P/PepperPepper/0.0.5.9-0.0.6/README.md --exclude *.pyd
+[2024-05-02 08:44:30] INFO root fetch - processPackages [crewai-tools]: executing diffoscope
+[2024-05-02 08:44:30] INFO root fetch - processPackages [crewai-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai_tools-0.1.7.tar.gz tmp/crewai_tools-0.2.0.tar.gz --markdown 20240502/c/crewai-tools/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-05-02 08:44:30] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.5.9.tar.gz]
+[2024-05-02 08:44:30] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.6.tar.gz]
+[2024-05-02 08:44:30] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-02 08:44:30] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.9.0.tar.gz]
+[2024-05-02 08:44:30] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_alconna-0.9.3.tar.gz]
+[2024-05-02 08:44:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2024-05-02 08:44:30] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.7-py3-none-any.whl.zip]
+[2024-05-02 08:44:30] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.8-py3-none-any.whl.zip]
+[2024-05-02 08:44:30] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-05-02 08:44:30] INFO root fetch - processPackages [crewai-tools]: Remove: archive file [/home/abi/fetcher/tmp/crewai_tools-0.1.7.tar.gz]
+[2024-05-02 08:44:30] INFO root fetch - processPackages [crewai-tools]: Remove: archive file [/home/abi/fetcher/tmp/crewai_tools-0.2.0.tar.gz]
+[2024-05-02 08:44:30] INFO root fetch - main [MainThread]: End processing [crewai-tools]: success
+[2024-05-02 08:44:30] INFO root fetch - main [MainThread]: Store serial: [23027088]
