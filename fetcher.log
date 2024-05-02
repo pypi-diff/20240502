@@ -18064,3 +18064,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 13:26:48] INFO root fetch - processPackages [cylc-flow]: Remove: archive file [/home/abi/fetcher/tmp/cylc_flow-8.2.6.tar.gz]
 [2024-05-02 13:26:48] INFO root fetch - main [MainThread]: End processing [cylc-flow]: success
 [2024-05-02 13:26:48] INFO root fetch - main [MainThread]: Store serial: [23029993]
+[2024-05-02 13:28:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029993]
+[2024-05-02 13:28:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchx-nightly
+[2024-05-02 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: financial-datasets
+[2024-05-02 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: celitech-sdk
+[2024-05-02 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: piccolo-admin
+[2024-05-02 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchrl-nightly
+[2024-05-02 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vessl
+[2024-05-02 13:28:58] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-02 13:28:58] INFO root fetch - processPackages [celitech-sdk]: New version: [1.1.55] Old Version: [1.1.54]
+[2024-05-02 13:28:58] INFO root fetch - processPackages [financial-datasets]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 13:28:58] INFO root fetch - processPackages [piccolo-admin]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-02 13:28:58] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-02 13:28:58] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-02 13:28:58] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/21/63/52f1787151258c649cf20a5564c17e970af032cf58f7db90e6cb4ea5f526/torchx_nightly-2024.5.1-py3-none-any.whl
+[2024-05-02 13:28:58] INFO root fetch - processPackages [celitech-sdk]: Downloading https://files.pythonhosted.org/packages/a8/2b/b2958751c2dc138ba441d8b106e6adfedb68713d5b3b9abd65743e17d577/celitech_sdk-1.1.54.tar.gz
+[2024-05-02 13:28:58] INFO root fetch - processPackages [financial-datasets]: Downloading https://files.pythonhosted.org/packages/36/94/255abe9cb6d903e14abd37e03da6cf223d9808470f9dd5d79169b683cc32/financial_datasets-0.1.8.tar.gz
+[2024-05-02 13:28:58] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/3f/31/a15807a386c08dcc1555ec4a165e7c7d848fe0e11f854c4badacb203b890/torchrl_nightly-2024.5.1-cp39-cp39-win_amd64.whl
+[2024-05-02 13:28:58] INFO root fetch - processPackages [piccolo-admin]: Downloading https://files.pythonhosted.org/packages/35/cb/69c19e72c53f2471e87812d4c003edf699a126dde0942e23dea8d44b044f/piccolo_admin-1.3.2.tar.gz
+[2024-05-02 13:28:58] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2024-05-02 13:28:58] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/e4/76/e6b97e58e829cf0b3d552307dc0d92a1134e373255f33034ad9d2e782f8b/torchx_nightly-2024.5.2-py3-none-any.whl
+[2024-05-02 13:28:59] INFO root fetch - processPackages [celitech-sdk]: Downloading https://files.pythonhosted.org/packages/03/50/5433dbecd0c073e9de885b912acebaf3e320141e587a935272b8b359e400/celitech_sdk-1.1.55.tar.gz
+[2024-05-02 13:28:59] INFO root fetch - processPackages [financial-datasets]: Downloading https://files.pythonhosted.org/packages/87/a1/22bd6c400ec0e79b048a16568be6b9aef6c214655800975327559d6f37fa/financial_datasets-0.1.9.tar.gz
+[2024-05-02 13:28:59] INFO root fetch - processPackages [piccolo-admin]: Downloading https://files.pythonhosted.org/packages/62/31/25315a9b017c9f84aec0d4f14084411f921772ab5bb164757de72e4d58b7/piccolo_admin-1.3.3.tar.gz
+[2024-05-02 13:28:59] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-02 13:28:59] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.5.1-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.2-py3-none-any.whl.zip --markdown 20240502/t/torchx-nightly/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-02 13:28:59] INFO root fetch - processPackages [financial-datasets]: executing diffoscope
+[2024-05-02 13:28:59] INFO root fetch - processPackages [financial-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financial_datasets-0.1.8.tar.gz tmp/financial_datasets-0.1.9.tar.gz --markdown 20240502/f/financial-datasets/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 13:28:59] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/f7/6c/c7b094e65d68d35e65bb7cec60b5f8a2f5b8eb1dcfbd0529109231dc6236/torchrl_nightly-2024.5.2-cp39-cp39-win_amd64.whl
+[2024-05-02 13:28:59] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2024-05-02 13:28:59] INFO root fetch - processPackages [celitech-sdk]: executing diffoscope
+[2024-05-02 13:28:59] INFO root fetch - processPackages [celitech-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celitech_sdk-1.1.54.tar.gz tmp/celitech_sdk-1.1.55.tar.gz --markdown 20240502/c/celitech-sdk/1.1.54-1.1.55/README.md --exclude *.pyd
+[2024-05-02 13:28:59] INFO root fetch - processPackages [piccolo-admin]: executing diffoscope
+[2024-05-02 13:28:59] INFO root fetch - processPackages [piccolo-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piccolo_admin-1.3.2.tar.gz tmp/piccolo_admin-1.3.3.tar.gz --markdown 20240502/p/piccolo-admin/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-02 13:28:59] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2024-05-02 13:28:59] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20240502/v/vessl/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-02 13:28:59] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-02 13:28:59] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.5.1-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.2-cp39-cp39-win_amd64.whl.zip --markdown 20240502/t/torchrl-nightly/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-02 13:28:59] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.8.tar.gz]
+[2024-05-02 13:28:59] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.9.tar.gz]
+[2024-05-02 13:28:59] INFO root fetch - main [MainThread]: End processing [financial-datasets]: success
+[2024-05-02 13:29:00] INFO root fetch - processPackages [celitech-sdk]: Remove: archive file [/home/abi/fetcher/tmp/celitech_sdk-1.1.54.tar.gz]
+[2024-05-02 13:29:00] INFO root fetch - processPackages [celitech-sdk]: Remove: archive file [/home/abi/fetcher/tmp/celitech_sdk-1.1.55.tar.gz]
+[2024-05-02 13:29:00] INFO root fetch - main [MainThread]: End processing [celitech-sdk]: success
+[2024-05-02 13:29:00] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.1-py3-none-any.whl.zip]
+[2024-05-02 13:29:00] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.2-py3-none-any.whl.zip]
+[2024-05-02 13:29:00] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-02 13:29:01] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 13:29:01] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-02 13:29:01] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-02 13:29:02] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2024-05-02 13:29:02] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2024-05-02 13:29:02] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2024-05-02 13:29:07] INFO root fetch - processPackages [piccolo-admin]: Remove: archive file [/home/abi/fetcher/tmp/piccolo_admin-1.3.2.tar.gz]
+[2024-05-02 13:29:07] INFO root fetch - processPackages [piccolo-admin]: Remove: archive file [/home/abi/fetcher/tmp/piccolo_admin-1.3.3.tar.gz]
+[2024-05-02 13:29:07] INFO root fetch - main [MainThread]: End processing [piccolo-admin]: success
+[2024-05-02 13:29:07] INFO root fetch - main [MainThread]: Store serial: [23030013]
