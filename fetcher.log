@@ -7848,3 +7848,42 @@
 [2024-05-02 04:52:33] INFO root fetch - processPackages [heudiconv]: Remove: archive file [/home/abi/fetcher/tmp/heudiconv-1.1.1.tar.gz]
 [2024-05-02 04:52:33] INFO root fetch - main [MainThread]: End processing [heudiconv]: success
 [2024-05-02 04:52:33] INFO root fetch - main [MainThread]: Store serial: [23025906]
+[2024-05-02 04:54:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025906]
+[2024-05-02 04:54:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 04:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ffsim
+[2024-05-02 04:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datarobot-drum
+[2024-05-02 04:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bambooai
+[2024-05-02 04:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih
+[2024-05-02 04:54:43] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 04:54:43] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-02 04:54:43] INFO root fetch - processPackages [datarobot-drum]: New version: [1.9.9.dev2] Old Version: [1.9.9.dev1]
+[2024-05-02 04:54:43] INFO root fetch - processPackages [ffsim]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 04:54:43] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-05-02 04:54:44] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-02 04:54:44] INFO root fetch - processPackages [ffsim]: Downloading https://files.pythonhosted.org/packages/2e/99/8dd07af7a50fbac6c2f6084853a12f007db2faac6b180724ce6b79e465ae/ffsim-0.0.8.tar.gz
+[2024-05-02 04:54:44] INFO root fetch - processPackages [datarobot-drum]: Downloading https://files.pythonhosted.org/packages/04/51/352545a1b11f4fc5c3f426edaa82ac07d50c02da4f8d6bbbf64cd62eadff/datarobot_drum-1.9.9.dev1-py3-none-any.whl
+[2024-05-02 04:54:44] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-05-02 04:54:44] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-02 04:54:44] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240502/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 04:54:44] INFO root fetch - processPackages [ffsim]: Downloading https://files.pythonhosted.org/packages/44/73/0a674ae24e0d1adf0b2d2be576e9763c16ffe468b8aef7a301a7eceef858/ffsim-0.0.9.tar.gz
+[2024-05-02 04:54:44] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-05-02 04:54:44] INFO root fetch - processPackages [ffsim]: executing diffoscope
+[2024-05-02 04:54:44] INFO root fetch - processPackages [ffsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffsim-0.0.8.tar.gz tmp/ffsim-0.0.9.tar.gz --markdown 20240502/f/ffsim/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 04:54:44] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-05-02 04:54:44] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240502/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-05-02 04:54:44] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-02 04:54:44] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-02 04:54:44] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-02 04:54:45] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-05-02 04:54:45] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-05-02 04:54:45] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-05-02 04:54:45] INFO root fetch - processPackages [ffsim]: Remove: archive file [/home/abi/fetcher/tmp/ffsim-0.0.8.tar.gz]
+[2024-05-02 04:54:45] INFO root fetch - processPackages [ffsim]: Remove: archive file [/home/abi/fetcher/tmp/ffsim-0.0.9.tar.gz]
+[2024-05-02 04:54:45] INFO root fetch - main [MainThread]: End processing [ffsim]: success
+[2024-05-02 04:54:45] INFO root fetch - processPackages [datarobot-drum]: Downloading https://files.pythonhosted.org/packages/23/75/6b64b4240b00a04762c55748b6a459c99083850f20ebaaf9c1dcff7fddce/datarobot_drum-1.9.9.dev2-py3-none-any.whl
+[2024-05-02 04:54:46] INFO root fetch - processPackages [datarobot-drum]: executing diffoscope
+[2024-05-02 04:54:46] INFO root fetch - processPackages [datarobot-drum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_drum-1.9.9.dev1-py3-none-any.whl.zip tmp/datarobot_drum-1.9.9.dev2-py3-none-any.whl.zip --markdown 20240502/d/datarobot-drum/1.9.9.dev1-1.9.9.dev2/README.md --exclude *.pyd
+[2024-05-02 04:55:02] INFO root fetch - processPackages [datarobot-drum]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_drum-1.9.9.dev1-py3-none-any.whl.zip]
+[2024-05-02 04:55:02] INFO root fetch - processPackages [datarobot-drum]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_drum-1.9.9.dev2-py3-none-any.whl.zip]
+[2024-05-02 04:55:02] INFO root fetch - main [MainThread]: End processing [datarobot-drum]: success
+[2024-05-02 04:55:02] INFO root fetch - main [MainThread]: Store serial: [23025918]
