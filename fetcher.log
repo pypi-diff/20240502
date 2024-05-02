@@ -7887,3 +7887,18 @@
 [2024-05-02 04:55:02] INFO root fetch - processPackages [datarobot-drum]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_drum-1.9.9.dev2-py3-none-any.whl.zip]
 [2024-05-02 04:55:02] INFO root fetch - main [MainThread]: End processing [datarobot-drum]: success
 [2024-05-02 04:55:02] INFO root fetch - main [MainThread]: Store serial: [23025918]
+[2024-05-02 04:57:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025918]
+[2024-05-02 04:57:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 04:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syntheticstellarpopconvolve
+[2024-05-02 04:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ldc-google
+[2024-05-02 04:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycde
+[2024-05-02 04:57:10] WARNING root fetch - processPackages [syntheticstellarpopconvolve]: Skipping, unable to determine old version
+[2024-05-02 04:57:10] INFO root fetch - main [MainThread]: End processing [syntheticstellarpopconvolve] error
+[2024-05-02 04:57:11] WARNING root fetch - processPackages [ldc-google]: Skipping, unable to determine old version
+[2024-05-02 04:57:11] INFO root fetch - main [MainThread]: End processing [ldc-google] error
+[2024-05-02 04:57:11] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev932] Old Version: [0.3.1.dev928]
+[2024-05-02 04:57:11] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/e2/a1/f7dc7df623ac7d10a7aff2f612913f774c0c2cb8f6bcdb32dc9ce198a195/pycde-0.3.1.dev928-cp39-cp39-win_amd64.whl
+[2024-05-02 04:57:13] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/95/c3/ca52965cb512b70b096694c3ab27b46432c73164ad45e25ed295a116bd3d/pycde-0.3.1.dev932-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-02 04:57:13] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21466009>=10485760
+[2024-05-02 04:57:13] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-05-02 04:57:13] INFO root fetch - main [MainThread]: Store serial: [23025928]
