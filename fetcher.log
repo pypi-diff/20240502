@@ -7902,3 +7902,42 @@
 [2024-05-02 04:57:13] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21466009>=10485760
 [2024-05-02 04:57:13] INFO root fetch - main [MainThread]: End processing [pycde] error
 [2024-05-02 04:57:13] INFO root fetch - main [MainThread]: Store serial: [23025928]
+[2024-05-02 04:59:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23025928]
+[2024-05-02 04:59:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 04:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyoload
+[2024-05-02 04:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huanzhi-utils
+[2024-05-02 04:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-reconciliation-widget
+[2024-05-02 04:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linkml-store
+[2024-05-02 04:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ldc-html
+[2024-05-02 04:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rulebricks
+[2024-05-02 04:59:23] INFO root fetch - processPackages [rulebricks]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-05-02 04:59:23] WARNING root fetch - processPackages [pyoload]: Skipping, unable to determine old version
+[2024-05-02 04:59:23] INFO root fetch - main [MainThread]: End processing [pyoload] error
+[2024-05-02 04:59:23] INFO root fetch - processPackages [rulebricks]: Downloading https://files.pythonhosted.org/packages/33/ef/eea818ca20abd7ccba19125ea0bcf1583cf99fd06e478c78c939e465dec3/rulebricks-0.0.6.tar.gz
+[2024-05-02 04:59:23] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: New version: [15.0.1.2.9.3] Old Version: [15.0.1.2.9.2]
+[2024-05-02 04:59:23] INFO root fetch - processPackages [linkml-store]: New version: [0.1.6] Old Version: [0.0.0]
+[2024-05-02 04:59:23] WARNING root fetch - processPackages [huanzhi-utils]: Skipping, unable to determine old version
+[2024-05-02 04:59:23] INFO root fetch - main [MainThread]: End processing [huanzhi-utils] error
+[2024-05-02 04:59:23] WARNING root fetch - processPackages [ldc-html]: Skipping, unable to determine old version
+[2024-05-02 04:59:23] INFO root fetch - main [MainThread]: End processing [ldc-html] error
+[2024-05-02 04:59:23] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/71/c4/d4c7c6ef9afeef19bd7113810fe7dacc25032a1187318863118264bd75b9/odoo_addon_account_reconciliation_widget-15.0.1.2.9.2-py3-none-any.whl
+[2024-05-02 04:59:23] INFO root fetch - processPackages [linkml-store]: Downloading https://files.pythonhosted.org/packages/f2/eb/90f282db9d668ade63375e5e19b3a65717026c5de0a2bf10fe3727a9ac2b/linkml_store-0.0.0.tar.gz
+[2024-05-02 04:59:23] INFO root fetch - processPackages [rulebricks]: Downloading https://files.pythonhosted.org/packages/01/4b/b38eff68f2cdff03db9ab6df64d3e4acfdd616608bbc0f94cec92c86c05b/rulebricks-0.0.8.tar.gz
+[2024-05-02 04:59:23] INFO root fetch - processPackages [rulebricks]: executing diffoscope
+[2024-05-02 04:59:23] INFO root fetch - processPackages [rulebricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rulebricks-0.0.6.tar.gz tmp/rulebricks-0.0.8.tar.gz --markdown 20240502/r/rulebricks/0.0.6-0.0.8/README.md --exclude *.pyd
+[2024-05-02 04:59:23] INFO root fetch - processPackages [linkml-store]: Downloading https://files.pythonhosted.org/packages/49/03/0822aa55e7ac4e3a748a7757848bae4893833fc7ea6121d651044e77cb92/linkml_store-0.1.6.tar.gz
+[2024-05-02 04:59:23] INFO root fetch - processPackages [linkml-store]: executing diffoscope
+[2024-05-02 04:59:23] INFO root fetch - processPackages [linkml-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkml_store-0.0.0.tar.gz tmp/linkml_store-0.1.6.tar.gz --markdown 20240502/l/linkml-store/0.0.0-0.1.6/README.md --exclude *.pyd
+[2024-05-02 04:59:23] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/b0/46/8a4baf58f9eff17ee735f82af74d9ca8bb51a66a9957c8331c13a37c93e2/odoo_addon_account_reconciliation_widget-15.0.1.2.9.3-py3-none-any.whl
+[2024-05-02 04:59:24] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: executing diffoscope
+[2024-05-02 04:59:24] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.9.2-py3-none-any.whl.zip tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.9.3-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-account-reconciliation-widget/15.0.1.2.9.2-15.0.1.2.9.3/README.md --exclude *.pyd
+[2024-05-02 04:59:24] INFO root fetch - processPackages [rulebricks]: Remove: archive file [/home/abi/fetcher/tmp/rulebricks-0.0.6.tar.gz]
+[2024-05-02 04:59:24] INFO root fetch - processPackages [rulebricks]: Remove: archive file [/home/abi/fetcher/tmp/rulebricks-0.0.8.tar.gz]
+[2024-05-02 04:59:24] INFO root fetch - main [MainThread]: End processing [rulebricks]: success
+[2024-05-02 04:59:24] INFO root fetch - processPackages [linkml-store]: Remove: archive file [/home/abi/fetcher/tmp/linkml_store-0.0.0.tar.gz]
+[2024-05-02 04:59:24] INFO root fetch - processPackages [linkml-store]: Remove: archive file [/home/abi/fetcher/tmp/linkml_store-0.1.6.tar.gz]
+[2024-05-02 04:59:24] INFO root fetch - main [MainThread]: End processing [linkml-store]: success
+[2024-05-02 04:59:24] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.9.2-py3-none-any.whl.zip]
+[2024-05-02 04:59:24] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.9.3-py3-none-any.whl.zip]
+[2024-05-02 04:59:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconciliation-widget]: success
+[2024-05-02 04:59:24] INFO root fetch - main [MainThread]: Store serial: [23025953]
