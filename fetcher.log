@@ -15463,3 +15463,53 @@
 [2024-05-02 11:49:07] INFO root fetch - processPackages [gunshotmatch-reports]: Remove: archive file [/home/abi/fetcher/tmp/gunshotmatch_reports-0.6.0.tar.gz]
 [2024-05-02 11:49:07] INFO root fetch - main [MainThread]: End processing [gunshotmatch-reports]: success
 [2024-05-02 11:49:07] INFO root fetch - main [MainThread]: Store serial: [23029020]
+[2024-05-02 11:51:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029020]
+[2024-05-02 11:51:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq-cli
+[2024-05-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: senseiv2-test2
+[2024-05-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goto-conversion
+[2024-05-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moonss
+[2024-05-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edgeimpulse
+[2024-05-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codex-of-the-damned
+[2024-05-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ts-interface
+[2024-05-02 11:51:16] INFO root fetch - processPackages [moonss]: New version: [0.97] Old Version: [0.96]
+[2024-05-02 11:51:16] WARNING root fetch - processPackages [senseiv2-test2]: Skipping, unable to determine old version
+[2024-05-02 11:51:16] INFO root fetch - main [MainThread]: End processing [senseiv2-test2] error
+[2024-05-02 11:51:16] INFO root fetch - processPackages [codex-of-the-damned]: New version: [1.9] Old Version: [1.8]
+[2024-05-02 11:51:16] INFO root fetch - processPackages [pyqqq-cli]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-02 11:51:16] INFO root fetch - processPackages [goto-conversion]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-02 11:51:16] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/fd/e5/c6ad9a4f1e9d072cfd35d44926abdf0d264f5b9dbe1e6f4fe372d4125501/moonss-0.96.tar.gz
+[2024-05-02 11:51:16] WARNING root fetch - processPackages [ts-interface]: Skipping, unable to determine old version
+[2024-05-02 11:51:16] INFO root fetch - main [MainThread]: End processing [ts-interface] error
+[2024-05-02 11:51:16] INFO root fetch - processPackages [edgeimpulse]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 11:51:16] INFO root fetch - processPackages [codex-of-the-damned]: Downloading https://files.pythonhosted.org/packages/c2/11/df884619fc13a601b050cb3e01ceb86181c35a4ee94f824c8544d07562f3/codex-of-the-damned-1.8.tar.gz
+[2024-05-02 11:51:16] WARNING root fetch - processPackages [codex-of-the-damned]: Skipping package: exceeds size limit 17715792>=10485760
+[2024-05-02 11:51:16] INFO root fetch - main [MainThread]: End processing [codex-of-the-damned] error
+[2024-05-02 11:51:16] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/dd/61/d908ae36265039d7247abe9e95faa9702b4ab42864e5fbe1a7346ca452e7/pyqqq_cli-0.2.8.tar.gz
+[2024-05-02 11:51:16] INFO root fetch - processPackages [goto-conversion]: Downloading https://files.pythonhosted.org/packages/48/03/e9304844c98450346b40e27b087dbcf0c99af703e95c438ec71fe56b9932/goto_conversion-0.2.0.tar.gz
+[2024-05-02 11:51:16] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/46/a4/d77a2170c8a1cc8ba470e0e784d8dce0eeaf5fbea7f38200c176be801c98/moonss-0.97.tar.gz
+[2024-05-02 11:51:16] INFO root fetch - processPackages [edgeimpulse]: Downloading https://files.pythonhosted.org/packages/04/b3/1969fd57252f0b3e9704dbd018d887e129350405a5d27928607f97039512/edgeimpulse-1.0.8.tar.gz
+[2024-05-02 11:51:16] INFO root fetch - processPackages [moonss]: executing diffoscope
+[2024-05-02 11:51:16] INFO root fetch - processPackages [moonss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonss-0.96.tar.gz tmp/moonss-0.97.tar.gz --markdown 20240502/m/moonss/0.96-0.97/README.md --exclude *.pyd
+[2024-05-02 11:51:16] INFO root fetch - processPackages [goto-conversion]: Downloading https://files.pythonhosted.org/packages/0e/37/230ed9eda29549333259e9f4a435bc7b74a789086da262f4f17f72021612/goto_conversion-0.3.0.tar.gz
+[2024-05-02 11:51:16] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/f7/36/f975aca31040e375e1d46e38578d18d2e032a9f4167c43a50cffe0ad7447/pyqqq_cli-0.2.9.tar.gz
+[2024-05-02 11:51:16] INFO root fetch - processPackages [goto-conversion]: executing diffoscope
+[2024-05-02 11:51:16] INFO root fetch - processPackages [goto-conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goto_conversion-0.2.0.tar.gz tmp/goto_conversion-0.3.0.tar.gz --markdown 20240502/g/goto-conversion/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-02 11:51:16] INFO root fetch - processPackages [pyqqq-cli]: executing diffoscope
+[2024-05-02 11:51:16] INFO root fetch - processPackages [pyqqq-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq_cli-0.2.8.tar.gz tmp/pyqqq_cli-0.2.9.tar.gz --markdown 20240502/p/pyqqq-cli/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-02 11:51:16] INFO root fetch - processPackages [edgeimpulse]: Downloading https://files.pythonhosted.org/packages/72/52/c1c837b2e527625be5471be2cbf9c312f0f69f6f28ccd70cc0b3222cf54a/edgeimpulse-1.0.9.tar.gz
+[2024-05-02 11:51:17] INFO root fetch - processPackages [edgeimpulse]: executing diffoscope
+[2024-05-02 11:51:17] INFO root fetch - processPackages [edgeimpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse-1.0.8.tar.gz tmp/edgeimpulse-1.0.9.tar.gz --markdown 20240502/e/edgeimpulse/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 11:51:17] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.96.tar.gz]
+[2024-05-02 11:51:17] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.97.tar.gz]
+[2024-05-02 11:51:17] INFO root fetch - main [MainThread]: End processing [moonss]: success
+[2024-05-02 11:51:17] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.8.tar.gz]
+[2024-05-02 11:51:17] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.9.tar.gz]
+[2024-05-02 11:51:17] INFO root fetch - main [MainThread]: End processing [pyqqq-cli]: success
+[2024-05-02 11:51:17] INFO root fetch - processPackages [goto-conversion]: Remove: archive file [/home/abi/fetcher/tmp/goto_conversion-0.2.0.tar.gz]
+[2024-05-02 11:51:17] INFO root fetch - processPackages [goto-conversion]: Remove: archive file [/home/abi/fetcher/tmp/goto_conversion-0.3.0.tar.gz]
+[2024-05-02 11:51:17] INFO root fetch - main [MainThread]: End processing [goto-conversion]: success
+[2024-05-02 11:51:17] INFO root fetch - processPackages [edgeimpulse]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse-1.0.8.tar.gz]
+[2024-05-02 11:51:17] INFO root fetch - processPackages [edgeimpulse]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse-1.0.9.tar.gz]
+[2024-05-02 11:51:17] INFO root fetch - main [MainThread]: End processing [edgeimpulse]: success
+[2024-05-02 11:51:17] INFO root fetch - main [MainThread]: Store serial: [23029043]
