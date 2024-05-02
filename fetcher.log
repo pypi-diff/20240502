@@ -10611,3 +10611,33 @@
 [2024-05-02 08:29:00] INFO root fetch - processPackages [niquests]: Remove: archive file [/home/abi/fetcher/tmp/niquests-3.6.2.tar.gz]
 [2024-05-02 08:29:00] INFO root fetch - main [MainThread]: End processing [niquests]: success
 [2024-05-02 08:29:00] INFO root fetch - main [MainThread]: Store serial: [23026977]
+[2024-05-02 08:31:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026977]
+[2024-05-02 08:31:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 08:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dependentobjects
+[2024-05-02 08:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openlit
+[2024-05-02 08:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: riverwm-utils
+[2024-05-02 08:31:09] INFO root fetch - processPackages [openlit]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-02 08:31:09] INFO root fetch - processPackages [dependentobjects]: New version: [0.0.14] Old Version: [0.0.13]
+[2024-05-02 08:31:09] INFO root fetch - processPackages [riverwm-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-02 08:31:09] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/af/fd/fdf1d607e746963a12cc296767ba23f54a6dc75176b0b30104ea61c9facd/openlit-1.0.0.tar.gz
+[2024-05-02 08:31:09] INFO root fetch - processPackages [dependentobjects]: Downloading https://files.pythonhosted.org/packages/b8/21/18ff569c59c432d309c119bb6b419f6a6979116892d473fd0a097c14d895/dependentobjects-0.0.13.tar.gz
+[2024-05-02 08:31:09] INFO root fetch - processPackages [riverwm-utils]: Downloading https://files.pythonhosted.org/packages/ad/37/867767e87ee3de46213d03b830c587feb9c31987f00127117b4f66897a87/riverwm-utils-0.0.7.tar.gz
+[2024-05-02 08:31:09] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/80/b1/ba7a43369ace88414dc79e0e6a59fcd9ad6e52350e833067d1529c6472d5/openlit-1.1.0.tar.gz
+[2024-05-02 08:31:09] INFO root fetch - processPackages [dependentobjects]: Downloading https://files.pythonhosted.org/packages/68/35/40d83e65b2cd9da0942cb89571ecea69a8188783b81594cedbaf94f99304/dependentobjects-0.0.14.tar.gz
+[2024-05-02 08:31:09] INFO root fetch - processPackages [openlit]: executing diffoscope
+[2024-05-02 08:31:09] INFO root fetch - processPackages [openlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlit-1.0.0.tar.gz tmp/openlit-1.1.0.tar.gz --markdown 20240502/o/openlit/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-02 08:31:09] INFO root fetch - processPackages [dependentobjects]: executing diffoscope
+[2024-05-02 08:31:09] INFO root fetch - processPackages [dependentobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dependentobjects-0.0.13.tar.gz tmp/dependentobjects-0.0.14.tar.gz --markdown 20240502/d/dependentobjects/0.0.13-0.0.14/README.md --exclude *.pyd
+[2024-05-02 08:31:09] INFO root fetch - processPackages [riverwm-utils]: Downloading https://files.pythonhosted.org/packages/ec/12/da06942dbe9fa062e9e5fafc8d17a98d97b1eb488b9eac282a3eb98a8f8a/riverwm-utils-0.0.8.tar.gz
+[2024-05-02 08:31:09] INFO root fetch - processPackages [riverwm-utils]: executing diffoscope
+[2024-05-02 08:31:09] INFO root fetch - processPackages [riverwm-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riverwm-utils-0.0.7.tar.gz tmp/riverwm-utils-0.0.8.tar.gz --markdown 20240502/r/riverwm-utils/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-02 08:31:10] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.0.0.tar.gz]
+[2024-05-02 08:31:10] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.1.0.tar.gz]
+[2024-05-02 08:31:10] INFO root fetch - main [MainThread]: End processing [openlit]: success
+[2024-05-02 08:31:10] INFO root fetch - processPackages [dependentobjects]: Remove: archive file [/home/abi/fetcher/tmp/dependentobjects-0.0.13.tar.gz]
+[2024-05-02 08:31:10] INFO root fetch - processPackages [dependentobjects]: Remove: archive file [/home/abi/fetcher/tmp/dependentobjects-0.0.14.tar.gz]
+[2024-05-02 08:31:10] INFO root fetch - main [MainThread]: End processing [dependentobjects]: success
+[2024-05-02 08:31:10] INFO root fetch - processPackages [riverwm-utils]: Remove: archive file [/home/abi/fetcher/tmp/riverwm-utils-0.0.7.tar.gz]
+[2024-05-02 08:31:10] INFO root fetch - processPackages [riverwm-utils]: Remove: archive file [/home/abi/fetcher/tmp/riverwm-utils-0.0.8.tar.gz]
+[2024-05-02 08:31:10] INFO root fetch - main [MainThread]: End processing [riverwm-utils]: success
+[2024-05-02 08:31:10] INFO root fetch - main [MainThread]: Store serial: [23026986]
