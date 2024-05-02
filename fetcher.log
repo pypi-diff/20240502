@@ -21867,3 +21867,107 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:29:02] INFO root fetch - processPackages [kiwi]: Remove: archive file [/home/abi/fetcher/tmp/kiwi-9.8.0.tar.gz]
 [2024-05-02 15:29:02] INFO root fetch - main [MainThread]: End processing [kiwi]: success
 [2024-05-02 15:29:02] INFO root fetch - main [MainThread]: Store serial: [23031554]
+[2024-05-02 15:31:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031554]
+[2024-05-02 15:31:12] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-02 15:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vsensebox
+[2024-05-02 15:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lm-buddy
+[2024-05-02 15:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: od-labeler
+[2024-05-02 15:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fmtutil
+[2024-05-02 15:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-pilecore
+[2024-05-02 15:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: epimodel-sensitivity-test
+[2024-05-02 15:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mmcore
+[2024-05-02 15:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openyieldtables
+[2024-05-02 15:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drawlib
+[2024-05-02 15:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-beta
+[2024-05-02 15:31:13] INFO root fetch - processPackages [fmtutil]: New version: [1.0.4.post0] Old Version: [1.0.4]
+[2024-05-02 15:31:13] INFO root fetch - processPackages [lm-buddy]: New version: [0.9.0] Old Version: [0.4.1]
+[2024-05-02 15:31:13] INFO root fetch - processPackages [vsensebox]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-02 15:31:13] ERROR root fetch - processPackages [od-labeler]: Unable to get metadata: No such project 'od-labeler'
+[2024-05-02 15:31:13] INFO root fetch - processPackages [od-labeler]: Start processing: dbt-singlestore
+[2024-05-02 15:31:13] INFO root fetch - main [MainThread]: End processing [od-labeler] error
+[2024-05-02 15:31:13] INFO root fetch - processPackages [mmcore]: New version: [0.25.6] Old Version: [0.25.5]
+[2024-05-02 15:31:13] INFO root fetch - processPackages [py-pilecore]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-02 15:31:13] INFO root fetch - processPackages [epimodel-sensitivity-test]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-02 15:31:13] INFO root fetch - processPackages [openyieldtables]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-02 15:31:13] WARNING root fetch - processPackages [drawlib]: Skipping, unable to determine old version
+[2024-05-02 15:31:13] INFO root fetch - processPackages [drawlib]: Start processing: pwebarc-wrrarms
+[2024-05-02 15:31:13] INFO root fetch - main [MainThread]: End processing [drawlib] error
+[2024-05-02 15:31:13] INFO root fetch - processPackages [certora-cli-beta]: New version: [7.6.0] Old Version: [7.5.0]
+[2024-05-02 15:31:13] INFO root fetch - processPackages [fmtutil]: Downloading https://files.pythonhosted.org/packages/46/fc/ec259ec4c2163e67a0368eb49b28b0a1f766cfdb0d172d2b147b220c48d4/fmtutil-1.0.4.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [dbt-singlestore]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-02 15:31:13] INFO root fetch - processPackages [lm-buddy]: Downloading https://files.pythonhosted.org/packages/32/22/5ac66ed8c76caecd8f2117d8d15aa5f15b0055b95c64a14f4f25c64f4122/lm-buddy-0.4.1.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [openyieldtables]: Downloading https://files.pythonhosted.org/packages/d8/cc/678795e47784e9f9ff21102df9d35e51408f2a4be6f169b5f46cfae78c23/openyieldtables-2.1.0.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [vsensebox]: Downloading https://files.pythonhosted.org/packages/d1/f2/02a714ff98b6fe41a5335d853b7c628cc98c2499683b30524d3c023368ad/vsensebox-0.1.0.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [py-pilecore]: Downloading https://files.pythonhosted.org/packages/36/39/e4ec093be1b946d100ad9ed7939318e5c1b7e6ebfef2b5fa7dce9f8670f8/py-pilecore-0.4.0.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [epimodel-sensitivity-test]: Downloading https://files.pythonhosted.org/packages/6f/e8/cbfc01505a00ce8859c45a8240992eff1160e53e9ad26f7fa486c64bca51/epimodel_sensitivity_test-0.1.7.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [certora-cli-beta]: Downloading https://files.pythonhosted.org/packages/a2/86/b8e3651e2eee8983699ebf704fcbc5c66b3d42bd38162756517af96dfe8c/certora-cli-beta-7.5.0.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [mmcore]: Downloading https://files.pythonhosted.org/packages/43/9a/b7f1c8abc8d0929df6aa1148a0ac4c2e2f3393cff772f2a26d791bb8f8b9/mmcore-0.25.5.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [pwebarc-wrrarms]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-02 15:31:13] INFO root fetch - processPackages [dbt-singlestore]: Downloading https://files.pythonhosted.org/packages/f7/a6/84aecafcd5e961883675fe2a55823058586791b88af4f45ff29aab9699c8/dbt-singlestore-1.6.0.tar.gz
+[2024-05-02 15:31:13] WARNING root fetch - processPackages [certora-cli-beta]: Skipping package: exceeds size limit 14538448>=10485760
+[2024-05-02 15:31:13] INFO root fetch - processPackages [certora-cli-beta]: Start processing: hfutils
+[2024-05-02 15:31:13] INFO root fetch - main [MainThread]: End processing [certora-cli-beta] error
+[2024-05-02 15:31:13] INFO root fetch - processPackages [fmtutil]: Downloading https://files.pythonhosted.org/packages/8b/26/30120091509e96d1dac4ca9bcc84570f784e0315ca6a0c7c4547658f8946/fmtutil-1.0.4.post0.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [pwebarc-wrrarms]: Downloading https://files.pythonhosted.org/packages/db/c2/6886101a0e261d6d2d1b8fcd05c0aa602aba51e9dead0eeb90de74416d59/pwebarc-wrrarms-0.8.1.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [hfutils]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-02 15:31:13] INFO root fetch - processPackages [epimodel-sensitivity-test]: Downloading https://files.pythonhosted.org/packages/8e/7f/0d0d25c57a332c235ca8795a2d7c90b66a2fb95df691edb26f3e2ea592a4/epimodel_sensitivity_test-0.1.8.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [lm-buddy]: Downloading https://files.pythonhosted.org/packages/08/e2/28b769efc4f8326cc8db03602795b09096a4fdedd6fd2966d0872b234289/lm-buddy-0.9.0.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [openyieldtables]: Downloading https://files.pythonhosted.org/packages/4f/b6/88361f1356313d9f35310990f7f2f30edf0fcd6295bf3faaa36197b62155/openyieldtables-2.2.0.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [vsensebox]: Downloading https://files.pythonhosted.org/packages/de/b9/3fd7d7e71ccd35530352d308b8d1f0e1c93065ac3a6dd0632a8e8db1161f/vsensebox-0.1.1.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [py-pilecore]: Downloading https://files.pythonhosted.org/packages/2a/1b/65631b4f3cdd76900336b198f0a2d48f8f8b35f905e46143bc5d8b3e03a2/py_pilecore-0.4.1.tar.gz
+[2024-05-02 15:31:13] INFO root fetch - processPackages [fmtutil]: executing diffoscope
+[2024-05-02 15:31:13] INFO root fetch - processPackages [fmtutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmtutil-1.0.4.tar.gz tmp/fmtutil-1.0.4.post0.tar.gz --markdown 20240502/f/fmtutil/1.0.4-1.0.4.post0/README.md --exclude *.pyd
+[2024-05-02 15:31:13] INFO root fetch - processPackages [dbt-singlestore]: Downloading https://files.pythonhosted.org/packages/c2/60/3de991394baee39e614bb4ece3b178f0de6b8aee413a8e3a5fe2fa442706/dbt-singlestore-1.6.1.tar.gz
+[2024-05-02 15:31:14] INFO root fetch - processPackages [hfutils]: Downloading https://files.pythonhosted.org/packages/d6/16/8253b70eb885b36a964e89e9a1191cffa7326a21177200470172aebf731b/hfutils-0.2.2.tar.gz
+[2024-05-02 15:31:14] INFO root fetch - processPackages [lm-buddy]: executing diffoscope
+[2024-05-02 15:31:14] INFO root fetch - processPackages [lm-buddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm-buddy-0.4.1.tar.gz tmp/lm-buddy-0.9.0.tar.gz --markdown 20240502/l/lm-buddy/0.4.1-0.9.0/README.md --exclude *.pyd
+[2024-05-02 15:31:14] INFO root fetch - processPackages [vsensebox]: executing diffoscope
+[2024-05-02 15:31:14] INFO root fetch - processPackages [vsensebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsensebox-0.1.0.tar.gz tmp/vsensebox-0.1.1.tar.gz --markdown 20240502/v/vsensebox/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-02 15:31:14] INFO root fetch - processPackages [epimodel-sensitivity-test]: executing diffoscope
+[2024-05-02 15:31:14] INFO root fetch - processPackages [epimodel-sensitivity-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epimodel_sensitivity_test-0.1.7.tar.gz tmp/epimodel_sensitivity_test-0.1.8.tar.gz --markdown 20240502/e/epimodel-sensitivity-test/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-02 15:31:14] INFO root fetch - processPackages [openyieldtables]: executing diffoscope
+[2024-05-02 15:31:14] INFO root fetch - processPackages [openyieldtables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openyieldtables-2.1.0.tar.gz tmp/openyieldtables-2.2.0.tar.gz --markdown 20240502/o/openyieldtables/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-02 15:31:14] INFO root fetch - processPackages [mmcore]: Downloading https://files.pythonhosted.org/packages/fe/e1/11f1b9a1ccaf19dee4233586c6bc2c57800e365463c6ce136863222bc10d/mmcore-0.25.6.tar.gz
+[2024-05-02 15:31:14] INFO root fetch - processPackages [dbt-singlestore]: executing diffoscope
+[2024-05-02 15:31:14] INFO root fetch - processPackages [dbt-singlestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-singlestore-1.6.0.tar.gz tmp/dbt-singlestore-1.6.1.tar.gz --markdown 20240502/d/dbt-singlestore/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-02 15:31:14] INFO root fetch - processPackages [py-pilecore]: executing diffoscope
+[2024-05-02 15:31:14] INFO root fetch - processPackages [py-pilecore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-pilecore-0.4.0.tar.gz tmp/py_pilecore-0.4.1.tar.gz --markdown 20240502/p/py-pilecore/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-02 15:31:14] INFO root fetch - processPackages [pwebarc-wrrarms]: Downloading https://files.pythonhosted.org/packages/0b/85/9c7ff8cb1846b264a129fba408b7a1395ad10c68e147445a24676be0ee6d/pwebarc-wrrarms-0.9.0.tar.gz
+[2024-05-02 15:31:14] INFO root fetch - processPackages [hfutils]: Downloading https://files.pythonhosted.org/packages/db/63/6bd93f6c38d2e8090efb82fd2be7957944c09aad44e2af42e6d10f663c20/hfutils-0.2.3.tar.gz
+[2024-05-02 15:31:14] INFO root fetch - processPackages [mmcore]: executing diffoscope
+[2024-05-02 15:31:14] INFO root fetch - processPackages [mmcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcore-0.25.5.tar.gz tmp/mmcore-0.25.6.tar.gz --markdown 20240502/m/mmcore/0.25.5-0.25.6/README.md --exclude *.pyd
+[2024-05-02 15:31:14] INFO root fetch - processPackages [pwebarc-wrrarms]: executing diffoscope
+[2024-05-02 15:31:14] INFO root fetch - processPackages [pwebarc-wrrarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwebarc-wrrarms-0.8.1.tar.gz tmp/pwebarc-wrrarms-0.9.0.tar.gz --markdown 20240502/p/pwebarc-wrrarms/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-02 15:31:15] INFO root fetch - processPackages [hfutils]: executing diffoscope
+[2024-05-02 15:31:15] INFO root fetch - processPackages [hfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hfutils-0.2.2.tar.gz tmp/hfutils-0.2.3.tar.gz --markdown 20240502/h/hfutils/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-02 15:31:15] INFO root fetch - processPackages [fmtutil]: Remove: archive file [/home/abi/fetcher/tmp/fmtutil-1.0.4.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - processPackages [fmtutil]: Remove: archive file [/home/abi/fetcher/tmp/fmtutil-1.0.4.post0.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - main [MainThread]: End processing [fmtutil]: success
+[2024-05-02 15:31:15] INFO root fetch - processPackages [lm-buddy]: Remove: archive file [/home/abi/fetcher/tmp/lm-buddy-0.4.1.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - processPackages [lm-buddy]: Remove: archive file [/home/abi/fetcher/tmp/lm-buddy-0.9.0.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - main [MainThread]: End processing [lm-buddy]: success
+[2024-05-02 15:31:15] INFO root fetch - processPackages [vsensebox]: Remove: archive file [/home/abi/fetcher/tmp/vsensebox-0.1.0.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - processPackages [vsensebox]: Remove: archive file [/home/abi/fetcher/tmp/vsensebox-0.1.1.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - main [MainThread]: End processing [vsensebox]: success
+[2024-05-02 15:31:15] INFO root fetch - processPackages [epimodel-sensitivity-test]: Remove: archive file [/home/abi/fetcher/tmp/epimodel_sensitivity_test-0.1.7.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - processPackages [epimodel-sensitivity-test]: Remove: archive file [/home/abi/fetcher/tmp/epimodel_sensitivity_test-0.1.8.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - main [MainThread]: End processing [epimodel-sensitivity-test]: success
+[2024-05-02 15:31:15] INFO root fetch - processPackages [openyieldtables]: Remove: archive file [/home/abi/fetcher/tmp/openyieldtables-2.1.0.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - processPackages [openyieldtables]: Remove: archive file [/home/abi/fetcher/tmp/openyieldtables-2.2.0.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - main [MainThread]: End processing [openyieldtables]: success
+[2024-05-02 15:31:15] INFO root fetch - processPackages [py-pilecore]: Remove: archive file [/home/abi/fetcher/tmp/py-pilecore-0.4.0.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - processPackages [py-pilecore]: Remove: archive file [/home/abi/fetcher/tmp/py_pilecore-0.4.1.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - main [MainThread]: End processing [py-pilecore]: success
+[2024-05-02 15:31:15] INFO root fetch - processPackages [pwebarc-wrrarms]: Remove: archive file [/home/abi/fetcher/tmp/pwebarc-wrrarms-0.8.1.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - processPackages [pwebarc-wrrarms]: Remove: archive file [/home/abi/fetcher/tmp/pwebarc-wrrarms-0.9.0.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - main [MainThread]: End processing [pwebarc-wrrarms]: success
+[2024-05-02 15:31:15] INFO root fetch - processPackages [hfutils]: Remove: archive file [/home/abi/fetcher/tmp/hfutils-0.2.2.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - processPackages [hfutils]: Remove: archive file [/home/abi/fetcher/tmp/hfutils-0.2.3.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - main [MainThread]: End processing [hfutils]: success
+[2024-05-02 15:31:15] INFO root fetch - processPackages [dbt-singlestore]: Remove: archive file [/home/abi/fetcher/tmp/dbt-singlestore-1.6.0.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - processPackages [dbt-singlestore]: Remove: archive file [/home/abi/fetcher/tmp/dbt-singlestore-1.6.1.tar.gz]
+[2024-05-02 15:31:15] INFO root fetch - main [MainThread]: End processing [dbt-singlestore]: success
+[2024-05-02 15:31:16] INFO root fetch - processPackages [mmcore]: Remove: archive file [/home/abi/fetcher/tmp/mmcore-0.25.5.tar.gz]
+[2024-05-02 15:31:16] INFO root fetch - processPackages [mmcore]: Remove: archive file [/home/abi/fetcher/tmp/mmcore-0.25.6.tar.gz]
+[2024-05-02 15:31:16] INFO root fetch - main [MainThread]: End processing [mmcore]: success
+[2024-05-02 15:31:16] INFO root fetch - main [MainThread]: Store serial: [23031611]
