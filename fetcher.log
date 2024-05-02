@@ -9757,3 +9757,27 @@
 [2024-05-02 07:30:36] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
 [2024-05-02 07:30:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2024-05-02 07:30:36] INFO root fetch - main [MainThread]: Store serial: [23026683]
+[2024-05-02 07:32:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026683]
+[2024-05-02 07:32:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 07:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2024-05-02 07:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyblksim
+[2024-05-02 07:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e2b-code-interpreter
+[2024-05-02 07:32:45] INFO root fetch - processPackages [e2b-code-interpreter]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-02 07:32:45] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.2.0] Old Version: [2024.5.1.1]
+[2024-05-02 07:32:45] WARNING root fetch - processPackages [pyblksim]: Skipping, unable to determine old version
+[2024-05-02 07:32:45] INFO root fetch - main [MainThread]: End processing [pyblksim] error
+[2024-05-02 07:32:45] INFO root fetch - processPackages [e2b-code-interpreter]: Downloading https://files.pythonhosted.org/packages/bb/d0/355f9e611da41b3c09e2ae0b5fc0eeffeb42f59cefbbc49609f5ed35e757/e2b_code_interpreter-0.0.3.tar.gz
+[2024-05-02 07:32:45] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/ca/03/29c031c5c31d46f549472a5fca4e8fa281f24a8e9114cd2f131d7deb217a/crazy_thursday-2024.5.1.1.tar.gz
+[2024-05-02 07:32:45] INFO root fetch - processPackages [e2b-code-interpreter]: Downloading https://files.pythonhosted.org/packages/bd/af/990eaa7404707a0588c5442de15b1fc08755276f2a78ab02120b663ed06a/e2b_code_interpreter-0.0.4.tar.gz
+[2024-05-02 07:32:46] INFO root fetch - processPackages [e2b-code-interpreter]: executing diffoscope
+[2024-05-02 07:32:46] INFO root fetch - processPackages [e2b-code-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2b_code_interpreter-0.0.3.tar.gz tmp/e2b_code_interpreter-0.0.4.tar.gz --markdown 20240502/e/e2b-code-interpreter/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-02 07:32:46] INFO root fetch - processPackages [e2b-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/e2b_code_interpreter-0.0.3.tar.gz]
+[2024-05-02 07:32:46] INFO root fetch - processPackages [e2b-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/e2b_code_interpreter-0.0.4.tar.gz]
+[2024-05-02 07:32:46] INFO root fetch - main [MainThread]: End processing [e2b-code-interpreter]: success
+[2024-05-02 07:32:47] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/35/51/d82d80c5cc01412dc907375b691cb7f9a9107d311b8bc2009c2dae5c55df/crazy_thursday-2024.5.2.0.tar.gz
+[2024-05-02 07:32:47] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-02 07:32:47] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.1.1.tar.gz tmp/crazy_thursday-2024.5.2.0.tar.gz --markdown 20240502/c/crazy-thursday/2024.5.1.1-2024.5.2.0/README.md --exclude *.pyd
+[2024-05-02 07:32:47] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.1.1.tar.gz]
+[2024-05-02 07:32:47] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.2.0.tar.gz]
+[2024-05-02 07:32:47] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-02 07:32:47] INFO root fetch - main [MainThread]: Store serial: [23026694]
