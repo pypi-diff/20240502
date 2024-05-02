@@ -17021,3 +17021,42 @@
 [2024-05-02 12:44:20] INFO root fetch - processPackages [image-tools-stackabletech]: Remove: archive file [/home/abi/fetcher/tmp/image_tools_stackabletech-0.0.7.tar.gz]
 [2024-05-02 12:44:20] INFO root fetch - main [MainThread]: End processing [image-tools-stackabletech]: success
 [2024-05-02 12:44:20] INFO root fetch - main [MainThread]: Store serial: [23029659]
+[2024-05-02 12:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029659]
+[2024-05-02 12:46:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 12:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kpler.sdk
+[2024-05-02 12:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langtrace-python-sdk
+[2024-05-02 12:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-jsc-custom
+[2024-05-02 12:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-move-packaging-qty
+[2024-05-02 12:46:30] INFO root fetch - processPackages [jupyter-jsc-custom]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 12:46:30] INFO root fetch - processPackages [kpler.sdk]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-02 12:46:30] INFO root fetch - processPackages [jupyter-jsc-custom]: Downloading https://files.pythonhosted.org/packages/45/0b/d01728bdb4cc42a9c15363d9363f7fcc2fccac498b844711af99cf7346c5/jupyter_jsc_custom-0.9.8.tar.gz
+[2024-05-02 12:46:30] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-02 12:46:30] INFO root fetch - processPackages [kpler.sdk]: Downloading https://files.pythonhosted.org/packages/52/20/59fda5bfb511f3217701a4654c39356a259fca3c4ed847e289e136082616/kpler.sdk-1.0.7.tar.gz
+[2024-05-02 12:46:30] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: New version: [16.0.1.5.0] Old Version: [16.0.1.4.0.2]
+[2024-05-02 12:46:30] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/be/92/b41bd6b6adbf150fb6c0f3949a25138418eca6920911f9c1da6d226da350/langtrace_python_sdk-2.0.3.tar.gz
+[2024-05-02 12:46:30] INFO root fetch - processPackages [jupyter-jsc-custom]: Downloading https://files.pythonhosted.org/packages/22/8c/2c89680a5bfd1d47dcbf10ae7a7fe374d9176b6815cbed2c02f780ec8491/jupyter_jsc_custom-0.9.9.tar.gz
+[2024-05-02 12:46:30] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Downloading https://files.pythonhosted.org/packages/bc/c3/d8f0a2b906ecd58ac01997efe31ecf527c3f24c69c3c22ea385736459a49/odoo_addon_stock_move_packaging_qty-16.0.1.4.0.2-py3-none-any.whl
+[2024-05-02 12:46:30] INFO root fetch - processPackages [jupyter-jsc-custom]: executing diffoscope
+[2024-05-02 12:46:30] INFO root fetch - processPackages [jupyter-jsc-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_jsc_custom-0.9.8.tar.gz tmp/jupyter_jsc_custom-0.9.9.tar.gz --markdown 20240502/j/jupyter-jsc-custom/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 12:46:30] INFO root fetch - processPackages [kpler.sdk]: Downloading https://files.pythonhosted.org/packages/f6/50/27d8cbc4897c825995b73b5f50acd1689a844318d20873c060045cd33c38/kpler.sdk-1.0.8.tar.gz
+[2024-05-02 12:46:31] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/3b/e8/b62db02bd62e0c2d011f05add1c0972b40f38250bbfbf7d132268ee970b0/langtrace_python_sdk-2.0.4.tar.gz
+[2024-05-02 12:46:31] INFO root fetch - processPackages [kpler.sdk]: executing diffoscope
+[2024-05-02 12:46:31] INFO root fetch - processPackages [kpler.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpler.sdk-1.0.7.tar.gz tmp/kpler.sdk-1.0.8.tar.gz --markdown 20240502/k/kpler.sdk/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-02 12:46:31] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Downloading https://files.pythonhosted.org/packages/50/a0/bee56db6a47de7802b71efae8f72c8445eec1bb9b0a8d8fb03ee429ef177/odoo_addon_stock_move_packaging_qty-16.0.1.5.0-py3-none-any.whl
+[2024-05-02 12:46:31] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: executing diffoscope
+[2024-05-02 12:46:31] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_move_packaging_qty-16.0.1.4.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_move_packaging_qty-16.0.1.5.0-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-stock-move-packaging-qty/16.0.1.4.0.2-16.0.1.5.0/README.md --exclude *.pyd
+[2024-05-02 12:46:31] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-05-02 12:46:31] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-2.0.3.tar.gz tmp/langtrace_python_sdk-2.0.4.tar.gz --markdown 20240502/l/langtrace-python-sdk/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-02 12:46:31] INFO root fetch - processPackages [jupyter-jsc-custom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jsc_custom-0.9.8.tar.gz]
+[2024-05-02 12:46:31] INFO root fetch - processPackages [jupyter-jsc-custom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jsc_custom-0.9.9.tar.gz]
+[2024-05-02 12:46:31] INFO root fetch - main [MainThread]: End processing [jupyter-jsc-custom]: success
+[2024-05-02 12:46:31] INFO root fetch - processPackages [kpler.sdk]: Remove: archive file [/home/abi/fetcher/tmp/kpler.sdk-1.0.7.tar.gz]
+[2024-05-02 12:46:31] INFO root fetch - processPackages [kpler.sdk]: Remove: archive file [/home/abi/fetcher/tmp/kpler.sdk-1.0.8.tar.gz]
+[2024-05-02 12:46:31] INFO root fetch - main [MainThread]: End processing [kpler.sdk]: success
+[2024-05-02 12:46:31] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_packaging_qty-16.0.1.4.0.2-py3-none-any.whl.zip]
+[2024-05-02 12:46:31] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_packaging_qty-16.0.1.5.0-py3-none-any.whl.zip]
+[2024-05-02 12:46:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-packaging-qty]: success
+[2024-05-02 12:46:32] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.0.3.tar.gz]
+[2024-05-02 12:46:32] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.0.4.tar.gz]
+[2024-05-02 12:46:32] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-05-02 12:46:32] INFO root fetch - main [MainThread]: Store serial: [23029670]
