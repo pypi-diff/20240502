@@ -20992,3 +20992,63 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 14:57:30] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz]
 [2024-05-02 14:57:30] INFO root fetch - main [MainThread]: End processing [data-engineering-pulumi-components]: success
 [2024-05-02 14:57:30] INFO root fetch - main [MainThread]: Store serial: [23031201]
+[2024-05-02 14:59:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031201]
+[2024-05-02 14:59:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-02 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-project-tracker
+[2024-05-02 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spacyex
+[2024-05-02 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywaze
+[2024-05-02 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-po-translate
+[2024-05-02 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elementary-data
+[2024-05-02 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checkov
+[2024-05-02 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: frequenz-sdk
+[2024-05-02 14:59:39] WARNING root fetch - processPackages [spacyex]: Skipping, unable to determine old version
+[2024-05-02 14:59:39] INFO root fetch - main [MainThread]: End processing [spacyex] error
+[2024-05-02 14:59:39] INFO root fetch - processPackages [frequenz-sdk]: New version: [1.0.0rc6.post1] Old Version: [1.0.0rc6]
+[2024-05-02 14:59:39] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev3] Old Version: [0.0.3.dev1]
+[2024-05-02 14:59:39] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-02 14:59:39] INFO root fetch - processPackages [django-po-translate]: New version: [0.15] Old Version: [0.14]
+[2024-05-02 14:59:39] INFO root fetch - processPackages [pywaze]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-02 14:59:39] INFO root fetch - processPackages [elementary-data]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-02 14:59:39] INFO root fetch - processPackages [frequenz-sdk]: Downloading https://files.pythonhosted.org/packages/86/ad/c3d5a66750ab792ecaba46736b1983dfc9e927445845645db802161c2704/frequenz-sdk-1.0.0rc6.tar.gz
+[2024-05-02 14:59:39] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/cc/87/46bf3a8c056524d28bbaeeb37b7b5de0af1f6490c09b7f2ab080eb3d92b1/ml_project_tracker-0.0.3.dev1.tar.gz
+[2024-05-02 14:59:39] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/88/07/1509be74cf47a29b012a6f7477139e57bee2a7d01634b6bd6a71d095ace8/checkov-3.2.8.tar.gz
+[2024-05-02 14:59:39] INFO root fetch - processPackages [django-po-translate]: Downloading https://files.pythonhosted.org/packages/22/c1/e6d3f61e06f2b097a97cf7decfd1b96e8838b6da8fe494469d01b9fe230d/django-po-translate-0.14.tar.gz
+[2024-05-02 14:59:39] INFO root fetch - processPackages [elementary-data]: Downloading https://files.pythonhosted.org/packages/29/6f/93f76ab66fa1f8c9f19831b8da18b09f96684acb6943df20fe66d9f59933/elementary-data-0.9.1.tar.gz
+[2024-05-02 14:59:39] INFO root fetch - processPackages [pywaze]: Downloading https://files.pythonhosted.org/packages/fc/8e/d7c47c20701ee99085bad8849307604f2a1af64490048eab100ab7915f0b/pywaze-1.0.0.tar.gz
+[2024-05-02 14:59:39] INFO root fetch - processPackages [frequenz-sdk]: Downloading https://files.pythonhosted.org/packages/45/b2/e126c8ccd651e51dd0c3e02886c2b2287f9bb4c8fca18107d2fc890a889f/frequenz-sdk-1.0.0rc6.post1.tar.gz
+[2024-05-02 14:59:39] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-05-02 14:59:39] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/20/1f/d6510bba19083dd168821df3c9f4e8c912a1b523bdf9fe1354ee66e7d5cc/ml_project_tracker-0.0.3.dev3.tar.gz
+[2024-05-02 14:59:39] INFO root fetch - processPackages [frequenz-sdk]: executing diffoscope
+[2024-05-02 14:59:39] INFO root fetch - processPackages [frequenz-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-sdk-1.0.0rc6.tar.gz tmp/frequenz-sdk-1.0.0rc6.post1.tar.gz --markdown 20240502/f/frequenz-sdk/1.0.0rc6-1.0.0rc6.post1/README.md --exclude *.pyd
+[2024-05-02 14:59:39] INFO root fetch - processPackages [django-po-translate]: Downloading https://files.pythonhosted.org/packages/ad/0d/aab8784f206dba24e99c2d08521499be856c4e9d97320bc9e543dd88304c/django_po_translate-0.15.tar.gz
+[2024-05-02 14:59:39] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-02 14:59:39] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.dev1.tar.gz tmp/ml_project_tracker-0.0.3.dev3.tar.gz --markdown 20240502/m/ml-project-tracker/0.0.3.dev1-0.0.3.dev3/README.md --exclude *.pyd
+[2024-05-02 14:59:39] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-02 14:59:39] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.8.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240502/c/checkov/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-02 14:59:39] INFO root fetch - processPackages [django-po-translate]: executing diffoscope
+[2024-05-02 14:59:39] INFO root fetch - processPackages [django-po-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-po-translate-0.14.tar.gz tmp/django_po_translate-0.15.tar.gz --markdown 20240502/d/django-po-translate/0.14-0.15/README.md --exclude *.pyd
+[2024-05-02 14:59:39] INFO root fetch - processPackages [pywaze]: Downloading https://files.pythonhosted.org/packages/13/75/3a74a1a8eef311bfb197c81d0806e177947dec983ea80d2db83efead0438/pywaze-1.0.1.tar.gz
+[2024-05-02 14:59:40] INFO root fetch - processPackages [elementary-data]: Downloading https://files.pythonhosted.org/packages/ef/18/00a7ae7737fea0d15071aa17ccf7cb630a393f1768f8cc404d1b7efb5683/elementary-data-0.9.2.tar.gz
+[2024-05-02 14:59:40] INFO root fetch - processPackages [pywaze]: executing diffoscope
+[2024-05-02 14:59:40] INFO root fetch - processPackages [pywaze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywaze-1.0.0.tar.gz tmp/pywaze-1.0.1.tar.gz --markdown 20240502/p/pywaze/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-02 14:59:40] INFO root fetch - processPackages [elementary-data]: executing diffoscope
+[2024-05-02 14:59:40] INFO root fetch - processPackages [elementary-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elementary-data-0.9.1.tar.gz tmp/elementary-data-0.9.2.tar.gz --markdown 20240502/e/elementary-data/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-02 14:59:40] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev1.tar.gz]
+[2024-05-02 14:59:40] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev3.tar.gz]
+[2024-05-02 14:59:40] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-02 14:59:40] INFO root fetch - processPackages [django-po-translate]: Remove: archive file [/home/abi/fetcher/tmp/django-po-translate-0.14.tar.gz]
+[2024-05-02 14:59:40] INFO root fetch - processPackages [django-po-translate]: Remove: archive file [/home/abi/fetcher/tmp/django_po_translate-0.15.tar.gz]
+[2024-05-02 14:59:40] INFO root fetch - main [MainThread]: End processing [django-po-translate]: success
+[2024-05-02 14:59:41] INFO root fetch - processPackages [frequenz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-sdk-1.0.0rc6.tar.gz]
+[2024-05-02 14:59:41] INFO root fetch - processPackages [frequenz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-sdk-1.0.0rc6.post1.tar.gz]
+[2024-05-02 14:59:41] INFO root fetch - main [MainThread]: End processing [frequenz-sdk]: success
+[2024-05-02 14:59:41] INFO root fetch - processPackages [pywaze]: Remove: archive file [/home/abi/fetcher/tmp/pywaze-1.0.0.tar.gz]
+[2024-05-02 14:59:41] INFO root fetch - processPackages [pywaze]: Remove: archive file [/home/abi/fetcher/tmp/pywaze-1.0.1.tar.gz]
+[2024-05-02 14:59:41] INFO root fetch - main [MainThread]: End processing [pywaze]: success
+[2024-05-02 14:59:41] INFO root fetch - processPackages [elementary-data]: Remove: archive file [/home/abi/fetcher/tmp/elementary-data-0.9.1.tar.gz]
+[2024-05-02 14:59:41] INFO root fetch - processPackages [elementary-data]: Remove: archive file [/home/abi/fetcher/tmp/elementary-data-0.9.2.tar.gz]
+[2024-05-02 14:59:41] INFO root fetch - main [MainThread]: End processing [elementary-data]: success
+[2024-05-02 14:59:48] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.8.tar.gz]
+[2024-05-02 14:59:48] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-05-02 14:59:48] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-02 14:59:48] INFO root fetch - main [MainThread]: Store serial: [23031222]
