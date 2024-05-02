@@ -12373,3 +12373,79 @@
 [2024-05-02 09:55:11] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-02 09:55:11] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-02 09:55:11] INFO root fetch - main [MainThread]: Store serial: [23027745]
+[2024-05-02 09:57:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027745]
+[2024-05-02 09:57:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 09:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dslog
+[2024-05-02 09:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hedera-proto
+[2024-05-02 09:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waylay-sdk-registry
+[2024-05-02 09:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waylay-sdk-registry-types
+[2024-05-02 09:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morphdb-utils
+[2024-05-02 09:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zignal
+[2024-05-02 09:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crewai
+[2024-05-02 09:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dslog
+[2024-05-02 09:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: enigmapython
+[2024-05-02 09:57:20] INFO root fetch - processPackages [hedera-proto]: New version: [0.49.0] Old Version: [0.21.0]
+[2024-05-02 09:57:20] INFO root fetch - processPackages [hedera-proto]: Downloading https://files.pythonhosted.org/packages/18/e0/7aa06afeb90af1e62b6bcbd97810838538c7dcc5f0c90e55209978c32f18/hedera-proto-0.21.0.tar.gz
+[2024-05-02 09:57:20] INFO root fetch - processPackages [dslog]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-02 09:57:20] INFO root fetch - processPackages [dslog]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-02 09:57:20] INFO root fetch - processPackages [waylay-sdk-registry-types]: New version: [2.13.0rc0] Old Version: [2.13.0b20240423]
+[2024-05-02 09:57:20] INFO root fetch - processPackages [waylay-sdk-registry]: New version: [2.13.0rc0] Old Version: [2.13.0b20240423]
+[2024-05-02 09:57:20] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 09:57:20] ERROR root fetch - processPackages [enigmapython]: Unable to get metadata: No such project 'enigmapython'
+[2024-05-02 09:57:20] INFO root fetch - processPackages [zignal]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-02 09:57:20] INFO root fetch - main [MainThread]: End processing [enigmapython] error
+[2024-05-02 09:57:20] INFO root fetch - processPackages [crewai]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-05-02 09:57:20] INFO root fetch - processPackages [waylay-sdk-registry]: Downloading https://files.pythonhosted.org/packages/5e/28/c9012ed5710a58851c319ee3727fe1c4831ef57fe7414d739dcf9e207c9c/waylay_sdk_registry-2.13.0b20240423.tar.gz
+[2024-05-02 09:57:20] INFO root fetch - processPackages [dslog]: Downloading https://files.pythonhosted.org/packages/72/b7/5800b8f11ffeaa2a7f4eccea2b7a9311a578a0d6304564da2228e28e2f74/dslog-0.1.3.tar.gz
+[2024-05-02 09:57:20] INFO root fetch - processPackages [dslog]: Downloading https://files.pythonhosted.org/packages/72/b7/5800b8f11ffeaa2a7f4eccea2b7a9311a578a0d6304564da2228e28e2f74/dslog-0.1.3.tar.gz
+[2024-05-02 09:57:20] INFO root fetch - processPackages [hedera-proto]: Downloading https://files.pythonhosted.org/packages/ba/99/83c6a780b18951ecec43fddaac5a354434a1451245fbf29acf303f64fe67/hedera_proto-0.49.0.tar.gz
+[2024-05-02 09:57:20] INFO root fetch - processPackages [waylay-sdk-registry-types]: Downloading https://files.pythonhosted.org/packages/bc/e2/1dbe2c8254580066eb4e8b0fe431f7afe4ad552c02777146891ce32cd7c1/waylay_sdk_registry_types-2.13.0b20240423.tar.gz
+[2024-05-02 09:57:20] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-05-02 09:57:20] INFO root fetch - processPackages [zignal]: Downloading https://files.pythonhosted.org/packages/45/3b/e4de9d5096619d8c874741671b86b5a1e3d5a55e5aae69f435e9ca924f67/zignal-0.6.0.tar.gz
+[2024-05-02 09:57:20] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/e9/e3/15cbe7ed14b2b805613edd70fe8d16de0f00ad49e45f0496db0d34c3274c/crewai-0.5.3.tar.gz
+[2024-05-02 09:57:20] INFO root fetch - processPackages [hedera-proto]: executing diffoscope
+[2024-05-02 09:57:20] INFO root fetch - processPackages [hedera-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hedera-proto-0.21.0.tar.gz tmp/hedera_proto-0.49.0.tar.gz --markdown 20240502/h/hedera-proto/0.21.0-0.49.0/README.md --exclude *.pyd
+[2024-05-02 09:57:21] INFO root fetch - processPackages [waylay-sdk-registry]: Downloading https://files.pythonhosted.org/packages/a4/6b/65a7c73cb0f5fa23b1f3df3bff39199688ed0345df034b7e0cbcff8c76d5/waylay-sdk-registry-2.13.0rc0.tar.gz
+[2024-05-02 09:57:21] INFO root fetch - processPackages [dslog]: Downloading https://files.pythonhosted.org/packages/c3/42/0f3b38cbd4ecbd0dfe8cebe504dd178b50e10c8f99d700ce51326f9c9c7f/dslog-0.1.4.tar.gz
+[2024-05-02 09:57:21] INFO root fetch - processPackages [dslog]: Downloading https://files.pythonhosted.org/packages/c3/42/0f3b38cbd4ecbd0dfe8cebe504dd178b50e10c8f99d700ce51326f9c9c7f/dslog-0.1.4.tar.gz
+[2024-05-02 09:57:21] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-05-02 09:57:21] INFO root fetch - processPackages [waylay-sdk-registry-types]: Downloading https://files.pythonhosted.org/packages/8c/06/b1a4d3c4d75d8af05bcf634494d8eebbf4a58f581cb10b21b21d9e4ded76/waylay-sdk-registry-types-2.13.0rc0.tar.gz
+[2024-05-02 09:57:21] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/4e/2d/131d296cf0495637bfea59b11af0767de8fa11466880e3d702ab43a360d0/crewai-0.5.5.tar.gz
+[2024-05-02 09:57:21] INFO root fetch - processPackages [waylay-sdk-registry]: executing diffoscope
+[2024-05-02 09:57:21] INFO root fetch - processPackages [waylay-sdk-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_registry-2.13.0b20240423.tar.gz tmp/waylay-sdk-registry-2.13.0rc0.tar.gz --markdown 20240502/w/waylay-sdk-registry/2.13.0b20240423-2.13.0rc0/README.md --exclude *.pyd
+[2024-05-02 09:57:21] INFO root fetch - processPackages [zignal]: Downloading https://files.pythonhosted.org/packages/db/51/45371b3877e771fbc95ef7e4d5d96ca6147512bba9e57add8b2017bb1ba1/zignal-0.7.0.tar.gz
+[2024-05-02 09:57:21] INFO root fetch - processPackages [dslog]: executing diffoscope
+[2024-05-02 09:57:21] INFO root fetch - processPackages [dslog]: executing diffoscope
+[2024-05-02 09:57:21] INFO root fetch - processPackages [dslog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dslog-0.1.3.tar.gz tmp/dslog-0.1.4.tar.gz --markdown 20240502/d/dslog/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-02 09:57:21] INFO root fetch - processPackages [dslog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dslog-0.1.3.tar.gz tmp/dslog-0.1.4.tar.gz --markdown 20240502/d/dslog/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-02 09:57:21] INFO root fetch - processPackages [crewai]: executing diffoscope
+[2024-05-02 09:57:21] INFO root fetch - processPackages [crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai-0.5.3.tar.gz tmp/crewai-0.5.5.tar.gz --markdown 20240502/c/crewai/0.5.3-0.5.5/README.md --exclude *.pyd
+[2024-05-02 09:57:21] INFO root fetch - processPackages [zignal]: executing diffoscope
+[2024-05-02 09:57:21] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-05-02 09:57:21] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240502/m/morphdb-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 09:57:21] INFO root fetch - processPackages [zignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zignal-0.6.0.tar.gz tmp/zignal-0.7.0.tar.gz --markdown 20240502/z/zignal/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-02 09:57:21] INFO root fetch - processPackages [waylay-sdk-registry-types]: executing diffoscope
+[2024-05-02 09:57:21] INFO root fetch - processPackages [waylay-sdk-registry-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_registry_types-2.13.0b20240423.tar.gz tmp/waylay-sdk-registry-types-2.13.0rc0.tar.gz --markdown 20240502/w/waylay-sdk-registry-types/2.13.0b20240423-2.13.0rc0/README.md --exclude *.pyd
+[2024-05-02 09:57:21] INFO root fetch - processPackages [hedera-proto]: Remove: archive file [/home/abi/fetcher/tmp/hedera-proto-0.21.0.tar.gz]
+[2024-05-02 09:57:21] INFO root fetch - processPackages [hedera-proto]: Remove: archive file [/home/abi/fetcher/tmp/hedera_proto-0.49.0.tar.gz]
+[2024-05-02 09:57:21] INFO root fetch - main [MainThread]: End processing [hedera-proto]: success
+[2024-05-02 09:57:22] INFO root fetch - processPackages [dslog]: Remove: archive file [/home/abi/fetcher/tmp/dslog-0.1.3.tar.gz]
+[2024-05-02 09:57:22] INFO root fetch - processPackages [dslog]: Remove: archive file [/home/abi/fetcher/tmp/dslog-0.1.4.tar.gz]
+[2024-05-02 09:57:22] INFO root fetch - main [MainThread]: End processing [dslog]: success
+[2024-05-02 09:57:22] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.3.tar.gz]
+[2024-05-02 09:57:22] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.5.tar.gz]
+[2024-05-02 09:57:22] INFO root fetch - main [MainThread]: End processing [crewai]: success
+[2024-05-02 09:57:22] INFO root fetch - processPackages [waylay-sdk-registry]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_registry-2.13.0b20240423.tar.gz]
+[2024-05-02 09:57:22] INFO root fetch - processPackages [waylay-sdk-registry]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-2.13.0rc0.tar.gz]
+[2024-05-02 09:57:22] INFO root fetch - main [MainThread]: End processing [waylay-sdk-registry]: success
+[2024-05-02 09:57:22] INFO root fetch - main [MainThread]: End processing [dslog]: success
+[2024-05-02 09:57:22] INFO root fetch - processPackages [zignal]: Remove: archive file [/home/abi/fetcher/tmp/zignal-0.6.0.tar.gz]
+[2024-05-02 09:57:22] INFO root fetch - processPackages [zignal]: Remove: archive file [/home/abi/fetcher/tmp/zignal-0.7.0.tar.gz]
+[2024-05-02 09:57:22] INFO root fetch - main [MainThread]: End processing [zignal]: success
+[2024-05-02 09:57:22] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-05-02 09:57:22] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-05-02 09:57:22] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-05-02 09:57:23] INFO root fetch - processPackages [waylay-sdk-registry-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_registry_types-2.13.0b20240423.tar.gz]
+[2024-05-02 09:57:23] INFO root fetch - processPackages [waylay-sdk-registry-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-types-2.13.0rc0.tar.gz]
+[2024-05-02 09:57:23] INFO root fetch - main [MainThread]: End processing [waylay-sdk-registry-types]: success
+[2024-05-02 09:57:23] INFO root fetch - main [MainThread]: Store serial: [23027776]
