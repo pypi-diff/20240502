@@ -16243,3 +16243,54 @@
 [2024-05-02 12:17:57] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.0.0rc1.tar.gz]
 [2024-05-02 12:17:57] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
 [2024-05-02 12:17:57] INFO root fetch - main [MainThread]: Store serial: [23029374]
+[2024-05-02 12:20:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029374]
+[2024-05-02 12:20:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itwingstestsprojectn
+[2024-05-02 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: templated-setup
+[2024-05-02 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaplint
+[2024-05-02 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zato-apitest
+[2024-05-02 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: queue-api
+[2024-05-02 12:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bambooai
+[2024-05-02 12:20:06] INFO root fetch - processPackages [templated-setup]: New version: [0.967] Old Version: [0.965]
+[2024-05-02 12:20:06] INFO root fetch - processPackages [zato-apitest]: New version: [24.1.34] Old Version: [24.1.33]
+[2024-05-02 12:20:06] INFO root fetch - processPackages [queue-api]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-02 12:20:06] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 12:20:06] WARNING root fetch - processPackages [itwingstestsprojectn]: Skipping, unable to determine old version
+[2024-05-02 12:20:06] INFO root fetch - main [MainThread]: End processing [itwingstestsprojectn] error
+[2024-05-02 12:20:06] INFO root fetch - processPackages [gaplint]: New version: [1.2.0] Old Version: [1.1.5]
+[2024-05-02 12:20:06] INFO root fetch - processPackages [queue-api]: Downloading https://files.pythonhosted.org/packages/7c/ab/c3228bde7a0dc33c38daeb27351045047095fe349792fd3ce28bc1cddee3/queue_api-0.1.5.tar.gz
+[2024-05-02 12:20:06] INFO root fetch - processPackages [zato-apitest]: Downloading https://files.pythonhosted.org/packages/ac/2c/78a01fba33470360432dc21c146c383a15bd485d1c6d911e40d76e58bded/zato_apitest-24.1.33.tar.gz
+[2024-05-02 12:20:06] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/ea/6d/3c836b42a26e0108bfef858534d79cd916ab6e96b51cca17ffbfde9c62ef/templated_setup-0.965.tar.gz
+[2024-05-02 12:20:06] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-02 12:20:06] INFO root fetch - processPackages [gaplint]: Downloading https://files.pythonhosted.org/packages/10/f7/13346ee4dd3381585903884f17e781a7d5bb686b5f0ca73605382c79b936/gaplint-1.1.5.tar.gz
+[2024-05-02 12:20:06] INFO root fetch - processPackages [queue-api]: Downloading https://files.pythonhosted.org/packages/5f/90/7b49b0f0d283f26f2021ba6663b017ae5086d4570e5647869811c90f5e4a/queue_api-0.1.6.tar.gz
+[2024-05-02 12:20:06] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-02 12:20:06] INFO root fetch - processPackages [zato-apitest]: Downloading https://files.pythonhosted.org/packages/37/b1/88644c950d1829c3be68d1aaf976da69521da25256f4421d2104f9547265/zato_apitest-24.1.34.tar.gz
+[2024-05-02 12:20:07] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/a0/2b/44522f2f92177724edf987d1b33c31b23397edc60262486363d95a790f7e/templated_setup-0.967.tar.gz
+[2024-05-02 12:20:07] INFO root fetch - processPackages [queue-api]: executing diffoscope
+[2024-05-02 12:20:07] INFO root fetch - processPackages [queue-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queue_api-0.1.5.tar.gz tmp/queue_api-0.1.6.tar.gz --markdown 20240502/q/queue-api/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-02 12:20:07] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-02 12:20:07] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240502/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 12:20:07] INFO root fetch - processPackages [zato-apitest]: executing diffoscope
+[2024-05-02 12:20:07] INFO root fetch - processPackages [zato-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zato_apitest-24.1.33.tar.gz tmp/zato_apitest-24.1.34.tar.gz --markdown 20240502/z/zato-apitest/24.1.33-24.1.34/README.md --exclude *.pyd
+[2024-05-02 12:20:07] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 12:20:07] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.965.tar.gz tmp/templated_setup-0.967.tar.gz --markdown 20240502/t/templated-setup/0.965-0.967/README.md --exclude *.pyd
+[2024-05-02 12:20:07] INFO root fetch - processPackages [gaplint]: Downloading https://files.pythonhosted.org/packages/06/1b/8440e4e624d6d7a123406b31b1929578afeebb1f2f1565d6416530b53112/gaplint-1.2.0.tar.gz
+[2024-05-02 12:20:07] INFO root fetch - processPackages [gaplint]: executing diffoscope
+[2024-05-02 12:20:07] INFO root fetch - processPackages [gaplint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaplint-1.1.5.tar.gz tmp/gaplint-1.2.0.tar.gz --markdown 20240502/g/gaplint/1.1.5-1.2.0/README.md --exclude *.pyd
+[2024-05-02 12:20:07] INFO root fetch - processPackages [queue-api]: Remove: archive file [/home/abi/fetcher/tmp/queue_api-0.1.5.tar.gz]
+[2024-05-02 12:20:07] INFO root fetch - processPackages [queue-api]: Remove: archive file [/home/abi/fetcher/tmp/queue_api-0.1.6.tar.gz]
+[2024-05-02 12:20:07] INFO root fetch - main [MainThread]: End processing [queue-api]: success
+[2024-05-02 12:20:08] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.965.tar.gz]
+[2024-05-02 12:20:08] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.967.tar.gz]
+[2024-05-02 12:20:08] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 12:20:08] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-02 12:20:08] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-02 12:20:08] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-02 12:20:08] INFO root fetch - processPackages [zato-apitest]: Remove: archive file [/home/abi/fetcher/tmp/zato_apitest-24.1.33.tar.gz]
+[2024-05-02 12:20:08] INFO root fetch - processPackages [zato-apitest]: Remove: archive file [/home/abi/fetcher/tmp/zato_apitest-24.1.34.tar.gz]
+[2024-05-02 12:20:08] INFO root fetch - main [MainThread]: End processing [zato-apitest]: success
+[2024-05-02 12:20:08] INFO root fetch - processPackages [gaplint]: Remove: archive file [/home/abi/fetcher/tmp/gaplint-1.1.5.tar.gz]
+[2024-05-02 12:20:08] INFO root fetch - processPackages [gaplint]: Remove: archive file [/home/abi/fetcher/tmp/gaplint-1.2.0.tar.gz]
+[2024-05-02 12:20:08] INFO root fetch - main [MainThread]: End processing [gaplint]: success
+[2024-05-02 12:20:08] INFO root fetch - main [MainThread]: Store serial: [23029398]
