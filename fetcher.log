@@ -9619,3 +9619,15 @@
 [2024-05-02 07:19:41] WARNING root fetch - processPackages [catfish-sim]: Skipping, unable to determine old version
 [2024-05-02 07:19:41] INFO root fetch - main [MainThread]: End processing [catfish-sim] error
 [2024-05-02 07:19:41] INFO root fetch - main [MainThread]: Store serial: [23026636]
+[2024-05-02 07:21:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026636]
+[2024-05-02 07:21:50] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 07:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wavespectra
+[2024-05-02 07:21:50] INFO root fetch - processPackages [wavespectra]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-05-02 07:21:50] INFO root fetch - processPackages [wavespectra]: Downloading https://files.pythonhosted.org/packages/34/91/372b2ae9dbe435270a9240e02e84f9dac90bfc8c64d353ec1d9a602f14ca/wavespectra-3.8.1.tar.gz
+[2024-05-02 07:21:52] INFO root fetch - processPackages [wavespectra]: Downloading https://files.pythonhosted.org/packages/9f/84/6a74ccc99dba5de1ddac74a57dba7749536d9f0f49058f25c1e8f9ae6b59/wavespectra-3.9.0.tar.gz
+[2024-05-02 07:21:53] INFO root fetch - processPackages [wavespectra]: executing diffoscope
+[2024-05-02 07:21:53] INFO root fetch - processPackages [wavespectra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wavespectra-3.8.1.tar.gz tmp/wavespectra-3.9.0.tar.gz --markdown 20240502/w/wavespectra/3.8.1-3.9.0/README.md --exclude *.pyd
+[2024-05-02 07:21:55] INFO root fetch - processPackages [wavespectra]: Remove: archive file [/home/abi/fetcher/tmp/wavespectra-3.8.1.tar.gz]
+[2024-05-02 07:21:55] INFO root fetch - processPackages [wavespectra]: Remove: archive file [/home/abi/fetcher/tmp/wavespectra-3.9.0.tar.gz]
+[2024-05-02 07:21:55] INFO root fetch - main [MainThread]: End processing [wavespectra]: success
+[2024-05-02 07:21:55] INFO root fetch - main [MainThread]: Store serial: [23026639]
