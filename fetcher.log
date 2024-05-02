@@ -9613,3 +9613,9 @@
 [2024-05-02 07:17:32] INFO root fetch - processPackages [gptify]: Remove: archive file [/home/abi/fetcher/tmp/gptify-0.3.3.tar.gz]
 [2024-05-02 07:17:32] INFO root fetch - main [MainThread]: End processing [gptify]: success
 [2024-05-02 07:17:32] INFO root fetch - main [MainThread]: Store serial: [23026630]
+[2024-05-02 07:19:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026630]
+[2024-05-02 07:19:41] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 07:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catfish-sim
+[2024-05-02 07:19:41] WARNING root fetch - processPackages [catfish-sim]: Skipping, unable to determine old version
+[2024-05-02 07:19:41] INFO root fetch - main [MainThread]: End processing [catfish-sim] error
+[2024-05-02 07:19:41] INFO root fetch - main [MainThread]: Store serial: [23026636]
