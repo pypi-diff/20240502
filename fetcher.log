@@ -16501,3 +16501,81 @@
 [2024-05-02 12:22:22] INFO root fetch - processPackages [fps-login]: Remove: archive file [/home/abi/fetcher/tmp/fps_login-0.5.2.tar.gz]
 [2024-05-02 12:22:22] INFO root fetch - main [MainThread]: End processing [fps-login]: success
 [2024-05-02 12:22:22] INFO root fetch - main [MainThread]: Store serial: [23029464]
+[2024-05-02 12:24:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029464]
+[2024-05-02 12:24:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 12:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: absbox
+[2024-05-02 12:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fps-login
+[2024-05-02 12:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fps-webdav
+[2024-05-02 12:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyverse
+[2024-05-02 12:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gouge
+[2024-05-02 12:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: templated-setup
+[2024-05-02 12:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rq-dashboard
+[2024-05-02 12:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shopware-api-client
+[2024-05-02 12:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fftrack
+[2024-05-02 12:24:31] INFO root fetch - processPackages [templated-setup]: New version: [0.968] Old Version: [0.967]
+[2024-05-02 12:24:31] INFO root fetch - processPackages [gouge]: New version: [2.2.3] Old Version: [2.2.2.post1]
+[2024-05-02 12:24:31] INFO root fetch - processPackages [absbox]: New version: [0.9.3] Old Version: [0.8.9]
+[2024-05-02 12:24:31] INFO root fetch - processPackages [fps-login]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:24:31] INFO root fetch - processPackages [rq-dashboard]: New version: [0.7.0.2] Old Version: [0.6.7.2]
+[2024-05-02 12:24:31] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/a0/2b/44522f2f92177724edf987d1b33c31b23397edc60262486363d95a790f7e/templated_setup-0.967.tar.gz
+[2024-05-02 12:24:31] INFO root fetch - processPackages [gouge]: Downloading https://files.pythonhosted.org/packages/51/51/f3d1d4027bbc158dce203350bee36c4a1ca9f81180d9cf3bc10657ea3379/gouge-2.2.2.post1.tar.gz
+[2024-05-02 12:24:31] INFO root fetch - processPackages [fps-webdav]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:24:31] WARNING root fetch - processPackages [fftrack]: Skipping, unable to determine old version
+[2024-05-02 12:24:31] INFO root fetch - main [MainThread]: End processing [fftrack] error
+[2024-05-02 12:24:31] INFO root fetch - processPackages [shopware-api-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-02 12:24:31] INFO root fetch - processPackages [fps-login]: Downloading https://files.pythonhosted.org/packages/40/29/78ae6c9ae977f42df0d4345f66ac189d807121d975caab43dbb4339ffc13/fps_login-0.5.1.tar.gz
+[2024-05-02 12:24:31] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/f2/f5/d913079148fbe1aebd6fc56849f3245eda346886eb6d2488747d9a978493/AbsBox-0.8.9.tar.gz
+[2024-05-02 12:24:31] INFO root fetch - processPackages [jupyverse]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-02 12:24:31] INFO root fetch - processPackages [rq-dashboard]: Downloading https://files.pythonhosted.org/packages/de/3a/a557c84e3acc394c60b7fc3e287e4dd6d59ab51a25e786e13f7269a6161b/rq-dashboard-0.6.7.2.tar.gz
+[2024-05-02 12:24:31] INFO root fetch - processPackages [shopware-api-client]: Downloading https://files.pythonhosted.org/packages/b7/0f/6c9dc02510fb7785f1be2822ab641b54bf44cf6cb4df1763cdba560cc69b/shopware_api_client-1.0.8.tar.gz
+[2024-05-02 12:24:32] INFO root fetch - processPackages [jupyverse]: Downloading https://files.pythonhosted.org/packages/1c/1a/7802f32e367e165008b21574f27f84acf01df7644f6c6f4e8a370fb1d47d/jupyverse-0.5.1.tar.gz
+[2024-05-02 12:24:32] INFO root fetch - processPackages [fps-webdav]: Downloading https://files.pythonhosted.org/packages/4f/dd/6935028146966afe232419a5f02f40fd7d200538ee56af4280ce3d5f063f/fps_webdav-0.5.1.tar.gz
+[2024-05-02 12:24:32] INFO root fetch - processPackages [fps-login]: Downloading https://files.pythonhosted.org/packages/61/0f/f1b41039b3d27a40130ba395401ea6b5436580214223dc1d0f0593357936/fps_login-0.5.2.tar.gz
+[2024-05-02 12:24:32] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/63/df/8bc5a95a40d1cc98f7aa27a8baf79a5df19fa8dc2f6836ff02171d21c08a/AbsBox-0.9.3.tar.gz
+[2024-05-02 12:24:32] INFO root fetch - processPackages [gouge]: Downloading https://files.pythonhosted.org/packages/66/bc/2e8f3eda46d389247dad43f6bddf22290eb3f2215c523ca297cd1854d19e/gouge-2.2.3.tar.gz
+[2024-05-02 12:24:32] INFO root fetch - processPackages [fps-login]: executing diffoscope
+[2024-05-02 12:24:32] INFO root fetch - processPackages [fps-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_login-0.5.1.tar.gz tmp/fps_login-0.5.2.tar.gz --markdown 20240502/f/fps-login/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:24:32] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/2f/49/fd936db94dd16c2a221d38aa1cef53bb94444c1d7d3b08fb43819f89eaf9/templated_setup-0.968.tar.gz
+[2024-05-02 12:24:32] INFO root fetch - processPackages [absbox]: executing diffoscope
+[2024-05-02 12:24:32] INFO root fetch - processPackages [absbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AbsBox-0.8.9.tar.gz tmp/AbsBox-0.9.3.tar.gz --markdown 20240502/a/absbox/0.8.9-0.9.3/README.md --exclude *.pyd
+[2024-05-02 12:24:32] INFO root fetch - processPackages [gouge]: executing diffoscope
+[2024-05-02 12:24:32] INFO root fetch - processPackages [gouge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gouge-2.2.2.post1.tar.gz tmp/gouge-2.2.3.tar.gz --markdown 20240502/g/gouge/2.2.2.post1-2.2.3/README.md --exclude *.pyd
+[2024-05-02 12:24:32] INFO root fetch - processPackages [fps-webdav]: Downloading https://files.pythonhosted.org/packages/84/07/4bc44eadb52669706b58bad34c614f95d40979235d2e5235ff19358aadab/fps_webdav-0.5.2.tar.gz
+[2024-05-02 12:24:32] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 12:24:32] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.967.tar.gz tmp/templated_setup-0.968.tar.gz --markdown 20240502/t/templated-setup/0.967-0.968/README.md --exclude *.pyd
+[2024-05-02 12:24:32] INFO root fetch - processPackages [jupyverse]: Downloading https://files.pythonhosted.org/packages/ec/50/3ba1a1bf3317b54752865ae4c332f51d5401397d27fb3dcfb3cdfa088446/jupyverse-0.5.2.tar.gz
+[2024-05-02 12:24:32] INFO root fetch - processPackages [rq-dashboard]: Downloading https://files.pythonhosted.org/packages/83/47/038c668ab95ce55c30a9c7b764482af95914f608a5fe316b9ac02e77d5c3/rq_dashboard-0.7.0.2.tar.gz
+[2024-05-02 12:24:32] INFO root fetch - processPackages [shopware-api-client]: Downloading https://files.pythonhosted.org/packages/71/6c/c42b67ee3d6f04c8e4203f50b963d759982a0c08ac17865980b8cf805393/shopware_api_client-1.0.9.tar.gz
+[2024-05-02 12:24:32] INFO root fetch - processPackages [fps-webdav]: executing diffoscope
+[2024-05-02 12:24:32] INFO root fetch - processPackages [fps-webdav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_webdav-0.5.1.tar.gz tmp/fps_webdav-0.5.2.tar.gz --markdown 20240502/f/fps-webdav/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:24:32] INFO root fetch - processPackages [jupyverse]: executing diffoscope
+[2024-05-02 12:24:32] INFO root fetch - processPackages [jupyverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyverse-0.5.1.tar.gz tmp/jupyverse-0.5.2.tar.gz --markdown 20240502/j/jupyverse/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-02 12:24:32] INFO root fetch - processPackages [shopware-api-client]: executing diffoscope
+[2024-05-02 12:24:32] INFO root fetch - processPackages [shopware-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopware_api_client-1.0.8.tar.gz tmp/shopware_api_client-1.0.9.tar.gz --markdown 20240502/s/shopware-api-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-02 12:24:32] INFO root fetch - processPackages [rq-dashboard]: executing diffoscope
+[2024-05-02 12:24:32] INFO root fetch - processPackages [rq-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rq-dashboard-0.6.7.2.tar.gz tmp/rq_dashboard-0.7.0.2.tar.gz --markdown 20240502/r/rq-dashboard/0.6.7.2-0.7.0.2/README.md --exclude *.pyd
+[2024-05-02 12:24:33] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.967.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.968.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 12:24:33] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.8.9.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.9.3.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - main [MainThread]: End processing [absbox]: success
+[2024-05-02 12:24:33] INFO root fetch - processPackages [fps-login]: Remove: archive file [/home/abi/fetcher/tmp/fps_login-0.5.1.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - processPackages [fps-login]: Remove: archive file [/home/abi/fetcher/tmp/fps_login-0.5.2.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - main [MainThread]: End processing [fps-login]: success
+[2024-05-02 12:24:33] INFO root fetch - processPackages [gouge]: Remove: archive file [/home/abi/fetcher/tmp/gouge-2.2.2.post1.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - processPackages [gouge]: Remove: archive file [/home/abi/fetcher/tmp/gouge-2.2.3.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - main [MainThread]: End processing [gouge]: success
+[2024-05-02 12:24:33] INFO root fetch - processPackages [fps-webdav]: Remove: archive file [/home/abi/fetcher/tmp/fps_webdav-0.5.1.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - processPackages [fps-webdav]: Remove: archive file [/home/abi/fetcher/tmp/fps_webdav-0.5.2.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - main [MainThread]: End processing [fps-webdav]: success
+[2024-05-02 12:24:33] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.8.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.9.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - main [MainThread]: End processing [shopware-api-client]: success
+[2024-05-02 12:24:33] INFO root fetch - processPackages [rq-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/rq-dashboard-0.6.7.2.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - processPackages [rq-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/rq_dashboard-0.7.0.2.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - main [MainThread]: End processing [rq-dashboard]: success
+[2024-05-02 12:24:33] INFO root fetch - processPackages [jupyverse]: Remove: archive file [/home/abi/fetcher/tmp/jupyverse-0.5.1.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - processPackages [jupyverse]: Remove: archive file [/home/abi/fetcher/tmp/jupyverse-0.5.2.tar.gz]
+[2024-05-02 12:24:33] INFO root fetch - main [MainThread]: End processing [jupyverse]: success
+[2024-05-02 12:24:33] INFO root fetch - main [MainThread]: Store serial: [23029495]
