@@ -8307,3 +8307,17 @@
 [2024-05-02 05:29:51] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-05-02 05:29:51] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-05-02 05:29:51] INFO root fetch - main [MainThread]: Store serial: [23026114]
+[2024-05-02 05:31:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026114]
+[2024-05-02 05:31:59] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-02 05:34:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026114]
+[2024-05-02 05:34:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-02 05:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django_bocor_ds
+[2024-05-02 05:34:06] INFO root fetch - processPackages [django_bocor_ds]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-02 05:34:06] INFO root fetch - processPackages [django_bocor_ds]: Downloading https://files.pythonhosted.org/packages/e7/fd/17165ea45f4afbfd07b2a99f67dc48b194e35edcffaeb47eab0a73fe70c4/django_bocor_ds-2.2.0.tar.gz
+[2024-05-02 05:34:07] INFO root fetch - processPackages [django_bocor_ds]: Downloading https://files.pythonhosted.org/packages/19/22/cd9a1417e499d22b06477442086b732a21cc3eec354319ef32c5cb7efba2/django_bocor_ds-2.2.1.tar.gz
+[2024-05-02 05:34:08] INFO root fetch - processPackages [django_bocor_ds]: executing diffoscope
+[2024-05-02 05:34:08] INFO root fetch - processPackages [django_bocor_ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_bocor_ds-2.2.0.tar.gz tmp/django_bocor_ds-2.2.1.tar.gz --markdown 20240502/d/django_bocor_ds/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-02 05:34:09] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-2.2.0.tar.gz]
+[2024-05-02 05:34:09] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-2.2.1.tar.gz]
+[2024-05-02 05:34:09] INFO root fetch - main [MainThread]: End processing [django_bocor_ds]: success
+[2024-05-02 05:34:09] INFO root fetch - main [MainThread]: Store serial: [23026117]
