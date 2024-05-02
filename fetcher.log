@@ -8671,3 +8671,24 @@
 [2024-05-02 06:05:04] INFO root fetch - processPackages [hexdoc]: Remove: archive file [/home/abi/fetcher/tmp/hexdoc-1!0.1.0a9.tar.gz]
 [2024-05-02 06:05:04] INFO root fetch - main [MainThread]: End processing [hexdoc]: success
 [2024-05-02 06:05:04] INFO root fetch - main [MainThread]: Store serial: [23026224]
+[2024-05-02 06:07:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026224]
+[2024-05-02 06:07:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 06:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: email-address-local
+[2024-05-02 06:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-sdk-remote
+[2024-05-02 06:07:13] INFO root fetch - processPackages [email-address-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 06:07:13] INFO root fetch - processPackages [python-sdk-remote]: New version: [0.0.90] Old Version: [0.0.89]
+[2024-05-02 06:07:13] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/c9/d1/e65ab1d680f65e7a981bf2c6831fb2930ed64f3b2fc52b75bf669b0eb240/python-sdk-remote-0.0.89.tar.gz
+[2024-05-02 06:07:13] INFO root fetch - processPackages [email-address-local]: Downloading https://files.pythonhosted.org/packages/a8/f2/75317f90ccacb6655c8fefd773dce9c2359b86e434bf4e98c3aa377dd835/email-address-local-0.0.8.tar.gz
+[2024-05-02 06:07:14] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/8d/7c/cff0294ca54d4f5a6f8940e8f8fa50600701692d437a602a2d463f10ebe9/python_sdk_remote-0.0.90.tar.gz
+[2024-05-02 06:07:14] INFO root fetch - processPackages [email-address-local]: Downloading https://files.pythonhosted.org/packages/33/0b/4f49c0e576b54988a9115fa0e8fd17a049b0cfaffdd95e2b721055a03b07/email-address-local-0.0.9.tar.gz
+[2024-05-02 06:07:14] INFO root fetch - processPackages [python-sdk-remote]: executing diffoscope
+[2024-05-02 06:07:14] INFO root fetch - processPackages [python-sdk-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sdk-remote-0.0.89.tar.gz tmp/python_sdk_remote-0.0.90.tar.gz --markdown 20240502/p/python-sdk-remote/0.0.89-0.0.90/README.md --exclude *.pyd
+[2024-05-02 06:07:14] INFO root fetch - processPackages [email-address-local]: executing diffoscope
+[2024-05-02 06:07:14] INFO root fetch - processPackages [email-address-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email-address-local-0.0.8.tar.gz tmp/email-address-local-0.0.9.tar.gz --markdown 20240502/e/email-address-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 06:07:14] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python-sdk-remote-0.0.89.tar.gz]
+[2024-05-02 06:07:14] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.90.tar.gz]
+[2024-05-02 06:07:14] INFO root fetch - main [MainThread]: End processing [python-sdk-remote]: success
+[2024-05-02 06:07:14] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.8.tar.gz]
+[2024-05-02 06:07:14] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.9.tar.gz]
+[2024-05-02 06:07:14] INFO root fetch - main [MainThread]: End processing [email-address-local]: success
+[2024-05-02 06:07:14] INFO root fetch - main [MainThread]: Store serial: [23026230]
