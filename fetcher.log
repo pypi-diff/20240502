@@ -8363,3 +8363,40 @@
 [2024-05-02 05:38:30] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.19.tar.gz]
 [2024-05-02 05:38:30] INFO root fetch - main [MainThread]: End processing [aioxdl]: success
 [2024-05-02 05:38:30] INFO root fetch - main [MainThread]: Store serial: [23026128]
+[2024-05-02 05:40:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026128]
+[2024-05-02 05:40:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-02 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-ddmrp
+[2024-05-02 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-ddmrp
+[2024-05-02 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: insideopt-demo
+[2024-05-02 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quasarpy
+[2024-05-02 05:40:38] INFO root fetch - processPackages [insideopt-demo]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-02 05:40:38] INFO root fetch - processPackages [insideopt-demo]: Downloading https://files.pythonhosted.org/packages/05/6a/039c155c71bd31806eb16b45532f74f9489bfce4a53c5a23ab2933a86117/insideopt-demo-0.1.8.tar.gz
+[2024-05-02 05:40:38] INFO root fetch - processPackages [quasarpy]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-02 05:40:38] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [16.0.1.7.3.1] Old Version: [16.0.1.7.3]
+[2024-05-02 05:40:38] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [16.0.1.7.3.1] Old Version: [16.0.1.7.3]
+[2024-05-02 05:40:38] INFO root fetch - processPackages [quasarpy]: Downloading https://files.pythonhosted.org/packages/03/5f/c2ca5667947425b8fbfd8fc5a3c33853082fc5114dc9b053be2fbce0ea50/quasarpy-0.1.6.tar.gz
+[2024-05-02 05:40:38] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/52/18/e3313d4e8a4779c7880b1a94c09d369afcd6d8dd2559fd815a12db272d0d/odoo_addon_ddmrp-16.0.1.7.3-py3-none-any.whl
+[2024-05-02 05:40:38] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/52/18/e3313d4e8a4779c7880b1a94c09d369afcd6d8dd2559fd815a12db272d0d/odoo_addon_ddmrp-16.0.1.7.3-py3-none-any.whl
+[2024-05-02 05:40:39] INFO root fetch - processPackages [insideopt-demo]: Downloading https://files.pythonhosted.org/packages/8f/f1/7ec4e86af69259935b3229820a8d9f9545295e011c62bc206165dd379d46/insideopt-demo-0.1.9.tar.gz
+[2024-05-02 05:40:39] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/44/e1/17ba8a023b98004a2546d608d41148ae8d7e4842aebdbab90ffe71c70db5/odoo_addon_ddmrp-16.0.1.7.3.1-py3-none-any.whl
+[2024-05-02 05:40:39] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/44/e1/17ba8a023b98004a2546d608d41148ae8d7e4842aebdbab90ffe71c70db5/odoo_addon_ddmrp-16.0.1.7.3.1-py3-none-any.whl
+[2024-05-02 05:40:39] INFO root fetch - processPackages [quasarpy]: Downloading https://files.pythonhosted.org/packages/60/13/6a288d3406965bf98c2d7a7d0fe316bb680e736d65ca4cfd91f7c886c19a/quasarpy-0.1.7.tar.gz
+[2024-05-02 05:40:39] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2024-05-02 05:40:39] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-16.0.1.7.3-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-16.0.1.7.3.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-ddmrp/16.0.1.7.3-16.0.1.7.3.1/README.md --exclude *.pyd
+[2024-05-02 05:40:39] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2024-05-02 05:40:39] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-16.0.1.7.3-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-16.0.1.7.3.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-ddmrp/16.0.1.7.3-16.0.1.7.3.1/README.md --exclude *.pyd
+[2024-05-02 05:40:39] INFO root fetch - processPackages [insideopt-demo]: executing diffoscope
+[2024-05-02 05:40:39] INFO root fetch - processPackages [insideopt-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insideopt-demo-0.1.8.tar.gz tmp/insideopt-demo-0.1.9.tar.gz --markdown 20240502/i/insideopt-demo/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-02 05:40:39] INFO root fetch - processPackages [quasarpy]: executing diffoscope
+[2024-05-02 05:40:39] INFO root fetch - processPackages [quasarpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quasarpy-0.1.6.tar.gz tmp/quasarpy-0.1.7.tar.gz --markdown 20240502/q/quasarpy/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-02 05:40:40] INFO root fetch - processPackages [quasarpy]: Remove: archive file [/home/abi/fetcher/tmp/quasarpy-0.1.6.tar.gz]
+[2024-05-02 05:40:40] INFO root fetch - processPackages [quasarpy]: Remove: archive file [/home/abi/fetcher/tmp/quasarpy-0.1.7.tar.gz]
+[2024-05-02 05:40:40] INFO root fetch - main [MainThread]: End processing [quasarpy]: success
+[2024-05-02 05:40:40] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.7.3-py3-none-any.whl.zip]
+[2024-05-02 05:40:40] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.7.3.1-py3-none-any.whl.zip]
+[2024-05-02 05:40:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2024-05-02 05:40:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2024-05-02 05:41:09] INFO root fetch - processPackages [insideopt-demo]: Remove: archive file [/home/abi/fetcher/tmp/insideopt-demo-0.1.8.tar.gz]
+[2024-05-02 05:41:09] INFO root fetch - processPackages [insideopt-demo]: Remove: archive file [/home/abi/fetcher/tmp/insideopt-demo-0.1.9.tar.gz]
+[2024-05-02 05:41:09] INFO root fetch - main [MainThread]: End processing [insideopt-demo]: success
+[2024-05-02 05:41:09] INFO root fetch - main [MainThread]: Store serial: [23026138]
