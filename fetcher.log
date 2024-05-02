@@ -8143,3 +8143,39 @@
 [2024-05-02 05:18:56] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
 [2024-05-02 05:18:56] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
 [2024-05-02 05:18:56] INFO root fetch - main [MainThread]: Store serial: [23026035]
+[2024-05-02 05:21:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026035]
+[2024-05-02 05:21:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 05:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: credos
+[2024-05-02 05:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rulebricks
+[2024-05-02 05:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qai-agent
+[2024-05-02 05:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glitter-sdk
+[2024-05-02 05:21:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vectara-skunk-client
+[2024-05-02 05:21:05] INFO root fetch - processPackages [glitter-sdk]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-02 05:21:05] INFO root fetch - processPackages [rulebricks]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 05:21:05] WARNING root fetch - processPackages [qai-agent]: Skipping, unable to determine old version
+[2024-05-02 05:21:05] INFO root fetch - main [MainThread]: End processing [qai-agent] error
+[2024-05-02 05:21:05] WARNING root fetch - processPackages [credos]: Skipping, unable to determine old version
+[2024-05-02 05:21:05] INFO root fetch - main [MainThread]: End processing [credos] error
+[2024-05-02 05:21:05] INFO root fetch - processPackages [rulebricks]: Downloading https://files.pythonhosted.org/packages/01/4b/b38eff68f2cdff03db9ab6df64d3e4acfdd616608bbc0f94cec92c86c05b/rulebricks-0.0.8.tar.gz
+[2024-05-02 05:21:05] INFO root fetch - processPackages [glitter-sdk]: Downloading https://files.pythonhosted.org/packages/51/63/5777b6c460e01920c47c5a11f52d8a757a1dc2f69e7137d438760c339087/glitter_sdk-1.0.3.tar.gz
+[2024-05-02 05:21:05] INFO root fetch - processPackages [vectara-skunk-client]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-02 05:21:05] INFO root fetch - processPackages [glitter-sdk]: Downloading https://files.pythonhosted.org/packages/a4/c6/74104c2c41aaf8d00ccf52f5ad1f1bafec3664dbcdba8488760809bb6c68/glitter_sdk-1.0.4.tar.gz
+[2024-05-02 05:21:06] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/44/6a/3f99055e438423c216b1facaf114e87a2da8681a01a9809424abd1e41f28/vectara-skunk-client-0.4.8.tar.gz
+[2024-05-02 05:21:06] INFO root fetch - processPackages [rulebricks]: Downloading https://files.pythonhosted.org/packages/9c/8f/707d94f09098f895b35ce0f3a9f0ee37170b0fb8eac3204dd2b69cf2bfaf/rulebricks-0.0.9.tar.gz
+[2024-05-02 05:21:06] INFO root fetch - processPackages [glitter-sdk]: executing diffoscope
+[2024-05-02 05:21:06] INFO root fetch - processPackages [glitter-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glitter_sdk-1.0.3.tar.gz tmp/glitter_sdk-1.0.4.tar.gz --markdown 20240502/g/glitter-sdk/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-02 05:21:06] INFO root fetch - processPackages [rulebricks]: executing diffoscope
+[2024-05-02 05:21:06] INFO root fetch - processPackages [rulebricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rulebricks-0.0.8.tar.gz tmp/rulebricks-0.0.9.tar.gz --markdown 20240502/r/rulebricks/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 05:21:06] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/aa/d9/21d785f35a697605b8638418ac81c897601850722a11ca23cb96add50978/vectara-skunk-client-0.4.9.tar.gz
+[2024-05-02 05:21:06] INFO root fetch - processPackages [vectara-skunk-client]: executing diffoscope
+[2024-05-02 05:21:06] INFO root fetch - processPackages [vectara-skunk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectara-skunk-client-0.4.8.tar.gz tmp/vectara-skunk-client-0.4.9.tar.gz --markdown 20240502/v/vectara-skunk-client/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-02 05:21:06] INFO root fetch - processPackages [rulebricks]: Remove: archive file [/home/abi/fetcher/tmp/rulebricks-0.0.8.tar.gz]
+[2024-05-02 05:21:06] INFO root fetch - processPackages [rulebricks]: Remove: archive file [/home/abi/fetcher/tmp/rulebricks-0.0.9.tar.gz]
+[2024-05-02 05:21:06] INFO root fetch - main [MainThread]: End processing [rulebricks]: success
+[2024-05-02 05:21:06] INFO root fetch - processPackages [glitter-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glitter_sdk-1.0.3.tar.gz]
+[2024-05-02 05:21:06] INFO root fetch - processPackages [glitter-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glitter_sdk-1.0.4.tar.gz]
+[2024-05-02 05:21:06] INFO root fetch - main [MainThread]: End processing [glitter-sdk]: success
+[2024-05-02 05:21:07] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara-skunk-client-0.4.8.tar.gz]
+[2024-05-02 05:21:07] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara-skunk-client-0.4.9.tar.gz]
+[2024-05-02 05:21:07] INFO root fetch - main [MainThread]: End processing [vectara-skunk-client]: success
+[2024-05-02 05:21:07] INFO root fetch - main [MainThread]: Store serial: [23026051]
