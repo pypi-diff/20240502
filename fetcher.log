@@ -17227,3 +17227,65 @@
 [2024-05-02 12:55:19] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-05-02 12:55:19] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-05-02 12:55:19] INFO root fetch - main [MainThread]: Store serial: [23029742]
+[2024-05-02 12:57:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029742]
+[2024-05-02 12:57:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-02 12:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imio.smartweb.common
+[2024-05-02 12:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UnitMatchPy
+[2024-05-02 12:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-facebook-marketing
+[2024-05-02 12:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hazard-map
+[2024-05-02 12:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gemini-pdf-analyser
+[2024-05-02 12:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: absbox
+[2024-05-02 12:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plivo
+[2024-05-02 12:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: biaspeech
+[2024-05-02 12:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Ontwikkelstraat
+[2024-05-02 12:57:29] WARNING root fetch - processPackages [UnitMatchPy]: Skipping, unable to determine old version
+[2024-05-02 12:57:29] INFO root fetch - main [MainThread]: End processing [UnitMatchPy] error
+[2024-05-02 12:57:29] INFO root fetch - processPackages [biaspeech]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-05-02 12:57:29] WARNING root fetch - processPackages [Ontwikkelstraat]: Skipping, unable to determine old version
+[2024-05-02 12:57:29] INFO root fetch - main [MainThread]: End processing [Ontwikkelstraat] error
+[2024-05-02 12:57:29] INFO root fetch - processPackages [biaspeech]: Downloading https://files.pythonhosted.org/packages/88/8c/dc92805259792b8d6424c7418a1189b5c40383e3aaeedeebe5eb7df53c3b/biaspeech-0.1.7.tar.gz
+[2024-05-02 12:57:29] INFO root fetch - processPackages [hazard-map]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-02 12:57:29] WARNING root fetch - processPackages [gemini-pdf-analyser]: Skipping, unable to determine old version
+[2024-05-02 12:57:29] INFO root fetch - processPackages [absbox]: New version: [0.9.3] Old Version: [0.8.9]
+[2024-05-02 12:57:29] INFO root fetch - main [MainThread]: End processing [gemini-pdf-analyser] error
+[2024-05-02 12:57:29] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: New version: [3.0.0.dev202405021055] Old Version: [3.0.0.dev202404041423]
+[2024-05-02 12:57:29] INFO root fetch - processPackages [imio.smartweb.common]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-02 12:57:29] INFO root fetch - processPackages [plivo]: New version: [4.9.0] Old Version: [4.8.1]
+[2024-05-02 12:57:29] WARNING root fetch - processPackages [biaspeech]: Skipping package: exceeds size limit 16677807>=10485760
+[2024-05-02 12:57:29] INFO root fetch - main [MainThread]: End processing [biaspeech] error
+[2024-05-02 12:57:29] INFO root fetch - processPackages [hazard-map]: Downloading https://files.pythonhosted.org/packages/48/83/5436e68515148b59048c22311b437f08b342248edcf7a1ac7a27128653d1/hazard_map-0.2.0.tar.gz
+[2024-05-02 12:57:29] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Downloading https://files.pythonhosted.org/packages/3f/72/cd78f383b92dd9c221ce42e243c1fd60965eebee94be2829807af86dab8b/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz
+[2024-05-02 12:57:29] INFO root fetch - processPackages [imio.smartweb.common]: Downloading https://files.pythonhosted.org/packages/a8/10/446f945c7faaeda4e31be5b66463c99b6a78ed1a1729a1241a0433d74d14/imio.smartweb.common-1.2.8.tar.gz
+[2024-05-02 12:57:29] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/f2/f5/d913079148fbe1aebd6fc56849f3245eda346886eb6d2488747d9a978493/AbsBox-0.8.9.tar.gz
+[2024-05-02 12:57:29] INFO root fetch - processPackages [plivo]: Downloading https://files.pythonhosted.org/packages/0a/98/99826a7c72ddaccf707946547e62379085f668142ac0d12ee8ce5976e8db/plivo-4.8.1.tar.gz
+[2024-05-02 12:57:29] INFO root fetch - processPackages [hazard-map]: Downloading https://files.pythonhosted.org/packages/0e/0a/6121c3c948a82d7b3c0b2d16a26fc0ce62335f1b2e6172401e87cee311f6/hazard_map-0.2.1.tar.gz
+[2024-05-02 12:57:29] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Downloading https://files.pythonhosted.org/packages/7a/0b/89a13e4978f6a24ea0c93aa444d44ce92d7a515ba6df0c876e9e718ba7b8/airbyte_source_facebook_marketing-3.0.0.dev202405021055.tar.gz
+[2024-05-02 12:57:29] INFO root fetch - processPackages [imio.smartweb.common]: Downloading https://files.pythonhosted.org/packages/91/5e/d0034350465921f436497838bf83b0a442bcbce6d7ad0120d81ad61da38c/imio.smartweb.common-1.2.9.tar.gz
+[2024-05-02 12:57:29] INFO root fetch - processPackages [hazard-map]: executing diffoscope
+[2024-05-02 12:57:29] INFO root fetch - processPackages [hazard-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hazard_map-0.2.0.tar.gz tmp/hazard_map-0.2.1.tar.gz --markdown 20240502/h/hazard-map/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-02 12:57:29] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/63/df/8bc5a95a40d1cc98f7aa27a8baf79a5df19fa8dc2f6836ff02171d21c08a/AbsBox-0.9.3.tar.gz
+[2024-05-02 12:57:29] INFO root fetch - processPackages [plivo]: Downloading https://files.pythonhosted.org/packages/44/fb/2b8994c1e34a8038dd5d9053ab3ae690961311ff4ff8296765c93f34d440/plivo-4.9.0.tar.gz
+[2024-05-02 12:57:30] INFO root fetch - processPackages [imio.smartweb.common]: executing diffoscope
+[2024-05-02 12:57:30] INFO root fetch - processPackages [imio.smartweb.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.common-1.2.8.tar.gz tmp/imio.smartweb.common-1.2.9.tar.gz --markdown 20240502/i/imio.smartweb.common/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-02 12:57:30] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: executing diffoscope
+[2024-05-02 12:57:30] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz tmp/airbyte_source_facebook_marketing-3.0.0.dev202405021055.tar.gz --markdown 20240502/a/airbyte-source-facebook-marketing/3.0.0.dev202404041423-3.0.0.dev202405021055/README.md --exclude *.pyd
+[2024-05-02 12:57:30] INFO root fetch - processPackages [absbox]: executing diffoscope
+[2024-05-02 12:57:30] INFO root fetch - processPackages [absbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AbsBox-0.8.9.tar.gz tmp/AbsBox-0.9.3.tar.gz --markdown 20240502/a/absbox/0.8.9-0.9.3/README.md --exclude *.pyd
+[2024-05-02 12:57:30] INFO root fetch - processPackages [plivo]: executing diffoscope
+[2024-05-02 12:57:30] INFO root fetch - processPackages [plivo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plivo-4.8.1.tar.gz tmp/plivo-4.9.0.tar.gz --markdown 20240502/p/plivo/4.8.1-4.9.0/README.md --exclude *.pyd
+[2024-05-02 12:57:30] INFO root fetch - processPackages [hazard-map]: Remove: archive file [/home/abi/fetcher/tmp/hazard_map-0.2.0.tar.gz]
+[2024-05-02 12:57:30] INFO root fetch - processPackages [hazard-map]: Remove: archive file [/home/abi/fetcher/tmp/hazard_map-0.2.1.tar.gz]
+[2024-05-02 12:57:30] INFO root fetch - main [MainThread]: End processing [hazard-map]: success
+[2024-05-02 12:57:30] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.8.9.tar.gz]
+[2024-05-02 12:57:30] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.9.3.tar.gz]
+[2024-05-02 12:57:30] INFO root fetch - main [MainThread]: End processing [absbox]: success
+[2024-05-02 12:57:30] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz]
+[2024-05-02 12:57:30] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_facebook_marketing-3.0.0.dev202405021055.tar.gz]
+[2024-05-02 12:57:30] INFO root fetch - main [MainThread]: End processing [airbyte-source-facebook-marketing]: success
+[2024-05-02 12:57:31] INFO root fetch - processPackages [imio.smartweb.common]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.common-1.2.8.tar.gz]
+[2024-05-02 12:57:31] INFO root fetch - processPackages [imio.smartweb.common]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.common-1.2.9.tar.gz]
+[2024-05-02 12:57:31] INFO root fetch - main [MainThread]: End processing [imio.smartweb.common]: success
+[2024-05-02 12:57:31] INFO root fetch - processPackages [plivo]: Remove: archive file [/home/abi/fetcher/tmp/plivo-4.8.1.tar.gz]
+[2024-05-02 12:57:31] INFO root fetch - processPackages [plivo]: Remove: archive file [/home/abi/fetcher/tmp/plivo-4.9.0.tar.gz]
+[2024-05-02 12:57:31] INFO root fetch - main [MainThread]: End processing [plivo]: success
+[2024-05-02 12:57:31] INFO root fetch - main [MainThread]: Store serial: [23029771]
