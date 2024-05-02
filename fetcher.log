@@ -9223,3 +9223,23 @@
 [2024-05-02 06:51:22] INFO root fetch - processPackages [libbde-python]: Remove: archive file [/home/abi/fetcher/tmp/libbde-python-20240502.tar.gz]
 [2024-05-02 06:51:22] INFO root fetch - main [MainThread]: End processing [libbde-python]: success
 [2024-05-02 06:51:22] INFO root fetch - main [MainThread]: Store serial: [23026447]
+[2024-05-02 06:53:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026447]
+[2024-05-02 06:53:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 06:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hbox
+[2024-05-02 06:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: templated-setup
+[2024-05-02 06:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2024-05-02 06:53:32] WARNING root fetch - processPackages [hbox]: Skipping, unable to determine old version
+[2024-05-02 06:53:32] INFO root fetch - main [MainThread]: End processing [hbox] error
+[2024-05-02 06:53:32] INFO root fetch - processPackages [templated-setup]: New version: [0.94] Old Version: [0.93]
+[2024-05-02 06:53:32] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240501.9.55.192458] Old Version: [20240501.8.15.777844]
+[2024-05-02 06:53:32] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/7e/01/827005dccd15c3c96d997ed9965d96f8f4358e8ccccedb70197b0dfa42b5/templated_setup-0.93.tar.gz
+[2024-05-02 06:53:32] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/02/38/0e310b19f2817341b466ae224ab4c972709225d70137f4f1e760741e404f/certora-cli-alpha-master-20240501.8.15.777844.tar.gz
+[2024-05-02 06:53:32] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14536598>=10485760
+[2024-05-02 06:53:32] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-02 06:53:32] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/fd/6c/03f7eaa79dc10008ea5993308c89b2efeb993fbfe878268ce9d2c168dcd5/templated_setup-0.94.tar.gz
+[2024-05-02 06:53:32] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-05-02 06:53:32] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.93.tar.gz tmp/templated_setup-0.94.tar.gz --markdown 20240502/t/templated-setup/0.93-0.94/README.md --exclude *.pyd
+[2024-05-02 06:53:33] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.93.tar.gz]
+[2024-05-02 06:53:33] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.94.tar.gz]
+[2024-05-02 06:53:33] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-05-02 06:53:33] INFO root fetch - main [MainThread]: Store serial: [23026457]
