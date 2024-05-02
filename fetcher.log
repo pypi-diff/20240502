@@ -19085,3 +19085,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-02 14:12:25] INFO root fetch - processPackages [gmqtt]: Remove: archive file [/home/abi/fetcher/tmp/gmqtt-0.6.9.tar.gz]
 [2024-05-02 14:12:25] INFO root fetch - main [MainThread]: End processing [gmqtt]: success
 [2024-05-02 14:12:25] INFO root fetch - main [MainThread]: Store serial: [23030558]
+[2024-05-02 14:14:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23030558]
+[2024-05-02 14:14:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-02 14:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-05-02 14:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: z4d-certified-devices
+[2024-05-02 14:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SparkleLogging
+[2024-05-02 14:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s
+[2024-05-02 14:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: galaxy-release-util
+[2024-05-02 14:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opentrons
+[2024-05-02 14:14:33] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-02 14:14:33] INFO root fetch - processPackages [galaxy-release-util]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-02 14:14:33] INFO root fetch - processPackages [SparkleLogging]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-02 14:14:33] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-02 14:14:33] INFO root fetch - processPackages [opentrons]: New version: [7.3.0a0] Old Version: [7.2.2a3]
+[2024-05-02 14:14:33] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-02 14:14:33] INFO root fetch - processPackages [z4d-certified-devices]: New version: [5.260] Old Version: [4.259]
+[2024-05-02 14:14:33] INFO root fetch - processPackages [galaxy-release-util]: Downloading https://files.pythonhosted.org/packages/c7/e8/d347ed65369eec4075c14bdc41fd8fb6f80678a5a4fbf61859bb8bd22da7/galaxy-release-util-0.1.7.tar.gz
+[2024-05-02 14:14:33] INFO root fetch - processPackages [SparkleLogging]: Downloading https://files.pythonhosted.org/packages/d0/a1/0d3d21736aed51e31cbc0b58f912a81928ae3cf12688e040f5647a559285/SparkleLogging-1.0.1.tar.gz
+[2024-05-02 14:14:33] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-05-02 14:14:34] INFO root fetch - processPackages [opentrons]: Downloading https://files.pythonhosted.org/packages/bf/80/87ce7fdf8a4b5cbabdadc60ee6ca7a1e33893acd4702bc55b95ca065d5a4/opentrons-7.2.2a3.tar.gz
+[2024-05-02 14:14:34] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/b8/c0/25f572bce1d217eeb8a7bd39c4ab67bbd217fd065e0acdb15679f4cfc558/z4d_certified_devices-4.259.tar.gz
+[2024-05-02 14:14:34] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-02 14:14:34] INFO root fetch - processPackages [galaxy-release-util]: Downloading https://files.pythonhosted.org/packages/4d/39/40561e735037feb61aa130088c60324fc4e11e3db5036ab5ede1930c62a0/galaxy_release_util-0.1.8.tar.gz
+[2024-05-02 14:14:34] INFO root fetch - processPackages [SparkleLogging]: Downloading https://files.pythonhosted.org/packages/1e/bb/32f94c65c694df4401213923435a7157037e89172c5c97d9da506272151c/SparkleLogging-1.0.2.tar.gz
+[2024-05-02 14:14:34] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-05-02 14:14:34] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-02 14:14:34] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240502/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-02 14:14:34] INFO root fetch - processPackages [galaxy-release-util]: executing diffoscope
+[2024-05-02 14:14:34] INFO root fetch - processPackages [galaxy-release-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-release-util-0.1.7.tar.gz tmp/galaxy_release_util-0.1.8.tar.gz --markdown 20240502/g/galaxy-release-util/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-02 14:14:34] INFO root fetch - processPackages [SparkleLogging]: executing diffoscope
+[2024-05-02 14:14:34] INFO root fetch - processPackages [SparkleLogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SparkleLogging-1.0.1.tar.gz tmp/SparkleLogging-1.0.2.tar.gz --markdown 20240502/S/SparkleLogging/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-02 14:14:34] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-05-02 14:14:34] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240502/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-02 14:14:34] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/33/b0/95a4688278b307515eef55e434a46b8de18965b8eb0e53e8b832414882a1/z4d_certified_devices-5.260.tar.gz
+[2024-05-02 14:14:34] INFO root fetch - processPackages [z4d-certified-devices]: executing diffoscope
+[2024-05-02 14:14:34] INFO root fetch - processPackages [z4d-certified-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z4d_certified_devices-4.259.tar.gz tmp/z4d_certified_devices-5.260.tar.gz --markdown 20240502/z/z4d-certified-devices/4.259-5.260/README.md --exclude *.pyd
+[2024-05-02 14:14:34] INFO root fetch - processPackages [opentrons]: Downloading https://files.pythonhosted.org/packages/61/11/f5c64fdc6e276154b3e1f4c6e4587feb6b779f7442dcff81a426d61f684e/opentrons-7.3.0a0.tar.gz
+[2024-05-02 14:14:34] INFO root fetch - processPackages [opentrons]: executing diffoscope
+[2024-05-02 14:14:34] INFO root fetch - processPackages [opentrons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentrons-7.2.2a3.tar.gz tmp/opentrons-7.3.0a0.tar.gz --markdown 20240502/o/opentrons/7.2.2a3-7.3.0a0/README.md --exclude *.pyd
+[2024-05-02 14:14:35] INFO root fetch - processPackages [SparkleLogging]: Remove: archive file [/home/abi/fetcher/tmp/SparkleLogging-1.0.1.tar.gz]
+[2024-05-02 14:14:35] INFO root fetch - processPackages [SparkleLogging]: Remove: archive file [/home/abi/fetcher/tmp/SparkleLogging-1.0.2.tar.gz]
+[2024-05-02 14:14:35] INFO root fetch - main [MainThread]: End processing [SparkleLogging]: success
+[2024-05-02 14:14:35] INFO root fetch - processPackages [galaxy-release-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-release-util-0.1.7.tar.gz]
+[2024-05-02 14:14:35] INFO root fetch - processPackages [galaxy-release-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_release_util-0.1.8.tar.gz]
+[2024-05-02 14:14:35] INFO root fetch - main [MainThread]: End processing [galaxy-release-util]: success
+[2024-05-02 14:14:35] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-02 14:14:35] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-02 14:14:35] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-02 14:14:35] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-05-02 14:14:35] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-05-02 14:14:35] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-05-02 14:14:36] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d_certified_devices-4.259.tar.gz]
+[2024-05-02 14:14:36] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d_certified_devices-5.260.tar.gz]
+[2024-05-02 14:14:36] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
+[2024-05-02 14:14:37] INFO root fetch - processPackages [opentrons]: Remove: archive file [/home/abi/fetcher/tmp/opentrons-7.2.2a3.tar.gz]
+[2024-05-02 14:14:37] INFO root fetch - processPackages [opentrons]: Remove: archive file [/home/abi/fetcher/tmp/opentrons-7.3.0a0.tar.gz]
+[2024-05-02 14:14:38] INFO root fetch - main [MainThread]: End processing [opentrons]: success
+[2024-05-02 14:14:38] INFO root fetch - main [MainThread]: Store serial: [23030597]
