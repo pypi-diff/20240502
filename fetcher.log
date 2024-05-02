@@ -9080,3 +9080,26 @@
 [2024-05-02 06:38:15] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_intrastat_product-16.0.2.0.0.2-py3-none-any.whl.zip]
 [2024-05-02 06:38:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-intrastat-product]: success
 [2024-05-02 06:38:15] INFO root fetch - main [MainThread]: Store serial: [23026347]
+[2024-05-02 06:40:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026347]
+[2024-05-02 06:40:23] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-02 06:42:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026347]
+[2024-05-02 06:42:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-02 06:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo11-addon-l10n-it-ddt
+[2024-05-02 06:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mylocale
+[2024-05-02 06:42:29] INFO root fetch - processPackages [mylocale]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 06:42:29] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: New version: [11.0.1.0.2.99.dev8] Old Version: [11.0.1.0.2.99.dev7]
+[2024-05-02 06:42:29] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/2f/5b/5f942678cf7b6312828c8c42d0ad634e3a78f330e639d0aec633281923a9/mylocale-0.8.0.tar.gz
+[2024-05-02 06:42:29] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/cf/31/7eaef23f3354fae298c96e7453c8c73b0605787b351c7010185d89124bb0/mylocale-0.9.0.tar.gz
+[2024-05-02 06:42:29] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/90/ff/50ea444069bc1204f627cb4d508ce611e62460501228c96d224171ad2bff/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev7-py2.py3-none-any.whl
+[2024-05-02 06:42:29] INFO root fetch - processPackages [mylocale]: executing diffoscope
+[2024-05-02 06:42:29] INFO root fetch - processPackages [mylocale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mylocale-0.8.0.tar.gz tmp/mylocale-0.9.0.tar.gz --markdown 20240502/m/mylocale/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 06:42:29] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/e8/8b/0546038b06f540d295de30866e8db35cc34ee9b6ae55a7bb9e215fc23f71/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev8-py2.py3-none-any.whl
+[2024-05-02 06:42:30] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.8.0.tar.gz]
+[2024-05-02 06:42:30] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.9.0.tar.gz]
+[2024-05-02 06:42:30] INFO root fetch - main [MainThread]: End processing [mylocale]: success
+[2024-05-02 06:42:30] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: executing diffoscope
+[2024-05-02 06:42:30] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev7-py2.py3-none-any.whl.zip tmp/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev8-py2.py3-none-any.whl.zip --markdown 20240502/o/odoo11-addon-l10n-it-ddt/11.0.1.0.2.99.dev7-11.0.1.0.2.99.dev8/README.md --exclude *.pyd
+[2024-05-02 06:42:31] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev7-py2.py3-none-any.whl.zip]
+[2024-05-02 06:42:31] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev8-py2.py3-none-any.whl.zip]
+[2024-05-02 06:42:31] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-it-ddt]: success
+[2024-05-02 06:42:31] INFO root fetch - main [MainThread]: Store serial: [23026349]
