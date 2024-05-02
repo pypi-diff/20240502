@@ -9103,3 +9103,33 @@
 [2024-05-02 06:42:31] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev8-py2.py3-none-any.whl.zip]
 [2024-05-02 06:42:31] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-it-ddt]: success
 [2024-05-02 06:42:31] INFO root fetch - main [MainThread]: Store serial: [23026349]
+[2024-05-02 06:44:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23026349]
+[2024-05-02 06:44:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-02 06:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mylocale
+[2024-05-02 06:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcbot-web-core
+[2024-05-02 06:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioxdl
+[2024-05-02 06:44:39] INFO root fetch - processPackages [aioxdl]: New version: [0.0.19] Old Version: [0.0.18]
+[2024-05-02 06:44:39] INFO root fetch - processPackages [mylocale]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-02 06:44:39] INFO root fetch - processPackages [zcbot-web-core]: New version: [1.9] Old Version: [1.8]
+[2024-05-02 06:44:39] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/2f/5b/5f942678cf7b6312828c8c42d0ad634e3a78f330e639d0aec633281923a9/mylocale-0.8.0.tar.gz
+[2024-05-02 06:44:39] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/e5/00/c10fb83a5257f6fb304fc2da61f85d7cab4112d477531f022c4b939046f6/aioxdl-0.0.18.tar.gz
+[2024-05-02 06:44:39] INFO root fetch - processPackages [zcbot-web-core]: Downloading https://files.pythonhosted.org/packages/8e/1b/c708c5a5d6c6afabb6fa37d532cdd71b40696e7474f521fc148af547e058/zcbot-web-core-1.8.tar.gz
+[2024-05-02 06:44:40] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/cf/31/7eaef23f3354fae298c96e7453c8c73b0605787b351c7010185d89124bb0/mylocale-0.9.0.tar.gz
+[2024-05-02 06:44:40] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/f0/5f/f82249de63f90dd20813322b85ae3ca7d2b4d25c658641111a5c6765212b/aioxdl-0.0.19.tar.gz
+[2024-05-02 06:44:40] INFO root fetch - processPackages [zcbot-web-core]: Downloading https://files.pythonhosted.org/packages/e2/ee/ee6c1ef3025adbd2050fce3f3af6f7be8f5f4e3e78736755de8cbe8feb98/zcbot-web-core-1.9.tar.gz
+[2024-05-02 06:44:40] INFO root fetch - processPackages [mylocale]: executing diffoscope
+[2024-05-02 06:44:40] INFO root fetch - processPackages [mylocale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mylocale-0.8.0.tar.gz tmp/mylocale-0.9.0.tar.gz --markdown 20240502/m/mylocale/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-02 06:44:40] INFO root fetch - processPackages [aioxdl]: executing diffoscope
+[2024-05-02 06:44:40] INFO root fetch - processPackages [aioxdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioxdl-0.0.18.tar.gz tmp/aioxdl-0.0.19.tar.gz --markdown 20240502/a/aioxdl/0.0.18-0.0.19/README.md --exclude *.pyd
+[2024-05-02 06:44:40] INFO root fetch - processPackages [zcbot-web-core]: executing diffoscope
+[2024-05-02 06:44:40] INFO root fetch - processPackages [zcbot-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-web-core-1.8.tar.gz tmp/zcbot-web-core-1.9.tar.gz --markdown 20240502/z/zcbot-web-core/1.8-1.9/README.md --exclude *.pyd
+[2024-05-02 06:44:40] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.8.0.tar.gz]
+[2024-05-02 06:44:40] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.9.0.tar.gz]
+[2024-05-02 06:44:40] INFO root fetch - main [MainThread]: End processing [mylocale]: success
+[2024-05-02 06:44:40] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.18.tar.gz]
+[2024-05-02 06:44:40] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.19.tar.gz]
+[2024-05-02 06:44:40] INFO root fetch - main [MainThread]: End processing [aioxdl]: success
+[2024-05-02 06:44:40] INFO root fetch - processPackages [zcbot-web-core]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-web-core-1.8.tar.gz]
+[2024-05-02 06:44:40] INFO root fetch - processPackages [zcbot-web-core]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-web-core-1.9.tar.gz]
+[2024-05-02 06:44:40] INFO root fetch - main [MainThread]: End processing [zcbot-web-core]: success
+[2024-05-02 06:44:40] INFO root fetch - main [MainThread]: Store serial: [23026357]
