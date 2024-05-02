@@ -11071,3 +11071,51 @@
 [2024-05-02 08:53:16] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.21.2-cp39-none-win32.whl.zip]
 [2024-05-02 08:53:16] INFO root fetch - main [MainThread]: End processing [ast-grep-py]: success
 [2024-05-02 08:53:16] INFO root fetch - main [MainThread]: Store serial: [23027182]
+[2024-05-02 08:55:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23027182]
+[2024-05-02 08:55:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 08:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deltalake
+[2024-05-02 08:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adcl
+[2024-05-02 08:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RBFMeshGen
+[2024-05-02 08:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-nightly
+[2024-05-02 08:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gouge
+[2024-05-02 08:55:25] INFO root fetch - processPackages [adcl]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-02 08:55:25] INFO root fetch - processPackages [RBFMeshGen]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-02 08:55:25] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.33.1.dev20240430] Old Version: [1.33.1.dev20240429]
+[2024-05-02 08:55:25] INFO root fetch - processPackages [adcl]: Downloading https://files.pythonhosted.org/packages/d0/07/0ed8ad0a583ee2d5180696d198618d3ded69ae5e38ed7cb86a7e4cba5621/adcl-0.1.2.tar.gz
+[2024-05-02 08:55:25] INFO root fetch - processPackages [gouge]: New version: [2.2.2.post1] Old Version: [2.2.2]
+[2024-05-02 08:55:25] INFO root fetch - processPackages [RBFMeshGen]: Downloading https://files.pythonhosted.org/packages/c2/b0/56eb00998e64eaa786ca89ecd8ca43c8e756e7b75171cdcf3293b237552b/rbfmeshgen-1.0.3.tar.gz
+[2024-05-02 08:55:25] INFO root fetch - processPackages [deltalake]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-02 08:55:25] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/83/11/f3c3a13d658abd97a20e55ba5a7da2469a0dd3b15b17bf9360bc05aec5eb/streamlit_nightly-1.33.1.dev20240429.tar.gz
+[2024-05-02 08:55:25] INFO root fetch - processPackages [adcl]: Downloading https://files.pythonhosted.org/packages/be/e0/b350c320f9d39e2efd2b02352efb74426d14805d619cadd484549ef5f030/adcl-0.1.3.tar.gz
+[2024-05-02 08:55:25] INFO root fetch - processPackages [gouge]: Downloading https://files.pythonhosted.org/packages/53/ff/3aed91a2a7eaa55720a5ba4ab6dc0ba6bb56c86a547b49524e01a0651181/gouge-2.2.2.tar.gz
+[2024-05-02 08:55:25] INFO root fetch - processPackages [RBFMeshGen]: Downloading https://files.pythonhosted.org/packages/11/b7/6031ee88684159f02851a6ba1b78881782831d6fc9700bc8f180168e686c/rbfmeshgen-1.0.4.tar.gz
+[2024-05-02 08:55:25] INFO root fetch - processPackages [deltalake]: Downloading https://files.pythonhosted.org/packages/fd/0e/b5472564df2041caea5b9d85de4be27ba13a03d845250b370f01319fa857/deltalake-0.8.1.tar.gz
+[2024-05-02 08:55:25] INFO root fetch - processPackages [adcl]: executing diffoscope
+[2024-05-02 08:55:25] INFO root fetch - processPackages [adcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adcl-0.1.2.tar.gz tmp/adcl-0.1.3.tar.gz --markdown 20240502/a/adcl/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-02 08:55:25] INFO root fetch - processPackages [RBFMeshGen]: executing diffoscope
+[2024-05-02 08:55:25] INFO root fetch - processPackages [RBFMeshGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbfmeshgen-1.0.3.tar.gz tmp/rbfmeshgen-1.0.4.tar.gz --markdown 20240502/R/RBFMeshGen/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-02 08:55:26] INFO root fetch - processPackages [gouge]: Downloading https://files.pythonhosted.org/packages/51/51/f3d1d4027bbc158dce203350bee36c4a1ca9f81180d9cf3bc10657ea3379/gouge-2.2.2.post1.tar.gz
+[2024-05-02 08:55:26] INFO root fetch - processPackages [gouge]: executing diffoscope
+[2024-05-02 08:55:26] INFO root fetch - processPackages [gouge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gouge-2.2.2.tar.gz tmp/gouge-2.2.2.post1.tar.gz --markdown 20240502/g/gouge/2.2.2-2.2.2.post1/README.md --exclude *.pyd
+[2024-05-02 08:55:26] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/0d/75/51ea4ea856f756183d53a37bd286d6c7578894e2fb118b44bb5ed416adac/streamlit_nightly-1.33.1.dev20240430.tar.gz
+[2024-05-02 08:55:26] INFO root fetch - processPackages [RBFMeshGen]: Remove: archive file [/home/abi/fetcher/tmp/rbfmeshgen-1.0.3.tar.gz]
+[2024-05-02 08:55:26] INFO root fetch - processPackages [RBFMeshGen]: Remove: archive file [/home/abi/fetcher/tmp/rbfmeshgen-1.0.4.tar.gz]
+[2024-05-02 08:55:26] INFO root fetch - main [MainThread]: End processing [RBFMeshGen]: success
+[2024-05-02 08:55:26] INFO root fetch - processPackages [adcl]: Remove: archive file [/home/abi/fetcher/tmp/adcl-0.1.2.tar.gz]
+[2024-05-02 08:55:26] INFO root fetch - processPackages [adcl]: Remove: archive file [/home/abi/fetcher/tmp/adcl-0.1.3.tar.gz]
+[2024-05-02 08:55:26] INFO root fetch - main [MainThread]: End processing [adcl]: success
+[2024-05-02 08:55:26] INFO root fetch - processPackages [deltalake]: Downloading https://files.pythonhosted.org/packages/a5/58/38edf79c582fbb1a46b8d0ded08d033a1b1085b8c7997c592aacc5d38e35/deltalake-0.9.0.tar.gz
+[2024-05-02 08:55:26] INFO root fetch - processPackages [gouge]: Remove: archive file [/home/abi/fetcher/tmp/gouge-2.2.2.tar.gz]
+[2024-05-02 08:55:26] INFO root fetch - processPackages [gouge]: Remove: archive file [/home/abi/fetcher/tmp/gouge-2.2.2.post1.tar.gz]
+[2024-05-02 08:55:26] INFO root fetch - main [MainThread]: End processing [gouge]: success
+[2024-05-02 08:55:26] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-05-02 08:55:26] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.33.1.dev20240429.tar.gz tmp/streamlit_nightly-1.33.1.dev20240430.tar.gz --markdown 20240502/s/streamlit-nightly/1.33.1.dev20240429-1.33.1.dev20240430/README.md --exclude *.pyd
+[2024-05-02 08:55:28] INFO root fetch - processPackages [deltalake]: executing diffoscope
+[2024-05-02 08:55:28] INFO root fetch - processPackages [deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltalake-0.8.1.tar.gz tmp/deltalake-0.9.0.tar.gz --markdown 20240502/d/deltalake/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-02 08:55:30] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240429.tar.gz]
+[2024-05-02 08:55:30] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240430.tar.gz]
+[2024-05-02 08:55:30] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-05-02 08:55:30] INFO root fetch - processPackages [deltalake]: Remove: archive file [/home/abi/fetcher/tmp/deltalake-0.8.1.tar.gz]
+[2024-05-02 08:55:30] INFO root fetch - processPackages [deltalake]: Remove: archive file [/home/abi/fetcher/tmp/deltalake-0.9.0.tar.gz]
+[2024-05-02 08:55:30] INFO root fetch - main [MainThread]: End processing [deltalake]: success
+[2024-05-02 08:55:30] INFO root fetch - main [MainThread]: Store serial: [23027208]
