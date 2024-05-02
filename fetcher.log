@@ -22747,3 +22747,80 @@ AssertionError: tmp/fds.sdk.StandardDatafeed-0.40.2-py3-none-any.whl.zip does no
 [2024-05-02 15:54:18] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.2-cp39-cp39-manylinux1_x86_64.whl.zip]
 [2024-05-02 15:54:18] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
 [2024-05-02 15:54:18] INFO root fetch - main [MainThread]: Store serial: [23031881]
+[2024-05-02 15:56:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23031881]
+[2024-05-02 15:56:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-02 15:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intake-esgf
+[2024-05-02 15:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iso15118
+[2024-05-02 15:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: defijn-integrations
+[2024-05-02 15:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyson-data
+[2024-05-02 15:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramodels
+[2024-05-02 15:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eotdl
+[2024-05-02 15:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bambooai
+[2024-05-02 15:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cltrier_nlp
+[2024-05-02 15:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-base-user-role-company
+[2024-05-02 15:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lemon8
+[2024-05-02 15:56:27] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-05-02 15:56:27] INFO root fetch - processPackages [cltrier_nlp]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-02 15:56:27] INFO root fetch - processPackages [pyson-data]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-02 15:56:27] INFO root fetch - processPackages [intake-esgf]: New version: [2024.5.2] Old Version: [2024.4.23]
+[2024-05-02 15:56:27] WARNING root fetch - processPackages [defijn-integrations]: Skipping, unable to determine old version
+[2024-05-02 15:56:27] INFO root fetch - main [MainThread]: End processing [defijn-integrations] error
+[2024-05-02 15:56:27] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-02 15:56:27] INFO root fetch - processPackages [iso15118]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-02 15:56:27] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: New version: [17.0.1.1.1] Old Version: [17.0.1.1.0]
+[2024-05-02 15:56:27] INFO root fetch - processPackages [eotdl]: New version: [2024.5.2] Old Version: [2024.4.25]
+[2024-05-02 15:56:27] INFO root fetch - processPackages [pyson-data]: Downloading https://files.pythonhosted.org/packages/18/83/e0f6156df7a7d96a3282fee380feda7f32ff0ec14a4603f2632838ce4d70/pyson_data-0.0.3.tar.gz
+[2024-05-02 15:56:27] INFO root fetch - processPackages [intake-esgf]: Downloading https://files.pythonhosted.org/packages/70/60/8a3c62e27b9e772143b9aabb18c21ca5a7024af9349c74e24e5a4d0f512f/intake_esgf-2024.4.23.tar.gz
+[2024-05-02 15:56:27] WARNING root fetch - processPackages [lemon8]: Skipping, unable to determine old version
+[2024-05-02 15:56:27] INFO root fetch - main [MainThread]: End processing [lemon8] error
+[2024-05-02 15:56:27] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-02 15:56:27] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-05-02 15:56:27] INFO root fetch - processPackages [iso15118]: Downloading https://files.pythonhosted.org/packages/ef/dd/e18cf63de58aa4819175858bea5d77b3ca4bd4ba7822845dcfa559088a84/iso15118-0.8.1.tar.gz
+[2024-05-02 15:56:27] INFO root fetch - processPackages [cltrier_nlp]: Downloading https://files.pythonhosted.org/packages/7c/2c/cd02aaa6d0c87a179c16c6e2c58dfe63bfb5374c7fa0b534542b630876c6/cltrier_nlp-0.1.2.tar.gz
+[2024-05-02 15:56:27] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: Downloading https://files.pythonhosted.org/packages/05/e0/6e1c786879f704def49d098e86cb96e82aee2688df92f49c68df5feac081/odoo_addon_base_user_role_company-17.0.1.1.0-py3-none-any.whl
+[2024-05-02 15:56:27] INFO root fetch - processPackages [eotdl]: Downloading https://files.pythonhosted.org/packages/bb/1f/4a1ef74fa7530f1561a1269026fc0a60121ef47f2d6450f6d3890a4217d1/eotdl-2024.4.25.tar.gz
+[2024-05-02 15:56:27] WARNING root fetch - processPackages [iso15118]: Skipping package: exceeds size limit 11797341>=10485760
+[2024-05-02 15:56:27] INFO root fetch - main [MainThread]: End processing [iso15118] error
+[2024-05-02 15:56:27] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-02 15:56:27] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-05-02 15:56:27] INFO root fetch - processPackages [cltrier_nlp]: Downloading https://files.pythonhosted.org/packages/4d/f4/4302882b724ec1fbe52b62480ddd1df2221f963c58d6fa05eabf0bfdc351/cltrier_nlp-0.1.3.tar.gz
+[2024-05-02 15:56:27] INFO root fetch - processPackages [intake-esgf]: Downloading https://files.pythonhosted.org/packages/81/2a/2d5ce05ee7f7f5fe7ee67f88da9993663ffad718cdce93d664b7fc0bc088/intake_esgf-2024.5.2-py3-none-any.whl
+[2024-05-02 15:56:27] INFO root fetch - processPackages [pyson-data]: Downloading https://files.pythonhosted.org/packages/18/0d/78828b5959721cc25eb6c14b4691db8e7c8e0fd468814ffa060e112aec53/pyson_data-0.0.4.tar.gz
+[2024-05-02 15:56:28] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-02 15:56:28] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240502/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-02 15:56:28] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-05-02 15:56:28] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240502/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-05-02 15:56:28] INFO root fetch - processPackages [pyson-data]: executing diffoscope
+[2024-05-02 15:56:28] INFO root fetch - processPackages [pyson-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyson_data-0.0.3.tar.gz tmp/pyson_data-0.0.4.tar.gz --markdown 20240502/p/pyson-data/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-02 15:56:28] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: Downloading https://files.pythonhosted.org/packages/68/d0/6dc46fb272d7259f1f00127db6f79650be15f8f9e8fe31bec0251b92be27/odoo_addon_base_user_role_company-17.0.1.1.1-py3-none-any.whl
+[2024-05-02 15:56:28] INFO root fetch - processPackages [cltrier_nlp]: executing diffoscope
+[2024-05-02 15:56:28] INFO root fetch - processPackages [cltrier_nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cltrier_nlp-0.1.2.tar.gz tmp/cltrier_nlp-0.1.3.tar.gz --markdown 20240502/c/cltrier_nlp/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-02 15:56:28] INFO root fetch - processPackages [intake-esgf]: executing diffoscope
+[2024-05-02 15:56:28] INFO root fetch - processPackages [intake-esgf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intake_esgf-2024.4.23.tar.gz tmp/intake_esgf-2024.5.2-py3-none-any.whl.zip --markdown 20240502/i/intake-esgf/2024.4.23-2024.5.2/README.md --exclude *.pyd
+[2024-05-02 15:56:28] INFO root fetch - processPackages [eotdl]: Downloading https://files.pythonhosted.org/packages/e1/f9/0a426477709f7f0fd1d496758e0c6ae5696511717c752c4d4903a282d0cb/eotdl-2024.5.2.tar.gz
+[2024-05-02 15:56:28] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: executing diffoscope
+[2024-05-02 15:56:28] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_user_role_company-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_base_user_role_company-17.0.1.1.1-py3-none-any.whl.zip --markdown 20240502/o/odoo-addon-base-user-role-company/17.0.1.1.0-17.0.1.1.1/README.md --exclude *.pyd
+[2024-05-02 15:56:28] INFO root fetch - processPackages [eotdl]: executing diffoscope
+[2024-05-02 15:56:28] INFO root fetch - processPackages [eotdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl-2024.4.25.tar.gz tmp/eotdl-2024.5.2.tar.gz --markdown 20240502/e/eotdl/2024.4.25-2024.5.2/README.md --exclude *.pyd
+[2024-05-02 15:56:28] INFO root fetch - processPackages [cltrier_nlp]: Remove: archive file [/home/abi/fetcher/tmp/cltrier_nlp-0.1.2.tar.gz]
+[2024-05-02 15:56:28] INFO root fetch - processPackages [cltrier_nlp]: Remove: archive file [/home/abi/fetcher/tmp/cltrier_nlp-0.1.3.tar.gz]
+[2024-05-02 15:56:28] INFO root fetch - main [MainThread]: End processing [cltrier_nlp]: success
+[2024-05-02 15:56:28] INFO root fetch - processPackages [intake-esgf]: Remove: archive file [/home/abi/fetcher/tmp/intake_esgf-2024.4.23.tar.gz]
+[2024-05-02 15:56:28] INFO root fetch - processPackages [pyson-data]: Remove: archive file [/home/abi/fetcher/tmp/pyson_data-0.0.3.tar.gz]
+[2024-05-02 15:56:28] INFO root fetch - processPackages [intake-esgf]: Remove: archive file [/home/abi/fetcher/tmp/intake_esgf-2024.5.2-py3-none-any.whl.zip]
+[2024-05-02 15:56:28] INFO root fetch - processPackages [pyson-data]: Remove: archive file [/home/abi/fetcher/tmp/pyson_data-0.0.4.tar.gz]
+[2024-05-02 15:56:28] INFO root fetch - main [MainThread]: End processing [intake-esgf]: success
+[2024-05-02 15:56:28] INFO root fetch - main [MainThread]: End processing [pyson-data]: success
+[2024-05-02 15:56:29] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-02 15:56:29] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-02 15:56:29] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-02 15:56:29] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-05-02 15:56:29] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-05-02 15:56:29] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-05-02 15:56:29] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role_company-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-02 15:56:29] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role_company-17.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-02 15:56:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-user-role-company]: success
+[2024-05-02 15:56:29] INFO root fetch - processPackages [eotdl]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-2024.4.25.tar.gz]
+[2024-05-02 15:56:29] INFO root fetch - processPackages [eotdl]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-2024.5.2.tar.gz]
+[2024-05-02 15:56:29] INFO root fetch - main [MainThread]: End processing [eotdl]: success
+[2024-05-02 15:56:29] INFO root fetch - main [MainThread]: Store serial: [23031912]
