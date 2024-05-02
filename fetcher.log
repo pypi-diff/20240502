@@ -16653,3 +16653,45 @@
 [2024-05-02 12:28:56] INFO root fetch - processPackages [bio2zarr]: Remove: archive file [/home/abi/fetcher/tmp/bio2zarr-0.0.9.tar.gz]
 [2024-05-02 12:28:56] INFO root fetch - main [MainThread]: End processing [bio2zarr]: success
 [2024-05-02 12:28:56] INFO root fetch - main [MainThread]: Store serial: [23029519]
+[2024-05-02 12:31:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23029519]
+[2024-05-02 12:31:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-02 12:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alita-sdk
+[2024-05-02 12:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kelvin-python-sdk
+[2024-05-02 12:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rastless-cli
+[2024-05-02 12:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gac
+[2024-05-02 12:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: few-shot-priming
+[2024-05-02 12:31:06] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-02 12:31:06] INFO root fetch - processPackages [rastless-cli]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-02 12:31:06] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-02 12:31:06] INFO root fetch - processPackages [kelvin-python-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-02 12:31:06] WARNING root fetch - processPackages [gac]: Skipping, unable to determine old version
+[2024-05-02 12:31:06] INFO root fetch - main [MainThread]: End processing [gac] error
+[2024-05-02 12:31:06] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/fb/c2/898a7bee4322be9102c45b2cb95fc623ccae6432bb1b96d0fd3a54a19a8f/alita_sdk-0.1.1.tar.gz
+[2024-05-02 12:31:06] INFO root fetch - processPackages [rastless-cli]: Downloading https://files.pythonhosted.org/packages/d6/cd/cb98fee0288879cdc40f822a5ef368914216971d4e8002dc4e9c3ed8f8ef/rastless_cli-1.8.0.tar.gz
+[2024-05-02 12:31:06] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-02 12:31:06] INFO root fetch - processPackages [kelvin-python-sdk]: Downloading https://files.pythonhosted.org/packages/54/d2/900d7c1704d9101b9f507c3f0fe87d4b0421a44c264b0ad05600808b53b5/kelvin-python-sdk-0.0.8.tar.gz
+[2024-05-02 12:31:07] INFO root fetch - processPackages [rastless-cli]: Downloading https://files.pythonhosted.org/packages/6b/92/9f6e1c3e9055b66315a95545b3e2356db2201af56f8fa37c60b8c9bf91cb/rastless_cli-1.9.0.tar.gz
+[2024-05-02 12:31:07] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/da/e6/ab013506d7f7efe80d7cef9ef7895b0e0cc19516e4255fb6d684273b3c2e/alita_sdk-0.1.2.tar.gz
+[2024-05-02 12:31:07] INFO root fetch - processPackages [rastless-cli]: executing diffoscope
+[2024-05-02 12:31:07] INFO root fetch - processPackages [rastless-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rastless_cli-1.8.0.tar.gz tmp/rastless_cli-1.9.0.tar.gz --markdown 20240502/r/rastless-cli/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-02 12:31:07] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-02 12:31:07] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-05-02 12:31:07] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.1.1.tar.gz tmp/alita_sdk-0.1.2.tar.gz --markdown 20240502/a/alita-sdk/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-02 12:31:07] INFO root fetch - processPackages [kelvin-python-sdk]: Downloading https://files.pythonhosted.org/packages/5c/31/4bf73d589950aa1e6cd5ac0d404cc7740a7ebfabb604c2a1f8c41f7e25e4/kelvin-python-sdk-0.0.9.tar.gz
+[2024-05-02 12:31:07] INFO root fetch - processPackages [kelvin-python-sdk]: executing diffoscope
+[2024-05-02 12:31:07] INFO root fetch - processPackages [kelvin-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kelvin-python-sdk-0.0.8.tar.gz tmp/kelvin-python-sdk-0.0.9.tar.gz --markdown 20240502/k/kelvin-python-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-02 12:31:07] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-02 12:31:07] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240502:/home/abi/fetcher/20240502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240502/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-02 12:31:07] INFO root fetch - processPackages [rastless-cli]: Remove: archive file [/home/abi/fetcher/tmp/rastless_cli-1.8.0.tar.gz]
+[2024-05-02 12:31:07] INFO root fetch - processPackages [rastless-cli]: Remove: archive file [/home/abi/fetcher/tmp/rastless_cli-1.9.0.tar.gz]
+[2024-05-02 12:31:07] INFO root fetch - main [MainThread]: End processing [rastless-cli]: success
+[2024-05-02 12:31:07] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.1.tar.gz]
+[2024-05-02 12:31:07] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.2.tar.gz]
+[2024-05-02 12:31:07] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-05-02 12:31:08] INFO root fetch - processPackages [kelvin-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kelvin-python-sdk-0.0.8.tar.gz]
+[2024-05-02 12:31:08] INFO root fetch - processPackages [kelvin-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kelvin-python-sdk-0.0.9.tar.gz]
+[2024-05-02 12:31:08] INFO root fetch - main [MainThread]: End processing [kelvin-python-sdk]: success
+[2024-05-02 12:31:08] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-02 12:31:08] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-02 12:31:08] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-02 12:31:08] INFO root fetch - main [MainThread]: Store serial: [23029551]
